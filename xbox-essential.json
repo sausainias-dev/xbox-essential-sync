@@ -1,445 +1,515 @@
 {
   "source": "https://gamescriptions.com/subscription/service/xbox_essential",
-  "updated_at": "2026-09-01T21:59:44.701230+00:00",
+  "updated_at": "2026-09-01T22:40:46.459281+00:00",
   "games": [
     {
-      "name": "Among Us ( 2018 )",
+      "name": "Among Us",
       "url": "https://gamescriptions.com/game/111469",
+      "year": 2018,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6kqt.jpg",
       "description": "Among Us is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Astroneer ( 2019 )",
+      "name": "Astroneer",
       "url": "https://gamescriptions.com/game/13205",
+      "year": 2019,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobyfe.jpg",
       "description": "Astroneer is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Batman: Arkham Knight ( 2015 )",
+      "name": "Batman: Arkham Knight",
       "url": "https://gamescriptions.com/game/5503",
-      "added": "Jul 22 Conker: Live & Reloaded ( 2005 ) Added: Jul 22 Crimson Skies: High Road to Revenge ( 2003 ) Added: Jul 22 Fuzion Frenzy ( 2001 ) Added: Jul 22 Medieval Dynasty ( 2021 ) Added: Dec 3 World War Z: Aftermath ( 2021 ) Added: Dec 3 Superball ( 2025 ) Added: Oct 28 Disney Dreamlight Valley ( 2023 ) Added: Oct 1 Cities: Skylines - Remastered ( 2023 ) Added: Oct 1 Warhammer 40,000: Darktide ( 2022 ) Added: Oct 1 Hades ( 2020 ) Added: Oct 1 Tunic ( 2022 ) Added: Mar 26 Monster Sanctuary ( 2020 ) Added: Mar 26 Batman: Arkham Knight ( 2015 ) Added: Mar 26 StarCraft II: Campaign Collection ( 2024 ) Grounded ( 2022 ) Vampire Survivors ( 2022 ) Psychonauts 2 ( 2021 )",
+      "year": 2015,
+      "new": true,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coagib.jpg",
       "description": "Batman: Arkham Knight is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Battletoads ( 2020 )",
+      "name": "Battletoads",
       "url": "https://gamescriptions.com/game/103289",
+      "year": 2020,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2eyl.jpg",
       "description": "Battletoads is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Blinx: The Time Sweeper ( 2002 )",
+      "name": "Blinx: The Time Sweeper",
       "url": "https://gamescriptions.com/game/5751",
+      "year": 2002,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xqi.jpg",
       "description": "Blinx: The Time Sweeper is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Chivalry 2 ( 2021 )",
+      "name": "Chivalry 2",
       "url": "https://gamescriptions.com/game/119342",
+      "year": 2021,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2yqh.jpg",
       "description": "Chivalry 2 is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Cities: Skylines ( 2015 )",
+      "name": "Cities: Skylines",
       "url": "https://gamescriptions.com/game/9066",
+      "year": 2015,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaas0.jpg",
       "description": "Cities: Skylines is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Cities: Skylines - Remastered ( 2023 )",
+      "name": "Cities: Skylines - Remastered",
       "url": "https://gamescriptions.com/game/237966",
-      "added": "Jul 22 Conker: Live & Reloaded ( 2005 ) Added: Jul 22 Crimson Skies: High Road to Revenge ( 2003 ) Added: Jul 22 Fuzion Frenzy ( 2001 ) Added: Jul 22 Medieval Dynasty ( 2021 ) Added: Dec 3 World War Z: Aftermath ( 2021 ) Added: Dec 3 Superball ( 2025 ) Added: Oct 28 Disney Dreamlight Valley ( 2023 ) Added: Oct 1 Cities: Skylines - Remastered ( 2023 ) Added: Oct 1 Warhammer 40,000: Darktide ( 2022 ) Added: Oct 1 Hades ( 2020 ) Added: Oct 1 Tunic ( 2022 ) Added: Mar 26 Monster Sanctuary ( 2020 ) Added: Mar 26 Batman: Arkham Knight ( 2015 ) Added: Mar 26 StarCraft II: Campaign Collection ( 2024 ) Grounded ( 2022 ) Vampire Survivors ( 2022 ) Psychonauts 2 ( 2021 )",
+      "year": 2023,
+      "new": true,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co65u4.jpg",
       "description": "Cities: Skylines - Remastered is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Conker: Live & Reloaded ( 2005 )",
+      "name": "Conker: Live & Reloaded",
       "url": "https://gamescriptions.com/game/1425",
-      "added": "Jul 22 Conker: Live & Reloaded ( 2005 ) Added: Jul 22 Crimson Skies: High Road to Revenge ( 2003 ) Added: Jul 22 Fuzion Frenzy ( 2001 ) Added: Jul 22 Medieval Dynasty ( 2021 ) Added: Dec 3 World War Z: Aftermath ( 2021 ) Added: Dec 3 Superball ( 2025 ) Added: Oct 28 Disney Dreamlight Valley ( 2023 ) Added: Oct 1 Cities: Skylines - Remastered ( 2023 ) Added: Oct 1 Warhammer 40,000: Darktide ( 2022 ) Added: Oct 1 Hades ( 2020 ) Added: Oct 1 Tunic ( 2022 ) Added: Mar 26 Monster Sanctuary ( 2020 ) Added: Mar 26 Batman: Arkham Knight ( 2015 ) Added: Mar 26 StarCraft II: Campaign Collection ( 2024 ) Grounded ( 2022 ) Vampire Survivors ( 2022 ) Psychonauts 2 ( 2021 )",
+      "year": 2005,
+      "new": true,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2w7f.jpg",
       "description": "Conker: Live & Reloaded is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Control ( 2019 )",
+      "name": "Control",
       "url": "https://gamescriptions.com/game/103329",
+      "year": 2019,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2evj.jpg",
       "description": "Control is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Control: Ultimate Edition ( 2020 )",
+      "name": "Control: Ultimate Edition",
       "url": "https://gamescriptions.com/game/136604",
+      "year": 2020,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ewb.jpg",
       "description": "Control: Ultimate Edition is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Costume Quest ( 2010 )",
+      "name": "Costume Quest",
       "url": "https://gamescriptions.com/game/5637",
+      "year": 2010,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2eiv.jpg",
       "description": "Costume Quest is available on Xbox via 3 service s , including Game Pass Essential, Game Pass Premium, Game Pass Ultimate."
     },
     {
-      "name": "Costume Quest 2 ( 2014 )",
+      "name": "Costume Quest 2",
       "url": "https://gamescriptions.com/game/5638",
+      "year": 2014,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co72nf.jpg",
       "description": "Costume Quest 2 is available on Xbox via 3 service s , including Game Pass Essential, Game Pass Premium, Game Pass Ultimate."
     },
     {
-      "name": "Crash Team Racing Nitro-Fueled ( 2019 )",
+      "name": "Crash Team Racing Nitro-Fueled",
       "url": "https://gamescriptions.com/game/113113",
+      "year": 2019,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2wvy.jpg",
       "description": "Crash Team Racing Nitro-Fueled is available on Xbox via 3 service s , including Game Pass Essential, Game Pass Premium, Game Pass Ultimate."
     },
     {
-      "name": "Crimson Skies: High Road to Revenge ( 2003 )",
+      "name": "Crimson Skies: High Road to Revenge",
       "url": "https://gamescriptions.com/game/5793",
-      "added": "Jul 22 Conker: Live & Reloaded ( 2005 ) Added: Jul 22 Crimson Skies: High Road to Revenge ( 2003 ) Added: Jul 22 Fuzion Frenzy ( 2001 ) Added: Jul 22 Medieval Dynasty ( 2021 ) Added: Dec 3 World War Z: Aftermath ( 2021 ) Added: Dec 3 Superball ( 2025 ) Added: Oct 28 Disney Dreamlight Valley ( 2023 ) Added: Oct 1 Cities: Skylines - Remastered ( 2023 ) Added: Oct 1 Warhammer 40,000: Darktide ( 2022 ) Added: Oct 1 Hades ( 2020 ) Added: Oct 1 Tunic ( 2022 ) Added: Mar 26 Monster Sanctuary ( 2020 ) Added: Mar 26 Batman: Arkham Knight ( 2015 ) Added: Mar 26 StarCraft II: Campaign Collection ( 2024 ) Grounded ( 2022 ) Vampire Survivors ( 2022 ) Psychonauts 2 ( 2021 )",
+      "year": 2003,
+      "new": true,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2g8e.jpg",
       "description": "Crimson Skies: High Road to Revenge is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "DayZ ( 2018 )",
+      "name": "DayZ",
       "url": "https://gamescriptions.com/game/2117",
+      "year": 2018,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaaqs.jpg",
       "description": "DayZ is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Dead Cells ( 2018 )",
+      "name": "Dead Cells",
       "url": "https://gamescriptions.com/game/26855",
-      "leaves": "Sep 15 Spiritfarer ( 2020 ) Leaves: Sep 15 Superliminal ( 2019 ) Leaves: Sep 15",
+      "year": 2018,
+      "leaving": true,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7jfv.jpg",
       "description": "Dead Cells is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Deep Rock Galactic ( 2020 )",
+      "name": "Deep Rock Galactic",
       "url": "https://gamescriptions.com/game/27134",
+      "year": 2020,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaat4.jpg",
       "description": "Deep Rock Galactic is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Descenders ( 2019 )",
+      "name": "Descenders",
       "url": "https://gamescriptions.com/game/52200",
+      "year": 2019,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wkw.jpg",
       "description": "Descenders is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Dishonored 2 ( 2016 )",
+      "name": "Dishonored 2",
       "url": "https://gamescriptions.com/game/11118",
+      "year": 2016,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9e29.jpg",
       "description": "Dishonored 2 is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Disney Dreamlight Valley ( 2023 )",
+      "name": "Disney Dreamlight Valley",
       "url": "https://gamescriptions.com/game/198506",
-      "added": "Jul 22 Conker: Live & Reloaded ( 2005 ) Added: Jul 22 Crimson Skies: High Road to Revenge ( 2003 ) Added: Jul 22 Fuzion Frenzy ( 2001 ) Added: Jul 22 Medieval Dynasty ( 2021 ) Added: Dec 3 World War Z: Aftermath ( 2021 ) Added: Dec 3 Superball ( 2025 ) Added: Oct 28 Disney Dreamlight Valley ( 2023 ) Added: Oct 1 Cities: Skylines - Remastered ( 2023 ) Added: Oct 1 Warhammer 40,000: Darktide ( 2022 ) Added: Oct 1 Hades ( 2020 ) Added: Oct 1 Tunic ( 2022 ) Added: Mar 26 Monster Sanctuary ( 2020 ) Added: Mar 26 Batman: Arkham Knight ( 2015 ) Added: Mar 26 StarCraft II: Campaign Collection ( 2024 ) Grounded ( 2022 ) Vampire Survivors ( 2022 ) Psychonauts 2 ( 2021 )",
+      "year": 2023,
+      "new": true,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4p0c.jpg",
       "description": "Disney Dreamlight Valley is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Doom Eternal ( 2020 )",
+      "name": "Doom Eternal",
       "url": "https://gamescriptions.com/game/103298",
+      "year": 2020,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3p5n.jpg",
       "description": "Doom Eternal is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Fable Anniversary ( 2014 )",
+      "name": "Fable Anniversary",
       "url": "https://gamescriptions.com/game/7658",
+      "year": 2014,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co22lr.jpg",
       "description": "Fable Anniversary is available on Xbox via 3 service s , including Game Pass Essential, Game Pass Premium, Game Pass Ultimate."
     },
     {
-      "name": "Fallout 4 ( 2015 )",
+      "name": "Fallout 4",
       "url": "https://gamescriptions.com/game/9630",
+      "year": 2015,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1yc6.jpg",
       "description": "Fallout 4 is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Fallout 76 ( 2018 )",
+      "name": "Fallout 76",
       "url": "https://gamescriptions.com/game/103020",
+      "year": 2018,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1yc4.jpg",
       "description": "Fallout 76 is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Full Throttle Remastered ( 2017 )",
+      "name": "Full Throttle Remastered",
       "url": "https://gamescriptions.com/game/26179",
+      "year": 2017,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24ie.jpg",
       "description": "Full Throttle Remastered is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Fuzion Frenzy ( 2001 )",
+      "name": "Fuzion Frenzy",
       "url": "https://gamescriptions.com/game/5842",
-      "added": "Jul 22 Conker: Live & Reloaded ( 2005 ) Added: Jul 22 Crimson Skies: High Road to Revenge ( 2003 ) Added: Jul 22 Fuzion Frenzy ( 2001 ) Added: Jul 22 Medieval Dynasty ( 2021 ) Added: Dec 3 World War Z: Aftermath ( 2021 ) Added: Dec 3 Superball ( 2025 ) Added: Oct 28 Disney Dreamlight Valley ( 2023 ) Added: Oct 1 Cities: Skylines - Remastered ( 2023 ) Added: Oct 1 Warhammer 40,000: Darktide ( 2022 ) Added: Oct 1 Hades ( 2020 ) Added: Oct 1 Tunic ( 2022 ) Added: Mar 26 Monster Sanctuary ( 2020 ) Added: Mar 26 Batman: Arkham Knight ( 2015 ) Added: Mar 26 StarCraft II: Campaign Collection ( 2024 ) Grounded ( 2022 ) Vampire Survivors ( 2022 ) Psychonauts 2 ( 2021 )",
+      "year": 2001,
+      "new": true,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2a2f.jpg",
       "description": "Fuzion Frenzy is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Gang Beasts ( 2017 )",
+      "name": "Gang Beasts",
       "url": "https://gamescriptions.com/game/11177",
+      "year": 2017,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24is.jpg",
       "description": "Gang Beasts is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Gears 5 ( 2019 )",
+      "name": "Gears 5",
       "url": "https://gamescriptions.com/game/103292",
+      "year": 2019,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2oz5.jpg",
       "description": "Gears 5 is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Grounded ( 2022 )",
+      "name": "Grounded",
       "url": "https://gamescriptions.com/game/125624",
-      "added": "Jul 22 Conker: Live & Reloaded ( 2005 ) Added: Jul 22 Crimson Skies: High Road to Revenge ( 2003 ) Added: Jul 22 Fuzion Frenzy ( 2001 ) Added: Jul 22 Medieval Dynasty ( 2021 ) Added: Dec 3 World War Z: Aftermath ( 2021 ) Added: Dec 3 Superball ( 2025 ) Added: Oct 28 Disney Dreamlight Valley ( 2023 ) Added: Oct 1 Cities: Skylines - Remastered ( 2023 ) Added: Oct 1 Warhammer 40,000: Darktide ( 2022 ) Added: Oct 1 Hades ( 2020 ) Added: Oct 1 Tunic ( 2022 ) Added: Mar 26 Monster Sanctuary ( 2020 ) Added: Mar 26 Batman: Arkham Knight ( 2015 ) Added: Mar 26 StarCraft II: Campaign Collection ( 2024 ) Grounded ( 2022 ) Vampire Survivors ( 2022 ) Psychonauts 2 ( 2021 )",
+      "year": 2022,
+      "new": true,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5d1l.jpg",
       "description": "Grounded is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Hades ( 2020 )",
+      "name": "Hades",
       "url": "https://gamescriptions.com/game/113112",
-      "added": "Jul 22 Conker: Live & Reloaded ( 2005 ) Added: Jul 22 Crimson Skies: High Road to Revenge ( 2003 ) Added: Jul 22 Fuzion Frenzy ( 2001 ) Added: Jul 22 Medieval Dynasty ( 2021 ) Added: Dec 3 World War Z: Aftermath ( 2021 ) Added: Dec 3 Superball ( 2025 ) Added: Oct 28 Disney Dreamlight Valley ( 2023 ) Added: Oct 1 Cities: Skylines - Remastered ( 2023 ) Added: Oct 1 Warhammer 40,000: Darktide ( 2022 ) Added: Oct 1 Hades ( 2020 ) Added: Oct 1 Tunic ( 2022 ) Added: Mar 26 Monster Sanctuary ( 2020 ) Added: Mar 26 Batman: Arkham Knight ( 2015 ) Added: Mar 26 StarCraft II: Campaign Collection ( 2024 ) Grounded ( 2022 ) Vampire Survivors ( 2022 ) Psychonauts 2 ( 2021 )",
+      "year": 2020,
+      "new": true,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9kr.jpg",
       "description": "Hades is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Halo 5: Guardians ( 2015 )",
+      "name": "Halo 5: Guardians",
       "url": "https://gamescriptions.com/game/6803",
+      "year": 2015,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xhg.jpg",
       "description": "Halo 5: Guardians is available on Xbox via 3 service s , including Game Pass Essential, Game Pass Premium, Game Pass Ultimate."
     },
     {
-      "name": "Halo Wars 2 ( 2017 )",
+      "name": "Halo Wars 2",
       "url": "https://gamescriptions.com/game/11570",
+      "year": 2017,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2807.jpg",
       "description": "Halo Wars 2 is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Hellblade: Senua's Sacrifice ( 2017 )",
+      "name": "Hellblade: Senua's Sacrifice",
       "url": "https://gamescriptions.com/game/7603",
+      "year": 2017,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2l7l.jpg",
       "description": "Hellblade: Senua's Sacrifice is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Human: Fall Flat ( 2016 )",
+      "name": "Human: Fall Flat",
       "url": "https://gamescriptions.com/game/16992",
+      "year": 2016,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coajrp.jpg",
       "description": "Human: Fall Flat is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Inside ( 2016 )",
+      "name": "Inside",
       "url": "https://gamescriptions.com/game/7342",
+      "year": 2016,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2fca.jpg",
       "description": "Inside is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Iron Brigade ( 2011 )",
+      "name": "Iron Brigade",
       "url": "https://gamescriptions.com/game/7668",
+      "year": 2011,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2j9c.jpg",
       "description": "Iron Brigade is available on Xbox via 3 service s , including Game Pass Essential, Game Pass Premium, Game Pass Ultimate."
     },
     {
-      "name": "Jetpac Refuelled ( 2007 )",
+      "name": "Jetpac Refuelled",
       "url": "https://gamescriptions.com/game/7854",
+      "year": 2007,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2dqj.jpg",
       "description": "Jetpac Refuelled is available on Xbox via 3 service s , including Game Pass Essential, Game Pass Premium, Game Pass Ultimate."
     },
     {
-      "name": "Kameo: Elements of Power ( 2005 )",
+      "name": "Kameo: Elements of Power",
       "url": "https://gamescriptions.com/game/7029",
+      "year": 2005,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v8t.jpg",
       "description": "Kameo: Elements of Power is available on Xbox via 3 service s , including Game Pass Essential, Game Pass Premium, Game Pass Ultimate."
     },
     {
-      "name": "Limbo ( 2010 )",
+      "name": "Limbo",
       "url": "https://gamescriptions.com/game/1331",
+      "year": 2010,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qrs.jpg",
       "description": "Limbo is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Massive Chalice ( 2015 )",
+      "name": "Massive Chalice",
       "url": "https://gamescriptions.com/game/15861",
+      "year": 2015,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2h1c.jpg",
       "description": "Massive Chalice is available on Xbox via 3 service s , including Game Pass Essential, Game Pass Premium, Game Pass Ultimate."
     },
     {
-      "name": "Max: The Curse of Brotherhood ( 2013 )",
+      "name": "Max: The Curse of Brotherhood",
       "url": "https://gamescriptions.com/game/4848",
+      "year": 2013,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co26y5.jpg",
       "description": "Max: The Curse of Brotherhood is available on Xbox via 3 service s , including Game Pass Essential, Game Pass Premium, Game Pass Ultimate."
     },
     {
-      "name": "Medieval Dynasty ( 2021 )",
+      "name": "Medieval Dynasty",
       "url": "https://gamescriptions.com/game/121998",
-      "added": "Jul 22 Conker: Live & Reloaded ( 2005 ) Added: Jul 22 Crimson Skies: High Road to Revenge ( 2003 ) Added: Jul 22 Fuzion Frenzy ( 2001 ) Added: Jul 22 Medieval Dynasty ( 2021 ) Added: Dec 3 World War Z: Aftermath ( 2021 ) Added: Dec 3 Superball ( 2025 ) Added: Oct 28 Disney Dreamlight Valley ( 2023 ) Added: Oct 1 Cities: Skylines - Remastered ( 2023 ) Added: Oct 1 Warhammer 40,000: Darktide ( 2022 ) Added: Oct 1 Hades ( 2020 ) Added: Oct 1 Tunic ( 2022 ) Added: Mar 26 Monster Sanctuary ( 2020 ) Added: Mar 26 Batman: Arkham Knight ( 2015 ) Added: Mar 26 StarCraft II: Campaign Collection ( 2024 ) Grounded ( 2022 ) Vampire Survivors ( 2022 ) Psychonauts 2 ( 2021 )",
+      "year": 2021,
+      "new": true,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobyff.jpg",
       "description": "Medieval Dynasty is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Monster Sanctuary ( 2020 )",
+      "name": "Monster Sanctuary",
       "url": "https://gamescriptions.com/game/89594",
-      "added": "Jul 22 Conker: Live & Reloaded ( 2005 ) Added: Jul 22 Crimson Skies: High Road to Revenge ( 2003 ) Added: Jul 22 Fuzion Frenzy ( 2001 ) Added: Jul 22 Medieval Dynasty ( 2021 ) Added: Dec 3 World War Z: Aftermath ( 2021 ) Added: Dec 3 Superball ( 2025 ) Added: Oct 28 Disney Dreamlight Valley ( 2023 ) Added: Oct 1 Cities: Skylines - Remastered ( 2023 ) Added: Oct 1 Warhammer 40,000: Darktide ( 2022 ) Added: Oct 1 Hades ( 2020 ) Added: Oct 1 Tunic ( 2022 ) Added: Mar 26 Monster Sanctuary ( 2020 ) Added: Mar 26 Batman: Arkham Knight ( 2015 ) Added: Mar 26 StarCraft II: Campaign Collection ( 2024 ) Grounded ( 2022 ) Vampire Survivors ( 2022 ) Psychonauts 2 ( 2021 )",
+      "year": 2020,
+      "new": true,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1q3q.jpg",
       "description": "Monster Sanctuary is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Ori and the Will of the Wisps ( 2020 )",
+      "name": "Ori and the Will of the Wisps",
       "url": "https://gamescriptions.com/game/37001",
+      "year": 2020,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocjl7.jpg",
       "description": "Ori and the Will of the Wisps is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Overcooked! 2 ( 2018 )",
+      "name": "Overcooked! 2",
       "url": "https://gamescriptions.com/game/103341",
+      "year": 2018,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coasbb.jpg",
       "description": "Overcooked! 2 is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Perfect Dark Zero ( 2005 )",
+      "name": "Perfect Dark Zero",
       "url": "https://gamescriptions.com/game/1465",
+      "year": 2005,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2dqm.jpg",
       "description": "Perfect Dark Zero is available on Xbox via 3 service s , including Game Pass Essential, Game Pass Premium, Game Pass Ultimate."
     },
     {
-      "name": "Psychonauts 2 ( 2021 )",
+      "name": "Psychonauts 2",
       "url": "https://gamescriptions.com/game/14741",
-      "added": "Jul 22 Conker: Live & Reloaded ( 2005 ) Added: Jul 22 Crimson Skies: High Road to Revenge ( 2003 ) Added: Jul 22 Fuzion Frenzy ( 2001 ) Added: Jul 22 Medieval Dynasty ( 2021 ) Added: Dec 3 World War Z: Aftermath ( 2021 ) Added: Dec 3 Superball ( 2025 ) Added: Oct 28 Disney Dreamlight Valley ( 2023 ) Added: Oct 1 Cities: Skylines - Remastered ( 2023 ) Added: Oct 1 Warhammer 40,000: Darktide ( 2022 ) Added: Oct 1 Hades ( 2020 ) Added: Oct 1 Tunic ( 2022 ) Added: Mar 26 Monster Sanctuary ( 2020 ) Added: Mar 26 Batman: Arkham Knight ( 2015 ) Added: Mar 26 StarCraft II: Campaign Collection ( 2024 ) Grounded ( 2022 ) Vampire Survivors ( 2022 ) Psychonauts 2 ( 2021 )",
+      "year": 2021,
+      "new": true,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob7mx.jpg",
       "description": "Psychonauts 2 is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Shadowrun Returns ( 2013 )",
+      "name": "Shadowrun Returns",
       "url": "https://gamescriptions.com/game/3020",
+      "year": 2013,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2fhj.jpg",
       "description": "Shadowrun Returns is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Shadowrun: Dragonfall - Director's Cut ( 2014 )",
+      "name": "Shadowrun: Dragonfall - Director's Cut",
       "url": "https://gamescriptions.com/game/8864",
+      "year": 2014,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co90ym.jpg",
       "description": "Shadowrun: Dragonfall - Director's Cut is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Shadowrun: Hong Kong - Extended Edition ( 2015 )",
+      "name": "Shadowrun: Hong Kong - Extended Edition",
       "url": "https://gamescriptions.com/game/35842",
+      "year": 2015,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2fhk.jpg",
       "description": "Shadowrun: Hong Kong - Extended Edition is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "SnowRunner ( 2020 )",
+      "name": "SnowRunner",
       "url": "https://gamescriptions.com/game/107215",
+      "year": 2020,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaazp.jpg",
       "description": "SnowRunner is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Spiritfarer ( 2020 )",
+      "name": "Spiritfarer",
       "url": "https://gamescriptions.com/game/119304",
-      "leaves": "Sep 15 Spiritfarer ( 2020 ) Leaves: Sep 15 Superliminal ( 2019 ) Leaves: Sep 15",
+      "year": 2020,
+      "leaving": true,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2fe7.jpg",
       "description": "Spiritfarer is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Stacking ( 2011 )",
+      "name": "Stacking",
       "url": "https://gamescriptions.com/game/4851",
+      "year": 2011,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2hdc.jpg",
       "description": "Stacking is available on Xbox via 3 service s , including Game Pass Essential, Game Pass Premium, Game Pass Ultimate."
     },
     {
-      "name": "StarCraft II: Campaign Collection ( 2024 )",
+      "name": "StarCraft II: Campaign Collection",
       "url": "https://gamescriptions.com/game/356059",
-      "added": "Jul 22 Conker: Live & Reloaded ( 2005 ) Added: Jul 22 Crimson Skies: High Road to Revenge ( 2003 ) Added: Jul 22 Fuzion Frenzy ( 2001 ) Added: Jul 22 Medieval Dynasty ( 2021 ) Added: Dec 3 World War Z: Aftermath ( 2021 ) Added: Dec 3 Superball ( 2025 ) Added: Oct 28 Disney Dreamlight Valley ( 2023 ) Added: Oct 1 Cities: Skylines - Remastered ( 2023 ) Added: Oct 1 Warhammer 40,000: Darktide ( 2022 ) Added: Oct 1 Hades ( 2020 ) Added: Oct 1 Tunic ( 2022 ) Added: Mar 26 Monster Sanctuary ( 2020 ) Added: Mar 26 Batman: Arkham Knight ( 2015 ) Added: Mar 26 StarCraft II: Campaign Collection ( 2024 ) Grounded ( 2022 ) Vampire Survivors ( 2022 ) Psychonauts 2 ( 2021 )",
+      "year": 2024,
+      "new": true,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaq2a.jpg",
       "description": "StarCraft II: Campaign Collection is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "StarCraft: Remastered ( 2017 )",
+      "name": "StarCraft: Remastered",
       "url": "https://gamescriptions.com/game/25683",
+      "year": 2017,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wal.jpg",
       "description": "StarCraft: Remastered is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Stardew Valley ( 2016 )",
+      "name": "Stardew Valley",
       "url": "https://gamescriptions.com/game/17000",
+      "year": 2016,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa93h.jpg",
       "description": "Stardew Valley is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "State of Decay 2 ( 2018 )",
+      "name": "State of Decay 2",
       "url": "https://gamescriptions.com/game/19541",
+      "year": 2018,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2569.jpg",
       "description": "State of Decay 2 is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Superball ( 2025 )",
+      "name": "Superball",
       "url": "https://gamescriptions.com/game/117000",
-      "added": "Jul 22 Conker: Live & Reloaded ( 2005 ) Added: Jul 22 Crimson Skies: High Road to Revenge ( 2003 ) Added: Jul 22 Fuzion Frenzy ( 2001 ) Added: Jul 22 Medieval Dynasty ( 2021 ) Added: Dec 3 World War Z: Aftermath ( 2021 ) Added: Dec 3 Superball ( 2025 ) Added: Oct 28 Disney Dreamlight Valley ( 2023 ) Added: Oct 1 Cities: Skylines - Remastered ( 2023 ) Added: Oct 1 Warhammer 40,000: Darktide ( 2022 ) Added: Oct 1 Hades ( 2020 ) Added: Oct 1 Tunic ( 2022 ) Added: Mar 26 Monster Sanctuary ( 2020 ) Added: Mar 26 Batman: Arkham Knight ( 2015 ) Added: Mar 26 StarCraft II: Campaign Collection ( 2024 ) Grounded ( 2022 ) Vampire Survivors ( 2022 ) Psychonauts 2 ( 2021 )",
+      "year": 2025,
+      "new": true,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8nou.jpg",
       "description": "Superball is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "SuperHot: Mind Control Delete ( 2020 )",
+      "name": "SuperHot: Mind Control Delete",
       "url": "https://gamescriptions.com/game/27448",
+      "year": 2020,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7ybo.jpg",
       "description": "SuperHot: Mind Control Delete is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Superliminal ( 2019 )",
+      "name": "Superliminal",
       "url": "https://gamescriptions.com/game/68447",
-      "leaves": "Sep 15 Spiritfarer ( 2020 ) Leaves: Sep 15 Superliminal ( 2019 ) Leaves: Sep 15",
+      "year": 2019,
+      "leaving": true,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1uqz.jpg",
       "description": "Superliminal is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "The Bard's Tale Trilogy ( 2018 )",
+      "name": "The Bard's Tale Trilogy",
       "url": "https://gamescriptions.com/game/71800",
-      "added": "Jul 22 Conker: Live & Reloaded ( 2005 ) Added: Jul 22 Crimson Skies: High Road to Revenge ( 2003 ) Added: Jul 22 Fuzion Frenzy ( 2001 ) Added: Jul 22 Medieval Dynasty ( 2021 ) Added: Dec 3 World War Z: Aftermath ( 2021 ) Added: Dec 3 Superball ( 2025 ) Added: Oct 28 Disney Dreamlight Valley ( 2023 ) Added: Oct 1 Cities: Skylines - Remastered ( 2023 ) Added: Oct 1 Warhammer 40,000: Darktide ( 2022 ) Added: Oct 1 Hades ( 2020 ) Added: Oct 1 Tunic ( 2022 ) Added: Mar 26 Monster Sanctuary ( 2020 ) Added: Mar 26 Batman: Arkham Knight ( 2015 ) Added: Mar 26 StarCraft II: Campaign Collection ( 2024 ) Grounded ( 2022 ) Vampire Survivors ( 2022 ) Psychonauts 2 ( 2021 )",
+      "year": 2018,
+      "new": true,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24bk.jpg",
       "description": "The Bard's Tale Trilogy is available on Xbox via 5 service s , including EA Play, Game Pass Essential, Game Pass for PC, and more."
     },
     {
-      "name": "The Elder Scrolls Online ( 2014 )",
+      "name": "The Elder Scrolls Online",
       "url": "https://gamescriptions.com/game/1081",
+      "year": 2014,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9nt3.jpg",
       "description": "The Elder Scrolls Online is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Totally Reliable Delivery Service ( 2020 )",
+      "name": "Totally Reliable Delivery Service",
       "url": "https://gamescriptions.com/game/114058",
+      "year": 2020,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaajx.jpg",
       "description": "Totally Reliable Delivery Service is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Tunic ( 2022 )",
+      "name": "Tunic",
       "url": "https://gamescriptions.com/game/23733",
-      "added": "Jul 22 Conker: Live & Reloaded ( 2005 ) Added: Jul 22 Crimson Skies: High Road to Revenge ( 2003 ) Added: Jul 22 Fuzion Frenzy ( 2001 ) Added: Jul 22 Medieval Dynasty ( 2021 ) Added: Dec 3 World War Z: Aftermath ( 2021 ) Added: Dec 3 Superball ( 2025 ) Added: Oct 28 Disney Dreamlight Valley ( 2023 ) Added: Oct 1 Cities: Skylines - Remastered ( 2023 ) Added: Oct 1 Warhammer 40,000: Darktide ( 2022 ) Added: Oct 1 Hades ( 2020 ) Added: Oct 1 Tunic ( 2022 ) Added: Mar 26 Monster Sanctuary ( 2020 ) Added: Mar 26 Batman: Arkham Knight ( 2015 ) Added: Mar 26 StarCraft II: Campaign Collection ( 2024 ) Grounded ( 2022 ) Vampire Survivors ( 2022 ) Psychonauts 2 ( 2021 )",
+      "year": 2022,
+      "new": true,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/td1t8kb33gyo8mvhl2pc.jpg",
       "description": "Tunic is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Vampire Survivors ( 2022 )",
+      "name": "Vampire Survivors",
       "url": "https://gamescriptions.com/game/186725",
-      "added": "Jul 22 Conker: Live & Reloaded ( 2005 ) Added: Jul 22 Crimson Skies: High Road to Revenge ( 2003 ) Added: Jul 22 Fuzion Frenzy ( 2001 ) Added: Jul 22 Medieval Dynasty ( 2021 ) Added: Dec 3 World War Z: Aftermath ( 2021 ) Added: Dec 3 Superball ( 2025 ) Added: Oct 28 Disney Dreamlight Valley ( 2023 ) Added: Oct 1 Cities: Skylines - Remastered ( 2023 ) Added: Oct 1 Warhammer 40,000: Darktide ( 2022 ) Added: Oct 1 Hades ( 2020 ) Added: Oct 1 Tunic ( 2022 ) Added: Mar 26 Monster Sanctuary ( 2020 ) Added: Mar 26 Batman: Arkham Knight ( 2015 ) Added: Mar 26 StarCraft II: Campaign Collection ( 2024 ) Grounded ( 2022 ) Vampire Survivors ( 2022 ) Psychonauts 2 ( 2021 )",
+      "year": 2022,
+      "new": true,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4bzv.jpg",
       "description": "Vampire Survivors is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Warhammer 40,000: Darktide ( 2022 )",
+      "name": "Warhammer 40,000: Darktide",
       "url": "https://gamescriptions.com/game/135998",
-      "added": "Jul 22 Conker: Live & Reloaded ( 2005 ) Added: Jul 22 Crimson Skies: High Road to Revenge ( 2003 ) Added: Jul 22 Fuzion Frenzy ( 2001 ) Added: Jul 22 Medieval Dynasty ( 2021 ) Added: Dec 3 World War Z: Aftermath ( 2021 ) Added: Dec 3 Superball ( 2025 ) Added: Oct 28 Disney Dreamlight Valley ( 2023 ) Added: Oct 1 Cities: Skylines - Remastered ( 2023 ) Added: Oct 1 Warhammer 40,000: Darktide ( 2022 ) Added: Oct 1 Hades ( 2020 ) Added: Oct 1 Tunic ( 2022 ) Added: Mar 26 Monster Sanctuary ( 2020 ) Added: Mar 26 Batman: Arkham Knight ( 2015 ) Added: Mar 26 StarCraft II: Campaign Collection ( 2024 ) Grounded ( 2022 ) Vampire Survivors ( 2022 ) Psychonauts 2 ( 2021 )",
+      "year": 2022,
+      "new": true,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5j6u.jpg",
       "description": "Warhammer 40,000: Darktide is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Warhammer: Vermintide 2 ( 2018 )",
+      "name": "Warhammer: Vermintide 2",
       "url": "https://gamescriptions.com/game/55189",
+      "year": 2018,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20u8.jpg",
       "description": "Warhammer: Vermintide 2 is available on Xbox via 3 service s , including Game Pass Essential, Game Pass Premium, Game Pass Ultimate."
     },
     {
-      "name": "World War Z: Aftermath ( 2021 )",
+      "name": "World War Z: Aftermath",
       "url": "https://gamescriptions.com/game/152123",
-      "added": "Jul 22 Conker: Live & Reloaded ( 2005 ) Added: Jul 22 Crimson Skies: High Road to Revenge ( 2003 ) Added: Jul 22 Fuzion Frenzy ( 2001 ) Added: Jul 22 Medieval Dynasty ( 2021 ) Added: Dec 3 World War Z: Aftermath ( 2021 ) Added: Dec 3 Superball ( 2025 ) Added: Oct 28 Disney Dreamlight Valley ( 2023 ) Added: Oct 1 Cities: Skylines - Remastered ( 2023 ) Added: Oct 1 Warhammer 40,000: Darktide ( 2022 ) Added: Oct 1 Hades ( 2020 ) Added: Oct 1 Tunic ( 2022 ) Added: Mar 26 Monster Sanctuary ( 2020 ) Added: Mar 26 Batman: Arkham Knight ( 2015 ) Added: Mar 26 StarCraft II: Campaign Collection ( 2024 ) Grounded ( 2022 ) Vampire Survivors ( 2022 ) Psychonauts 2 ( 2021 )",
+      "year": 2021,
+      "new": true,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co39v5.jpg",
       "description": "World War Z: Aftermath is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     },
     {
-      "name": "Wreckfest ( 2018 )",
+      "name": "Wreckfest",
       "url": "https://gamescriptions.com/game/3772",
+      "year": 2018,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3vof.jpg",
       "description": "Wreckfest is available on Xbox via 4 service s , including Game Pass Essential, Game Pass for PC, Game Pass Premium, and more."
     }
