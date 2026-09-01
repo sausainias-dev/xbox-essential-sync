@@ -1,123 +1,270 @@
 #!/usr/bin/env python3
-"""
-Build a JSON catalog from GameScriptions' public Game Pass Essential page.
-
-This is intentionally a small, cacheable scraper. Review the source site's
-terms/robots policy before deploying it publicly.
-"""
-import json, re, time
+"""Build a clean JSON catalog from GameScriptions' Xbox Game Pass Essential page."""
+import json
+import re
+import time
 from datetime import datetime, timezone
 from urllib.parse import urljoin
 
 import requests
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, Tag
 
 SOURCE = "https://gamescriptions.com/subscription/service/xbox_essential"
 OUT = "xbox-essential.json"
+
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (compatible; SubliXboxCatalog/1.0; +https://github.com/)"
+    "User-Agent": "Mozilla/5.0 (compatible; SubliXboxCatalog/1.1; +https://github.com/)"
 }
 
-def clean(s):
-    return re.sub(r"\s+", " ", s or "").strip()
+
+def clean(value):
+    return re.sub(r"\s+", " ", value or "").strip()
+
+
+def clean_title(value):
+    value = clean(value)
+
+    match = re.match(
+        r"^(.*?)\s*\(\s*(\d{4})\s*\)\s*$",
+        value
+    )
+
+    if match:
+        return clean(match.group(1)), int(match.group(2))
+
+    return value, None
+
 
 def get(url):
-    r = requests.get(url, headers=HEADERS, timeout=25)
-    r.raise_for_status()
-    return r.text
+    response = requests.get(
+        url,
+        headers=HEADERS,
+        timeout=25
+    )
+    response.raise_for_status()
+    return response.text
+
+
+def section_links(soup, heading_text):
+    heading = None
+
+    for tag in soup.find_all(["h2", "h3"]):
+        text = clean(
+            tag.get_text(" ", strip=True)
+        ).lower()
+
+        if text == heading_text.lower():
+            heading = tag
+            break
+
+    if not heading:
+        return []
+
+    found = []
+
+    for element in heading.find_all_next():
+        if (
+            isinstance(element, Tag)
+            and element.name == "h2"
+        ):
+            break
+
+        if (
+            isinstance(element, Tag)
+            and element.name == "a"
+            and "/game/" in (element.get("href") or "")
+        ):
+            found.append(element)
+
+    return found
+
 
 def extract_games(source_html):
-    soup = BeautifulSoup(source_html, "html.parser")
+    soup = BeautifulSoup(
+        source_html,
+        "html.parser"
+    )
+
     games = {}
 
-    # All /game/ links on the service page are the authoritative catalog links.
     for a in soup.select('a[href*="/game/"]'):
-        href = urljoin(SOURCE, a.get("href", ""))
-        name = clean(a.get_text(" ", strip=True))
-        if not name or "/game/" not in href:
+        href = urljoin(
+            SOURCE,
+            a.get("href", "")
+        )
+
+        raw_name = clean(
+            a.get_text(" ", strip=True)
+        )
+
+        if not raw_name:
             continue
-        games[href] = {"name": name, "url": href}
 
-    # Mark new/leaving sections by walking from their headings until the next h2.
-    def section_items(title):
-        heading = None
-        for h in soup.find_all(["h2", "h3"]):
-            if clean(h.get_text(" ", strip=True)).lower() == title.lower():
-                heading = h
-                break
-        if not heading:
-            return []
-        out = []
-        node = heading.find_next_sibling()
-        while node:
-            if node.name == "h2":
-                break
-            for a in node.select('a[href*="/game/"]') if hasattr(node, "select") else []:
-                href = urljoin(SOURCE, a.get("href", ""))
-                name = clean(a.get_text(" ", strip=True))
-                if href and name:
-                    out.append((href, name, clean(node.get_text(" ", strip=True))))
-            node = node.find_next_sibling()
-        return out
+        if "/game/" not in href:
+            continue
 
-    for href, name, text in section_items("New Releases"):
+        name, year = clean_title(raw_name)
+
+        if href not in games:
+            games[href] = {
+                "name": name,
+                "url": href
+            }
+
+            if year:
+                games[href]["year"] = year
+
+    # New Releases
+    for a in section_links(
+        soup,
+        "New Releases"
+    ):
+        href = urljoin(
+            SOURCE,
+            a.get("href", "")
+        )
+
         if href in games:
-            m = re.search(r"Added:\s*([^|]+)$", text, re.I)
-            games[href]["added"] = clean(m.group(1)) if m else True
+            games[href]["new"] = True
 
-    for href, name, text in section_items("Leaving Soon"):
+    # Leaving Soon
+    for a in section_links(
+        soup,
+        "Leaving Soon"
+    ):
+        href = urljoin(
+            SOURCE,
+            a.get("href", "")
+        )
+
         if href in games:
-            m = re.search(r"Leaves:\s*([^|]+)$", text, re.I)
-            games[href]["leaves"] = clean(m.group(1)) if m else True
+            games[href]["leaving"] = True
 
     return list(games.values())
+
 
 def enrich(game):
     try:
         html = get(game["url"])
-        soup = BeautifulSoup(html, "html.parser")
+
+        soup = BeautifulSoup(
+            html,
+            "html.parser"
+        )
+
         h1 = soup.find("h1")
+
         if h1:
-            title = clean(h1.get_text(" ", strip=True))
-            m = re.match(r"^(.*?)(?:\s*\((\d{4})\))?$", title)
-            if m:
-                game["name"] = clean(m.group(1))
-                if m.group(2):
-                    game["year"] = int(m.group(2))
+            name, year = clean_title(
+                h1.get_text(
+                    " ",
+                    strip=True
+                )
+            )
 
-        # GameScriptions currently exposes IGDB cover art on each game page.
-        img = soup.find("img", alt=re.compile("cover art", re.I))
-        if img and img.get("src"):
-            game["cover_url"] = urljoin(game["url"], img["src"])
+            if name:
+                game["name"] = name
 
-        desc = soup.find(lambda tag: tag.name in ["h2","h3"] and clean(tag.get_text()) == "Description")
-        if desc:
-            p = desc.find_next("p")
-            if p:
-                game["description"] = clean(p.get_text(" ", strip=True))
+            if year:
+                game["year"] = year
+
+        img = soup.find(
+            "img",
+            alt=re.compile(
+                "cover art",
+                re.I
+            )
+        )
+
+        if img:
+            src = (
+                img.get("src")
+                or img.get("data-src")
+            )
+
+            if src:
+                game["cover_url"] = urljoin(
+                    game["url"],
+                    src
+                )
+
+        desc_heading = soup.find(
+            lambda tag:
+                tag.name in ["h2", "h3"]
+                and clean(
+                    tag.get_text(
+                        " ",
+                        strip=True
+                    )
+                ).lower() == "description"
+        )
+
+        if desc_heading:
+            paragraph = desc_heading.find_next("p")
+
+            if paragraph:
+                game["description"] = clean(
+                    paragraph.get_text(
+                        " ",
+                        strip=True
+                    )
+                )
 
     except Exception as exc:
         game["enrich_error"] = str(exc)
 
     time.sleep(0.15)
+
     return game
+
 
 def main():
     source_html = get(SOURCE)
-    games = extract_games(source_html)
-    for i, game in enumerate(games, 1):
-        print(f"[{i}/{len(games)}] {game['name']}")
+
+    games = extract_games(
+        source_html
+    )
+
+    for index, game in enumerate(
+        games,
+        1
+    ):
+        print(
+            f"[{index}/{len(games)}] "
+            f"{game['name']}"
+        )
+
         enrich(game)
 
     payload = {
         "source": SOURCE,
-        "updated_at": datetime.now(timezone.utc).isoformat(),
-        "games": sorted(games, key=lambda x: x["name"].lower()),
+        "updated_at": datetime.now(
+            timezone.utc
+        ).isoformat(),
+        "games": sorted(
+            games,
+            key=lambda item:
+                item["name"].lower()
+        )
     }
-    with open(OUT, "w", encoding="utf-8") as f:
-        json.dump(payload, f, ensure_ascii=False, indent=2)
 
-    print(f"Wrote {len(games)} games to {OUT}")
+    with open(
+        OUT,
+        "w",
+        encoding="utf-8"
+    ) as handle:
+        json.dump(
+            payload,
+            handle,
+            ensure_ascii=False,
+            indent=2
+        )
+
+    print(
+        f"Wrote {len(games)} games "
+        f"to {OUT}"
+    )
+
 
 if __name__ == "__main__":
     main()
