@@ -1,5 +1,13 @@
 #!/usr/bin/env python3
-"""Build one Xbox Game Pass catalog from GameScriptions' plan pages."""
+"""Build the combined Xbox Game Pass catalog for Subli.one.
+
+The plan membership is taken from GameScriptions' individual service pages.
+The same game is merged into one JSON record, with all plans stored in
+`plans`. New/Leaving status is also tracked per plan.
+
+The output filename stays `xbox-essential.json` so the existing GitHub Pages
+URL and SellAuth integration do not have to change.
+"""
 
 import json
 import re
@@ -11,8 +19,6 @@ import requests
 from bs4 import BeautifulSoup, Tag
 
 
-# These are the GameScriptions pages that define which games belong
-# to each Game Pass plan.
 SERVICES = {
     "essential": "https://gamescriptions.com/subscription/service/xbox_essential",
     "pc": "https://gamescriptions.com/subscription/service/xbox_pc",
@@ -20,7 +26,7 @@ SERVICES = {
     "ultimate": "https://gamescriptions.com/subscription/service/xbox_ultimate",
 }
 
-OUT = "xbox-game-pass.json"
+OUT = "xbox-essential.json"
 
 HEADERS = {
     "User-Agent": (
@@ -53,7 +59,6 @@ def get(url, timeout=25):
 
 
 def section_links(soup, heading_text):
-    """Return GameScriptions game links belonging to a named section."""
     heading = None
 
     for tag in soup.find_all(["h2", "h3"]):
@@ -80,8 +85,8 @@ def section_links(soup, heading_text):
     return found
 
 
-def extract_plan_page(service_key, service_url, html):
-    """Extract every available game and this plan's New/Leaving state."""
+def extract_service_games(service_key, service_url, html):
+    """Extract all games belonging to one GameScriptions service."""
     soup = BeautifulSoup(html, "html.parser")
     games = {}
 
@@ -96,84 +101,76 @@ def extract_plan_page(service_key, service_url, html):
 
         name, year = clean_title(raw_name)
 
-        item = games.setdefault(
+        game = games.setdefault(
             href,
             {
                 "name": name,
                 "url": href,
+                "plans": [],
+                "new_plans": [],
+                "leaving_plans": [],
             },
         )
 
         if year:
-            item["year"] = year
+            game["year"] = year
 
-    new_urls = set()
-    for a in section_links(soup, "New Releases"):
-        new_urls.add(urljoin(service_url, a.get("href", "")))
+    new_urls = {
+        urljoin(service_url, a.get("href", ""))
+        for a in section_links(soup, "New Releases")
+    }
 
-    leaving_urls = set()
-    for a in section_links(soup, "Leaving Soon"):
-        leaving_urls.add(urljoin(service_url, a.get("href", "")))
+    leaving_urls = {
+        urljoin(service_url, a.get("href", ""))
+        for a in section_links(soup, "Leaving Soon")
+    }
 
     for href, game in games.items():
-        game.setdefault("plans", []).append(service_key)
+        if service_key not in game["plans"]:
+            game["plans"].append(service_key)
 
-        if href in new_urls:
-            game.setdefault("new_plans", []).append(service_key)
-            game["new"] = True
+        if href in new_urls and service_key not in game["new_plans"]:
+            game["new_plans"].append(service_key)
 
-        if href in leaving_urls:
-            game.setdefault("leaving_plans", []).append(service_key)
-            game["leaving"] = True
+        if href in leaving_urls and service_key not in game["leaving_plans"]:
+            game["leaving_plans"].append(service_key)
 
     return games
 
 
-def merge_services():
-    """Merge the four plan catalogs without duplicating the same game."""
+def merge_plan_catalogs():
+    """Read all four plan pages and merge duplicate game records."""
     merged = {}
     service_counts = {}
 
-    for service_key, service_url in SERVICES.items():
-        print(f"Reading {service_key}: {service_url}")
-        html = get(service_url)
-        service_games = extract_plan_page(service_key, service_url, html)
-        service_counts[service_key] = len(service_games)
+    for plan, url in SERVICES.items():
+        print(f"\nReading {plan}: {url}")
+        html = get(url)
+        found = extract_service_games(plan, url, html)
+        service_counts[plan] = len(found)
+        print(f"Found {len(found)} games in {plan}")
 
-        for source_url, game in service_games.items():
-            # GameScriptions normally uses the same game URL across plans.
-            # If it ever changes, title/year matching below prevents obvious
-            # duplicates from being silently merged.
-            existing = merged.get(source_url)
-
-            if existing is None:
-                merged[source_url] = game
+        for source_url, incoming in found.items():
+            if source_url not in merged:
+                merged[source_url] = incoming
                 continue
 
-            existing["plans"] = sorted(
-                set(existing.get("plans", [])) | set(game.get("plans", []))
-            )
-            existing["new_plans"] = sorted(
-                set(existing.get("new_plans", []))
-                | set(game.get("new_plans", []))
-            )
-            existing["leaving_plans"] = sorted(
-                set(existing.get("leaving_plans", []))
-                | set(game.get("leaving_plans", []))
-            )
-            existing["new"] = bool(existing.get("new") or game.get("new"))
-            existing["leaving"] = bool(
-                existing.get("leaving") or game.get("leaving")
-            )
+            existing = merged[source_url]
 
-            if not existing.get("year") and game.get("year"):
-                existing["year"] = game["year"]
+            for field in ("plans", "new_plans", "leaving_plans"):
+                existing[field] = sorted(
+                    set(existing.get(field, []))
+                    | set(incoming.get(field, []))
+                )
+
+            if not existing.get("year") and incoming.get("year"):
+                existing["year"] = incoming["year"]
 
     return list(merged.values()), service_counts
 
 
-def enrich_gamescriptions(game):
-    """Keep the existing GameScriptions enrichment: cover + description."""
+def enrich_from_gamescriptions(game):
+    """Keep the existing cover/title/year/description enrichment."""
     try:
         html = get(game["url"])
         soup = BeautifulSoup(html, "html.parser")
@@ -208,8 +205,7 @@ def enrich_gamescriptions(game):
                     paragraph.get_text(" ", strip=True)
                 )
                 if description:
-                    game["gamescriptions_description"] = description
-                    game.setdefault("description", description)
+                    game["description"] = description
 
     except Exception as exc:
         game["enrich_error"] = str(exc)
@@ -218,21 +214,36 @@ def enrich_gamescriptions(game):
     return game
 
 
+def add_compatibility_flags(game):
+    """Add convenient booleans without changing plan membership semantics."""
+    plans = set(game.get("plans", []))
+
+    # These are intentionally derived from the actual plan list.
+    game["essential"] = "essential" in plans
+    game["pc_game_pass"] = "pc" in plans
+    game["premium"] = "premium" in plans
+    game["ultimate"] = "ultimate" in plans
+
+    # Overall status is true if the game is new/leaving in at least one plan.
+    game["new"] = bool(game.get("new_plans"))
+    game["leaving"] = bool(game.get("leaving_plans"))
+
+    return game
+
+
 def main():
-    games, service_counts = merge_services()
+    games, service_counts = merge_plan_catalogs()
 
-    print("\nGames by plan:")
-    for plan, count in service_counts.items():
-        print(f"  {plan}: {count}")
-
-    print(f"\nUnique combined games: {len(games)}")
+    print("\nUnique games across all plans:", len(games))
 
     for index, game in enumerate(games, 1):
         print(f"[{index}/{len(games)}] {game['name']}")
-        enrich_gamescriptions(game)
+        enrich_from_gamescriptions(game)
+        add_compatibility_flags(game)
 
     payload = {
         "source": "GameScriptions",
+        "catalog_type": "xbox_game_pass",
         "services": SERVICES,
         "updated_at": datetime.now(timezone.utc).isoformat(),
         "service_counts": service_counts,
