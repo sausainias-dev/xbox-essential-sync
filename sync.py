@@ -88,20 +88,22 @@ def extract_available_games(page, expected: int) -> dict[str, dict]:
 
     # Extract only anchors that live between the Available Games heading and
     # the next h2/h3. Deduplicate by canonical GameScriptions URL.
-    hrefs = page.evaluate(
-        """(heading) => {
-            const h = [...document.querySelectorAll('h2,h3')].find(x => x === heading);
+    hrefs = heading.evaluate(
+        """(h) => {
             if (!h) return [];
             const out = [];
             let el = h.nextElementSibling;
             while (el && !el.matches('h2,h3')) {
-                for (const a of el.querySelectorAll('a[href*='/game/']')) out.push({href:a.href, text:a.textContent});
-                if (el.matches('a[href*='/game/']')) out.push({href:el.href, text:el.textContent});
+                for (const a of el.querySelectorAll('a[href*=\"/game/\"]')) {
+                    out.push({href: a.href, text: a.textContent});
+                }
+                if (el.matches('a[href*=\"/game/\"]')) {
+                    out.push({href: el.href, text: el.textContent});
+                }
                 el = el.nextElementSibling;
             }
             return out;
-        }""",
-        heading.element_handle(),
+        }"""
     )
     games = {}
     for item in hrefs or []:
@@ -308,7 +310,7 @@ def main() -> None:
 
     # Final sanity check: every service count must be represented exactly.
     for plan, expected in service_counts.items():
-        actual = sum(plan in g["plans"] for g in games)
+        actual = sum(plan in item["plans"] for item in games)
         if actual != expected:
             raise RuntimeError(f"{plan}: merged plan count {actual} != source count {expected}")
 

@@ -1,35 +1,17 @@
-# Xbox Essential sync for Subli.one
+# Xbox Game Pass full sync — PRO v3.1
 
-This project periodically reads the public GameScriptions Game Pass Essential page,
-collects the available game links plus new/leaving markers, and enriches each game
-with cover art from the linked GameScriptions game page.
+This is the corrected version of PRO v3.
 
-## Setup
+Fixes:
+- Uses Playwright correctly by evaluating against the Available Games heading element.
+- Fixes the JavaScript selector quoting used for `/game/` links.
+- Keeps exact source-count validation for Essential, PC, Premium and Ultimate.
+- Publishes nothing if any plan count differs from GameScriptions.
+- Keeps the four canonical page plans: essential, pc, premium, ultimate.
 
-1. Create a GitHub repository and upload these files.
-2. Run the workflow once manually under **Actions**.
-3. Enable **GitHub Pages** for the repository if you want a browser-readable JSON URL.
-4. Put the resulting `xbox-essential.json` URL into the **JSON API Endpoint** field
-   of the SellAuth `Xbox Essential Catalog` component.
-
-The JSON has this shape:
-
-```json
-{
-  "source": "https://gamescriptions.com/subscription/service/xbox_essential",
-  "updated_at": "...",
-  "games": [
-    {
-      "name": "Among Us",
-      "year": 2018,
-      "url": "https://gamescriptions.com/game/111469",
-      "cover_url": "https://images.igdb.com/...",
-      "added": null,
-      "leaves": null
-    }
-  ]
-}
+Run:
+```bash
+pip install -r requirements.txt
+playwright install chromium --with-deps
+python sync.py
 ```
-
-The workflow runs every 6 hours. Review GameScriptions' terms and robots policy
-before putting the scraper into production.
