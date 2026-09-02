@@ -1,9 +1,34 @@
-# Xbox Game Pass catalog sync
+# Xbox Game Pass catalog sync for Subli.one
 
-Syncs the four GameScriptions Xbox Game Pass catalogs used by Subli.one.
+Builds the combined Xbox catalog used by Subli.one from GameScriptions.
 
-Plans: Essential, PC, Premium, Ultimate.
+## Services
 
-The scraper reads the exact `Available Games (N)` count from each GameScriptions page, expands `Load Full Games List`, extracts only game links from the available-games table, and refuses to publish if any plan count differs.
+- Game Pass Essential
+- Game Pass for PC
+- Game Pass Premium
+- Game Pass Ultimate
+- EA Play (Xbox)
+- Ubisoft+ Classics (Xbox)
 
-Run manually from GitHub Actions with `Sync Xbox Game Pass catalog`.
+## Data collected
+
+- Exact Available Games count per service
+- Game title and GameScriptions source URL
+- Release year and release date when available
+- Cover art
+- Short real game description
+- Genres
+- Play modes
+- Game style (source: GameScriptions Themes)
+- Developer and publisher when available
+- Platforms limited to Xbox and PC
+- Plan membership
+- Added and Leaving Soon status/date when available
+- Per-service genre counts
+
+The source URL is retained for synchronization and identification. Subli.one can choose not to display it.
+
+## Safety checks
+
+The sync reads the `Available Games (N)` count from each GameScriptions service page and extracts only the Available Games table. It retries the full-list control when needed and refuses to publish if any service's extracted/merged count does not exactly match the source count.
