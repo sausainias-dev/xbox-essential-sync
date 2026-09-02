@@ -86,21 +86,21 @@ def extract_available_games(page, expected: int) -> dict[str, dict]:
     if not heading:
         raise RuntimeError("Available Games section not found")
 
-    # Extract only anchors that live between the Available Games heading and
-    # the next h2/h3. Deduplicate by canonical GameScriptions URL.
-    hrefs = heading.evaluate(
-        """(h) => {
-            if (!h) return [];
+    # Walk the entire document in DOM order. The game table/cards may be
+    # nested several levels below the heading, so nextElementSibling alone can
+    # miss the entire catalog. Stop at the next h2/h3.
+    hrefs = page.evaluate(
+        """() => {
+            const nodes = [...document.querySelectorAll('h2,h3,a[href*="/game/"]')];
+            const headingIndex = nodes.findIndex(
+                n => n.matches('h2,h3') && (n.textContent || '').trim().toLowerCase().startsWith('available games (')
+            );
+            if (headingIndex < 0) return [];
             const out = [];
-            let el = h.nextElementSibling;
-            while (el && !el.matches('h2,h3')) {
-                for (const a of el.querySelectorAll('a[href*=\"/game/\"]')) {
-                    out.push({href: a.href, text: a.textContent});
-                }
-                if (el.matches('a[href*=\"/game/\"]')) {
-                    out.push({href: el.href, text: el.textContent});
-                }
-                el = el.nextElementSibling;
+            for (let i = headingIndex + 1; i < nodes.length; i++) {
+                const n = nodes[i];
+                if (n.matches('h2,h3')) break;
+                out.push({href: n.href, text: n.textContent});
             }
             return out;
         }"""
@@ -127,35 +127,25 @@ def extract_available_games(page, expected: int) -> dict[str, dict]:
 
 
 def extract_section_links(page, heading_name: str) -> set[str]:
-    links: set[str] = set()
-    headings = page.locator("h2, h3")
-    for i in range(headings.count()):
-        heading = headings.nth(i)
-        if clean(heading.inner_text()).lower() != heading_name.lower():
-            continue
-        # Stop at the next h2/h3. The section normally contains game cards.
-        node = heading.locator("xpath=following::*[self::h2 or self::h3][1]")
-        boundary = node.first if node.count() else None
-        # Use DOM JS to collect anchors between this heading and the next heading.
-        found = page.evaluate(
-            """({headingName}) => {
-                const heads = [...document.querySelectorAll('h2,h3')];
-                const h = heads.find(x => x.textContent.trim().toLowerCase() === headingName.toLowerCase());
-                if (!h) return [];
-                const out = [];
-                for (let el = h.nextElementSibling; el; el = el.nextElementSibling) {
-                    if (el.matches('h2,h3')) break;
-                    for (const a of el.querySelectorAll('a[href*="/game/"]')) out.push(a.href);
-                    if (el.matches('a[href*="/game/"]')) out.push(el.href);
-                }
-                return out;
-            }""",
-            {"headingName": heading_name},
-        )
-        for href in found or []:
-            links.add(href)
-        break
-    return links
+    # Use document order so nested card/table markup cannot hide the links.
+    found = page.evaluate(
+        """({headingName}) => {
+            const nodes = [...document.querySelectorAll('h2,h3,a[href*="/game/"]')];
+            const target = nodes.findIndex(
+                n => n.matches('h2,h3') && (n.textContent || '').trim().toLowerCase() === headingName.toLowerCase()
+            );
+            if (target < 0) return [];
+            const out = [];
+            for (let i = target + 1; i < nodes.length; i++) {
+                const n = nodes[i];
+                if (n.matches('h2,h3')) break;
+                out.push(n.href);
+            }
+            return out;
+        }""",
+        {"headingName": heading_name},
+    )
+    return {href for href in (found or []) if href and '/game/' in href}
 
 
 def scrape_service(page, plan: str, url: str) -> tuple[list[dict], set[str], set[str], int]:
