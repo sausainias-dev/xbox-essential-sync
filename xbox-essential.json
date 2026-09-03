@@ -8,12 +8,12 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-09-02T18:58:53.615790+00:00",
+  "updated_at": "2026-09-03T00:18:02.608751+00:00",
   "service_counts": {
     "essential": 70,
-    "pc": 576,
+    "pc": 577,
     "premium": 430,
-    "ultimate": 656,
+    "ultimate": 657,
     "ea_play": 92,
     "ubisoft_classics": 64
   },
@@ -47,22 +47,22 @@
       "Third-Person": 257,
       "First-Person": 198,
       "Role-Playing": 178,
-      "Indie": 166,
+      "Indie": 167,
       "Shooter": 154,
       "Isometric": 145,
       "Simulator": 143,
       "Strategy": 118,
-      "Side-View": 67,
+      "Side-View": 68,
       "Platform": 64,
       "Puzzle": 60,
-      "Racing": 41,
+      "Racing": 42,
       "Arcade": 40,
-      "Sport": 39,
+      "Sport": 40,
       "Hack and Slash": 36,
       "Real-Time Strategy": 26,
       "Turn-Based Strategy": 26,
       "Tactical": 24,
-      "Fighting": 18,
+      "Fighting": 19,
       "Virtual Reality": 14,
       "Card & Board Game": 13,
       "Point-and-Click": 8,
@@ -106,21 +106,21 @@
       "First-Person": 213,
       "Role-Playing": 191,
       "Shooter": 174,
-      "Indie": 171,
+      "Indie": 172,
       "Simulator": 164,
       "Isometric": 155,
       "Strategy": 131,
-      "Side-View": 82,
+      "Side-View": 83,
       "Platform": 75,
       "Puzzle": 75,
       "Arcade": 54,
-      "Sport": 53,
-      "Racing": 48,
+      "Sport": 54,
+      "Racing": 49,
       "Hack and Slash": 41,
       "Turn-Based Strategy": 30,
       "Tactical": 28,
       "Real-Time Strategy": 27,
-      "Fighting": 24,
+      "Fighting": 25,
       "Card & Board Game": 17,
       "Virtual Reality": 16,
       "Point-and-Click": 12,
@@ -179,7 +179,7 @@
       "Turn-Based Strategy": 1
     }
   },
-  "game_count_unique": 657,
+  "game_count_unique": 658,
   "games": [
     {
       "name": "1000xResist",
@@ -5950,13 +5950,11 @@
         "ultimate"
       ],
       "new_plans": [
-        "essential",
-        "pc"
+        "essential"
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "essential": "Jul 22",
-        "pc": "Jul 22"
+        "essential": "Jul 22"
       },
       "leaving_dates": {},
       "genres": [
@@ -10818,13 +10816,9 @@
         "premium",
         "ultimate"
       ],
-      "new_plans": [
-        "ultimate"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
-      "plan_added_dates": {
-        "ultimate": "Jul 17"
-      },
+      "plan_added_dates": {},
       "leaving_dates": {},
       "genres": [
         "First-Person",
@@ -10849,7 +10843,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2026,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobovl.jpg",
@@ -22859,6 +22853,58 @@
       "developer": "( 2014 ) Obsidian Entertainment",
       "publisher": "Ubisoft Entertainment",
       "description": "South Park: The Stick of Truth is available on Xbox via 4 service s , including Game Pass for PC, Ubisoft+ Classics, Ubisoft+ Premium, and more."
+    },
+    {
+      "name": "SpeedRunners 2: King of Speed",
+      "url": "https://gamescriptions.com/game/339614",
+      "plans": [
+        "pc",
+        "ultimate"
+      ],
+      "new_plans": [
+        "pc",
+        "ultimate"
+      ],
+      "leaving_plans": [],
+      "plan_added_dates": {
+        "pc": "Today",
+        "ultimate": "Today"
+      },
+      "leaving_dates": {},
+      "genres": [
+        "Side-View",
+        "Fighting",
+        "Indie",
+        "Racing",
+        "Sport"
+      ],
+      "game_modes": [
+        "Single-Player",
+        "Multiplayer",
+        "Co-Op",
+        "Split-Screen"
+      ],
+      "game_style": [
+        "Action"
+      ],
+      "platforms": [
+        "Xbox",
+        "PC"
+      ],
+      "essential": false,
+      "pc_game_pass": true,
+      "premium": false,
+      "ultimate": true,
+      "ea_play": false,
+      "ubisoft_classics": false,
+      "new": true,
+      "leaving": false,
+      "year": 2026,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9nld.jpg",
+      "release_date": "September 3rd, 2026",
+      "developer": "( 2026 ) Fair Play Labs",
+      "publisher": "tinyBuild",
+      "description": "SpeedRunners 2: King of Speed is available on Xbox via 2 service s , including Game Pass for PC, Game Pass Ultimate."
     },
     {
       "name": "Spiritfarer",
