@@ -8,11 +8,11 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-09-03T18:14:55.206114+00:00",
+  "updated_at": "2026-09-04T00:13:25.165560+00:00",
   "service_counts": {
     "essential": 70,
     "pc": 577,
-    "premium": 430,
+    "premium": 431,
     "ultimate": 657,
     "ea_play": 92,
     "ubisoft_classics": 64
@@ -74,13 +74,13 @@
     "premium": {
       "Adventure": 270,
       "Third-Person": 192,
-      "First-Person": 149,
+      "First-Person": 150,
       "Role-Playing": 145,
-      "Indie": 135,
+      "Indie": 136,
       "Shooter": 124,
       "Simulator": 109,
       "Isometric": 108,
-      "Strategy": 84,
+      "Strategy": 85,
       "Side-View": 52,
       "Platform": 47,
       "Puzzle": 46,
@@ -7408,11 +7408,16 @@
       "url": "https://gamescriptions.com/game/335662",
       "plans": [
         "pc",
+        "premium",
         "ultimate"
       ],
-      "new_plans": [],
+      "new_plans": [
+        "premium"
+      ],
       "leaving_plans": [],
-      "plan_added_dates": {},
+      "plan_added_dates": {
+        "premium": "Today"
+      },
       "leaving_dates": {},
       "genres": [
         "First-Person",
@@ -7428,11 +7433,11 @@
       ],
       "essential": false,
       "pc_game_pass": true,
-      "premium": false,
+      "premium": true,
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": false,
+      "new": true,
       "leaving": false,
       "year": 2026,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa8k2.jpg",
@@ -19347,12 +19352,10 @@
         "ultimate"
       ],
       "new_plans": [
-        "premium",
         "ultimate"
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "premium": "Jul 21",
         "ultimate": "Jul 21"
       },
       "leaving_dates": {},
@@ -22867,8 +22870,8 @@
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "pc": "Today",
-        "ultimate": "Today"
+        "pc": "Sep 3",
+        "ultimate": "Sep 3"
       },
       "leaving_dates": {},
       "genres": [
