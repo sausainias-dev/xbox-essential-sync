@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-09-05T00:19:12.973499+00:00",
+  "updated_at": "2026-09-05T04:39:27.729258+00:00",
   "service_counts": {
     "essential": 70,
     "pc": 577,
@@ -17400,9 +17400,17 @@
         "ultimate"
       ],
       "new_plans": [],
-      "leaving_plans": [],
+      "leaving_plans": [
+        "pc",
+        "premium",
+        "ultimate"
+      ],
       "plan_added_dates": {},
-      "leaving_dates": {},
+      "leaving_dates": {
+        "pc": "Sep 15",
+        "premium": "Sep 15",
+        "ultimate": "Sep 15"
+      },
       "genres": [
         "Third-Person",
         "Simulator",
@@ -17427,7 +17435,7 @@
       "ea_play": false,
       "ubisoft_classics": false,
       "new": false,
-      "leaving": false,
+      "leaving": true,
       "year": 2025,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa3pk.jpg",
       "release_date": "September 5th, 2025",
