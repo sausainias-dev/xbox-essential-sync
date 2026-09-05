@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-09-05T06:18:02.842144+00:00",
+  "updated_at": "2026-09-05T12:17:48.643961+00:00",
   "service_counts": {
     "essential": 70,
     "pc": 577,
@@ -29813,10 +29813,10 @@
       "ubisoft_classics": false,
       "new": true,
       "leaving": false,
-      "year": 2025,
+      "year": 2026,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaw35.jpg",
-      "release_date": "November 25th, 2025",
-      "developer": "( 2025 ) KO_OP",
+      "release_date": "August 31st, 2026",
+      "developer": "( 2026 ) KO_OP",
       "description": "Young Suns is available on Xbox via 3 service s , including Game Pass for PC, Game Pass Premium, Game Pass Ultimate."
     },
     {
