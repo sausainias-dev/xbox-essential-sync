@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-09-05T12:17:48.643961+00:00",
+  "updated_at": "2026-09-05T18:13:27.298855+00:00",
   "service_counts": {
     "essential": 70,
     "pc": 577,
@@ -45,7 +45,7 @@
     "pc": {
       "Adventure": 352,
       "Third-Person": 257,
-      "First-Person": 198,
+      "First-Person": 199,
       "Role-Playing": 178,
       "Indie": 167,
       "Shooter": 154,
@@ -54,7 +54,7 @@
       "Strategy": 118,
       "Side-View": 68,
       "Platform": 64,
-      "Puzzle": 60,
+      "Puzzle": 61,
       "Racing": 42,
       "Arcade": 40,
       "Sport": 40,
@@ -63,8 +63,8 @@
       "Turn-Based Strategy": 26,
       "Tactical": 24,
       "Fighting": 19,
+      "Card & Board Game": 14,
       "Virtual Reality": 14,
-      "Card & Board Game": 13,
       "Point-and-Click": 8,
       "Music": 4,
       "Visual Novel": 3,
@@ -74,7 +74,7 @@
     "premium": {
       "Adventure": 270,
       "Third-Person": 192,
-      "First-Person": 150,
+      "First-Person": 151,
       "Role-Playing": 145,
       "Indie": 136,
       "Shooter": 124,
@@ -83,7 +83,7 @@
       "Strategy": 85,
       "Side-View": 52,
       "Platform": 47,
-      "Puzzle": 46,
+      "Puzzle": 47,
       "Hack and Slash": 34,
       "Arcade": 32,
       "Racing": 23,
@@ -94,7 +94,7 @@
       "Real-Time Strategy": 17,
       "Point-and-Click": 12,
       "Virtual Reality": 10,
-      "Card & Board Game": 6,
+      "Card & Board Game": 7,
       "Quiz/Trivia": 4,
       "Music": 3,
       "Text": 1,
@@ -103,7 +103,7 @@
     "ultimate": {
       "Adventure": 386,
       "Third-Person": 306,
-      "First-Person": 213,
+      "First-Person": 214,
       "Role-Playing": 191,
       "Shooter": 174,
       "Indie": 172,
@@ -111,8 +111,8 @@
       "Isometric": 155,
       "Strategy": 131,
       "Side-View": 83,
+      "Puzzle": 76,
       "Platform": 75,
-      "Puzzle": 75,
       "Arcade": 54,
       "Sport": 54,
       "Racing": 49,
@@ -121,7 +121,7 @@
       "Tactical": 28,
       "Real-Time Strategy": 27,
       "Fighting": 25,
-      "Card & Board Game": 17,
+      "Card & Board Game": 18,
       "Virtual Reality": 16,
       "Point-and-Click": 12,
       "Music": 5,
@@ -7421,7 +7421,9 @@
       "leaving_dates": {},
       "genres": [
         "First-Person",
+        "Card & Board Game",
         "Indie",
+        "Puzzle",
         "Strategy"
       ],
       "game_modes": [
@@ -23207,6 +23209,7 @@
       "plan_added_dates": {},
       "leaving_dates": {},
       "genres": [
+        "First-Person",
         "Third-Person",
         "Adventure",
         "Simulator"
