@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-09-06T18:18:59.484045+00:00",
+  "updated_at": "2026-09-07T00:22:44.323766+00:00",
   "service_counts": {
     "essential": 70,
     "pc": 577,
@@ -44,7 +44,7 @@
     },
     "pc": {
       "Adventure": 352,
-      "Third-Person": 257,
+      "Third-Person": 258,
       "First-Person": 199,
       "Role-Playing": 178,
       "Indie": 167,
@@ -102,7 +102,7 @@
     },
     "ultimate": {
       "Adventure": 386,
-      "Third-Person": 306,
+      "Third-Person": 307,
       "First-Person": 214,
       "Role-Playing": 191,
       "Shooter": 174,
@@ -131,7 +131,7 @@
       "Text": 1
     },
     "ea_play": {
-      "Third-Person": 62,
+      "Third-Person": 63,
       "Adventure": 37,
       "First-Person": 29,
       "Shooter": 29,
@@ -13640,7 +13640,7 @@
       "new": false,
       "leaving": false,
       "year": 2016,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coajrp.jpg",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coctbu.jpg",
       "release_date": "July 22nd, 2016",
       "developer": "( 2016 ) No Brakes Games",
       "publisher": "Curve Digital",
@@ -15732,7 +15732,7 @@
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1x7o.jpg",
       "release_date": "November 20th, 2007",
       "developer": "( 2007 ) BioWare",
-      "publisher": "Electronic Arts",
+      "publisher": "Microsoft Game Studios",
       "description": "Mass Effect is available on Xbox via 4 service s , including EA Play, Game Pass for PC, Game Pass Premium, and more."
     },
     {
@@ -28992,7 +28992,7 @@
       "new": true,
       "leaving": false,
       "year": 2020,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2oyq.jpg",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocsvn.jpg",
       "release_date": "October 29th, 2020",
       "developer": "( 2020 ) Ubisoft Toronto",
       "publisher": "Ubisoft Entertainment",
@@ -29147,6 +29147,7 @@
       "plan_added_dates": {},
       "leaving_dates": {},
       "genres": [
+        "Third-Person",
         "Adventure"
       ],
       "game_modes": [
