@@ -8,12 +8,12 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-09-07T18:16:49.060923+00:00",
+  "updated_at": "2026-09-08T00:21:25.760434+00:00",
   "service_counts": {
     "essential": 70,
-    "pc": 577,
-    "premium": 431,
-    "ultimate": 657,
+    "pc": 578,
+    "premium": 432,
+    "ultimate": 658,
     "ea_play": 92,
     "ubisoft_classics": 64
   },
@@ -25,7 +25,7 @@
     "ea_play": {},
     "ubisoft_classics": {}
   },
-  "game_count_unique": 658,
+  "game_count_unique": 659,
   "games": [
     {
       "name": "1000xResist",
@@ -2816,6 +2816,44 @@
       "description": "Call of Duty: Black Ops 7 is a first-person shooter set in 2035, co-developed by Treyarch and Raven Software. The game features three main modes: a cooperative campaign playable with up to four players or solo, multiplayer with 6v6 and 20v20 modes, and the round-based Zombies mode. Multiplayer features a perk system split into combat spec..."
     },
     {
+      "name": "Call of Duty: Black Ops Cold War",
+      "url": "https://gamescriptions.com/game/137001",
+      "plans": [
+        "pc",
+        "premium",
+        "ultimate"
+      ],
+      "new_plans": [
+        "pc",
+        "premium",
+        "ultimate"
+      ],
+      "leaving_plans": [],
+      "plan_added_dates": {
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
+      },
+      "leaving_dates": {},
+      "genres": [],
+      "game_modes": [],
+      "game_style": [],
+      "platforms": [],
+      "essential": false,
+      "pc_game_pass": true,
+      "premium": true,
+      "ultimate": true,
+      "ea_play": false,
+      "ubisoft_classics": false,
+      "new": true,
+      "leaving": false,
+      "year": 2020,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2n6j.jpg",
+      "release_date": "November 13th, 2020",
+      "developer": "( 2020 ) Treyarch · Activision",
+      "description": "The iconic Black Ops series is back with Call of Duty: Black Ops Cold War - the direct sequel to the original and fan-favorite Call of Duty: Black Ops. Black Ops Cold War will drop fans into the depths of the Cold War’s volatile geopolitical battle of the early 1980s. Nothing is ever as it seems in a gripping single-player Campaign, where..."
+    },
+    {
       "name": "Call of Duty: Modern Warfare",
       "url": "https://gamescriptions.com/game/119177",
       "plans": [
@@ -3378,15 +3416,11 @@
       ],
       "new_plans": [
         "essential",
-        "pc",
-        "premium",
         "ultimate"
       ],
       "leaving_plans": [],
       "plan_added_dates": {
         "essential": "Jul 22",
-        "pc": "Jul 22",
-        "premium": "Jul 22",
         "ultimate": "Jul 22"
       },
       "leaving_dates": {},
@@ -11393,10 +11427,10 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "year": 2025,
+      "year": 2026,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co94bw.jpg",
-      "release_date": "November 19th, 2025",
-      "developer": "( 2025 ) Digital Sun Games · 11 bit studios",
+      "release_date": "September 2nd, 2026",
+      "developer": "( 2026 ) Digital Sun Games · 11 bit studios",
       "description": "Live the double life of a fearless adventurer and a crafty merchant! Dive into vibrant dimensions brimming with shiny loot and pesky enemies. Grow your shop, tinker with weapons and gadgets, as well as make your mark among a ragtag community of castaways."
     },
     {
@@ -12952,13 +12986,9 @@
         "premium",
         "ultimate"
       ],
-      "new_plans": [
-        "ultimate"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
-      "plan_added_dates": {
-        "ultimate": "Jul 21"
-      },
+      "plan_added_dates": {},
       "leaving_dates": {},
       "genres": [],
       "game_modes": [],
@@ -12970,7 +13000,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2024,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocjqh.jpg",
