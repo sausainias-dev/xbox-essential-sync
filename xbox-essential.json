@@ -8,13 +8,13 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-09-08T00:21:25.760434+00:00",
+  "updated_at": "2026-09-08T04:44:07.663234+00:00",
   "service_counts": {
     "essential": 70,
     "pc": 578,
     "premium": 432,
     "ultimate": 658,
-    "ea_play": 92,
+    "ea_play": 91,
     "ubisoft_classics": 64
   },
   "genre_counts": {
@@ -25,7 +25,7 @@
     "ea_play": {},
     "ubisoft_classics": {}
   },
-  "game_count_unique": 659,
+  "game_count_unique": 658,
   "games": [
     {
       "name": "1000xResist",
@@ -5766,36 +5766,6 @@
       "description": "In EA SPORTS College Football 26, the playbook is yours. Rise from high school recruit to Heisman legend, or cement your legacy as a coach by leading your program to glory."
     },
     {
-      "name": "EA Sports FC 24",
-      "url": "https://gamescriptions.com/game/256092",
-      "plans": [
-        "ea_play"
-      ],
-      "new_plans": [
-        "ea_play"
-      ],
-      "leaving_plans": [],
-      "plan_added_dates": {},
-      "leaving_dates": {},
-      "genres": [],
-      "game_modes": [],
-      "game_style": [],
-      "platforms": [],
-      "essential": false,
-      "pc_game_pass": false,
-      "premium": false,
-      "ultimate": false,
-      "ea_play": true,
-      "ubisoft_classics": false,
-      "new": true,
-      "leaving": false,
-      "year": 2023,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6qqa.jpg",
-      "release_date": "September 29th, 2023",
-      "developer": "( 2023 ) EA Romania · EA Sports",
-      "description": "EA Sports FC 24 is a football simulation game and the first entry in the series following the rebranding from the FIFA name. It features licensed leagues and competitions including the Premier League, UEFA Champions League, La Liga, Bundesliga, Serie A, and several women's football leagues. Game modes include Ultimate Team, Career Mode, a..."
-    },
-    {
       "name": "EA Sports FC 25",
       "url": "https://gamescriptions.com/game/308698",
       "plans": [
@@ -5871,7 +5841,9 @@
         "ultimate",
         "ea_play"
       ],
-      "new_plans": [],
+      "new_plans": [
+        "ea_play"
+      ],
       "leaving_plans": [],
       "plan_added_dates": {},
       "leaving_dates": {},
@@ -5885,7 +5857,7 @@
       "ultimate": true,
       "ea_play": true,
       "ubisoft_classics": false,
-      "new": false,
+      "new": true,
       "leaving": false,
       "year": 2023,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co60xh.jpg",
