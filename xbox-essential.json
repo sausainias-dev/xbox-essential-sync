@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-09-08T18:21:06.702877+00:00",
+  "updated_at": "2026-09-09T00:16:13.821970+00:00",
   "service_counts": {
     "essential": 70,
     "pc": 578,
@@ -2830,9 +2830,9 @@
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
+        "pc": "Sep 8",
+        "premium": "Sep 8",
+        "ultimate": "Sep 8"
       },
       "leaving_dates": {},
       "genres": [],
