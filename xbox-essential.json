@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-09-12T12:18:33.927365+00:00",
+  "updated_at": "2026-09-12T18:20:56.330648+00:00",
   "service_counts": {
     "essential": 70,
     "pc": 580,
@@ -4908,7 +4908,7 @@
       "description": "Endless demons to slaughter. Deep customization through Talents, Skill Points, Runes, and Legendary loot. Randomized dungeons contained in a dynamic open world."
     },
     {
-      "name": "Dice A Million",
+      "name": "Dice a Million",
       "url": "https://gamescriptions.com/game/335662",
       "plans": [
         "pc",
