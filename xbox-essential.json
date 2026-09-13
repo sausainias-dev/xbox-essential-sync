@@ -8,9 +8,9 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-09-13T06:18:50.975592+00:00",
+  "updated_at": "2026-09-13T12:16:26.524505+00:00",
   "service_counts": {
-    "essential": 70,
+    "essential": 71,
     "pc": 580,
     "premium": 434,
     "ultimate": 660,
@@ -12196,25 +12196,30 @@
       "name": "No Man's Sky",
       "url": "https://gamescriptions.com/game/3225",
       "plans": [
+        "essential",
         "pc",
         "premium",
         "ultimate"
       ],
-      "new_plans": [],
+      "new_plans": [
+        "essential"
+      ],
       "leaving_plans": [],
-      "plan_added_dates": {},
+      "plan_added_dates": {
+        "essential": "Today"
+      },
       "leaving_dates": {},
       "genres": [],
       "game_modes": [],
       "game_style": [],
       "platforms": [],
-      "essential": false,
+      "essential": true,
       "pc_game_pass": true,
       "premium": true,
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": false,
+      "new": true,
       "leaving": false,
       "year": 2016,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocnm2.jpg",
@@ -13404,9 +13409,7 @@
         "premium",
         "ultimate"
       ],
-      "new_plans": [
-        "essential"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
       "plan_added_dates": {},
       "leaving_dates": {},
@@ -13420,7 +13423,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2021,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob7mx.jpg",
