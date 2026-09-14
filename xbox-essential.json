@@ -8,9 +8,9 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-09-14T12:14:06.807631+00:00",
+  "updated_at": "2026-09-14T18:21:38.934214+00:00",
   "service_counts": {
-    "essential": 71,
+    "essential": 72,
     "pc": 580,
     "premium": 434,
     "ultimate": 660,
@@ -17807,25 +17807,30 @@
       "name": "TheHunter: Call of the Wild",
       "url": "https://gamescriptions.com/game/26381",
       "plans": [
+        "essential",
         "pc",
         "premium",
         "ultimate"
       ],
-      "new_plans": [],
+      "new_plans": [
+        "essential"
+      ],
       "leaving_plans": [],
-      "plan_added_dates": {},
+      "plan_added_dates": {
+        "essential": "Sep 11"
+      },
       "leaving_dates": {},
       "genres": [],
       "game_modes": [],
       "game_style": [],
       "platforms": [],
-      "essential": false,
+      "essential": true,
       "pc_game_pass": true,
       "premium": true,
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": false,
+      "new": true,
       "leaving": false,
       "year": 2017,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1u14.jpg",
@@ -18827,9 +18832,7 @@
         "premium",
         "ultimate"
       ],
-      "new_plans": [
-        "essential"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
       "plan_added_dates": {},
       "leaving_dates": {},
@@ -18843,7 +18846,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2022,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4bzv.jpg",
