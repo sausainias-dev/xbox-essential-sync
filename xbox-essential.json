@@ -8,12 +8,12 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-09-14T18:21:38.934214+00:00",
+  "updated_at": "2026-09-15T00:21:40.860224+00:00",
   "service_counts": {
     "essential": 72,
-    "pc": 580,
-    "premium": 434,
-    "ultimate": 660,
+    "pc": 581,
+    "premium": 435,
+    "ultimate": 661,
     "ea_play": 91,
     "ubisoft_classics": 64
   },
@@ -25,7 +25,7 @@
     "ea_play": {},
     "ubisoft_classics": {}
   },
-  "game_count_unique": 660,
+  "game_count_unique": 661,
   "games": [
     {
       "name": "1000xResist",
@@ -3383,9 +3383,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Tomorrow",
-        "premium": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "genres": [],
       "game_modes": [],
@@ -3851,9 +3851,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Tomorrow",
-        "premium": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "genres": [],
       "game_modes": [],
@@ -4080,8 +4080,8 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "premium": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "genres": [],
       "game_modes": [],
@@ -4306,10 +4306,10 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "essential": "Tomorrow",
-        "pc": "Tomorrow",
-        "premium": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "essential": "Today",
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "genres": [],
       "game_modes": [],
@@ -4675,9 +4675,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Tomorrow",
-        "premium": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "genres": [],
       "game_modes": [],
@@ -7456,9 +7456,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Tomorrow",
-        "premium": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "genres": [],
       "game_modes": [],
@@ -8618,12 +8618,10 @@
         "ultimate"
       ],
       "new_plans": [
-        "pc",
         "ultimate"
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "pc": "Jul 23",
         "ultimate": "Jul 23"
       },
       "leaving_dates": {},
@@ -11532,9 +11530,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Tomorrow",
-        "premium": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "genres": [],
       "game_modes": [],
@@ -11629,9 +11627,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Tomorrow",
-        "premium": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "genres": [],
       "game_modes": [],
@@ -13281,13 +13279,9 @@
         "premium",
         "ultimate"
       ],
-      "new_plans": [
-        "premium"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
-      "plan_added_dates": {
-        "premium": "Aug 6"
-      },
+      "plan_added_dates": {},
       "leaving_dates": {},
       "genres": [],
       "game_modes": [],
@@ -13299,7 +13293,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2025,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9tye.jpg",
@@ -14464,6 +14458,44 @@
       "description": "Routine is a First Person Sci-Fi Horror title set on an abandoned Lunar base designed around an 80’s vision of the future. Curious exploration turns into a need for survival when a lunar base goes completely quiet. Searching for answers puts you face to face with an enemy who is certain the main threat is you."
     },
     {
+      "name": "RuneScape: Dragonwilds",
+      "url": "https://gamescriptions.com/game/337712",
+      "plans": [
+        "pc",
+        "premium",
+        "ultimate"
+      ],
+      "new_plans": [
+        "pc",
+        "premium",
+        "ultimate"
+      ],
+      "leaving_plans": [],
+      "plan_added_dates": {
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
+      },
+      "leaving_dates": {},
+      "genres": [],
+      "game_modes": [],
+      "game_style": [],
+      "platforms": [],
+      "essential": false,
+      "pc_game_pass": true,
+      "premium": true,
+      "ultimate": true,
+      "ea_play": false,
+      "ubisoft_classics": false,
+      "new": true,
+      "leaving": false,
+      "year": 2025,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocaxf.jpg",
+      "release_date": "April 15th, 2025",
+      "developer": "( 2025 ) Jagex",
+      "description": "On RuneScape’s forgotten continent of Ashenfall, dragons have awoken. Gather, build, skill and craft to survive in this co-operative (1-4) survival crafting game. Only by mastering survival and uncovering ancient secrets can they hope to slay the Dragon Queen—alone or with allies."
+    },
+    {
       "name": "Rush: A Disney Pixar Adventure",
       "url": "https://gamescriptions.com/game/55072",
       "plans": [
@@ -14814,13 +14846,9 @@
         "pc",
         "ultimate"
       ],
-      "new_plans": [
-        "ultimate"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
-      "plan_added_dates": {
-        "ultimate": "Jul 22"
-      },
+      "plan_added_dates": {},
       "leaving_dates": {},
       "genres": [],
       "game_modes": [],
@@ -14832,7 +14860,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2026,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa2v6.jpg",
@@ -15370,10 +15398,10 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "essential": "Tomorrow",
-        "pc": "Tomorrow",
-        "premium": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "essential": "Today",
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "genres": [],
       "game_modes": [],
@@ -16329,10 +16357,10 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "essential": "Tomorrow",
-        "pc": "Tomorrow",
-        "premium": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "essential": "Today",
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "genres": [],
       "game_modes": [],
@@ -18345,9 +18373,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Tomorrow",
-        "premium": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "genres": [],
       "game_modes": [],
