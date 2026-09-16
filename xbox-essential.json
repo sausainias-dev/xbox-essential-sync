@@ -8,12 +8,12 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-09-15T18:18:43.508399+00:00",
+  "updated_at": "2026-09-16T00:13:58.303033+00:00",
   "service_counts": {
-    "essential": 72,
-    "pc": 581,
-    "premium": 435,
-    "ultimate": 661,
+    "essential": 69,
+    "pc": 571,
+    "premium": 428,
+    "ultimate": 650,
     "ea_play": 91,
     "ubisoft_classics": 64
   },
@@ -25,7 +25,7 @@
     "ea_play": {},
     "ubisoft_classics": {}
   },
-  "game_count_unique": 661,
+  "game_count_unique": 650,
   "games": [
     {
       "name": "1000xResist",
@@ -2560,13 +2560,9 @@
         "premium",
         "ultimate"
       ],
-      "new_plans": [
-        "premium"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
-      "plan_added_dates": {
-        "premium": "Aug 11"
-      },
+      "plan_added_dates": {},
       "leaving_dates": {},
       "genres": [],
       "game_modes": [],
@@ -2578,7 +2574,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2025,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaqsj.jpg",
@@ -3376,44 +3372,6 @@
       "description": "Contains the complete Tiberian Dawn and Red Alert games, plus all three expansion packs (Covert Operations, Counterstrike, and The Aftermath), completely remastered music and graphics, UI improvements, and tons of bonus features and improvements."
     },
     {
-      "name": "Commandos: Origins",
-      "url": "https://gamescriptions.com/game/255936",
-      "plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "plan_added_dates": {},
-      "leaving_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
-      },
-      "genres": [],
-      "game_modes": [],
-      "game_style": [],
-      "platforms": [],
-      "essential": false,
-      "pc_game_pass": true,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": true,
-      "year": 2025,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co856g.jpg",
-      "release_date": "April 9th, 2025",
-      "developer": "( 2025 ) Claymore Game Studios · Kalypso Media",
-      "description": "Commandos: Origins tells the story of a newly founded British commando unit that grows into a brotherhood during its operations against strategic goals of the German Wehrmacht."
-    },
-    {
       "name": "Conker: Live & Reloaded",
       "url": "https://gamescriptions.com/game/1425",
       "plans": [
@@ -3844,44 +3802,6 @@
       "description": "Time to clock in at DE NILE SHIPPING, the worlds most efficient warehouse! Work together in online co-op with up to 4 players to fulfill orders of increasingly chaotic, physics-based boxes. Time is money, and safety is no concern just try not to crash out!"
     },
     {
-      "name": "Cricket 24",
-      "url": "https://gamescriptions.com/game/243749",
-      "plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "plan_added_dates": {},
-      "leaving_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
-      },
-      "genres": [],
-      "game_modes": [],
-      "game_style": [],
-      "platforms": [],
-      "essential": false,
-      "pc_game_pass": true,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": true,
-      "year": 2023,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7plg.jpg",
-      "release_date": "October 5th, 2023",
-      "developer": "( 2023 ) Big Ant Studios · Nacon",
-      "description": "Cricket 24 is the culmination of a decade of Cricket video game development and includes teams from every corner of the globe."
-    },
-    {
       "name": "Cricket 26",
       "url": "https://gamescriptions.com/game/372155",
       "plans": [
@@ -4075,41 +3995,6 @@
       "description": "The award-winning developer Crytek is back with Crysis 3, the first blockbuster shooter of 2013! Crysis 3 is the ultimate sandbox shooter, realized in the stunning visuals only Crytek and the latest version of CryENGINE can deliver. Available now on Xbox 360, PlayStation 3, and PC."
     },
     {
-      "name": "Cyberpunk 2077",
-      "url": "https://gamescriptions.com/game/1877",
-      "plans": [
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [
-        "premium",
-        "ultimate"
-      ],
-      "plan_added_dates": {},
-      "leaving_dates": {
-        "premium": "Today",
-        "ultimate": "Today"
-      },
-      "genres": [],
-      "game_modes": [],
-      "game_style": [],
-      "platforms": [],
-      "essential": false,
-      "pc_game_pass": false,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": true,
-      "year": 2020,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaih8.jpg",
-      "release_date": "December 10th, 2020",
-      "developer": "( 2020 ) CD Projekt RED · CD Projekt",
-      "description": "Cyberpunk 2077 is an open-world action-adventure game set in Night City, a sprawling metropolis driven by power, glamour, and body modification. Players assume the role of V, a mercenary outlaw in pursuit of a unique implant that holds the key to immortality. The game allows extensive customization of cyberware, skills, and playstyle."
-    },
-    {
       "name": "D-topia",
       "url": "https://gamescriptions.com/game/369840",
       "plans": [
@@ -4177,13 +4062,11 @@
       ],
       "new_plans": [
         "pc",
-        "premium",
         "ultimate"
       ],
       "leaving_plans": [],
       "plan_added_dates": {
         "pc": "Aug 11",
-        "premium": "Aug 11",
         "ultimate": "Aug 11"
       },
       "leaving_dates": {},
@@ -4295,47 +4178,6 @@
       "release_date": "June 14th, 2016",
       "developer": "( 2016 ) Behaviour Interactive",
       "description": "Trapped forever in a realm of eldritch evil where even death is not an escape, four determined Survivors face a bloodthirsty Killer in a vicious game of nerve and wits. Pick a side and step into a world of tension and terror with horror gaming's best asymmetrical multiplayer. Survivors play in third-person and have the advantage of bette..."
-    },
-    {
-      "name": "Dead Cells",
-      "url": "https://gamescriptions.com/game/26855",
-      "plans": [
-        "essential",
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [
-        "essential",
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "plan_added_dates": {},
-      "leaving_dates": {
-        "essential": "Today",
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
-      },
-      "genres": [],
-      "game_modes": [],
-      "game_style": [],
-      "platforms": [],
-      "essential": true,
-      "pc_game_pass": true,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": true,
-      "year": 2018,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7jfv.jpg",
-      "release_date": "August 6th, 2018",
-      "developer": "( 2018 ) Motion Twin · Playdigious",
-      "description": "Dead Cells is a 2D side-scrolling action platformer combining roguelike and Metroidvania design. Players control the Prisoner, an immortal creature that possesses corpses and fights through procedurally generated levels filled with mutated enemies. Combat centers on melee weapons, bows, traps, and dodging, with enemy patterns that reward..."
     },
     {
       "name": "Dead Island 2",
@@ -4666,44 +4508,6 @@
       "release_date": "May 13th, 2020",
       "developer": "( 2020 ) Ghost Ship Games · Coffee Stain Publishing",
       "description": "Deep Rock Galactic is a cooperative first-person shooter set on the alien planet Hoxxes IV. Players take on the role of dwarven space miners employed by an intergalactic mining corporation, completing missions in procedurally generated cave systems filled with hostile alien wildlife. The game supports up to four players who choose from di..."
-    },
-    {
-      "name": "Deep Rock Galactic: Survivor",
-      "url": "https://gamescriptions.com/game/240556",
-      "plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "plan_added_dates": {},
-      "leaving_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
-      },
-      "genres": [],
-      "game_modes": [],
-      "game_style": [],
-      "platforms": [],
-      "essential": false,
-      "pc_game_pass": true,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": true,
-      "year": 2025,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co68ah.jpg",
-      "release_date": "September 17th, 2025",
-      "developer": "( 2025 ) Funday Games · Ghost Ship Publishing",
-      "description": "Deep Rock Galactic: Survivor is a single player survivor-like auto-shooter. Wield the full arsenal of Deep Rock Galactic, take on hordes of lethal aliens, mine riches, and unlock powerful upgrades. It's one dwarf against all of Planet Hoxxes!"
     },
     {
       "name": "Denshattack!",
@@ -7449,44 +7253,6 @@
       "description": "Storm The Sewers for the glory of the Swamp King! Swing, jump, catapult your friends, and eat eat EAT until you grow into a humongous Megafrog. A co-op extraction puzzle-platformer for up to 8 players."
     },
     {
-      "name": "Frostpunk 2",
-      "url": "https://gamescriptions.com/game/164290",
-      "plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "plan_added_dates": {},
-      "leaving_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
-      },
-      "genres": [],
-      "game_modes": [],
-      "game_style": [],
-      "platforms": [],
-      "essential": false,
-      "pc_game_pass": true,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": true,
-      "year": 2024,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8yrc.jpg",
-      "release_date": "September 20th, 2024",
-      "developer": "( 2024 ) 11 bit studios",
-      "description": "Frostpunk 2 is the sequel to the highly acclaimed, BAFTA-nominated society survival game. The age of steam has passed and now, oil leads the way as humanity’s newest salvation. However, with new threats on the horizon, the future of the city looks even grimmer than before."
-    },
-    {
       "name": "Full Throttle Remastered",
       "url": "https://gamescriptions.com/game/26179",
       "plans": [
@@ -8221,13 +7987,9 @@
         "premium",
         "ultimate"
       ],
-      "new_plans": [
-        "premium"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
-      "plan_added_dates": {
-        "premium": "Aug 11"
-      },
+      "plan_added_dates": {},
       "leaving_dates": {},
       "genres": [],
       "game_modes": [],
@@ -8239,7 +8001,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2025,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xwo.jpg",
@@ -10481,11 +10243,16 @@
       "url": "https://gamescriptions.com/game/337035",
       "plans": [
         "pc",
+        "premium",
         "ultimate"
       ],
-      "new_plans": [],
+      "new_plans": [
+        "premium"
+      ],
       "leaving_plans": [],
-      "plan_added_dates": {},
+      "plan_added_dates": {
+        "premium": "Today"
+      },
       "leaving_dates": {},
       "genres": [],
       "game_modes": [],
@@ -10493,11 +10260,11 @@
       "platforms": [],
       "essential": false,
       "pc_game_pass": true,
-      "premium": false,
+      "premium": true,
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": false,
+      "new": true,
       "leaving": false,
       "year": 2025,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coakkw.jpg",
@@ -11342,13 +11109,9 @@
         "premium",
         "ultimate"
       ],
-      "new_plans": [
-        "premium"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
-      "plan_added_dates": {
-        "premium": "Aug 6"
-      },
+      "plan_added_dates": {},
       "leaving_dates": {},
       "genres": [],
       "game_modes": [],
@@ -11360,7 +11123,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2025,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc351.jpg",
@@ -11547,44 +11310,6 @@
       "description": "The ultimate multiplayer open world designed by Pro riders. Discover mountains and trails with limitless control and build your own career. Pull huge tricks or race through the global rankings!"
     },
     {
-      "name": "Mullet Madjack",
-      "url": "https://gamescriptions.com/game/252445",
-      "plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "plan_added_dates": {},
-      "leaving_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
-      },
-      "genres": [],
-      "game_modes": [],
-      "game_style": [],
-      "platforms": [],
-      "essential": false,
-      "pc_game_pass": true,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": true,
-      "year": 2024,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6m1h.jpg",
-      "release_date": "May 15th, 2024",
-      "developer": "( 2024 ) HAMMER95 · Epopeia Games",
-      "description": "Mullet Madjack is a single-player fast-paced FPS that brings you directly inside a classic anime. Power up your character and reach the last floor; Beat your best time or try again. Haste makes waste… of your enemies!"
-    },
-    {
       "name": "My Friend Peppa Pig",
       "url": "https://gamescriptions.com/game/148289",
       "plans": [
@@ -11642,44 +11367,6 @@
       "release_date": "November 19th, 2024",
       "developer": "( 2024 ) Maxis · Electronic Arts",
       "description": "A bundle containing MySims and MySims Kingdom."
-    },
-    {
-      "name": "NBA 2K26",
-      "url": "https://gamescriptions.com/game/353901",
-      "plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "plan_added_dates": {},
-      "leaving_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
-      },
-      "genres": [],
-      "game_modes": [],
-      "game_style": [],
-      "platforms": [],
-      "essential": false,
-      "pc_game_pass": true,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": true,
-      "year": 2025,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa3pk.jpg",
-      "release_date": "September 5th, 2025",
-      "developer": "( 2025 ) Visual Concepts · 2K",
-      "description": "Bragging rights are on the line in MyCAREER, MyTEAM, MyNBA, The W, and Play Now. Showcase your bag of moves with hyper realism, Powered by ProPLAY, and challenge your friends, or rivals, in NBA 2K26’s competitive modes—and leave no doubt that you wear the crown."
     },
     {
       "name": "Need for Speed",
@@ -13012,11 +12699,16 @@
       "url": "https://gamescriptions.com/game/348200",
       "plans": [
         "pc",
+        "premium",
         "ultimate"
       ],
-      "new_plans": [],
+      "new_plans": [
+        "premium"
+      ],
       "leaving_plans": [],
-      "plan_added_dates": {},
+      "plan_added_dates": {
+        "premium": "Today"
+      },
       "leaving_dates": {},
       "genres": [],
       "game_modes": [],
@@ -13024,11 +12716,11 @@
       "platforms": [],
       "essential": false,
       "pc_game_pass": true,
-      "premium": false,
+      "premium": true,
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": false,
+      "new": true,
       "leaving": false,
       "year": 2026,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc37i.jpg",
@@ -14465,11 +14157,16 @@
       "url": "https://gamescriptions.com/game/8948",
       "plans": [
         "pc",
+        "premium",
         "ultimate"
       ],
-      "new_plans": [],
+      "new_plans": [
+        "premium"
+      ],
       "leaving_plans": [],
-      "plan_added_dates": {},
+      "plan_added_dates": {
+        "premium": "Today"
+      },
       "leaving_dates": {},
       "genres": [],
       "game_modes": [],
@@ -14477,11 +14174,11 @@
       "platforms": [],
       "essential": false,
       "pc_game_pass": true,
-      "premium": false,
+      "premium": true,
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": false,
+      "new": true,
       "leaving": false,
       "year": 2025,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coay6e.jpg",
@@ -14504,9 +14201,9 @@
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
+        "pc": "Sep 15",
+        "premium": "Sep 15",
+        "ultimate": "Sep 15"
       },
       "leaving_dates": {},
       "genres": [],
@@ -15429,47 +15126,6 @@
       "description": "The ultimate competitive platformer is back! Outrun, outjump, and outsmart your rivals in cutthroat online/local races, now up to 8 players. Master the movement, learn meticulously designed maps, use powerful pick-ups, swing around with a grappling hook, and don't get knocked off-screen!"
     },
     {
-      "name": "Spiritfarer",
-      "url": "https://gamescriptions.com/game/119304",
-      "plans": [
-        "essential",
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [
-        "essential",
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "plan_added_dates": {},
-      "leaving_dates": {
-        "essential": "Today",
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
-      },
-      "genres": [],
-      "game_modes": [],
-      "game_style": [],
-      "platforms": [],
-      "essential": true,
-      "pc_game_pass": true,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": true,
-      "year": 2020,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2fe7.jpg",
-      "release_date": "August 18th, 2020",
-      "developer": "( 2020 ) Thunder Lotus",
-      "description": "Spiritfarer is a cozy management game about dying. You play Stella, ferrymaster to the deceased, a Spiritfarer. Build a boat to explore the world, then befriend and care for spirits before finally releasing them into the afterlife."
-    },
-    {
       "name": "SpongeBob SquarePants: The Patrick Star Game",
       "url": "https://gamescriptions.com/game/314939",
       "plans": [
@@ -16386,47 +16042,6 @@
       "release_date": "July 16th, 2020",
       "developer": "( 2020 ) SUPERHOT Team",
       "description": "The third game in the SuperHot franchise - Mind Control Delete gives you more insight into the world of SuperHot, more story, more signature gameplay. Hours and hours of timeless combat. Keep dancing the slow motion ballet of destruction for so much longer than ever before."
-    },
-    {
-      "name": "Superliminal",
-      "url": "https://gamescriptions.com/game/68447",
-      "plans": [
-        "essential",
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [
-        "essential",
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "plan_added_dates": {},
-      "leaving_dates": {
-        "essential": "Today",
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
-      },
-      "genres": [],
-      "game_modes": [],
-      "game_style": [],
-      "platforms": [],
-      "essential": true,
-      "pc_game_pass": true,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": true,
-      "year": 2019,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1uqz.jpg",
-      "release_date": "November 12th, 2019",
-      "developer": "( 2019 ) Pillow Castle Games",
-      "description": "Falling asleep at 3AM, you close your eyes to the cheesy commercial of Dr. Pierce's dream therapy program. You wake up in an unfamiliar environment, only to realize that you're stuck in a dream - a dream where perception is reality."
     },
     {
       "name": "Supermarket Simulator",
@@ -18414,44 +18029,6 @@
       "description": "In the toughest motoring expedition in the universe, you and your friends will build your own vehicles to cross a dangerous wasteland. Explore, crash horribly, use your wits to build a better rig, and get as far as you can with whatever spare parts you find on your way."
     },
     {
-      "name": "Train Sim World 5",
-      "url": "https://gamescriptions.com/game/314215",
-      "plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "plan_added_dates": {},
-      "leaving_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
-      },
-      "genres": [],
-      "game_modes": [],
-      "game_style": [],
-      "platforms": [],
-      "essential": false,
-      "pc_game_pass": true,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": true,
-      "year": 2024,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8pjt.jpg",
-      "release_date": "September 17th, 2024",
-      "developer": "( 2024 ) Dovetail Games",
-      "description": "The Rails are Yours in Train Sim World 5! Take on new challenges and new roles as you master the tracks and trains of iconic cities across 3 new routes. Immerse yourself in the ultimate rail hobby and embark on your next journey."
-    },
-    {
       "name": "Transference",
       "url": "https://gamescriptions.com/game/37064",
       "plans": [
@@ -18675,11 +18252,16 @@
       "url": "https://gamescriptions.com/game/325276",
       "plans": [
         "pc",
+        "premium",
         "ultimate"
       ],
-      "new_plans": [],
+      "new_plans": [
+        "premium"
+      ],
       "leaving_plans": [],
-      "plan_added_dates": {},
+      "plan_added_dates": {
+        "premium": "Today"
+      },
       "leaving_dates": {},
       "genres": [],
       "game_modes": [],
@@ -18687,11 +18269,11 @@
       "platforms": [],
       "essential": false,
       "pc_game_pass": true,
-      "premium": false,
+      "premium": true,
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": false,
+      "new": true,
       "leaving": false,
       "year": 2025,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9547.jpg",
