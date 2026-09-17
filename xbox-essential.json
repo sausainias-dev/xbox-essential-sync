@@ -8,12 +8,12 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-09-17T12:19:44.742488+00:00",
+  "updated_at": "2026-09-17T18:19:30.193165+00:00",
   "service_counts": {
     "essential": 69,
-    "pc": 572,
-    "premium": 429,
-    "ultimate": 651,
+    "pc": 573,
+    "premium": 430,
+    "ultimate": 652,
     "ea_play": 91,
     "ubisoft_classics": 64
   },
@@ -25,7 +25,7 @@
     "ea_play": {},
     "ubisoft_classics": {}
   },
-  "game_count_unique": 651,
+  "game_count_unique": 652,
   "games": [
     {
       "name": "1000xResist",
@@ -3807,13 +3807,11 @@
       ],
       "new_plans": [
         "pc",
-        "premium",
         "ultimate"
       ],
       "leaving_plans": [],
       "plan_added_dates": {
         "pc": "Aug 13",
-        "premium": "Aug 13",
         "ultimate": "Aug 13"
       },
       "leaving_dates": {},
@@ -8228,13 +8226,9 @@
         "pc",
         "ultimate"
       ],
-      "new_plans": [
-        "ultimate"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
-      "plan_added_dates": {
-        "ultimate": "Jul 28"
-      },
+      "plan_added_dates": {},
       "leaving_dates": {},
       "genres": [],
       "game_modes": [],
@@ -8246,7 +8240,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2026,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaqxe.jpg",
@@ -10939,12 +10933,10 @@
         "ultimate"
       ],
       "new_plans": [
-        "pc",
         "ultimate"
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "pc": "Jul 30",
         "ultimate": "Jul 30"
       },
       "leaving_dates": {},
@@ -14559,6 +14551,44 @@
       "release_date": "August 20th, 2015",
       "developer": "( 2015 ) Harebrained Schemes",
       "description": "Shadowrun: Hong Kong - Extended Edition is the capstone title in Harebrained Schemes' Shadowrun series - and now includes the all-new, 6+ hr Shadows of Hong Kong Bonus Campaign. Experience the most impressive Shadowrun RPG yet, hailed as one of the best cRPG / strategy games of 2015!"
+    },
+    {
+      "name": "Shape of Dreams",
+      "url": "https://gamescriptions.com/game/293572",
+      "plans": [
+        "pc",
+        "premium",
+        "ultimate"
+      ],
+      "new_plans": [
+        "pc",
+        "premium",
+        "ultimate"
+      ],
+      "leaving_plans": [],
+      "plan_added_dates": {
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
+      },
+      "leaving_dates": {},
+      "genres": [],
+      "game_modes": [],
+      "game_style": [],
+      "platforms": [],
+      "essential": false,
+      "pc_game_pass": true,
+      "premium": true,
+      "ultimate": true,
+      "ea_play": false,
+      "ubisoft_classics": false,
+      "new": true,
+      "leaving": false,
+      "year": 2025,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co91c6.jpg",
+      "release_date": "September 10th, 2025",
+      "developer": "( 2025 ) Lizard Smoothie · Neowiz",
+      "description": "Shape of Dreams is an action rogue-lite infused with MOBA-esque elements. Venture into a vivid dream world, and create your own champion by freely swapping skills with whatever you like. Play solo against all odds, or with friends in a 4-player co-op game."
     },
     {
       "name": "Shelldiver",
@@ -19160,7 +19190,11 @@
       "ubisoft_classics": true,
       "new": false,
       "leaving": false,
-      "enrich_error": "HTTPSConnectionPool(host='gamescriptions.com', port=443): Read timed out. (read timeout=30)"
+      "year": 2016,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2p3j.jpg",
+      "release_date": "November 15th, 2016",
+      "developer": "( 2016 ) Ubisoft Montreal · Ubisoft Entertainment",
+      "description": "Explore a massive and dynamic open world offering an incredible variety of gameplay possibilities. Hack your way through traffic while you engage in dangerous car chases through the winding streets of San Francisco, traverse the rooftops of the colorful and vibrant neighborhoods of Oakland, and infiltrate the cutting-edge offices of Silic..."
     },
     {
       "name": "Watch Dogs: Legion",
@@ -19221,7 +19255,11 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/9182"
+      "year": 2018,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1nax.jpg",
+      "release_date": "August 10th, 2018",
+      "developer": "( 2018 ) Compulsion Games · Gearbox Publishing",
+      "description": "We Happy Few is the tale of a plucky bunch of moderately terrible people trying to escape from a lifetime of cheerful denial. Set in a drug-fuelled, retrofuturistic city in an alternative 1960s England, you'll have to blend in with its other inhabitants, who don't take kindly to people who don't abide by their not-so-normal rules."
     },
     {
       "name": "Wheel of Fortune",
@@ -19246,7 +19284,11 @@
       "ubisoft_classics": true,
       "new": false,
       "leaving": false,
-      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/119255"
+      "year": 2017,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2t71.jpg",
+      "release_date": "November 7th, 2017",
+      "developer": "( 2017 ) Frima Studio · Ubisoft Entertainment",
+      "description": "Play as a contestant on Wheel of Fortune, America's favorite TV show, anytime, anywhere! Spin the wheel and put your brain to the test against thousands of unique puzzles. Play solo or challenge players online."
     },
     {
       "name": "Wheel World",
