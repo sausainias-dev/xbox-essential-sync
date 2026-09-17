@@ -8,12 +8,12 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-09-16T18:16:06.237731+00:00",
+  "updated_at": "2026-09-17T00:19:11.183464+00:00",
   "service_counts": {
     "essential": 69,
-    "pc": 571,
-    "premium": 428,
-    "ultimate": 650,
+    "pc": 572,
+    "premium": 429,
+    "ultimate": 651,
     "ea_play": 91,
     "ubisoft_classics": 64
   },
@@ -25,7 +25,7 @@
     "ea_play": {},
     "ubisoft_classics": {}
   },
-  "game_count_unique": 650,
+  "game_count_unique": 651,
   "games": [
     {
       "name": "1000xResist",
@@ -1645,13 +1645,9 @@
         "premium",
         "ultimate"
       ],
-      "new_plans": [
-        "premium"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
-      "plan_added_dates": {
-        "premium": "Aug 12"
-      },
+      "plan_added_dates": {},
       "leaving_dates": {},
       "genres": [],
       "game_modes": [],
@@ -1663,7 +1659,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2025,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xid.jpg",
@@ -8233,12 +8229,10 @@
         "ultimate"
       ],
       "new_plans": [
-        "pc",
         "ultimate"
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "pc": "Jul 28",
         "ultimate": "Jul 28"
       },
       "leaving_dates": {},
@@ -8387,13 +8381,9 @@
         "premium",
         "ultimate"
       ],
-      "new_plans": [
-        "ultimate"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
-      "plan_added_dates": {
-        "ultimate": "Jul 23"
-      },
+      "plan_added_dates": {},
       "leaving_dates": {},
       "genres": [],
       "game_modes": [],
@@ -8405,7 +8395,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2025,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9vum.jpg",
@@ -9404,6 +9394,41 @@
       "description": "From Lee Petty and Double Fine Productions, Keeper is an atmospheric puzzle adventure in which a long-forgotten lighthouse is awakened and, joined by a spirited seabird, it embarks upon a heartening tale of unlikely companionship, and an unexpected journey into realms beyond understanding."
     },
     {
+      "name": "Kernel Hearts",
+      "url": "https://gamescriptions.com/game/318625",
+      "plans": [
+        "pc",
+        "ultimate"
+      ],
+      "new_plans": [
+        "pc",
+        "ultimate"
+      ],
+      "leaving_plans": [],
+      "plan_added_dates": {
+        "pc": "Today",
+        "ultimate": "Today"
+      },
+      "leaving_dates": {},
+      "genres": [],
+      "game_modes": [],
+      "game_style": [],
+      "platforms": [],
+      "essential": false,
+      "pc_game_pass": true,
+      "premium": false,
+      "ultimate": true,
+      "ea_play": false,
+      "ubisoft_classics": false,
+      "new": true,
+      "leaving": false,
+      "year": 2026,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9tun.jpg",
+      "release_date": "September 17th, 2026",
+      "developer": "( 2026 ) Ephemera Games · Whitethorn Games",
+      "description": "Gather your allies. Eliminate Angels. Transform into a Magical Girl."
+    },
+    {
       "name": "Kill it with Fire 2",
       "url": "https://gamescriptions.com/game/252847",
       "plans": [
@@ -10251,7 +10276,7 @@
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "premium": "Today"
+        "premium": "Sep 16"
       },
       "leaving_dates": {},
       "genres": [],
@@ -11825,11 +11850,16 @@
       "url": "https://gamescriptions.com/game/329130",
       "plans": [
         "pc",
+        "premium",
         "ultimate"
       ],
-      "new_plans": [],
+      "new_plans": [
+        "premium"
+      ],
       "leaving_plans": [],
-      "plan_added_dates": {},
+      "plan_added_dates": {
+        "premium": "Today"
+      },
       "leaving_dates": {},
       "genres": [],
       "game_modes": [],
@@ -11837,11 +11867,11 @@
       "platforms": [],
       "essential": false,
       "pc_game_pass": true,
-      "premium": false,
+      "premium": true,
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": false,
+      "new": true,
       "leaving": false,
       "year": 2025,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9b3p.jpg",
@@ -12707,7 +12737,7 @@
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "premium": "Today"
+        "premium": "Sep 16"
       },
       "leaving_dates": {},
       "genres": [],
@@ -14165,7 +14195,7 @@
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "premium": "Today"
+        "premium": "Sep 16"
       },
       "leaving_dates": {},
       "genres": [],
@@ -18260,7 +18290,7 @@
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "premium": "Today"
+        "premium": "Sep 16"
       },
       "leaving_dates": {},
       "genres": [],
