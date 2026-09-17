@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-09-17T06:18:16.120512+00:00",
+  "updated_at": "2026-09-17T12:19:44.742488+00:00",
   "service_counts": {
     "essential": 69,
     "pc": 572,
@@ -13839,7 +13839,7 @@
       "new": false,
       "leaving": false,
       "year": 2020,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co22l7.jpg",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocw1u.jpg",
       "release_date": "April 3rd, 2020",
       "developer": "( 2020 ) Capcom Development Division 1 · Capcom",
       "description": "Resident Evil 3 is a remake of the original Resident Evil 3: Nemesis released in 1999. It updates the story and gameplay for a modern audience. Like the Resident Evil 2 remake, the game uses over-the-shoulder third person point of view similar to Resident Evil 4 and later installments."
@@ -19160,11 +19160,7 @@
       "ubisoft_classics": true,
       "new": false,
       "leaving": false,
-      "year": 2016,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2p3j.jpg",
-      "release_date": "November 15th, 2016",
-      "developer": "( 2016 ) Ubisoft Montreal · Ubisoft Entertainment",
-      "description": "Explore a massive and dynamic open world offering an incredible variety of gameplay possibilities. Hack your way through traffic while you engage in dangerous car chases through the winding streets of San Francisco, traverse the rooftops of the colorful and vibrant neighborhoods of Oakland, and infiltrate the cutting-edge offices of Silic..."
+      "enrich_error": "HTTPSConnectionPool(host='gamescriptions.com', port=443): Read timed out. (read timeout=30)"
     },
     {
       "name": "Watch Dogs: Legion",
@@ -19225,11 +19221,7 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "year": 2018,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1nax.jpg",
-      "release_date": "August 10th, 2018",
-      "developer": "( 2018 ) Compulsion Games · Gearbox Publishing",
-      "description": "We Happy Few is the tale of a plucky bunch of moderately terrible people trying to escape from a lifetime of cheerful denial. Set in a drug-fuelled, retrofuturistic city in an alternative 1960s England, you'll have to blend in with its other inhabitants, who don't take kindly to people who don't abide by their not-so-normal rules."
+      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/9182"
     },
     {
       "name": "Wheel of Fortune",
@@ -19254,11 +19246,7 @@
       "ubisoft_classics": true,
       "new": false,
       "leaving": false,
-      "year": 2017,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2t71.jpg",
-      "release_date": "November 7th, 2017",
-      "developer": "( 2017 ) Frima Studio · Ubisoft Entertainment",
-      "description": "Play as a contestant on Wheel of Fortune, America's favorite TV show, anytime, anywhere! Spin the wheel and put your brain to the test against thousands of unique puzzles. Play solo or challenge players online."
+      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/119255"
     },
     {
       "name": "Wheel World",
