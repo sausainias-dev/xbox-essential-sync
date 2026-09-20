@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-09-20T04:38:34.787304+00:00",
+  "updated_at": "2026-09-20T06:15:37.141841+00:00",
   "service_counts": {
     "essential": 69,
     "pc": 573,
@@ -81,7 +81,11 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/252828"
+      "year": 2026,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6lxk.jpg",
+      "release_date": "June 10th, 2026",
+      "developer": "( 2026 ) Thunder Lotus",
+      "description": "33 Immortals is a co-op action-roguelike for 33 players. Play a damned soul, and rebel against God’s final judgment. Pick-up and raid, cooperate to survive hordes of monsters, defeat massive bosses, and face the wrath of God in a fight for your eternal life."
     },
     {
       "name": "9 Kings",
@@ -197,7 +201,11 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/36897"
+      "year": 2018,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vca.jpg",
+      "release_date": "March 23rd, 2018",
+      "developer": "( 2018 ) Hazelight Studios · Electronic Arts",
+      "description": "A Way Out is a cooperative action-adventure game designed exclusively for two-player split-screen play, either locally or online. Each player controls one of two protagonists, Leo and Vincent, who form a reluctant partnership to break out of prison. Gameplay involves stealth, combat, driving, and environmental puzzle-solving, with both ch..."
     },
     {
       "name": "Abiotic Factor",
@@ -12462,7 +12470,11 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/1466"
+      "year": 2010,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2yib.jpg",
+      "release_date": "March 17th, 2010",
+      "developer": "( 2010 ) 4J Studios · Microsoft Game Studios",
+      "description": "Perfect Dark is a remastered release of the first-person shooter video game by the same name. Developed by 4J Studios and published by Microsoft Game Studios a decade after the original's 2000 release, the remaster features several technical improvements, including higher resolution textures and models, a higher frame rate, and a multipla..."
     },
     {
       "name": "Perfect Dark Zero",
@@ -12488,7 +12500,11 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/1465"
+      "year": 2005,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2dqm.jpg",
+      "release_date": "November 17th, 2005",
+      "developer": "( 2005 ) Rare · Microsoft Game Studios",
+      "description": "The Xbox 360 prequel to Rare's Nintendo 64 hit, Perfect Dark. Players once again slip into the role of Joanna Dark and fight their way through a twisting sci-fi storyline. The franchise's staple multiplayer mode returns, this time with full online support."
     },
     {
       "name": "Persona 5 Royal",
