@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-09-21T04:43:04.340636+00:00",
+  "updated_at": "2026-09-21T06:21:25.974118+00:00",
   "service_counts": {
     "essential": 69,
     "pc": 573,
@@ -14240,10 +14240,10 @@
       "ubisoft_classics": false,
       "new": true,
       "leaving": false,
-      "year": 2025,
+      "year": 2026,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocaxf.jpg",
-      "release_date": "April 15th, 2025",
-      "developer": "( 2025 ) Jagex",
+      "release_date": "September 15th, 2026",
+      "developer": "( 2026 ) Jagex",
       "description": "On RuneScape’s forgotten continent of Ashenfall, dragons have awoken. Gather, build, skill and craft to survive in this co-operative (1-4) survival crafting game. Only by mastering survival and uncovering ancient secrets can they hope to slay the Dragon Queen—alone or with allies."
     },
     {
