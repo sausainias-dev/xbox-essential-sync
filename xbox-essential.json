@@ -8,12 +8,12 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-09-22T18:15:25.580986+00:00",
+  "updated_at": "2026-09-23T00:18:04.202704+00:00",
   "service_counts": {
     "essential": 69,
-    "pc": 575,
-    "premium": 431,
-    "ultimate": 654,
+    "pc": 576,
+    "premium": 432,
+    "ultimate": 655,
     "ea_play": 91,
     "ubisoft_classics": 64
   },
@@ -25,7 +25,7 @@
     "ea_play": {},
     "ubisoft_classics": {}
   },
-  "game_count_unique": 654,
+  "game_count_unique": 655,
   "games": [
     {
       "name": "1000xResist",
@@ -2096,13 +2096,9 @@
         "pc",
         "ultimate"
       ],
-      "new_plans": [
-        "ultimate"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
-      "plan_added_dates": {
-        "ultimate": "Aug 4"
-      },
+      "plan_added_dates": {},
       "leaving_dates": {},
       "genres": [],
       "game_modes": [],
@@ -2114,7 +2110,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2026,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobc5q.jpg",
@@ -2334,13 +2330,9 @@
         "premium",
         "ultimate"
       ],
-      "new_plans": [
-        "premium"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
-      "plan_added_dates": {
-        "premium": "Aug 19"
-      },
+      "plan_added_dates": {},
       "leaving_dates": {},
       "genres": [],
       "game_modes": [],
@@ -2352,7 +2344,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2026,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coatzb.jpg",
@@ -4047,12 +4039,10 @@
         "ultimate"
       ],
       "new_plans": [
-        "pc",
         "ultimate"
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "pc": "Aug 11",
         "ultimate": "Aug 11"
       },
       "leaving_dates": {},
@@ -5454,9 +5444,9 @@
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
+        "pc": "Sep 22",
+        "premium": "Sep 22",
+        "ultimate": "Sep 22"
       },
       "leaving_dates": {},
       "genres": [],
@@ -10186,6 +10176,44 @@
       "release_date": "May 21st, 2026",
       "developer": "( 2026 ) Kwalee",
       "description": "Luna Abyss is a single player story driven action-adventure with fluid platforming and bullet hell combat. Follow the journey of Fawkes, a prisoner of Luna caught between a cryptic prophecy and their prison sentence."
+    },
+    {
+      "name": "Mad King Redemption",
+      "url": "https://gamescriptions.com/game/361874",
+      "plans": [
+        "pc",
+        "premium",
+        "ultimate"
+      ],
+      "new_plans": [
+        "pc",
+        "premium",
+        "ultimate"
+      ],
+      "leaving_plans": [],
+      "plan_added_dates": {
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
+      },
+      "leaving_dates": {},
+      "genres": [],
+      "game_modes": [],
+      "game_style": [],
+      "platforms": [],
+      "essential": false,
+      "pc_game_pass": true,
+      "premium": true,
+      "ultimate": true,
+      "ea_play": false,
+      "ubisoft_classics": false,
+      "new": true,
+      "leaving": false,
+      "year": 2026,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocu7k.jpg",
+      "release_date": "May 14th, 2026",
+      "developer": "( 2026 ) SECRET MISSION",
+      "description": "Mad King Redemption is a unique blend of a traditional beat'em'up game with strong roguelite progression, mixed in a pixelated graphic style in a 2.5D world. Relieve the king from his madness while beating up corrupted enemies, in a fresh way at every run!"
     },
     {
       "name": "Madden NFL 25",
@@ -19296,8 +19324,8 @@
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "pc": "Today",
-        "ultimate": "Today"
+        "pc": "Sep 22",
+        "ultimate": "Sep 22"
       },
       "leaving_dates": {},
       "genres": [],
