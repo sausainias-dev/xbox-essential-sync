@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-09-23T18:16:10.439882+00:00",
+  "updated_at": "2026-09-24T00:16:48.102122+00:00",
   "service_counts": {
     "essential": 69,
     "pc": 576,
@@ -10192,9 +10192,9 @@
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
+        "pc": "Sep 23",
+        "premium": "Sep 23",
+        "ultimate": "Sep 23"
       },
       "leaving_dates": {},
       "genres": [],
@@ -10211,7 +10211,7 @@
       "leaving": false,
       "year": 2026,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocu7k.jpg",
-      "release_date": "May 14th, 2026",
+      "release_date": "September 23rd, 2026",
       "developer": "( 2026 ) SECRET MISSION",
       "description": "Mad King Redemption is a unique blend of a traditional beat'em'up game with strong roguelite progression, mixed in a pixelated graphic style in a 2.5D world. Relieve the king from his madness while beating up corrupted enemies, in a fresh way at every run!"
     },
