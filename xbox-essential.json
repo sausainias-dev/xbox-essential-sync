@@ -8,11 +8,11 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-09-24T18:16:04.455431+00:00",
+  "updated_at": "2026-09-25T00:18:37.277882+00:00",
   "service_counts": {
-    "essential": 69,
+    "essential": 70,
     "pc": 576,
-    "premium": 432,
+    "premium": 433,
     "ultimate": 655,
     "ea_play": 91,
     "ubisoft_classics": 64
@@ -2752,11 +2752,16 @@
       "url": "https://gamescriptions.com/game/302156",
       "plans": [
         "pc",
+        "premium",
         "ultimate"
       ],
-      "new_plans": [],
+      "new_plans": [
+        "premium"
+      ],
       "leaving_plans": [],
-      "plan_added_dates": {},
+      "plan_added_dates": {
+        "premium": "Today"
+      },
       "leaving_dates": {},
       "genres": [],
       "game_modes": [],
@@ -2764,11 +2769,11 @@
       "platforms": [],
       "essential": false,
       "pc_game_pass": true,
-      "premium": false,
+      "premium": true,
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": false,
+      "new": true,
       "leaving": false,
       "year": 2024,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8zis.jpg",
@@ -7965,9 +7970,7 @@
         "premium",
         "ultimate"
       ],
-      "new_plans": [
-        "essential"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
       "plan_added_dates": {},
       "leaving_dates": {},
@@ -7981,7 +7984,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2022,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5d1l.jpg",
@@ -13711,40 +13714,6 @@
         "premium",
         "ultimate"
       ],
-      "new_plans": [
-        "premium"
-      ],
-      "leaving_plans": [],
-      "plan_added_dates": {
-        "premium": "Aug 20"
-      },
-      "leaving_dates": {},
-      "genres": [],
-      "game_modes": [],
-      "game_style": [],
-      "platforms": [],
-      "essential": false,
-      "pc_game_pass": true,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": true,
-      "leaving": false,
-      "year": 2026,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xi8.jpg",
-      "release_date": "February 10th, 2026",
-      "developer": "( 2026 ) Nyamakop",
-      "description": "Reclaim real African artifacts from Western museums in this Africanfuturist heist game. Recruit crew members, plan escape routes, acquire the precious cargo, and bounce out of the joint as fast as you can."
-    },
-    {
-      "name": "Rematch",
-      "url": "https://gamescriptions.com/game/325588",
-      "plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
       "new_plans": [],
       "leaving_plans": [],
       "plan_added_dates": {},
@@ -13760,6 +13729,41 @@
       "ea_play": false,
       "ubisoft_classics": false,
       "new": false,
+      "leaving": false,
+      "year": 2026,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xi8.jpg",
+      "release_date": "February 10th, 2026",
+      "developer": "( 2026 ) Nyamakop",
+      "description": "Reclaim real African artifacts from Western museums in this Africanfuturist heist game. Recruit crew members, plan escape routes, acquire the precious cargo, and bounce out of the joint as fast as you can."
+    },
+    {
+      "name": "Rematch",
+      "url": "https://gamescriptions.com/game/325588",
+      "plans": [
+        "essential",
+        "pc",
+        "premium",
+        "ultimate"
+      ],
+      "new_plans": [
+        "essential"
+      ],
+      "leaving_plans": [],
+      "plan_added_dates": {
+        "essential": "Today"
+      },
+      "leaving_dates": {},
+      "genres": [],
+      "game_modes": [],
+      "game_style": [],
+      "platforms": [],
+      "essential": true,
+      "pc_game_pass": true,
+      "premium": true,
+      "ultimate": true,
+      "ea_play": false,
+      "ubisoft_classics": false,
+      "new": true,
       "leaving": false,
       "year": 2025,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coak26.jpg",
