@@ -8,12 +8,12 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-09-28T18:18:04.142072+00:00",
+  "updated_at": "2026-09-29T00:15:47.195732+00:00",
   "service_counts": {
     "essential": 70,
-    "pc": 576,
+    "pc": 577,
     "premium": 433,
-    "ultimate": 655,
+    "ultimate": 656,
     "ea_play": 91,
     "ubisoft_classics": 64
   },
@@ -25,7 +25,7 @@
     "ea_play": {},
     "ubisoft_classics": {}
   },
-  "game_count_unique": 655,
+  "game_count_unique": 656,
   "games": [
     {
       "name": "1000xResist",
@@ -1496,9 +1496,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Sep 30",
-        "premium": "Sep 30",
-        "ultimate": "Sep 30"
+        "pc": "Tomorrow",
+        "premium": "Tomorrow",
+        "ultimate": "Tomorrow"
       },
       "genres": [],
       "game_modes": [],
@@ -3795,12 +3795,10 @@
         "ultimate"
       ],
       "new_plans": [
-        "pc",
         "ultimate"
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "pc": "Aug 13",
         "ultimate": "Aug 13"
       },
       "leaving_dates": {},
@@ -4043,13 +4041,9 @@
         "premium",
         "ultimate"
       ],
-      "new_plans": [
-        "ultimate"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
-      "plan_added_dates": {
-        "ultimate": "Aug 11"
-      },
+      "plan_added_dates": {},
       "leaving_dates": {},
       "genres": [],
       "game_modes": [],
@@ -4061,7 +4055,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2025,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa01y.jpg",
@@ -9694,9 +9688,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Sep 30",
-        "premium": "Sep 30",
-        "ultimate": "Sep 30"
+        "pc": "Tomorrow",
+        "premium": "Tomorrow",
+        "ultimate": "Tomorrow"
       },
       "genres": [],
       "game_modes": [],
@@ -10031,9 +10025,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Sep 30",
-        "premium": "Sep 30",
-        "ultimate": "Sep 30"
+        "pc": "Tomorrow",
+        "premium": "Tomorrow",
+        "ultimate": "Tomorrow"
       },
       "genres": [],
       "game_modes": [],
@@ -10069,9 +10063,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Sep 30",
-        "premium": "Sep 30",
-        "ultimate": "Sep 30"
+        "pc": "Tomorrow",
+        "premium": "Tomorrow",
+        "ultimate": "Tomorrow"
       },
       "genres": [],
       "game_modes": [],
@@ -10832,6 +10826,41 @@
       "release_date": "May 26th, 2020",
       "developer": "( 2020 ) Mojang Studios · Xbox Game Studios",
       "description": "\"Brave the dungeons alone, or team up with friends! Up to four players can battle together through action-packed, treasure-stuffed, wildly varied levels, all in an epic quest to save the villagers and take down the evil Arch-Illager! Discover new weapons and items that will help you defeat a ruthless swarm of new-and-nasty mobs."
+    },
+    {
+      "name": "Minecraft Dungeons II",
+      "url": "https://gamescriptions.com/game/395525",
+      "plans": [
+        "pc",
+        "ultimate"
+      ],
+      "new_plans": [
+        "pc",
+        "ultimate"
+      ],
+      "leaving_plans": [],
+      "plan_added_dates": {
+        "pc": "Today",
+        "ultimate": "Today"
+      },
+      "leaving_dates": {},
+      "genres": [],
+      "game_modes": [],
+      "game_style": [],
+      "platforms": [],
+      "essential": false,
+      "pc_game_pass": true,
+      "premium": false,
+      "ultimate": true,
+      "ea_play": false,
+      "ubisoft_classics": false,
+      "new": true,
+      "leaving": false,
+      "year": 2026,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc75p.jpg",
+      "release_date": "September 29th, 2026",
+      "developer": "( 2026 ) Mojang Studios",
+      "description": "Drop the pickaxe, grab a sword, and charge into a thrilling new adventure in Minecraft Dungeons II. Journey through unexplored lands and mysterious locations, in a quest to stop a new evil from causing chaos in not one, but two worlds! Clash with menacing foes in explosive encounters and fight your way through hordes of mobs that will do..."
     },
     {
       "name": "Minecraft: Legends",
@@ -14756,9 +14785,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Sep 30",
-        "premium": "Sep 30",
-        "ultimate": "Sep 30"
+        "pc": "Tomorrow",
+        "premium": "Tomorrow",
+        "ultimate": "Tomorrow"
       },
       "genres": [],
       "game_modes": [],
@@ -15091,9 +15120,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Sep 30",
-        "premium": "Sep 30",
-        "ultimate": "Sep 30"
+        "pc": "Tomorrow",
+        "premium": "Tomorrow",
+        "ultimate": "Tomorrow"
       },
       "genres": [],
       "game_modes": [],
@@ -16203,9 +16232,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Sep 30",
-        "premium": "Sep 30",
-        "ultimate": "Sep 30"
+        "pc": "Tomorrow",
+        "premium": "Tomorrow",
+        "ultimate": "Tomorrow"
       },
       "genres": [],
       "game_modes": [],
