@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-09-29T18:19:31.640031+00:00",
+  "updated_at": "2026-09-30T00:16:25.790387+00:00",
   "service_counts": {
     "essential": 70,
     "pc": 577,
@@ -1496,9 +1496,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Tomorrow",
-        "premium": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "genres": [],
       "game_modes": [],
@@ -5464,7 +5464,7 @@
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobf3a.jpg",
       "release_date": "June 10th, 2025",
       "developer": "( 2025 ) Funcom",
-      "description": "Dune: Awakening is an open-world survival MMO set on the desert planet Arrakis. Players create a custom character and must manage thirst, maintain stillsuits, and contend with environmental hazards like sandstorms, extreme heat, and roaming sandworms. The game involves scavenging resources, crafting equipment, building shelters, and compe..."
+      "description": "Dune: Awakening is an open-world survival game set on the desert planet Arrakis. Players create a custom character and must manage thirst, maintain stillsuits, and contend with environmental hazards like sandstorms, extreme heat, and roaming sandworms. The game involves scavenging resources, crafting equipment, building shelters, and comp..."
     },
     {
       "name": "Dungeon Keeper",
@@ -9688,9 +9688,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Tomorrow",
-        "premium": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "genres": [],
       "game_modes": [],
@@ -10025,9 +10025,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Tomorrow",
-        "premium": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "genres": [],
       "game_modes": [],
@@ -10063,9 +10063,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Tomorrow",
-        "premium": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "genres": [],
       "game_modes": [],
@@ -10840,8 +10840,8 @@
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "pc": "Today",
-        "ultimate": "Today"
+        "pc": "Sep 29",
+        "ultimate": "Sep 29"
       },
       "leaving_dates": {},
       "genres": [],
@@ -14785,9 +14785,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Tomorrow",
-        "premium": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "genres": [],
       "game_modes": [],
@@ -14920,7 +14920,7 @@
       "year": 2014,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2e39.jpg",
       "release_date": "November 13th, 2014",
-      "developer": "( 2014 )",
+      "developer": "( 2014 ) Maxis · Electronic Arts",
       "description": "SimCity: Complete Edition is a compilation pack that includes SimCity (2013), its expansion pack Cities of Tomorrow, and all five paid downloadable contents (British City Set, French City Set, German City Set, Amusement Park Set, and Airships Set) released for SimCity (2013)."
     },
     {
@@ -15120,9 +15120,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Tomorrow",
-        "premium": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "genres": [],
       "game_modes": [],
@@ -16232,9 +16232,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Tomorrow",
-        "premium": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "genres": [],
       "game_modes": [],
@@ -17378,7 +17378,7 @@
       "year": 2004,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3dm5.jpg",
       "release_date": "September 14th, 2004",
-      "developer": "( 2004 ) Maxis · Aspyr Media",
+      "developer": "( 2004 ) Maxis · Electronic Arts",
       "description": "In The Sims 2, your Sims will be more lifelike, more responsive, and more complex than ever before. You'll be able to control your Sims over their entire lifetimes, taking them from their first steps to their golden years. Guide them through \"Life's Big Moments\" and build their \"Life Score\" with every decision you make."
     },
     {
