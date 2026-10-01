@@ -8,12 +8,12 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-09-30T18:18:14.696341+00:00",
+  "updated_at": "2026-10-01T00:11:46.266807+00:00",
   "service_counts": {
     "essential": 70,
-    "pc": 577,
-    "premium": 433,
-    "ultimate": 656,
+    "pc": 570,
+    "premium": 426,
+    "ultimate": 649,
     "ea_play": 91,
     "ubisoft_classics": 64
   },
@@ -25,7 +25,7 @@
     "ea_play": {},
     "ubisoft_classics": {}
   },
-  "game_count_unique": 656,
+  "game_count_unique": 649,
   "games": [
     {
       "name": "1000xResist",
@@ -1479,44 +1479,6 @@
       "release_date": "February 6th, 2019",
       "developer": "( 2019 ) System Era Softworks",
       "description": "Interact with strange new worlds in a unique and tactile way, molding the environment itself as if it were clay in your hands. Build your base, master resource management, automate your production lines, and more as you unravel the mysteries of the universe, alone or with friends."
-    },
-    {
-      "name": "Atomfall",
-      "url": "https://gamescriptions.com/game/305159",
-      "plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "plan_added_dates": {},
-      "leaving_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
-      },
-      "genres": [],
-      "game_modes": [],
-      "game_style": [],
-      "platforms": [],
-      "essential": false,
-      "pc_game_pass": true,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": true,
-      "year": 2025,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9dar.jpg",
-      "release_date": "March 27th, 2025",
-      "developer": "( 2025 ) Rebellion Developments",
-      "description": "A nuclear disaster has left an area of Britain in tatters. Atomfall, a new survival-action game, will see you explore, scavenge, craft, barter and fight your way through beautifully recreated scenery in search of answers."
     },
     {
       "name": "Avatar: Frontiers of Pandora",
@@ -9673,44 +9635,6 @@
       "description": "Kingdom Two Crowns is a side-scrolling micro strategy game with a minimalist feel wrapped in a beautiful, modern pixel art aesthetic. Play the role of a monarch atop their steed and recruit loyal subjects, build your kingdom and protect it from the greedy creatures looking to steal your coins and crown."
     },
     {
-      "name": "Lara Croft and the Guardian of Light",
-      "url": "https://gamescriptions.com/game/769",
-      "plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "plan_added_dates": {},
-      "leaving_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
-      },
-      "genres": [],
-      "game_modes": [],
-      "game_style": [],
-      "platforms": [],
-      "essential": false,
-      "pc_game_pass": true,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": true,
-      "year": 2010,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vod.jpg",
-      "release_date": "August 18th, 2010",
-      "developer": "( 2010 ) Crystal Dynamics · Square Enix",
-      "description": "Lara Croft and the Guardian of Light is a platform action video game developed by Crystal Dynamics and published by Square Enix for Microsoft Windows, PlayStation 3, Xbox 360 and iOS as part of the Tomb Raider series through digital distribution. Unlike previous games in the series, the game does not carry the Tomb Raider brand and has a..."
-    },
-    {
       "name": "Lara Croft and the Temple of Osiris",
       "url": "https://gamescriptions.com/game/7325",
       "plans": [
@@ -10008,82 +9932,6 @@
       "release_date": "April 28th, 2017",
       "developer": "( 2017 ) Tarsier Studios · Bandai Namco Entertainment",
       "description": "Little Nightmares is a puzzle-platform horror adventure game developed by Tarsier Studios and published by Bandai Namco Entertainment. Set in a mysterious world, Little Nightmares follows the journey of Six, a hungry little girl who must escape the Maw, an iron vessel inhabited by monstrous, twisted beings."
-    },
-    {
-      "name": "Little Nightmares II",
-      "url": "https://gamescriptions.com/game/121760",
-      "plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "plan_added_dates": {},
-      "leaving_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
-      },
-      "genres": [],
-      "game_modes": [],
-      "game_style": [],
-      "platforms": [],
-      "essential": false,
-      "pc_game_pass": true,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": true,
-      "year": 2021,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa17l.jpg",
-      "release_date": "February 10th, 2021",
-      "developer": "( 2021 ) Tarsier Studios · Bandai Namco Entertainment",
-      "description": "Little Nightmares II is a puzzle-platformer and survival horror game in which players control Mono, a young boy navigating a nightmarish world warped by the transmission of a distant Signal Tower. Gameplay combines environmental puzzle-solving with stealth and light combat, as Mono and his AI companion Six work together to evade grotesque..."
-    },
-    {
-      "name": "Little Rocket Lab",
-      "url": "https://gamescriptions.com/game/325176",
-      "plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "plan_added_dates": {},
-      "leaving_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
-      },
-      "genres": [],
-      "game_modes": [],
-      "game_style": [],
-      "platforms": [],
-      "essential": false,
-      "pc_game_pass": true,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": true,
-      "year": 2025,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co94zo.jpg",
-      "release_date": "October 7th, 2025",
-      "developer": "( 2025 ) Teenage Astronauts · No More Robots",
-      "description": "Transform your childhood home as you build brilliant factories and forge lifelong friendships, then reach for the skies and finally finish your family's dream - your mother's precious rocket ship. Roll up your sleeves, it turns out that saving this town really IS rocket science!"
     },
     {
       "name": "Lost in Random",
@@ -14770,44 +14618,6 @@
       "description": "Sid Meier's Alpha Centauri Planetary Pack includes the original Alpha Centauri and the expansion, Alien Crossfire."
     },
     {
-      "name": "Sifu",
-      "url": "https://gamescriptions.com/game/144022",
-      "plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "plan_added_dates": {},
-      "leaving_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
-      },
-      "genres": [],
-      "game_modes": [],
-      "game_style": [],
-      "platforms": [],
-      "essential": false,
-      "pc_game_pass": true,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": true,
-      "year": 2022,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4h5s.jpg",
-      "release_date": "February 8th, 2022",
-      "developer": "( 2022 ) Sloclap",
-      "description": "Sifu is a realistic third-person brawler with tight Kung Fu combat mechanics and cinematic martial arts action embarking you on a path for revenge."
-    },
-    {
       "name": "SimCity 2000: Special Edition",
       "url": "https://gamescriptions.com/game/46631",
       "plans": [
@@ -15103,44 +14913,6 @@
       "release_date": "June 8th, 2026",
       "developer": "( 2026 ) Cyberwave · rokaplay",
       "description": "Solarpunk is a survival game in a technically advanced world of floating islands. Alone or together with your friends, you can construct buildings, grow food, craft gadgets and explore distant islands with your own airship. Use sunlight, wind and water to create an energy system and automate your processes like gathering ressoureces, wat..."
-    },
-    {
-      "name": "Sopa: Tale of the Stolen Potato",
-      "url": "https://gamescriptions.com/game/197073",
-      "plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "plan_added_dates": {},
-      "leaving_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
-      },
-      "genres": [],
-      "game_modes": [],
-      "game_style": [],
-      "platforms": [],
-      "essential": false,
-      "pc_game_pass": true,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": true,
-      "year": 2025,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4rq5.jpg",
-      "release_date": "October 7th, 2025",
-      "developer": "( 2025 ) StudioBando",
-      "description": "Emotional narrative adventure about the things we pass along. Inspired by Miyazaki, Coco, and The Little Prince."
     },
     {
       "name": "South of Midnight",
@@ -16215,44 +15987,6 @@
       "release_date": "June 19th, 2025",
       "developer": "( 2025 ) Nokta Games",
       "description": "Supermarket Simulator is a first-person business management game where players run and expand their own grocery store. Gameplay involves stocking shelves, managing a cash register, processing online orders, and designing the store layout. Players set prices based on fluctuating market conditions."
-    },
-    {
-      "name": "Sworn",
-      "url": "https://gamescriptions.com/game/291948",
-      "plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "plan_added_dates": {},
-      "leaving_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
-      },
-      "genres": [],
-      "game_modes": [],
-      "game_style": [],
-      "platforms": [],
-      "essential": false,
-      "pc_game_pass": true,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": true,
-      "year": 2025,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9bwg.jpg",
-      "release_date": "September 23rd, 2025",
-      "developer": "( 2025 ) Windwalk Games · Team17 Digital",
-      "description": "SWORN is a 1-4 player co-op action roguelite. Explore and reclaim a fallen Camelot from the reign of a corrupted Arthur and his Knights of the Round Table."
     },
     {
       "name": "Symphonia",
