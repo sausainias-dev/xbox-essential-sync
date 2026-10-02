@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-10-02T11:40:52.839601+00:00",
+  "updated_at": "2026-10-02T17:16:57.776566+00:00",
   "service_counts": {
     "essential": 70,
     "pc": 570,
@@ -156,9 +156,17 @@
         "ultimate"
       ],
       "new_plans": [],
-      "leaving_plans": [],
+      "leaving_plans": [
+        "pc",
+        "premium",
+        "ultimate"
+      ],
       "plan_added_dates": {},
-      "leaving_dates": {},
+      "leaving_dates": {
+        "pc": "Oct 15",
+        "premium": "Oct 15",
+        "ultimate": "Oct 15"
+      },
       "genres": [],
       "game_modes": [],
       "game_style": [],
@@ -170,7 +178,7 @@
       "ea_play": false,
       "ubisoft_classics": false,
       "new": false,
-      "leaving": false,
+      "leaving": true,
       "year": 2022,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5pwb.jpg",
       "release_date": "October 18th, 2022",
@@ -3214,9 +3222,17 @@
         "ultimate"
       ],
       "new_plans": [],
-      "leaving_plans": [],
+      "leaving_plans": [
+        "pc",
+        "premium",
+        "ultimate"
+      ],
       "plan_added_dates": {},
-      "leaving_dates": {},
+      "leaving_dates": {
+        "pc": "Oct 15",
+        "premium": "Oct 15",
+        "ultimate": "Oct 15"
+      },
       "genres": [],
       "game_modes": [],
       "game_style": [],
@@ -3228,7 +3244,7 @@
       "ea_play": false,
       "ubisoft_classics": false,
       "new": false,
-      "leaving": false,
+      "leaving": true,
       "year": 2025,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9gam.jpg",
       "release_date": "April 24th, 2025",
@@ -3791,9 +3807,17 @@
         "ultimate"
       ],
       "new_plans": [],
-      "leaving_plans": [],
+      "leaving_plans": [
+        "pc",
+        "premium",
+        "ultimate"
+      ],
       "plan_added_dates": {},
-      "leaving_dates": {},
+      "leaving_dates": {
+        "pc": "Oct 15",
+        "premium": "Oct 15",
+        "ultimate": "Oct 15"
+      },
       "genres": [],
       "game_modes": [],
       "game_style": [],
@@ -3805,7 +3829,7 @@
       "ea_play": false,
       "ubisoft_classics": false,
       "new": false,
-      "leaving": false,
+      "leaving": true,
       "year": 2024,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8vyd.jpg",
       "release_date": "August 14th, 2024",
@@ -4975,9 +4999,17 @@
         "ultimate"
       ],
       "new_plans": [],
-      "leaving_plans": [],
+      "leaving_plans": [
+        "pc",
+        "premium",
+        "ultimate"
+      ],
       "plan_added_dates": {},
-      "leaving_dates": {},
+      "leaving_dates": {
+        "pc": "Oct 15",
+        "premium": "Oct 15",
+        "ultimate": "Oct 15"
+      },
       "genres": [],
       "game_modes": [],
       "game_style": [],
@@ -4989,7 +5021,7 @@
       "ea_play": false,
       "ubisoft_classics": false,
       "new": false,
-      "leaving": false,
+      "leaving": true,
       "year": 2018,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qv8.jpg",
       "release_date": "August 28th, 2018",
@@ -5959,9 +5991,17 @@
         "ultimate"
       ],
       "new_plans": [],
-      "leaving_plans": [],
+      "leaving_plans": [
+        "pc",
+        "premium",
+        "ultimate"
+      ],
       "plan_added_dates": {},
-      "leaving_dates": {},
+      "leaving_dates": {
+        "pc": "Oct 15",
+        "premium": "Oct 15",
+        "ultimate": "Oct 15"
+      },
       "genres": [],
       "game_modes": [],
       "game_style": [],
@@ -5973,7 +6013,7 @@
       "ea_play": false,
       "ubisoft_classics": false,
       "new": false,
-      "leaving": false,
+      "leaving": true,
       "year": 2022,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4udq.jpg",
       "release_date": "November 22nd, 2022",
@@ -11909,9 +11949,15 @@
         "ultimate"
       ],
       "new_plans": [],
-      "leaving_plans": [],
+      "leaving_plans": [
+        "pc",
+        "ultimate"
+      ],
       "plan_added_dates": {},
-      "leaving_dates": {},
+      "leaving_dates": {
+        "pc": "Oct 15",
+        "ultimate": "Oct 15"
+      },
       "genres": [],
       "game_modes": [],
       "game_style": [],
@@ -11923,7 +11969,7 @@
       "ea_play": false,
       "ubisoft_classics": false,
       "new": false,
-      "leaving": false,
+      "leaving": true,
       "year": 2026,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobtvz.jpg",
       "release_date": "March 26th, 2026",
@@ -12153,9 +12199,17 @@
         "ultimate"
       ],
       "new_plans": [],
-      "leaving_plans": [],
+      "leaving_plans": [
+        "pc",
+        "premium",
+        "ultimate"
+      ],
       "plan_added_dates": {},
-      "leaving_dates": {},
+      "leaving_dates": {
+        "pc": "Oct 15",
+        "premium": "Oct 15",
+        "ultimate": "Oct 15"
+      },
       "genres": [],
       "game_modes": [],
       "game_style": [],
@@ -12167,7 +12221,7 @@
       "ea_play": false,
       "ubisoft_classics": false,
       "new": false,
-      "leaving": false,
+      "leaving": true,
       "year": 2024,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7t2e.jpg",
       "release_date": "February 22nd, 2024",
@@ -15905,11 +15959,21 @@
       "new_plans": [
         "essential"
       ],
-      "leaving_plans": [],
+      "leaving_plans": [
+        "essential",
+        "pc",
+        "premium",
+        "ultimate"
+      ],
       "plan_added_dates": {
         "essential": "Oct 28"
       },
-      "leaving_dates": {},
+      "leaving_dates": {
+        "essential": "Oct 15",
+        "pc": "Oct 15",
+        "premium": "Oct 15",
+        "ultimate": "Oct 15"
+      },
       "genres": [],
       "game_modes": [],
       "game_style": [],
@@ -15921,7 +15985,7 @@
       "ea_play": false,
       "ubisoft_classics": false,
       "new": true,
-      "leaving": false,
+      "leaving": true,
       "year": 2025,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8nou.jpg",
       "release_date": "October 28th, 2025",
@@ -16424,9 +16488,17 @@
         "ultimate"
       ],
       "new_plans": [],
-      "leaving_plans": [],
+      "leaving_plans": [
+        "pc",
+        "premium",
+        "ultimate"
+      ],
       "plan_added_dates": {},
-      "leaving_dates": {},
+      "leaving_dates": {
+        "pc": "Oct 15",
+        "premium": "Oct 15",
+        "ultimate": "Oct 15"
+      },
       "genres": [],
       "game_modes": [],
       "game_style": [],
@@ -16438,7 +16510,7 @@
       "ea_play": false,
       "ubisoft_classics": false,
       "new": false,
-      "leaving": false,
+      "leaving": true,
       "year": 2024,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8j6w.jpg",
       "release_date": "September 3rd, 2024",
