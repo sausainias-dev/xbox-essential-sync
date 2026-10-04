@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-10-04T16:21:07.126781+00:00",
+  "updated_at": "2026-10-04T21:17:36.024827+00:00",
   "service_counts": {
     "essential": 70,
     "pc": 570,
@@ -1601,11 +1601,7 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "year": 2019,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8d2m.jpg",
-      "release_date": "October 15th, 2019",
-      "developer": "( 2019 ) Overhaul Games · Beamdog",
-      "description": "Forced to leave your home under mysterious circumstances, you find yourself drawn into a conflict that has the Sword Coast on the brink of war. Soon you discover there are other forces at work, far more sinister than you could ever imagine..."
+      "enrich_error": "HTTPSConnectionPool(host='gamescriptions.com', port=443): Read timed out. (read timeout=30)"
     },
     {
       "name": "Ball x Pit",
@@ -4043,11 +4039,7 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "year": 2025,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa01y.jpg",
-      "release_date": "June 17th, 2025",
-      "developer": "( 2025 ) Sassy Chap Games · Team17",
-      "description": "Date Everything is a sandbox dating simulator set in the comfort of your own home, featuring 100 fully voice acted datable characters! Let the romance flow between your bed, smoke alarm and… Overwhelming Sense of Existential Dread? Are you ready to Date Everything?"
+      "enrich_error": "HTTPSConnectionPool(host='gamescriptions.com', port=443): Read timed out. (read timeout=30)"
     },
     {
       "name": "Day of the Tentacle Remastered",
@@ -4464,11 +4456,7 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "year": 2020,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaat4.jpg",
-      "release_date": "May 13th, 2020",
-      "developer": "( 2020 ) Ghost Ship Games · Coffee Stain Publishing",
-      "description": "Deep Rock Galactic is a cooperative first-person shooter set on the alien planet Hoxxes IV. Players take on the role of dwarven space miners employed by an intergalactic mining corporation, completing missions in procedurally generated cave systems filled with hostile alien wildlife. The game supports up to four players who choose from di..."
+      "enrich_error": "HTTPSConnectionPool(host='gamescriptions.com', port=443): Read timed out. (read timeout=30)"
     },
     {
       "name": "Denshattack!",
@@ -5172,11 +5160,7 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "year": 2020,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3p5n.jpg",
-      "release_date": "March 19th, 2020",
-      "developer": "( 2020 ) id Software · Bethesda Softworks",
-      "description": "Doom Eternal is a first-person shooter developed by id Software and the sequel to Doom (2016). Players control the Doom Slayer as he fights to end a demonic invasion of Earth. Combat is built around aggressive resource management, where health, armor, and ammo are gained by executing, igniting, or chainsawing enemies."
+      "enrich_error": "HTTPSConnectionPool(host='gamescriptions.com', port=443): Read timed out. (read timeout=30)"
     },
     {
       "name": "Doom: The Dark Ages",
