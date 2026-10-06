@@ -8,12 +8,12 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-10-05T23:41:04.526366+00:00",
+  "updated_at": "2026-10-06T03:59:35.643111+00:00",
   "service_counts": {
     "essential": 70,
-    "pc": 570,
+    "pc": 571,
     "premium": 427,
-    "ultimate": 649,
+    "ultimate": 650,
     "ea_play": 91,
     "ubisoft_classics": 64
   },
@@ -25,7 +25,7 @@
     "ea_play": {},
     "ubisoft_classics": {}
   },
-  "game_count_unique": 649,
+  "game_count_unique": 650,
   "games": [
     {
       "name": "1000xResist",
@@ -3772,13 +3772,9 @@
         "premium",
         "ultimate"
       ],
-      "new_plans": [
-        "ultimate"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
-      "plan_added_dates": {
-        "ultimate": "Aug 13"
-      },
+      "plan_added_dates": {},
       "leaving_dates": {},
       "genres": [],
       "game_modes": [],
@@ -3790,7 +3786,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2025,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coav6j.jpg",
@@ -7537,6 +7533,41 @@
       "release_date": "October 11th, 2016",
       "developer": "( 2016 ) The Coalition · Microsoft Studios",
       "description": "A new saga begins for one of the most acclaimed video game franchises in history. After narrowly escaping an attack on their village, JD Fenix and his friends, Kait and Del, must rescue the ones they love and discover the source of a monstrous new enemy."
+    },
+    {
+      "name": "Gears of War: E-Day",
+      "url": "https://gamescriptions.com/game/305160",
+      "plans": [
+        "pc",
+        "ultimate"
+      ],
+      "new_plans": [
+        "pc",
+        "ultimate"
+      ],
+      "leaving_plans": [],
+      "plan_added_dates": {
+        "pc": "Today",
+        "ultimate": "Today"
+      },
+      "leaving_dates": {},
+      "genres": [],
+      "game_modes": [],
+      "game_style": [],
+      "platforms": [],
+      "essential": false,
+      "pc_game_pass": true,
+      "premium": false,
+      "ultimate": true,
+      "ea_play": false,
+      "ubisoft_classics": false,
+      "new": true,
+      "leaving": false,
+      "year": 2026,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc77n.jpg",
+      "release_date": "October 6th, 2026",
+      "developer": "( 2026 ) The Coalition · Xbox Game Studios",
+      "description": "Experience the brutal horror of Emergence Day through the eyes of Marcus Fenix in the origin story of one of gaming's most acclaimed sagas.​ Fourteen years before Gears of War, war heroes Marcus Fenix and Dom Santiago return home to face a new nightmare: the Locust Horde. These subterranean monsters, grotesque and relentless, erupt from b..."
     },
     {
       "name": "Gears of War: Judgment",
@@ -14333,12 +14364,10 @@
         "ultimate"
       ],
       "new_plans": [
-        "pc",
         "ultimate"
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "pc": "Aug 13",
         "ultimate": "Aug 13"
       },
       "leaving_dates": {},
