@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-10-07T03:29:25.266974+00:00",
+  "updated_at": "2026-10-07T11:16:52.684444+00:00",
   "service_counts": {
     "essential": 70,
     "pc": 571,
@@ -1813,7 +1813,11 @@
       "ubisoft_classics": false,
       "new": true,
       "leaving": false,
-      "enrich_error": "HTTPSConnectionPool(host='gamescriptions.com', port=443): Read timed out."
+      "year": 2015,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coagib.jpg",
+      "release_date": "June 23rd, 2015",
+      "developer": "( 2015 ) Rocksteady Studios · Warner Bros. Interactive Entertainment",
+      "description": "Batman: Arkham Knight is an action-adventure game developed by Rocksteady Studios, released in 2015. It is the final installment in the Arkham series. Players control Batman as he faces Scarecrow, who unites Gotham's criminals to destroy the Dark Knight."
     },
     {
       "name": "Battlefield 1",
@@ -1839,7 +1843,11 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "enrich_error": "HTTPSConnectionPool(host='gamescriptions.com', port=443): Read timed out. (read timeout=30)"
+      "year": 2016,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2n9d.jpg",
+      "release_date": "October 21st, 2016",
+      "developer": "( 2016 ) EA Digital Illusions CE · Electronic Arts",
+      "description": "Discover classic Battlefield gameplay with epic multiplayer and an adventure-filled campaign. Experience the dawn of all-out war, only in Battlefield 1. Fight your way through epic battles going from tight urban combat in a besieged French city to big open spaces in the Italian Alps or frantic combats in the Arabic sand dunes."
     },
     {
       "name": "Battlefield 2042",
@@ -1865,7 +1873,11 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "enrich_error": "HTTPSConnectionPool(host='gamescriptions.com', port=443): Read timed out. (read timeout=30)"
+      "year": 2021,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7dfn.jpg",
+      "release_date": "November 19th, 2021",
+      "developer": "( 2021 ) EA Digital Illusions CE · Electronic Arts",
+      "description": "Battlefield 2042 marks the return to the iconic all-out warfare of the franchise. Adapt and overcome dynamically-changing battlegrounds with the help of your squad and a cutting-edge arsenal. With support for 128 players, prepare for unprecedented scale on vast environments."
     },
     {
       "name": "Battlefield 3",
