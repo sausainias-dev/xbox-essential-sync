@@ -8,12 +8,12 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-10-07T22:36:18.121805+00:00",
+  "updated_at": "2026-10-08T03:43:14.670908+00:00",
   "service_counts": {
     "essential": 70,
-    "pc": 571,
-    "premium": 427,
-    "ultimate": 650,
+    "pc": 574,
+    "premium": 428,
+    "ultimate": 653,
     "ea_play": 91,
     "ubisoft_classics": 64
   },
@@ -25,7 +25,7 @@
     "ea_play": {},
     "ubisoft_classics": {}
   },
-  "game_count_unique": 650,
+  "game_count_unique": 653,
   "games": [
     {
       "name": "1000xResist",
@@ -313,13 +313,9 @@
         "premium",
         "ultimate"
       ],
-      "new_plans": [
-        "premium"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
-      "plan_added_dates": {
-        "premium": "Aug 25"
-      },
+      "plan_added_dates": {},
       "leaving_dates": {},
       "genres": [],
       "game_modes": [],
@@ -331,7 +327,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2026,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc1b1.jpg",
@@ -5830,6 +5826,41 @@
       "description": "Embark on a sci-fi deckbuilding RPG odyssey. Gather your crew, craft powerful decks, and battle across the stars to find your way home. Deal the cards."
     },
     {
+      "name": "Echo Weaver",
+      "url": "https://gamescriptions.com/game/290107",
+      "plans": [
+        "pc",
+        "ultimate"
+      ],
+      "new_plans": [
+        "pc",
+        "ultimate"
+      ],
+      "leaving_plans": [],
+      "plan_added_dates": {
+        "pc": "Today",
+        "ultimate": "Today"
+      },
+      "leaving_dates": {},
+      "genres": [],
+      "game_modes": [],
+      "game_style": [],
+      "platforms": [],
+      "essential": false,
+      "pc_game_pass": true,
+      "premium": false,
+      "ultimate": true,
+      "ea_play": false,
+      "ubisoft_classics": false,
+      "new": true,
+      "leaving": false,
+      "year": 2026,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9g3f.jpg",
+      "release_date": "October 8th, 2026",
+      "developer": "( 2026 ) Moonlight Kids · Akupara Games",
+      "description": "A fast-paced metroidBRAINia that tells the tale of a ruined society trapped in a fatal time loop. Uncover their story - and your own - as you explore what remains. Use each loop to chip away at the mystery, unlocking powerful knowledge to reshape the timeline and master the loop."
+    },
+    {
       "name": "Egging On",
       "url": "https://gamescriptions.com/game/294270",
       "plans": [
@@ -7142,6 +7173,41 @@
       "description": "Battle against Fahrul's tyrannical Queen alone or as a party of 4 players in the sequel to For The King, the massively popular turn-based roguelike tabletop RPG. Level up and explore as you unravel the once beloved Queen's terrible secret."
     },
     {
+      "name": "Forever Ago",
+      "url": "https://gamescriptions.com/game/136299",
+      "plans": [
+        "pc",
+        "ultimate"
+      ],
+      "new_plans": [
+        "pc",
+        "ultimate"
+      ],
+      "leaving_plans": [],
+      "plan_added_dates": {
+        "pc": "Today",
+        "ultimate": "Today"
+      },
+      "leaving_dates": {},
+      "genres": [],
+      "game_modes": [],
+      "game_style": [],
+      "platforms": [],
+      "essential": false,
+      "pc_game_pass": true,
+      "premium": false,
+      "ultimate": true,
+      "ea_play": false,
+      "ubisoft_classics": false,
+      "new": true,
+      "leaving": false,
+      "year": 2026,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc78v.jpg",
+      "release_date": "October 8th, 2026",
+      "developer": "( 2026 ) Third Shift · Annapurna Interactive",
+      "description": "Following a tragic stroke of fate, Alfred embarks on a journey north in search of redemption. In this single-player road trip adventure, you'll travel to beautiful places, capture memories with your camera, meet interesting people, and even make some new friends."
+    },
+    {
       "name": "Forza Horizon 5",
       "url": "https://gamescriptions.com/game/141503",
       "plans": [
@@ -7872,15 +7938,9 @@
         "pc",
         "ultimate"
       ],
-      "new_plans": [
-        "pc",
-        "ultimate"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
-      "plan_added_dates": {
-        "pc": "Aug 14",
-        "ultimate": "Aug 14"
-      },
+      "plan_added_dates": {},
       "leaving_dates": {},
       "genres": [],
       "game_modes": [],
@@ -7892,7 +7952,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2027,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobtwq.jpg",
@@ -11601,6 +11661,44 @@
       "description": "Race against time, outsmart the cops, and take on weekly qualifiers to reach The Grand, Lakeshore's ultimate street racing challenge. Pack your garage with precision-tuned, custom rides and light up the streets with your style, exclusive fits, and a vibrant global soundtrack that bumps in every corner of the world."
     },
     {
+      "name": "Neon Abyss 2",
+      "url": "https://gamescriptions.com/game/325279",
+      "plans": [
+        "pc",
+        "premium",
+        "ultimate"
+      ],
+      "new_plans": [
+        "pc",
+        "premium",
+        "ultimate"
+      ],
+      "leaving_plans": [],
+      "plan_added_dates": {
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
+      },
+      "leaving_dates": {},
+      "genres": [],
+      "game_modes": [],
+      "game_style": [],
+      "platforms": [],
+      "essential": false,
+      "pc_game_pass": true,
+      "premium": true,
+      "ultimate": true,
+      "ea_play": false,
+      "ubisoft_classics": false,
+      "new": true,
+      "leaving": false,
+      "year": 2025,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co954c.jpg",
+      "release_date": "July 17th, 2025",
+      "developer": "( 2025 ) Veewo Games",
+      "description": "Plunge into the chaotic cybermyth roguelike world of Neon Abyss 2! With diverse combat styles and unlimited item synergies, every run delivers a dramatic and action-packed experience you won't forget."
+    },
+    {
       "name": "New Super Lucky's Tale",
       "url": "https://gamescriptions.com/game/119403",
       "plans": [
@@ -14363,13 +14461,9 @@
         "pc",
         "ultimate"
       ],
-      "new_plans": [
-        "ultimate"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
-      "plan_added_dates": {
-        "ultimate": "Aug 13"
-      },
+      "plan_added_dates": {},
       "leaving_dates": {},
       "genres": [],
       "game_modes": [],
@@ -14381,7 +14475,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2026,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa086.jpg",
@@ -18015,13 +18109,9 @@
         "ultimate",
         "ubisoft_classics"
       ],
-      "new_plans": [
-        "pc"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
-      "plan_added_dates": {
-        "pc": "Aug 19"
-      },
+      "plan_added_dates": {},
       "leaving_dates": {},
       "genres": [],
       "game_modes": [],
@@ -18033,7 +18123,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": true,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2018,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3yxu.jpg",
@@ -18506,15 +18596,9 @@
         "pc",
         "ultimate"
       ],
-      "new_plans": [
-        "pc",
-        "ultimate"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
-      "plan_added_dates": {
-        "pc": "Aug 19",
-        "ultimate": "Aug 19"
-      },
+      "plan_added_dates": {},
       "leaving_dates": {},
       "genres": [],
       "game_modes": [],
@@ -18526,7 +18610,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2026,
       "cover_url": "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.gamescriptions.com%2Fcdn-cgi%2Fimage%2Fwidth%3D250%2Cformat%3Dauto%2Fgames%2F172712_Vapor_World_Over_the_Mind.jpg&w=3840&q=75",
