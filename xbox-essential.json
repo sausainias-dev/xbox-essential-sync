@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-10-11T03:02:13.477328+00:00",
+  "updated_at": "2026-10-11T11:02:53.599050+00:00",
   "service_counts": {
     "essential": 70,
     "pc": 574,
@@ -1507,11 +1507,7 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "year": 2023,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9oe3.jpg",
-      "release_date": "December 7th, 2023",
-      "developer": "( 2023 ) Massive Entertainment · Ubisoft Entertainment",
-      "description": "Avatar: Frontiers of Pandora is a first-person, action-adventure game set in the never-before-seen Western Frontier of Pandora. Abducted by the human militaristic corporation known as the RDA, you, a Na’vi, were trained and molded to serve their purpose. Fifteen years later, you are free, but find yourself a stranger in your birthplace."
+      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/152202"
     },
     {
       "name": "Avowed",
