@@ -8,10 +8,10 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-10-13T00:12:23.843613+00:00",
+  "updated_at": "2026-10-13T04:51:13.673637+00:00",
   "service_counts": {
     "essential": 70,
-    "pc": 574,
+    "pc": 577,
     "premium": 428,
     "ultimate": 656,
     "ea_play": 92,
@@ -1627,7 +1627,11 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "enrich_error": "HTTPSConnectionPool(host='gamescriptions.com', port=443): Read timed out. (read timeout=30)"
+      "year": 2025,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xid.jpg",
+      "release_date": "October 15th, 2025",
+      "developer": "( 2025 ) Kenny Sun · Devolver Digital",
+      "description": "BALL x PIT is a brick-breaking, ball-fusing, base-building survival roguelite where you battle hordes of monstrous enemies with your arsenal of ricocheting balls."
     },
     {
       "name": "Banishers: Ghosts of New Eden",
@@ -1935,15 +1939,18 @@
       "name": "Battlefield 6",
       "url": "https://gamescriptions.com/game/317407",
       "plans": [
+        "pc",
         "ultimate",
         "ea_play"
       ],
       "new_plans": [
+        "pc",
         "ultimate",
         "ea_play"
       ],
       "leaving_plans": [],
       "plan_added_dates": {
+        "pc": "Today",
         "ultimate": "Today",
         "ea_play": "Today"
       },
@@ -1953,7 +1960,7 @@
       "game_style": [],
       "platforms": [],
       "essential": false,
-      "pc_game_pass": false,
+      "pc_game_pass": true,
       "premium": false,
       "ultimate": true,
       "ea_play": true,
@@ -2447,13 +2454,9 @@
         "pc",
         "ultimate"
       ],
-      "new_plans": [
-        "pc"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
-      "plan_added_dates": {
-        "pc": "Aug 25"
-      },
+      "plan_added_dates": {},
       "leaving_dates": {},
       "genres": [],
       "game_modes": [],
@@ -2465,7 +2468,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2026,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc6nb.jpg",
@@ -4464,13 +4467,16 @@
       "name": "Deep Dish Dungeon",
       "url": "https://gamescriptions.com/game/298680",
       "plans": [
+        "pc",
         "ultimate"
       ],
       "new_plans": [
+        "pc",
         "ultimate"
       ],
       "leaving_plans": [],
       "plan_added_dates": {
+        "pc": "Today",
         "ultimate": "Today"
       },
       "leaving_dates": {},
@@ -4479,7 +4485,7 @@
       "game_style": [],
       "platforms": [],
       "essential": false,
-      "pc_game_pass": false,
+      "pc_game_pass": true,
       "premium": false,
       "ultimate": true,
       "ea_play": false,
@@ -14081,13 +14087,9 @@
         "pc",
         "ultimate"
       ],
-      "new_plans": [
-        "pc"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
-      "plan_added_dates": {
-        "pc": "Aug 27"
-      },
+      "plan_added_dates": {},
       "leaving_dates": {},
       "genres": [],
       "game_modes": [],
@@ -14099,7 +14101,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2026,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc79u.jpg",
@@ -14344,7 +14346,11 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/137894"
+      "year": 2023,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9r1v.jpg",
+      "release_date": "November 7th, 2023",
+      "developer": "( 2023 ) RyseUp Studios",
+      "description": "Roboquest is a fast FPS Roguelite in a scorched futureworld. You're a rebooted Guardian, ready to kick some metal ass! Fight with your buddy or by yourself and annihilate hordes of deadly bots in ever-changing environments."
     },
     {
       "name": "Routine",
@@ -14412,7 +14418,11 @@
       "ubisoft_classics": false,
       "new": true,
       "leaving": false,
-      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/337712"
+      "year": 2026,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocaxf.jpg",
+      "release_date": "September 15th, 2026",
+      "developer": "( 2026 ) Jagex",
+      "description": "On RuneScape’s forgotten continent of Ashenfall, dragons have awoken. Gather, build, skill and craft to survive in this co-operative (1-4) survival crafting game. Only by mastering survival and uncovering ancient secrets can they hope to slay the Dragon Queen—alone or with allies."
     },
     {
       "name": "Rush: A Disney Pixar Adventure",
@@ -14761,12 +14771,10 @@
         "ultimate"
       ],
       "new_plans": [
-        "pc",
         "premium"
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "pc": "Sep 1",
         "premium": "Sep 1"
       },
       "leaving_dates": {},
@@ -18551,13 +18559,16 @@
       "name": "Valor Mortis",
       "url": "https://gamescriptions.com/game/361833",
       "plans": [
+        "pc",
         "ultimate"
       ],
       "new_plans": [
+        "pc",
         "ultimate"
       ],
       "leaving_plans": [],
       "plan_added_dates": {
+        "pc": "Today",
         "ultimate": "Today"
       },
       "leaving_dates": {},
@@ -18566,7 +18577,7 @@
       "game_style": [],
       "platforms": [],
       "essential": false,
-      "pc_game_pass": false,
+      "pc_game_pass": true,
       "premium": false,
       "ultimate": true,
       "ea_play": false,
