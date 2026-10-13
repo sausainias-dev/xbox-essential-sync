@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-10-13T04:51:13.673637+00:00",
+  "updated_at": "2026-10-13T12:02:36.249313+00:00",
   "service_counts": {
     "essential": 70,
     "pc": 577,
@@ -11243,11 +11243,7 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "year": 2025,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coab4k.jpg",
-      "release_date": "May 21st, 2025",
-      "developer": "( 2025 ) Shiny Shoe · Big Fan Games",
-      "description": "It's time to raise Hell in Heaven! Monster Train returns with all new clans, new enemy factions, new challenges, new modes and more! Defend your Pyre in the classic three-tiered, vertical gameplay that made the original roguelike deckbuilder a hit."
+      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/332273"
     },
     {
       "name": "Monsters Are Coming!",
@@ -11303,11 +11299,7 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "year": 2018,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vck.jpg",
-      "release_date": "May 29th, 2018",
-      "developer": "( 2018 ) Digital Sun Games · Netflix",
-      "description": "Moonlighter is an Action RPG with rogue-lite elements that demonstrates two sides of the coin – revealing everyday routines of Will, an adventurous shopkeeper that secretly dreams of becoming a hero."
+      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/27771"
     },
     {
       "name": "Moonlighter 2: The Endless Vault",
@@ -11332,11 +11324,7 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "year": 2026,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co94bw.jpg",
-      "release_date": "September 2nd, 2026",
-      "developer": "( 2026 ) Digital Sun Games · 11 bit studios",
-      "description": "Live the double life of a fearless adventurer and a crafty merchant! Dive into vibrant dimensions brimming with shiny loot and pesky enemies. Grow your shop, tinker with weapons and gadgets, as well as make your mark among a ragtag community of castaways."
+      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/324570"
     },
     {
       "name": "Mortal Kombat 1",
@@ -11362,11 +11350,7 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "year": 2023,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9b8f.jpg",
-      "release_date": "September 19th, 2023",
-      "developer": "( 2023 ) NetherRealm Studios · WB Games",
-      "description": "A new era has begun. It's In Our Blood. Discover a reborn Mortal Kombat Universe created by Fire God Liu Kang."
+      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/239392"
     },
     {
       "name": "Motorslice",
@@ -11421,11 +11405,7 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "year": 2023,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8zgy.jpg",
-      "release_date": "August 15th, 2023",
-      "developer": "( 2023 ) DEVM Games · Team17",
-      "description": "Moving Out 2 is a video game in which payers attempt to move objects across various levels without hitting objections. It combines elements of strategy, puzzles, and party video games. It is a sequel to Moving Out."
+      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/214397"
     },
     {
       "name": "MTB Mavrix",
@@ -11451,11 +11431,7 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "year": 2026,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocj1y.jpg",
-      "release_date": "July 16th, 2026",
-      "developer": "( 2026 ) Third Kind Games · Cascade Interactive",
-      "description": "The ultimate multiplayer open world designed by Pro riders. Discover mountains and trails with limitless control and build your own career. Pull huge tricks or race through the global rankings!"
+      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/343634"
     },
     {
       "name": "My Friend Peppa Pig",
@@ -11481,11 +11457,7 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "year": 2021,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3irs.jpg",
-      "release_date": "October 21st, 2021",
-      "developer": "( 2021 ) Outright Games · Bandai Namco Entertainment",
-      "description": "Start a fun-filled adventure by becoming Peppa Pig’s new friend! Take your first steps into Peppa’s world by creating your character and choosing your clothes. If you want to be a fox in a pirate hat, you can."
+      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/148289"
     },
     {
       "name": "MySims: Cozy Bundle",
