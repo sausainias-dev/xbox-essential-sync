@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-10-13T12:02:36.249313+00:00",
+  "updated_at": "2026-10-13T13:26:29.855923+00:00",
   "service_counts": {
     "essential": 70,
     "pc": 577,
@@ -6172,11 +6172,7 @@
       "ubisoft_classics": false,
       "new": true,
       "leaving": false,
-      "year": 2025,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9mk6.jpg",
-      "release_date": "May 30th, 2025",
-      "developer": "( 2025 ) Codemasters · Electronic Arts",
-      "description": "Leave your mark on the world of racing in F1 25, the official video game of the 2025 FIA Formula One World Championship, featuring a revamped My Team mode, the thrilling third chapter of Braking Point, and more!"
+      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/336964"
     },
     {
       "name": "Fable Anniversary",
@@ -6202,11 +6198,7 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "year": 2014,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co22lr.jpg",
-      "release_date": "February 4th, 2014",
-      "developer": "( 2014 ) Lionhead Studios · Microsoft Studios",
-      "description": "Fully re-mastered with HD visuals and audio, Fable Anniversary is a stunning rendition of the original game that will delight faithful fans and new players alike! The all new Heroic difficulty setting will test the mettle of even the most hardcore Fable fan. With no Resurrection Phials and even more lethal enemies to contend with, will yo..."
+      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/7658"
     },
     {
       "name": "Fable II",
@@ -6231,11 +6223,7 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "year": 2008,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1y2h.jpg",
-      "release_date": "October 21st, 2008",
-      "developer": "( 2008 ) Lionhead Studios · Microsoft Game Studios",
-      "description": "Fable 2 is the second game in the fable series by Lionhead Studios, it is an open world role-playing game. It has a simple story line where the hero needs to save Albion from the evil Lord Lucian by collecting together the other three heroes to defeat him. Interactive cut-scenes are a large part of the game however the main character neve..."
+      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/522"
     },
     {
       "name": "Fable III",
@@ -6260,11 +6248,7 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "year": 2010,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co231s.jpg",
-      "release_date": "October 26th, 2010",
-      "developer": "( 2010 ) Lionhead Studios · Microsoft Game Studios",
-      "description": "Set 50 years after the events of Fable II, the continent of Albion (where the Fable series is set) is under the control of Logan, a tyrant king and the Hero's older brother[1]. The player's character, the \"Hero\", is forced into a quest to become a revolutionary leader to defeat Logan after he reveals his true personality to the Hero. Over..."
+      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/504"
     },
     {
       "name": "Fallout 2",
@@ -6290,11 +6274,7 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "year": 1998,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8ado.jpg",
-      "release_date": "October 29th, 1998",
-      "developer": "( 1998 ) Black Isle Studios · Interplay Entertainment",
-      "description": "A turn-based tactical Western RPG in which the Chosen One is tasked with exploring post-nuclear California to locate and retrieve the fabled Garden of Eden Creation Kit for their famine-stricken tribe, while coming into contact through branching dialogue trees with numerous tribes, factions and micro-civilizations, each with their own vir..."
+      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/14"
     },
     {
       "name": "Fallout 3",
@@ -6320,11 +6300,7 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "year": 2008,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ycw.jpg",
-      "release_date": "October 28th, 2008",
-      "developer": "( 2008 ) Bethesda Game Studios · Bethesda Softworks",
-      "description": "Fallout 3 from the creators of the award-winning Oblivion, featuring one of the most realized game worlds ever created. Create any kind of character you want and explore the open wastes of post-apocalyptic Washington D.C. Every minute is a fight for survival as you encounter Super Mutants, Ghouls, Raiders and other dangers of the Wastelan..."
+      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/15"
     },
     {
       "name": "Fallout 4",
@@ -6351,11 +6327,7 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "year": 2015,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1yc6.jpg",
-      "release_date": "November 9th, 2015",
-      "developer": "( 2015 ) Bethesda Game Studios · Bethesda Softworks",
-      "description": "Bethesda Game Studios welcome you to the world of Fallout 4, their most ambitious game ever, and the next generation of open-world gaming. As the sole survivor of Vault 111, you enter a world destroyed by nuclear war. Every second is a fight for survival, and every choice is yours."
+      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/9630"
     },
     {
       "name": "Fallout 76",
@@ -6382,11 +6354,7 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "year": 2018,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1yc4.jpg",
-      "release_date": "November 14th, 2018",
-      "developer": "( 2018 ) Bethesda Game Studios · Bethesda Softworks",
-      "description": "Fallout 76 is an online action role-playing game and the first multiplayer entry in the Fallout series. Set in 2102 in Appalachia, West Virginia, players control a resident of Vault 76 who ventures into the open world 25 years after a nuclear war. The game features exploration, questing, base building, and combat against mutated creatures..."
+      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/103020"
     },
     {
       "name": "Fallout Tactics: Brotherhood of Steel",
@@ -6412,11 +6380,7 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "year": 2001,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ybr.jpg",
-      "release_date": "March 15th, 2001",
-      "developer": "( 2001 ) Micro Forté · 14 Degrees East",
-      "description": "This is a Tactical Squad-Based Combat comes to the Fallout Universe. You are the wretched refuse. You may be born from dirt, but we will forge you into steel."
+      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/17"
     },
     {
       "name": "Fallout: A Post Nuclear Role Playing Game",
@@ -6442,11 +6406,7 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "year": 1997,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ybn.jpg",
-      "release_date": "October 10th, 1997",
-      "developer": "( 1997 ) Interplay Entertainment · Edusoft",
-      "description": "The Vault Dweller is tasked with exploring post-nuclear California in order to retrieve a water chip to replace the broken chip of Vault 13, their home, which they are the first person to ever leave. The player will engage in Western RPG character building and turn-based tactical combat while getting to know settlements and factions of pe..."
+      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/13"
     },
     {
       "name": "Fallout: New Vegas",
@@ -6472,11 +6432,7 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "year": 2010,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1u60.jpg",
-      "release_date": "October 19th, 2010",
-      "developer": "( 2010 ) Obsidian Entertainment · Bandai Namco Entertainment",
-      "description": "In this first-person Western RPG, the player takes on the role of Courier 6, barely surviving after being robbed of their cargo, shot and put into a shallow grave by a New Vegas mob boss. The Courier sets out to track down their robbers and retrieve their cargo, and winds up getting tangled in the complex ideological and socioeconomic web..."
+      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/16"
     },
     {
       "name": "Far Cry 3: Blood Dragon - Classic Edition",
@@ -6506,11 +6462,7 @@
       "ubisoft_classics": true,
       "new": true,
       "leaving": false,
-      "year": 2021,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4hgc.jpg",
-      "release_date": "December 16th, 2021",
-      "developer": "( 2021 ) Ubisoft Pune · Ubisoft Entertainment",
-      "description": "Far Cry 3 Blood Dragon Classic Edition is THE 80's-style sci-fi cyber shooter, taking place on a bizarre open world island crawling with evil - now on the current generation of consoles."
+      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/188063"
     },
     {
       "name": "Far Cry 3: Classic Edition",
@@ -6536,11 +6488,7 @@
       "ubisoft_classics": true,
       "new": false,
       "leaving": false,
-      "year": 2018,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2nkb.jpg",
-      "release_date": "June 26th, 2018",
-      "developer": "( 2018 ) Ubisoft Montreal · Ubisoft Entertainment",
-      "description": "Far Cry 3 Classic Edition has been updated to run smoothly on modern platforms and allow fans and newcomers to experience the single-player Far Cry 3 campaign in stunning detail. Explore an island playground as stunningly beautiful as it is diverse – from mountain ranges to swampy grasslands and white sandy beaches. Fight your way throug..."
+      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/86389"
     },
     {
       "name": "Far Cry 4",
@@ -6598,11 +6546,7 @@
       "ubisoft_classics": true,
       "new": false,
       "leaving": false,
-      "year": 2018,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21a6.jpg",
-      "release_date": "March 26th, 2018",
-      "developer": "( 2018 ) Ubisoft Montreal · Ubisoft Entertainment",
-      "description": "Welcome to Hope County, Montana, land of the free and the brave, but also home to a fanatical doomsday cult known as The Project at Eden’s Gate that is threatening the community's freedom. Stand up to the cult’s leader, Joseph Seed and the Heralds, and spark the fires of resistance that will liberate the besieged community. In this expan..."
+      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/28552"
     },
     {
       "name": "Far Cry 6",
@@ -11243,7 +11187,11 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/332273"
+      "year": 2025,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coab4k.jpg",
+      "release_date": "May 21st, 2025",
+      "developer": "( 2025 ) Shiny Shoe · Big Fan Games",
+      "description": "It's time to raise Hell in Heaven! Monster Train returns with all new clans, new enemy factions, new challenges, new modes and more! Defend your Pyre in the classic three-tiered, vertical gameplay that made the original roguelike deckbuilder a hit."
     },
     {
       "name": "Monsters Are Coming!",
@@ -11299,7 +11247,11 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/27771"
+      "year": 2018,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vck.jpg",
+      "release_date": "May 29th, 2018",
+      "developer": "( 2018 ) Digital Sun Games · Netflix",
+      "description": "Moonlighter is an Action RPG with rogue-lite elements that demonstrates two sides of the coin – revealing everyday routines of Will, an adventurous shopkeeper that secretly dreams of becoming a hero."
     },
     {
       "name": "Moonlighter 2: The Endless Vault",
@@ -11324,7 +11276,11 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/324570"
+      "year": 2026,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co94bw.jpg",
+      "release_date": "September 2nd, 2026",
+      "developer": "( 2026 ) Digital Sun Games · 11 bit studios",
+      "description": "Live the double life of a fearless adventurer and a crafty merchant! Dive into vibrant dimensions brimming with shiny loot and pesky enemies. Grow your shop, tinker with weapons and gadgets, as well as make your mark among a ragtag community of castaways."
     },
     {
       "name": "Mortal Kombat 1",
@@ -11350,7 +11306,11 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/239392"
+      "year": 2023,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9b8f.jpg",
+      "release_date": "September 19th, 2023",
+      "developer": "( 2023 ) NetherRealm Studios · WB Games",
+      "description": "A new era has begun. It's In Our Blood. Discover a reborn Mortal Kombat Universe created by Fire God Liu Kang."
     },
     {
       "name": "Motorslice",
@@ -11405,7 +11365,11 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/214397"
+      "year": 2023,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8zgy.jpg",
+      "release_date": "August 15th, 2023",
+      "developer": "( 2023 ) DEVM Games · Team17",
+      "description": "Moving Out 2 is a video game in which payers attempt to move objects across various levels without hitting objections. It combines elements of strategy, puzzles, and party video games. It is a sequel to Moving Out."
     },
     {
       "name": "MTB Mavrix",
@@ -11431,7 +11395,11 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/343634"
+      "year": 2026,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocj1y.jpg",
+      "release_date": "July 16th, 2026",
+      "developer": "( 2026 ) Third Kind Games · Cascade Interactive",
+      "description": "The ultimate multiplayer open world designed by Pro riders. Discover mountains and trails with limitless control and build your own career. Pull huge tricks or race through the global rankings!"
     },
     {
       "name": "My Friend Peppa Pig",
@@ -11457,7 +11425,11 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/148289"
+      "year": 2021,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3irs.jpg",
+      "release_date": "October 21st, 2021",
+      "developer": "( 2021 ) Outright Games · Bandai Namco Entertainment",
+      "description": "Start a fun-filled adventure by becoming Peppa Pig’s new friend! Take your first steps into Peppa’s world by creating your character and choosing your clothes. If you want to be a fox in a pirate hat, you can."
     },
     {
       "name": "MySims: Cozy Bundle",
@@ -19810,11 +19782,7 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "year": 2018,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3vof.jpg",
-      "release_date": "June 14th, 2018",
-      "developer": "( 2018 ) Bugbear Entertainment · THQ Nordic",
-      "description": "Wreckfest is a racing and vehicular combat game centered on demolition derbies and banger racing, with a focus on realistic physics and location-based vehicle damage that changes how cars handle as they take hits. Before an event, players pick a car, adjust assists such as transmission type and braking aids, and can buy, customise, and up..."
+      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/3772"
     },
     {
       "name": "Wuchang: Fallen Feathers",
@@ -19840,11 +19808,7 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "year": 2025,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xif.jpg",
-      "release_date": "July 24th, 2025",
-      "developer": "( 2025 ) Leenzee Games · 505 Games",
-      "description": "Wuchang: Fallen Feathers is a soulslike action RPG set in the land of Shu during the dark and tumultuous late Ming Dynasty, plagued by warring factions and a mysterious illness that spawns monstrous creatures."
+      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/171225"
     },
     {
       "name": "Young Suns",
@@ -19874,11 +19838,7 @@
       "ubisoft_classics": false,
       "new": true,
       "leaving": false,
-      "year": 2026,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaw35.jpg",
-      "release_date": "August 31st, 2026",
-      "developer": "( 2026 ) KO_OP",
-      "description": "Young Suns is a 1-4 player narrative life sim set on Jupiter in an optimistic alternative future, intended for one-to-two hours of daily play, alone or with friends. Build your home among the stars, and take it with you on adventures!"
+      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/378678"
     },
     {
       "name": "Zombi",
@@ -19904,11 +19864,7 @@
       "ubisoft_classics": true,
       "new": false,
       "leaving": false,
-      "year": 2015,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co22as.jpg",
-      "release_date": "August 18th, 2015",
-      "developer": "( 2015 ) Straight Right",
-      "description": "London is falling. Are you prepared? The Last Blight is upon us."
+      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/11491"
     },
     {
       "name": "Zombie Army 4: Dead War",
@@ -19934,11 +19890,7 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "year": 2020,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1lwq.jpg",
-      "release_date": "February 4th, 2020",
-      "developer": "( 2020 ) Rebellion Developments",
-      "description": "Hitler's hordes are back for more in this spine-chilling shooter from the makers of Sniper Elite 4! Abominable occult enemies, epic weapons and a harrowing new campaign for 1-4 players await in 1940's Europe, as you fight to save humankind from undead armageddon."
+      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/119234"
     },
     {
       "name": "Zoo Tycoon: Ultimate Animal Collection",
@@ -19993,11 +19945,7 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "year": 2003,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2sym.jpg",
-      "release_date": "December 12th, 2003",
-      "developer": "( 2003 ) PopCap Games · Sony Online Entertainment",
-      "description": "Survive the ancient temples of Zuma, the critically acclaimed action-puzzler from PopCap! Deep in the jungle lie hidden temples bursting with traps and trickery, and it's up to you to uncover their treasures. Fire magical balls from your stone frog idol to make matches of three or more and clear the deadly chain before it reaches the gold..."
+      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/3753"
     },
     {
       "name": "Zuma's Revenge!",
@@ -20022,11 +19970,7 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "year": 2009,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ry6.jpg",
-      "release_date": "September 15th, 2009",
-      "developer": "( 2009 ) PopCap Games · Electronic Arts",
-      "description": "Conquer over 60 levels by staying sharp and avoiding hidden traps. Slide and hop for smarter shots; hit targets for exotic bonuses; detonate new power-up balls; battle six imposing tiki bosses and guide your agile amphibian to victory in four all new game modes! Will you succumb to the perilous pitfalls, or can you tame the jungle in this..."
+      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/8322"
     }
   ]
 }
