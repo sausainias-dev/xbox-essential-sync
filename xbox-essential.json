@@ -8,13 +8,13 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-10-12T14:03:24.939359+00:00",
+  "updated_at": "2026-10-13T00:12:23.843613+00:00",
   "service_counts": {
     "essential": 70,
     "pc": 574,
     "premium": 428,
-    "ultimate": 653,
-    "ea_play": 91,
+    "ultimate": 656,
+    "ea_play": 92,
     "ubisoft_classics": 64
   },
   "genre_counts": {
@@ -25,7 +25,7 @@
     "ea_play": {},
     "ubisoft_classics": {}
   },
-  "game_count_unique": 653,
+  "game_count_unique": 656,
   "games": [
     {
       "name": "1000xResist",
@@ -1627,11 +1627,7 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "year": 2025,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xid.jpg",
-      "release_date": "October 15th, 2025",
-      "developer": "( 2025 ) Kenny Sun · Devolver Digital",
-      "description": "BALL x PIT is a brick-breaking, ball-fusing, base-building survival roguelite where you battle hordes of monstrous enemies with your arsenal of ricocheting balls."
+      "enrich_error": "HTTPSConnectionPool(host='gamescriptions.com', port=443): Read timed out. (read timeout=30)"
     },
     {
       "name": "Banishers: Ghosts of New Eden",
@@ -1934,6 +1930,41 @@
       "release_date": "October 29th, 2013",
       "developer": "( 2013 ) EA Digital Illusions CE · Electronic Arts",
       "description": "Battlefield 4 is the genre-defining action blockbuster created by Dice, and made from moments that blur the line between game and glory, moments found only in Battlefield. Go to Boot Camp to learn the basics of Battlefield 4's engaging single player and intense multiplayer mode. Here you'll also find intel on Levolution, Commander Mode, N..."
+    },
+    {
+      "name": "Battlefield 6",
+      "url": "https://gamescriptions.com/game/317407",
+      "plans": [
+        "ultimate",
+        "ea_play"
+      ],
+      "new_plans": [
+        "ultimate",
+        "ea_play"
+      ],
+      "leaving_plans": [],
+      "plan_added_dates": {
+        "ultimate": "Today",
+        "ea_play": "Today"
+      },
+      "leaving_dates": {},
+      "genres": [],
+      "game_modes": [],
+      "game_style": [],
+      "platforms": [],
+      "essential": false,
+      "pc_game_pass": false,
+      "premium": false,
+      "ultimate": true,
+      "ea_play": true,
+      "ubisoft_classics": false,
+      "new": true,
+      "leaving": false,
+      "year": 2025,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa5zt.jpg",
+      "release_date": "October 10th, 2025",
+      "developer": "( 2025 ) EA Digital Illusions CE · Electronic Arts",
+      "description": "Battlefield 6 is a first-person shooter featuring a single-player campaign and team-based online multiplayer. Players fight as infantry or operate military vehicles across large-scale battlefields, using class-based squad roles, environmental destruction, and a range of weapons and equipment. The game also includes Battlefield Portal, a..."
     },
     {
       "name": "Battlefield Hardline",
@@ -2417,13 +2448,11 @@
         "ultimate"
       ],
       "new_plans": [
-        "pc",
-        "ultimate"
+        "pc"
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "pc": "Aug 25",
-        "ultimate": "Aug 25"
+        "pc": "Aug 25"
       },
       "leaving_dates": {},
       "genres": [],
@@ -4432,6 +4461,38 @@
       "description": "Deathloop transports players to the lawless island of Blackreef in an eternal struggle between two extraordinary assassins. Explore stunning environments and meticulously designed levels in an immersive gameplay experience that lets you approach every situation any way you like. Hunt down targets all over the island in an effort to put an..."
     },
     {
+      "name": "Deep Dish Dungeon",
+      "url": "https://gamescriptions.com/game/298680",
+      "plans": [
+        "ultimate"
+      ],
+      "new_plans": [
+        "ultimate"
+      ],
+      "leaving_plans": [],
+      "plan_added_dates": {
+        "ultimate": "Today"
+      },
+      "leaving_dates": {},
+      "genres": [],
+      "game_modes": [],
+      "game_style": [],
+      "platforms": [],
+      "essential": false,
+      "pc_game_pass": false,
+      "premium": false,
+      "ultimate": true,
+      "ea_play": false,
+      "ubisoft_classics": false,
+      "new": true,
+      "leaving": false,
+      "year": 2026,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9fh8.jpg",
+      "release_date": "October 13th, 2026",
+      "developer": "( 2026 ) Behold Studios · Raw Fury",
+      "description": "Co-op online multiplayer game where you must unite to survive the treacherous depths of a mysterious dungeon, navigate puzzling passageways and gather resources to improve your camping site. Encounter enemies with diverse behaviors, discover coveted treasures, and unravel enigmas within its depths."
+    },
+    {
       "name": "Deep Rock Galactic",
       "url": "https://gamescriptions.com/game/27134",
       "plans": [
@@ -5650,9 +5711,7 @@
         "ultimate",
         "ea_play"
       ],
-      "new_plans": [
-        "ea_play"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
       "plan_added_dates": {},
       "leaving_dates": {},
@@ -5666,7 +5725,7 @@
       "ultimate": true,
       "ea_play": true,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2023,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co60xh.jpg",
@@ -14023,13 +14082,11 @@
         "ultimate"
       ],
       "new_plans": [
-        "pc",
-        "ultimate"
+        "pc"
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "pc": "Aug 27",
-        "ultimate": "Aug 27"
+        "pc": "Aug 27"
       },
       "leaving_dates": {},
       "genres": [],
@@ -14287,11 +14344,7 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "year": 2023,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9r1v.jpg",
-      "release_date": "November 7th, 2023",
-      "developer": "( 2023 ) RyseUp Studios",
-      "description": "Roboquest is a fast FPS Roguelite in a scorched futureworld. You're a rebooted Guardian, ready to kick some metal ass! Fight with your buddy or by yourself and annihilate hordes of deadly bots in ever-changing environments."
+      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/137894"
     },
     {
       "name": "Routine",
@@ -14359,11 +14412,7 @@
       "ubisoft_classics": false,
       "new": true,
       "leaving": false,
-      "year": 2026,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocaxf.jpg",
-      "release_date": "September 15th, 2026",
-      "developer": "( 2026 ) Jagex",
-      "description": "On RuneScape’s forgotten continent of Ashenfall, dragons have awoken. Gather, build, skill and craft to survive in this co-operative (1-4) survival crafting game. Only by mastering survival and uncovering ancient secrets can they hope to slay the Dragon Queen—alone or with allies."
+      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/337712"
     },
     {
       "name": "Rush: A Disney Pixar Adventure",
@@ -14713,14 +14762,12 @@
       ],
       "new_plans": [
         "pc",
-        "premium",
-        "ultimate"
+        "premium"
       ],
       "leaving_plans": [],
       "plan_added_dates": {
         "pc": "Sep 1",
-        "premium": "Sep 1",
-        "ultimate": "Sep 1"
+        "premium": "Sep 1"
       },
       "leaving_dates": {},
       "genres": [],
@@ -18499,6 +18546,38 @@
       "release_date": "June 24th, 2014",
       "developer": "( 2014 ) Ubisoft Montpellier · Ubisoft Entertainment",
       "description": "Valiant Hearts: The Great War is the story of 4 crossed destinies and a broken love in a world torn apart. Dive into a 2D animated comic book adventure, mixing exploration, action and puzzles. In Valiant Hearts, the lives of all these characters are inextricably drawn together over the course of the game."
+    },
+    {
+      "name": "Valor Mortis",
+      "url": "https://gamescriptions.com/game/361833",
+      "plans": [
+        "ultimate"
+      ],
+      "new_plans": [
+        "ultimate"
+      ],
+      "leaving_plans": [],
+      "plan_added_dates": {
+        "ultimate": "Today"
+      },
+      "leaving_dates": {},
+      "genres": [],
+      "game_modes": [],
+      "game_style": [],
+      "platforms": [],
+      "essential": false,
+      "pc_game_pass": false,
+      "premium": false,
+      "ultimate": true,
+      "ea_play": false,
+      "ubisoft_classics": false,
+      "new": true,
+      "leaving": false,
+      "year": 2026,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaazc.jpg",
+      "release_date": "October 13th, 2026",
+      "developer": "( 2026 ) One More Level",
+      "description": "Valor Mortis is a first-person action soulslike from the creators of Ghostrunner. Rise from death as a former soldier of Napoleon’s army. Wield supernatural powers, battle horrifying monsters, and unravel a conspiracy that threatens all of humanity."
     },
     {
       "name": "Valorant",
