@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-10-14T16:24:21.555502+00:00",
+  "updated_at": "2026-10-14T21:19:09.177050+00:00",
   "service_counts": {
     "essential": 70,
     "pc": 577,
@@ -13194,7 +13194,11 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "enrich_error": "HTTPSConnectionPool(host='gamescriptions.com', port=443): Read timed out. (read timeout=30)"
+      "year": 1998,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co25er.jpg",
+      "release_date": "November 30th, 1998",
+      "developer": "( 1998 ) Bullfrog Productions · Electronic Arts",
+      "description": "Populous: The Beginning is a strategy and god-style video game. It is the third entry in the Populous video game series, developed by Bullfrog Productions in 1998. The PC version of the game was released November 30, 1998 and a PlayStation version was later developed and released on April 2, 1999."
     },
     {
       "name": "PowerWash Simulator 2",
@@ -13434,7 +13438,11 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/261085"
+      "year": 2023,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9bgb.jpg",
+      "release_date": "August 10th, 2023",
+      "developer": "( 2023 ) Nightdive Studios · Bethesda Softworks",
+      "description": "You are humanity's last hope to stop the Strogg, a hostile alien race waging war against Earth. Play this military sci-fi FPS, now upgraded for modern platforms with improved visuals, new campaign content, online multiplayer/co-op, and more."
     },
     {
       "name": "Quake III Arena",
@@ -13460,7 +13468,11 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/355"
+      "year": 1999,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ybj.jpg",
+      "release_date": "December 2nd, 1999",
+      "developer": "( 1999 ) id Software · Electronic Arts",
+      "description": "Quake III Arena is a first-person shooter built around competitive multiplayer combat. Unlike earlier entries in the Quake series, it has no story-driven campaign, and its single-player mode instead pits the player against computer-controlled bots across a series of increasingly difficult arenas. Matches take place in maps that mix gothic..."
     },
     {
       "name": "Quantum Break",
@@ -13486,7 +13498,11 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/3750"
+      "year": 2016,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8gsr.jpg",
+      "release_date": "April 5th, 2016",
+      "developer": "( 2016 ) Remedy Entertainment · Microsoft Studios",
+      "description": "Fix Time Before It Destroys Everything! When time breaks, catastrophe becomes your playground. As hero Jack Joyce, you'll fight your way through epic disasters that stutter back and forth in time."
     },
     {
       "name": "Quarantine Zone: The Last Check",
@@ -13512,7 +13528,11 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/342760"
+      "year": 2026,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob8bc.jpg",
+      "release_date": "January 12th, 2026",
+      "developer": "( 2026 ) Brigada Games · Devolver Digital",
+      "description": "\"Papers, Please\" meets zombie apocalypse. Command the last blockade, inspect survivors, and decide their fate: trust, quarantine, or liquidate. Expand your base, upgrade defenses, and fend off hordes."
     },
     {
       "name": "Rabbids Invasion: The Interactive TV Show",
