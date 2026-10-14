@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-10-14T02:50:53.481947+00:00",
+  "updated_at": "2026-10-14T09:48:40.729675+00:00",
   "service_counts": {
     "essential": 70,
     "pc": 577,
@@ -15856,35 +15856,6 @@
       "description": "STARSEEKER is a new game set within the Astroneer universe with a focus on discovery, cooperative expeditions, and camaraderie. Exploring deep space on the ESS Starseeker, players will need to work together with the entire crew of the space station to complete planet- wide objectives across a multitude of star systems using cutting edge t..."
     },
     {
-      "name": "State of Decay",
-      "url": "https://gamescriptions.com/game/7710",
-      "plans": [
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [],
-      "plan_added_dates": {},
-      "leaving_dates": {},
-      "genres": [],
-      "game_modes": [],
-      "game_style": [],
-      "platforms": [],
-      "essential": false,
-      "pc_game_pass": false,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": false,
-      "year": 2013,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2jpa.jpg",
-      "release_date": "June 5th, 2013",
-      "developer": "( 2013 ) Undead Labs · Microsoft Studios",
-      "description": "The end is here. Life as you know it has gone to hell after the mother of all zombie outbreaks. Now you and the few scattered survivors must band together to survive and rebuild in a 3rd-person action game set in a dynamic open world."
-    },
-    {
       "name": "State of Decay 2",
       "url": "https://gamescriptions.com/game/19541",
       "plans": [
@@ -15914,6 +15885,35 @@
       "release_date": "May 22nd, 2018",
       "developer": "( 2018 ) Undead Labs · Xbox Game Studios",
       "description": "The next installment in the critically acclaimed “State of Decay” franchise immerses you in an all-new, multiplayer zombie survival fantasy. Build a lasting community, working with other players or solo to overcome challenges while exploring your own unique story in a world that remembers the choices you make."
+    },
+    {
+      "name": "State of Decay: Year-One Survival Edition",
+      "url": "https://gamescriptions.com/game/7710",
+      "plans": [
+        "premium",
+        "ultimate"
+      ],
+      "new_plans": [],
+      "leaving_plans": [],
+      "plan_added_dates": {},
+      "leaving_dates": {},
+      "genres": [],
+      "game_modes": [],
+      "game_style": [],
+      "platforms": [],
+      "essential": false,
+      "pc_game_pass": false,
+      "premium": true,
+      "ultimate": true,
+      "ea_play": false,
+      "ubisoft_classics": false,
+      "new": false,
+      "leaving": false,
+      "year": 2015,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2c6r.jpg",
+      "release_date": "April 27th, 2015",
+      "developer": "( 2015 ) Undead Labs · Microsoft Studios",
+      "description": "State of Decay, along with major Add-Ons Breakdown and Lifeline, is now fully remastered in stunning 1080p. New missions, weapons, and extra content, along with improved lighting, textures, animations and combat mechanics, will pull you even deeper into the post-outbreak world. How will you survive the zombie apocalypse?"
     },
     {
       "name": "Steep",
