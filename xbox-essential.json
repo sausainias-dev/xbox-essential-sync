@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-10-13T22:17:46.434722+00:00",
+  "updated_at": "2026-10-14T02:50:53.481947+00:00",
   "service_counts": {
     "essential": 70,
     "pc": 577,
@@ -163,9 +163,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Oct 15",
-        "premium": "Oct 15",
-        "ultimate": "Oct 15"
+        "pc": "Tomorrow",
+        "premium": "Tomorrow",
+        "ultimate": "Tomorrow"
       },
       "genres": [],
       "game_modes": [],
@@ -1950,9 +1950,9 @@
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "pc": "Today",
-        "ultimate": "Today",
-        "ea_play": "Today"
+        "pc": "Oct 13",
+        "ultimate": "Oct 13",
+        "ea_play": "Oct 13"
       },
       "leaving_dates": {},
       "genres": [],
@@ -3257,9 +3257,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Oct 15",
-        "premium": "Oct 15",
-        "ultimate": "Oct 15"
+        "pc": "Tomorrow",
+        "premium": "Tomorrow",
+        "ultimate": "Tomorrow"
       },
       "genres": [],
       "game_modes": [],
@@ -3838,9 +3838,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Oct 15",
-        "premium": "Oct 15",
-        "ultimate": "Oct 15"
+        "pc": "Tomorrow",
+        "premium": "Tomorrow",
+        "ultimate": "Tomorrow"
       },
       "genres": [],
       "game_modes": [],
@@ -4476,8 +4476,8 @@
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "pc": "Today",
-        "ultimate": "Today"
+        "pc": "Oct 13",
+        "ultimate": "Oct 13"
       },
       "leaving_dates": {},
       "genres": [],
@@ -5065,9 +5065,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Oct 15",
-        "premium": "Oct 15",
-        "ultimate": "Oct 15"
+        "pc": "Tomorrow",
+        "premium": "Tomorrow",
+        "ultimate": "Tomorrow"
       },
       "genres": [],
       "game_modes": [],
@@ -6090,9 +6090,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Oct 15",
-        "premium": "Oct 15",
-        "ultimate": "Oct 15"
+        "pc": "Tomorrow",
+        "premium": "Tomorrow",
+        "ultimate": "Tomorrow"
       },
       "genres": [],
       "game_modes": [],
@@ -12149,8 +12149,8 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Oct 15",
-        "ultimate": "Oct 15"
+        "pc": "Tomorrow",
+        "ultimate": "Tomorrow"
       },
       "genres": [],
       "game_modes": [],
@@ -12400,9 +12400,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Oct 15",
-        "premium": "Oct 15",
-        "ultimate": "Oct 15"
+        "pc": "Tomorrow",
+        "premium": "Tomorrow",
+        "ultimate": "Tomorrow"
       },
       "genres": [],
       "game_modes": [],
@@ -15940,7 +15940,7 @@
       "new": false,
       "leaving": false,
       "year": 2016,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2jpb.jpg",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cod3sc.jpg",
       "release_date": "December 1st, 2016",
       "developer": "( 2016 ) Ubisoft Annecy",
       "description": "Ride a massive open world of the Alps and Alaska, where the powder is always fresh and the run never ends.Defy and master the world’s most epic mountains on skis, wingsuit, snowboard, and in paraglide. Go solo or drop in side by side with other players. Record and share the most insane stunts ever captured, then challenge the world to bea..."
@@ -16147,10 +16147,10 @@
         "essential": "Oct 28"
       },
       "leaving_dates": {
-        "essential": "Oct 15",
-        "pc": "Oct 15",
-        "premium": "Oct 15",
-        "ultimate": "Oct 15"
+        "essential": "Tomorrow",
+        "pc": "Tomorrow",
+        "premium": "Tomorrow",
+        "ultimate": "Tomorrow"
       },
       "genres": [],
       "game_modes": [],
@@ -16673,9 +16673,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Oct 15",
-        "premium": "Oct 15",
-        "ultimate": "Oct 15"
+        "pc": "Tomorrow",
+        "premium": "Tomorrow",
+        "ultimate": "Tomorrow"
       },
       "genres": [],
       "game_modes": [],
@@ -18568,8 +18568,8 @@
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "pc": "Today",
-        "ultimate": "Today"
+        "pc": "Oct 13",
+        "ultimate": "Oct 13"
       },
       "leaving_dates": {},
       "genres": [],
