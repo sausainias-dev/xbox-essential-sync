@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-10-15T10:46:38.811398+00:00",
+  "updated_at": "2026-10-15T16:12:12.419286+00:00",
   "service_counts": {
     "essential": 70,
     "pc": 580,
@@ -6019,10 +6019,10 @@
       "new": true,
       "leaving": false,
       "year": 2026,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9g3f.jpg",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cod3qs.jpg",
       "release_date": "October 8th, 2026",
       "developer": "( 2026 ) Moonlight Kids · Akupara Games",
-      "description": "A fast-paced metroidBRAINia that tells the tale of a ruined society trapped in a fatal time loop. Uncover their story - and your own - as you explore what remains. Use each loop to chip away at the mystery, unlocking powerful knowledge to reshape the timeline and master the loop."
+      "description": "Time is your greatest resource and secrets are your only upgrades. Master an unraveling time loop in this knowledge-based Metroidvania. As the last Weaver, exploit time-altering anomalies and use what you learn to break the cycle."
     },
     {
       "name": "Egging On",
@@ -11856,10 +11856,10 @@
       "ubisoft_classics": false,
       "new": true,
       "leaving": false,
-      "year": 2025,
+      "year": 2026,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co954c.jpg",
-      "release_date": "July 17th, 2025",
-      "developer": "( 2025 ) Veewo Games",
+      "release_date": "October 8th, 2026",
+      "developer": "( 2026 ) Veewo Games",
       "description": "Plunge into the chaotic cybermyth roguelike world of Neon Abyss 2! With diverse combat styles and unlimited item synergies, every run delivers a dramatic and action-packed experience you won't forget."
     },
     {
