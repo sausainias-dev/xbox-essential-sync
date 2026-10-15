@@ -8,12 +8,12 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-10-14T21:19:09.177050+00:00",
+  "updated_at": "2026-10-15T02:29:20.472275+00:00",
   "service_counts": {
     "essential": 70,
-    "pc": 577,
+    "pc": 580,
     "premium": 428,
-    "ultimate": 656,
+    "ultimate": 659,
     "ea_play": 92,
     "ubisoft_classics": 64
   },
@@ -25,7 +25,7 @@
     "ea_play": {},
     "ubisoft_classics": {}
   },
-  "game_count_unique": 656,
+  "game_count_unique": 659,
   "games": [
     {
       "name": "1000xResist",
@@ -163,9 +163,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Tomorrow",
-        "premium": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "genres": [],
       "game_modes": [],
@@ -2507,6 +2507,41 @@
       "description": "Welcome to Mt. Holly, where every dawn unveils a new mystery. Navigate through shifting corridors and ever-changing chambers in this genre-defying strategy puzzle adventure."
     },
     {
+      "name": "Bluey's Happy Snaps",
+      "url": "https://gamescriptions.com/game/396024",
+      "plans": [
+        "pc",
+        "ultimate"
+      ],
+      "new_plans": [
+        "pc",
+        "ultimate"
+      ],
+      "leaving_plans": [],
+      "plan_added_dates": {
+        "pc": "Today",
+        "ultimate": "Today"
+      },
+      "leaving_dates": {},
+      "genres": [],
+      "game_modes": [],
+      "game_style": [],
+      "platforms": [],
+      "essential": false,
+      "pc_game_pass": true,
+      "premium": false,
+      "ultimate": true,
+      "ea_play": false,
+      "ubisoft_classics": false,
+      "new": true,
+      "leaving": false,
+      "year": 2026,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobtwy.jpg",
+      "release_date": "October 15th, 2026",
+      "developer": "( 2026 ) Gameloft Brisbane · Gameloft",
+      "description": "Explore Bluey’s world like never before in Bluey's Happy Snaps! Join Bluey and her family in a new photo-powered adventure game. Discover familiar locations, play with loads of toys, and use Bluey's camera to capture and keep all your favorite moments."
+    },
+    {
       "name": "Bluey: The Videogame",
       "url": "https://gamescriptions.com/game/257332",
       "plans": [
@@ -2817,15 +2852,11 @@
         "ultimate"
       ],
       "new_plans": [
-        "pc",
-        "premium",
-        "ultimate"
+        "premium"
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "pc": "Sep 8",
-        "premium": "Sep 8",
-        "ultimate": "Sep 8"
+        "premium": "Sep 8"
       },
       "leaving_dates": {},
       "genres": [],
@@ -3086,6 +3117,41 @@
       "description": "Work your way to service empire. Get your hands dirty in highly realistic simulation game with great attention to details. Pay a visit to a new Auction house and buy cars in various condition."
     },
     {
+      "name": "Chained Beasts",
+      "url": "https://gamescriptions.com/game/344588",
+      "plans": [
+        "pc",
+        "ultimate"
+      ],
+      "new_plans": [
+        "pc",
+        "ultimate"
+      ],
+      "leaving_plans": [],
+      "plan_added_dates": {
+        "pc": "Today",
+        "ultimate": "Today"
+      },
+      "leaving_dates": {},
+      "genres": [],
+      "game_modes": [],
+      "game_style": [],
+      "platforms": [],
+      "essential": false,
+      "pc_game_pass": true,
+      "premium": false,
+      "ultimate": true,
+      "ea_play": false,
+      "ubisoft_classics": false,
+      "new": true,
+      "leaving": false,
+      "year": 2026,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cod2kz.jpg",
+      "release_date": "October 15th, 2026",
+      "developer": "( 2026 ) Featherweight Games",
+      "description": "Chained Beasts is a 1-4 player co-op gladiator roguelite. Fight chaotic battles in the Colosseum while chained to your friends. Brave physical and mental injuries that change how you play."
+    },
+    {
       "name": "Child of Light",
       "url": "https://gamescriptions.com/game/4756",
       "plans": [
@@ -3257,9 +3323,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Tomorrow",
-        "premium": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "genres": [],
       "game_modes": [],
@@ -3838,9 +3904,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Tomorrow",
-        "premium": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "genres": [],
       "game_modes": [],
@@ -4133,6 +4199,39 @@
       "release_date": "December 13th, 2018",
       "developer": "( 2018 ) Bohemia Interactive",
       "description": "DayZ is a hardcore open-world survival game with only one rule: stay alive, no matter what. How long can you survive a post-apocalyptic world? A land overrun with an infected \"zombie\" population, where you compete with other survivors for limited resources."
+    },
+    {
+      "name": "DayZ: Badlands",
+      "url": "https://gamescriptions.com/game/351327",
+      "plans": [
+        "pc",
+        "ultimate"
+      ],
+      "new_plans": [
+        "pc",
+        "ultimate"
+      ],
+      "leaving_plans": [],
+      "plan_added_dates": {
+        "pc": "Today",
+        "ultimate": "Today"
+      },
+      "leaving_dates": {},
+      "genres": [],
+      "game_modes": [],
+      "game_style": [],
+      "platforms": [],
+      "essential": false,
+      "pc_game_pass": true,
+      "premium": false,
+      "ultimate": true,
+      "ea_play": false,
+      "ubisoft_classics": false,
+      "new": true,
+      "leaving": false,
+      "year": 2026,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa1o0.jpg",
+      "description": "DayZ Badlands throws you into the troubled territories of Nasdara Province—267km² of arid expanse. Uncover its secrets, battle for control, forge fragile alliances and rebuild from the ashes of past wars. Survival here isn't just measured in drops of water saved, but in bullets spared."
     },
     {
       "name": "Dead by Daylight",
@@ -5065,9 +5164,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Tomorrow",
-        "premium": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "genres": [],
       "game_modes": [],
@@ -6090,9 +6189,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Tomorrow",
-        "premium": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "genres": [],
       "game_modes": [],
@@ -12149,8 +12248,8 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "pc": "Today",
+        "ultimate": "Today"
       },
       "genres": [],
       "game_modes": [],
@@ -12400,9 +12499,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Tomorrow",
-        "premium": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "genres": [],
       "game_modes": [],
@@ -15249,15 +15348,9 @@
         "pc",
         "ultimate"
       ],
-      "new_plans": [
-        "pc",
-        "ultimate"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
-      "plan_added_dates": {
-        "pc": "Sep 3",
-        "ultimate": "Sep 3"
-      },
+      "plan_added_dates": {},
       "leaving_dates": {},
       "genres": [],
       "game_modes": [],
@@ -15269,7 +15362,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2026,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9nld.jpg",
@@ -16147,10 +16240,10 @@
         "essential": "Oct 28"
       },
       "leaving_dates": {
-        "essential": "Tomorrow",
-        "pc": "Tomorrow",
-        "premium": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "essential": "Today",
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "genres": [],
       "game_modes": [],
@@ -16673,9 +16766,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Tomorrow",
-        "premium": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "genres": [],
       "game_modes": [],
@@ -17216,15 +17309,11 @@
         "ultimate"
       ],
       "new_plans": [
-        "pc",
-        "premium",
-        "ultimate"
+        "premium"
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "pc": "Sep 10",
-        "premium": "Sep 10",
-        "ultimate": "Sep 10"
+        "premium": "Sep 10"
       },
       "leaving_dates": {},
       "genres": [],
