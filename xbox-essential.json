@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-10-15T16:12:12.419286+00:00",
+  "updated_at": "2026-10-15T20:54:06.810816+00:00",
   "service_counts": {
     "essential": 70,
     "pc": 580,
@@ -19281,11 +19281,7 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "year": 2020,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2620.jpg",
-      "release_date": "August 27th, 2020",
-      "developer": "( 2020 ) inXile Entertainment",
-      "description": "As the sole survivor of Team November, a Ranger squad dispatched to the icy Colorado wastes, you find this is a land of buried secrets, lost technology, fearsome lunatics, and deadly factions. No one here has ever heard of the Desert Rangers. Your reputation is yours to build from scratch, and your choices may save this land or doom it."
+      "enrich_error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "name": "Wasteland Remastered",
