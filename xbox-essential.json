@@ -8,12 +8,12 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-10-15T20:54:06.810816+00:00",
+  "updated_at": "2026-10-16T02:14:58.206004+00:00",
   "service_counts": {
-    "essential": 70,
-    "pc": 580,
-    "premium": 428,
-    "ultimate": 659,
+    "essential": 69,
+    "pc": 572,
+    "premium": 420,
+    "ultimate": 651,
     "ea_play": 92,
     "ubisoft_classics": 64
   },
@@ -25,7 +25,7 @@
     "ea_play": {},
     "ubisoft_classics": {}
   },
-  "game_count_unique": 659,
+  "game_count_unique": 651,
   "games": [
     {
       "name": "1000xResist",
@@ -146,44 +146,6 @@
       "release_date": "February 7th, 2025",
       "developer": "( 2025 ) DoubleBee · Drillhounds",
       "description": "A minimalist game about digging a hole in the garden of a newly purchased house. Collect resources, sell them, upgrade your equipment and discover a mysterious secret. Costs you only one coffee!"
-    },
-    {
-      "name": "A Plague Tale: Requiem",
-      "url": "https://gamescriptions.com/game/152242",
-      "plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "plan_added_dates": {},
-      "leaving_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
-      },
-      "genres": [],
-      "game_modes": [],
-      "game_style": [],
-      "platforms": [],
-      "essential": false,
-      "pc_game_pass": true,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": true,
-      "year": 2022,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5pwb.jpg",
-      "release_date": "October 18th, 2022",
-      "developer": "( 2022 ) Asobo Studio · Focus Entertainment",
-      "description": "A Plague Tale: Requiem is an action-adventure game similar to its predecessor. The player assumes control of Amicia and must face against both soldiers from the French Inquisition and hordes of rats that are spreading the black plague. The gameplay is largely similar to the first game, though the combat system is significantly expanded."
     },
     {
       "name": "A Way Out",
@@ -2269,6 +2231,41 @@
       "description": "Ben and his family are enjoying their European vacation... until evil magician Hex unleashes the power of four mysterious crystals! Only Ben 10 can break the curse – so get ready to transform into powerful aliens to battle enemies, solve puzzles and freely explore an exciting 3D world."
     },
     {
+      "name": "Beyond These Stars",
+      "url": "https://gamescriptions.com/game/239002",
+      "plans": [
+        "pc",
+        "ultimate"
+      ],
+      "new_plans": [
+        "pc",
+        "ultimate"
+      ],
+      "leaving_plans": [],
+      "plan_added_dates": {
+        "pc": "Today",
+        "ultimate": "Today"
+      },
+      "leaving_dates": {},
+      "genres": [],
+      "game_modes": [],
+      "game_style": [],
+      "platforms": [],
+      "essential": false,
+      "pc_game_pass": true,
+      "premium": false,
+      "ultimate": true,
+      "ea_play": false,
+      "ubisoft_classics": false,
+      "new": true,
+      "leaving": false,
+      "year": 2026,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7ozj.jpg",
+      "release_date": "October 16th, 2026",
+      "developer": "( 2026 ) Balancing Monkey Games · Hooded Horse",
+      "description": "Journey on the back of the space whale Kewa, building a city for your people as you travel across the galaxy seeking purpose and answers, and developing deep relationships with the universe around you."
+    },
+    {
       "name": "Black",
       "url": "https://gamescriptions.com/game/5749",
       "plans": [
@@ -2519,8 +2516,8 @@
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "pc": "Today",
-        "ultimate": "Today"
+        "pc": "Oct 15",
+        "ultimate": "Oct 15"
       },
       "leaving_dates": {},
       "genres": [],
@@ -3129,8 +3126,8 @@
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "pc": "Today",
-        "ultimate": "Today"
+        "pc": "Oct 15",
+        "ultimate": "Oct 15"
       },
       "leaving_dates": {},
       "genres": [],
@@ -3306,44 +3303,6 @@
       "release_date": "October 24th, 2023",
       "developer": "( 2023 ) Colossal Order · Paradox Interactive",
       "description": "Create and manage your own city without restrictions. Offering a deep simulation and a living economy, Cities: Skylines II will challenge your decision-making skills and allow you to build the cities of your dreams. Get ready for a new epic scale in the most realistic city builder - ever."
-    },
-    {
-      "name": "Clair Obscur: Expedition 33",
-      "url": "https://gamescriptions.com/game/305152",
-      "plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "plan_added_dates": {},
-      "leaving_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
-      },
-      "genres": [],
-      "game_modes": [],
-      "game_style": [],
-      "platforms": [],
-      "essential": false,
-      "pc_game_pass": true,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": true,
-      "year": 2025,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9gam.jpg",
-      "release_date": "April 24th, 2025",
-      "developer": "( 2025 ) Sandfall Interactive · Kepler Interactive",
-      "description": "Lead the members of Expedition 33 on their quest to destroy the Paintress so that she can never paint death again. Explore a world of wonders inspired by Belle Époque France and battle unique enemies in this turn-based RPG with real-time mechanics."
     },
     {
       "name": "Clone Drone in the Danger Zone",
@@ -3889,44 +3848,6 @@
       "description": "Featuring the all-new Management Career, a bigger and better Pro Team, in-depth Ashes mode, and expanded control on and off the field from enhanced gameplay and in-depth strategies - Cricket 26 is The Ultimate Showdown."
     },
     {
-      "name": "Crime Scene Cleaner",
-      "url": "https://gamescriptions.com/game/115830",
-      "plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "plan_added_dates": {},
-      "leaving_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
-      },
-      "genres": [],
-      "game_modes": [],
-      "game_style": [],
-      "platforms": [],
-      "essential": false,
-      "pc_game_pass": true,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": true,
-      "year": 2024,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8vyd.jpg",
-      "release_date": "August 14th, 2024",
-      "developer": "( 2024 ) President Studio",
-      "description": "Once you get tangled with the mob, you will forever be a part of the mob. At least they pay a decent salary and all you have to do is clean up after their dirty work, but you know what you’re doing. So clean crime scenes, outsmart the police and get ready for the next mission."
-    },
-    {
       "name": "Crimson Skies: High Road to Revenge",
       "url": "https://gamescriptions.com/game/5793",
       "plans": [
@@ -4213,8 +4134,8 @@
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "pc": "Today",
-        "ultimate": "Today"
+        "pc": "Oct 15",
+        "ultimate": "Oct 15"
       },
       "leaving_dates": {},
       "genres": [],
@@ -4231,6 +4152,8 @@
       "leaving": false,
       "year": 2026,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa1o0.jpg",
+      "release_date": "October 16th, 2026",
+      "developer": "( 2026 ) DLC for DayZ Bohemia Interactive",
       "description": "DayZ Badlands throws you into the troubled territories of Nasdara Province—267km² of arid expanse. Uncover its secrets, battle for control, forge fragile alliances and rebuild from the ashes of past wars. Survival here isn't just measured in drops of water saved, but in bullets spared."
     },
     {
@@ -5147,44 +5070,6 @@
       "release_date": "September 27th, 2022",
       "developer": "( 2022 ) Bippinbits · Raw Fury",
       "description": "Defend against waves of alien monsters in this unique roguelike action mining game. Use the time between attacks to dig beneath the surface in search of valuable resources and relics – deliver them back to your dome to unlock powerful upgrades and useful new gadgets. But it won’t be long until the relentless monsters return - do you risk..."
-    },
-    {
-      "name": "Donut County",
-      "url": "https://gamescriptions.com/game/55080",
-      "plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "plan_added_dates": {},
-      "leaving_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
-      },
-      "genres": [],
-      "game_modes": [],
-      "game_style": [],
-      "platforms": [],
-      "essential": false,
-      "pc_game_pass": true,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": true,
-      "year": 2018,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qv8.jpg",
-      "release_date": "August 28th, 2018",
-      "developer": "( 2018 ) Ben Esposito · Annapurna Interactive",
-      "description": "Donut County is a story-based physics puzzle game where you play as an ever-growing hole in the ground. Meet cute characters, steal their trash, and throw them in a hole."
     },
     {
       "name": "Doom",
@@ -6172,44 +6057,6 @@
       "release_date": "January 28th, 2025",
       "developer": "( 2025 ) Yellow Brick Games",
       "description": "Fight epic, towering creatures while blending magical abilities with an arsenal of powerful weapons to keep the world from crumbling in this third-person, action-adventure game."
-    },
-    {
-      "name": "Evil West",
-      "url": "https://gamescriptions.com/game/141547",
-      "plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "plan_added_dates": {},
-      "leaving_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
-      },
-      "genres": [],
-      "game_modes": [],
-      "game_style": [],
-      "platforms": [],
-      "essential": false,
-      "pc_game_pass": true,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": true,
-      "year": 2022,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4udq.jpg",
-      "release_date": "November 22nd, 2022",
-      "developer": "( 2022 ) Flying Wild Hog · Focus Entertainment",
-      "description": "A dark menace consumes the Old West. In solo or coop, fight with style in visceral, explosive combat against bloodthirsty monstrosities. Eradicate the vampiric hordes with your lightning-fueled gauntlet and become a Wild West Superhero."
     },
     {
       "name": "F1 24",
@@ -8221,7 +8068,9 @@
         "premium",
         "ultimate"
       ],
-      "new_plans": [],
+      "new_plans": [
+        "essential"
+      ],
       "leaving_plans": [],
       "plan_added_dates": {},
       "leaving_dates": {},
@@ -8235,7 +8084,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": false,
+      "new": true,
       "leaving": false,
       "year": 2022,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5d1l.jpg",
@@ -12235,41 +12084,6 @@
       "description": "No Man's Sky is an action-adventure survival game set in a procedurally generated universe containing over 18 quintillion planets. Players explore star systems, gather resources, trade with alien species, and upgrade their equipment while following an overarching narrative involving a mysterious entity called the Atlas. The game is built..."
     },
     {
-      "name": "Nova Roma",
-      "url": "https://gamescriptions.com/game/252867",
-      "plans": [
-        "pc",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [
-        "pc",
-        "ultimate"
-      ],
-      "plan_added_dates": {},
-      "leaving_dates": {
-        "pc": "Today",
-        "ultimate": "Today"
-      },
-      "genres": [],
-      "game_modes": [],
-      "game_style": [],
-      "platforms": [],
-      "essential": false,
-      "pc_game_pass": true,
-      "premium": false,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": true,
-      "year": 2026,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobtvz.jpg",
-      "release_date": "March 26th, 2026",
-      "developer": "( 2026 ) Lion Shield · Hooded Horse",
-      "description": "The glory of Rome is at your fingertips in this city-building game where you must appease the gods, enact laws, and develop complex supply chains to meet the needs of your citizens."
-    },
-    {
       "name": "OddBallers",
       "url": "https://gamescriptions.com/game/119089",
       "plans": [
@@ -12482,44 +12296,6 @@
       "release_date": "August 10th, 2023",
       "developer": "( 2023 ) Blizzard Entertainment",
       "description": "Overwatch is a free-to-play first-person hero shooter developed by Blizzard Entertainment. Players choose from a large roster of role-based heroes and compete in 5v5 team matches across various objective-based game modes, with both casual and ranked competitive play. Originally released as Overwatch 2 in 2023 as a successor to the 2016 or..."
-    },
-    {
-      "name": "Pacific Drive",
-      "url": "https://gamescriptions.com/game/217592",
-      "plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "plan_added_dates": {},
-      "leaving_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
-      },
-      "genres": [],
-      "game_modes": [],
-      "game_style": [],
-      "platforms": [],
-      "essential": false,
-      "pc_game_pass": true,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": true,
-      "year": 2024,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7t2e.jpg",
-      "release_date": "February 22nd, 2024",
-      "developer": "( 2024 ) Ironwood Studios · Kepler Interactive",
-      "description": "Pacific Drive is a first-person driving survival game with your car as your only companion. Navigate a surreal reimagining of the Pacific Northwest, and face supernatural dangers as you venture into the Olympic Exclusion Zone. Each excursion into the wilderness brings unique and strange challenges as you restore and upgrade your car from..."
     },
     {
       "name": "Palworld",
@@ -16219,51 +15995,6 @@
       "description": "Super Mega Baseball 4 is where the Legends play. The signature combo of arcade-inspired style and immersive gameplay returns with over 200 baseball Legends and a grand slam of presentation upgrades."
     },
     {
-      "name": "Superball",
-      "url": "https://gamescriptions.com/game/117000",
-      "plans": [
-        "essential",
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [
-        "essential"
-      ],
-      "leaving_plans": [
-        "essential",
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "plan_added_dates": {
-        "essential": "Oct 28"
-      },
-      "leaving_dates": {
-        "essential": "Today",
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
-      },
-      "genres": [],
-      "game_modes": [],
-      "game_style": [],
-      "platforms": [],
-      "essential": true,
-      "pc_game_pass": true,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": true,
-      "leaving": true,
-      "year": 2025,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8nou.jpg",
-      "release_date": "October 28th, 2025",
-      "developer": "( 2025 ) Pathea Games",
-      "description": "Superball is a multiplayer 3v3 action game. An all-out blast of football in a cyberpunk setting. Choose a hero with unique abilities and conquer the sport of the future."
-    },
-    {
       "name": "SuperHot: Mind Control Delete",
       "url": "https://gamescriptions.com/game/27448",
       "plans": [
@@ -16749,44 +16480,6 @@
       "release_date": "June 18th, 2020",
       "developer": "( 2020 ) inXile Entertainment",
       "description": "Bundle that includes The Bard's Tale: Remastered and Resnarkled and the original classic trilogy!"
-    },
-    {
-      "name": "The Casting of Frank Stone",
-      "url": "https://gamescriptions.com/game/279635",
-      "plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "plan_added_dates": {},
-      "leaving_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
-      },
-      "genres": [],
-      "game_modes": [],
-      "game_style": [],
-      "platforms": [],
-      "essential": false,
-      "pc_game_pass": true,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": true,
-      "year": 2024,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8j6w.jpg",
-      "release_date": "September 3rd, 2024",
-      "developer": "( 2024 ) Supermassive Games · Behaviour Interactive",
-      "description": "The shadow of Frank Stone looms over Cedar Hills, a town forever altered by his violent past. As a group of young friends are about to discover, Stone’s blood-soaked legacy cuts deep, leaving scars across families, generations, and the very fabric of reality itself."
     },
     {
       "name": "The Cave",
@@ -18806,15 +18499,11 @@
         "ultimate"
       ],
       "new_plans": [
-        "pc",
-        "premium",
-        "ultimate"
+        "premium"
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "pc": "Sep 10",
-        "premium": "Sep 10",
-        "ultimate": "Sep 10"
+        "premium": "Sep 10"
       },
       "leaving_dates": {},
       "genres": [],
@@ -19281,7 +18970,11 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "enrich_error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "year": 2020,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2620.jpg",
+      "release_date": "August 27th, 2020",
+      "developer": "( 2020 ) inXile Entertainment",
+      "description": "As the sole survivor of Team November, a Ranger squad dispatched to the icy Colorado wastes, you find this is a land of buried secrets, lost technology, fearsome lunatics, and deadly factions. No one here has ever heard of the Desert Rangers. Your reputation is yours to build from scratch, and your choices may save this land or doom it."
     },
     {
       "name": "Wasteland Remastered",
