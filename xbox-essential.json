@@ -8,12 +8,12 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-10-18T02:06:14.519178+00:00",
+  "updated_at": "2026-10-18T09:01:53.298503+00:00",
   "service_counts": {
     "essential": 69,
-    "pc": 572,
+    "pc": 571,
     "premium": 420,
-    "ultimate": 651,
+    "ultimate": 650,
     "ea_play": 92,
     "ubisoft_classics": 64
   },
@@ -25,7 +25,7 @@
     "ea_play": {},
     "ubisoft_classics": {}
   },
-  "game_count_unique": 651,
+  "game_count_unique": 650,
   "games": [
     {
       "name": "1000xResist",
@@ -4120,41 +4120,6 @@
       "release_date": "December 13th, 2018",
       "developer": "( 2018 ) Bohemia Interactive",
       "description": "DayZ is a hardcore open-world survival game with only one rule: stay alive, no matter what. How long can you survive a post-apocalyptic world? A land overrun with an infected \"zombie\" population, where you compete with other survivors for limited resources."
-    },
-    {
-      "name": "DayZ: Badlands",
-      "url": "https://gamescriptions.com/game/351327",
-      "plans": [
-        "pc",
-        "ultimate"
-      ],
-      "new_plans": [
-        "pc",
-        "ultimate"
-      ],
-      "leaving_plans": [],
-      "plan_added_dates": {
-        "pc": "Oct 15",
-        "ultimate": "Oct 15"
-      },
-      "leaving_dates": {},
-      "genres": [],
-      "game_modes": [],
-      "game_style": [],
-      "platforms": [],
-      "essential": false,
-      "pc_game_pass": true,
-      "premium": false,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": true,
-      "leaving": false,
-      "year": 2026,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa1o0.jpg",
-      "release_date": "October 16th, 2026",
-      "developer": "( 2026 ) DLC for DayZ Bohemia Interactive",
-      "description": "DayZ Badlands throws you into the troubled territories of Nasdara Province—267km² of arid expanse. Uncover its secrets, battle for control, forge fragile alliances and rebuild from the ashes of past wars. Survival here isn't just measured in drops of water saved, but in bullets spared."
     },
     {
       "name": "Dead by Daylight",
@@ -18499,11 +18464,15 @@
         "ultimate"
       ],
       "new_plans": [
-        "premium"
+        "pc",
+        "premium",
+        "ultimate"
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "premium": "Sep 10"
+        "pc": "Sep 10",
+        "premium": "Sep 10",
+        "ultimate": "Sep 10"
       },
       "leaving_dates": {},
       "genres": [],
