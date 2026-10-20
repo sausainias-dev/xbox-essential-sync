@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-10-20T16:14:23.438118+00:00",
+  "updated_at": "2026-10-20T21:12:17.474654+00:00",
   "service_counts": {
     "essential": 69,
     "pc": 571,
@@ -7092,9 +7092,17 @@
         "ultimate"
       ],
       "new_plans": [],
-      "leaving_plans": [],
+      "leaving_plans": [
+        "pc",
+        "premium",
+        "ultimate"
+      ],
       "plan_added_dates": {},
-      "leaving_dates": {},
+      "leaving_dates": {
+        "pc": "Nov 10",
+        "premium": "Nov 10",
+        "ultimate": "Nov 10"
+      },
       "genres": [],
       "game_modes": [],
       "game_style": [],
@@ -7106,7 +7114,7 @@
       "ea_play": false,
       "ubisoft_classics": false,
       "new": false,
-      "leaving": false,
+      "leaving": true,
       "year": 2025,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coah0w.jpg",
       "release_date": "November 4th, 2025",
@@ -8039,9 +8047,17 @@
         "ultimate"
       ],
       "new_plans": [],
-      "leaving_plans": [],
+      "leaving_plans": [
+        "pc",
+        "premium",
+        "ultimate"
+      ],
       "plan_added_dates": {},
-      "leaving_dates": {},
+      "leaving_dates": {
+        "pc": "Oct 31",
+        "premium": "Oct 31",
+        "ultimate": "Oct 31"
+      },
       "genres": [],
       "game_modes": [],
       "game_style": [],
@@ -8053,7 +8069,7 @@
       "ea_play": false,
       "ubisoft_classics": false,
       "new": false,
-      "leaving": false,
+      "leaving": true,
       "year": 2015,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co27pj.jpg",
       "release_date": "January 26th, 2015",
