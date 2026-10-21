@@ -8,11 +8,11 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-10-20T21:12:17.474654+00:00",
+  "updated_at": "2026-10-21T02:41:33.350375+00:00",
   "service_counts": {
     "essential": 69,
     "pc": 571,
-    "premium": 420,
+    "premium": 421,
     "ultimate": 650,
     "ea_play": 92,
     "ubisoft_classics": 64
@@ -14077,7 +14077,7 @@
       "new": true,
       "leaving": false,
       "year": 2021,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coabgv.jpg",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cod5xy.jpg",
       "release_date": "October 28th, 2021",
       "developer": "( 2021 ) Ubisoft Annecy · Ubisoft Entertainment",
       "description": "Jump into the Riders Republic massive multiplayer playground! Bike, ski, snowboard, or wingsuit across an open world sports paradise. Join a massive multiplayer community and participate in an avalanche of diverse activities in real time with others!"
@@ -14426,11 +14426,16 @@
       "url": "https://gamescriptions.com/game/285974",
       "plans": [
         "pc",
+        "premium",
         "ultimate"
       ],
-      "new_plans": [],
+      "new_plans": [
+        "premium"
+      ],
       "leaving_plans": [],
-      "plan_added_dates": {},
+      "plan_added_dates": {
+        "premium": "Today"
+      },
       "leaving_dates": {},
       "genres": [],
       "game_modes": [],
@@ -14438,11 +14443,11 @@
       "platforms": [],
       "essential": false,
       "pc_game_pass": true,
-      "premium": false,
+      "premium": true,
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": false,
+      "new": true,
       "leaving": false,
       "year": 2026,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa086.jpg",
@@ -19713,13 +19718,9 @@
         "premium",
         "ultimate"
       ],
-      "new_plans": [
-        "premium"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
-      "plan_added_dates": {
-        "premium": "Aug 31"
-      },
+      "plan_added_dates": {},
       "leaving_dates": {},
       "genres": [],
       "game_modes": [],
@@ -19731,13 +19732,13 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2026,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaw35.jpg",
       "release_date": "August 31st, 2026",
       "developer": "( 2026 ) KO_OP",
-      "description": "Young Suns is a 1-4 player narrative life sim set on Jupiter in an optimistic alternative future, intended for one-to-two hours of daily play, alone or with friends. Build your home among the stars, and take it with you on adventures!"
+      "description": "Young Suns is a narrative-driven life sim for one to four players set in the Jovian System, where the people of Jupiter have just broken free from corporate control. Entrusted with your own spaceship, you fly to fantastical moonlets, derelict ruins, and converted space stations, alone or with up to three friends, salvaging broken furnitur..."
     },
     {
       "name": "Zombi",
