@@ -8,12 +8,12 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-10-21T21:15:40.127561+00:00",
+  "updated_at": "2026-10-22T02:35:21.351402+00:00",
   "service_counts": {
     "essential": 69,
-    "pc": 571,
-    "premium": 421,
-    "ultimate": 650,
+    "pc": 572,
+    "premium": 422,
+    "ultimate": 651,
     "ea_play": 92,
     "ubisoft_classics": 64
   },
@@ -25,7 +25,7 @@
     "ea_play": {},
     "ubisoft_classics": {}
   },
-  "game_count_unique": 650,
+  "game_count_unique": 651,
   "games": [
     {
       "name": "1000xResist",
@@ -5031,6 +5031,44 @@
       "release_date": "November 15th, 2011",
       "developer": "( 2011 ) Frontier Developments · Microsoft Studios",
       "description": "Disneyland Adventures allows fans of all ages to explore Disneyland park, enjoy adventures based on 18 popular attractions, engage in 100 challenging quests, and interact with 35 beloved characters. Disneyland Adventures is your ticket to the magical world of Disneyland right in your living room."
+    },
+    {
+      "name": "Dodo Duckie",
+      "url": "https://gamescriptions.com/game/342305",
+      "plans": [
+        "pc",
+        "premium",
+        "ultimate"
+      ],
+      "new_plans": [
+        "pc",
+        "premium",
+        "ultimate"
+      ],
+      "leaving_plans": [],
+      "plan_added_dates": {
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
+      },
+      "leaving_dates": {},
+      "genres": [],
+      "game_modes": [],
+      "game_style": [],
+      "platforms": [],
+      "essential": false,
+      "pc_game_pass": true,
+      "premium": true,
+      "ultimate": true,
+      "ea_play": false,
+      "ubisoft_classics": false,
+      "new": true,
+      "leaving": false,
+      "year": 2026,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocob2.jpg",
+      "release_date": "July 23rd, 2026",
+      "developer": "( 2026 ) BornMonkie",
+      "description": "Aliens abducted your chicken friends! Play as Dodo, a brave but slightly clueless duck on a mission to bring them home. The twist?"
     },
     {
       "name": "Dome Keeper",
@@ -14434,7 +14472,7 @@
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "premium": "Today"
+        "premium": "Oct 21"
       },
       "leaving_dates": {},
       "genres": [],
@@ -14683,13 +14721,9 @@
         "premium",
         "ultimate"
       ],
-      "new_plans": [
-        "premium"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
-      "plan_added_dates": {
-        "premium": "Sep 1"
-      },
+      "plan_added_dates": {},
       "leaving_dates": {},
       "genres": [],
       "game_modes": [],
@@ -14701,7 +14735,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2025,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa5io.jpg",
@@ -18537,15 +18571,11 @@
         "ultimate"
       ],
       "new_plans": [
-        "pc",
-        "premium",
-        "ultimate"
+        "premium"
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "pc": "Sep 10",
-        "premium": "Sep 10",
-        "ultimate": "Sep 10"
+        "premium": "Sep 10"
       },
       "leaving_dates": {},
       "genres": [],
