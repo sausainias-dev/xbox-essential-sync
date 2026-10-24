@@ -8,10 +8,10 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-10-24T02:39:57.323796+00:00",
+  "updated_at": "2026-10-24T09:08:18.796225+00:00",
   "service_counts": {
     "essential": 69,
-    "pc": 572,
+    "pc": 573,
     "premium": 422,
     "ultimate": 651,
     "ea_play": 92,
@@ -25,7 +25,7 @@
     "ea_play": {},
     "ubisoft_classics": {}
   },
-  "game_count_unique": 651,
+  "game_count_unique": 652,
   "games": [
     {
       "name": "1000xResist",
@@ -12153,6 +12153,38 @@
       "release_date": "August 9th, 2016",
       "developer": "( 2016 ) Hello Games · 505 Games",
       "description": "No Man's Sky is an action-adventure survival game set in a procedurally generated universe containing over 18 quintillion planets. Players explore star systems, gather resources, trade with alien species, and upgrade their equipment while following an overarching narrative involving a mysterious entity called the Atlas. The game is built..."
+    },
+    {
+      "name": "No, I'm Not A Human",
+      "url": "https://gamescriptions.com/game/316987",
+      "plans": [
+        "pc"
+      ],
+      "new_plans": [],
+      "leaving_plans": [
+        "pc"
+      ],
+      "plan_added_dates": {},
+      "leaving_dates": {
+        "pc": "Dec 31"
+      },
+      "genres": [],
+      "game_modes": [],
+      "game_style": [],
+      "platforms": [],
+      "essential": false,
+      "pc_game_pass": true,
+      "premium": false,
+      "ultimate": false,
+      "ea_play": false,
+      "ubisoft_classics": false,
+      "new": false,
+      "leaving": true,
+      "year": 2025,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coajvh.jpg",
+      "release_date": "September 15th, 2025",
+      "developer": "( 2025 ) Trioskaz · Critical Reflex",
+      "description": "An intimate story about a disaster and guests from underground. People are breaking into your home, but not all of them are true people."
     },
     {
       "name": "OddBallers",
