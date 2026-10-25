@@ -1,0 +1,54 @@
+name: Build Lithuanian static catalog
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "45 */6 * * *"
+  push:
+    paths:
+      - "xbox-essential.json"
+      - "lt-descriptions-part-*.json"
+      - "build_lithuanian_catalog.py"
+      - ".github/workflows/build-lithuanian-catalog.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: lithuanian-static-catalog
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate static Lithuanian HTML and JSON
+        run: python build_lithuanian_catalog.py
+
+      - name: Validate generated files
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          data = json.loads(Path("xbox-game-pass-ultimate-lt-catalog.json").read_text(encoding="utf-8"))
+          html = Path("game-pass-ultimate-zaidimu-katalogas.html").read_text(encoding="utf-8")
+          assert data["game_count"] > 0, "No games generated"
+          assert '<html lang="lt">' in html, "HTML is not marked Lithuanian"
+          assert 'id="catalog"' in html, "Catalog markup missing"
+          assert all(game.get("name") for game in data["games"]), "A game has no name"
+          print(f"Validated {data['game_count']} games; {data['translated_count']} Lithuanian descriptions")
+          PY
+
+      - name: Commit generated catalog
+        run: |
+          git config user.name "xbox-catalog-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add game-pass-ultimate-zaidimu-katalogas.html xbox-game-pass-ultimate-lt-catalog.json
+          git diff --cached --quiet || git commit -m "chore: rebuild Lithuanian static catalog"
+          git push
