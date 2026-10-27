@@ -8,12 +8,12 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-10-26T22:15:36.548248+00:00",
+  "updated_at": "2026-10-27T03:03:15.418983+00:00",
   "service_counts": {
     "essential": 69,
-    "pc": 574,
-    "premium": 422,
-    "ultimate": 652,
+    "pc": 575,
+    "premium": 423,
+    "ultimate": 653,
     "ea_play": 92,
     "ubisoft_classics": 64
   },
@@ -25,7 +25,7 @@
     "ea_play": {},
     "ubisoft_classics": {}
   },
-  "game_count_unique": 653,
+  "game_count_unique": 654,
   "games": [
     {
       "name": "1000xResist",
@@ -4760,13 +4760,9 @@
         "premium",
         "ultimate"
       ],
-      "new_plans": [
-        "premium"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
-      "plan_added_dates": {
-        "premium": "Sep 4"
-      },
+      "plan_added_dates": {},
       "leaving_dates": {},
       "genres": [],
       "game_modes": [],
@@ -4778,7 +4774,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2026,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa8k2.jpg",
@@ -14534,8 +14530,8 @@
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "pc": "Today",
-        "ultimate": "Today"
+        "pc": "Oct 26",
+        "ultimate": "Oct 26"
       },
       "leaving_dates": {},
       "genres": [],
@@ -14747,15 +14743,11 @@
         "ultimate"
       ],
       "new_plans": [
-        "pc",
-        "premium",
-        "ultimate"
+        "premium"
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "pc": "Sep 17",
-        "premium": "Sep 17",
-        "ultimate": "Sep 17"
+        "premium": "Sep 17"
       },
       "leaving_dates": {},
       "genres": [],
@@ -17341,6 +17333,44 @@
       "release_date": "September 2nd, 2014",
       "developer": "( 2014 ) The Sims Studio · Electronic Arts",
       "description": "Unleash your imagination and create a unique world of Sims that's an expression of you! Explore and customize every detail from Sims to homes, and much more with The Sims 4. Life, and Sims, are yours to control."
+    },
+    {
+      "name": "The Séance of Blake Manor",
+      "url": "https://gamescriptions.com/game/335833",
+      "plans": [
+        "pc",
+        "premium",
+        "ultimate"
+      ],
+      "new_plans": [
+        "pc",
+        "premium",
+        "ultimate"
+      ],
+      "leaving_plans": [],
+      "plan_added_dates": {
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
+      },
+      "leaving_dates": {},
+      "genres": [],
+      "game_modes": [],
+      "game_style": [],
+      "platforms": [],
+      "essential": false,
+      "pc_game_pass": true,
+      "premium": true,
+      "ultimate": true,
+      "ea_play": false,
+      "ubisoft_classics": false,
+      "new": true,
+      "leaving": false,
+      "year": 2025,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9jkt.jpg",
+      "release_date": "October 27th, 2025",
+      "developer": "( 2025 ) Spooky Doorway · Raw Fury",
+      "description": "The Séance of Blake Manor is a supernatural detective mystery, set in 1897 Ireland, where you investigate the disappearance of Evelyn Deane in a remote hotel full of secrets and other-worldly occurrences."
     },
     {
       "name": "The Talos Principle II",
