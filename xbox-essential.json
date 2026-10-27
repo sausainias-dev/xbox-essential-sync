@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-10-27T10:04:49.688041+00:00",
+  "updated_at": "2026-10-27T11:37:41.805663+00:00",
   "service_counts": {
     "essential": 69,
     "pc": 575,
@@ -10611,11 +10611,7 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "year": 2013,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co26y5.jpg",
-      "release_date": "December 20th, 2013",
-      "developer": "( 2013 ) Press Play · Microsoft Studios",
-      "description": "In its core Max: The Curse of Brotherhood is a physics-based puzzle/platformer and set in a 2.5D environment with a free and cinematic camera. The game has 7 chapters and 20 levels in total All levels are connected so the game feels like one long journey. Besides platforming, the gameplay twist is the magic marker which introduces a creat..."
+      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/4848"
     },
     {
       "name": "MechWarrior 5: Clans",
@@ -10641,11 +10637,7 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "year": 2024,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co90ui.jpg",
-      "release_date": "October 17th, 2024",
-      "developer": "( 2024 ) Piranha Games",
-      "description": "MechWarrior 5: Clans follows a Star of Clan Smoke Jaguar warriors during Operation Revival, a full-scale invasion of the Inner Sphere. Armed with an arsenal of cutting-edge BattleMechs, meticulously designed maps and missions deliver immersive and intricate tactical gameplay and combat experiences."
+      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/267011"
     },
     {
       "name": "MechWarrior 5: Mercenaries",
@@ -10671,11 +10663,7 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "year": 2019,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cod67l.jpg",
-      "release_date": "December 10th, 2019",
-      "developer": "( 2019 ) Piranha Games · Fireshine Games",
-      "description": "In MechWarrior 5: Mercenaries you will adopt the role of a rookie MechWarrior pilot thrust into combat as the Third Succession War continues to fracture the Inner Sphere. Take contracts from the factions of your choosing and engage in tactical, first-person, PvE ‘Mech combat through an immersive, career-based Mercenary campaign driven by..."
+      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/26227"
     },
     {
       "name": "Medal of Honor: Airborne",
@@ -10701,11 +10689,7 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "year": 2007,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2qnx.jpg",
-      "release_date": "September 4th, 2007",
-      "developer": "( 2007 ) EA Los Angeles · Electronic Arts",
-      "description": "Step into the boots of Boyd Travers, Private First Class of the “All-American” 82nd Airborne Division, and revolutionize the way the war is fought. From a rocky beginning in Sicily to war winning triumphs in the heart of Germany, fight the epic WWII battles that turned America’s first paratroopers into combat legends. Begin each mission f..."
+      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/1314"
     },
     {
       "name": "Medieval Dynasty",
@@ -10736,11 +10720,7 @@
       "ubisoft_classics": false,
       "new": true,
       "leaving": false,
-      "year": 2021,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobyff.jpg",
-      "release_date": "September 23rd, 2021",
-      "developer": "( 2021 ) Render Cube · Toplitz Productions",
-      "description": "Hunt, survive, build and lead in the harsh Middle Ages: Create your own Medieval Dynasty and ensure its long-lasting prosperity or die trying! Play alone or team up with friends to enjoy the ultimate medieval experience."
+      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/121998"
     },
     {
       "name": "Microsoft Flight Simulator",
@@ -10766,11 +10746,7 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "year": 2020,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2dqk.jpg",
-      "release_date": "August 17th, 2020",
-      "developer": "( 2020 ) Asobo Studio · Xbox Game Studios",
-      "description": "Microsoft Flight Simulator is the next generation of one of the most beloved simulation franchises. From light planes to wide-body jets, fly highly detailed and stunning aircraft in an incredibly realistic world. Create your flight plan and fly anywhere on the planet."
+      "enrich_error": "504 Server Error: Gateway Timeout for url: https://gamescriptions.com/game/119295"
     },
     {
       "name": "Microsoft Flight Simulator 2024",
