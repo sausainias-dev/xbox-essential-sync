@@ -8,13 +8,13 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-10-28T22:15:01.310020+00:00",
+  "updated_at": "2026-10-29T03:34:24.623082+00:00",
   "service_counts": {
     "essential": 69,
-    "pc": 575,
-    "premium": 423,
-    "ultimate": 653,
-    "ea_play": 92,
+    "pc": 579,
+    "premium": 425,
+    "ultimate": 657,
+    "ea_play": 93,
     "ubisoft_classics": 64
   },
   "genre_counts": {
@@ -25,7 +25,7 @@
     "ea_play": {},
     "ubisoft_classics": {}
   },
-  "game_count_unique": 654,
+  "game_count_unique": 658,
   "games": [
     {
       "name": "1000xResist",
@@ -2848,13 +2848,9 @@
         "premium",
         "ultimate"
       ],
-      "new_plans": [
-        "premium"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
-      "plan_added_dates": {
-        "premium": "Sep 8"
-      },
+      "plan_added_dates": {},
       "leaving_dates": {},
       "genres": [],
       "game_modes": [],
@@ -2866,7 +2862,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2020,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2n6j.jpg",
@@ -5499,15 +5495,11 @@
         "ultimate"
       ],
       "new_plans": [
-        "pc",
-        "premium",
-        "ultimate"
+        "premium"
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "pc": "Sep 22",
-        "premium": "Sep 22",
-        "ultimate": "Sep 22"
+        "premium": "Sep 22"
       },
       "leaving_dates": {},
       "genres": [],
@@ -7027,6 +7019,44 @@
       "release_date": "February 23rd, 2022",
       "developer": "( 2022 ) Tose · Square Enix",
       "description": "The original Final Fantasy VI comes to life with completely new graphics and audio! A remodeled 2D take on the sixth game in the world-renowned Final Fantasy series! Enjoy the timeless story told through charming retro graphics."
+    },
+    {
+      "name": "Final Fantasy VII Remake Intergrade",
+      "url": "https://gamescriptions.com/game/144024",
+      "plans": [
+        "pc",
+        "premium",
+        "ultimate"
+      ],
+      "new_plans": [
+        "pc",
+        "premium",
+        "ultimate"
+      ],
+      "leaving_plans": [],
+      "plan_added_dates": {
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
+      },
+      "leaving_dates": {},
+      "genres": [],
+      "game_modes": [],
+      "game_style": [],
+      "platforms": [],
+      "essential": false,
+      "pc_game_pass": true,
+      "premium": true,
+      "ultimate": true,
+      "ea_play": false,
+      "ubisoft_classics": false,
+      "new": true,
+      "leaving": false,
+      "year": 2021,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9hh.jpg",
+      "release_date": "June 10th, 2021",
+      "developer": "( 2021 ) Square Enix Creative Business Unit I · Square Enix",
+      "description": "Final Fantasy VII Remake Intergrade is an enhanced and expanded version of Final Fantasy VII Remake that features a new episode starring Yuffie and introduces an exhilarating new story arc with numerous gameplay additions for players to enjoy."
     },
     {
       "name": "Firefighting Simulator: The Squad",
@@ -9569,15 +9599,9 @@
         "pc",
         "ultimate"
       ],
-      "new_plans": [
-        "pc",
-        "ultimate"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
-      "plan_added_dates": {
-        "pc": "Sep 17",
-        "ultimate": "Sep 17"
-      },
+      "plan_added_dates": {},
       "leaving_dates": {},
       "genres": [],
       "game_modes": [],
@@ -9589,7 +9613,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2026,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocyj2.jpg",
@@ -10247,15 +10271,11 @@
         "ultimate"
       ],
       "new_plans": [
-        "pc",
-        "premium",
-        "ultimate"
+        "premium"
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "pc": "Sep 23",
-        "premium": "Sep 23",
-        "ultimate": "Sep 23"
+        "premium": "Sep 23"
       },
       "leaving_dates": {},
       "genres": [],
@@ -11411,6 +11431,44 @@
       "release_date": "May 5th, 2026",
       "developer": "( 2026 ) Regular Studio · Top Hat Studios",
       "description": "Parkour through the ruins of a megastructure, climb massive bosses, and hunt down every construction equipment in this slice of life action-adventure."
+    },
+    {
+      "name": "Mouthwashing",
+      "url": "https://gamescriptions.com/game/264410",
+      "plans": [
+        "pc",
+        "premium",
+        "ultimate"
+      ],
+      "new_plans": [
+        "pc",
+        "premium",
+        "ultimate"
+      ],
+      "leaving_plans": [],
+      "plan_added_dates": {
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
+      },
+      "leaving_dates": {},
+      "genres": [],
+      "game_modes": [],
+      "game_style": [],
+      "platforms": [],
+      "essential": false,
+      "pc_game_pass": true,
+      "premium": true,
+      "ultimate": true,
+      "ea_play": false,
+      "ubisoft_classics": false,
+      "new": true,
+      "leaving": false,
+      "year": 2024,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co70oi.jpg",
+      "release_date": "September 26th, 2024",
+      "developer": "( 2024 ) Wrong Organ · Critical Reflex",
+      "description": "The five crew members of The Tulpar are stranded in the empty reaches of space, shrouded in perpetual sunset. God is not watching."
     },
     {
       "name": "Moving Out 2",
@@ -13026,6 +13084,44 @@
       "release_date": "February 23rd, 2016",
       "developer": "( 2016 ) PopCap Games · Electronic Arts",
       "description": "The battle for suburbia grows to crazy new heights in Plants vs. Zombies Garden Warfare 2! In this hilarious, action-packed shooter, zombie leader Dr."
+    },
+    {
+      "name": "Plants vs. Zombies: Replanted",
+      "url": "https://gamescriptions.com/game/358529",
+      "plans": [
+        "pc",
+        "ultimate",
+        "ea_play"
+      ],
+      "new_plans": [
+        "pc",
+        "ultimate",
+        "ea_play"
+      ],
+      "leaving_plans": [],
+      "plan_added_dates": {
+        "pc": "Today",
+        "ultimate": "Today",
+        "ea_play": "Today"
+      },
+      "leaving_dates": {},
+      "genres": [],
+      "game_modes": [],
+      "game_style": [],
+      "platforms": [],
+      "essential": false,
+      "pc_game_pass": true,
+      "premium": false,
+      "ultimate": true,
+      "ea_play": true,
+      "ubisoft_classics": false,
+      "new": true,
+      "leaving": false,
+      "year": 2025,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa7ic.jpg",
+      "release_date": "October 23rd, 2025",
+      "developer": "( 2025 ) PopCap Games · Electronic Arts",
+      "description": "The classic Plants vs. Zombies returns in glorious HD! DANG!"
     },
     {
       "name": "PlateUp!",
@@ -15549,9 +15645,7 @@
         "ultimate",
         "ea_play"
       ],
-      "new_plans": [
-        "ea_play"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
       "plan_added_dates": {},
       "leaving_dates": {},
@@ -15565,7 +15659,7 @@
       "ultimate": true,
       "ea_play": true,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2023,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5uzk.jpg",
@@ -16483,6 +16577,41 @@
       "description": "Build the ultimate battle vehicle and rage against the machines in a chaotic Bullet Heaven Builder. Master a deep, block-based vehicle-building system to survive an army of robotic foes driven by a crazed AI, ramming them at speed and shooting infinite projectiles."
     },
     {
+      "name": "Terrible Lizards",
+      "url": "https://gamescriptions.com/game/296564",
+      "plans": [
+        "pc",
+        "ultimate"
+      ],
+      "new_plans": [
+        "pc",
+        "ultimate"
+      ],
+      "leaving_plans": [],
+      "plan_added_dates": {
+        "pc": "Today",
+        "ultimate": "Today"
+      },
+      "leaving_dates": {},
+      "genres": [],
+      "game_modes": [],
+      "game_style": [],
+      "platforms": [],
+      "essential": false,
+      "pc_game_pass": true,
+      "premium": false,
+      "ultimate": true,
+      "ea_play": false,
+      "ubisoft_classics": false,
+      "new": true,
+      "leaving": false,
+      "year": 2026,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coboiu.jpg",
+      "release_date": "October 29th, 2026",
+      "developer": "( 2026 ) WDR Studios · Digital Pajamas",
+      "description": "Terrible Lizards is a horror parkour game set against the backdrop of an old Route 66 attraction… with something dark and sinister lurking below. To escape, you’ll need to move fast, navigate challenging terrain, and uncover what Dalton’s Dinos is really hiding. You’d better start running."
+    },
+    {
       "name": "The Alters",
       "url": "https://gamescriptions.com/game/204634",
       "plans": [
@@ -17128,13 +17257,9 @@
         "premium",
         "ultimate"
       ],
-      "new_plans": [
-        "premium"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
-      "plan_added_dates": {
-        "premium": "Sep 10"
-      },
+      "plan_added_dates": {},
       "leaving_dates": {},
       "genres": [],
       "game_modes": [],
@@ -17146,7 +17271,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2025,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9ozl.jpg",
@@ -19312,15 +19437,9 @@
         "pc",
         "ultimate"
       ],
-      "new_plans": [
-        "pc",
-        "ultimate"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
-      "plan_added_dates": {
-        "pc": "Sep 22",
-        "ultimate": "Sep 22"
-      },
+      "plan_added_dates": {},
       "leaving_dates": {},
       "genres": [],
       "game_modes": [],
@@ -19332,7 +19451,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2026,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa8qh.jpg",
