@@ -557,9 +557,24 @@ def xbox_pc_platforms(values: list[str]) -> list[str]:
 
 
 def extract_game_media(soup: BeautifulSoup, page_url: str) -> tuple[list[str], str | None, str | None]:
-    """Extract gallery screenshots, trailer and gameplay YouTube links."""
+    """Extract genuine game screenshots and YouTube trailer/gameplay IDs from the game page."""
     screenshots: list[str] = []
     seen_images: set[str] = set()
+
+    def add_image(raw: str | None) -> None:
+        if not raw or raw.startswith(("data:", "blob:")):
+            return
+        url = urljoin(page_url, raw.strip())
+        low = url.casefold()
+        if not re.search(r"\\.(?:jpe?g|png|webp)(?:[?#]|$)", low):
+            return
+        if any(token in low for token in ("logo", "avatar", "icon", "flag", "cover_big", "cover-art")):
+            return
+        if url not in seen_images:
+            seen_images.add(url)
+            screenshots.append(url)
+
+    # GameScriptions labels its gallery images with descriptive alt text.
     for img in soup.find_all("img"):
         alt = clean(img.get("alt", "")).casefold()
         classes = " ".join(img.get("class", [])).casefold()
@@ -568,69 +583,59 @@ def extract_game_media(soup: BeautifulSoup, page_url: str) -> tuple[list[str], s
         context = " ".join((alt, classes, parent_classes))
         if not re.search(r"screenshot|gallery|featured", context):
             continue
-        candidates = [
-            parent.get("href") if parent else None,
-            img.get("data-src"), img.get("data-lazy-src"), img.get("data-original"),
-            img.get("src"),
-        ]
+        if parent:
+            add_image(parent.get("href"))
+        for key in ("data-src", "data-lazy-src", "data-original", "data-full", "src"):
+            add_image(img.get(key))
         srcset = img.get("srcset") or img.get("data-srcset") or ""
         if srcset:
-            candidates.extend(
-                part.strip().split()[0] for part in srcset.split(",") if part.strip()
-            )
-        for raw in candidates:
-            if not raw or raw.startswith("data:"):
-                continue
-            url = urljoin(page_url, raw)
-            low = url.casefold()
-            if not re.search(r"\.(?:jpe?g|png|webp)(?:[?#]|$)", low):
-                continue
-            if any(token in low for token in ("logo", "avatar", "icon", "flag", "cover_big")):
-                continue
-            if url not in seen_images:
-                seen_images.add(url)
-                screenshots.append(url)
+            for part in srcset.split(","):
+                add_image(part.strip().split()[0] if part.strip() else None)
+
+    # Some responsive galleries keep the full-resolution URL on the picture/source node.
+    for source in soup.find_all("source"):
+        context = " ".join([
+            clean(source.get("alt", "")),
+            " ".join(source.get("class", [])),
+            clean(source.parent.get("class", "")) if source.parent else "",
+        ]).casefold()
+        if re.search(r"screenshot|gallery|featured", context):
+            add_image(source.get("src"))
+            add_image(source.get("data-src"))
+            for part in (source.get("srcset") or "").split(","):
+                add_image(part.strip().split()[0] if part.strip() else None)
 
     video_urls: dict[str, str] = {}
-    url_patterns = [
-        re.compile(
-            r"(?:youtube(?:-nocookie)?\.com/(?:embed/|shorts/)|youtu\.be/|img\.youtube\.com/vi/)"
-            r"([A-Za-z0-9_-]{6,})",
-            re.I
-        ),
-        re.compile(
-            r"youtube(?:-nocookie)?\.com/watch\?[^\s]*?v=([A-Za-z0-9_-]{6,})",
-            re.I
-        ),
+    video_patterns = [
+        re.compile(r"(?:youtube(?:-nocookie)?\\.com/(?:embed/|shorts/)|youtu\\.be/|img\\.youtube\\.com/vi/)([A-Za-z0-9_-]{6,})", re.I),
+        re.compile(r"youtube(?:-nocookie)?\\.com/watch\\?[^\\s\"'<>]*?v=([A-Za-z0-9_-]{6,})", re.I),
     ]
 
-    def find_video_id(value: str) -> str | None:
-        for pattern in url_patterns:
-            match = pattern.search(value)
+    def add_video(raw: str, context: str = "") -> None:
+        for pattern in video_patterns:
+            match = pattern.search(raw)
             if match:
-                return match.group(1)
-        return None
-    for tag in soup.find_all(["iframe", "a", "img", "source"]):
-        attrs = " ".join(
-            str(tag.get(key, "")) for key in
-            ("src", "data-src", "href", "title", "alt", "class")
-        )
+                kind = "gameplay_url" if "gameplay" in context.casefold() else "trailer_url"
+                video_urls.setdefault(kind, f"https://www.youtube.com/watch?v={match.group(1)}")
+                return
+
+    for tag in soup.find_all(["iframe", "a", "img", "source", "video"]):
+        attrs = " ".join(str(tag.get(key, "")) for key in
+                         ("src", "data-src", "href", "poster", "title", "alt", "class"))
         parent_text = clean(tag.parent.get_text(" ", strip=True)) if tag.parent else ""
-        context = clean(attrs + " " + parent_text).casefold()
-        video_id = find_video_id(attrs)
-        if video_id:
-            kind = "gameplay_url" if "gameplay" in context else "trailer_url"
-            video_urls.setdefault(kind, f"https://www.youtube.com/watch?v={video_id}")
+        context = clean(attrs + " " + parent_text)
+        add_video(attrs, context)
 
-    # Some embeds are stored only in serialized scripts/data attributes.
+    # Also inspect serialized page data and inline scripts used by lazy video embeds.
     html = str(soup)
-    for pattern in url_patterns:
+    for pattern in video_patterns:
         for match in pattern.finditer(html):
-            nearby = html[max(0, match.start() - 180):match.end() + 180].casefold()
-            kind = "gameplay_url" if "gameplay" in nearby else "trailer_url"
+            nearby = html[max(0, match.start() - 250):match.end() + 250]
+            kind = "gameplay_url" if "gameplay" in nearby.casefold() else "trailer_url"
             video_urls.setdefault(kind, f"https://www.youtube.com/watch?v={match.group(1)}")
-    return screenshots[:40], video_urls.get("trailer_url"), video_urls.get("gameplay_url")
 
+    # Preserve gallery order and use up to five distinct in-game images.
+    return screenshots[:5], video_urls.get("trailer_url"), video_urls.get("gameplay_url")
 
 
 def parse_release_date(text: str) -> str | None:
