@@ -8,7 +8,7 @@ import re
 import time
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse, parse_qs, unquote
 
 import requests
 from bs4 import BeautifulSoup
@@ -557,81 +557,143 @@ def xbox_pc_platforms(values: list[str]) -> list[str]:
 
 
 def extract_game_media(soup: BeautifulSoup, page_url: str) -> tuple[list[str], str | None, str | None]:
-    """Extract gallery screenshots, trailer and gameplay YouTube links."""
+    """Extract real screenshots and YouTube media from rendered game pages."""
     screenshots: list[str] = []
     seen_images: set[str] = set()
-    for img in soup.find_all("img"):
-        alt = clean(img.get("alt", "")).casefold()
-        classes = " ".join(img.get("class", [])).casefold()
-        parent = img.find_parent("a")
-        parent_classes = " ".join(parent.get("class", [])).casefold() if parent else ""
-        context = " ".join((alt, classes, parent_classes))
-        if not re.search(r"screenshot|gallery|featured", context):
-            continue
-        candidates = [
-            parent.get("href") if parent else None,
-            img.get("data-src"), img.get("data-lazy-src"), img.get("data-original"),
-            img.get("src"),
-        ]
-        srcset = img.get("srcset") or img.get("data-srcset") or ""
-        if srcset:
-            candidates.extend(
-                part.strip().split()[0] for part in srcset.split(",") if part.strip()
-            )
-        for raw in candidates:
-            if not raw or raw.startswith("data:"):
-                continue
-            url = urljoin(page_url, raw)
-            low = url.casefold()
-            if not re.search(r"\.(?:jpe?g|png|webp)(?:[?#]|$)", low):
-                continue
-            if any(token in low for token in ("logo", "avatar", "icon", "flag", "cover_big")):
-                continue
-            if url not in seen_images:
-                seen_images.add(url)
-                screenshots.append(url)
 
-    video_urls: dict[str, str] = {}
-    url_patterns = [
-        re.compile(
-            r"(?:youtube(?:-nocookie)?\.com/(?:embed/|shorts/)|youtu\.be/|img\.youtube\.com/vi/)"
-            r"([A-Za-z0-9_-]{6,})",
-            re.I
-        ),
-        re.compile(
-            r"youtube(?:-nocookie)?\.com/watch\?[^\s]*?v=([A-Za-z0-9_-]{6,})",
-            re.I
-        ),
+    def add_image(raw: str | None) -> None:
+        if not raw:
+            return
+        raw = raw.strip().strip("\"'")
+        if raw.startswith(("data:", "blob:", "javascript:")):
+            return
+        # Unwrap Next.js image optimizer URLs (?url=https%3A%2F%2F...).
+        try:
+            parsed = urlparse(urljoin(page_url, raw))
+            wrapped = parse_qs(parsed.query).get("url", [])
+            if wrapped:
+                raw = unquote(wrapped[0])
+        except Exception:
+            pass
+        url = urljoin(page_url, raw)
+        low = url.casefold().split("?")[0].split("#")[0]
+        if not re.search(r"\.(?:jpe?g|png|webp|avif)(?:$)", low):
+            return
+        if any(token in low for token in ("logo", "avatar", "icon", "flag", "cover_big", "cover-art", "boxart", "favicon")):
+            return
+        if url not in seen_images:
+            seen_images.add(url)
+            screenshots.append(url)
+
+    def add_srcset(value: str | None) -> None:
+        if not value:
+            return
+        for part in value.split(","):
+            bits = part.strip().split()
+            if bits:
+                add_image(bits[0])
+
+    def add_img_tag(img) -> None:
+        for attr in ("data-full", "data-original", "data-zoom-image", "data-large",
+                     "data-src", "data-lazy-src", "data-image", "data-original-src",
+                     "src", "content"):
+            add_image(img.get(attr))
+        for attr in ("data-srcset", "srcset"):
+            add_srcset(img.get(attr))
+
+    def add_style_image(value: str | None) -> None:
+        if not value:
+            return
+        for match in re.findall(r"""url\(["']?([^"')]+)""", value, re.I):
+            add_image(match)
+
+    # Find the actual gallery section and inspect its complete container.
+    for heading in soup.find_all(["h2", "h3", "h4", "h5"]):
+        label = clean(heading.get_text(" ", strip=True))
+        if not re.search(r"\bscreenshots?\b|\bgame\s+gallery\b|\bmedia\s+gallery\b", label, re.I):
+            continue
+        ancestor = heading
+        for _ in range(7):
+            if ancestor.parent is None:
+                break
+            ancestor = ancestor.parent
+            for node in ancestor.find_all(["img", "source"]):
+                add_img_tag(node)
+            for node in ancestor.find_all(style=True):
+                add_style_image(node.get("style"))
+            for node in ancestor.find_all(["a", "button"], href=True):
+                add_image(node.get("href"))
+            if len(screenshots) >= 4:
+                break
+        if screenshots:
+            break
+
+    # Fallback for sliders/lightboxes with no visible gallery heading.
+    if len(screenshots) < 3:
+        for node in soup.find_all(["img", "source"]):
+            alt = clean(node.get("alt", "")).casefold()
+            classes = " ".join(node.get("class", [])).casefold()
+            parent = node.find_parent(["a", "div"])
+            parent_classes = " ".join(parent.get("class", [])).casefold() if parent else ""
+            context = " ".join((alt, classes, parent_classes))
+            if re.search(r"screenshot|gallery|gameplay|lightbox|swiper|carousel|slide", context):
+                if parent and parent.name == "a":
+                    add_image(parent.get("href"))
+                add_img_tag(node)
+        for node in soup.find_all(style=True):
+            classes = " ".join(node.get("class", [])).casefold()
+            if re.search(r"screenshot|gallery|swiper|carousel|slide", classes):
+                add_style_image(node.get("style"))
+
+    # Remove the cover image from the screenshot collection.
+    cover_urls = set()
+    for cover in soup.find_all("img", alt=re.compile(r"cover art|game cover", re.I)):
+        for attr in ("src", "data-src", "data-original"):
+            if cover.get(attr):
+                cover_urls.add(urljoin(page_url, cover.get(attr)))
+    screenshots = [url for url in screenshots if url not in cover_urls]
+
+    video_ids: dict[str, str] = {}
+    youtube_patterns = [
+        re.compile(r"(?:youtube(?:-nocookie)?\.com/(?:embed/|shorts/|live/)|youtu\.be/|img\.youtube\.com/vi/)([A-Za-z0-9_-]{6,})", re.I),
+        re.compile(r"youtube(?:-nocookie)?\.com/watch\?[^\s\"'<>]*?v=([A-Za-z0-9_-]{6,})", re.I),
     ]
 
-    def find_video_id(value: str) -> str | None:
-        for pattern in url_patterns:
+    def save_video(value: str, context: str = "") -> None:
+        for pattern in youtube_patterns:
             match = pattern.search(value)
             if match:
-                return match.group(1)
-        return None
-    for tag in soup.find_all(["iframe", "a", "img", "source"]):
-        attrs = " ".join(
-            str(tag.get(key, "")) for key in
-            ("src", "data-src", "href", "title", "alt", "class")
-        )
-        parent_text = clean(tag.parent.get_text(" ", strip=True)) if tag.parent else ""
-        context = clean(attrs + " " + parent_text).casefold()
-        video_id = find_video_id(attrs)
-        if video_id:
-            kind = "gameplay_url" if "gameplay" in context else "trailer_url"
-            video_urls.setdefault(kind, f"https://www.youtube.com/watch?v={video_id}")
+                nearby = context.casefold()
+                kind = "gameplay_url" if re.search(r"gameplay|game\s*play|walkthrough", nearby) else "trailer_url"
+                video_ids.setdefault(kind, match.group(1))
+                return
 
-    # Some embeds are stored only in serialized scripts/data attributes.
-    html = str(soup)
-    for pattern in url_patterns:
-        for match in pattern.finditer(html):
-            nearby = html[max(0, match.start() - 180):match.end() + 180].casefold()
-            kind = "gameplay_url" if "gameplay" in nearby else "trailer_url"
-            video_urls.setdefault(kind, f"https://www.youtube.com/watch?v={match.group(1)}")
-    return screenshots[:40], video_urls.get("trailer_url"), video_urls.get("gameplay_url")
+    for tag in soup.find_all(["iframe", "a", "video", "source", "button", "div"]):
+        attrs = " ".join(str(tag.get(key, "")) for key in
+                         ("src", "data-src", "data-video", "data-video-url", "data-youtube",
+                          "data-embed", "href", "title", "aria-label", "class", "id"))
+        context = attrs + " " + (clean(tag.parent.get_text(" ", strip=True)) if tag.parent else "")
+        save_video(attrs, context)
 
+    # Also inspect inline scripts and JSON-LD for lazy player configuration.
+    for script in soup.find_all("script"):
+        content = script.string or script.get_text(" ", strip=True)
+        if not content:
+            continue
+        save_video(content, content[:2000])
+        try:
+            data = json.loads(content)
+            nodes = data if isinstance(data, list) else [data]
+            for node in nodes:
+                if isinstance(node, dict) and node.get("@type") == "VideoObject":
+                    save_video(str(node.get("embedUrl") or node.get("contentUrl") or node.get("url") or ""),
+                               str(node.get("name") or node.get("description") or "trailer"))
+        except (ValueError, TypeError):
+            pass
 
+    trailer = video_ids.get("trailer_url")
+    gameplay = video_ids.get("gameplay_url")
+    return screenshots[:40], (f"https://www.youtube.com/watch?v={trailer}" if trailer else None), (f"https://www.youtube.com/watch?v={gameplay}" if gameplay else None)
 
 def parse_release_date(text: str) -> str | None:
     m = re.search(r"Released:\s*([A-Za-z]+\s+\d{1,2}(?:st|nd|rd|th)?[,]?\s+\d{4})", text, re.I)
@@ -640,9 +702,12 @@ def parse_release_date(text: str) -> str | None:
     return None
 
 
-def enrich(game: dict) -> None:
+def enrich(game: dict, html: str | None = None) -> None:
     try:
-        soup = BeautifulSoup(fetch(game["url"]), "html.parser")
+        # Upcoming-game pages pass browser-rendered HTML so lazy-loaded gallery
+        # images and embedded video metadata are present in the document.
+        page_html = html if html else fetch(game["url"])
+        soup = BeautifulSoup(page_html, "html.parser")
         body_text = clean(soup.get_text(" ", strip=True))
 
         h1 = soup.find("h1")
