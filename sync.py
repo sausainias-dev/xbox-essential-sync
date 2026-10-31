@@ -353,6 +353,53 @@ def xbox_pc_platforms(values: list[str]) -> list[str]:
         result.append("Xbox")
     return list(dict.fromkeys(result))
 
+
+def extract_game_media(soup: BeautifulSoup, page_url: str) -> tuple[list[str], str | None]:
+    """Extract gallery screenshots and a YouTube trailer from a game detail page."""
+    screenshots: list[str] = []
+    seen: set[str] = set()
+    for img in soup.find_all("img"):
+        candidates = [
+            img.get("data-src"), img.get("data-lazy-src"), img.get("data-original"),
+            img.get("src"),
+        ]
+        srcset = img.get("srcset") or img.get("data-srcset") or ""
+        if srcset:
+            candidates.extend(part.strip().split()[0] for part in srcset.split(",") if part.strip())
+        alt = clean(img.get("alt", "")).casefold()
+        classes = " ".join(img.get("class", [])).casefold()
+        for raw in candidates:
+            if not raw or raw.startswith("data:"):
+                continue
+            url = urljoin(page_url, raw)
+            low = url.casefold()
+            if not re.search(r"\\.(?:jpe?g|png|webp)(?:[?#]|$)", low):
+                continue
+            if any(token in low for token in ("logo", "avatar", "icon", "flag", "cover_big")):
+                continue
+            if "cover" in alt or "cover" in classes:
+                continue
+            if url not in seen:
+                seen.add(url)
+                screenshots.append(url)
+    # Also inspect inline page data and links; trailers are often embedded as iframes.
+    html = str(soup)
+    patterns = [
+        r'https?://(?:www\\.)?youtube\\.com/embed/([\\w-]{6,})',
+        r'https?://(?:www\\.)?youtube-nocookie\\.com/embed/([\\w-]{6,})',
+        r'https?://youtu\\.be/([\\w-]{6,})',
+        r'https?://(?:www\\.)?youtube\\.com/watch\\?[^"\\'<>\\s]*v=([\\w-]{6,})',
+    ]
+    video_id = None
+    for pattern in patterns:
+        match = re.search(pattern, html, re.I)
+        if match:
+            video_id = match.group(1)
+            break
+    trailer = f"https://www.youtube.com/watch?v={video_id}" if video_id else None
+    return screenshots[:30], trailer
+
+
 def parse_release_date(text: str) -> str | None:
     m = re.search(r"Released:\s*([A-Za-z]+\s+\d{1,2}(?:st|nd|rd|th)?[,]?\s+\d{4})", text, re.I)
     if m:
@@ -379,6 +426,13 @@ def enrich(game: dict) -> None:
             src = img.get("src") or img.get("data-src")
             if src:
                 game["cover_url"] = urljoin(game["url"], src)
+
+        # Gallery screenshots and official/embedded YouTube trailer.
+        screenshots, trailer_url = extract_game_media(soup, game["url"])
+        if screenshots:
+            game["screenshot_urls"] = screenshots
+        if trailer_url:
+            game["trailer_url"] = trailer_url
 
         release_date = parse_release_date(body_text)
         if release_date:
