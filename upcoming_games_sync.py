@@ -19,7 +19,7 @@ def collect_upcoming(page) -> list[dict]:
     target = None
     for i in range(headings.count()):
         label = catalog.clean(headings.nth(i).inner_text())
-        if re.match(r"^Coming\\s+Soon(?:\\s*\\(\\d+\\))?$", label, re.I):
+        if re.match(r"^Coming\\s+Soon\\b", label, re.I):
             target = headings.nth(i)
             break
     if target is None:
