@@ -10,6 +10,10 @@ on:
   schedule:
     - cron: "0 */6 * * *"
 
+concurrency:
+  group: xbox-game-pass-sync
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -46,4 +50,5 @@ jobs:
           fi
 
           git diff --cached --quiet || git commit -m "Update Xbox Game Pass catalog"
+          git pull --rebase origin main
           git push
