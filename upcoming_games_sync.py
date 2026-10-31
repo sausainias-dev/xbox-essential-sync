@@ -78,7 +78,9 @@ def collect_upcoming(page) -> list[dict]:
         results.append(item)
     if not results:
         raise RuntimeError("Coming Soon was found but zero games were extracted; refusing to overwrite published files")
-    print(f"Found {len(results)} upcoming Game Pass games")
+    # Exclude the generic Football Manager 27 entry; the Console edition is a separate listing.
+    results = [game for game in results if catalog.clean(game.get("name", "")).casefold() != "football manager 27"]
+    print(f"Found {len(results)} upcoming Game Pass games after exclusions")
     return results
 
 def main() -> None:
