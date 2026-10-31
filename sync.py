@@ -283,7 +283,9 @@ def section_values(soup: BeautifulSoup, *heading_names: str) -> list[str]:
     def add_from(container) -> list[str]:
         values: list[str] = []
         seen: set[str] = set()
-        for candidate in container.find_all(["a", "button", "[role='listitem']"]):
+        candidates = list(container.find_all(["a", "button"]))
+        candidates.extend(container.select("[role='listitem']"))
+        for candidate in candidates:
             value = clean(candidate.get_text(" ", strip=True)).rstrip(":")
             key = value.casefold()
             if value and len(value) <= 80 and key not in seen and key not in labels:
@@ -293,8 +295,15 @@ def section_values(soup: BeautifulSoup, *heading_names: str) -> list[str]:
 
     # Current pages render these as inline labels, not necessarily headings.
     for text_node in soup.find_all(string=True):
-        label = clean(str(text_node)).rstrip(":").casefold()
-        if label not in wanted:
+        raw_text = clean(str(text_node))
+        label = raw_text.rstrip(":").casefold()
+        inline_match = re.match(
+            r"^(Modes|Play Modes|Genres|Themes|Platforms)\s*:\s*(.+)$",
+            raw_text, re.I
+        )
+        if label not in wanted and not (
+            inline_match and inline_match.group(1).casefold() in wanted
+        ):
             continue
         ancestor = text_node.parent
         for _ in range(5):
@@ -309,6 +318,12 @@ def section_values(soup: BeautifulSoup, *heading_names: str) -> list[str]:
                 values = add_from(ancestor)
                 if values:
                     return values
+                remainder = re.sub(
+                    r"^(?:Modes|Play Modes|Genres|Themes|Platforms)\s*:\s*",
+                    "", container_text, flags=re.I
+                ).strip()
+                if remainder and len(remainder) <= 400:
+                    return [remainder]
             ancestor = ancestor.parent
 
     # Compatibility fallback for older heading-based layouts.
@@ -450,11 +465,24 @@ def extract_game_media(soup: BeautifulSoup, page_url: str) -> tuple[list[str], s
                 screenshots.append(url)
 
     video_urls: dict[str, str] = {}
-    url_pattern = re.compile(
-        r"(?:youtube(?:-nocookie)?\.com/(?:embed/|watch\?[^'""<>\s]*?v=|shorts/)"
-        r"|youtu\.be/|img\.youtube\.com/vi/)([A-Za-z0-9_-]{6,})",
-        re.I
-    )
+    url_patterns = [
+        re.compile(
+            r"(?:youtube(?:-nocookie)?\.com/(?:embed/|shorts/)|youtu\.be/|img\.youtube\.com/vi/)"
+            r"([A-Za-z0-9_-]{6,})",
+            re.I
+        ),
+        re.compile(
+            r"youtube(?:-nocookie)?\.com/watch\?[^\s]*?v=([A-Za-z0-9_-]{6,})",
+            re.I
+        ),
+    ]
+
+    def find_video_id(value: str) -> str | None:
+        for pattern in url_patterns:
+            match = pattern.search(value)
+            if match:
+                return match.group(1)
+        return None
     for tag in soup.find_all(["iframe", "a", "img", "source"]):
         attrs = " ".join(
             str(tag.get(key, "")) for key in
@@ -462,17 +490,18 @@ def extract_game_media(soup: BeautifulSoup, page_url: str) -> tuple[list[str], s
         )
         parent_text = clean(tag.parent.get_text(" ", strip=True)) if tag.parent else ""
         context = clean(attrs + " " + parent_text).casefold()
-        match = url_pattern.search(attrs)
-        if match:
+        video_id = find_video_id(attrs)
+        if video_id:
             kind = "gameplay_url" if "gameplay" in context else "trailer_url"
-            video_urls.setdefault(kind, f"https://www.youtube.com/watch?v={match.group(1)}")
+            video_urls.setdefault(kind, f"https://www.youtube.com/watch?v={video_id}")
 
     # Some embeds are stored only in serialized scripts/data attributes.
     html = str(soup)
-    for match in url_pattern.finditer(html):
-        nearby = html[max(0, match.start() - 180):match.end() + 180].casefold()
-        kind = "gameplay_url" if "gameplay" in nearby else "trailer_url"
-        video_urls.setdefault(kind, f"https://www.youtube.com/watch?v={match.group(1)}")
+    for pattern in url_patterns:
+        for match in pattern.finditer(html):
+            nearby = html[max(0, match.start() - 180):match.end() + 180].casefold()
+            kind = "gameplay_url" if "gameplay" in nearby else "trailer_url"
+            video_urls.setdefault(kind, f"https://www.youtube.com/watch?v={match.group(1)}")
     return screenshots[:40], video_urls.get("trailer_url"), video_urls.get("gameplay_url")
 
 
