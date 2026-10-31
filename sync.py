@@ -373,7 +373,7 @@ def extract_game_media(soup: BeautifulSoup, page_url: str) -> tuple[list[str], s
                 continue
             url = urljoin(page_url, raw)
             low = url.casefold()
-            if not re.search(r"\\.(?:jpe?g|png|webp)(?:[?#]|$)", low):
+            if not re.search(r"\.(?:jpe?g|png|webp)(?:[?#]|$)", low):
                 continue
             if any(token in low for token in ("logo", "avatar", "icon", "flag", "cover_big")):
                 continue
@@ -382,13 +382,12 @@ def extract_game_media(soup: BeautifulSoup, page_url: str) -> tuple[list[str], s
             if url not in seen:
                 seen.add(url)
                 screenshots.append(url)
-    # Also inspect inline page data and links; trailers are often embedded as iframes.
     html = str(soup)
     patterns = [
-        r'https?://(?:www\\.)?youtube\\.com/embed/([\\w-]{6,})',
-        r'https?://(?:www\\.)?youtube-nocookie\\.com/embed/([\\w-]{6,})',
-        r'https?://youtu\\.be/([\\w-]{6,})',
-        r'https?://(?:www\\.)?youtube\\.com/watch\\?[^"\\'<>\\s]*v=([\\w-]{6,})',
+        r'https?://(?:www\.)?youtube\.com/embed/([\w-]{6,})',
+        r'https?://(?:www\.)?youtube-nocookie\.com/embed/([\w-]{6,})',
+        r'https?://youtu\.be/([\w-]{6,})',
+        r'https?://(?:www\.)?youtube\.com/watch\?[^"\'<>\s]*v=([\w-]{6,})',
     ]
     video_id = None
     for pattern in patterns:
@@ -398,8 +397,6 @@ def extract_game_media(soup: BeautifulSoup, page_url: str) -> tuple[list[str], s
             break
     trailer = f"https://www.youtube.com/watch?v={video_id}" if video_id else None
     return screenshots[:30], trailer
-
-
 def parse_release_date(text: str) -> str | None:
     m = re.search(r"Released:\s*([A-Za-z]+\s+\d{1,2}(?:st|nd|rd|th)?[,]?\s+\d{4})", text, re.I)
     if m:
