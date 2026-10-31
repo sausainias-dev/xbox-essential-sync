@@ -346,7 +346,7 @@ def xbox_pc_platforms(values: list[str]) -> list[str]:
         result.append("Xbox Series X|S")
     if "xbox one" in text:
         result.append("Xbox One")
-    if "windows" in text or re.search(r"\\bpc\\b", text):
+    if "windows" in text or re.search(r"\bpc\b", text):
         result.append("PC (Microsoft Windows)")
     # Older source pages sometimes expose only the generic Xbox label.
     if not result and "xbox" in text:
