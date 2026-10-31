@@ -29,6 +29,9 @@ Builds the combined Xbox catalog used by Subli.one from GameScriptions.
 - Plan membership
 - Added and Leaving Soon status/date when available
 - Per-service genre counts
+- Standalone Xbox Game Pass Ultimate service-page data: description, genre distribution, full available-game list, new releases, leaving-soon titles, and coming-soon schedule
+
+The `service_pages.ultimate` object is intended for a dedicated Subli.one service page. It deliberately excludes game-level community ratings.
 
 The source URL is retained for synchronization and identification. Subli.one can choose not to display it.
 
