@@ -276,66 +276,126 @@ def short_description(text: str) -> str:
 
 
 def section_values(soup: BeautifulSoup, *heading_names: str) -> list[str]:
-    """Extract metadata chips below a labelled detail heading.
-
-    GameScriptions currently labels these sections as Modes, Genres, Themes
-    and Platforms (some older pages use Play Modes). The markup varies between
-    pages, so inspect the following section container rather than relying on
-    one exact sibling layout.
-    """
+    """Extract values following GameScriptions' inline metadata labels."""
     wanted = {clean(name).rstrip(":").casefold() for name in heading_names}
+    labels = {"modes", "play modes", "genres", "themes", "platforms"}
+
+    def add_from(container) -> list[str]:
+        values: list[str] = []
+        seen: set[str] = set()
+        for candidate in container.find_all(["a", "button", "[role='listitem']"]):
+            value = clean(candidate.get_text(" ", strip=True)).rstrip(":")
+            key = value.casefold()
+            if value and len(value) <= 80 and key not in seen and key not in labels:
+                seen.add(key)
+                values.append(value)
+        return values
+
+    # Current pages render these as inline labels, not necessarily headings.
+    for text_node in soup.find_all(string=True):
+        label = clean(str(text_node)).rstrip(":").casefold()
+        if label not in wanted:
+            continue
+        ancestor = text_node.parent
+        for _ in range(5):
+            if ancestor is None:
+                break
+            container_text = clean(ancestor.get_text(" ", strip=True))
+            other_labels = re.findall(
+                r"\b(?:Modes|Play Modes|Genres|Themes|Platforms)\s*:",
+                container_text, re.I
+            )
+            if len(other_labels) <= 1:
+                values = add_from(ancestor)
+                if values:
+                    return values
+            ancestor = ancestor.parent
+
+    # Compatibility fallback for older heading-based layouts.
     heading = soup.find(
         lambda tag: tag.name in {"h2", "h3", "h4"}
         and clean(tag.get_text(" ", strip=True)).rstrip(":").casefold() in wanted
     )
+    if heading:
+        values: list[str] = []
+        seen: set[str] = set()
+        node = heading
+        for _ in range(8):
+            node = node.find_next_sibling()
+            if node is None or getattr(node, "name", None) in {"h1", "h2", "h3", "h4"}:
+                break
+            for value in add_from(node):
+                if value.casefold() not in seen:
+                    seen.add(value.casefold())
+                    values.append(value)
+        if values:
+            return values
+    return []
+
+
+def extract_community_stats(body_text: str) -> dict:
+    """Read public aggregate community rating and tracking counts, when present."""
+    result: dict = {}
+    section = re.search(
+        r"\bCommunity(?:\s+Rating)?\b(.*?)(?=\bDescription\b)",
+        body_text, re.I
+    )
+    if not section:
+        return result
+    text = section.group(1)
+    rating = re.search(
+        r"\b(\d+(?:\.\d+)?)\s+(.+?)\s+Based on\s+(\d+)\s+ratings?\b",
+        text, re.I
+    )
+    if rating:
+        result["community_rating"] = float(rating.group(1))
+        result["community_sentiment"] = clean(rating.group(2))
+        result["community_rating_count"] = int(rating.group(3))
+    total = re.search(r"\b(\d+)\s+Total\b", text, re.I)
+    if total:
+        result["community_total"] = int(total.group(1))
+    status_names = {
+        "completed": "completed", "queued": "queued", "playing": "playing",
+        "abandoned": "abandoned", "interested": "interested", "no interest": "no_interest",
+    }
+    statuses = {}
+    for label, count in re.findall(
+        r"\b(Completed|Queued|Playing|Abandoned|Interested|No Interest)\s+(\d+)\b",
+        text, re.I
+    ):
+        statuses[status_names[label.casefold()]] = int(count)
+    if statuses:
+        result["community_status_counts"] = statuses
+    return result
+
+
+def extract_related_games(soup: BeautifulSoup, page_url: str) -> list[dict]:
+    """Extract linked games from the Related Games section."""
+    heading = soup.find(
+        lambda tag: tag.name in {"h2", "h3", "h4"}
+        and clean(tag.get_text(" ", strip=True)).casefold().startswith("related games")
+    )
     if not heading:
         return []
-
-    values: list[str] = []
+    result: list[dict] = []
     seen: set[str] = set()
-
-    def add(value: str) -> None:
-        value = clean(value).rstrip(":")
-        key = value.casefold()
-        if value and len(value) <= 80 and key not in seen:
-            seen.add(key)
-            values.append(value)
-
-    # Walk forward only until the next section heading. Collect clickable
-    # chips and elements with tag-like classes, including nested wrappers.
     node = heading
-    for _ in range(8):
+    for _ in range(12):
         node = node.find_next_sibling()
-        if node is None:
+        if node is None or getattr(node, "name", None) in {"h1", "h2", "h3", "h4"}:
             break
-        if getattr(node, "name", None) in {"h1", "h2", "h3", "h4"}:
-            break
-
-        candidates = node.select(
-            'a, button, [role="listitem"], [class*="tag"], [class*="badge"], '
-            '[class*="chip"], [class*="pill"]'
-        )
-        for candidate in candidates:
-            add(candidate.get_text(" ", strip=True))
-
-        # Some pages use plain spans/divs without semantic classes.
-        if not candidates:
-            for candidate in node.find_all(["span", "div"], recursive=True):
-                if candidate.find(["span", "div", "a", "button"], recursive=False):
-                    continue
-                add(candidate.get_text(" ", strip=True))
-
-    # Fallback: metadata chips may be nested in the heading's parent card.
-    if not values and heading.parent:
-        for candidate in heading.parent.select(
-            'a, button, [role="listitem"], [class*="tag"], [class*="badge"], '
-            '[class*="chip"], [class*="pill"]'
-        ):
-            if candidate is heading:
+        for anchor in node.select('a[href*="/game/"]'):
+            url = urljoin(page_url, anchor.get("href", ""))
+            name, year = clean_title(anchor.get_text(" ", strip=True))
+            if not name or url in seen:
                 continue
-            add(candidate.get_text(" ", strip=True))
+            seen.add(url)
+            item = {"name": name, "url": url}
+            if year:
+                item["year"] = year
+            result.append(item)
+    return result[:30]
 
-    return values[:40]
 
 
 def xbox_pc_platforms(values: list[str]) -> list[str]:
@@ -354,20 +414,28 @@ def xbox_pc_platforms(values: list[str]) -> list[str]:
     return list(dict.fromkeys(result))
 
 
-def extract_game_media(soup: BeautifulSoup, page_url: str) -> tuple[list[str], str | None]:
-    """Extract gallery screenshots and a YouTube trailer from a game detail page."""
+def extract_game_media(soup: BeautifulSoup, page_url: str) -> tuple[list[str], str | None, str | None]:
+    """Extract gallery screenshots, trailer and gameplay YouTube links."""
     screenshots: list[str] = []
-    seen: set[str] = set()
+    seen_images: set[str] = set()
     for img in soup.find_all("img"):
+        alt = clean(img.get("alt", "")).casefold()
+        classes = " ".join(img.get("class", [])).casefold()
+        parent = img.find_parent("a")
+        parent_classes = " ".join(parent.get("class", [])).casefold() if parent else ""
+        context = " ".join((alt, classes, parent_classes))
+        if not re.search(r"screenshot|gallery|featured", context):
+            continue
         candidates = [
+            parent.get("href") if parent else None,
             img.get("data-src"), img.get("data-lazy-src"), img.get("data-original"),
             img.get("src"),
         ]
         srcset = img.get("srcset") or img.get("data-srcset") or ""
         if srcset:
-            candidates.extend(part.strip().split()[0] for part in srcset.split(",") if part.strip())
-        alt = clean(img.get("alt", "")).casefold()
-        classes = " ".join(img.get("class", [])).casefold()
+            candidates.extend(
+                part.strip().split()[0] for part in srcset.split(",") if part.strip()
+            )
         for raw in candidates:
             if not raw or raw.startswith("data:"):
                 continue
@@ -377,26 +445,38 @@ def extract_game_media(soup: BeautifulSoup, page_url: str) -> tuple[list[str], s
                 continue
             if any(token in low for token in ("logo", "avatar", "icon", "flag", "cover_big")):
                 continue
-            if "cover" in alt or "cover" in classes:
-                continue
-            if url not in seen:
-                seen.add(url)
+            if url not in seen_images:
+                seen_images.add(url)
                 screenshots.append(url)
-    html = str(soup)
-    patterns = [
-        r'https?://(?:www\.)?youtube\.com/embed/([\w-]{6,})',
-        r'https?://(?:www\.)?youtube-nocookie\.com/embed/([\w-]{6,})',
-        r'https?://youtu\.be/([\w-]{6,})',
-        r'https?://(?:www\.)?youtube\.com/watch\?[^"\'<>\s]*v=([\w-]{6,})',
-    ]
-    video_id = None
-    for pattern in patterns:
-        match = re.search(pattern, html, re.I)
+
+    video_urls: dict[str, str] = {}
+    url_pattern = re.compile(
+        r"(?:youtube(?:-nocookie)?\.com/(?:embed/|watch\?[^'""<>\s]*?v=|shorts/)"
+        r"|youtu\.be/|img\.youtube\.com/vi/)([A-Za-z0-9_-]{6,})",
+        re.I
+    )
+    for tag in soup.find_all(["iframe", "a", "img", "source"]):
+        attrs = " ".join(
+            str(tag.get(key, "")) for key in
+            ("src", "data-src", "href", "title", "alt", "class")
+        )
+        parent_text = clean(tag.parent.get_text(" ", strip=True)) if tag.parent else ""
+        context = clean(attrs + " " + parent_text).casefold()
+        match = url_pattern.search(attrs)
         if match:
-            video_id = match.group(1)
-            break
-    trailer = f"https://www.youtube.com/watch?v={video_id}" if video_id else None
-    return screenshots[:30], trailer
+            kind = "gameplay_url" if "gameplay" in context else "trailer_url"
+            video_urls.setdefault(kind, f"https://www.youtube.com/watch?v={match.group(1)}")
+
+    # Some embeds are stored only in serialized scripts/data attributes.
+    html = str(soup)
+    for match in url_pattern.finditer(html):
+        nearby = html[max(0, match.start() - 180):match.end() + 180].casefold()
+        kind = "gameplay_url" if "gameplay" in nearby else "trailer_url"
+        video_urls.setdefault(kind, f"https://www.youtube.com/watch?v={match.group(1)}")
+    return screenshots[:40], video_urls.get("trailer_url"), video_urls.get("gameplay_url")
+
+
+
 def parse_release_date(text: str) -> str | None:
     m = re.search(r"Released:\s*([A-Za-z]+\s+\d{1,2}(?:st|nd|rd|th)?[,]?\s+\d{4})", text, re.I)
     if m:
@@ -425,26 +505,50 @@ def enrich(game: dict) -> None:
                 game["cover_url"] = urljoin(game["url"], src)
 
         # Gallery screenshots and official/embedded YouTube trailer.
-        screenshots, trailer_url = extract_game_media(soup, game["url"])
+        screenshots, trailer_url, gameplay_url = extract_game_media(soup, game["url"])
         if screenshots:
             game["screenshot_urls"] = screenshots
         if trailer_url:
             game["trailer_url"] = trailer_url
+        if gameplay_url:
+            game["gameplay_url"] = gameplay_url
+
+        # Playtime estimate, e.g. "A Solid Adventure (10-19 Hours)".
+        release_marker_for_time = re.search(r"Released:\s*", body_text, re.I)
+        time_text = body_text[release_marker_for_time.end():] if release_marker_for_time else body_text
+        playtime = re.search(
+            r"(?P<label>[A-Z][A-Za-z'’& -]{2,55})\s*\(\s*"
+            r"(?P<hours>\d+(?:\s*-\s*\d+)?\s*(?:Hours?|Minutes?))\s*\)",
+            time_text
+        )
+        if playtime:
+            game["playtime_category"] = clean(playtime.group("label"))
+            game["playtime_hours"] = re.sub(r"\s+", " ", playtime.group("hours")).strip()
+
+        chapters = re.search(r"Story & Campaign\s*\(\s*(\d+)\s+Chapters?\s*\)", body_text, re.I)
+        if chapters:
+            game["campaign_chapters"] = int(chapters.group(1))
+
+        game.update(extract_community_stats(body_text))
+        related_games = extract_related_games(soup, game["url"])
+        if related_games:
+            game["related_games"] = related_games
 
         release_date = parse_release_date(body_text)
         if release_date:
             game["release_date"] = release_date
 
-        # The line immediately before "Released:" is normally Developer / Publisher.
+        # Developer and publisher appear immediately before the release date.
         release_marker = re.search(r"Released:\s*", body_text, re.I)
         if release_marker:
             before = body_text[:release_marker.start()].strip()
-            # Work from the last chunk after the title. Keep it conservative.
             if game.get("name"):
                 tail = before.rsplit(game["name"], 1)[-1].strip()
-                tail = re.sub(r"^(?:\(\d{4}\)|Share Game)\s*", "", tail, flags=re.I).strip()
-                if tail and len(tail) <= 180:
-                    parts = [clean(x) for x in re.split(r"\s*/\s*", tail) if clean(x)]
+                tail = re.sub(r"^\s*\(\s*\d{4}\s*\)\s*", "", tail)
+                tail = re.sub(r"^\s*Share Game\s*", "", tail, flags=re.I).strip()
+                tail = tail.strip("·/ ")
+                if tail and len(tail) <= 220:
+                    parts = [clean(x) for x in re.split(r"\s*[·/]\s*", tail) if clean(x)]
                     if parts:
                         game["developer"] = parts[0]
                     if len(parts) > 1:
