@@ -132,6 +132,17 @@ def main() -> None:
     if not enriched:
         raise RuntimeError("Refusing to publish an empty upcoming-games feed")
 
+    screenshot_games = sum(bool(game.get("screenshot_urls")) for game in enriched)
+    screenshot_total = sum(len(game.get("screenshot_urls", [])) for game in enriched)
+    trailer_games = sum(bool(game.get("trailer_url")) for game in enriched)
+    gameplay_games = sum(bool(game.get("gameplay_url")) for game in enriched)
+    print(
+        "MEDIA COVERAGE: "
+        f"{screenshot_games}/{len(enriched)} games with screenshots "
+        f"({screenshot_total} images), "
+        f"{trailer_games} trailers, {gameplay_games} gameplay videos"
+    )
+
     feed = {
         "source": "Subli.one Xbox Game Pass Ultimate",
         "updated_at": datetime.now(timezone.utc).isoformat(),
