@@ -1,7 +1,7 @@
 {
   "source": "Subli.one Xbox Game Pass Ultimate",
-  "updated_at": "2026-10-31T22:36:14.393878+00:00",
-  "count": 69,
+  "updated_at": "2026-10-31T22:45:55.863Z",
+  "count": 68,
   "games": [
     {
       "name": "Gravhounds",
@@ -82,17 +82,6 @@
         "Xbox Series X|S",
         "PC (Microsoft Windows)"
       ]
-    },
-    {
-      "name": "Football Manager 27",
-      "availability_date": "Nov 10",
-      "availability_date_type": "arrives",
-      "cover_url": "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.gamescriptions.com%2Fcdn-cgi%2Fimage%2Fwidth%3D250%2Cformat%3Dauto%2Fgames%2F0_Football_Manager_27.jpg&w=3840&q=75",
-      "description": "Flow from the tactics board to the touchline in FM27, as foundations evolve to deliver greater control, smoother discovery and a richer footballing world to explore.",
-      "genres": [],
-      "game_modes": [],
-      "game_style": [],
-      "platforms": []
     },
     {
       "name": "Football Manager 27 Console",
