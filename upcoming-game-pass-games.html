@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Upcoming Game Pass Games | Subli.one</title>
+<meta name="description" content="Explore upcoming Xbox Game Pass games, confirmed and expected arrival dates, trailers, screenshots, genres and platforms. Updated regularly on Subli.one.">
+<link rel="canonical" href="https://subli.one/upcoming-game-pass-games">
+<meta property="og:type" content="website"><meta property="og:title" content="Upcoming Game Pass Games | Subli.one">
+<meta property="og:description" content="Discover upcoming Xbox Game Pass releases, dates, trailers and screenshots.">
+<meta name="robots" content="index,follow">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "CollectionPage", "name": "Upcoming Game Pass Games", "description": "Discover upcoming Xbox Game Pass games, release dates, trailers, screenshots, genres and platforms.", "mainEntity": {"@type": "ItemList", "numberOfItems": 0, "itemListElement": []}}</script>
+<style>
+:root{--bg:#0d1020;--panel:#171b2d;--text:#f5f6ff;--muted:#b9bfd4;--accent:#5865f2}
+*{box-sizing:border-box}body{margin:0;background:linear-gradient(130deg,#29134b,#101b48);color:var(--text);font:16px/1.6 system-ui,-apple-system,Segoe UI,sans-serif}
+main{max-width:1180px;margin:auto;padding:36px 20px 64px}h1{font-size:clamp(2rem,5vw,3.3rem);line-height:1.1;margin:0 0 16px}h2{font-size:1.45rem;margin:0 0 12px}p{margin:10px 0}.intro,.toolbar,.game-card{background:rgba(18,22,39,.88);border:1px solid #343b60;border-radius:18px;padding:22px;margin-bottom:20px}.intro p,.muted{color:var(--muted)}.toolbar{display:grid;grid-template-columns:2fr 1fr;gap:14px}input,select{width:100%;padding:14px 16px;border-radius:12px;border:1px solid #444b6d;background:#0d1120;color:white;font:inherit}.count{color:var(--muted);margin:14px 0}.game-card{display:grid;grid-template-columns:minmax(220px,34%) 1fr;gap:22px;overflow:hidden}.cover{width:100%;max-height:310px;object-fit:cover;border-radius:12px}.gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:10px}.gallery img{width:100%;border-radius:8px}.video{position:relative;aspect-ratio:16/9;margin-top:12px}.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0;border-radius:10px}a{color:#aab4ff}footer{color:var(--muted);font-size:.9rem;margin-top:28px}@media(max-width:700px){main{padding:24px 14px}.toolbar{grid-template-columns:1fr}.game-card{grid-template-columns:1fr}.cover{max-height:260px;object-fit:contain;object-position:left}}
+</style></head>
+<body><main>
+<header class="intro"><h1>Upcoming Game Pass Games</h1>
+<p>Discover the upcoming games expected to join Xbox Game Pass. Browse release information, Game Pass arrival dates, genres, platforms, screenshots and trailers in one place.</p>
+<p class="muted">Game Pass arrival dates may change. Dates marked as unannounced are not confirmed.</p></header>
+<section class="toolbar" aria-label="Filter upcoming games">
+<label>Search games<input id="search" type="search" placeholder="Enter a game title..." autocomplete="off"></label>
+<label>Genre<select id="genre"><option value="">All genres</option></select></label></section>
+<p class="count" id="count">0 upcoming games · Data updated 2026-10-31T19:42:05.304062+00:00</p>
+<section id="games" aria-label="Upcoming Game Pass games"><p>No upcoming games are listed right now. Check back soon.</p></section>
+<footer>Last data refresh: <time>2026-10-31T19:42:05.304062+00:00</time>. Game information is provided for discovery purposes and may be updated as release plans change.</footer>
+</main><script>
+(()=>{const q=document.getElementById('search'),g=document.getElementById('genre'),cards=[...document.querySelectorAll('.game-card')],count=document.getElementById('count');
+function filter(){let n=0;const term=q.value.trim().toLowerCase(),genre=g.value;cards.forEach(c=>{const ok=c.dataset.title.includes(term)&&(!genre||c.dataset.genres.split(' ').includes(genre));c.hidden=!ok;if(ok)n++});count.textContent=n+' of '+cards.length+' games shown · Data updated 2026-10-31T19:42:05.304062+00:00'}
+q.addEventListener('input',filter);g.addEventListener('change',filter)})();
+</script></body></html>
