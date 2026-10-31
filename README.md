@@ -16,13 +16,16 @@ Builds the combined Xbox catalog used by Subli.one from GameScriptions.
 - Exact Available Games count per service
 - Game title and GameScriptions source URL
 - Release year and release date when available
-- Cover art
+- Cover art and gallery screenshots
 - Short real game description
-- Genres
-- Play modes
-- Game style (source: GameScriptions Themes)
+- Estimated playtime category and hour range (for example, "A Solid Adventure", "10-19 Hours")
+- Genres, play modes and themes
 - Developer and publisher when available
-- Platforms limited to Xbox and PC
+- Xbox and PC platform compatibility
+- Trailer and gameplay video links when available
+- Campaign chapter count when available
+- Aggregate community rating and rating count, plus public play-status totals when available
+- Related games when exposed on the detail page
 - Plan membership
 - Added and Leaving Soon status/date when available
 - Per-service genre counts
