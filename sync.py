@@ -275,61 +275,83 @@ def short_description(text: str) -> str:
     return chosen
 
 
-def section_values(soup: BeautifulSoup, heading_name: str) -> list[str]:
-    """Extract pill/tag-like values from a labelled detail section."""
+def section_values(soup: BeautifulSoup, *heading_names: str) -> list[str]:
+    """Extract metadata chips below a labelled detail heading.
+
+    GameScriptions currently labels these sections as Modes, Genres, Themes
+    and Platforms (some older pages use Play Modes). The markup varies between
+    pages, so inspect the following section container rather than relying on
+    one exact sibling layout.
+    """
+    wanted = {clean(name).rstrip(":").casefold() for name in heading_names}
     heading = soup.find(
-        lambda tag: tag.name in {"h2", "h3"}
-        and clean(tag.get_text(" ", strip=True)).lower() == heading_name.lower()
+        lambda tag: tag.name in {"h2", "h3", "h4"}
+        and clean(tag.get_text(" ", strip=True)).rstrip(":").casefold() in wanted
     )
     if not heading:
         return []
 
-    # Stop at the next major heading and inspect the section in between.
     values: list[str] = []
-    node = heading.find_next_sibling()
-    hops = 0
-    while node is not None and hops < 30:
-        if getattr(node, "name", None) in {"h1", "h2", "h3"}:
-            break
-        text = clean(node.get_text(" ", strip=True))
-        if text:
-            # GameScriptions renders these as small links/spans/buttons. Prefer
-            # elements that look like tags, badges, chips, pills, or links.
-            candidates = node.select(
-                'a, button, [class*="tag"], [class*="badge"], [class*="chip"], [class*="pill"]'
-            )
-            for candidate in candidates:
-                v = clean(candidate.get_text(" ", strip=True))
-                if v and len(v) <= 80 and v not in values:
-                    values.append(v)
-            if not candidates and len(text) <= 120 and text not in values:
-                values.append(text)
-        node = node.find_next_sibling()
-        hops += 1
+    seen: set[str] = set()
 
-    # Fallback for layouts where the section content is not a sibling.
-    if not values:
-        parent = heading.parent
-        if parent:
-            candidates = parent.select(
-                'a, button, [class*="tag"], [class*="badge"], [class*="chip"], [class*="pill"]'
-            )
-            for candidate in candidates:
-                v = clean(candidate.get_text(" ", strip=True))
-                if v and v.lower() != heading_name.lower() and len(v) <= 80 and v not in values:
-                    values.append(v)
-    return values[:30]
+    def add(value: str) -> None:
+        value = clean(value).rstrip(":")
+        key = value.casefold()
+        if value and len(value) <= 80 and key not in seen:
+            seen.add(key)
+            values.append(value)
+
+    # Walk forward only until the next section heading. Collect clickable
+    # chips and elements with tag-like classes, including nested wrappers.
+    node = heading
+    for _ in range(8):
+        node = node.find_next_sibling()
+        if node is None:
+            break
+        if getattr(node, "name", None) in {"h1", "h2", "h3", "h4"}:
+            break
+
+        candidates = node.select(
+            'a, button, [role="listitem"], [class*="tag"], [class*="badge"], '
+            '[class*="chip"], [class*="pill"]'
+        )
+        for candidate in candidates:
+            add(candidate.get_text(" ", strip=True))
+
+        # Some pages use plain spans/divs without semantic classes.
+        if not candidates:
+            for candidate in node.find_all(["span", "div"], recursive=True):
+                if candidate.find(["span", "div", "a", "button"], recursive=False):
+                    continue
+                add(candidate.get_text(" ", strip=True))
+
+    # Fallback: metadata chips may be nested in the heading's parent card.
+    if not values and heading.parent:
+        for candidate in heading.parent.select(
+            'a, button, [role="listitem"], [class*="tag"], [class*="badge"], '
+            '[class*="chip"], [class*="pill"]'
+        ):
+            if candidate is heading:
+                continue
+            add(candidate.get_text(" ", strip=True))
+
+    return values[:40]
 
 
 def xbox_pc_platforms(values: list[str]) -> list[str]:
-    result = []
-    joined = " ".join(values).lower()
-    if "xbox" in joined:
+    """Keep useful Xbox/Windows platform distinctions for the catalogue."""
+    text = " ".join(values).casefold()
+    result: list[str] = []
+    if "series x" in text or "series s" in text or "series x|s" in text:
+        result.append("Xbox Series X|S")
+    if "xbox one" in text:
+        result.append("Xbox One")
+    if "windows" in text or re.search(r"\\bpc\\b", text):
+        result.append("PC (Microsoft Windows)")
+    # Older source pages sometimes expose only the generic Xbox label.
+    if not result and "xbox" in text:
         result.append("Xbox")
-    if "pc" in joined or "windows" in joined:
-        result.append("PC")
-    return result
-
+    return list(dict.fromkeys(result))
 
 def parse_release_date(text: str) -> str | None:
     m = re.search(r"Released:\s*([A-Za-z]+\s+\d{1,2}(?:st|nd|rd|th)?[,]?\s+\d{4})", text, re.I)
@@ -390,7 +412,7 @@ def enrich(game: dict) -> None:
                     game["description"] = desc
 
         game["genres"] = section_values(soup, "Genres")
-        game["game_modes"] = section_values(soup, "Play Modes")
+        game["game_modes"] = section_values(soup, "Modes", "Play Modes")
         game["game_style"] = section_values(soup, "Themes")
         raw_platforms = section_values(soup, "Platforms")
         game["platforms"] = xbox_pc_platforms(raw_platforms)
