@@ -764,10 +764,30 @@ def main() -> None:
             if plan == "ultimate":
                 service_pages[plan] = extract_service_page_data(page, plan, url, expected)
                 service_pages[plan]["available_games"] = sorted(
-                    [{"name": game["name"], "url": game["url"], **({"year": game["year"]} if game.get("year") else {})}
+                    [{"name": game["name"], **({"year": game["year"]} if game.get("year") else {})}
                      for game in games_by_url.values()],
                     key=lambda item: item["name"].casefold()
                 )
+                upcoming_details = []
+                seen_upcoming = set()
+                for upcoming in service_pages[plan].get("coming_soon", []):
+                    source_url = upcoming.get("url")
+                    if not source_url or source_url in seen_upcoming:
+                        continue
+                    seen_upcoming.add(source_url)
+                    detail = {"name": upcoming["name"], "url": source_url}
+                    if upcoming.get("year"):
+                        detail["year"] = upcoming["year"]
+                    enrich(detail)
+                    detail["availability_date"] = upcoming.get("date_label")
+                    detail["availability_date_type"] = upcoming.get("date_type", "tbd")
+                    for key in list(detail):
+                        if key.startswith("community_") or key in {"enrich_error", "url"}:
+                            detail.pop(key, None)
+                    upcoming_details.append(detail)
+                service_pages[plan]["upcoming_games"] = upcoming_details
+                for item in service_pages[plan].get("coming_soon", []):
+                    item.pop("url", None)
             new_meta = collect_section_meta(page, "New Releases")
             leaving_meta = collect_section_meta(page, "Leaving Soon")
             new_links = set(new_meta)
