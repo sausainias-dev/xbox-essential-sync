@@ -14,7 +14,7 @@ from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
 
 OUT = Path("xbox-essential.json")
-USER_AGENT = "Mozilla/5.0 (compatible; SubliXboxCatalog/5.1; +https://github.com/)"
+USER_AGENT = "Mozilla/5.0 (compatible; SubliXboxCatalog/5.2; +https://github.com/)"
 SERVICES = {
     "essential": "https://gamescriptions.com/subscription/service/xbox_essential",
     "pc": "https://gamescriptions.com/subscription/service/xbox_pc",
