@@ -737,6 +737,123 @@ def normalise(game: dict) -> dict:
     game["leaving"] = bool(game["leaving_plans"])
     return game
 
+
+def render_upcoming_html(feed: dict) -> str:
+    """Render a complete, self-contained HTML page with all game data embedded."""
+    import html
+
+    games = feed.get("games", [])
+    def esc(value) -> str:
+        return html.escape(str(value), quote=True)
+
+    cards = []
+    schema_items = []
+    for index, game in enumerate(games, 1):
+        name = esc(game.get("name", "Upcoming game"))
+        year = esc(game.get("year", ""))
+        description = esc(game.get("description", "Game details will be added soon."))
+        release = esc(game.get("release_date", "TBA"))
+        availability = esc(game.get("availability_date", "To be announced"))
+        genres = game.get("genres", [])
+        platforms = game.get("platforms", [])
+        modes = game.get("game_modes", [])
+        cover = game.get("cover_url", "")
+        images = game.get("screenshot_urls", [])
+        trailer = game.get("trailer_url") or game.get("gameplay_url")
+        title = name + (f" ({year})" if year else "")
+        tags = " ".join(esc(x) for x in genres)
+        details = []
+        if genres:
+            details.append("<p><strong>Genres:</strong> " + ", ".join(esc(x) for x in genres) + "</p>")
+        if platforms:
+            details.append("<p><strong>Platforms:</strong> " + ", ".join(esc(x) for x in platforms) + "</p>")
+        if modes:
+            details.append("<p><strong>Game modes:</strong> " + ", ".join(esc(x) for x in modes) + "</p>")
+        if game.get("developer"):
+            details.append("<p><strong>Developer:</strong> " + esc(game["developer"]) + "</p>")
+        if game.get("publisher"):
+            details.append("<p><strong>Publisher:</strong> " + esc(game["publisher"]) + "</p>")
+        media = ""
+        if cover:
+            media += f'<img class="cover" src="{esc(cover)}" alt="{name} cover art" loading="lazy">'
+        if images:
+            media += '<div class="gallery">' + "".join(
+                f'<img src="{esc(src)}" alt="{name} screenshot {n}" loading="lazy">'
+                for n, src in enumerate(images[:8], 1)
+            ) + "</div>"
+        if trailer:
+            video_id = ""
+            m = re.search(r"(?:youtube\.com/watch\?v=|youtu\.be/|youtube\.com/embed/)([A-Za-z0-9_-]{6,})", trailer)
+            if m:
+                video_id = m.group(1)
+            if video_id:
+                media += f'<div class="video"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/{esc(video_id)}" title="{name} trailer" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>'
+            else:
+                media += f'<p><a href="{esc(trailer)}" rel="noopener" target="_blank">Watch video</a></p>'
+        cards.append(
+            f'<article class="game-card" data-title="{name.lower()}" data-genres="{tags.lower()}">'
+            f'<div class="game-media">{media}</div><div class="game-info">'
+            f'<h2>{title}</h2><p>{description}</p>'
+            f'<p><strong>Original release:</strong> {release}</p>'
+            f'<p><strong>Coming to Game Pass:</strong> {availability}</p>'
+            + "".join(details) + "</div></article>"
+        )
+        schema_items.append({
+            "@type": "ListItem", "position": index,
+            "item": {
+                "@type": "VideoGame", "name": game.get("name", ""),
+                "description": game.get("description", ""),
+                "datePublished": game.get("release_date", None),
+                "genre": genres,
+                "image": ([cover] if cover else []) + images[:5],
+                "gamePlatform": platforms,
+            }
+        })
+
+    genres_all = sorted({g for game in games for g in game.get("genres", [])}, key=str.casefold)
+    options = '<option value="">All genres</option>' + "".join(
+        f'<option value="{esc(g.lower())}">{esc(g)}</option>' for g in genres_all
+    )
+    updated = esc(feed.get("updated_at", ""))
+    schema = json.dumps({
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Upcoming Game Pass Games",
+        "description": "Discover upcoming Xbox Game Pass games, release dates, trailers, screenshots, genres and platforms.",
+        "mainEntity": {"@type": "ItemList", "numberOfItems": len(games), "itemListElement": schema_items}
+    }, ensure_ascii=False).replace("</", "<\\/")
+    return f"""<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Upcoming Game Pass Games | Subli.one</title>
+<meta name="description" content="Explore upcoming Xbox Game Pass games, confirmed and expected arrival dates, trailers, screenshots, genres and platforms. Updated regularly on Subli.one.">
+<link rel="canonical" href="https://subli.one/upcoming-game-pass-games">
+<meta property="og:type" content="website"><meta property="og:title" content="Upcoming Game Pass Games | Subli.one">
+<meta property="og:description" content="Discover upcoming Xbox Game Pass releases, dates, trailers and screenshots.">
+<meta name="robots" content="index,follow">
+<script type="application/ld+json">{schema}</script>
+<style>
+:root{{--bg:#0d1020;--panel:#171b2d;--text:#f5f6ff;--muted:#b9bfd4;--accent:#5865f2}}
+*{{box-sizing:border-box}}body{{margin:0;background:linear-gradient(130deg,#29134b,#101b48);color:var(--text);font:16px/1.6 system-ui,-apple-system,Segoe UI,sans-serif}}
+main{{max-width:1180px;margin:auto;padding:36px 20px 64px}}h1{{font-size:clamp(2rem,5vw,3.3rem);line-height:1.1;margin:0 0 16px}}h2{{font-size:1.45rem;margin:0 0 12px}}p{{margin:10px 0}}.intro,.toolbar,.game-card{{background:rgba(18,22,39,.88);border:1px solid #343b60;border-radius:18px;padding:22px;margin-bottom:20px}}.intro p,.muted{{color:var(--muted)}}.toolbar{{display:grid;grid-template-columns:2fr 1fr;gap:14px}}input,select{{width:100%;padding:14px 16px;border-radius:12px;border:1px solid #444b6d;background:#0d1120;color:white;font:inherit}}.count{{color:var(--muted);margin:14px 0}}.game-card{{display:grid;grid-template-columns:minmax(220px,34%) 1fr;gap:22px;overflow:hidden}}.cover{{width:100%;max-height:310px;object-fit:cover;border-radius:12px}}.gallery{{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:10px}}.gallery img{{width:100%;border-radius:8px}}.video{{position:relative;aspect-ratio:16/9;margin-top:12px}}.video iframe{{position:absolute;inset:0;width:100%;height:100%;border:0;border-radius:10px}}a{{color:#aab4ff}}footer{{color:var(--muted);font-size:.9rem;margin-top:28px}}@media(max-width:700px){{main{{padding:24px 14px}}.toolbar{{grid-template-columns:1fr}}.game-card{{grid-template-columns:1fr}}.cover{{max-height:260px;object-fit:contain;object-position:left}}}}
+</style></head>
+<body><main>
+<header class="intro"><h1>Upcoming Game Pass Games</h1>
+<p>Discover the upcoming games expected to join Xbox Game Pass. Browse release information, Game Pass arrival dates, genres, platforms, screenshots and trailers in one place.</p>
+<p class="muted">Game Pass arrival dates may change. Dates marked as unannounced are not confirmed.</p></header>
+<section class="toolbar" aria-label="Filter upcoming games">
+<label>Search games<input id="search" type="search" placeholder="Enter a game title..." autocomplete="off"></label>
+<label>Genre<select id="genre">{options}</select></label></section>
+<p class="count" id="count">{len(games)} upcoming games · Data updated {updated}</p>
+<section id="games" aria-label="Upcoming Game Pass games">{''.join(cards) if cards else '<p>No upcoming games are listed right now. Check back soon.</p>'}</section>
+<footer>Last data refresh: <time>{updated}</time>. Game information is provided for discovery purposes and may be updated as release plans change.</footer>
+</main><script>
+(()=>{{const q=document.getElementById('search'),g=document.getElementById('genre'),cards=[...document.querySelectorAll('.game-card')],count=document.getElementById('count');
+function filter(){{let n=0;const term=q.value.trim().toLowerCase(),genre=g.value;cards.forEach(c=>{{const ok=c.dataset.title.includes(term)&&(!genre||c.dataset.genres.split(' ').includes(genre));c.hidden=!ok;if(ok)n++}});count.textContent=n+' of '+cards.length+' games shown · Data updated {updated}'}}
+q.addEventListener('input',filter);g.addEventListener('change',filter)}})();
+</script></body></html>"""
+
 def main() -> None:
     merged: dict[str, dict] = {}
     service_counts: dict[str, int] = {}
@@ -882,6 +999,9 @@ def main() -> None:
     Path("upcoming-game-pass-games.json").write_text(
         json.dumps(upcoming_feed, ensure_ascii=False, indent=2),
         encoding="utf-8",
+    )
+    Path("upcoming-game-pass-games.html").write_text(
+        render_upcoming_html(upcoming_feed), encoding="utf-8"
     )
     print(f"Wrote {len(games)} unique games to {OUT}")
     print("Service counts:", service_counts)
