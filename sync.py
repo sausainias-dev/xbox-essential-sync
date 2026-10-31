@@ -208,6 +208,120 @@ def collect_section_meta(page, heading_name: str) -> dict[str, str]:
     return result
 
 
+
+def collect_service_section(page, heading_pattern: str) -> list[dict]:
+    """Collect service-page cards (New Releases, Leaving Soon, Coming Soon)."""
+    headings = page.locator("h2, h3, h4")
+    target = None
+    for i in range(headings.count()):
+        heading = clean(headings.nth(i).inner_text())
+        if re.search(heading_pattern, heading, re.I):
+            target = headings.nth(i)
+            break
+    if target is None:
+        return []
+
+    try:
+        top = target.bounding_box()
+    except Exception:
+        top = None
+    if not top:
+        return []
+    y0 = top["y"]
+    next_y = float("inf")
+    for i in range(headings.count()):
+        h = headings.nth(i)
+        try:
+            hb = h.bounding_box()
+        except Exception:
+            hb = None
+        if hb and hb["y"] > y0 + 1:
+            next_y = min(next_y, hb["y"])
+
+    result: list[dict] = []
+    seen: set[str] = set()
+    links = page.locator('a[href*="/game/"]')
+    for i in range(links.count()):
+        anchor = links.nth(i)
+        try:
+            box = anchor.bounding_box()
+        except Exception:
+            box = None
+        if not box or not (y0 < box["y"] < next_y):
+            continue
+        href = anchor.get_attribute("href") or ""
+        full_url = urljoin(page.url, href)
+        name, year = clean_title(anchor.inner_text())
+        if not name or full_url in seen:
+            continue
+        seen.add(full_url)
+
+        card_text = ""
+        node = anchor
+        for _ in range(5):
+            try:
+                candidate = clean(node.inner_text(timeout=1000))
+            except Exception:
+                candidate = ""
+            if re.search(r"(?:Added|Leaves|Arrives):|\\bTBD\\b", candidate, re.I):
+                card_text = candidate
+                break
+            try:
+                node = node.locator("xpath=..")
+            except Exception:
+                break
+
+        item = {"name": name, "url": full_url}
+        if year:
+            item["year"] = year
+        date_match = re.search(r"(Added|Leaves|Arrives):\\s*([^\\n]+)", card_text, re.I)
+        if date_match:
+            item["date_label"] = clean(date_match.group(2))
+            item["date_type"] = date_match.group(1).casefold()
+        elif re.search(r"\\bTBD\\b", card_text, re.I):
+            item["date_label"] = "TBD"
+            item["date_type"] = "tbd"
+        result.append(item)
+    return result
+
+
+def extract_service_page_data(page, plan: str, url: str, available_count: int) -> dict:
+    """Capture the useful public content for a standalone subscription page."""
+    soup = BeautifulSoup(page.content(), "html.parser")
+    h1 = soup.find("h1")
+    name = clean(h1.get_text(" ", strip=True)) if h1 else plan.replace("_", " ").title()
+
+    description = ""
+    if h1:
+        for node in h1.find_all_next(["p"], limit=8):
+            candidate = short_description(node.get_text(" ", strip=True))
+            if candidate and len(candidate) > 35:
+                description = candidate
+                break
+
+    genre_counts: dict[str, int] = {}
+    for anchor in soup.find_all("a", href=True):
+        href = anchor.get("href", "")
+        label = clean(anchor.get_text(" ", strip=True))
+        if "/genre/" not in href and "genre" not in href.casefold():
+            continue
+        match = re.match(r"(.+?)\\s+(\\d+)$", label)
+        if match:
+            genre_counts[clean(match.group(1))] = int(match.group(2))
+
+    return {
+        "slug": plan,
+        "name": name,
+        "url": url,
+        "description": description,
+        "available_count": available_count,
+        "genre_counts": dict(sorted(genre_counts.items(), key=lambda item: (-item[1], item[0].casefold()))),
+        "new_releases": collect_service_section(page, r"^New Releases$"),
+        "leaving_soon": collect_service_section(page, r"^Leaving Soon$"),
+        "coming_soon": collect_service_section(page, r"^Coming Soon"),
+    }
+
+
 def click_full_list(page) -> bool:
     locators = [
         page.get_by_text("Load Full Games List", exact=True),
@@ -626,6 +740,7 @@ def normalise(game: dict) -> dict:
 def main() -> None:
     merged: dict[str, dict] = {}
     service_counts: dict[str, int] = {}
+    service_pages: dict[str, dict] = {}
 
     with sync_playwright() as pw:
         browser = pw.chromium.launch(headless=True, args=["--disable-dev-shm-usage"])
@@ -646,6 +761,8 @@ def main() -> None:
                 raise RuntimeError(f"{plan}: could not read Available Games count")
 
             games_by_url = extract_available_games(page, expected)
+            if plan == "ultimate":
+                service_pages[plan] = extract_service_page_data(page, plan, url, expected)
             new_meta = collect_section_meta(page, "New Releases")
             leaving_meta = collect_section_meta(page, "Leaving Soon")
             new_links = set(new_meta)
@@ -705,6 +822,7 @@ def main() -> None:
         "updated_at": datetime.now(timezone.utc).isoformat(),
         "service_counts": service_counts,
         "genre_counts": genre_counts,
+        "service_pages": service_pages,
         "game_count_unique": len(games),
         "games": games,
     }
