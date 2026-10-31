@@ -210,33 +210,45 @@ def collect_section_meta(page, heading_name: str) -> dict[str, str]:
 
 
 def collect_service_section(page, heading_pattern: str) -> list[dict]:
-    """Collect service-page cards (New Releases, Leaving Soon, Coming Soon)."""
-    headings = page.locator("h2, h3, h4")
-    target = None
+    """Collect cards until the next major service section, allowing month/year subheadings."""
+    headings = page.locator("h1, h2, h3, h4")
+    target_index = None
+    target_text = ""
     for i in range(headings.count()):
         heading = clean(headings.nth(i).inner_text())
         if re.search(heading_pattern, heading, re.I):
-            target = headings.nth(i)
+            target_index = i
+            target_text = heading
             break
-    if target is None:
+    if target_index is None:
         return []
 
+    # Month headings (e.g. "November 2026", "TBD 2027") belong to Coming Soon.
+    # Stop only at the next named catalogue section, not at every h2.
+    if re.search(r"Coming\s+Soon", target_text, re.I):
+        boundary = re.compile(r"^Available\s+Games\b", re.I)
+    elif re.search(r"Leaving\s+Soon", target_text, re.I):
+        boundary = re.compile(r"^(?:Coming\s+Soon|Available\s+Games)\b", re.I)
+    else:
+        boundary = re.compile(r"^(?:Leaving\s+Soon|Coming\s+Soon|Available\s+Games)\b", re.I)
+
+    target = headings.nth(target_index)
     try:
-        top = target.bounding_box()
+        y0 = target.bounding_box()["y"]
     except Exception:
-        top = None
-    if not top:
         return []
-    y0 = top["y"]
     next_y = float("inf")
-    for i in range(headings.count()):
+    for i in range(target_index + 1, headings.count()):
         h = headings.nth(i)
-        try:
-            hb = h.bounding_box()
-        except Exception:
-            hb = None
-        if hb and h.evaluate("(el) => el.tagName.toLowerCase()") == "h2" and hb["y"] > y0 + 1:
-            next_y = min(next_y, hb["y"])
+        label = clean(h.inner_text())
+        if boundary.search(label):
+            try:
+                box = h.bounding_box()
+                if box:
+                    next_y = box["y"]
+            except Exception:
+                pass
+            break
 
     result: list[dict] = []
     seen: set[str] = set()
@@ -274,7 +286,7 @@ def collect_service_section(page, heading_pattern: str) -> list[dict]:
         item = {"name": name, "url": full_url}
         if year:
             item["year"] = year
-        date_match = re.search(r"(Added|Leaves|Arrives):\s*([^\n]+)", card_text, re.I)
+        date_match = re.search(r"(Arrives|Added|Leaves):\s*([^\n]+)", card_text, re.I)
         if date_match:
             item["date_label"] = clean(date_match.group(2))
             item["date_type"] = date_match.group(1).casefold()
@@ -282,8 +294,8 @@ def collect_service_section(page, heading_pattern: str) -> list[dict]:
             item["date_label"] = "TBD"
             item["date_type"] = "tbd"
         result.append(item)
+    print(f"  section {target_text!r}: {len(result)} games")
     return result
-
 
 def extract_service_page_data(page, plan: str, url: str, available_count: int) -> dict:
     """Capture the useful public content for a standalone subscription page."""
