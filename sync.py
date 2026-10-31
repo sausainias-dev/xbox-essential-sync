@@ -8,7 +8,7 @@ import re
 import time
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse, parse_qs, unquote
 
 import requests
 from bs4 import BeautifulSoup
@@ -557,78 +557,101 @@ def xbox_pc_platforms(values: list[str]) -> list[str]:
 
 
 def extract_game_media(soup: BeautifulSoup, page_url: str) -> tuple[list[str], str | None, str | None]:
-    """Extract genuine game screenshots and YouTube videos from a game detail page."""
+    """Extract real screenshots and YouTube media from rendered game pages."""
     screenshots: list[str] = []
     seen_images: set[str] = set()
 
     def add_image(raw: str | None) -> None:
-        if not raw or raw.startswith(("data:", "blob:")):
+        if not raw:
             return
-        url = urljoin(page_url, raw.strip())
-        low = url.casefold().split("?")[0]
+        raw = raw.strip().strip("\"'")
+        if raw.startswith(("data:", "blob:", "javascript:")):
+            return
+        # Unwrap Next.js image optimizer URLs (?url=https%3A%2F%2F...).
+        try:
+            parsed = urlparse(urljoin(page_url, raw))
+            wrapped = parse_qs(parsed.query).get("url", [])
+            if wrapped:
+                raw = unquote(wrapped[0])
+        except Exception:
+            pass
+        url = urljoin(page_url, raw)
+        low = url.casefold().split("?")[0].split("#")[0]
         if not re.search(r"\.(?:jpe?g|png|webp|avif)(?:$)", low):
             return
-        if any(token in low for token in ("logo", "avatar", "icon", "flag", "cover_big", "cover-art", "boxart")):
+        if any(token in low for token in ("logo", "avatar", "icon", "flag", "cover_big", "cover-art", "boxart", "favicon")):
             return
         if url not in seen_images:
             seen_images.add(url)
             screenshots.append(url)
 
+    def add_srcset(value: str | None) -> None:
+        if not value:
+            return
+        for part in value.split(","):
+            bits = part.strip().split()
+            if bits:
+                add_image(bits[0])
+
     def add_img_tag(img) -> None:
-        # Prefer the largest/lazy-loaded source over tiny thumbnails.
         for attr in ("data-full", "data-original", "data-zoom-image", "data-large",
-                     "data-src", "data-lazy-src", "src"):
+                     "data-src", "data-lazy-src", "data-image", "data-original-src",
+                     "src", "content"):
             add_image(img.get(attr))
         for attr in ("data-srcset", "srcset"):
-            value = img.get(attr) or ""
-            candidates = []
-            for part in value.split(","):
-                bits = part.strip().split()
-                if bits:
-                    width = 0
-                    if len(bits) > 1:
-                        match = re.search(r"(\d+)(?:w|x)", bits[1])
-                        width = int(match.group(1)) if match else 0
-                    candidates.append((width, bits[0]))
-            for _, candidate in sorted(candidates, reverse=True):
-                add_image(candidate)
+            add_srcset(img.get(attr))
 
-    # First target the actual Screenshots gallery, whose images may not carry
-    # "screenshot" in their own alt/class attributes.
-    for heading in soup.find_all(["h2", "h3", "h4"]):
-        if not re.search(r"\bscreenshots?\b|\bgame\s+gallery\b", clean(heading.get_text(" ", strip=True)), re.I):
+    def add_style_image(value: str | None) -> None:
+        if not value:
+            return
+        for match in re.findall(r"""url\(["']?([^"')]+)""", value, re.I):
+            add_image(match)
+
+    # Find the actual gallery section and inspect its complete container.
+    for heading in soup.find_all(["h2", "h3", "h4", "h5"]):
+        label = clean(heading.get_text(" ", strip=True))
+        if not re.search(r"\bscreenshots?\b|\bgame\s+gallery\b|\bmedia\s+gallery\b", label, re.I):
             continue
         ancestor = heading
-        for _ in range(5):
+        for _ in range(7):
             if ancestor.parent is None:
                 break
             ancestor = ancestor.parent
-            for img in ancestor.find_all("img"):
-                add_img_tag(img)
-            # A gallery section usually contains a bounded number of images.
-            if len(screenshots) >= 3:
+            for node in ancestor.find_all(["img", "source"]):
+                add_img_tag(node)
+            for node in ancestor.find_all(style=True):
+                add_style_image(node.get("style"))
+            for node in ancestor.find_all(["a", "button"], href=True):
+                add_image(node.get("href"))
+            if len(screenshots) >= 4:
                 break
         if screenshots:
             break
 
-    # Fallback for gallery/lightbox markup without a visible heading.
+    # Fallback for sliders/lightboxes with no visible gallery heading.
     if len(screenshots) < 3:
-        for img in soup.find_all("img"):
-            alt = clean(img.get("alt", "")).casefold()
-            classes = " ".join(img.get("class", [])).casefold()
-            parent = img.find_parent("a")
+        for node in soup.find_all(["img", "source"]):
+            alt = clean(node.get("alt", "")).casefold()
+            classes = " ".join(node.get("class", [])).casefold()
+            parent = node.find_parent(["a", "div"])
             parent_classes = " ".join(parent.get("class", [])).casefold() if parent else ""
             context = " ".join((alt, classes, parent_classes))
-            if re.search(r"screenshot|gallery|gameplay|lightbox|swiper-slide|carousel", context):
-                if parent and parent.get("href"):
+            if re.search(r"screenshot|gallery|gameplay|lightbox|swiper|carousel|slide", context):
+                if parent and parent.name == "a":
                     add_image(parent.get("href"))
-                add_img_tag(img)
+                add_img_tag(node)
+        for node in soup.find_all(style=True):
+            classes = " ".join(node.get("class", [])).casefold()
+            if re.search(r"screenshot|gallery|swiper|carousel|slide", classes):
+                add_style_image(node.get("style"))
 
-    # Exclude the game's cover even if the source gallery reuses generic markup.
-    cover = soup.find("img", alt=re.compile(r"cover art|game cover", re.I))
-    if cover:
-        cover_url = urljoin(page_url, cover.get("src") or cover.get("data-src") or "")
-        screenshots = [url for url in screenshots if url != cover_url]
+    # Remove the cover image from the screenshot collection.
+    cover_urls = set()
+    for cover in soup.find_all("img", alt=re.compile(r"cover art|game cover", re.I)):
+        for attr in ("src", "data-src", "data-original"):
+            if cover.get(attr):
+                cover_urls.add(urljoin(page_url, cover.get(attr)))
+    screenshots = [url for url in screenshots if url not in cover_urls]
 
     video_ids: dict[str, str] = {}
     youtube_patterns = [
@@ -639,43 +662,38 @@ def extract_game_media(soup: BeautifulSoup, page_url: str) -> tuple[list[str], s
     def save_video(value: str, context: str = "") -> None:
         for pattern in youtube_patterns:
             match = pattern.search(value)
-            if not match:
-                continue
-            nearby = context.casefold()
-            kind = "gameplay_url" if re.search(r"gameplay|game\s*play|walkthrough", nearby) else "trailer_url"
-            video_ids.setdefault(kind, match.group(1))
-            return
+            if match:
+                nearby = context.casefold()
+                kind = "gameplay_url" if re.search(r"gameplay|game\s*play|walkthrough", nearby) else "trailer_url"
+                video_ids.setdefault(kind, match.group(1))
+                return
 
-    # Read embedded players and links, including lazy-loaded data attributes.
     for tag in soup.find_all(["iframe", "a", "video", "source", "button", "div"]):
         attrs = " ".join(str(tag.get(key, "")) for key in
-                         ("src", "data-src", "data-video", "data-video-url", "href",
-                          "title", "aria-label", "class", "id", "data-embed"))
+                         ("src", "data-src", "data-video", "data-video-url", "data-youtube",
+                          "data-embed", "href", "title", "aria-label", "class", "id"))
         context = attrs + " " + (clean(tag.parent.get_text(" ", strip=True)) if tag.parent else "")
         save_video(attrs, context)
 
-    # Structured data and serialized player configs sometimes hold the only URL.
+    # Also inspect inline scripts and JSON-LD for lazy player configuration.
     for script in soup.find_all("script"):
         content = script.string or script.get_text(" ", strip=True)
         if not content:
             continue
-        context = content[:1000]
-        save_video(content, context)
+        save_video(content, content[:2000])
         try:
             data = json.loads(content)
             nodes = data if isinstance(data, list) else [data]
             for node in nodes:
-                if isinstance(node, dict):
-                    if node.get("@type") == "VideoObject":
-                        save_video(str(node.get("embedUrl") or node.get("contentUrl") or node.get("url") or ""),
-                                   str(node.get("name") or node.get("description") or "trailer"))
+                if isinstance(node, dict) and node.get("@type") == "VideoObject":
+                    save_video(str(node.get("embedUrl") or node.get("contentUrl") or node.get("url") or ""),
+                               str(node.get("name") or node.get("description") or "trailer"))
         except (ValueError, TypeError):
             pass
 
     trailer = video_ids.get("trailer_url")
     gameplay = video_ids.get("gameplay_url")
     return screenshots[:40], (f"https://www.youtube.com/watch?v={trailer}" if trailer else None), (f"https://www.youtube.com/watch?v={gameplay}" if gameplay else None)
-
 
 def parse_release_date(text: str) -> str | None:
     m = re.search(r"Released:\s*([A-Za-z]+\s+\d{1,2}(?:st|nd|rd|th)?[,]?\s+\d{4})", text, re.I)
