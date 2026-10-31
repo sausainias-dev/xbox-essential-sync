@@ -235,7 +235,7 @@ def collect_service_section(page, heading_pattern: str) -> list[dict]:
             hb = h.bounding_box()
         except Exception:
             hb = None
-        if hb and hb["y"] > y0 + 1:
+        if hb and h.evaluate("(el) => el.tagName.toLowerCase()") == "h2" and hb["y"] > y0 + 1:
             next_y = min(next_y, hb["y"])
 
     result: list[dict] = []
@@ -263,7 +263,7 @@ def collect_service_section(page, heading_pattern: str) -> list[dict]:
                 candidate = clean(node.inner_text(timeout=1000))
             except Exception:
                 candidate = ""
-            if re.search(r"(?:Added|Leaves|Arrives):|\\bTBD\\b", candidate, re.I):
+            if re.search(r"(?:Added|Leaves|Arrives):|\bTBD\b", candidate, re.I):
                 card_text = candidate
                 break
             try:
@@ -274,11 +274,11 @@ def collect_service_section(page, heading_pattern: str) -> list[dict]:
         item = {"name": name, "url": full_url}
         if year:
             item["year"] = year
-        date_match = re.search(r"(Added|Leaves|Arrives):\\s*([^\\n]+)", card_text, re.I)
+        date_match = re.search(r"(Added|Leaves|Arrives):\s*([^\n]+)", card_text, re.I)
         if date_match:
             item["date_label"] = clean(date_match.group(2))
             item["date_type"] = date_match.group(1).casefold()
-        elif re.search(r"\\bTBD\\b", card_text, re.I):
+        elif re.search(r"\bTBD\b", card_text, re.I):
             item["date_label"] = "TBD"
             item["date_type"] = "tbd"
         result.append(item)
@@ -305,7 +305,7 @@ def extract_service_page_data(page, plan: str, url: str, available_count: int) -
         label = clean(anchor.get_text(" ", strip=True))
         if "/genre/" not in href and "genre" not in href.casefold():
             continue
-        match = re.match(r"(.+?)\\s+(\\d+)$", label)
+        match = re.match(r"(.+?)\s+(\d+)$", label)
         if match:
             genre_counts[clean(match.group(1))] = int(match.group(2))
 
