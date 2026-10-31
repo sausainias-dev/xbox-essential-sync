@@ -19,7 +19,7 @@ def collect_upcoming(page) -> list[dict]:
     target = None
     for i in range(headings.count()):
         label = catalog.clean(headings.nth(i).inner_text())
-        if re.match(r"^Coming\\s+Soon\\b", label, re.I):
+        if re.match(r"^Coming\s+Soon\b", label, re.I):
             target = headings.nth(i)
             break
     if target is None:
@@ -32,7 +32,7 @@ def collect_upcoming(page) -> list[dict]:
     for i in range(headings.count()):
         h = headings.nth(i)
         label = catalog.clean(h.inner_text())
-        if re.match(r"^Available\\s+Games\\b", label, re.I):
+        if re.match(r"^Available\s+Games\b", label, re.I):
             box = h.bounding_box()
             if box and box["y"] > start["y"]:
                 end_y = box["y"]
@@ -58,7 +58,7 @@ def collect_upcoming(page) -> list[dict]:
                 text = catalog.clean(node.inner_text(timeout=1200))
             except Exception:
                 text = ""
-            if re.search(r"Arrives:|\\bTBD\\b", text, re.I):
+            if re.search(r"Arrives:|\bTBD\b", text, re.I):
                 date_text = text
                 break
             try:
@@ -68,11 +68,11 @@ def collect_upcoming(page) -> list[dict]:
         item = {"name": name, "url": url}
         if year:
             item["year"] = year
-        match = re.search(r"Arrives:\\s*([^\\n]+)", date_text, re.I)
+        match = re.search(r"Arrives:\s*([^\n]+)", date_text, re.I)
         if match:
             item["availability_date"] = catalog.clean(match.group(1))
             item["availability_date_type"] = "arrives"
-        elif re.search(r"\\bTBD\\b", date_text, re.I):
+        elif re.search(r"\bTBD\b", date_text, re.I):
             item["availability_date"] = "TBD"
             item["availability_date_type"] = "tbd"
         results.append(item)
