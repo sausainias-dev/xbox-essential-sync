@@ -764,7 +764,7 @@ def render_upcoming_html(feed: dict) -> str:
         if not raw or raw.upper() in {"TBD", "TBA", "DATE TBA"}:
             return "Date not announced"
         # Source values such as "Nov 2" have no year; never let browsers infer 2001.
-        match = re.fullmatch(r"([A-Za-z]{3,9})\\s+(\\d{1,2})", raw)
+        match = re.fullmatch(r"([A-Za-z]{3,9})\s+(\d{1,2})", raw)
         if match:
             try:
                 month = datetime.strptime(match.group(1), "%b").month if len(match.group(1)) <= 3 else datetime.strptime(match.group(1), "%B").month
