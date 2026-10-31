@@ -684,9 +684,12 @@ def parse_release_date(text: str) -> str | None:
     return None
 
 
-def enrich(game: dict) -> None:
+def enrich(game: dict, html: str | None = None) -> None:
     try:
-        soup = BeautifulSoup(fetch(game["url"]), "html.parser")
+        # Upcoming-game pages pass browser-rendered HTML so lazy-loaded gallery
+        # images and embedded video metadata are present in the document.
+        page_html = html if html else fetch(game["url"])
+        soup = BeautifulSoup(page_html, "html.parser")
         body_text = clean(soup.get_text(" ", strip=True))
 
         h1 = soup.find("h1")
