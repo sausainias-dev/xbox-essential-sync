@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-10-31T18:47:10.728027+00:00",
+  "updated_at": "2026-10-31T19:04:54.313290+00:00",
   "service_counts": {
     "essential": 69,
     "pc": 580,
@@ -178,6 +178,2211 @@
       "Music": 1,
       "Quiz/Trivia": 1,
       "Turn-Based Strategy": 1
+    }
+  },
+  "service_pages": {
+    "ultimate": {
+      "slug": "ultimate",
+      "name": "Game Pass Ultimate",
+      "url": "https://gamescriptions.com/subscription/service/xbox_ultimate",
+      "description": "Xbox Game Pass Ultimate includes new games on day one, a library of 500+ games on Xbox console, PC, and supported devices, and the ability to stream games anywhere at our best quality. Check out the latest games on Game Pass Ultimate. What's leaving, upcoming releases, and a full list of titles!",
+      "available_count": 658,
+      "genre_counts": {
+        "Adventure": 437,
+        "Indie": 202,
+        "Shooter": 176,
+        "Simulator": 171,
+        "Strategy": 144,
+        "Puzzle": 82,
+        "Platform": 79,
+        "Arcade": 57,
+        "Sport": 53,
+        "Racing": 49,
+        "Tactical": 32,
+        "Fighting": 29,
+        "Card & Board Game": 21,
+        "Music": 8,
+        "Quiz/Trivia": 5,
+        "Visual Novel": 4,
+        "MOBA": 2
+      },
+      "new_releases": [
+        {
+          "name": "Don't Fret",
+          "url": "https://gamescriptions.com/game/289433",
+          "date_label": "Today",
+          "date_type": "added"
+        },
+        {
+          "name": "Terrible Lizards",
+          "url": "https://gamescriptions.com/game/296564",
+          "year": 2026,
+          "date_label": "Oct 29",
+          "date_type": "added"
+        },
+        {
+          "name": "Plants vs. Zombies: Replanted",
+          "url": "https://gamescriptions.com/game/358529",
+          "year": 2025,
+          "date_label": "Oct 29",
+          "date_type": "added"
+        },
+        {
+          "name": "Mouthwashing",
+          "url": "https://gamescriptions.com/game/264410",
+          "year": 2024,
+          "date_label": "Oct 29",
+          "date_type": "added"
+        },
+        {
+          "name": "Final Fantasy VII Remake Intergrade",
+          "url": "https://gamescriptions.com/game/144024",
+          "year": 2021,
+          "date_label": "Oct 29",
+          "date_type": "added"
+        },
+        {
+          "name": "The Séance of Blake Manor",
+          "url": "https://gamescriptions.com/game/335833",
+          "year": 2025,
+          "date_label": "Oct 27",
+          "date_type": "added"
+        },
+        {
+          "name": "Scramble Knights Online",
+          "url": "https://gamescriptions.com/game/380980",
+          "year": 2026,
+          "date_label": "Oct 26",
+          "date_type": "added"
+        },
+        {
+          "name": "Dodo Duckie",
+          "url": "https://gamescriptions.com/game/342305",
+          "year": 2026,
+          "date_label": "Oct 22",
+          "date_type": "added"
+        },
+        {
+          "name": "Beyond These Stars",
+          "url": "https://gamescriptions.com/game/239002",
+          "year": 2026,
+          "date_label": "Oct 16",
+          "date_type": "added"
+        },
+        {
+          "name": "Bluey's Happy Snaps",
+          "url": "https://gamescriptions.com/game/396024",
+          "year": 2026,
+          "date_label": "Oct 15",
+          "date_type": "added"
+        },
+        {
+          "name": "Chained Beasts",
+          "url": "https://gamescriptions.com/game/344588",
+          "year": 2026,
+          "date_label": "Oct 15",
+          "date_type": "added"
+        },
+        {
+          "name": "Deep Dish Dungeon",
+          "url": "https://gamescriptions.com/game/298680",
+          "year": 2026,
+          "date_label": "Oct 13",
+          "date_type": "added"
+        },
+        {
+          "name": "Valor Mortis",
+          "url": "https://gamescriptions.com/game/361833",
+          "year": 2026,
+          "date_label": "Oct 13",
+          "date_type": "added"
+        },
+        {
+          "name": "Battlefield 6",
+          "url": "https://gamescriptions.com/game/317407",
+          "year": 2025,
+          "date_label": "Oct 13",
+          "date_type": "added"
+        },
+        {
+          "name": "Echo Weaver",
+          "url": "https://gamescriptions.com/game/290107",
+          "year": 2026,
+          "date_label": "Oct 8",
+          "date_type": "added"
+        },
+        {
+          "name": "Forever Ago",
+          "url": "https://gamescriptions.com/game/136299",
+          "year": 2026,
+          "date_label": "Oct 8",
+          "date_type": "added"
+        },
+        {
+          "name": "Neon Abyss 2",
+          "url": "https://gamescriptions.com/game/325279",
+          "year": 2026,
+          "date_label": "Oct 8",
+          "date_type": "added"
+        },
+        {
+          "name": "Gears of War: E-Day",
+          "url": "https://gamescriptions.com/game/305160",
+          "year": 2026,
+          "date_label": "Oct 6",
+          "date_type": "added"
+        }
+      ],
+      "leaving_soon": [
+        {
+          "name": "Day of the Tentacle Remastered",
+          "url": "https://gamescriptions.com/game/15862",
+          "year": 2016,
+          "date_label": "Today",
+          "date_type": "leaves"
+        },
+        {
+          "name": "Dead Static Drive",
+          "url": "https://gamescriptions.com/game/25936",
+          "year": 2025,
+          "date_label": "Today",
+          "date_type": "leaves"
+        },
+        {
+          "name": "Deep Rock Galactic",
+          "url": "https://gamescriptions.com/game/27134",
+          "year": 2020,
+          "date_label": "Today",
+          "date_type": "leaves"
+        },
+        {
+          "name": "Full Throttle Remastered",
+          "url": "https://gamescriptions.com/game/26179",
+          "year": 2017,
+          "date_label": "Today",
+          "date_type": "leaves"
+        },
+        {
+          "name": "Grim Fandango Remastered",
+          "url": "https://gamescriptions.com/game/8682",
+          "year": 2015,
+          "date_label": "Today",
+          "date_type": "leaves"
+        },
+        {
+          "name": "Lara Croft and the Temple of Osiris",
+          "url": "https://gamescriptions.com/game/7325",
+          "year": 2014,
+          "date_label": "Today",
+          "date_type": "leaves"
+        },
+        {
+          "name": "LEGO Star Wars: The Skywalker Saga",
+          "url": "https://gamescriptions.com/game/119305",
+          "year": 2022,
+          "date_label": "Today",
+          "date_type": "leaves"
+        },
+        {
+          "name": "Wartales",
+          "url": "https://gamescriptions.com/game/152257",
+          "year": 2023,
+          "date_label": "Today",
+          "date_type": "leaves"
+        },
+        {
+          "name": "Wildgate",
+          "url": "https://gamescriptions.com/game/336733",
+          "year": 2025,
+          "date_label": "Today",
+          "date_type": "leaves"
+        },
+        {
+          "name": "Football Manager 26",
+          "url": "https://gamescriptions.com/game/365487",
+          "year": 2025,
+          "date_label": "Nov 10",
+          "date_type": "leaves"
+        }
+      ],
+      "coming_soon": [],
+      "available_games": [
+        {
+          "name": "1000xResist"
+        },
+        {
+          "name": "33 Immortals"
+        },
+        {
+          "name": "9 Kings"
+        },
+        {
+          "name": "A Game About Digging A Hole"
+        },
+        {
+          "name": "A Way Out"
+        },
+        {
+          "name": "Abiotic Factor"
+        },
+        {
+          "name": "Absolum"
+        },
+        {
+          "name": "Abyssus"
+        },
+        {
+          "name": "Aerial_Knight's DropShot"
+        },
+        {
+          "name": "Age of Empires II: Definitive Edition"
+        },
+        {
+          "name": "Age of Empires III: Definitive Edition"
+        },
+        {
+          "name": "Age of Empires IV: Anniversary Edition"
+        },
+        {
+          "name": "Age of Empires: Definitive Edition"
+        },
+        {
+          "name": "Age of Mythology: Retold"
+        },
+        {
+          "name": "Alice: Madness Returns"
+        },
+        {
+          "name": "Aliens: Dark Descent"
+        },
+        {
+          "name": "Among Us"
+        },
+        {
+          "name": "An Elder Scrolls Legend: Battlespire"
+        },
+        {
+          "name": "Anno 1800"
+        },
+        {
+          "name": "Anno: Mutationem"
+        },
+        {
+          "name": "Aphelion"
+        },
+        {
+          "name": "Ara: History Untold"
+        },
+        {
+          "name": "Ark: Survival Ascended"
+        },
+        {
+          "name": "Ark: Survival Evolved"
+        },
+        {
+          "name": "Army of Two"
+        },
+        {
+          "name": "Arx Fatalis"
+        },
+        {
+          "name": "As Dusk Falls"
+        },
+        {
+          "name": "Ascend to Zero"
+        },
+        {
+          "name": "Assassin's Creed Brotherhood"
+        },
+        {
+          "name": "Assassin's Creed Chronicles: China"
+        },
+        {
+          "name": "Assassin's Creed Chronicles: India"
+        },
+        {
+          "name": "Assassin's Creed Chronicles: Russia"
+        },
+        {
+          "name": "Assassin's Creed II"
+        },
+        {
+          "name": "Assassin's Creed III Remastered"
+        },
+        {
+          "name": "Assassin's Creed IV Black Flag"
+        },
+        {
+          "name": "Assassin's Creed Mirage"
+        },
+        {
+          "name": "Assassin's Creed Odyssey"
+        },
+        {
+          "name": "Assassin's Creed Origins"
+        },
+        {
+          "name": "Assassin's Creed Revelations"
+        },
+        {
+          "name": "Assassin's Creed Syndicate"
+        },
+        {
+          "name": "Assassin's Creed Unity"
+        },
+        {
+          "name": "Assassin's Creed Valhalla"
+        },
+        {
+          "name": "Assassin's Creed: Freedom Cry"
+        },
+        {
+          "name": "Assassin's Creed: Liberation HD"
+        },
+        {
+          "name": "Assassin's Creed: Rogue Remastered"
+        },
+        {
+          "name": "Assassin's Creed: The Ezio Collection"
+        },
+        {
+          "name": "Astroneer"
+        },
+        {
+          "name": "Avatar: Frontiers of Pandora"
+        },
+        {
+          "name": "Avowed"
+        },
+        {
+          "name": "Balatro"
+        },
+        {
+          "name": "Baldur's Gate and Baldur's Gate II: Enhanced Editions"
+        },
+        {
+          "name": "Ball x Pit"
+        },
+        {
+          "name": "Banishers: Ghosts of New Eden"
+        },
+        {
+          "name": "Banjo-Kazooie"
+        },
+        {
+          "name": "Banjo-Kazooie: Nuts & Bolts"
+        },
+        {
+          "name": "Banjo-Tooie"
+        },
+        {
+          "name": "Barbie: Horse Trails"
+        },
+        {
+          "name": "Batman: Arkham Knight"
+        },
+        {
+          "name": "Battlefield 1"
+        },
+        {
+          "name": "Battlefield 2042"
+        },
+        {
+          "name": "Battlefield 3"
+        },
+        {
+          "name": "Battlefield 4"
+        },
+        {
+          "name": "Battlefield 6"
+        },
+        {
+          "name": "Battlefield Hardline"
+        },
+        {
+          "name": "Battlefield V"
+        },
+        {
+          "name": "BattleTech"
+        },
+        {
+          "name": "Battletoads"
+        },
+        {
+          "name": "Beast of Reincarnation"
+        },
+        {
+          "name": "Beastro"
+        },
+        {
+          "name": "Beatdown City Survivors"
+        },
+        {
+          "name": "Bejeweled 2"
+        },
+        {
+          "name": "Bejeweled 3"
+        },
+        {
+          "name": "Ben 10: Power Trip"
+        },
+        {
+          "name": "Beyond These Stars"
+        },
+        {
+          "name": "Black"
+        },
+        {
+          "name": "Black Jacket"
+        },
+        {
+          "name": "BlazBlue: Entropy Effect X"
+        },
+        {
+          "name": "Bleeding Edge"
+        },
+        {
+          "name": "Blinx: The Time Sweeper"
+        },
+        {
+          "name": "Blizzard Arcade Collection"
+        },
+        {
+          "name": "Blood Dungeon"
+        },
+        {
+          "name": "Blue Prince"
+        },
+        {
+          "name": "Bluey's Happy Snaps"
+        },
+        {
+          "name": "Bluey: The Videogame"
+        },
+        {
+          "name": "Bounty Star"
+        },
+        {
+          "name": "Brews & Bastards"
+        },
+        {
+          "name": "Broken Age"
+        },
+        {
+          "name": "Brotato"
+        },
+        {
+          "name": "Brütal Legend"
+        },
+        {
+          "name": "Buckshot Roulette"
+        },
+        {
+          "name": "Burnout Paradise Remastered"
+        },
+        {
+          "name": "Call of Duty: Black Ops 6"
+        },
+        {
+          "name": "Call of Duty: Black Ops 7"
+        },
+        {
+          "name": "Call of Duty: Black Ops Cold War"
+        },
+        {
+          "name": "Call of Duty: Modern Warfare"
+        },
+        {
+          "name": "Call of Duty: Modern Warfare II"
+        },
+        {
+          "name": "Call of Duty: Modern Warfare III"
+        },
+        {
+          "name": "Call of Duty: Vanguard"
+        },
+        {
+          "name": "Call of Duty: WWII"
+        },
+        {
+          "name": "Call of the Elder Gods"
+        },
+        {
+          "name": "Call of the Wild: The Angler"
+        },
+        {
+          "name": "Car Mechanic Simulator 2021"
+        },
+        {
+          "name": "Chained Beasts"
+        },
+        {
+          "name": "Child of Light"
+        },
+        {
+          "name": "Chivalry 2"
+        },
+        {
+          "name": "Cities: Skylines"
+        },
+        {
+          "name": "Cities: Skylines - Remastered"
+        },
+        {
+          "name": "Cities: Skylines II"
+        },
+        {
+          "name": "Clone Drone in the Danger Zone"
+        },
+        {
+          "name": "Cloverpit"
+        },
+        {
+          "name": "Command & Conquer Remastered Collection"
+        },
+        {
+          "name": "Conker: Live & Reloaded"
+        },
+        {
+          "name": "Construction Simulator"
+        },
+        {
+          "name": "Contrast"
+        },
+        {
+          "name": "Control"
+        },
+        {
+          "name": "Control: Ultimate Edition"
+        },
+        {
+          "name": "Cooking Simulator"
+        },
+        {
+          "name": "Corsair Cove"
+        },
+        {
+          "name": "Costume Quest"
+        },
+        {
+          "name": "Costume Quest 2"
+        },
+        {
+          "name": "Crackdown 3"
+        },
+        {
+          "name": "Crash Bandicoot 4: It's About Time"
+        },
+        {
+          "name": "Crash Bandicoot N. Sane Trilogy"
+        },
+        {
+          "name": "Crash Team Racing Nitro-Fueled"
+        },
+        {
+          "name": "Crashout Crew"
+        },
+        {
+          "name": "Cricket 26"
+        },
+        {
+          "name": "Crimson Skies: High Road to Revenge"
+        },
+        {
+          "name": "Crysis"
+        },
+        {
+          "name": "Crysis 2"
+        },
+        {
+          "name": "Crysis 3"
+        },
+        {
+          "name": "D-topia"
+        },
+        {
+          "name": "Dante's Inferno"
+        },
+        {
+          "name": "Date Everything!"
+        },
+        {
+          "name": "Day of the Tentacle Remastered"
+        },
+        {
+          "name": "DayZ"
+        },
+        {
+          "name": "Dead by Daylight"
+        },
+        {
+          "name": "Dead Island 2"
+        },
+        {
+          "name": "Dead Space"
+        },
+        {
+          "name": "Dead Space"
+        },
+        {
+          "name": "Dead Space 2"
+        },
+        {
+          "name": "Dead Space 3"
+        },
+        {
+          "name": "Dead Space: Ignition"
+        },
+        {
+          "name": "Dead Static Drive"
+        },
+        {
+          "name": "Death Howl"
+        },
+        {
+          "name": "Death Stranding: Director's Cut"
+        },
+        {
+          "name": "Deathloop"
+        },
+        {
+          "name": "Deep Dish Dungeon"
+        },
+        {
+          "name": "Deep Rock Galactic"
+        },
+        {
+          "name": "Denshattack!"
+        },
+        {
+          "name": "Descenders"
+        },
+        {
+          "name": "Descenders Next"
+        },
+        {
+          "name": "Diablo"
+        },
+        {
+          "name": "Diablo II: Resurrected"
+        },
+        {
+          "name": "Diablo III: Reaper of Souls - Ultimate Evil Edition"
+        },
+        {
+          "name": "Diablo IV"
+        },
+        {
+          "name": "Dice a Million"
+        },
+        {
+          "name": "Dirt 5"
+        },
+        {
+          "name": "Dirt Rally 2.0"
+        },
+        {
+          "name": "Disco Elysium: The Final Cut"
+        },
+        {
+          "name": "Dishonored 2"
+        },
+        {
+          "name": "Dishonored: Death of the Outsider"
+        },
+        {
+          "name": "Dishonored: Definitive Edition"
+        },
+        {
+          "name": "Disney Dreamlight Valley"
+        },
+        {
+          "name": "Disneyland Adventures"
+        },
+        {
+          "name": "Dodo Duckie"
+        },
+        {
+          "name": "Dome Keeper"
+        },
+        {
+          "name": "Don't Fret"
+        },
+        {
+          "name": "Doom"
+        },
+        {
+          "name": "Doom + Doom II"
+        },
+        {
+          "name": "Doom 3"
+        },
+        {
+          "name": "Doom 64"
+        },
+        {
+          "name": "Doom Eternal"
+        },
+        {
+          "name": "Doom: The Dark Ages"
+        },
+        {
+          "name": "Dragon Age II"
+        },
+        {
+          "name": "Dragon Age: Inquisition"
+        },
+        {
+          "name": "Dragon Age: Origins"
+        },
+        {
+          "name": "Dragon Age: The Veilguard"
+        },
+        {
+          "name": "Dragon Ball: Xenoverse 2"
+        },
+        {
+          "name": "Dredge"
+        },
+        {
+          "name": "Drop Duchy"
+        },
+        {
+          "name": "Dune: Awakening"
+        },
+        {
+          "name": "Dungeon Keeper"
+        },
+        {
+          "name": "Dungeon Keeper 2"
+        },
+        {
+          "name": "EA Sports College Football 25"
+        },
+        {
+          "name": "EA Sports College Football 26"
+        },
+        {
+          "name": "EA Sports FC 25"
+        },
+        {
+          "name": "EA Sports FC 26"
+        },
+        {
+          "name": "EA Sports PGA Tour"
+        },
+        {
+          "name": "EA Sports UFC 4"
+        },
+        {
+          "name": "EA Sports UFC 5"
+        },
+        {
+          "name": "EA Sports WRC"
+        },
+        {
+          "name": "Easy Delivery Co."
+        },
+        {
+          "name": "Echo Generation 2"
+        },
+        {
+          "name": "Echo Weaver"
+        },
+        {
+          "name": "Egging On"
+        },
+        {
+          "name": "Elite: Dangerous"
+        },
+        {
+          "name": "Escape Simulator"
+        },
+        {
+          "name": "Escape the Backrooms"
+        },
+        {
+          "name": "Eternal Strands"
+        },
+        {
+          "name": "F1 24"
+        },
+        {
+          "name": "F1 25"
+        },
+        {
+          "name": "Fable Anniversary"
+        },
+        {
+          "name": "Fable II"
+        },
+        {
+          "name": "Fable III"
+        },
+        {
+          "name": "Fallout 2"
+        },
+        {
+          "name": "Fallout 3"
+        },
+        {
+          "name": "Fallout 4"
+        },
+        {
+          "name": "Fallout 76"
+        },
+        {
+          "name": "Fallout Tactics: Brotherhood of Steel"
+        },
+        {
+          "name": "Fallout: A Post Nuclear Role Playing Game"
+        },
+        {
+          "name": "Fallout: New Vegas"
+        },
+        {
+          "name": "Far Cry 3: Blood Dragon - Classic Edition"
+        },
+        {
+          "name": "Far Cry 3: Classic Edition"
+        },
+        {
+          "name": "Far Cry 4"
+        },
+        {
+          "name": "Far Cry 5"
+        },
+        {
+          "name": "Far Cry 6"
+        },
+        {
+          "name": "Far Cry New Dawn"
+        },
+        {
+          "name": "Far Cry: Primal"
+        },
+        {
+          "name": "Farming Simulator 25"
+        },
+        {
+          "name": "FBC: Firebreak"
+        },
+        {
+          "name": "Fe"
+        },
+        {
+          "name": "Feeding Frenzy"
+        },
+        {
+          "name": "Feeding Frenzy 2: Shipwreck Showdown"
+        },
+        {
+          "name": "Fight Night Champion"
+        },
+        {
+          "name": "Final Fantasy"
+        },
+        {
+          "name": "Final Fantasy II"
+        },
+        {
+          "name": "Final Fantasy III"
+        },
+        {
+          "name": "Final Fantasy IV"
+        },
+        {
+          "name": "Final Fantasy V"
+        },
+        {
+          "name": "Final Fantasy VI"
+        },
+        {
+          "name": "Final Fantasy VII Remake Intergrade"
+        },
+        {
+          "name": "Firefighting Simulator: The Squad"
+        },
+        {
+          "name": "FixForce"
+        },
+        {
+          "name": "Fogpiercer"
+        },
+        {
+          "name": "Football Manager 26"
+        },
+        {
+          "name": "For Honor"
+        },
+        {
+          "name": "For the King II"
+        },
+        {
+          "name": "Forever Ago"
+        },
+        {
+          "name": "Forza Horizon 5"
+        },
+        {
+          "name": "Forza Horizon 6"
+        },
+        {
+          "name": "Forza Motorsport"
+        },
+        {
+          "name": "Frog Sqwad"
+        },
+        {
+          "name": "Full Throttle Remastered"
+        },
+        {
+          "name": "Fuzion Frenzy"
+        },
+        {
+          "name": "Gabby's Dollhouse: Ready to Party"
+        },
+        {
+          "name": "Gang Beasts"
+        },
+        {
+          "name": "Gears 5"
+        },
+        {
+          "name": "Gears of War"
+        },
+        {
+          "name": "Gears of War 2"
+        },
+        {
+          "name": "Gears of War 3"
+        },
+        {
+          "name": "Gears of War 4"
+        },
+        {
+          "name": "Gears of War: E-Day"
+        },
+        {
+          "name": "Gears of War: Judgment"
+        },
+        {
+          "name": "Gears of War: Reloaded"
+        },
+        {
+          "name": "Gears of War: Ultimate Edition"
+        },
+        {
+          "name": "Gears Tactics"
+        },
+        {
+          "name": "Generation Zero"
+        },
+        {
+          "name": "Genesis Noir"
+        },
+        {
+          "name": "Genshin Impact"
+        },
+        {
+          "name": "Ghostwire: Tokyo"
+        },
+        {
+          "name": "Goat Simulator 3"
+        },
+        {
+          "name": "GoldenEye 007"
+        },
+        {
+          "name": "Grave Seasons"
+        },
+        {
+          "name": "Great God Grove"
+        },
+        {
+          "name": "Grid Legends"
+        },
+        {
+          "name": "Grim Fandango Remastered"
+        },
+        {
+          "name": "Grounded"
+        },
+        {
+          "name": "Grounded 2"
+        },
+        {
+          "name": "Hades"
+        },
+        {
+          "name": "Hades II"
+        },
+        {
+          "name": "Halls of Torment"
+        },
+        {
+          "name": "Halo 5: Guardians"
+        },
+        {
+          "name": "Halo Infinite"
+        },
+        {
+          "name": "Halo Wars 2"
+        },
+        {
+          "name": "Halo Wars: Definitive Edition"
+        },
+        {
+          "name": "Halo: Campaign Evolved"
+        },
+        {
+          "name": "Halo: Spartan Assault"
+        },
+        {
+          "name": "Halo: Spartan Strike"
+        },
+        {
+          "name": "Halo: The Master Chief Collection"
+        },
+        {
+          "name": "Heavy Weapon"
+        },
+        {
+          "name": "Hell is Us"
+        },
+        {
+          "name": "Hellblade II: Senua's Saga"
+        },
+        {
+          "name": "Hellblade: Senua's Sacrifice"
+        },
+        {
+          "name": "Herdling"
+        },
+        {
+          "name": "Heretic + Hexen"
+        },
+        {
+          "name": "Heroes of Might & Magic: Olden Era"
+        },
+        {
+          "name": "Heroes of Might and Magic II: Gold"
+        },
+        {
+          "name": "Heroes of Might and Magic III: Complete"
+        },
+        {
+          "name": "Hi-Fi Rush"
+        },
+        {
+          "name": "High on Life"
+        },
+        {
+          "name": "High on Life 2"
+        },
+        {
+          "name": "Hogwarts Legacy"
+        },
+        {
+          "name": "Hollow Knight"
+        },
+        {
+          "name": "Hollow Knight: Silksong"
+        },
+        {
+          "name": "House Flipper"
+        },
+        {
+          "name": "Human: Fall Flat"
+        },
+        {
+          "name": "Hungry Shark World"
+        },
+        {
+          "name": "Immortals Fenyx Rising"
+        },
+        {
+          "name": "Immortals of Aveum"
+        },
+        {
+          "name": "Indiana Jones and the Great Circle"
+        },
+        {
+          "name": "Indika"
+        },
+        {
+          "name": "Inkonbini: One Store. Many Stories"
+        },
+        {
+          "name": "Inscryption"
+        },
+        {
+          "name": "Inside"
+        },
+        {
+          "name": "Iron Brigade"
+        },
+        {
+          "name": "It Takes Two"
+        },
+        {
+          "name": "Jade Empire: Special Edition"
+        },
+        {
+          "name": "Jetpac Refuelled"
+        },
+        {
+          "name": "Joy Ride Turbo"
+        },
+        {
+          "name": "Junkster"
+        },
+        {
+          "name": "Jurassic World Evolution 3"
+        },
+        {
+          "name": "Kabuto Park"
+        },
+        {
+          "name": "Kameo: Elements of Power"
+        },
+        {
+          "name": "Keeper"
+        },
+        {
+          "name": "Kernel Hearts"
+        },
+        {
+          "name": "Kill it with Fire 2"
+        },
+        {
+          "name": "Killer Instinct 2 Classic"
+        },
+        {
+          "name": "Killer Instinct Classic"
+        },
+        {
+          "name": "Killer Instinct: Anniversary Edition"
+        },
+        {
+          "name": "Kiln"
+        },
+        {
+          "name": "Kingdom Come: Deliverance"
+        },
+        {
+          "name": "Kingdom Come: Deliverance II"
+        },
+        {
+          "name": "Kingdom Two Crowns"
+        },
+        {
+          "name": "Lara Croft and the Temple of Osiris"
+        },
+        {
+          "name": "League of Legends"
+        },
+        {
+          "name": "Legend of Mana"
+        },
+        {
+          "name": "Legends of Runeterra"
+        },
+        {
+          "name": "LEGO Star Wars: The Skywalker Saga"
+        },
+        {
+          "name": "Like a Dragon: Infinite Wealth"
+        },
+        {
+          "name": "Like a Dragon: Pirate Yakuza in Hawaii"
+        },
+        {
+          "name": "Limbo"
+        },
+        {
+          "name": "Little Kitty, Big City"
+        },
+        {
+          "name": "Little Nightmares"
+        },
+        {
+          "name": "Lost in Random"
+        },
+        {
+          "name": "Lost Records: Bloom & Rage"
+        },
+        {
+          "name": "Luna Abyss"
+        },
+        {
+          "name": "Mad King Redemption"
+        },
+        {
+          "name": "Madden NFL 25"
+        },
+        {
+          "name": "Madden NFL 26"
+        },
+        {
+          "name": "Manor Lords"
+        },
+        {
+          "name": "Marvel Cosmic Invasion"
+        },
+        {
+          "name": "Mass Effect"
+        },
+        {
+          "name": "Mass Effect 2"
+        },
+        {
+          "name": "Mass Effect 3"
+        },
+        {
+          "name": "Mass Effect Legendary Edition"
+        },
+        {
+          "name": "Mass Effect: Andromeda"
+        },
+        {
+          "name": "Massive Chalice"
+        },
+        {
+          "name": "Max: The Curse of Brotherhood"
+        },
+        {
+          "name": "MechWarrior 5: Clans"
+        },
+        {
+          "name": "MechWarrior 5: Mercenaries"
+        },
+        {
+          "name": "Medal of Honor: Airborne"
+        },
+        {
+          "name": "Medieval Dynasty"
+        },
+        {
+          "name": "Microsoft Flight Simulator"
+        },
+        {
+          "name": "Microsoft Flight Simulator 2024"
+        },
+        {
+          "name": "Microsoft Solitaire Collection"
+        },
+        {
+          "name": "Minecraft"
+        },
+        {
+          "name": "Minecraft Dungeons"
+        },
+        {
+          "name": "Minecraft Dungeons II"
+        },
+        {
+          "name": "Minecraft: Legends"
+        },
+        {
+          "name": "Minishoot' Adventures"
+        },
+        {
+          "name": "Mio: Memories in Orbit"
+        },
+        {
+          "name": "Mirror's Edge"
+        },
+        {
+          "name": "Mirror's Edge Catalyst"
+        },
+        {
+          "name": "Mistfall Hunter"
+        },
+        {
+          "name": "Mixtape"
+        },
+        {
+          "name": "Monopoly"
+        },
+        {
+          "name": "Monopoly Madness"
+        },
+        {
+          "name": "Monster Sanctuary"
+        },
+        {
+          "name": "Monster Train 2"
+        },
+        {
+          "name": "Monsters Are Coming!"
+        },
+        {
+          "name": "Moonlighter"
+        },
+        {
+          "name": "Moonlighter 2: The Endless Vault"
+        },
+        {
+          "name": "Mortal Kombat 1"
+        },
+        {
+          "name": "Motorslice"
+        },
+        {
+          "name": "Mouthwashing"
+        },
+        {
+          "name": "Moving Out 2"
+        },
+        {
+          "name": "MTB Mavrix"
+        },
+        {
+          "name": "My Friend Peppa Pig"
+        },
+        {
+          "name": "MySims: Cozy Bundle"
+        },
+        {
+          "name": "Need for Speed"
+        },
+        {
+          "name": "Need for Speed: Heat"
+        },
+        {
+          "name": "Need for Speed: Hot Pursuit - Remastered"
+        },
+        {
+          "name": "Need for Speed: Most Wanted"
+        },
+        {
+          "name": "Need for Speed: Payback"
+        },
+        {
+          "name": "Need for Speed: Rivals"
+        },
+        {
+          "name": "Need for Speed: Unbound"
+        },
+        {
+          "name": "Neon Abyss 2"
+        },
+        {
+          "name": "New Super Lucky's Tale"
+        },
+        {
+          "name": "NHL 25"
+        },
+        {
+          "name": "NHL 26"
+        },
+        {
+          "name": "NHL 94 Rewind"
+        },
+        {
+          "name": "Ni no Kuni II: Revenant Kingdom"
+        },
+        {
+          "name": "Ni no Kuni: Wrath of the White Witch Remastered"
+        },
+        {
+          "name": "Nickelodeon All-Star Brawl 2"
+        },
+        {
+          "name": "Nine Sols"
+        },
+        {
+          "name": "Ninja Gaiden 4"
+        },
+        {
+          "name": "Ninja Gaiden II Black"
+        },
+        {
+          "name": "Ninja Gaiden: Ragebound"
+        },
+        {
+          "name": "No Man's Sky"
+        },
+        {
+          "name": "OddBallers"
+        },
+        {
+          "name": "Ori and the Blind Forest: Definitive Edition"
+        },
+        {
+          "name": "Ori and the Will of the Wisps"
+        },
+        {
+          "name": "Outbound"
+        },
+        {
+          "name": "Overcooked! 2"
+        },
+        {
+          "name": "Overthrown"
+        },
+        {
+          "name": "Overwatch"
+        },
+        {
+          "name": "Palworld"
+        },
+        {
+          "name": "Pax Dei"
+        },
+        {
+          "name": "PBA Pro Bowling 2026"
+        },
+        {
+          "name": "Peggle"
+        },
+        {
+          "name": "Peggle 2"
+        },
+        {
+          "name": "Peggle Nights"
+        },
+        {
+          "name": "Pentiment"
+        },
+        {
+          "name": "Perfect Dark"
+        },
+        {
+          "name": "Perfect Dark Zero"
+        },
+        {
+          "name": "Persona 5 Royal"
+        },
+        {
+          "name": "Phoenix Point"
+        },
+        {
+          "name": "Pigeon Simulator"
+        },
+        {
+          "name": "Pillars of Eternity II: Deadfire - Ultimate Edition"
+        },
+        {
+          "name": "Pillars of Eternity: Complete Edition"
+        },
+        {
+          "name": "Planet Coaster 2"
+        },
+        {
+          "name": "Planet Crafter"
+        },
+        {
+          "name": "Planet of Lana II: Children of the Leaf"
+        },
+        {
+          "name": "Plants vs. Zombies"
+        },
+        {
+          "name": "Plants vs. Zombies: Battle for Neighborville"
+        },
+        {
+          "name": "Plants vs. Zombies: Garden Warfare"
+        },
+        {
+          "name": "Plants vs. Zombies: Garden Warfare 2"
+        },
+        {
+          "name": "Plants vs. Zombies: Replanted"
+        },
+        {
+          "name": "PlateUp!"
+        },
+        {
+          "name": "Police Simulator: Patrol Officers"
+        },
+        {
+          "name": "Populous"
+        },
+        {
+          "name": "Populous II: Trials of the Olympian Gods"
+        },
+        {
+          "name": "Populous: The Beginning"
+        },
+        {
+          "name": "PowerWash Simulator 2"
+        },
+        {
+          "name": "Prey"
+        },
+        {
+          "name": "Prince of Persia: The Lost Crown"
+        },
+        {
+          "name": "Psychonauts"
+        },
+        {
+          "name": "Psychonauts 2"
+        },
+        {
+          "name": "Quake"
+        },
+        {
+          "name": "Quake 4"
+        },
+        {
+          "name": "Quake II"
+        },
+        {
+          "name": "Quake III Arena"
+        },
+        {
+          "name": "Quantum Break"
+        },
+        {
+          "name": "Quarantine Zone: The Last Check"
+        },
+        {
+          "name": "Rabbids Invasion: The Interactive TV Show"
+        },
+        {
+          "name": "Rabbids: Party of Legends"
+        },
+        {
+          "name": "Rage"
+        },
+        {
+          "name": "Rage 2"
+        },
+        {
+          "name": "Rainbow Six Siege"
+        },
+        {
+          "name": "Rare Replay"
+        },
+        {
+          "name": "Rayman Legends"
+        },
+        {
+          "name": "ReCore: Definitive Edition"
+        },
+        {
+          "name": "Redfall"
+        },
+        {
+          "name": "Relic Hunters Legend"
+        },
+        {
+          "name": "Relooted"
+        },
+        {
+          "name": "Rematch"
+        },
+        {
+          "name": "Remnant II"
+        },
+        {
+          "name": "Replaced"
+        },
+        {
+          "name": "Resident Evil 2"
+        },
+        {
+          "name": "Resident Evil 3"
+        },
+        {
+          "name": "Resident Evil 7: Biohazard"
+        },
+        {
+          "name": "Resident Evil Village"
+        },
+        {
+          "name": "Resonance: A Plague Tale Legacy"
+        },
+        {
+          "name": "Return to Castle Wolfenstein"
+        },
+        {
+          "name": "Riders Republic"
+        },
+        {
+          "name": "Rise of Nations: Extended Edition"
+        },
+        {
+          "name": "Risk Urban Assault"
+        },
+        {
+          "name": "RoadCraft"
+        },
+        {
+          "name": "Roadside Research"
+        },
+        {
+          "name": "RoboCop: Rogue City"
+        },
+        {
+          "name": "Roboquest"
+        },
+        {
+          "name": "Routine"
+        },
+        {
+          "name": "RuneScape: Dragonwilds"
+        },
+        {
+          "name": "Rush: A Disney Pixar Adventure"
+        },
+        {
+          "name": "RV There Yet?"
+        },
+        {
+          "name": "Ryse: Son of Rome"
+        },
+        {
+          "name": "Sandustry"
+        },
+        {
+          "name": "Scramble Knights Online"
+        },
+        {
+          "name": "ScreamRide"
+        },
+        {
+          "name": "Sea of Solitude"
+        },
+        {
+          "name": "Sea of Thieves"
+        },
+        {
+          "name": "Shadowrun Returns"
+        },
+        {
+          "name": "Shadowrun: Dragonfall - Director's Cut"
+        },
+        {
+          "name": "Shadowrun: Hong Kong - Extended Edition"
+        },
+        {
+          "name": "Shape of Dreams"
+        },
+        {
+          "name": "Shelldiver"
+        },
+        {
+          "name": "Shift at Midnight"
+        },
+        {
+          "name": "Sid Meier's Alpha Centauri Planetary Pack"
+        },
+        {
+          "name": "SimCity 2000: Special Edition"
+        },
+        {
+          "name": "SimCity 3000 Unlimited"
+        },
+        {
+          "name": "SimCity 4: Deluxe Edition"
+        },
+        {
+          "name": "SimCity: Complete Edition"
+        },
+        {
+          "name": "Skate"
+        },
+        {
+          "name": "Skate 3"
+        },
+        {
+          "name": "Skull and Bones"
+        },
+        {
+          "name": "Sledding Game"
+        },
+        {
+          "name": "SnowRunner"
+        },
+        {
+          "name": "Solarpunk"
+        },
+        {
+          "name": "South of Midnight"
+        },
+        {
+          "name": "South Park: The Fractured But Whole"
+        },
+        {
+          "name": "South Park: The Stick of Truth"
+        },
+        {
+          "name": "SpeedRunners 2: King of Speed"
+        },
+        {
+          "name": "SpongeBob SquarePants: The Patrick Star Game"
+        },
+        {
+          "name": "Spore"
+        },
+        {
+          "name": "Spyro Reignited Trilogy"
+        },
+        {
+          "name": "SSX"
+        },
+        {
+          "name": "Stacking"
+        },
+        {
+          "name": "Star Trucker"
+        },
+        {
+          "name": "Star Wars Battlefront"
+        },
+        {
+          "name": "Star Wars Battlefront II"
+        },
+        {
+          "name": "Star Wars Jedi: Fallen Order"
+        },
+        {
+          "name": "Star Wars Jedi: Survivor"
+        },
+        {
+          "name": "Star Wars Outlaws"
+        },
+        {
+          "name": "Star Wars: Squadrons"
+        },
+        {
+          "name": "StarCraft II: Campaign Collection"
+        },
+        {
+          "name": "StarCraft: Remastered"
+        },
+        {
+          "name": "Stardew Valley"
+        },
+        {
+          "name": "Starfield"
+        },
+        {
+          "name": "Starlink: Battle for Atlas"
+        },
+        {
+          "name": "Starsand Island"
+        },
+        {
+          "name": "Starseeker: Astroneer Expeditions"
+        },
+        {
+          "name": "State of Decay 2"
+        },
+        {
+          "name": "State of Decay: Year-One Survival Edition"
+        },
+        {
+          "name": "Steep"
+        },
+        {
+          "name": "Subnautica 2"
+        },
+        {
+          "name": "Sunset Overdrive"
+        },
+        {
+          "name": "Super Lucky's Tale"
+        },
+        {
+          "name": "Super Meat Boy 3D"
+        },
+        {
+          "name": "Super Mega Baseball 3"
+        },
+        {
+          "name": "Super Mega Baseball 4"
+        },
+        {
+          "name": "SuperHot: Mind Control Delete"
+        },
+        {
+          "name": "Supermarket Simulator"
+        },
+        {
+          "name": "Symphonia"
+        },
+        {
+          "name": "Tales of Kenzera: Zau"
+        },
+        {
+          "name": "Tamashika"
+        },
+        {
+          "name": "TCG Card Shop Simulator"
+        },
+        {
+          "name": "Teamfight Tactics"
+        },
+        {
+          "name": "Tears of Metal"
+        },
+        {
+          "name": "Tell Me Why"
+        },
+        {
+          "name": "Tempopo"
+        },
+        {
+          "name": "Terraria"
+        },
+        {
+          "name": "TerraTech Legion"
+        },
+        {
+          "name": "Terrible Lizards"
+        },
+        {
+          "name": "The Alters"
+        },
+        {
+          "name": "The Bard's Tale IV: Director's Cut"
+        },
+        {
+          "name": "The Bard's Tale Trilogy"
+        },
+        {
+          "name": "The Bard's Tale: Remastered and Resnarkled"
+        },
+        {
+          "name": "The Cave"
+        },
+        {
+          "name": "The Crew 2"
+        },
+        {
+          "name": "The Crew: Motorfest"
+        },
+        {
+          "name": "The Elder Scrolls Adventures: Redguard"
+        },
+        {
+          "name": "The Elder Scrolls III: Morrowind"
+        },
+        {
+          "name": "The Elder Scrolls IV: Oblivion"
+        },
+        {
+          "name": "The Elder Scrolls IV: Oblivion Remastered"
+        },
+        {
+          "name": "The Elder Scrolls Online"
+        },
+        {
+          "name": "The Elder Scrolls V: Skyrim - Special Edition"
+        },
+        {
+          "name": "The Evil Within"
+        },
+        {
+          "name": "The Evil Within 2"
+        },
+        {
+          "name": "The Gunk"
+        },
+        {
+          "name": "The Long Dark"
+        },
+        {
+          "name": "The Outer Worlds"
+        },
+        {
+          "name": "The Outer Worlds 2"
+        },
+        {
+          "name": "The Outer Worlds: Spacer's Choice Edition"
+        },
+        {
+          "name": "The Rogue Prince of Persia"
+        },
+        {
+          "name": "The Royal Writ"
+        },
+        {
+          "name": "The Saboteur"
+        },
+        {
+          "name": "The Settlers: New Allies"
+        },
+        {
+          "name": "The Sims"
+        },
+        {
+          "name": "The Sims 2"
+        },
+        {
+          "name": "The Sims 3"
+        },
+        {
+          "name": "The Sims 4"
+        },
+        {
+          "name": "The Séance of Blake Manor"
+        },
+        {
+          "name": "The Talos Principle II"
+        },
+        {
+          "name": "The Thaumaturge"
+        },
+        {
+          "name": "The Walking Dead: A New Frontier"
+        },
+        {
+          "name": "The Walking Dead: Michonne"
+        },
+        {
+          "name": "The Walking Dead: Season Two"
+        },
+        {
+          "name": "The Walking Dead: The Complete First Season"
+        },
+        {
+          "name": "The Walking Dead: The Final Season"
+        },
+        {
+          "name": "TheHunter: Call of the Wild"
+        },
+        {
+          "name": "Tiny Bookshop"
+        },
+        {
+          "name": "Titanfall 2"
+        },
+        {
+          "name": "To a T"
+        },
+        {
+          "name": "Tom Clancy's Ghost Recon: Breakpoint"
+        },
+        {
+          "name": "Tom Clancy's Ghost Recon: Wildlands"
+        },
+        {
+          "name": "Tom Clancy's Rainbow Six Extraction"
+        },
+        {
+          "name": "Tom Clancy's The Division"
+        },
+        {
+          "name": "Tom Clancy's The Division 2"
+        },
+        {
+          "name": "Tony Hawk's Pro Skater 3+4"
+        },
+        {
+          "name": "Torment: Tides of Numenera"
+        },
+        {
+          "name": "Total Chaos"
+        },
+        {
+          "name": "Totally Accurate Battle Simulator"
+        },
+        {
+          "name": "Totally Reliable Delivery Service"
+        },
+        {
+          "name": "Towerborne"
+        },
+        {
+          "name": "TrackMania Turbo"
+        },
+        {
+          "name": "Trailmakers"
+        },
+        {
+          "name": "Transference"
+        },
+        {
+          "name": "Trepang2"
+        },
+        {
+          "name": "Trials Fusion"
+        },
+        {
+          "name": "Trials of Mana"
+        },
+        {
+          "name": "Trials of the Blood Dragon"
+        },
+        {
+          "name": "Trials Rising"
+        },
+        {
+          "name": "Tunic"
+        },
+        {
+          "name": "Ultimate Sheep Raccoon"
+        },
+        {
+          "name": "Undisputed"
+        },
+        {
+          "name": "Uno"
+        },
+        {
+          "name": "Unravel"
+        },
+        {
+          "name": "Unravel Two"
+        },
+        {
+          "name": "Valiant Hearts: The Great War"
+        },
+        {
+          "name": "Valor Mortis"
+        },
+        {
+          "name": "Valorant"
+        },
+        {
+          "name": "Vampire Crawlers: The Turbo Wildcard from Vampire Survivors"
+        },
+        {
+          "name": "Vampire Survivors"
+        },
+        {
+          "name": "Vapor World: Over the Mind"
+        },
+        {
+          "name": "Virtua Fighter 5 R.E.V.O. World Stage"
+        },
+        {
+          "name": "Visions of Mana"
+        },
+        {
+          "name": "Viva Piñata"
+        },
+        {
+          "name": "Viva Piñata: Trouble in Paradise"
+        },
+        {
+          "name": "Void/Breaker"
+        },
+        {
+          "name": "Voidtrain"
+        },
+        {
+          "name": "Warcraft II: Tides of Darkness"
+        },
+        {
+          "name": "Warcraft III: Reforged"
+        },
+        {
+          "name": "Warcraft: Orcs & Humans"
+        },
+        {
+          "name": "Warhammer 40,000: Darktide"
+        },
+        {
+          "name": "Warhammer 40,000: Rogue Trader"
+        },
+        {
+          "name": "Warhammer 40,000: Space Marine II"
+        },
+        {
+          "name": "Warhammer: Vermintide 2"
+        },
+        {
+          "name": "Wartales"
+        },
+        {
+          "name": "Wasteland 2: Director's Cut"
+        },
+        {
+          "name": "Wasteland 3"
+        },
+        {
+          "name": "Wasteland Remastered"
+        },
+        {
+          "name": "Watch Dogs"
+        },
+        {
+          "name": "Watch Dogs 2"
+        },
+        {
+          "name": "Watch Dogs: Legion"
+        },
+        {
+          "name": "We Happy Few"
+        },
+        {
+          "name": "Well Dweller"
+        },
+        {
+          "name": "Wheel of Fortune"
+        },
+        {
+          "name": "Wheel World"
+        },
+        {
+          "name": "Wild Hearts"
+        },
+        {
+          "name": "Wildgate"
+        },
+        {
+          "name": "Winds of Arcana: Ruination"
+        },
+        {
+          "name": "Winter Burrow"
+        },
+        {
+          "name": "Wo Long: Fallen Dynasty"
+        },
+        {
+          "name": "Wobbly Life"
+        },
+        {
+          "name": "Wolfenstein 3D"
+        },
+        {
+          "name": "Wolfenstein II: The New Colossus"
+        },
+        {
+          "name": "Wolfenstein: The New Order"
+        },
+        {
+          "name": "Wolfenstein: The Old Blood"
+        },
+        {
+          "name": "Wolfenstein: Youngblood"
+        },
+        {
+          "name": "World War Z: Aftermath"
+        },
+        {
+          "name": "Wreckfest"
+        },
+        {
+          "name": "Wuchang: Fallen Feathers"
+        },
+        {
+          "name": "Young Suns"
+        },
+        {
+          "name": "Zombi"
+        },
+        {
+          "name": "Zombie Army 4: Dead War"
+        },
+        {
+          "name": "Zoo Tycoon: Ultimate Animal Collection"
+        },
+        {
+          "name": "Zuma"
+        },
+        {
+          "name": "Zuma's Revenge!"
+        }
+      ],
+      "upcoming_games": []
     }
   },
   "game_count_unique": 659,
