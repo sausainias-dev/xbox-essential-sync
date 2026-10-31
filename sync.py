@@ -133,7 +133,7 @@ def collect_section_games(page, heading_name: str) -> set[str]:
             hb = h.bounding_box()
         except Exception:
             hb = None
-        if hb and hb["y"] > y0 + 1:
+        if hb and h.evaluate("(el) => el.tagName.toLowerCase()") == "h2" and hb["y"] > y0 + 1:
             next_y = min(next_y, hb["y"])
     found = set()
     links = page.locator('a[href*="/game/"]')
@@ -763,6 +763,11 @@ def main() -> None:
             games_by_url = extract_available_games(page, expected)
             if plan == "ultimate":
                 service_pages[plan] = extract_service_page_data(page, plan, url, expected)
+                service_pages[plan]["available_games"] = sorted(
+                    [{"name": game["name"], "url": game["url"], **({"year": game["year"]} if game.get("year") else {})}
+                     for game in games_by_url.values()],
+                    key=lambda item: item["name"].casefold()
+                )
             new_meta = collect_section_meta(page, "New Releases")
             leaving_meta = collect_section_meta(page, "Leaving Soon")
             new_links = set(new_meta)
