@@ -2,6 +2,10 @@ name: Xbox Game Pass Sync
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - "sync.py"
+      - "requirements.txt"
   schedule:
     - cron: "0 */6 * * *"
 
