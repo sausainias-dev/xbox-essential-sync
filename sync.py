@@ -287,6 +287,25 @@ def collect_service_section(page, heading_pattern: str) -> list[dict]:
         item = {"name": name, "url": full_url}
         if year:
             item["year"] = year
+
+        # Preserve the exact GameScriptions month/TBD heading for this card.
+        # The game's release year is not the Game Pass availability group.
+        card_y = box["y"]
+        preceding_groups = []
+        for heading_index in range(headings.count()):
+            heading_node = headings.nth(heading_index)
+            try:
+                heading_box = heading_node.bounding_box()
+                heading_label = clean(heading_node.inner_text())
+            except Exception:
+                continue
+            if not heading_box or not (y0 < heading_box["y"] < card_y):
+                continue
+            if re.match(r"^(?:[A-Z][a-z]+ \\d{4}|TBD \\d{4}(?: and Beyond)?)$", heading_label):
+                preceding_groups.append((heading_box["y"], heading_label))
+        if preceding_groups:
+            item["availability_group"] = max(preceding_groups, key=lambda pair: pair[0])[1]
+
         date_match = re.search(r"(Arrives|Added|Leaves):\s*([^\n]+)", card_text, re.I)
         if date_match:
             item["date_label"] = clean(date_match.group(2))
@@ -929,6 +948,8 @@ def main() -> None:
                         detail["year"] = upcoming["year"]
                     enrich(detail)
                     detail["availability_date"] = upcoming.get("date_label")
+                    if upcoming.get("availability_group"):
+                        detail["availability_group"] = upcoming["availability_group"]
                     detail["availability_date_type"] = upcoming.get("date_type", "tbd")
                     for key in list(detail):
                         if key.startswith("community_") or key in {"enrich_error", "url"}:
@@ -1008,7 +1029,7 @@ def main() -> None:
         "name", "year", "description", "release_date", "genres",
         "platforms", "game_modes", "game_style", "cover_url",
         "screenshot_urls", "trailer_url", "gameplay_url",
-        "availability_date", "availability_date_type", "developer",
+        "availability_date", "availability_date_type", "availability_group", "developer",
         "publisher", "playtime_category", "playtime_hours",
         "campaign_chapters",
     )
