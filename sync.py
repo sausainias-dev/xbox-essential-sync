@@ -1,3 +1,4 @@
+# Manual sync trigger: 2026-10-31
 #!/usr/bin/env python3
 """Build the complete Xbox Game Pass catalog for Subli.one."""
 from __future__ import annotations
