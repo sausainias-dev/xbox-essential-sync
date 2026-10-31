@@ -8,12 +8,12 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-10-30T22:08:39.882883+00:00",
+  "updated_at": "2026-10-31T03:19:21.016125+00:00",
   "service_counts": {
     "essential": 69,
-    "pc": 579,
+    "pc": 580,
     "premium": 425,
-    "ultimate": 657,
+    "ultimate": 658,
     "ea_play": 93,
     "ubisoft_classics": 64
   },
@@ -25,7 +25,7 @@
     "ea_play": {},
     "ubisoft_classics": {}
   },
-  "game_count_unique": 658,
+  "game_count_unique": 659,
   "games": [
     {
       "name": "1000xResist",
@@ -4072,9 +4072,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Tomorrow",
-        "premium": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "genres": [],
       "game_modes": [],
@@ -4350,9 +4350,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Tomorrow",
-        "premium": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "genres": [],
       "game_modes": [],
@@ -4515,10 +4515,10 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "essential": "Tomorrow",
-        "pc": "Tomorrow",
-        "premium": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "essential": "Today",
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "genres": [],
       "game_modes": [],
@@ -5091,6 +5091,39 @@
       "release_date": "September 27th, 2022",
       "developer": "( 2022 ) Bippinbits · Raw Fury",
       "description": "Defend against waves of alien monsters in this unique roguelike action mining game. Use the time between attacks to dig beneath the surface in search of valuable resources and relics – deliver them back to your dome to unlock powerful upgrades and useful new gadgets. But it won’t be long until the relentless monsters return - do you risk..."
+    },
+    {
+      "name": "Don't Fret",
+      "url": "https://gamescriptions.com/game/289433",
+      "plans": [
+        "pc",
+        "ultimate"
+      ],
+      "new_plans": [
+        "pc",
+        "ultimate"
+      ],
+      "leaving_plans": [],
+      "plan_added_dates": {
+        "pc": "Today",
+        "ultimate": "Today"
+      },
+      "leaving_dates": {},
+      "genres": [],
+      "game_modes": [],
+      "game_style": [],
+      "platforms": [],
+      "essential": false,
+      "pc_game_pass": true,
+      "premium": false,
+      "ultimate": true,
+      "ea_play": false,
+      "ubisoft_classics": false,
+      "new": true,
+      "leaving": false,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc6xj.jpg",
+      "developer": "Scary Kid Studios · Digital Pajamas",
+      "description": "Don't! Fret is stylized first-person psychological mascot-horror game set in a musically themed world. Play as a guitar named Fret to solve puzzles, escape from foes, and uncover the mystery behind Harmonic Heights."
     },
     {
       "name": "Doom",
@@ -7417,10 +7450,10 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "essential": "Tomorrow",
-        "pc": "Tomorrow",
-        "premium": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "essential": "Today",
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "genres": [],
       "game_modes": [],
@@ -8118,9 +8151,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Tomorrow",
-        "premium": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "genres": [],
       "game_modes": [],
@@ -9874,9 +9907,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Tomorrow",
-        "premium": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "genres": [],
       "game_modes": [],
@@ -10000,9 +10033,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Tomorrow",
-        "premium": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "genres": [],
       "game_modes": [],
@@ -10918,15 +10951,9 @@
         "pc",
         "ultimate"
       ],
-      "new_plans": [
-        "pc",
-        "ultimate"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
-      "plan_added_dates": {
-        "pc": "Sep 29",
-        "ultimate": "Sep 29"
-      },
+      "plan_added_dates": {},
       "leaving_dates": {},
       "genres": [],
       "game_modes": [],
@@ -10938,7 +10965,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2026,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc75p.jpg",
@@ -19192,9 +19219,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Tomorrow",
-        "premium": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "genres": [],
       "game_modes": [],
@@ -19564,9 +19591,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Tomorrow",
-        "premium": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "genres": [],
       "game_modes": [],
