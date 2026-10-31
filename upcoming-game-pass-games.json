@@ -1,6 +1,1694 @@
 {
   "source": "Subli.one Xbox Game Pass Ultimate",
-  "updated_at": "2026-10-31T19:42:05.304062+00:00",
-  "count": 0,
-  "games": []
+  "updated_at": "2026-10-31T19:51:58.083007+00:00",
+  "count": 69,
+  "games": [
+    {
+      "name": "Gravhounds",
+      "availability_date": "Nov 2",
+      "availability_date_type": "arrives",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocrh5.jpg",
+      "description": "Gravhounds is a 1–4 player co-op action builder. Drop into hostile planets as a pack, build and defend your base in physics-driven mayhem, and extract with everything you can carry before you become alien chow. The longer you stay, the greater the danger...",
+      "genres": [
+        "Third-Person",
+        "Strategy",
+        "Indie"
+      ],
+      "game_modes": [
+        "Single-Player",
+        "Multiplayer",
+        "Co-Op"
+      ],
+      "game_style": [
+        "Action"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Pit of Goblin",
+      "year": 2024,
+      "availability_date": "Nov 3",
+      "availability_date_type": "arrives",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9111.jpg",
+      "release_date": "December 17th, 2024",
+      "developer": "Friendly Foe",
+      "publisher": "Bright Gambit",
+      "description": "In this online horror co-op, you play as a scrappy goblin, scavenging dungeons, dodging traps, and fleeing monsters to feed the Goblin King. Team up with goblin pals, or go rogue, as you dive deep and cause chaos! Fail to feed him, and you might be the next meal!",
+      "genres": [
+        "First-Person",
+        "Adventure",
+        "Indie"
+      ],
+      "game_modes": [
+        "Single-Player",
+        "Multiplayer",
+        "Co-Op"
+      ],
+      "game_style": [
+        "Action",
+        "Horror",
+        "Survival"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Escape Academy 2: Back 2 School",
+      "year": 2026,
+      "availability_date": "Nov 5",
+      "availability_date_type": "arrives",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xhl.jpg",
+      "description": "Class is (back) in session with Escape Academy 2: Back 2 School! Play in solo or co-op and explore an all-new campus, escape life-threatening puzzle rooms, and unravel a conspiracy as old as the school itself — all before the bell rings.",
+      "genres": [
+        "First-Person",
+        "Puzzle",
+        "Adventure"
+      ],
+      "game_modes": [
+        "Single-Player",
+        "Multiplayer",
+        "Co-Op",
+        "Split-Screen"
+      ],
+      "game_style": [
+        "Mystery"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Football Manager 27",
+      "availability_date": "Nov 10",
+      "availability_date_type": "arrives",
+      "cover_url": "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.gamescriptions.com%2Fcdn-cgi%2Fimage%2Fwidth%3D250%2Cformat%3Dauto%2Fgames%2F0_Football_Manager_27.jpg&w=3840&q=75",
+      "description": "Flow from the tactics board to the touchline in FM27, as foundations evolve to deliver greater control, smoother discovery and a richer footballing world to explore.",
+      "genres": [],
+      "game_modes": [],
+      "game_style": [],
+      "platforms": []
+    },
+    {
+      "name": "Football Manager 27 Console",
+      "year": 2026,
+      "availability_date": "Nov 10",
+      "availability_date_type": "arrives",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cod6mb.jpg",
+      "genres": [
+        "Simulator",
+        "Sport",
+        "Strategy"
+      ],
+      "game_modes": [
+        "Single-Player",
+        "Multiplayer"
+      ],
+      "game_style": [],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Hope in the City",
+      "year": 2026,
+      "availability_date": "Nov 10",
+      "availability_date_type": "arrives",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9y32.jpg",
+      "description": "17-year-old Hope Song returns home from school to find her parents missing. Use Hope’s observant eye as an artist to investigate, piece together clues, and uncover a dark world beneath the surface of her peaceful life in this non-linear narrative mystery game.",
+      "genres": [
+        "Third-Person",
+        "Puzzle",
+        "Adventure",
+        "Indie"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [
+        "Mystery"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Tanuki: Pon's Summer",
+      "year": 2026,
+      "availability_date": "Nov 10",
+      "availability_date_type": "arrives",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8uyz.jpg",
+      "description": "The Tanuki Festival is just a month away, and the shrine is in disrepair. Follow Pon, a well meaning, if a bit lazy Tanuki with a part-time job at the Post Office, as he works to restore the shrine before summer ends. Deliver packages, make friends, and get the shrine ready for the big festival!",
+      "genres": [
+        "Third-Person",
+        "Simulator",
+        "Indie"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [
+        "Open World"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "Xbox One",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Warhammer Survivors",
+      "year": 2026,
+      "availability_date": "Nov 10",
+      "availability_date_type": "arrives",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coasoa.jpg",
+      "description": "Thrust into a universe of relentless war, become the embodiment of bullet hell in Warhammer Survivors, a fast-paced roguelite survivors game. Play as characters from the Warhammer 40,000 and Warhammer: Age of Sigmar universes, collect and evolve iconic weapons and destroy endless swarms of enemies.",
+      "genres": [
+        "Isometric",
+        "Role-Playing",
+        "Indie",
+        "Arcade"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [
+        "Action"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Thronefall",
+      "year": 2024,
+      "availability_date": "Nov 11",
+      "availability_date_type": "arrives",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8ydi.jpg",
+      "playtime_category": "A Solid Adventure",
+      "playtime_hours": "10-19 Hours",
+      "release_date": "October 11th, 2024",
+      "developer": "GrizzlyGames",
+      "publisher": "Mythwright",
+      "description": "A minimalist game about building and defending a little kingdom. Thronefall is a classic strategy game without unnecessary complexity, just some healthy hack-and-slay. Build up your base during the day, and defend it ‘til your last breath at night.",
+      "genres": [
+        "Isometric",
+        "Fighting",
+        "Strategy",
+        "Tactical",
+        "Adventure",
+        "Indie",
+        "Arcade"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [
+        "Action",
+        "Fantasy",
+        "Survival"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Hela: Of Mice & Magic",
+      "year": 2026,
+      "availability_date": "Dec 1",
+      "availability_date_type": "arrives",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cod34q.jpg",
+      "description": "See the world through the eyes of a brave little mouse in this enchanting 3D co-op adventure. Explore breathtaking landscapes inspired by Northern Sweden, solve puzzles, and be a force for good in a land where heartwarming storytelling and the beauty of nature intertwine.",
+      "genres": [
+        "Third-Person",
+        "Adventure"
+      ],
+      "game_modes": [
+        "Single-Player",
+        "Multiplayer",
+        "Co-Op",
+        "Split-Screen"
+      ],
+      "game_style": [
+        "Fantasy",
+        "Open World"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "At Fate's End",
+      "year": 2027,
+      "availability_date": "TBD",
+      "availability_date_type": "tbd",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xwy.jpg",
+      "description": "At Fate’s End is an action-adventure game where you fight the ones you love and your skill tree is your family tree. Explore a lush fantasy world, defeat the foul creatures of the realm, and face your estranged siblings in intense, emotional duels to decide your family’s fate.",
+      "genres": [
+        "Side-View",
+        "Adventure",
+        "Indie"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [
+        "Action"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "Xbox One",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Dumpster Gang",
+      "year": 2026,
+      "availability_date": "TBD",
+      "availability_date_type": "tbd",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocrop.jpg",
+      "description": "Play as a gang of mischievous raccoons in this chaotic co-op sandbox for 1-4 players. Complete ridiculous missions, steal everything you can carry, and outsmart a relentless Exterminator determined to throw your gang behind bars.",
+      "genres": [
+        "Third-Person",
+        "Simulator",
+        "Indie"
+      ],
+      "game_modes": [
+        "Single-Player",
+        "Multiplayer",
+        "Co-Op"
+      ],
+      "game_style": [
+        "Action"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Freestyle Football 2",
+      "year": 2026,
+      "availability_date": "TBD",
+      "availability_date_type": "tbd",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coab6k.jpg",
+      "description": "Freestyle Football 2 is a fast-paced, 5v5 match-based online multiplayer soccer game. Each position has a unique role, and you'll utilize a variety of strategies and skills to achieve victory with your team. Stylish play and unique characters transform the pitch into a stage.",
+      "genres": [
+        "Third-Person",
+        "Sport"
+      ],
+      "game_modes": [
+        "Single-Player",
+        "Multiplayer",
+        "Co-Op"
+      ],
+      "game_style": [
+        "Action"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Snap & Grab",
+      "year": 2026,
+      "availability_date": "TBD",
+      "availability_date_type": "tbd",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xi4.jpg",
+      "playtime_category": "Short & Sweet",
+      "playtime_hours": "4-9 Hours",
+      "release_date": "April 24th, 2026",
+      "developer": "No Goblin",
+      "description": "Do crimes using only your camera and your crew! In Snap & Grab, any photo you take could be the key to cool crime success. Travel to exotic sandbox locations, photograph treasures and reveal threats, then combine your photos in unique ways to create a rad heist plan.",
+      "genres": [
+        "Third-Person",
+        "Strategy",
+        "Adventure",
+        "Indie"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [
+        "Action"
+      ],
+      "platforms": [
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "What Goes Up",
+      "year": 2026,
+      "availability_date": "TBD",
+      "availability_date_type": "tbd",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocryr.jpg",
+      "description": "A chaotic co-op physics-building game where you stack, balance and jury rig gigantic junk towers to ridiculous heights for collection using the power of grav guns and friendship before the clock runs out",
+      "genres": [
+        "Third-Person",
+        "Puzzle"
+      ],
+      "game_modes": [
+        "Single-Player",
+        "Multiplayer",
+        "Co-Op"
+      ],
+      "game_style": [],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Wildekin",
+      "year": 2026,
+      "availability_date": "TBD",
+      "availability_date_type": "tbd",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coabgi.jpg",
+      "description": "Wildekin is a 3D pixel-art adventure where up to 4 friends can build, explore, survive and thrive—or at least try to before some creature tries to turn you into a light snack!",
+      "genres": [
+        "Isometric",
+        "Adventure",
+        "Indie"
+      ],
+      "game_modes": [
+        "Single-Player",
+        "Multiplayer",
+        "Co-Op"
+      ],
+      "game_style": [
+        "Action",
+        "Survival"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "Xbox One",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Armatus",
+      "year": 2027,
+      "availability_date": "Jan 7",
+      "availability_date_type": "arrives",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coave0.jpg",
+      "description": "ARMATUS is a third-person roguelite shooter set in the demon-infested ruins of Paris. As the last supernatural warrior of an ancient order, armed with powerful firearms and incredible celestial powers, scour the city in search of a lost gateway to heaven - the Sunless Gate.",
+      "genres": [
+        "Third-Person",
+        "Role-Playing",
+        "Adventure"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [
+        "Action"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Stranger Than Heaven",
+      "year": 2027,
+      "availability_date": "Jan 15",
+      "availability_date_type": "arrives",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobu6l.jpg",
+      "description": "Stranger Than Heaven is an upcoming action-adventure game developed by Ryu Ga Gotoku Studio and published by Sega. The game follows a multi-decade story across five eras and five cities, centered on men searching for a place to belong. It combines close-quarters action with narrative elements, historical urban settings, and activities con...",
+      "genres": [
+        "Third-Person",
+        "Fighting",
+        "Puzzle",
+        "Role-Playing",
+        "Adventure"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [
+        "Action",
+        "Historical",
+        "Open World"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Tropico 7",
+      "year": 2027,
+      "availability_date": "Jan 28",
+      "availability_date_type": "arrives",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coab61.jpg",
+      "description": "Get rich or die trying! In Tropico 7, you step into El Presidente’s shiny boots again to build your island nation and – literally – move mountains. As glorious leader you guide your loyal citizens (and your Swiss Bank Account) through the ages toward untold prosperity.",
+      "genres": [
+        "Isometric",
+        "Simulator",
+        "Strategy"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [
+        "Comedy"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Witchbrook",
+      "year": 2027,
+      "availability_date": "Jan 28",
+      "availability_date_type": "arrives",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocce4.jpg",
+      "description": "Experience the thrills and pitfalls of school-life in Witchbrook! Discover a spellbinding isometric pixel art world full of charm and intrigue in this richly detailed magical school and town life simulator.",
+      "genres": [
+        "Isometric",
+        "Role-Playing",
+        "Simulator",
+        "Indie"
+      ],
+      "game_modes": [
+        "Single-Player",
+        "Multiplayer",
+        "Co-Op"
+      ],
+      "game_style": [
+        "Fantasy"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "Xbox One",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Persona 4 Revival",
+      "year": 2027,
+      "availability_date": "Feb 18",
+      "availability_date_type": "arrives",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc7iu.jpg",
+      "description": "Who’s on Air? Legend has it that a mysterious broadcast known as the \"Midnight Channel\" appears only on rainy nights. The day after it airs, a corpse is found in Inaba, a quiet and peaceful town in rural Japan suddenly thrown into turmoil.",
+      "genres": [
+        "Third-Person",
+        "Role-Playing",
+        "Adventure"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [
+        "Fantasy",
+        "Drama",
+        "Mystery"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Fable",
+      "year": 2027,
+      "availability_date": "Feb 23",
+      "availability_date_type": "arrives",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobc6d.jpg",
+      "playtime_category": "Hearty Campaign",
+      "playtime_hours": "20-34 Hours",
+      "description": "Become the Hero you want to be in an immersive open-world action-RPG where each choice shapes your journey, reputation is everything, and fairytale endings are never guaranteed.",
+      "genres": [
+        "Third-Person",
+        "Role-Playing",
+        "Adventure"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [
+        "Action",
+        "Fantasy",
+        "Open World"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Wo Long 2: Wings of Ember",
+      "year": 2027,
+      "availability_date": "Mar 4",
+      "availability_date_type": "arrives",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocjkb.jpg",
+      "description": "Born from war's flames, a Phoenix ascends. In this dark fantasy Three Kingdoms action RPG from Team NINJA, players use offensive and defensive Chinese martial arts to fight back against mighty demons on the battlefields of the Three Kingdoms.",
+      "genres": [
+        "Third-Person",
+        "Role-Playing",
+        "Adventure"
+      ],
+      "game_modes": [
+        "Single-Player",
+        "Multiplayer",
+        "Co-Op"
+      ],
+      "game_style": [
+        "Action",
+        "Fantasy"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Croak",
+      "year": 2027,
+      "availability_date": "Mar 31",
+      "availability_date_type": "arrives",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8pqa.jpg",
+      "description": "Croak is a nimble -and challenging- precision platformer featuring an innovative grapple mechanic. Use the prince’s tongue to dash and bounce around through hundreds of hand-crafted rooms. Manipulate the environment as you traverse distinct biomes, each with unique gameplay mechanics and bosses.",
+      "genres": [
+        "Side-View",
+        "Platform",
+        "Indie"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [
+        "Action"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Join Us",
+      "year": 2027,
+      "availability_date": "Mar 31",
+      "availability_date_type": "arrives",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coakyl.jpg",
+      "description": "Lead a cult and prepare for the end of the world in Join Us, the upcoming co-op, open-world survival experience. Ride bears, build up your perfect base, and prepare for the apocalypse.",
+      "genres": [
+        "Third-Person",
+        "Simulator",
+        "Adventure"
+      ],
+      "game_modes": [
+        "Single-Player",
+        "Multiplayer",
+        "Co-Op"
+      ],
+      "game_style": [
+        "Action",
+        "Survival"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Mr Magpie's Harmless Card Game",
+      "year": 2027,
+      "availability_date": "Mar 31",
+      "availability_date_type": "arrives",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9yqq.jpg",
+      "description": "A push-your-luck roguelike deckbuilder. Set in a corporate backrooms. Played against a creepy puppet.",
+      "genres": [
+        "First-Person",
+        "Strategy",
+        "Turn-Based Strategy",
+        "Indie"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [
+        "Horror"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Mariachi Legends",
+      "year": 2027,
+      "availability_date": "Apr 27",
+      "availability_date_type": "arrives",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co93lp.jpg",
+      "description": "Mariachi Legends is an action-packed mystery Metroidvania game. In Mariachi Legends, Join fantastical festivities at the Day of the Dead carnival alongside Detective Pablo Cruz, currently masquerading as a mariachi player to investigate an evil curse looming over the serene town of Santa Mascota.",
+      "genres": [
+        "Side-View",
+        "Platform",
+        "Adventure",
+        "Indie"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [
+        "Action",
+        "Mystery"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Drill Keeper",
+      "year": 2027,
+      "availability_date": "Sep 30",
+      "availability_date_type": "arrives",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7frw.jpg",
+      "description": "Drill Keeper combines roguelite deckbuilding and tower defense into a strategic battle for survival. Dig through completely destructible worlds to strip them of their riches and build an impenetrable fortress of mining.",
+      "genres": [
+        "Isometric",
+        "Simulator",
+        "Strategy",
+        "Indie",
+        "Card & Board Game"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [
+        "Sci-Fi",
+        "Survival"
+      ],
+      "platforms": [
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "A Game About Digging A Hole Together",
+      "year": 2026,
+      "availability_date": "TBD",
+      "availability_date_type": "tbd",
+      "cover_url": "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.gamescriptions.com%2Fcdn-cgi%2Fimage%2Fwidth%3D250%2Cformat%3Dauto%2Fgames%2F0_A_Game_About_Digging_A_Hole_Together.jpg&w=3840&q=75",
+      "description": "A minimalist game about digging a hole at the beach, now with friends. Dig together, collect resources, sell them, upgrade your equipment and search for a promised treasure buried deep beneath the sand.",
+      "genres": [
+        "First-Person",
+        "Simulator",
+        "Adventure"
+      ],
+      "game_modes": [
+        "Single-Player",
+        "Multiplayer",
+        "Co-Op"
+      ],
+      "game_style": [
+        "Sandbox"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Alien Deathstorm",
+      "year": 2027,
+      "availability_date": "TBD",
+      "availability_date_type": "tbd",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobtxi.jpg",
+      "description": "Explore a devastated off-world colony that is ravaged by a cataclysmic mega-storm and overrun by bloodthirsty aliens in Alien Deathstorm, the new sci-fi action horror FPS from Rebellion.",
+      "genres": [
+        "First-Person",
+        "Shooter",
+        "Adventure"
+      ],
+      "game_modes": [
+        "Single-Player",
+        "Co-Op"
+      ],
+      "game_style": [
+        "Action",
+        "Sci-Fi"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Awaysis",
+      "availability_date": "TBD",
+      "availability_date_type": "tbd",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coarga.jpg",
+      "developer": "17-BIT",
+      "publisher": "Cult Games",
+      "description": "The ultimate dungeon brawler. A revolutionary, physics-fueled throwdown where you’ll jump, slide, and collide on your adventure to restore peace to the Awaysis - an ancient floating relic under attack by forces of great darkness!",
+      "genres": [
+        "Third-Person",
+        "Role-Playing",
+        "Adventure",
+        "Indie"
+      ],
+      "game_modes": [
+        "Single-Player",
+        "Multiplayer",
+        "Co-Op"
+      ],
+      "game_style": [
+        "Action"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Bad Magpie",
+      "year": 2027,
+      "availability_date": "TBD",
+      "availability_date_type": "tbd",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc73f.jpg",
+      "description": "You are a magpie with one wing, a missing flock, and an unhealthy obsession with a fallen star. Steal shiny trinkets, cause chaos, and stick your beak where it doesn’t belong.",
+      "genres": [
+        "Isometric",
+        "Puzzle",
+        "Adventure"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [
+        "Action"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Bushiden",
+      "availability_date": "TBD",
+      "availability_date_type": "tbd",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1jya.jpg",
+      "developer": "Pixel Arc Studios",
+      "description": "Your sister has vanished and rumors swirl that Gaoh has been resurrected with an evil army at his command. Explore for cybernetic upgrades until you are powerful enough to defeat the diabolic Gaoh and his cybergentic army once and for all in this futuristic, action platformer!",
+      "genres": [
+        "Side-View",
+        "Adventure",
+        "Indie"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [
+        "Action"
+      ],
+      "platforms": [
+        "Xbox One",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Clockwork Revolution",
+      "year": 2027,
+      "availability_date": "TBD",
+      "availability_date_type": "tbd",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xwq.jpg",
+      "description": "Clockwork Revolution is a time-bending steampunk first-person RPG. After stumbling across an incredible invention that allows you to travel into the past, you discover the city you call home—the vibrant steam-powered metropolis of Avalon—has been carefully crafted through the alteration of historical events. By traveling back to key momen...",
+      "genres": [
+        "First-Person",
+        "Role-Playing"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [
+        "Action"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Crowsworn",
+      "availability_date": "TBD",
+      "availability_date_type": "tbd",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coave6.jpg",
+      "developer": "Mongoose Rodeo",
+      "description": "Explore a dark world inhabited by men and monsters in this action packed platformer. Lay waste to the monsters that stand in your way with a wide array of stylish combat maneuvers, as you attempt to unravel the truth behind the curse of Fearanndal.",
+      "genres": [
+        "Side-View",
+        "Platform",
+        "Simulator",
+        "Adventure",
+        "Indie"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [
+        "Action",
+        "Fantasy",
+        "Mystery"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Darkwood II",
+      "availability_date": "TBD",
+      "availability_date_type": "tbd",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coarfu.jpg",
+      "developer": "Ice-Pick Lodge",
+      "publisher": "Hooded Horse",
+      "description": "Roam freely around the scorched deserts of a dying sea as you secure resources and explore the mysteries of Darkwood. But beware nightfall – seek shelter, shore up your defenses, and pray for the morning light as the horrors of the world hunt the ill-prepared.",
+      "genres": [
+        "Isometric",
+        "Role-Playing",
+        "Adventure"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [
+        "Action",
+        "Horror",
+        "Survival"
+      ],
+      "platforms": [
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Erosion",
+      "availability_date": "TBD",
+      "availability_date_type": "tbd",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coav92.jpg",
+      "developer": "PlotTwist Studios",
+      "publisher": "Lyrical Games",
+      "description": "Your daughter's been kidnapped. Every death costs you a decade. Explore a roguelike open world where your actions reshape the timeline.",
+      "genres": [
+        "Isometric",
+        "Adventure"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [
+        "Action"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Harmonium: The Musical",
+      "availability_date": "TBD",
+      "availability_date_type": "tbd",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7hik.jpg",
+      "developer": "The Odd Gentlemen",
+      "publisher": "Netflix",
+      "description": "Harmonium is an interactive sign language musical and adventure/narrative game that follows Melody Macato, an energetic 10-year-old Filipina-American musician who became Deaf at a young age. For her upcoming debut show, she wants to create a new type of music that can be felt, seen, and is accessible to her friends.",
+      "genres": [
+        "Third-Person",
+        "Music",
+        "Platform",
+        "Adventure"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [],
+      "platforms": []
+    },
+    {
+      "name": "Holstin",
+      "year": 2027,
+      "availability_date": "TBD",
+      "availability_date_type": "tbd",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocu3g.jpg",
+      "description": "A psychological survival horror game set in an eerie, isolated 90s Polish town consumed by an ominous presence. You’ve come looking for answers, but everyone seems possessed by something foul. Explore the festering town, interrogate locals and fight ungodly manifestations to get to the truth.",
+      "genres": [
+        "First-Person",
+        "Third-Person",
+        "Isometric",
+        "Adventure"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [
+        "Action",
+        "Horror",
+        "Survival"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "Xbox One",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Magicians: The Devil's Deal",
+      "year": 2027,
+      "availability_date": "TBD",
+      "availability_date_type": "tbd",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc75l.jpg",
+      "description": "Magicians: The Devils Deal is a narrative driven FPS where stage magic becomes real. You play as Jacob Menteuro, a fallen illusionist bound by a pact with The Devil and cast into Hell. Master deadly tricks, steal the powers of rival magicians, and escape the infernal world of Theatreland.",
+      "genres": [
+        "First-Person",
+        "Adventure"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [
+        "Action"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Marauders",
+      "year": 2022,
+      "availability_date": "TBD",
+      "availability_date_type": "tbd",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co548c.jpg",
+      "release_date": "October 3rd, 2022",
+      "developer": "Small Impact Games",
+      "publisher": "Team17",
+      "description": "Become a space pirate and work solo, or in a squad of up to 3 other players to navigate a hostile battleground, survive intense combat encounters with other teams and AI opponents for invaluable loot, craft new weapons and gear, and salvage what you’ll need to survive.",
+      "genres": [
+        "First-Person",
+        "Shooter",
+        "Tactical"
+      ],
+      "game_modes": [
+        "Multiplayer",
+        "Co-Op"
+      ],
+      "game_style": [
+        "Action",
+        "Sci-Fi",
+        "Survival"
+      ],
+      "platforms": [
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Marvel's Blade",
+      "availability_date": "TBD",
+      "availability_date_type": "tbd",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7hku.jpg",
+      "developer": "Arkane Studios",
+      "publisher": "Bethesda Softworks",
+      "description": "In Marvel’s Blade, Eric Brooks is the legendary Daywalker, half-man, half-vampire torn between the warm society of the living and the rushing power of the undead. From Bethesda and Arkane Lyon, Marvel’s Blade is a mature, single-player, third-person game set in the heart of Paris, now in development in collaboration with Marvel Games.",
+      "genres": [
+        "Third-Person"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [
+        "Action"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Militsioner",
+      "year": 2027,
+      "availability_date": "TBD",
+      "availability_date_type": "tbd",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coadnd.jpg",
+      "description": "Every move you make is being followed by a Colossal Policeman. Anger, flatter, disappoint, deceive or even romance him to escape in this kafkaesque immersive sim.",
+      "genres": [
+        "First-Person",
+        "Puzzle",
+        "Adventure",
+        "Indie"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [
+        "Action",
+        "Stealth",
+        "Sandbox",
+        "Open World",
+        "Mystery",
+        "Romance"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "Xbox One",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Moosa: Dirty Fate",
+      "year": 2027,
+      "availability_date": "TBD",
+      "availability_date_type": "tbd",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobtwx.jpg",
+      "description": "MOOSA: Dirty Fate is a dark action game inspired by Korean history. \"MOOSA\" meaning is a person who has mastered martial arts and works in that field. MOOSA: Dirty Fate is an action game based on the story of MOOSAs' revenge, responsibility, and ambition, centered on 17th-century Korea.",
+      "genres": [
+        "Adventure"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [
+        "Action",
+        "Fantasy",
+        "Historical"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Nirvana Noir",
+      "availability_date": "TBD",
+      "availability_date_type": "tbd",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7h68.jpg",
+      "developer": "Feral Cat Den",
+      "publisher": "Fellow Traveller",
+      "description": "Nirvana Noir, the sequel to 2021's \"Genesis Noir,\" is a cosmic adventure beyond time and space. Become your own existential threat and put out the fires of eternity. Dual noir adventures beyond time and space; one where the Big Bang was never fired, the other an explosion of color and sin.",
+      "genres": [
+        "Third-Person",
+        "Adventure",
+        "Indie"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "No, I'm Not A Human",
+      "year": 2025,
+      "availability_date": "TBD",
+      "availability_date_type": "tbd",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coajvh.jpg",
+      "playtime_category": "Short & Sweet",
+      "playtime_hours": "4-9 Hours",
+      "release_date": "September 15th, 2025",
+      "developer": "Trioskaz",
+      "publisher": "Critical Reflex",
+      "description": "An intimate story about a disaster and guests from underground. People are breaking into your home, but not all of them are true people.",
+      "genres": [
+        "First-Person",
+        "Simulator",
+        "Indie"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [
+        "Horror"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Persona 6",
+      "availability_date": "TBD",
+      "availability_date_type": "tbd",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc7cm.jpg",
+      "developer": "P Studio",
+      "publisher": "Atlus",
+      "description": "With over 30 million copies sold worldwide, the Persona series has defined a generation of RPG storytelling. Now, after years of anticipation, the next installment is finally revealed.",
+      "genres": [
+        "Third-Person",
+        "Role-Playing",
+        "Turn-Based Strategy",
+        "Adventure"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [
+        "Drama",
+        "Mystery"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Raji: Kaliyuga",
+      "availability_date": "TBD",
+      "availability_date_type": "tbd",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaved.jpg",
+      "developer": "Nodding Heads Games",
+      "description": "Six years after the great war, destiny bleeds into prophecy as gods and mortals blur. Raji, the warrior of faith, and Darsh, the dreamwalker, face Mahabalasuras wrath as he tears open heavens gates, unleashing Kaliyuga-an age where every choice can unmake the universe.",
+      "genres": [
+        "Third-Person",
+        "Role-Playing",
+        "Adventure",
+        "Indie"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [
+        "Action"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Red Kiss",
+      "year": 2027,
+      "availability_date": "TBD",
+      "availability_date_type": "tbd",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc76a.jpg",
+      "description": "Dispatch a team of vampire spies through the tense and fractured streets of Cold War Berlin. Fulfill your darkest impulses as you tap into their powers, gain their trust, and manipulate your way through this (blood)thirsty Tactical Narrative RPG.",
+      "genres": [
+        "Role-Playing",
+        "Strategy",
+        "Visual Novel"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Rogue Carrier",
+      "availability_date": "TBD",
+      "availability_date_type": "tbd",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocl1p.jpg",
+      "developer": "Wild Fields",
+      "publisher": "Hooded Horse",
+      "description": "Lead a perilous expedition to study the mysteries of a sentient world in this roguelite colony management game. Build and manage a city atop an ocean-faring ship, and try to survive as the planet fights back!",
+      "genres": [
+        "Simulator",
+        "Strategy"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [],
+      "platforms": [
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Screenbound",
+      "availability_date": "TBD",
+      "availability_date_type": "tbd",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobyys.jpg",
+      "developer": "Radical Forge",
+      "publisher": "Digital Pajamas",
+      "description": "Screenbound is a platformer unlike any other. You move in first-person view at the same time while playing in 2d on the screen of your Qboy. Mind-bending environmental puzzles will force you to test the limits of dimensional space.",
+      "genres": [
+        "First-Person",
+        "Adventure",
+        "Indie"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [
+        "Action"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Senua",
+      "year": 2027,
+      "availability_date": "TBD",
+      "availability_date_type": "tbd",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc77k.jpg",
+      "description": "A Celtic warrior is trapped between life and death in a fractured vision of purgatory. In an action‑adventure set in the Hellblade universe, Senua fights to reach the afterlife and reunite with those she loved and lost, battling forces that threaten all she believes in.",
+      "genres": [
+        "Third-Person",
+        "Adventure"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [
+        "Action",
+        "Fantasy",
+        "Horror"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "She Dreams Elsewhere",
+      "availability_date": "TBD",
+      "availability_date_type": "tbd",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2gfb.jpg",
+      "developer": "Studio Zevere",
+      "description": "She Dreams Elsewhere is a surreal adventure RPG about dreams and the extent to which they mirror reality. You play as Thalia, an anxiety-ridden, comatose woman on a journey to defeat the nightmares preventing her from awakening, while also finding out how exactly this mess happened in the first place.",
+      "genres": [
+        "Isometric",
+        "Side-View",
+        "Role-Playing",
+        "Adventure",
+        "Indie"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [
+        "Fantasy",
+        "Mystery"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "Xbox One",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Sleight of Hand",
+      "availability_date": "TBD",
+      "availability_date_type": "tbd",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7uny.jpg",
+      "developer": "RiffRaff Games",
+      "description": "Infiltrate a hardboiled, rain-slicked city of taboo, where ritual magic and cursed artefacts set apart those with power from those without. Sleight of Hand is a 3rd-person Stealth-Action Deckbuilder about taking down the coven you used to run with.",
+      "genres": [
+        "Third-Person",
+        "Tactical",
+        "Adventure"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [
+        "Action",
+        "Stealth"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Son of Thanjai",
+      "year": 2027,
+      "availability_date": "TBD",
+      "availability_date_type": "tbd",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coab96.jpg",
+      "description": "Son of Thanjai is a cinematic action-adventure epic set in the culturally rich 11th-century South India. As a Chola king burdened by legacy, you must embark on a personal journey that blurs the line between duty and destiny. Will you rise as a legend–or be forgotten?",
+      "genres": [
+        "Third-Person",
+        "Adventure"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [
+        "Action"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Spyro: A Realm Beyond",
+      "year": 2027,
+      "availability_date": "TBD",
+      "availability_date_type": "tbd",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc7e0.jpg",
+      "description": "Take flight in a brand-new journey through a strange and wondrous realm. When Spyro finds himself stranded, his journey to discover a way home is interrupted by the arrival of a vicious invading force known as the Scavs.",
+      "genres": [
+        "Third-Person",
+        "Platform",
+        "Adventure"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [
+        "Action"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "State of Decay 3",
+      "year": 2027,
+      "availability_date": "TBD",
+      "availability_date_type": "tbd",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc77x.jpg",
+      "description": "Unite to survive: push back the blood plague to reclaim the land's resources and carve out a life in the zombie apocalypse.",
+      "genres": [
+        "Third-Person",
+        "Adventure"
+      ],
+      "game_modes": [
+        "Single-Player",
+        "Multiplayer",
+        "Co-Op"
+      ],
+      "game_style": [
+        "Action"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "The Eternal Life of Goldman",
+      "availability_date": "TBD",
+      "availability_date_type": "tbd",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coblro.jpg",
+      "developer": "Weappy Studio",
+      "publisher": "THQ Nordic",
+      "description": "The Eternal Life of Goldman is a vibrant yet dark platformer adventure that weaves together legends, fairy tales and myths. Explore a vast hand-drawn Archipelago, inspired by ancient fables and depicted in classic frame-by-frame animation, and defeat a mysterious Deity!",
+      "genres": [
+        "Side-View",
+        "Platform",
+        "Adventure"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [
+        "Fantasy"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "The Expanse: Osiris Reborn",
+      "year": 2027,
+      "availability_date": "TBD",
+      "availability_date_type": "tbd",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xoa.jpg",
+      "description": "The Expanse: Osiris Reborn is a third-person Action RPG set in The Expanse universe. You’re no hero — just a merc caught in the wrong place at the wrong time, trying to hold your crew together and keep the ship up and running. Your choices will shape your story.",
+      "genres": [
+        "Third-Person",
+        "Shooter",
+        "Role-Playing",
+        "Adventure"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [
+        "Action",
+        "Sci-Fi"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "The Last Caretaker",
+      "year": 2025,
+      "availability_date": "TBD",
+      "availability_date_type": "tbd",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coasoq.jpg",
+      "playtime_category": "Lengthy Expedition",
+      "playtime_hours": "35-54 Hours",
+      "release_date": "November 6th, 2025",
+      "developer": "Channel37",
+      "description": "The Last Caretaker is a thoughtful take on the survival-crafting genre, where every decision you make and every action has a consequence. Immerse yourself in a meticulously crafted world where the fate of humanity rests in your hands. Your mission is clear: recover human seeds, reactivate the Lazarus Complex, and launch the last of humani...",
+      "genres": [
+        "First-Person",
+        "Simulator",
+        "Adventure",
+        "Indie"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [
+        "Action",
+        "Sci-Fi",
+        "Survival",
+        "Open World"
+      ],
+      "platforms": [
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "There Are No Ghosts at the Grand",
+      "availability_date": "TBD",
+      "availability_date_type": "tbd",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xx1.jpg",
+      "developer": "Friday Sundae",
+      "description": "Inherit a crumbling English hotel and restore it by day—while battling ghosts by night. With a sardonic cat, a talking power tool, and a twisting supernatural plot, this is a musical mystery unlike any other. Will you be able to hold it together while everything around you falls apart?",
+      "genres": [
+        "First-Person",
+        "Music",
+        "Puzzle",
+        "Role-Playing",
+        "Adventure",
+        "Indie"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [
+        "Action",
+        "Horror",
+        "Comedy",
+        "Mystery"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Treetopians",
+      "availability_date": "TBD",
+      "availability_date_type": "tbd",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coazpv.jpg",
+      "description": "Treetopians is a cozy colony simulator where players build vertical villages in the treetops and care for a growing community of villagers with unique needs and personalities.",
+      "genres": [
+        "Simulator",
+        "Strategy"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [],
+      "platforms": [
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Vaunted",
+      "availability_date": "TBD",
+      "availability_date_type": "tbd",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobtwp.jpg",
+      "developer": "Hooded Horse",
+      "description": "The score of a lifetime hangs in the balance – can three cut-throat criminals look past their differences to pull it off? A story of bullets, bravado, and brazen lies unfolds across a galaxy of treasure hunters and crime syndicates in this sci-fi tactical RPG.",
+      "genres": [
+        "Role-Playing",
+        "Strategy",
+        "Turn-Based Strategy"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [
+        "Action",
+        "Sci-Fi"
+      ],
+      "platforms": [
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Vivarium",
+      "year": 2027,
+      "availability_date": "TBD",
+      "availability_date_type": "tbd",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc75a.jpg",
+      "description": "You wake up and find yourself in an enormous terrarium. Explore, meet characters, and grow your escape - and along the way, uncover the mysteries of the terrarium as well. Vivarium is an adventure game about finding where you belong while surviving in a familiar yet alien environment.",
+      "genres": [
+        "Isometric",
+        "Adventure"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Way to the Woods",
+      "availability_date": "TBD",
+      "availability_date_type": "tbd",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2t6z.jpg",
+      "developer": "Studio Happy Bee",
+      "publisher": "Team17",
+      "description": "Two deer in a strange, abandoned world without humans must find their way home. Find food, shelter, safety, and answers on your way to the woods. Way to the Woods is being created by solo developer Anthony Tan.",
+      "genres": [
+        "Third-Person",
+        "Adventure",
+        "Indie"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [],
+      "platforms": [
+        "Xbox One",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Ark II",
+      "year": 2028,
+      "availability_date": "TBD",
+      "availability_date_type": "tbd",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4v2q.jpg",
+      "description": "Suddenly awakened on a strange primal world filled with dinosaurs and humans struggling for dominance; you must piece together the history of how you arrived there, team-up with legendary heroes, and confront powerful dark forces seeking to control the fate of all life. Saddle up, and join the definitive next-generation survival experienc...",
+      "genres": [
+        "First-Person",
+        "Third-Person",
+        "Adventure",
+        "Indie"
+      ],
+      "game_modes": [
+        "Single-Player",
+        "Multiplayer",
+        "Co-Op",
+        "MMO"
+      ],
+      "game_style": [
+        "Action",
+        "Sci-Fi",
+        "Survival",
+        "Open World"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "OD: Knock",
+      "availability_date": "TBD",
+      "availability_date_type": "tbd",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coajod.jpg",
+      "developer": "Kojima Productions",
+      "publisher": "Xbox Game Studios",
+      "description": "OD explores the concept of testing your fear threshold, and what it means to OD on fear – while blurring the boundaries of gaming and film.",
+      "genres": [],
+      "game_modes": [],
+      "game_style": [
+        "Horror"
+      ],
+      "platforms": [
+        "Xbox Series X|S"
+      ]
+    },
+    {
+      "name": "The Elder Scrolls VI",
+      "availability_date": "TBD",
+      "availability_date_type": "tbd",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ycv.jpg",
+      "developer": "Bethesda Game Studios",
+      "publisher": "Bethesda Softworks",
+      "description": "The Elder Scrolls VI is an upcoming single-player action RPG from Bethesda Game Studios, serving as the sixth main entry in The Elder Scrolls series and the follow-up to 2011's Skyrim. The game is built on Creation Engine 3 and entered active production in 2023 following the completion of Starfield. Director Todd Howard has described the...",
+      "genres": [
+        "First-Person",
+        "Third-Person",
+        "Role-Playing",
+        "Adventure"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [
+        "Action",
+        "Fantasy",
+        "Open World"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Fallout 5",
+      "availability_date": "TBD",
+      "availability_date_type": "tbd",
+      "cover_url": "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.gamescriptions.com%2Fcdn-cgi%2Fimage%2Fwidth%3D250%2Cformat%3Dauto%2Fgames%2Fmissing_boxart.png&w=3840&q=75",
+      "developer": "Bethesda Game Studios",
+      "publisher": "Bethesda Softworks",
+      "description": "Bethesda announced that Fallout 5 is currently in pre-production and will release after The Elder Scrolls VI.",
+      "genres": [
+        "First-Person",
+        "Third-Person",
+        "Shooter",
+        "Role-Playing"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [
+        "Action",
+        "Sci-Fi",
+        "Survival",
+        "Stealth",
+        "Sandbox",
+        "Open World"
+      ],
+      "platforms": []
+    }
+  ]
 }
