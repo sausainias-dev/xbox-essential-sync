@@ -82,25 +82,52 @@ def collect_upcoming(page) -> list[dict]:
     return results
 
 def main() -> None:
+    enriched = []
     with sync_playwright() as pw:
         browser = pw.chromium.launch(headless=True, args=["--disable-dev-shm-usage"])
-        page = browser.new_page(user_agent=catalog.USER_AGENT, viewport={"width":1440,"height":1200})
-        page.set_default_timeout(15000)
+        context = browser.new_context(
+            user_agent=catalog.USER_AGENT,
+            viewport={"width": 1440, "height": 1200},
+        )
+        page = context.new_page()
+        page.set_default_timeout(20000)
         page.goto(SOURCE, wait_until="domcontentloaded", timeout=90000)
         page.wait_for_timeout(1800)
         games = collect_upcoming(page)
-        browser.close()
 
-    enriched = []
-    for index, item in enumerate(games, 1):
-        print(f"[{index}/{len(games)}] Enriching {item['name']}")
-        game = dict(item)
-        catalog.enrich(game)
-        # Never expose internal source detail URLs or community metrics.
-        for key in list(game):
-            if key == "url" or key.startswith("community_") or key == "enrich_error":
-                game.pop(key, None)
-        enriched.append(game)
+        # Visit each game's detail page in Chromium, not requests: GameScriptions
+        # builds its screenshot carousel and YouTube player client-side.
+        for index, item in enumerate(games, 1):
+            print(f"[{index}/{len(games)}] Enriching rendered page: {item['name']}")
+            game = dict(item)
+            try:
+                page.goto(game["url"], wait_until="domcontentloaded", timeout=90000)
+                page.wait_for_timeout(1100)
+                # Give lazy media a chance to enter the DOM without relying on
+                # networkidle (analytics and video players can keep it busy).
+                for label in ("Screenshots", "Game Gallery", "Videos", "Trailer"):
+                    locator = page.get_by_text(label, exact=False).first
+                    try:
+                        if locator.count():
+                            locator.scroll_into_view_if_needed(timeout=1500)
+                    except Exception:
+                        pass
+                page.wait_for_timeout(450)
+                catalog.enrich(game, html=page.content())
+            except Exception as exc:
+                print(f"  detail-page warning for {item['name']}: {exc}")
+                # Keep basic game data even if one detail page fails.
+                try:
+                    catalog.enrich(game)
+                except Exception:
+                    pass
+
+            # Never expose internal source detail URLs or community metrics.
+            for key in list(game):
+                if key == "url" or key.startswith("community_") or key == "enrich_error":
+                    game.pop(key, None)
+            enriched.append(game)
+        browser.close()
 
     if not enriched:
         raise RuntimeError("Refusing to publish an empty upcoming-games feed")
