@@ -19,7 +19,7 @@ def collect_upcoming(page) -> list[dict]:
     target = None
     for i in range(headings.count()):
         label = catalog.clean(headings.nth(i).inner_text())
-        if re.match(r"^Coming\\s+Soon\\b", label, re.I):
+        if re.match(r"^Coming\s+Soon\b", label, re.I):
             target = headings.nth(i)
             break
     if target is None:
@@ -32,7 +32,7 @@ def collect_upcoming(page) -> list[dict]:
     for i in range(headings.count()):
         h = headings.nth(i)
         label = catalog.clean(h.inner_text())
-        if re.match(r"^Available\\s+Games\\b", label, re.I):
+        if re.match(r"^Available\s+Games\b", label, re.I):
             box = h.bounding_box()
             if box and box["y"] > start["y"]:
                 end_y = box["y"]
@@ -58,7 +58,7 @@ def collect_upcoming(page) -> list[dict]:
                 text = catalog.clean(node.inner_text(timeout=1200))
             except Exception:
                 text = ""
-            if re.search(r"Arrives:|\\bTBD\\b", text, re.I):
+            if re.search(r"Arrives:|\bTBD\b", text, re.I):
                 date_text = text
                 break
             try:
@@ -68,11 +68,11 @@ def collect_upcoming(page) -> list[dict]:
         item = {"name": name, "url": url}
         if year:
             item["year"] = year
-        match = re.search(r"Arrives:\\s*([^\\n]+)", date_text, re.I)
+        match = re.search(r"Arrives:\s*([^\n]+)", date_text, re.I)
         if match:
             item["availability_date"] = catalog.clean(match.group(1))
             item["availability_date_type"] = "arrives"
-        elif re.search(r"\\bTBD\\b", date_text, re.I):
+        elif re.search(r"\bTBD\b", date_text, re.I):
             item["availability_date"] = "TBD"
             item["availability_date_type"] = "tbd"
         results.append(item)
@@ -102,14 +102,21 @@ def main() -> None:
                 game.pop(key, None)
         enriched.append(game)
 
+    if not enriched:
+        raise RuntimeError("Refusing to publish an empty upcoming-games feed")
+
     feed = {
         "source": "Subli.one Xbox Game Pass Ultimate",
         "updated_at": datetime.now(timezone.utc).isoformat(),
         "count": len(enriched),
         "games": enriched,
     }
-    OUT_JSON.write_text(json.dumps(feed, ensure_ascii=False, indent=2), encoding="utf-8")
-    OUT_HTML.write_text(catalog.render_upcoming_html(feed), encoding="utf-8")
+    json_tmp = OUT_JSON.with_suffix(".json.tmp")
+    html_tmp = OUT_HTML.with_suffix(".html.tmp")
+    json_tmp.write_text(json.dumps(feed, ensure_ascii=False, indent=2), encoding="utf-8")
+    html_tmp.write_text(catalog.render_upcoming_html(feed), encoding="utf-8")
+    json_tmp.replace(OUT_JSON)
+    html_tmp.replace(OUT_HTML)
     print(f"Published {len(enriched)} upcoming games to {OUT_HTML} and {OUT_JSON}")
 
 if __name__ == "__main__":
