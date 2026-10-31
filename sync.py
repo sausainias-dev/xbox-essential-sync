@@ -759,6 +759,25 @@ def render_upcoming_html(feed: dict) -> str:
     def esc(value) -> str:
         return html.escape(str(value), quote=True)
 
+    def format_arrival(value) -> str:
+        raw = str(value or "").strip()
+        if not raw or raw.upper() in {"TBD", "TBA", "DATE TBA"}:
+            return "Date not announced"
+        # Source values such as "Nov 2" have no year; never let browsers infer 2001.
+        match = re.fullmatch(r"([A-Za-z]{3,9})\\s+(\\d{1,2})", raw)
+        if match:
+            try:
+                month = datetime.strptime(match.group(1), "%b").month if len(match.group(1)) <= 3 else datetime.strptime(match.group(1), "%B").month
+                now = datetime.now(timezone.utc)
+                year = now.year
+                candidate = datetime(year, month, int(match.group(2)), tzinfo=timezone.utc)
+                if (candidate.date() - now.date()).days < -90:
+                    year += 1
+                return f"{match.group(1)} {int(match.group(2))}, {year}"
+            except ValueError:
+                pass
+        return raw
+
     cards = []
     schema_items = []
     for index, game in enumerate(games, 1):
@@ -766,7 +785,7 @@ def render_upcoming_html(feed: dict) -> str:
         year = esc(game.get("year", ""))
         description = esc(game.get("description", "Game details will be added soon."))
         release = esc(game.get("release_date", "TBA"))
-        availability = esc(game.get("availability_date", "To be announced"))
+        availability = esc(format_arrival(game.get("availability_date")))
         genres = game.get("genres", [])
         platforms = game.get("platforms", [])
         modes = game.get("game_modes", [])
@@ -808,7 +827,7 @@ def render_upcoming_html(feed: dict) -> str:
             f'<div class="game-media">{media}</div><div class="game-info">'
             f'<h2>{title}</h2><p>{description}</p>'
             f'<p><strong>Original release:</strong> {release}</p>'
-            f'<p><strong>Coming to Game Pass:</strong> {availability}</p>'
+            f'<p><strong>Expected Game Pass arrival:</strong> {availability}</p>'
             + "".join(details) + "</div></article>"
         )
         schema_items.append({
@@ -849,12 +868,12 @@ def render_upcoming_html(feed: dict) -> str:
 <style>
 :root{{--bg:#0d1020;--panel:#171b2d;--text:#f5f6ff;--muted:#b9bfd4;--accent:#5865f2}}
 *{{box-sizing:border-box}}body{{margin:0;background:linear-gradient(130deg,#29134b,#101b48);color:var(--text);font:16px/1.6 system-ui,-apple-system,Segoe UI,sans-serif}}
-main{{max-width:1180px;margin:auto;padding:36px 20px 64px}}h1{{font-size:clamp(2rem,5vw,3.3rem);line-height:1.1;margin:0 0 16px}}h2{{font-size:1.45rem;margin:0 0 12px}}p{{margin:10px 0}}.intro,.toolbar,.game-card{{background:rgba(18,22,39,.88);border:1px solid #343b60;border-radius:18px;padding:22px;margin-bottom:20px}}.intro p,.muted{{color:var(--muted)}}.toolbar{{display:grid;grid-template-columns:2fr 1fr;gap:14px}}input,select{{width:100%;padding:14px 16px;border-radius:12px;border:1px solid #444b6d;background:#0d1120;color:white;font:inherit}}.count{{color:var(--muted);margin:14px 0}}.game-card{{display:grid;grid-template-columns:minmax(220px,34%) 1fr;gap:22px;overflow:hidden}}.cover{{width:100%;max-height:310px;object-fit:cover;border-radius:12px}}.gallery{{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:10px}}.gallery img{{width:100%;border-radius:8px}}.video{{position:relative;aspect-ratio:16/9;margin-top:12px}}.video iframe{{position:absolute;inset:0;width:100%;height:100%;border:0;border-radius:10px}}a{{color:#aab4ff}}footer{{color:var(--muted);font-size:.9rem;margin-top:28px}}@media(max-width:700px){{main{{padding:24px 14px}}.toolbar{{grid-template-columns:1fr}}.game-card{{grid-template-columns:1fr}}.cover{{max-height:260px;object-fit:contain;object-position:left}}}}
+main{{max-width:1180px;margin:auto;padding:36px 20px 64px}}h1{{font-size:clamp(2rem,5vw,3.3rem);line-height:1.1;margin:0 0 16px}}h2{{font-size:1.45rem;margin:0 0 12px}}p{{margin:10px 0}}.intro,.toolbar,.game-card{{background:rgba(18,22,39,.88);border:1px solid #343b60;border-radius:18px;padding:22px;margin-bottom:20px}}.intro p,.muted{{color:var(--muted)}}.toolbar{{display:grid;grid-template-columns:2fr 1fr;gap:14px}}input,select{{width:100%;padding:14px 16px;border-radius:12px;border:1px solid #444b6d;background:#0d1120;color:white;font:inherit}}.count{{color:var(--muted);margin:14px 0}}.game-card{{display:grid;grid-template-columns:minmax(220px,34%) 1fr;gap:22px;overflow:hidden}}.cover{{display:block;width:100%;height:260px;object-fit:contain;object-position:center;background:#101525;border-radius:12px}}.gallery{{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:10px}}.gallery img{{width:100%;border-radius:8px}}.video{{position:relative;aspect-ratio:16/9;margin-top:12px}}.video iframe{{position:absolute;inset:0;width:100%;height:100%;border:0;border-radius:10px}}a{{color:#aab4ff}}footer{{color:var(--muted);font-size:.9rem;margin-top:28px}}@media(max-width:700px){{main{{padding:24px 14px}}.toolbar{{grid-template-columns:1fr}}.game-card{{grid-template-columns:1fr}}.cover{{height:230px;max-height:230px;object-fit:contain;object-position:center}}}}
 </style></head>
 <body><main>
 <header class="intro"><h1>Upcoming Game Pass Games</h1>
-<p>Discover the upcoming games expected to join Xbox Game Pass. Browse release information, Game Pass arrival dates, genres, platforms, screenshots and trailers in one place.</p>
-<p class="muted">Game Pass arrival dates may change. Dates marked as unannounced are not confirmed.</p></header>
+<p>Track upcoming titles expected to join Xbox Game Pass. These games are not included in the library yet. Browse release details, expected arrival dates, genres, platforms, screenshots and trailers.</p>
+<p class="muted">Expected arrival dates come from the source and may change. An expected date is not an official confirmation.</p></header>
 <section class="toolbar" aria-label="Filter upcoming games">
 <label>Search games<input id="search" type="search" placeholder="Enter a game title..." autocomplete="off"></label>
 <label>Genre<select id="genre">{options}</select></label></section>
