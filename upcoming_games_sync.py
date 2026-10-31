@@ -102,14 +102,21 @@ def main() -> None:
                 game.pop(key, None)
         enriched.append(game)
 
+    if not enriched:
+        raise RuntimeError("Refusing to publish an empty upcoming-games feed")
+
     feed = {
         "source": "Subli.one Xbox Game Pass Ultimate",
         "updated_at": datetime.now(timezone.utc).isoformat(),
         "count": len(enriched),
         "games": enriched,
     }
-    OUT_JSON.write_text(json.dumps(feed, ensure_ascii=False, indent=2), encoding="utf-8")
-    OUT_HTML.write_text(catalog.render_upcoming_html(feed), encoding="utf-8")
+    json_tmp = OUT_JSON.with_suffix(".json.tmp")
+    html_tmp = OUT_HTML.with_suffix(".html.tmp")
+    json_tmp.write_text(json.dumps(feed, ensure_ascii=False, indent=2), encoding="utf-8")
+    html_tmp.write_text(catalog.render_upcoming_html(feed), encoding="utf-8")
+    json_tmp.replace(OUT_JSON)
+    html_tmp.replace(OUT_HTML)
     print(f"Published {len(enriched)} upcoming games to {OUT_HTML} and {OUT_JSON}")
 
 if __name__ == "__main__":
