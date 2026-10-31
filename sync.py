@@ -852,6 +852,37 @@ def main() -> None:
         "games": games,
     }
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    # Publish a lightweight feed for the Upcoming Game Pass Games page.
+    # It deliberately excludes GameScriptions page URLs and community statistics.
+    upcoming_fields = (
+        "name", "year", "description", "release_date", "genres",
+        "platforms", "game_modes", "game_style", "cover_url",
+        "screenshot_urls", "trailer_url", "gameplay_url",
+        "availability_date", "availability_date_type", "developer",
+        "publisher", "playtime_category", "playtime_hours",
+        "campaign_chapters",
+    )
+    upcoming_items = []
+    for source_game in service_pages.get("ultimate", {}).get("upcoming_games", []):
+        item = {
+            key: source_game[key]
+            for key in upcoming_fields
+            if key in source_game and source_game[key] not in (None, "", [], {})
+        }
+        if item.get("name"):
+            upcoming_items.append(item)
+
+    upcoming_feed = {
+        "source": "Subli.one Xbox Game Pass Ultimate",
+        "updated_at": payload["updated_at"],
+        "count": len(upcoming_items),
+        "games": upcoming_items,
+    }
+    Path("upcoming-game-pass-games.json").write_text(
+        json.dumps(upcoming_feed, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
     print(f"Wrote {len(games)} unique games to {OUT}")
     print("Service counts:", service_counts)
 
