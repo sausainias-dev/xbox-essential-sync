@@ -1,9 +1,13 @@
-name: Sync Xbox Game Pass catalog
+name: Sync Xbox Game Pass catalog (manual backup)
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "15 4 * * *"
+
+# Keep manual runs in the same queue as the scheduled catalog and upcoming
+# publishers to avoid racing commits to generated data.
+concurrency:
+  group: xbox-game-pass-data-publish
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -33,4 +37,5 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add xbox-essential.json
           git diff --cached --quiet || git commit -m "chore: sync Xbox Game Pass catalog"
-          git push
+          git pull --rebase origin main
+          git push origin main
