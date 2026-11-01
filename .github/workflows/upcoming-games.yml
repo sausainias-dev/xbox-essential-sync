@@ -11,8 +11,10 @@ on:
   schedule:
     - cron: "17 */6 * * *"
 
+# Share one publisher queue with the full catalog sync workflow.
+# This prevents concurrent rebases/pushes to generated catalog data.
 concurrency:
-  group: upcoming-game-pass-page
+  group: xbox-game-pass-data-publish
   cancel-in-progress: false
 
 permissions:
@@ -39,6 +41,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # This workflow is the sole owner of the generated upcoming files.
           git add upcoming-game-pass-games.html upcoming-game-pass-games.json
           git diff --cached --quiet || git commit -m "Refresh upcoming Game Pass page"
           git pull --rebase origin "${GITHUB_REF_NAME:-main}"
