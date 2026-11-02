@@ -8,7 +8,7 @@ import re
 import time
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlsplit, urlunsplit
 
 import requests
 from bs4 import BeautifulSoup
@@ -591,6 +591,8 @@ def extract_game_media(soup: BeautifulSoup, page_url: str) -> tuple[list[str], s
         url = urljoin(page_url, value)
         low = url.casefold()
         path = low.split("?", 1)[0].split("#", 1)[0]
+        parsed_url = urlsplit(url)
+        canonical_image = urlunsplit((parsed_url.scheme, parsed_url.netloc, parsed_url.path, "", ""))
         image_like = (
             bool(re.search(r"\.(?:jpe?g|png|webp|avif)(?:$|[?#])", low))
             or "/image/upload/" in low
@@ -609,9 +611,9 @@ def extract_game_media(soup: BeautifulSoup, page_url: str) -> tuple[list[str], s
             r"t_cover_(?:big|small|thumb)",
             path, re.I
         ))
-        if not screenshot_like or not_screenshot or url in seen_images:
+        if not screenshot_like or not_screenshot or canonical_image in seen_images:
             return
-        seen_images.add(url)
+        seen_images.add(canonical_image)
         screenshots.append(url)
 
     image_attrs = (
@@ -682,7 +684,9 @@ def extract_game_media(soup: BeautifulSoup, page_url: str) -> tuple[list[str], s
         attrs = " ".join(
             str(tag.get(key, "")) for key in (
                 "src", "data-src", "href", "data-url", "data-video",
-                "data-embed", "content", "title", "alt", "class", "id"
+                "data-video-id", "data-youtube-id", "data-ytid", "data-trailer",
+                "data-youtube", "data-embed", "data-embed-url", "content",
+                "poster", "title", "alt", "class", "id"
             )
         )
         context_parts = []
@@ -698,6 +702,14 @@ def extract_game_media(soup: BeautifulSoup, page_url: str) -> tuple[list[str], s
         parent_text = clean(tag.parent.get_text(" ", strip=True)) if tag.parent else ""
         context = clean(attrs + " " + " ".join(context_parts) + " " + parent_text).casefold()
         video_id = find_video_id(attrs)
+        if not video_id:
+            direct_id = next((
+                str(tag.get(key, "")).strip()
+                for key in ("data-video-id", "data-youtube-id", "data-ytid")
+                if tag.get(key)
+            ), "")
+            if re.fullmatch(r"[A-Za-z0-9_-]{6,}", direct_id):
+                video_id = direct_id
         if video_id:
             kind = "gameplay_url" if re.search(r"gameplay|walkthrough|playthrough", context, re.I) else "trailer_url"
             video_urls.setdefault(kind, f"https://www.youtube.com/watch?v={video_id}")
