@@ -671,72 +671,70 @@ def extract_game_media(soup: BeautifulSoup, page_url: str) -> tuple[list[str], s
             add_screenshot(raw, context + " screenshot")
 
     video_urls: dict[str, str] = {}
-    video_patterns = [
-        re.compile(
-            r"(?:youtube(?:-nocookie)?\.com/(?:embed|shorts|live)/|youtu\.be/|"
-            r"youtube\.com/watch\?[^\s\"'<>]*?v=|img\.youtube\.com/vi/)"
-            r"([A-Za-z0-9_-]{6,})",
-            re.I
-        ),
-        re.compile(
-            r"youtube(?:-nocookie)?\.com/(?:watch|embed)[^\s\"'<>]*?[?&]v=([A-Za-z0-9_-]{6,})",
-            re.I
-        ),
-    ]
 
-    def find_video_id(value: str) -> str | None:
-        candidate = html_lib.unescape(value).replace("\\/", "/")
-        candidate = candidate.replace("\\u0026", "&").replace("\\u003d", "=")
-        candidate = candidate.replace("\\u002F", "/")
-        for pattern in video_patterns:
-            match = pattern.search(candidate)
-            if match:
-                return match.group(1)
-        return None
+    def add_video(raw: str, context: str = "") -> None:
+        """Extract a YouTube video ID from a URL or known JSON video-ID field."""
+        candidate = html_lib.unescape(str(raw)).replace("\\/", "/")
+        candidate = candidate.replace("\\u0026", "&").replace("\\u003d", "=").replace("\\u002F", "/")
+        video_id = ""
+        try:
+            parsed = urlsplit(candidate)
+            host = (parsed.hostname or "").casefold()
+            if host in {"youtu.be", "www.youtu.be"}:
+                video_id = parsed.path.strip("/").split("/")[0]
+            elif host.endswith("youtube.com") or host.endswith("youtube-nocookie.com"):
+                query = dict(part.split("=", 1) for part in parsed.query.split("&") if "=" in part)
+                video_id = query.get("v", "")
+                if not video_id:
+                    match = re.match(r"^/(?:embed|shorts|live|v)/([A-Za-z0-9_-]{6,})", parsed.path)
+                    video_id = match.group(1) if match else ""
+            elif re.fullmatch(r"[A-Za-z0-9_-]{6,}", candidate.strip()):
+                video_id = candidate.strip()
+        except Exception:
+            return
+        if not re.fullmatch(r"[A-Za-z0-9_-]{6,}", video_id or ""):
+            return
+        kind = "gameplay_url" if re.search(
+            r"gameplay|walkthrough|playthrough|longplay|lets.?play", context, re.I
+        ) else "trailer_url"
+        video_urls.setdefault(kind, f"https://www.youtube.com/watch?v={video_id}")
 
-    video_tags = soup.find_all(["iframe", "a", "video", "source", "meta", "div"])
-    for tag in video_tags:
-        attrs = " ".join(
-            str(tag.get(key, "")) for key in (
-                "src", "data-src", "href", "data-url", "data-video",
-                "data-video-id", "data-youtube-id", "data-ytid", "data-trailer",
-                "data-youtube", "data-embed", "data-embed-url", "content",
-                "poster", "title", "alt", "class", "id"
-            )
-        )
-        context_parts = []
-        node = tag
-        for _ in range(5):
-            if node is None:
-                break
-            classes = node.get("class", [])
-            context_parts.append(" ".join(classes) if isinstance(classes, list) else str(classes))
-            context_parts.append(str(node.get("id", "")))
-            context_parts.append(str(node.get("data-video", "")))
-            node = node.parent
+    # Visible links, iframe/video sources and CMS data attributes.
+    attrs_to_scan = (
+        "src", "href", "data-src", "data-url", "data-video", "data-trailer",
+        "data-gameplay", "data-embed", "data-embed-url", "content",
+        "data-video-id", "data-youtube-id", "data-ytid", "title",
+        "aria-label", "class", "id", "itemprop"
+    )
+    for tag in soup.find_all(["a", "iframe", "video", "source", "meta", "link", "div"]):
+        attrs = " ".join(str(tag.get(key, "")) for key in attrs_to_scan)
         parent_text = clean(tag.parent.get_text(" ", strip=True)) if tag.parent else ""
-        context = clean(attrs + " " + " ".join(context_parts) + " " + parent_text).casefold()
-        video_id = find_video_id(attrs)
-        if not video_id:
-            direct_id = next((
-                str(tag.get(key, "")).strip()
-                for key in ("data-video-id", "data-youtube-id", "data-ytid")
-                if tag.get(key)
-            ), "")
-            if re.fullmatch(r"[A-Za-z0-9_-]{6,}", direct_id):
-                video_id = direct_id
-        if video_id:
-            kind = "gameplay_url" if re.search(r"gameplay|walkthrough|playthrough", context, re.I) else "trailer_url"
-            video_urls.setdefault(kind, f"https://www.youtube.com/watch?v={video_id}")
+        context = clean(attrs + " " + parent_text)
+        for value in re.findall(r"""https?://[^\s"'<>]+""", attrs, re.I):
+            add_video(value.rstrip("),;]"), context)
+        for key in ("data-video-id", "data-youtube-id", "data-ytid"):
+            if tag.get(key):
+                add_video(str(tag.get(key)), context)
 
-    # Some embeds are only present in scripts or JSON-LD; decode common HTML/JSON escaping first.
+    # Open Graph/Twitter metadata, JSON-LD and JS/Next.js embedded payloads.
     raw_html = html_lib.unescape(str(soup)).replace("\\/", "/")
-    raw_html = raw_html.replace("\\u0026", "&").replace("\\u003d", "=")
-    for pattern in video_patterns:
-        for match in pattern.finditer(raw_html):
-            nearby = raw_html[max(0, match.start() - 240):match.end() + 240].casefold()
-            kind = "gameplay_url" if re.search(r"gameplay|walkthrough|playthrough", nearby, re.I) else "trailer_url"
-            video_urls.setdefault(kind, f"https://www.youtube.com/watch?v={match.group(1)}")
+    raw_html = raw_html.replace("\\u0026", "&").replace("\\u003d", "=").replace("\\u002F", "/")
+    decoded_html = unquote(raw_html)
+    url_pattern = re.compile(
+        r"""https?://(?:www\.)?(?:youtube\.com|youtube-nocookie\.com|youtu\.be)/[^\s"'<>\\]+""",
+        re.I
+    )
+    id_pattern = re.compile(
+        r"""["'](?:youtubeId|youtube_id|videoId|video_id|trailerId|trailer_id)["']\s*:\s*["']([A-Za-z0-9_-]{6,})["']""",
+        re.I
+    )
+    for document in (raw_html, decoded_html):
+        for match in url_pattern.finditer(document):
+            nearby = document[max(0, match.start() - 320):match.end() + 320]
+            add_video(match.group(0).rstrip("),;]"), nearby)
+        for match in id_pattern.finditer(document):
+            nearby = document[max(0, match.start() - 240):match.end() + 240]
+            add_video(match.group(1), nearby)
 
     return screenshots[:40], video_urls.get("trailer_url"), video_urls.get("gameplay_url")
 
