@@ -3,6 +3,7 @@ name: Upcoming Game Pass Games Scraper
 on:
   workflow_dispatch:
   push:
+    branches: [main]
     paths:
       - "upcoming_games_sync.py"
       - "requirements.txt"

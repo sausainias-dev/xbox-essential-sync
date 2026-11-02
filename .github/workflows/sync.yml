@@ -3,6 +3,7 @@ name: Xbox Game Pass Sync
 on:
   workflow_dispatch:
   push:
+    branches: [main]
     paths:
       - "sync.py"
       - "requirements.txt"
