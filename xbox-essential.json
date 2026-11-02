@@ -8,29 +8,29 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-10-31T21:02:36.126006+00:00",
+  "updated_at": "2026-11-02T12:47:22.483987+00:00",
   "service_counts": {
-    "essential": 69,
-    "pc": 580,
-    "premium": 425,
-    "ultimate": 658,
+    "essential": 67,
+    "pc": 572,
+    "premium": 416,
+    "ultimate": 650,
     "ea_play": 93,
     "ubisoft_classics": 64
   },
   "genre_counts": {
     "essential": {
-      "Adventure": 42,
+      "Adventure": 40,
       "Third-Person": 34,
-      "Indie": 29,
+      "Indie": 28,
       "Role-Playing": 24,
-      "First-Person": 20,
-      "Shooter": 20,
+      "First-Person": 19,
       "Isometric": 19,
+      "Shooter": 19,
       "Simulator": 18,
       "Strategy": 15,
       "Platform": 11,
       "Arcade": 9,
-      "Side-View": 9,
+      "Side-View": 8,
       "Puzzle": 7,
       "Hack and Slash": 6,
       "Turn-Based Strategy": 6,
@@ -39,62 +39,61 @@
       "Sport": 4,
       "Fighting": 3,
       "Real-Time Strategy": 3,
-      "Virtual Reality": 2,
-      "Point-and-Click": 1
+      "Virtual Reality": 2
     },
     "pc": {
-      "Adventure": 358,
+      "Adventure": 349,
       "Third-Person": 258,
-      "First-Person": 201,
-      "Role-Playing": 184,
-      "Indie": 170,
-      "Shooter": 153,
-      "Isometric": 142,
+      "First-Person": 199,
+      "Role-Playing": 182,
+      "Indie": 168,
+      "Shooter": 150,
+      "Isometric": 138,
       "Simulator": 136,
-      "Strategy": 119,
-      "Side-View": 71,
+      "Strategy": 118,
+      "Side-View": 69,
       "Platform": 62,
-      "Puzzle": 60,
-      "Racing": 42,
+      "Puzzle": 56,
       "Arcade": 41,
+      "Racing": 41,
       "Hack and Slash": 37,
       "Sport": 37,
-      "Turn-Based Strategy": 26,
       "Real-Time Strategy": 25,
-      "Tactical": 25,
+      "Turn-Based Strategy": 25,
+      "Tactical": 24,
       "Fighting": 21,
       "Card & Board Game": 16,
       "Virtual Reality": 14,
-      "Point-and-Click": 8,
       "Music": 5,
+      "Point-and-Click": 5,
       "Visual Novel": 3,
       "MOBA": 2,
       "Text": 1
     },
     "premium": {
-      "Adventure": 270,
-      "Third-Person": 190,
-      "First-Person": 148,
-      "Role-Playing": 145,
-      "Indie": 133,
-      "Shooter": 120,
-      "Isometric": 102,
+      "Adventure": 261,
+      "Third-Person": 189,
+      "First-Person": 146,
+      "Role-Playing": 143,
+      "Indie": 130,
+      "Shooter": 117,
       "Simulator": 102,
-      "Strategy": 85,
-      "Side-View": 56,
-      "Puzzle": 45,
+      "Isometric": 98,
+      "Strategy": 83,
+      "Side-View": 54,
       "Platform": 44,
+      "Puzzle": 41,
       "Hack and Slash": 35,
       "Arcade": 33,
-      "Racing": 24,
+      "Racing": 23,
       "Fighting": 22,
-      "Turn-Based Strategy": 20,
-      "Tactical": 19,
+      "Turn-Based Strategy": 19,
+      "Tactical": 18,
       "Sport": 17,
       "Real-Time Strategy": 16,
-      "Point-and-Click": 12,
       "Virtual Reality": 10,
       "Card & Board Game": 9,
+      "Point-and-Click": 9,
       "Quiz/Trivia": 4,
       "Music": 3,
       "MOBA": 1,
@@ -102,29 +101,29 @@
       "Visual Novel": 1
     },
     "ultimate": {
-      "Adventure": 391,
+      "Adventure": 382,
       "Third-Person": 306,
-      "First-Person": 214,
-      "Role-Playing": 196,
-      "Indie": 174,
-      "Shooter": 172,
+      "First-Person": 212,
+      "Role-Playing": 194,
+      "Indie": 172,
+      "Shooter": 169,
       "Simulator": 156,
-      "Isometric": 153,
-      "Strategy": 132,
-      "Side-View": 87,
-      "Puzzle": 75,
+      "Isometric": 149,
+      "Strategy": 131,
+      "Side-View": 85,
       "Platform": 73,
+      "Puzzle": 71,
       "Arcade": 55,
       "Sport": 51,
-      "Racing": 49,
+      "Racing": 48,
       "Hack and Slash": 42,
-      "Turn-Based Strategy": 30,
-      "Tactical": 29,
+      "Turn-Based Strategy": 29,
+      "Tactical": 28,
       "Fighting": 27,
       "Real-Time Strategy": 26,
       "Card & Board Game": 20,
       "Virtual Reality": 16,
-      "Point-and-Click": 12,
+      "Point-and-Click": 9,
       "Music": 6,
       "Quiz/Trivia": 5,
       "Visual Novel": 3,
@@ -186,19 +185,19 @@
       "name": "Game Pass Ultimate",
       "url": "https://gamescriptions.com/subscription/service/xbox_ultimate",
       "description": "Xbox Game Pass Ultimate includes new games on day one, a library of 500+ games on Xbox console, PC, and supported devices, and the ability to stream games anywhere at our best quality. Check out the latest games on Game Pass Ultimate. What's leaving, upcoming releases, and a full list of titles!",
-      "available_count": 658,
+      "available_count": 650,
       "genre_counts": {
-        "Adventure": 437,
-        "Indie": 202,
-        "Shooter": 176,
+        "Adventure": 428,
+        "Indie": 199,
+        "Shooter": 173,
         "Simulator": 171,
-        "Strategy": 144,
-        "Puzzle": 82,
+        "Strategy": 142,
         "Platform": 79,
+        "Puzzle": 78,
         "Arcade": 57,
         "Sport": 53,
-        "Racing": 49,
-        "Tactical": 32,
+        "Racing": 48,
+        "Tactical": 31,
         "Fighting": 29,
         "Card & Board Game": 21,
         "Music": 8,
@@ -208,9 +207,15 @@
       },
       "new_releases": [
         {
+          "name": "Gravhounds",
+          "url": "https://gamescriptions.com/game/414958",
+          "date_label": "Today",
+          "date_type": "added"
+        },
+        {
           "name": "Don't Fret",
           "url": "https://gamescriptions.com/game/289433",
-          "date_label": "Today",
+          "date_label": "Oct 31",
           "date_type": "added"
         },
         {
@@ -324,79 +329,9 @@
           "year": 2026,
           "date_label": "Oct 8",
           "date_type": "added"
-        },
-        {
-          "name": "Gears of War: E-Day",
-          "url": "https://gamescriptions.com/game/305160",
-          "year": 2026,
-          "date_label": "Oct 6",
-          "date_type": "added"
         }
       ],
       "leaving_soon": [
-        {
-          "name": "Day of the Tentacle Remastered",
-          "url": "https://gamescriptions.com/game/15862",
-          "year": 2016,
-          "date_label": "Today",
-          "date_type": "leaves"
-        },
-        {
-          "name": "Dead Static Drive",
-          "url": "https://gamescriptions.com/game/25936",
-          "year": 2025,
-          "date_label": "Today",
-          "date_type": "leaves"
-        },
-        {
-          "name": "Deep Rock Galactic",
-          "url": "https://gamescriptions.com/game/27134",
-          "year": 2020,
-          "date_label": "Today",
-          "date_type": "leaves"
-        },
-        {
-          "name": "Full Throttle Remastered",
-          "url": "https://gamescriptions.com/game/26179",
-          "year": 2017,
-          "date_label": "Today",
-          "date_type": "leaves"
-        },
-        {
-          "name": "Grim Fandango Remastered",
-          "url": "https://gamescriptions.com/game/8682",
-          "year": 2015,
-          "date_label": "Today",
-          "date_type": "leaves"
-        },
-        {
-          "name": "Lara Croft and the Temple of Osiris",
-          "url": "https://gamescriptions.com/game/7325",
-          "year": 2014,
-          "date_label": "Today",
-          "date_type": "leaves"
-        },
-        {
-          "name": "LEGO Star Wars: The Skywalker Saga",
-          "url": "https://gamescriptions.com/game/119305",
-          "year": 2022,
-          "date_label": "Today",
-          "date_type": "leaves"
-        },
-        {
-          "name": "Wartales",
-          "url": "https://gamescriptions.com/game/152257",
-          "year": 2023,
-          "date_label": "Today",
-          "date_type": "leaves"
-        },
-        {
-          "name": "Wildgate",
-          "url": "https://gamescriptions.com/game/336733",
-          "year": 2025,
-          "date_label": "Today",
-          "date_type": "leaves"
-        },
         {
           "name": "Football Manager 26",
           "url": "https://gamescriptions.com/game/365487",
@@ -407,14 +342,9 @@
       ],
       "coming_soon": [
         {
-          "name": "Gravhounds",
-          "date_label": "Nov 2",
-          "date_type": "arrives"
-        },
-        {
           "name": "Pit of Goblin",
           "year": 2024,
-          "date_label": "Nov 3",
+          "date_label": "Tomorrow",
           "date_type": "arrives"
         },
         {
@@ -1198,9 +1128,6 @@
           "name": "Date Everything!"
         },
         {
-          "name": "Day of the Tentacle Remastered"
-        },
-        {
           "name": "DayZ"
         },
         {
@@ -1225,9 +1152,6 @@
           "name": "Dead Space: Ignition"
         },
         {
-          "name": "Dead Static Drive"
-        },
-        {
           "name": "Death Howl"
         },
         {
@@ -1238,9 +1162,6 @@
         },
         {
           "name": "Deep Dish Dungeon"
-        },
-        {
-          "name": "Deep Rock Galactic"
         },
         {
           "name": "Denshattack!"
@@ -1525,9 +1446,6 @@
           "name": "Frog Sqwad"
         },
         {
-          "name": "Full Throttle Remastered"
-        },
-        {
           "name": "Fuzion Frenzy"
         },
         {
@@ -1588,13 +1506,13 @@
           "name": "Grave Seasons"
         },
         {
+          "name": "Gravhounds"
+        },
+        {
           "name": "Great God Grove"
         },
         {
           "name": "Grid Legends"
-        },
-        {
-          "name": "Grim Fandango Remastered"
         },
         {
           "name": "Grounded"
@@ -1768,9 +1686,6 @@
           "name": "Kingdom Two Crowns"
         },
         {
-          "name": "Lara Croft and the Temple of Osiris"
-        },
-        {
           "name": "League of Legends"
         },
         {
@@ -1778,9 +1693,6 @@
         },
         {
           "name": "Legends of Runeterra"
-        },
-        {
-          "name": "LEGO Star Wars: The Skywalker Saga"
         },
         {
           "name": "Like a Dragon: Infinite Wealth"
@@ -2680,9 +2592,6 @@
           "name": "Warhammer: Vermintide 2"
         },
         {
-          "name": "Wartales"
-        },
-        {
           "name": "Wasteland 2: Director's Cut"
         },
         {
@@ -2714,9 +2623,6 @@
         },
         {
           "name": "Wild Hearts"
-        },
-        {
-          "name": "Wildgate"
         },
         {
           "name": "Winds of Arcana: Ruination"
@@ -2775,30 +2681,6 @@
       ],
       "upcoming_games": [
         {
-          "name": "Gravhounds",
-          "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocrh5.jpg",
-          "description": "Gravhounds is a 1–4 player co-op action builder. Drop into hostile planets as a pack, build and defend your base in physics-driven mayhem, and extract with everything you can carry before you become alien chow. The longer you stay, the greater the danger...",
-          "genres": [
-            "Third-Person",
-            "Strategy",
-            "Indie"
-          ],
-          "game_modes": [
-            "Single-Player",
-            "Multiplayer",
-            "Co-Op"
-          ],
-          "game_style": [
-            "Action"
-          ],
-          "platforms": [
-            "Xbox Series X|S",
-            "PC (Microsoft Windows)"
-          ],
-          "availability_date": "Nov 2",
-          "availability_date_type": "arrives"
-        },
-        {
           "name": "Pit of Goblin",
           "year": 2024,
           "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9111.jpg",
@@ -2825,7 +2707,7 @@
             "Xbox Series X|S",
             "PC (Microsoft Windows)"
           ],
-          "availability_date": "Nov 3",
+          "availability_date": "Tomorrow",
           "availability_date_type": "arrives"
         },
         {
@@ -2868,7 +2750,8 @@
         {
           "name": "Football Manager 27 Console",
           "year": 2026,
-          "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cod6mb.jpg",
+          "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cod9du.jpg",
+          "description": "Flow from the tactics board to the touchline in FM27 Console, where a smoother, more immersive experience invites discovery from the moment your career begins.",
           "genres": [
             "Simulator",
             "Sport",
@@ -4464,7 +4347,7 @@
       ]
     }
   },
-  "game_count_unique": 659,
+  "game_count_unique": 651,
   "games": [
     {
       "name": "1000xResist",
@@ -4727,6 +4610,8 @@
       "leaving": false,
       "year": 2018,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vca.jpg",
+      "playtime_category": "Short & Sweet",
+      "playtime_hours": "4-9 Hours",
       "community_rating": 4.2,
       "community_sentiment": "Very Positive",
       "community_rating_count": 3,
@@ -5935,9 +5820,9 @@
       "community_rating": 4.0,
       "community_sentiment": "Very Positive",
       "community_rating_count": 2,
-      "community_total": 14,
+      "community_total": 15,
       "community_status_counts": {
-        "completed": 5,
+        "completed": 6,
         "interested": 5,
         "queued": 3,
         "no_interest": 1
@@ -6456,10 +6341,10 @@
       "community_rating": 3.5,
       "community_sentiment": "Mostly Positive",
       "community_rating_count": 1,
-      "community_total": 15,
+      "community_total": 16,
       "community_status_counts": {
         "completed": 5,
-        "interested": 4,
+        "interested": 5,
         "queued": 3,
         "abandoned": 2,
         "playing": 1
@@ -6689,9 +6574,9 @@
       "community_rating": 4.3,
       "community_sentiment": "Very Positive",
       "community_rating_count": 2,
-      "community_total": 10,
+      "community_total": 11,
       "community_status_counts": {
-        "completed": 6,
+        "completed": 7,
         "queued": 2,
         "abandoned": 1,
         "interested": 1
@@ -6976,9 +6861,9 @@
       "community_rating": 4.0,
       "community_sentiment": "Very Positive",
       "community_rating_count": 1,
-      "community_total": 6,
+      "community_total": 7,
       "community_status_counts": {
-        "completed": 3,
+        "completed": 4,
         "interested": 2,
         "queued": 1
       },
@@ -7146,10 +7031,10 @@
       "community_rating": 4.3,
       "community_sentiment": "Very Positive",
       "community_rating_count": 1,
-      "community_total": 9,
+      "community_total": 10,
       "community_status_counts": {
         "queued": 4,
-        "interested": 3,
+        "interested": 4,
         "completed": 1,
         "abandoned": 1
       },
@@ -10146,6 +10031,8 @@
       "leaving": false,
       "year": 2026,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cod2kz.jpg",
+      "playtime_category": "Bite-Sized",
+      "playtime_hours": "0-3 Hours",
       "release_date": "October 15th, 2026",
       "developer": "Featherweight Games",
       "description": "Chained Beasts is a 1-4 player co-op gladiator roguelite. Fight chaotic battles in the Colosseum while chained to your friends. Brave physical and mental injuries that change how you play."
@@ -11771,68 +11658,6 @@
       "description": "Date Everything is a sandbox dating simulator set in the comfort of your own home, featuring 100 fully voice acted datable characters! Let the romance flow between your bed, smoke alarm and… Overwhelming Sense of Existential Dread? Are you ready to Date Everything?"
     },
     {
-      "name": "Day of the Tentacle Remastered",
-      "url": "https://gamescriptions.com/game/15862",
-      "plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "plan_added_dates": {},
-      "leaving_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
-      },
-      "genres": [
-        "Side-View",
-        "Point-and-Click",
-        "Puzzle",
-        "Adventure"
-      ],
-      "game_modes": [
-        "Single-Player"
-      ],
-      "game_style": [
-        "Fantasy",
-        "Sci-Fi",
-        "Historical",
-        "Comedy",
-        "Kids"
-      ],
-      "platforms": [
-        "Xbox One",
-        "PC (Microsoft Windows)"
-      ],
-      "essential": false,
-      "pc_game_pass": true,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": true,
-      "year": 2016,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2865.jpg",
-      "playtime_category": "Short & Sweet",
-      "playtime_hours": "4-9 Hours",
-      "community_total": 4,
-      "community_status_counts": {
-        "interested": 2,
-        "queued": 1,
-        "no_interest": 1
-      },
-      "release_date": "March 21st, 2016",
-      "developer": "Double Fine Productions",
-      "description": "Originally released by LucasArts in 1993 as a sequel to Ron Gilbert’s ground breaking Maniac Mansion, Day of the Tentacle is a mind-bending, time travel, cartoon puzzle adventure game in which three unlikely friends work together to prevent an evil mutated purple tentacle from taking over the world! Now, over twenty years later, Day of t..."
-    },
-    {
       "name": "DayZ",
       "url": "https://gamescriptions.com/game/2117",
       "plans": [
@@ -12302,65 +12127,6 @@
       "description": "Dead Space Ignition is a followup to Dead Space 2, set between the two main games. The game takes the form of what executive producer Steve Papoutsis describes as an \"interactive comic-style game\" and is written by Antony Johnston, the writer of the Dead Space games and comic book series."
     },
     {
-      "name": "Dead Static Drive",
-      "url": "https://gamescriptions.com/game/25936",
-      "plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "plan_added_dates": {},
-      "leaving_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
-      },
-      "genres": [
-        "Isometric",
-        "Adventure",
-        "Indie"
-      ],
-      "game_modes": [
-        "Single-Player"
-      ],
-      "game_style": [
-        "Action",
-        "Horror",
-        "Survival"
-      ],
-      "platforms": [
-        "Xbox Series X|S",
-        "Xbox One",
-        "PC (Microsoft Windows)"
-      ],
-      "essential": false,
-      "pc_game_pass": true,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": true,
-      "year": 2025,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coarcc.jpg",
-      "playtime_category": "Short & Sweet",
-      "playtime_hours": "4-9 Hours",
-      "community_total": 2,
-      "community_status_counts": {
-        "abandoned": 1,
-        "no_interest": 1
-      },
-      "release_date": "November 5th, 2025",
-      "developer": "Team Fanclub",
-      "description": "Dead Static Drive is a horror survival adventure. You're on the road. The world begins to fall apart in front of you."
-    },
-    {
       "name": "Death Howl",
       "url": "https://gamescriptions.com/game/328347",
       "plans": [
@@ -12460,10 +12226,10 @@
       "community_rating": 4.7,
       "community_sentiment": "Overwhelmingly Positive",
       "community_rating_count": 4,
-      "community_total": 29,
+      "community_total": 30,
       "community_status_counts": {
         "queued": 10,
-        "interested": 8,
+        "interested": 9,
         "completed": 7,
         "playing": 3,
         "abandoned": 1
@@ -12587,69 +12353,6 @@
       "developer": "Behold Studios",
       "publisher": "Raw Fury",
       "description": "Co-op online multiplayer game where you must unite to survive the treacherous depths of a mysterious dungeon, navigate puzzling passageways and gather resources to improve your camping site. Encounter enemies with diverse behaviors, discover coveted treasures, and unravel enigmas within its depths."
-    },
-    {
-      "name": "Deep Rock Galactic",
-      "url": "https://gamescriptions.com/game/27134",
-      "plans": [
-        "essential",
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [
-        "essential",
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "plan_added_dates": {},
-      "leaving_dates": {
-        "essential": "Today",
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
-      },
-      "genres": [
-        "First-Person",
-        "Shooter",
-        "Adventure",
-        "Indie"
-      ],
-      "game_modes": [
-        "Single-Player",
-        "Multiplayer",
-        "Co-Op"
-      ],
-      "game_style": [
-        "Action",
-        "Sci-Fi"
-      ],
-      "platforms": [
-        "Xbox Series X|S",
-        "Xbox One",
-        "PC (Microsoft Windows)"
-      ],
-      "essential": true,
-      "pc_game_pass": true,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": true,
-      "year": 2020,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaat4.jpg",
-      "community_total": 4,
-      "community_status_counts": {
-        "abandoned": 2,
-        "interested": 2
-      },
-      "release_date": "May 13th, 2020",
-      "developer": "Ghost Ship Games",
-      "publisher": "Coffee Stain Publishing",
-      "description": "Deep Rock Galactic is a cooperative first-person shooter set on the alien planet Hoxxes IV. Players take on the role of dwarven space miners employed by an intergalactic mining corporation, completing missions in procedurally generated cave systems filled with hostile alien wildlife. The game supports up to four players who choose from di..."
     },
     {
       "name": "Denshattack!",
@@ -13645,8 +13348,8 @@
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "pc": "Today",
-        "ultimate": "Today"
+        "pc": "Oct 31",
+        "ultimate": "Oct 31"
       },
       "leaving_dates": {},
       "genres": [
@@ -15882,10 +15585,10 @@
       "community_rating": 3.7,
       "community_sentiment": "Mostly Positive",
       "community_rating_count": 3,
-      "community_total": 18,
+      "community_total": 19,
       "community_status_counts": {
         "interested": 7,
-        "completed": 4,
+        "completed": 5,
         "playing": 2,
         "queued": 2,
         "abandoned": 2,
@@ -17803,65 +17506,6 @@
       "description": "Storm The Sewers for the glory of the Swamp King! Swing, jump, catapult your friends, and eat eat EAT until you grow into a humongous Megafrog. A co-op extraction puzzle-platformer for up to 8 players."
     },
     {
-      "name": "Full Throttle Remastered",
-      "url": "https://gamescriptions.com/game/26179",
-      "plans": [
-        "essential",
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [
-        "essential",
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "plan_added_dates": {},
-      "leaving_dates": {
-        "essential": "Today",
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
-      },
-      "genres": [
-        "Side-View",
-        "Point-and-Click",
-        "Adventure"
-      ],
-      "game_modes": [
-        "Single-Player"
-      ],
-      "game_style": [],
-      "platforms": [
-        "Xbox One",
-        "PC (Microsoft Windows)"
-      ],
-      "essential": true,
-      "pc_game_pass": true,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": true,
-      "year": 2017,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24ie.jpg",
-      "playtime_category": "Short & Sweet",
-      "playtime_hours": "4-9 Hours",
-      "community_total": 6,
-      "community_status_counts": {
-        "queued": 2,
-        "interested": 2,
-        "completed": 1,
-        "no_interest": 1
-      },
-      "release_date": "April 18th, 2017",
-      "developer": "Double Fine Productions",
-      "description": "Originally released by LucasArts in 1995, Full Throttle is a classic graphic adventure game from industry legend Tim Schafer, telling the story of Ben Throttle; butt-kicking leader of biker gang the Polecats, who gets caught up in a tale of Motorcycles, Mayhem and Murder."
-    },
-    {
       "name": "Fuzion Frenzy",
       "url": "https://gamescriptions.com/game/5842",
       "plans": [
@@ -18308,15 +17952,9 @@
         "pc",
         "ultimate"
       ],
-      "new_plans": [
-        "pc",
-        "ultimate"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
-      "plan_added_dates": {
-        "pc": "Oct 6",
-        "ultimate": "Oct 6"
-      },
+      "plan_added_dates": {},
       "leaving_dates": {},
       "genres": [
         "Third-Person",
@@ -18342,7 +17980,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2026,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc77n.jpg",
@@ -18954,6 +18592,51 @@
       "description": "Grave Seasons is a supernatural murder-mystery farming simulator. Play as the new farmer in Ashenridge as you harvest crops, fish and mine, meet and romance townsfolk, build up the community... and maybe stop the murders."
     },
     {
+      "name": "Gravhounds",
+      "url": "https://gamescriptions.com/game/414958",
+      "plans": [
+        "pc",
+        "ultimate"
+      ],
+      "new_plans": [
+        "pc",
+        "ultimate"
+      ],
+      "leaving_plans": [],
+      "plan_added_dates": {
+        "pc": "Today",
+        "ultimate": "Today"
+      },
+      "leaving_dates": {},
+      "genres": [
+        "Third-Person",
+        "Strategy",
+        "Indie"
+      ],
+      "game_modes": [
+        "Single-Player",
+        "Multiplayer",
+        "Co-Op"
+      ],
+      "game_style": [
+        "Action"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ],
+      "essential": false,
+      "pc_game_pass": true,
+      "premium": false,
+      "ultimate": true,
+      "ea_play": false,
+      "ubisoft_classics": false,
+      "new": true,
+      "leaving": false,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocrh5.jpg",
+      "description": "Gravhounds is a 1–4 player co-op action builder. Drop into hostile planets as a pack, build and defend your base in physics-driven mayhem, and extract with everything you can carry before you become alien chow. The longer you stay, the greater the danger..."
+    },
+    {
       "name": "Great God Grove",
       "url": "https://gamescriptions.com/game/247082",
       "plans": [
@@ -19061,69 +18744,6 @@
       "developer": "Codemasters",
       "publisher": "Electronic Arts",
       "description": "What does it take to become a racing legend? Welcome to Grid Legends: a high-stakes driving experience that combines thrilling unpredictable motorsport, incredible race variety, and an immersive driving story that puts you at the heart of the action."
-    },
-    {
-      "name": "Grim Fandango Remastered",
-      "url": "https://gamescriptions.com/game/8682",
-      "plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "plan_added_dates": {},
-      "leaving_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
-      },
-      "genres": [
-        "Isometric",
-        "Point-and-Click",
-        "Puzzle",
-        "Adventure"
-      ],
-      "game_modes": [
-        "Single-Player"
-      ],
-      "game_style": [
-        "Comedy",
-        "Drama"
-      ],
-      "platforms": [
-        "Xbox One",
-        "PC (Microsoft Windows)"
-      ],
-      "essential": false,
-      "pc_game_pass": true,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": true,
-      "year": 2015,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co27pj.jpg",
-      "playtime_category": "A Solid Adventure",
-      "playtime_hours": "10-19 Hours",
-      "community_rating": 4.0,
-      "community_sentiment": "Very Positive",
-      "community_rating_count": 2,
-      "community_total": 7,
-      "community_status_counts": {
-        "completed": 3,
-        "interested": 2,
-        "abandoned": 1,
-        "no_interest": 1
-      },
-      "release_date": "January 26th, 2015",
-      "developer": "Double Fine Productions",
-      "description": "Something's rotten in the land of the dead, and you're being played for a sucker. Meet Manny Calavera, travel agent at the Department of Death. He sells luxury packages to souls on their four-year journey to eternal rest."
     },
     {
       "name": "Grounded",
@@ -19961,10 +19581,10 @@
       "community_rating": 4.5,
       "community_sentiment": "Very Positive",
       "community_rating_count": 1,
-      "community_total": 3,
+      "community_total": 4,
       "community_status_counts": {
-        "completed": 2,
-        "queued": 1
+        "queued": 2,
+        "completed": 2
       },
       "release_date": "September 4th, 2025",
       "developer": "Rogue Factor",
@@ -20546,11 +20166,11 @@
       "community_rating": 4.0,
       "community_sentiment": "Very Positive",
       "community_rating_count": 7,
-      "community_total": 27,
+      "community_total": 28,
       "community_status_counts": {
         "completed": 8,
+        "interested": 8,
         "playing": 7,
-        "interested": 7,
         "queued": 5
       },
       "release_date": "February 10th, 2023",
@@ -21320,6 +20940,8 @@
       "leaving": false,
       "year": 2021,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob22v.jpg",
+      "playtime_category": "A Solid Adventure",
+      "playtime_hours": "10-19 Hours",
       "community_rating": 5.0,
       "community_sentiment": "Overwhelmingly Positive",
       "community_rating_count": 1,
@@ -22219,73 +21841,6 @@
       "description": "Kingdom Two Crowns is a side-scrolling micro strategy game with a minimalist feel wrapped in a beautiful, modern pixel art aesthetic. Play the role of a monarch atop their steed and recruit loyal subjects, build your kingdom and protect it from the greedy creatures looking to steal your coins and crown."
     },
     {
-      "name": "Lara Croft and the Temple of Osiris",
-      "url": "https://gamescriptions.com/game/7325",
-      "plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "plan_added_dates": {},
-      "leaving_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
-      },
-      "genres": [
-        "Isometric",
-        "Shooter",
-        "Puzzle",
-        "Adventure"
-      ],
-      "game_modes": [
-        "Single-Player",
-        "Multiplayer",
-        "Co-Op"
-      ],
-      "game_style": [
-        "Action",
-        "Fantasy",
-        "Historical"
-      ],
-      "platforms": [
-        "Xbox One",
-        "PC (Microsoft Windows)"
-      ],
-      "essential": false,
-      "pc_game_pass": true,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": true,
-      "year": 2014,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1voe.jpg",
-      "playtime_category": "Short & Sweet",
-      "playtime_hours": "4-9 Hours",
-      "community_rating": 3.5,
-      "community_sentiment": "Mostly Positive",
-      "community_rating_count": 1,
-      "community_total": 7,
-      "community_status_counts": {
-        "no_interest": 3,
-        "completed": 2,
-        "queued": 1,
-        "interested": 1
-      },
-      "release_date": "December 8th, 2014",
-      "developer": "Crystal Dynamics",
-      "publisher": "Square Enix",
-      "description": "Lara Croft and the Temple of Osiris is the sequel to Lara Croft and the Guardian of Light, and the second game in a spin-off from the main Tomb Raider series. The two-player cooperative campaign from the first game is expanded to support up to four players. They need to work together in a platform environment to explore the temple, defeat..."
-    },
-    {
       "name": "League of Legends",
       "url": "https://gamescriptions.com/game/115",
       "plans": [
@@ -22432,73 +21987,6 @@
       "release_date": "April 30th, 2020",
       "developer": "Riot Games",
       "description": "Set in the world of League of Legends, Legends of Runeterra is the strategy card game where skill, creativity, and cleverness determine your success. Choose your champions and combine cards from different regions—each with their own style and strategic advantage—then build the perfect deck to take down the rest."
-    },
-    {
-      "name": "LEGO Star Wars: The Skywalker Saga",
-      "url": "https://gamescriptions.com/game/119305",
-      "plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "plan_added_dates": {},
-      "leaving_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
-      },
-      "genres": [
-        "First-Person",
-        "Third-Person",
-        "Puzzle",
-        "Adventure"
-      ],
-      "game_modes": [
-        "Single-Player",
-        "Multiplayer",
-        "Co-Op",
-        "Split-Screen"
-      ],
-      "game_style": [
-        "Action",
-        "Sci-Fi",
-        "Comedy"
-      ],
-      "platforms": [
-        "Xbox Series X|S",
-        "Xbox One",
-        "PC (Microsoft Windows)"
-      ],
-      "essential": false,
-      "pc_game_pass": true,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": true,
-      "year": 2022,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co28yb.jpg",
-      "playtime_category": "Lengthy Expedition",
-      "playtime_hours": "35-54 Hours",
-      "community_total": 6,
-      "community_status_counts": {
-        "queued": 2,
-        "completed": 1,
-        "abandoned": 1,
-        "interested": 1,
-        "no_interest": 1
-      },
-      "release_date": "April 5th, 2022",
-      "developer": "Traveller's Tales",
-      "publisher": "WB Games",
-      "description": "Lego Star Wars: The Skywalker Saga is a third-person action-adventure with an open world hub. Unlike previous Lego games in which players had to advance through the story in a linear order, players can now choose to start the game from any of the main Skywalker Saga episodes and complete them in any order they wish. Each episode has their..."
     },
     {
       "name": "Like a Dragon: Infinite Wealth",
@@ -26340,9 +25828,9 @@
       "community_rating": 4.0,
       "community_sentiment": "Very Positive",
       "community_rating_count": 1,
-      "community_total": 5,
+      "community_total": 6,
       "community_status_counts": {
-        "interested": 2,
+        "interested": 3,
         "queued": 1,
         "completed": 1,
         "abandoned": 1
@@ -28444,9 +27932,9 @@
       "community_rating": 4.3,
       "community_sentiment": "Very Positive",
       "community_rating_count": 1,
-      "community_total": 13,
+      "community_total": 14,
       "community_status_counts": {
-        "completed": 4,
+        "completed": 5,
         "interested": 4,
         "queued": 2,
         "playing": 1,
@@ -29912,10 +29400,10 @@
       "community_rating": 4.3,
       "community_sentiment": "Very Positive",
       "community_rating_count": 4,
-      "community_total": 12,
+      "community_total": 13,
       "community_status_counts": {
         "completed": 6,
-        "interested": 4,
+        "interested": 5,
         "queued": 2
       },
       "release_date": "May 6th, 2021",
@@ -32639,11 +32127,11 @@
       "community_rating": 4.3,
       "community_sentiment": "Very Positive",
       "community_rating_count": 4,
-      "community_total": 16,
+      "community_total": 17,
       "community_status_counts": {
         "queued": 5,
         "completed": 5,
-        "interested": 3,
+        "interested": 4,
         "playing": 1,
         "abandoned": 1,
         "no_interest": 1
@@ -34257,6 +33745,8 @@
       "leaving": false,
       "year": 2026,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coboiu.jpg",
+      "playtime_category": "Short & Sweet",
+      "playtime_hours": "4-9 Hours",
       "community_rating": 4.0,
       "community_sentiment": "Very Positive",
       "community_rating_count": 1,
@@ -36494,9 +35984,9 @@
       "community_rating": 4.5,
       "community_sentiment": "Very Positive",
       "community_rating_count": 1,
-      "community_total": 9,
+      "community_total": 10,
       "community_status_counts": {
-        "completed": 4,
+        "completed": 5,
         "interested": 3,
         "queued": 1,
         "no_interest": 1
@@ -36680,9 +36170,9 @@
       "community_rating": 4.3,
       "community_sentiment": "Very Positive",
       "community_rating_count": 1,
-      "community_total": 9,
+      "community_total": 10,
       "community_status_counts": {
-        "completed": 6,
+        "completed": 7,
         "queued": 1,
         "abandoned": 1,
         "interested": 1
@@ -36743,9 +36233,9 @@
       "community_rating": 4.5,
       "community_sentiment": "Very Positive",
       "community_rating_count": 1,
-      "community_total": 16,
+      "community_total": 17,
       "community_status_counts": {
-        "completed": 5,
+        "completed": 6,
         "interested": 4,
         "queued": 3,
         "abandoned": 3,
@@ -38879,69 +38369,6 @@
       "description": "Warhammer: Vermintide 2 is the sequel to the critically acclaimed Vermintide. It's time for players to return to the memorable first-person co-op experience with intense world class melee action."
     },
     {
-      "name": "Wartales",
-      "url": "https://gamescriptions.com/game/152257",
-      "plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "plan_added_dates": {},
-      "leaving_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
-      },
-      "genres": [
-        "Isometric",
-        "Role-Playing",
-        "Strategy",
-        "Turn-Based Strategy",
-        "Tactical",
-        "Adventure",
-        "Indie"
-      ],
-      "game_modes": [
-        "Single-Player",
-        "Multiplayer",
-        "Co-Op"
-      ],
-      "game_style": [
-        "Survival",
-        "Sandbox",
-        "Open World"
-      ],
-      "platforms": [
-        "Xbox Series X|S",
-        "PC (Microsoft Windows)"
-      ],
-      "essential": false,
-      "pc_game_pass": true,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": true,
-      "year": 2023,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6dpz.jpg",
-      "community_total": 2,
-      "community_status_counts": {
-        "queued": 1,
-        "no_interest": 1
-      },
-      "release_date": "April 12th, 2023",
-      "developer": "Shiro Games",
-      "publisher": "Shiro Unlimited",
-      "description": "Wartales is an open world RPG in which you lead a group of mercenaries in their search for wealth across a massive medieval universe. Explore the world, recruit companions, collect bounties and unravel the secrets of the tombs of the ancients!"
-    },
-    {
       "name": "Wasteland 2: Director's Cut",
       "url": "https://gamescriptions.com/game/20046",
       "plans": [
@@ -39149,9 +38576,9 @@
       "community_rating": 4.4,
       "community_sentiment": "Very Positive",
       "community_rating_count": 4,
-      "community_total": 13,
+      "community_total": 14,
       "community_status_counts": {
-        "completed": 8,
+        "completed": 9,
         "queued": 3,
         "abandoned": 1,
         "interested": 1
@@ -39562,67 +38989,6 @@
       "developer": "Omega Force",
       "publisher": "Electronic Arts",
       "description": "Prepare for an epic adventure set in a fantasy world inspired by feudal Japan. Developed by Omega Force, the Japanese studio behind Dynasty Warriors, in partnership with Electronic Arts."
-    },
-    {
-      "name": "Wildgate",
-      "url": "https://gamescriptions.com/game/336733",
-      "plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "plan_added_dates": {},
-      "leaving_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
-      },
-      "genres": [
-        "Shooter",
-        "Racing",
-        "Role-Playing",
-        "Strategy",
-        "Adventure"
-      ],
-      "game_modes": [
-        "Single-Player",
-        "Multiplayer",
-        "Co-Op"
-      ],
-      "game_style": [
-        "Action",
-        "Sci-Fi"
-      ],
-      "platforms": [
-        "Xbox Series X|S",
-        "PC (Microsoft Windows)"
-      ],
-      "essential": false,
-      "pc_game_pass": true,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": true,
-      "year": 2025,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9kqs.jpg",
-      "playtime_category": "Hearty Campaign",
-      "playtime_hours": "20-34 Hours",
-      "community_total": 1,
-      "community_status_counts": {
-        "queued": 1
-      },
-      "release_date": "July 22nd, 2025",
-      "developer": "Moonshot Games",
-      "publisher": "Dreamhaven",
-      "description": "Wildgate is a PVP multiplayer shooter that blends tactical ship-to-ship combat with fast-paced first-person action. Evade deadly environmental hazards, search for powerful weapons and ship upgrades, and be the first crew to escape with the Artifact... or the last crew left flying."
     },
     {
       "name": "Winds of Arcana: Ruination",
