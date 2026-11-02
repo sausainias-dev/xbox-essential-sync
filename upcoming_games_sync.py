@@ -134,6 +134,12 @@ def main() -> None:
     if not enriched:
         raise RuntimeError("Refusing to publish an empty upcoming-games feed")
 
+    media_coverage = {
+        field: sum(bool(game.get(field)) for game in enriched)
+        for field in ("cover_url", "screenshot_urls", "trailer_url", "gameplay_url", "playtime_hours")
+    }
+    print("Upcoming media/playtime coverage:", media_coverage)
+
     feed = {
         "source": "Subli.one Xbox Game Pass Ultimate",
         "updated_at": datetime.now(timezone.utc).isoformat(),
