@@ -21,7 +21,7 @@ def collect_upcoming(page) -> list[dict]:
     for i in range(headings.count()):
         heading = headings.nth(i)
         label = catalog.clean(heading.inner_text())
-        if re.search(r"coming\\s+soon", label, re.I):
+        if re.search(r"coming\s+soon", label, re.I):
             box = heading.bounding_box()
             if box:
                 candidates.append((heading, label, box["y"]))
@@ -40,7 +40,7 @@ def collect_upcoming(page) -> list[dict]:
     target, target_label, start_y = min(
         candidates,
         key=lambda item: (
-            0 if re.fullmatch(r"coming\\s+soon(?:\\s*\\(.*\\))?", item[1], re.I) else 1,
+            0 if re.fullmatch(r"coming\s+soon(?:\s*\(.*\))?", item[1], re.I) else 1,
             item[2],
         ),
     )
@@ -49,7 +49,7 @@ def collect_upcoming(page) -> list[dict]:
         heading = headings.nth(i)
         label = catalog.clean(heading.inner_text())
         box = heading.bounding_box()
-        if box and box["y"] > start_y and re.match(r"^Available\\s+Games\\b", label, re.I):
+        if box and box["y"] > start_y and re.match(r"^Available\s+Games\b", label, re.I):
             end_y = min(end_y, box["y"])
 
     results, seen = [], set()
@@ -76,7 +76,7 @@ def collect_upcoming(page) -> list[dict]:
                 candidate = catalog.clean(node.inner_text(timeout=1200))
             except Exception:
                 candidate = ""
-            if re.search(r"(?:Arrives:|\\bTBD\\b)", candidate, re.I):
+            if re.search(r"(?:Arrives:|\bTBD\b)", candidate, re.I):
                 card_text = candidate
                 break
             try:
@@ -87,11 +87,11 @@ def collect_upcoming(page) -> list[dict]:
         item = {"name": name, "url": url}
         if year:
             item["year"] = year
-        match = re.search(r"Arrives:\\s*([^\\n]+)", card_text, re.I)
+        match = re.search(r"Arrives:\s*([^\n]+)", card_text, re.I)
         if match:
             item["availability_date"] = catalog.clean(match.group(1))
             item["availability_date_type"] = "arrives"
-        elif re.search(r"\\bTBD\\b", card_text, re.I):
+        elif re.search(r"\bTBD\b", card_text, re.I):
             item["availability_date"] = "TBD"
             item["availability_date_type"] = "tbd"
         results.append(item)
