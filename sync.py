@@ -8,7 +8,7 @@ import re
 import time
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import urljoin, urlsplit, urlunsplit
+from urllib.parse import unquote, urljoin, urlsplit, urlunsplit
 
 import requests
 from bs4 import BeautifulSoup
@@ -642,6 +642,21 @@ def extract_game_media(soup: BeautifulSoup, page_url: str) -> tuple[list[str], s
             candidate = part.strip().split()
             if candidate:
                 add_screenshot(candidate[0], context)
+
+    # Next.js pages can keep the full gallery only inside script/JSON payloads,
+    # so scan the decoded document as well as the visible DOM above.
+    raw_document = html_lib.unescape(str(soup)).replace("\\\\/", "/")
+    raw_document = raw_document.replace("\\\\u0026", "&").replace("\\\\u003d", "=")
+    decoded_document = unquote(raw_document)
+    igdb_image_pattern = re.compile(
+        r"""https?://images\\.igdb\\.com/igdb/image/upload/[^"'\\s<>\\\\]+""",
+        re.I
+    )
+    for match in igdb_image_pattern.finditer(decoded_document):
+        candidate = match.group(0).rstrip("),;]")
+        # IGDB gallery URLs use the screenshot transformation; ignore cover-art variants.
+        if re.search(r"t_screenshot|screenshot", candidate, re.I):
+            add_screenshot(candidate, "gallery screenshot")
 
     # Gallery images are sometimes supplied as CSS background URLs rather than <img> tags.
     for tag in soup.find_all(style=True):
