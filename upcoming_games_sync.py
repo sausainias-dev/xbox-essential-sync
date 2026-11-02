@@ -173,9 +173,15 @@ def main() -> None:
     if OUT_JSON.exists():
         try:
             previous = json.loads(OUT_JSON.read_text(encoding="utf-8"))
-            previous_count = len(previous.get("games", []))
-        except (OSError, json.JSONDecodeError, AttributeError, TypeError):
-            previous_count = 0
+            previous_games = previous.get("games", [])
+            if not isinstance(previous_games, list):
+                raise ValueError("the previous games field is not a list")
+            previous_count = len(previous_games)
+        except (OSError, json.JSONDecodeError, AttributeError, TypeError, ValueError) as exc:
+            raise RuntimeError(
+                f"Cannot validate the existing Upcoming feed ({exc}); "
+                "leaving the published JSON and HTML untouched."
+            ) from exc
 
     minimum_expected = max(3, (previous_count + 1) // 2) if previous_count else 1
     if len(games) < minimum_expected:
