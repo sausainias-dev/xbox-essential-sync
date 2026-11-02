@@ -649,7 +649,7 @@ def extract_game_media(soup: BeautifulSoup, page_url: str) -> tuple[list[str], s
     raw_document = raw_document.replace("\\\\u0026", "&").replace("\\\\u003d", "=")
     decoded_document = unquote(raw_document)
     igdb_image_pattern = re.compile(
-        r"""https?://images\\.igdb\\.com/igdb/image/upload/[^"'\\s<>\\\\]+""",
+        r"""https?://images\.igdb\.com/igdb/image/upload/[^"'\s<>\\]+""",
         re.I
     )
     for match in igdb_image_pattern.finditer(decoded_document):
