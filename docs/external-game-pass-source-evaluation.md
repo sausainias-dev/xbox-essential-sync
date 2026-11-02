@@ -52,3 +52,49 @@ The existing production sync remains unchanged. In particular:
 ## Next safe integration step
 
 If a stable public deployment of xbox-store-api becomes available, run a read-only comparison against the existing catalogue and report exact-ID matches, title-only candidates, platform conflicts and date coverage. Do not publish imported dates until the endpoint response and date semantics are verified.
+
+
+## Read-only LT catalogue cross-check (verified configuration)
+
+The current README and `config.schema.json` of `NikkelM/Game-Pass-API` confirm:
+- `LT` is an accepted market code.
+- `platformsToFetch` accepts `console`, `pc` and `eaPlay`.
+- `includedProperties.productId` can be enabled, and `outputFormat: "array"` keeps records easy to compare.
+- `keepCompleteProperties: true` preserves the raw per-platform/per-market responses for reproducibility.
+- The CLI requires Node.js `>=22.13.0`.
+
+Important localization limitation: `lt-lt` is **not** in the currently documented language enum. A run for market `LT` must therefore use a supported fallback locale (for example `en-gb`); the market and language are separate settings. This is suitable for product-ID matching, not for generating Lithuanian display text.
+
+Suggested read-only configuration (do not write its output into the production catalogue automatically):
+
+```json
+{
+  "$schema": "config.schema.json",
+  "markets": ["LT"],
+  "language": "en-gb",
+  "platformsToFetch": ["console", "pc", "eaPlay"],
+  "outputFormat": "array",
+  "includedProperties": {
+    "productTitle": true,
+    "productId": true,
+    "developerName": true,
+    "publisherName": true,
+    "categories": true,
+    "releaseDate": {
+      "enabled": true,
+      "format": "date"
+    }
+  },
+  "keepCompleteProperties": true,
+  "outputDirectory": "output-lt"
+}
+```
+
+Interpretation constraints:
+- This feed describes current catalogue membership at fetch time. It is not an archive of historical additions.
+- `console`, `pc` and `eaPlay` are platform/feed partitions, not proof of Essential, Premium or Ultimate entitlement. Do not translate them directly into the site's plan labels.
+- `releaseDate` is the original game release date, never a substitute for `plan_added_dates`.
+- Use exact Microsoft product IDs as the first matching key. If the production JSON lacks IDs, generate a separate candidate report using normalized titles and require manual review; do not silently merge fuzzy matches.
+- Keep the raw response and fetch timestamp so future snapshots can be compared, but record that the first snapshot only establishes an observed baseline, not the historical date a game joined Game Pass.
+
+Source: https://github.com/NikkelM/Game-Pass-API (README, `config.schema.json`, `package.json`; checked 2026-11-02).
