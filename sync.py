@@ -884,7 +884,10 @@ def render_upcoming_html(feed: dict) -> str:
         modes = game.get("game_modes", [])
         cover = game.get("cover_url", "")
         images = game.get("screenshot_urls", [])
-        trailer = game.get("trailer_url") or game.get("gameplay_url")
+        videos = [
+            ("Trailer", game.get("trailer_url")),
+            ("Gameplay", game.get("gameplay_url")),
+        ]
         title = name + (f" ({year})" if year else "")
         tags = " ".join(esc(x) for x in genres)
         details = []
@@ -915,15 +918,20 @@ def render_upcoming_html(feed: dict) -> str:
                 f'<img src="{esc(src)}" alt="{name} screenshot {n}" loading="lazy">'
                 for n, src in enumerate(images[:8], 1)
             ) + "</div>"
-        if trailer:
+        for video_label, video_url in videos:
+            if not video_url:
+                continue
             video_id = ""
-            m = re.search(r"(?:youtube\.com/watch\?v=|youtu\.be/|youtube\.com/embed/)([A-Za-z0-9_-]{6,})", trailer)
+            m = re.search(
+                r"(?:youtube(?:-nocookie)?\\.com/(?:watch\\?[^\\s]*?v=|embed/|shorts/)|youtu\\.be/)([A-Za-z0-9_-]{6,})",
+                str(video_url), re.I
+            )
             if m:
                 video_id = m.group(1)
             if video_id:
-                media += f'<div class="video"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/{esc(video_id)}" title="{name} trailer" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>'
+                media += f'<div class="video"><p><strong>{esc(video_label)}:</strong></p><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/{esc(video_id)}" title="{name} {esc(video_label.lower())}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>'
             else:
-                media += f'<p><a href="{esc(trailer)}" rel="noopener" target="_blank">Watch video</a></p>'
+                media += f'<p><a href="{esc(video_url)}" rel="noopener" target="_blank">{esc(video_label)}</a></p>'
         cards.append(
             f'<article class="game-card" data-title="{name.lower()}" data-genres="{tags.lower()}">'
             f'<div class="game-media">{media}</div><div class="game-info">'
