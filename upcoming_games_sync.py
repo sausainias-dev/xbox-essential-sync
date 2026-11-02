@@ -15,71 +15,98 @@ OUT_HTML = Path("upcoming-game-pass-games.html")
 OUT_JSON = Path("upcoming-game-pass-games.json")
 
 def collect_upcoming(page) -> list[dict]:
+    """Find Coming Soon robustly and stop only at the Available Games section."""
     headings = page.locator("h1,h2,h3,h4")
-    target = None
+    candidates = []
     for i in range(headings.count()):
-        label = catalog.clean(headings.nth(i).inner_text())
-        if re.match(r"^Coming\s+Soon\b", label, re.I):
-            target = headings.nth(i)
-            break
-    if target is None:
-        raise RuntimeError("Coming Soon section was not found; refusing to publish empty data")
+        heading = headings.nth(i)
+        label = catalog.clean(heading.inner_text())
+        if re.search(r"coming\s+soon", label, re.I):
+            box = heading.bounding_box()
+            if box:
+                candidates.append((heading, label, box["y"]))
 
-    start = target.bounding_box()
-    if not start:
-        raise RuntimeError("Could not locate Coming Soon section")
+    if not candidates:
+        body = catalog.clean(page.locator("body").inner_text())
+        # Do not infer an empty feed from a missing selector. The source may have
+        # changed markup; keep the existing published JSON/HTML untouched.
+        excerpt = body[:1200]
+        raise RuntimeError(
+            "Coming Soon section not found in visible headings. "
+            f"Page title={page.title()!r}; body excerpt={excerpt!r}. Nothing published."
+        )
+
+    # Prefer an exact/near-exact section heading over incidental card text.
+    target, target_label, start_y = min(
+        candidates,
+        key=lambda item: (
+            0 if re.fullmatch(r"coming\s+soon(?:\s*\(.*\))?", item[1], re.I) else 1,
+            item[2],
+        ),
+    )
     end_y = float("inf")
     for i in range(headings.count()):
-        h = headings.nth(i)
-        label = catalog.clean(h.inner_text())
-        if re.match(r"^Available\s+Games\b", label, re.I):
-            box = h.bounding_box()
-            if box and box["y"] > start["y"]:
-                end_y = box["y"]
-                break
+        heading = headings.nth(i)
+        label = catalog.clean(heading.inner_text())
+        box = heading.bounding_box()
+        if box and box["y"] > start_y and re.match(r"^Available\s+Games\b", label, re.I):
+            end_y = min(end_y, box["y"])
 
     results, seen = [], set()
     links = page.locator('a[href*="/game/"]')
     for i in range(links.count()):
-        a = links.nth(i)
-        box = a.bounding_box()
-        if not box or not (start["y"] < box["y"] < end_y):
+        anchor = links.nth(i)
+        try:
+            box = anchor.bounding_box()
+        except Exception:
+            box = None
+        if not box or not (start_y < box["y"] < end_y):
             continue
-        href = a.get_attribute("href") or ""
+        href = anchor.get_attribute("href") or ""
         url = urljoin(page.url, href)
-        name, year = catalog.clean_title(a.inner_text())
+        name, year = catalog.clean_title(anchor.inner_text())
         if not name or url in seen:
             continue
         seen.add(url)
-        date_text = ""
-        node = a
+
+        card_text = ""
+        node = anchor
         for _ in range(6):
             try:
-                text = catalog.clean(node.inner_text(timeout=1200))
+                candidate = catalog.clean(node.inner_text(timeout=1200))
             except Exception:
-                text = ""
-            if re.search(r"Arrives:|\bTBD\b", text, re.I):
-                date_text = text
+                candidate = ""
+            if re.search(r"(?:Arrives:|\bTBD\b)", candidate, re.I):
+                card_text = candidate
                 break
             try:
                 node = node.locator("xpath=..")
             except Exception:
                 break
+
         item = {"name": name, "url": url}
         if year:
             item["year"] = year
-        match = re.search(r"Arrives:\s*([^\n]+)", date_text, re.I)
+        match = re.search(r"Arrives:\s*([^\n]+)", card_text, re.I)
         if match:
             item["availability_date"] = catalog.clean(match.group(1))
             item["availability_date_type"] = "arrives"
-        elif re.search(r"\bTBD\b", date_text, re.I):
+        elif re.search(r"\bTBD\b", card_text, re.I):
             item["availability_date"] = "TBD"
             item["availability_date_type"] = "tbd"
         results.append(item)
+
+    # A matching heading with no cards may be a temporary source rendering issue.
     if not results:
-        raise RuntimeError("Coming Soon was found but zero games were extracted; refusing to overwrite published files")
-    # Exclude the generic Football Manager 27 entry; the Console edition is a separate listing.
-    results = [game for game in results if catalog.clean(game.get("name", "")).casefold() != "football manager 27"]
+        raise RuntimeError(
+            f"Coming Soon heading {target_label!r} was found but zero games were extracted. "
+            "Nothing will be published."
+        )
+
+    results = [
+        game for game in results
+        if catalog.clean(game.get("name", "")).casefold() != "football manager 27"
+    ]
     print(f"Found {len(results)} upcoming Game Pass games after exclusions")
     return results
 
