@@ -3,6 +3,7 @@ name: Xbox Game Pass Sync
 on:
   workflow_dispatch:
   push:
+    branches: [main]
     paths:
       - "sync.py"
       - "requirements.txt"
@@ -10,8 +11,6 @@ on:
   schedule:
     - cron: "0 */6 * * *"
 
-# Serialize every publisher so two runners cannot rebase/push generated data
-# at the same time. The dedicated upcoming workflow owns the upcoming files.
 concurrency:
   group: xbox-game-pass-data-publish
   cancel-in-progress: false
@@ -22,37 +21,35 @@ permissions:
 jobs:
   sync:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
+        with:
+          ref: main
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
           python -m playwright install --with-deps chromium
-
+      - name: Test media and playtime extraction
+        run: python -m unittest discover -s tests -v
       - name: Sync Xbox Game Pass catalog
         run: python sync.py
-
-      - name: Commit changes
+      - name: Commit and publish catalog
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          # xbox-essential.json is owned by this workflow.
-          # upcoming-game-pass-games.json/.html are owned by upcoming-games.yml.
           git add xbox-essential.json
-
-          if [ -f xbox-metadata-cache.json ]; then
-            git add xbox-metadata-cache.json
+          if [ -f xbox-metadata-cache.json ]; then git add xbox-metadata-cache.json; fi
+          if git diff --cached --quiet; then
+            echo "No catalog changes."
+            exit 0
           fi
-
-          git diff --cached --quiet || git commit -m "Update Xbox Game Pass catalog"
-          git pull --rebase origin main
-          git push
+          git commit -m "Update Xbox Game Pass catalog"
+          git push origin HEAD:main
