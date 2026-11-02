@@ -26,9 +26,9 @@ jobs:
     timeout-minutes: 45
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: "3.12"
       - name: Install dependencies
@@ -44,5 +44,6 @@ jobs:
           # This workflow is the sole owner of the generated upcoming files.
           git add upcoming-game-pass-games.html upcoming-game-pass-games.json
           git diff --cached --quiet || git commit -m "Refresh upcoming Game Pass page"
-          git pull --rebase origin "${GITHUB_REF_NAME:-main}"
-          git push origin "HEAD:${GITHUB_REF_NAME:-main}"
+          BRANCH="${GITHUB_REF_NAME:-main}"
+          git pull --rebase origin "$BRANCH"
+          git push origin "HEAD:$BRANCH"
