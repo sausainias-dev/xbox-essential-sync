@@ -685,8 +685,18 @@ def extract_game_media(soup: BeautifulSoup, page_url: str) -> tuple[list[str], s
                 "data-embed", "content", "title", "alt", "class", "id"
             )
         )
+        context_parts = []
+        node = tag
+        for _ in range(5):
+            if node is None:
+                break
+            classes = node.get("class", [])
+            context_parts.append(" ".join(classes) if isinstance(classes, list) else str(classes))
+            context_parts.append(str(node.get("id", "")))
+            context_parts.append(str(node.get("data-video", "")))
+            node = node.parent
         parent_text = clean(tag.parent.get_text(" ", strip=True)) if tag.parent else ""
-        context = clean(attrs + " " + parent_text).casefold()
+        context = clean(attrs + " " + " ".join(context_parts) + " " + parent_text).casefold()
         video_id = find_video_id(attrs)
         if video_id:
             kind = "gameplay_url" if re.search(r"gameplay|walkthrough|playthrough", context, re.I) else "trailer_url"
@@ -923,7 +933,7 @@ def render_upcoming_html(feed: dict) -> str:
                 continue
             video_id = ""
             m = re.search(
-                r"(?:youtube(?:-nocookie)?\\.com/(?:watch\\?[^\\s]*?v=|embed/|shorts/)|youtu\\.be/)([A-Za-z0-9_-]{6,})",
+                r"(?:youtube(?:-nocookie)?\.com/(?:watch\?[^\s]*?v=|embed/|shorts/)|youtu\.be/)([A-Za-z0-9_-]{6,})",
                 str(video_url), re.I
             )
             if m:
