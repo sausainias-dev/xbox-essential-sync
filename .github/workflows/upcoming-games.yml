@@ -5,14 +5,11 @@ on:
   push:
     paths:
       - "upcoming_games_sync.py"
-      - "sync.py"
       - "requirements.txt"
       - ".github/workflows/upcoming-games.yml"
   schedule:
     - cron: "17 */6 * * *"
 
-# Share one publisher queue with the full catalog sync workflow.
-# This prevents concurrent rebases/pushes to generated catalog data.
 concurrency:
   group: xbox-game-pass-data-publish
   cancel-in-progress: false
@@ -27,6 +24,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: main
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
@@ -37,12 +36,15 @@ jobs:
           python -m playwright install --with-deps chromium
       - name: Scrape upcoming games and render standalone HTML
         run: python upcoming_games_sync.py
-      - name: Commit generated page
+      - name: Commit and publish upcoming data
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          # This workflow is the sole owner of the generated upcoming files.
           git add upcoming-game-pass-games.html upcoming-game-pass-games.json
-          git diff --cached --quiet || git commit -m "Refresh upcoming Game Pass page"
-          git pull --rebase origin "${GITHUB_REF_NAME:-main}"
-          git push origin "HEAD:${GITHUB_REF_NAME:-main}"
+          if git diff --cached --quiet; then
+            echo "No upcoming-game changes."
+            exit 0
+          fi
+          git commit -m "Refresh upcoming Game Pass page"
+          git push origin HEAD:main
