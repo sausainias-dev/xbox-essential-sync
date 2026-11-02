@@ -1,36 +1,12 @@
 {
   "source": "Subli.one Xbox Game Pass Ultimate",
-  "updated_at": "2026-11-01T22:09:10.799696+00:00",
-  "count": 68,
+  "updated_at": "2026-11-02T12:12:52.884244+00:00",
+  "count": 67,
   "games": [
-    {
-      "name": "Gravhounds",
-      "availability_date": "Tomorrow",
-      "availability_date_type": "arrives",
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocrh5.jpg",
-      "description": "Gravhounds is a 1–4 player co-op action builder. Drop into hostile planets as a pack, build and defend your base in physics-driven mayhem, and extract with everything you can carry before you become alien chow. The longer you stay, the greater the danger...",
-      "genres": [
-        "Third-Person",
-        "Strategy",
-        "Indie"
-      ],
-      "game_modes": [
-        "Single-Player",
-        "Multiplayer",
-        "Co-Op"
-      ],
-      "game_style": [
-        "Action"
-      ],
-      "platforms": [
-        "Xbox Series X|S",
-        "PC (Microsoft Windows)"
-      ]
-    },
     {
       "name": "Pit of Goblin",
       "year": 2024,
-      "availability_date": "Nov 3",
+      "availability_date": "Tomorrow",
       "availability_date_type": "arrives",
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9111.jpg",
       "release_date": "December 17th, 2024",
