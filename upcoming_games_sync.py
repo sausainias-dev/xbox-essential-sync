@@ -145,12 +145,18 @@ def collect_upcoming(page) -> list[dict]:
             item["availability_date_type"] = "tbd"
         results.append(item)
 
+    # Exclude the generic Football Manager 27 entry; the Console edition is
+    # listed separately and has its own Game Pass availability.
+    results = [
+        game for game in results
+        if catalog.clean(game.get("name", "")).casefold() != "football manager 27"
+    ]
     if not results:
         raise RuntimeError(
-            "The Coming Soon section was identified, but no game cards were found "
+            "The Coming Soon section was identified, but no valid game cards were found "
             "inside its boundaries; refusing to overwrite the published feed."
         )
-    print(f"Found {len(results)} upcoming Game Pass games before exclusions")
+    print(f"Found {len(results)} upcoming Game Pass games after exclusions")
     return results
 
 def main() -> None:
