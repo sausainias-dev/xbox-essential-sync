@@ -1150,7 +1150,7 @@ def main() -> None:
                 current = merged.setdefault(game["url"], {"name": game["name"], "url": game["url"]})
                 current.update({
                     k: v for k, v in game.items()
-                    if k not in {"plans", "new_plans", "leaving_plans", "plan_added_dates", "leaving_dates"}
+                    if k not in {"plans", "new_plans", "leaving_plans", "plan_added_dates", "leaving_dates", "new_plan_order", "leaving_plan_order"}
                 })
                 for key in ("plans", "new_plans", "leaving_plans"):
                     current.setdefault(key, []).extend(game.get(key, []))
