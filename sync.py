@@ -1114,10 +1114,10 @@ def main() -> None:
             # Unlike the legacy heading scan, this stops at the next major section
             # and cannot accidentally absorb the full Available Games list.
             new_section = index_service_section(
-                collect_service_section(page, r"^New Releases\\b")
+                collect_service_section(page, r"^New Releases\b")
             )
             leaving_section = index_service_section(
-                collect_service_section(page, r"^Leaving Soon\\b")
+                collect_service_section(page, r"^Leaving Soon\b")
             )
             if len(leaving_section) > max(40, int(expected * 0.25)):
                 raise RuntimeError(
