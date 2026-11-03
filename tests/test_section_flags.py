@@ -58,5 +58,57 @@ class ServiceSectionIndexTests(unittest.TestCase):
         self.assertEqual(normalized["new_plan_order"], {})
 
 
+
+class HistoricalAddedDateTests(unittest.TestCase):
+    def test_parse_history_table_day_and_month_precision(self):
+        html = """
+        <table>
+          <thead><tr><th>Game</th><th>Platform</th><th>Tier</th><th>Added</th><th>Left</th></tr></thead>
+          <tbody>
+            <tr><td>Example Game</td><td>PC</td><td>PC</td><td>21 Oct 2026</td><td></td></tr>
+            <tr><td>Month Only</td><td>Xbox Series X</td><td>Console</td><td>October 2026</td><td></td></tr>
+            <tr><td>Unknown Date</td><td>PC</td><td>PC</td><td></td><td></td></tr>
+          </tbody>
+        </table>
+        """
+        records = sync.parse_game_pass_history(html)
+        self.assertEqual(len(records), 2)
+        self.assertEqual(records[0]["added"], "Oct 21, 2026")
+        self.assertEqual(records[0]["precision"], "day")
+        self.assertEqual(records[1]["added"], "October 2026")
+        self.assertEqual(records[1]["precision"], "month")
+
+    def test_enriches_dates_by_matching_title_and_platform(self):
+        records = [
+            {"name":"Cross Platform", "title_key":sync.normalize_history_title("Cross Platform"),
+             "platform":"PC", "platform_key":"pc", "tier":"PC",
+             "added":"Oct 21, 2026", "precision":"day", "left":""},
+            {"name":"Cross Platform", "title_key":sync.normalize_history_title("Cross Platform"),
+             "platform":"Xbox Series X", "platform_key":"console", "tier":"Console",
+             "added":"Oct 23, 2026", "precision":"day", "left":""},
+        ]
+        games = [{
+            "name":"Cross Platform", "url":"https://example.test/game",
+            "plans":["pc","ultimate"], "platforms":["PC (Microsoft Windows)","Xbox Series X|S"],
+            "plan_added_dates":{}
+        }]
+        stats = sync.enrich_plan_added_dates(games, records)
+        self.assertEqual(games[0]["plan_added_dates"]["pc"], "Oct 21, 2026")
+        self.assertEqual(games[0]["plan_added_dates"]["ultimate"], "Oct 21, 2026")
+        self.assertEqual(games[0]["plan_added_date_platforms"]["ultimate"],
+                         {"pc":"Oct 21, 2026","console":"Oct 23, 2026"})
+        self.assertEqual(stats["filled_plan_dates"], 2)
+
+    def test_preserves_existing_fully_dated_source_value(self):
+        record = {"name":"Preserve Me", "title_key":sync.normalize_history_title("Preserve Me"),
+                  "platform":"PC", "platform_key":"pc", "tier":"PC",
+                  "added":"Oct 23, 2026", "precision":"day", "left":""}
+        game = {"name":"Preserve Me","url":"https://example.test/game","plans":["pc"],
+                "platforms":["PC (Microsoft Windows)"],
+                "plan_added_dates":{"pc":"Sep 1, 2025"}}
+        sync.enrich_plan_added_dates([game],[record])
+        self.assertEqual(game["plan_added_dates"]["pc"], "Sep 1, 2025")
+
+
 if __name__ == "__main__":
     unittest.main()
