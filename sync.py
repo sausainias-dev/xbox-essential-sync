@@ -888,7 +888,7 @@ def normalize_history_title(value: str) -> str:
     value = value.casefold().replace("&", " and ")
     value = re.sub(r"[™®©]", "", value)
     value = re.sub(r"[^a-z0-9]+", " ", value)
-    return re.sub(r"\\s+", " ", value).strip()
+    return " ".join(value.split())
 
 
 def normalize_history_date(value: str) -> tuple[str | None, str | None]:
@@ -957,7 +957,7 @@ def parse_game_pass_history(html: str) -> list[dict]:
 
 def history_platform_key(platform: str) -> str:
     value = clean(platform).casefold()
-    if re.search(r"\\bpc\\b|windows", value):
+    if value == "pc" or "windows" in value or " pc " in f" {value} ":
         return "pc"
     if "series" in value:
         return "xbox_series"
@@ -973,7 +973,7 @@ def catalog_platform_keys(platforms: list[str]) -> set[str]:
     result = set()
     for platform in platforms or []:
         value = clean(str(platform)).casefold()
-        if re.search(r"\\bpc\\b|windows", value):
+        if value == "pc" or "windows" in value or " pc " in f" {value} ":
             result.add("pc")
         elif "series" in value:
             result.add("xbox_series")
@@ -1033,7 +1033,7 @@ def enrich_plan_added_dates(games: list[dict], records: list[dict]) -> dict:
                 # The page's own dated value wins; history is used to fill gaps
                 # and to upgrade yearless month/day values only when verified.
                 raw = str(existing_dates[plan]).strip()
-                if re.search(r"\\b(?:19|20|21)\\d{2}\\b", raw):
+                if re.search(r"(?:19|20|21)[0-9]{2}", raw):
                     continue
             if plan == "pc":
                 keys = ["pc"]
