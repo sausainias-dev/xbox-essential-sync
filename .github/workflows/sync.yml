@@ -46,6 +46,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add xbox-essential.json
+          if [ -f xbox-essential-added-dates.json ]; then git add xbox-essential-added-dates.json; fi
           if [ -f xbox-metadata-cache.json ]; then git add xbox-metadata-cache.json; fi
           if git diff --cached --quiet; then
             echo "No catalog changes."
