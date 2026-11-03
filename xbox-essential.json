@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-11-03T00:33:32.756808+00:00",
+  "updated_at": "2026-11-03T13:19:48.179298+00:00",
   "service_counts": {
     "essential": 67,
     "pc": 573,
@@ -11959,13 +11959,13 @@
       "community_rating": 4.0,
       "community_sentiment": "Very Positive",
       "community_rating_count": 4,
-      "community_total": 22,
+      "community_total": 23,
       "community_status_counts": {
         "completed": 9,
         "interested": 6,
         "queued": 4,
-        "abandoned": 2,
-        "playing": 1
+        "playing": 2,
+        "abandoned": 2
       },
       "release_date": "November 10th, 2020",
       "developer": "Ubisoft Montreal",
@@ -25364,10 +25364,10 @@
       "community_rating": 4.3,
       "community_sentiment": "Very Positive",
       "community_rating_count": 2,
-      "community_total": 16,
+      "community_total": 17,
       "community_status_counts": {
+        "queued": 7,
         "interested": 7,
-        "queued": 6,
         "completed": 3
       },
       "release_date": "November 11th, 2016",
@@ -26676,10 +26676,10 @@
       "community_rating": 4.3,
       "community_sentiment": "Very Positive",
       "community_rating_count": 1,
-      "community_total": 14,
+      "community_total": 15,
       "community_status_counts": {
         "interested": 6,
-        "queued": 3,
+        "queued": 4,
         "completed": 3,
         "abandoned": 1,
         "no_interest": 1
@@ -31587,9 +31587,9 @@
       "community_rating": 4.5,
       "community_sentiment": "Very Positive",
       "community_rating_count": 2,
-      "community_total": 12,
+      "community_total": 13,
       "community_status_counts": {
-        "completed": 7,
+        "completed": 8,
         "queued": 2,
         "interested": 2,
         "abandoned": 1
@@ -31867,10 +31867,10 @@
       "community_rating": 3.9,
       "community_sentiment": "Very Positive",
       "community_rating_count": 4,
-      "community_total": 15,
+      "community_total": 16,
       "community_status_counts": {
         "completed": 6,
-        "queued": 4,
+        "queued": 5,
         "interested": 4,
         "no_interest": 1
       },
@@ -40762,12 +40762,13 @@
       "community_rating": 4.0,
       "community_sentiment": "Very Positive",
       "community_rating_count": 7,
-      "community_total": 28,
+      "community_total": 29,
       "community_status_counts": {
         "completed": 8,
         "interested": 8,
         "playing": 7,
-        "queued": 5
+        "queued": 5,
+        "abandoned": 1
       },
       "release_date": "February 10th, 2023",
       "developer": "Avalanche Software",
@@ -40867,11 +40868,11 @@
       "community_rating": 4.8,
       "community_sentiment": "Overwhelmingly Positive",
       "community_rating_count": 2,
-      "community_total": 20,
+      "community_total": 21,
       "community_status_counts": {
         "interested": 7,
         "completed": 6,
-        "queued": 4,
+        "queued": 5,
         "abandoned": 2,
         "playing": 1
       },
@@ -49473,9 +49474,9 @@
       ],
       "playtime_category": "Hearty Campaign",
       "playtime_hours": "20-34 Hours",
-      "community_total": 5,
+      "community_total": 6,
       "community_status_counts": {
-        "queued": 2,
+        "queued": 3,
         "completed": 1,
         "abandoned": 1,
         "no_interest": 1
@@ -58856,10 +58857,11 @@
       "community_rating": 5.0,
       "community_sentiment": "Overwhelmingly Positive",
       "community_rating_count": 1,
-      "community_total": 8,
+      "community_total": 9,
       "community_status_counts": {
         "completed": 3,
         "no_interest": 3,
+        "queued": 1,
         "abandoned": 1,
         "interested": 1
       },
@@ -61791,8 +61793,9 @@
       ],
       "playtime_category": "Hearty Campaign",
       "playtime_hours": "20-34 Hours",
-      "community_total": 1,
+      "community_total": 2,
       "community_status_counts": {
+        "queued": 1,
         "no_interest": 1
       },
       "release_date": "September 15th, 2026",
@@ -64083,12 +64086,12 @@
       "community_rating": 5.0,
       "community_sentiment": "Overwhelmingly Positive",
       "community_rating_count": 1,
-      "community_total": 9,
+      "community_total": 10,
       "community_status_counts": {
         "interested": 4,
         "playing": 2,
-        "no_interest": 2,
-        "queued": 1
+        "queued": 2,
+        "no_interest": 2
       },
       "release_date": "February 16th, 2024",
       "developer": "Ubisoft Singapore",
@@ -66120,9 +66123,9 @@
       "community_rating": 4.3,
       "community_sentiment": "Very Positive",
       "community_rating_count": 4,
-      "community_total": 17,
+      "community_total": 18,
       "community_status_counts": {
-        "queued": 5,
+        "queued": 6,
         "completed": 5,
         "interested": 4,
         "playing": 1,
@@ -74515,13 +74518,13 @@
       "community_rating": 4.8,
       "community_sentiment": "Overwhelmingly Positive",
       "community_rating_count": 2,
-      "community_total": 14,
+      "community_total": 15,
       "community_status_counts": {
         "completed": 6,
         "interested": 3,
+        "queued": 2,
         "abandoned": 2,
-        "no_interest": 2,
-        "queued": 1
+        "no_interest": 2
       },
       "release_date": "March 6th, 2017",
       "developer": "Ubisoft Paris",
@@ -74757,9 +74760,9 @@
       "community_rating": 4.3,
       "community_sentiment": "Very Positive",
       "community_rating_count": 1,
-      "community_total": 10,
+      "community_total": 11,
       "community_status_counts": {
-        "completed": 7,
+        "completed": 8,
         "queued": 1,
         "abandoned": 1,
         "interested": 1
@@ -74885,9 +74888,9 @@
       "community_rating": 4.5,
       "community_sentiment": "Very Positive",
       "community_rating_count": 1,
-      "community_total": 17,
+      "community_total": 18,
       "community_status_counts": {
-        "completed": 6,
+        "completed": 7,
         "interested": 4,
         "queued": 3,
         "abandoned": 3,
@@ -77780,11 +77783,12 @@
       "community_rating": 4.5,
       "community_sentiment": "Very Positive",
       "community_rating_count": 1,
-      "community_total": 7,
+      "community_total": 8,
       "community_status_counts": {
         "completed": 3,
         "interested": 2,
         "playing": 1,
+        "queued": 1,
         "no_interest": 1
       },
       "release_date": "February 1st, 2022",
@@ -79874,11 +79878,11 @@
       "community_rating": 4.4,
       "community_sentiment": "Very Positive",
       "community_rating_count": 4,
-      "community_total": 14,
+      "community_total": 15,
       "community_status_counts": {
         "completed": 9,
         "queued": 3,
-        "abandoned": 1,
+        "abandoned": 2,
         "interested": 1
       },
       "release_date": "May 26th, 2014",
@@ -79984,12 +79988,13 @@
       "community_rating": 4.5,
       "community_sentiment": "Very Positive",
       "community_rating_count": 2,
-      "community_total": 15,
+      "community_total": 16,
       "community_status_counts": {
         "interested": 6,
         "completed": 4,
         "queued": 3,
         "playing": 1,
+        "abandoned": 1,
         "no_interest": 1
       },
       "release_date": "November 15th, 2016",
