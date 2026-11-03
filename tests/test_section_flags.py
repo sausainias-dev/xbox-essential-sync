@@ -84,7 +84,7 @@ class HistoricalAddedDateTests(unittest.TestCase):
              "platform":"PC", "platform_key":"pc", "tier":"PC",
              "added":"Oct 21, 2026", "precision":"day", "left":""},
             {"name":"Cross Platform", "title_key":sync.normalize_history_title("Cross Platform"),
-             "platform":"Xbox Series X", "platform_key":"console", "tier":"Console",
+             "platform":"Xbox Series X", "platform_key":"xbox_series", "tier":"Console",
              "added":"Oct 23, 2026", "precision":"day", "left":""},
         ]
         games = [{
@@ -96,7 +96,7 @@ class HistoricalAddedDateTests(unittest.TestCase):
         self.assertEqual(games[0]["plan_added_dates"]["pc"], "Oct 21, 2026")
         self.assertEqual(games[0]["plan_added_dates"]["ultimate"], "Oct 21, 2026")
         self.assertEqual(games[0]["plan_added_date_platforms"]["ultimate"],
-                         {"pc":"Oct 21, 2026","console":"Oct 23, 2026"})
+                         {"pc":"Oct 21, 2026","xbox_series":"Oct 23, 2026"})
         self.assertEqual(stats["filled_plan_dates"], 2)
 
     def test_preserves_existing_fully_dated_source_value(self):
