@@ -959,10 +959,29 @@ def history_platform_key(platform: str) -> str:
     value = clean(platform).casefold()
     if re.search(r"\\bpc\\b|windows", value):
         return "pc"
+    if "series" in value:
+        return "xbox_series"
+    if "one" in value and "xbox" in value:
+        return "xbox_one"
     if "xbox" in value or "console" in value:
-        return "console"
+        return "xbox_other"
     return "other"
 
+
+def catalog_platform_keys(platforms: list[str]) -> set[str]:
+    """Map supported game metadata to the same precise platform families."""
+    result = set()
+    for platform in platforms or []:
+        value = clean(str(platform)).casefold()
+        if re.search(r"\\bpc\\b|windows", value):
+            result.add("pc")
+        elif "series" in value:
+            result.add("xbox_series")
+        elif "one" in value and "xbox" in value:
+            result.add("xbox_one")
+        elif "xbox" in value or "console" in value:
+            result.add("xbox_other")
+    return result
 
 def history_date_sort_value(display_value: str) -> datetime:
     """Sort exact-day and month-only dates while preserving their precision."""
@@ -989,18 +1008,14 @@ def enrich_plan_added_dates(games: list[dict], records: list[dict]) -> dict:
             unmatched += 1
             continue
 
-        game_platforms = game.get("platforms", [])
-        supports_pc = any(re.search(r"\\bpc\\b|windows", str(value), re.I) for value in game_platforms)
-        supports_console = any(re.search(r"xbox|console", str(value), re.I) for value in game_platforms)
+        supported_platforms = catalog_platform_keys(game.get("platforms", []))
         platform_dates = {}
-        for platform_key, supported in (("pc", supports_pc), ("console", supports_console)):
-            if not supported:
-                continue
+        for platform_key in supported_platforms:
             candidates = [r for r in matches if r["platform_key"] == platform_key]
             if not candidates:
                 continue
-            # If a title left and rejoined, prefer the most recent currently-open
-            # membership record; otherwise use its latest recorded arrival.
+            # If a title left and rejoined on the same platform, prefer the
+            # latest active membership; older departures remain historical.
             active = [r for r in candidates if not r.get("left")]
             selected = max(active or candidates, key=lambda r: history_date_sort_value(r["added"]))
             platform_dates[platform_key] = selected
@@ -1023,9 +1038,9 @@ def enrich_plan_added_dates(games: list[dict], records: list[dict]) -> dict:
             if plan == "pc":
                 keys = ["pc"]
             elif plan == "essential":
-                keys = ["console"]
+                keys = [key for key in ("xbox_one", "xbox_series", "xbox_other") if key in platform_dates]
             else:
-                keys = [key for key in ("pc", "console") if key in platform_dates]
+                keys = [key for key in ("pc", "xbox_one", "xbox_series", "xbox_other") if key in platform_dates]
             candidates = [platform_dates[key] for key in keys if key in platform_dates]
             if not candidates:
                 continue
