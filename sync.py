@@ -6,6 +6,7 @@ from __future__ import annotations
 import json
 import re
 import time
+import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import unquote, urljoin, urlsplit, urlunsplit
@@ -876,6 +877,185 @@ def index_service_section(items: list[dict]) -> dict[str, dict]:
     return indexed
 
 
+
+GAME_PASS_HISTORY_URL = "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/"
+
+
+def normalize_history_title(value: str) -> str:
+    """Normalize game titles conservatively for exact historical matching."""
+    value = unicodedata.normalize("NFKD", clean(value))
+    value = "".join(ch for ch in value if not unicodedata.combining(ch))
+    value = value.casefold().replace("&", " and ")
+    value = re.sub(r"[™®©]", "", value)
+    value = re.sub(r"[^a-z0-9]+", " ", value)
+    return re.sub(r"\\s+", " ", value).strip()
+
+
+def normalize_history_date(value: str) -> tuple[str | None, str | None]:
+    """Return (display value, precision) without inventing a day or year."""
+    raw = clean(value)
+    if not raw:
+        return None, None
+    raw = raw.replace(",", "")
+    for fmt in ("%d %b %Y", "%d %B %Y", "%Y-%m-%d"):
+        try:
+            parsed = datetime.strptime(raw, fmt)
+            return parsed.strftime("%b %d, %Y"), "day"
+        except ValueError:
+            pass
+    for fmt in ("%b %Y", "%B %Y"):
+        try:
+            parsed = datetime.strptime(raw, fmt)
+            return parsed.strftime("%B %Y"), "month"
+        except ValueError:
+            pass
+    return None, None
+
+
+def parse_game_pass_history(html: str) -> list[dict]:
+    """Parse Game Pass history tables into normalized, source-backed records."""
+    soup = BeautifulSoup(html, "html.parser")
+    records = []
+    seen = set()
+    for table in soup.find_all("table"):
+        rows = table.find_all("tr")
+        if not rows:
+            continue
+        headers = [clean(cell.get_text(" ", strip=True)).casefold() for cell in rows[0].find_all(["th", "td"])]
+        if not {"game", "platform", "added"}.issubset(set(headers)):
+            continue
+        positions = {name: headers.index(name) for name in headers}
+        for row in rows[1:]:
+            cells = [clean(cell.get_text(" ", strip=True)) for cell in row.find_all(["td", "th"])]
+            if len(cells) <= max(positions["game"], positions["platform"], positions["added"]):
+                continue
+            name = cells[positions["game"]]
+            platform = cells[positions["platform"]]
+            added_raw = cells[positions["added"]]
+            added, precision = normalize_history_date(added_raw)
+            title_key = normalize_history_title(name)
+            if not title_key or not added or not platform:
+                continue
+            left = cells[positions["left"]] if "left" in positions and len(cells) > positions["left"] else ""
+            tier = cells[positions["tier"]] if "tier" in positions and len(cells) > positions["tier"] else ""
+            record = {
+                "name": name,
+                "title_key": title_key,
+                "platform": platform,
+                "platform_key": history_platform_key(platform),
+                "tier": tier,
+                "added": added,
+                "precision": precision,
+                "left": left,
+            }
+            identity = (title_key, record["platform_key"], added, left)
+            if identity not in seen:
+                seen.add(identity)
+                records.append(record)
+    return records
+
+
+def history_platform_key(platform: str) -> str:
+    value = clean(platform).casefold()
+    if re.search(r"\\bpc\\b|windows", value):
+        return "pc"
+    if "xbox" in value or "console" in value:
+        return "console"
+    return "other"
+
+
+def history_date_sort_value(display_value: str) -> datetime:
+    """Sort exact-day and month-only dates while preserving their precision."""
+    for fmt in ("%b %d, %Y", "%B %d, %Y", "%B %Y"):
+        try:
+            return datetime.strptime(display_value, fmt)
+        except ValueError:
+            pass
+    return datetime.max
+
+
+def enrich_plan_added_dates(games: list[dict], records: list[dict]) -> dict:
+    """Fill missing addition dates using exact title + compatible platform matches."""
+    by_title: dict[str, list[dict]] = {}
+    for record in records:
+        by_title.setdefault(record["title_key"], []).append(record)
+
+    filled = 0
+    unmatched = 0
+    for game in games:
+        title_key = normalize_history_title(game.get("name", ""))
+        matches = by_title.get(title_key, [])
+        if not matches:
+            unmatched += 1
+            continue
+
+        game_platforms = game.get("platforms", [])
+        supports_pc = any(re.search(r"\\bpc\\b|windows", str(value), re.I) for value in game_platforms)
+        supports_console = any(re.search(r"xbox|console", str(value), re.I) for value in game_platforms)
+        platform_dates = {}
+        for platform_key, supported in (("pc", supports_pc), ("console", supports_console)):
+            if not supported:
+                continue
+            candidates = [r for r in matches if r["platform_key"] == platform_key]
+            if not candidates:
+                continue
+            # If a title left and rejoined, prefer the most recent currently-open
+            # membership record; otherwise use its latest recorded arrival.
+            active = [r for r in candidates if not r.get("left")]
+            selected = max(active or candidates, key=lambda r: history_date_sort_value(r["added"]))
+            platform_dates[platform_key] = selected
+
+        if not platform_dates:
+            unmatched += 1
+            continue
+
+        game.setdefault("plan_added_date_platforms", {})
+        game.setdefault("plan_added_date_sources", {})
+        game.setdefault("plan_added_date_precision", {})
+        existing_dates = game.setdefault("plan_added_dates", {})
+        for plan in game.get("plans", []):
+            if plan in existing_dates and str(existing_dates[plan]).strip().lower() not in {"today", "yesterday", "now"}:
+                # The page's own dated value wins; history is used to fill gaps
+                # and to upgrade yearless month/day values only when verified.
+                raw = str(existing_dates[plan]).strip()
+                if re.search(r"\\b(?:19|20|21)\\d{2}\\b", raw):
+                    continue
+            if plan == "pc":
+                keys = ["pc"]
+            elif plan == "essential":
+                keys = ["console"]
+            else:
+                keys = [key for key in ("pc", "console") if key in platform_dates]
+            candidates = [platform_dates[key] for key in keys if key in platform_dates]
+            if not candidates:
+                continue
+            # Use the earliest supported platform arrival as the plan's first
+            # availability date; retain each platform's date separately.
+            chosen = min(candidates, key=lambda r: history_date_sort_value(r["added"]))
+            existing_dates[plan] = chosen["added"]
+            game["plan_added_date_sources"][plan] = GAME_PASS_HISTORY_URL
+            game["plan_added_date_precision"][plan] = chosen["precision"]
+            game["plan_added_date_platforms"][plan] = {
+                key: platform_dates[key]["added"] for key in keys if key in platform_dates
+            }
+            filled += 1
+    return {"filled_plan_dates": filled, "unmatched_games": unmatched, "history_records": len(records)}
+
+
+def fetch_game_pass_history() -> list[dict]:
+    """Fetch the independent historical register; fail soft if it is unavailable."""
+    try:
+        response = SESSION.get(GAME_PASS_HISTORY_URL, timeout=(10, 35))
+        response.raise_for_status()
+        records = parse_game_pass_history(response.text)
+        if not records:
+            print("Warning: Game Pass historical register returned no parsable records.")
+        return records
+    except Exception as exc:
+        print(f"Warning: historical Game Pass dates unavailable: {exc}")
+        return []
+
+
 def normalise(game: dict) -> dict:
     for key in ("plans", "new_plans", "leaving_plans"):
         game[key] = sorted(set(game.get(key, [])), key=PLAN_ORDER.index)
@@ -1184,6 +1364,10 @@ def main() -> None:
                 counts[genre] = counts.get(genre, 0) + 1
         genre_counts[plan] = dict(sorted(counts.items(), key=lambda kv: (-kv[1], kv[0].lower())))
 
+    history_records = fetch_game_pass_history()
+    history_stats = enrich_plan_added_dates(games, history_records)
+    print("Historical added-date enrichment:", history_stats)
+
     payload = {
         "source": "GameScriptions",
         "source_pages": SERVICES,
@@ -1193,8 +1377,29 @@ def main() -> None:
         "service_pages": service_pages,
         "game_count_unique": len(games),
         "games": games,
+        "addition_date_coverage": history_stats,
     }
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    compact_added_dates = {
+        "source": GAME_PASS_HISTORY_URL,
+        "updated_at": payload["updated_at"],
+        "coverage": history_stats,
+        "games": {
+            game["url"]: {
+                "plan_added_dates": game.get("plan_added_dates", {}),
+                "plan_added_date_sources": game.get("plan_added_date_sources", {}),
+                "plan_added_date_precision": game.get("plan_added_date_precision", {}),
+                "plan_added_date_platforms": game.get("plan_added_date_platforms", {}),
+            }
+            for game in games
+            if game.get("plan_added_dates")
+        },
+    }
+    Path("xbox-essential-added-dates.json").write_text(
+        json.dumps(compact_added_dates, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
 
     media_fields = ("cover_url", "screenshot_urls", "trailer_url", "gameplay_url",
                     "playtime_hours")
