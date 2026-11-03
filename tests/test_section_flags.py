@@ -75,7 +75,9 @@ class HistoricalAddedDateTests(unittest.TestCase):
         self.assertEqual(len(records), 2)
         self.assertEqual(records[0]["added"], "Oct 21, 2026")
         self.assertEqual(records[0]["precision"], "day")
+        self.assertEqual(records[0]["platform_key"], "pc")
         self.assertEqual(records[1]["added"], "October 2026")
+        self.assertEqual(records[1]["platform_key"], "xbox_series")
         self.assertEqual(records[1]["precision"], "month")
 
     def test_enriches_dates_by_matching_title_and_platform(self):
