@@ -1,7 +1,7 @@
 {
   "source": "Subli.one Xbox Game Pass Ultimate",
-  "updated_at": "2026-11-03T06:57:02.223613+00:00",
-  "count": 66,
+  "updated_at": "2026-11-03T19:34:42.451649+00:00",
+  "count": 68,
   "games": [
     {
       "name": "Escape Academy 2: Back 2 School",
@@ -65,6 +65,76 @@
       ],
       "game_style": [
         "Mystery"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Firefighting Simulator: Ignite",
+      "year": 2025,
+      "availability_date": "Nov 5",
+      "availability_date_type": "arrives",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9pg9.jpg",
+      "screenshot_urls": [
+        "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fscvpwz.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scvpwz.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scvpwz.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scvpwz.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scvpwz.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scvpwz.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scvpwz.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scvpwz.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scvpwz.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scvpwz.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scvpwz.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx2.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx2.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx2.jpg&w=200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx2.jpg&w=250&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx2.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx2.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx2.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx2.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx2.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx2.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx2.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx2.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx2.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx5.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx5.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx5.jpg&w=200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx5.jpg&w=250&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx5.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx5.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx5.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx5.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx5.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx5.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx5.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx5.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx5.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx7.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx7.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx7.jpg&w=200&q=75"
+      ],
+      "playtime_category": "Hearty Campaign",
+      "playtime_hours": "20-34 Hours",
+      "release_date": "September 9th, 2025",
+      "developer": "weltenbauer. Software Entwicklung GmbH",
+      "publisher": "astragon Software GmbH",
+      "description": "Face unpredictable dangers, fight perilous fires with your crew, and save lives in Firefighting Simulator: Ignite. Step into the boots of a U.S. firefighter and play with up to 3 friends or with the help of your NPC controlled crew members.",
+      "genres": [
+        "Simulator"
+      ],
+      "game_modes": [
+        "Single-Player",
+        "Multiplayer",
+        "Co-Op"
+      ],
+      "game_style": [
+        "Action"
       ],
       "platforms": [
         "Xbox Series X|S",
@@ -436,6 +506,139 @@
       ]
     },
     {
+      "name": "Freestyle Football 2",
+      "year": 2026,
+      "availability_date": "Dec 3",
+      "availability_date_type": "arrives",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coab6k.jpg",
+      "screenshot_urls": [
+        "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fsc12lwm.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12lwm.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12lwm.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12lwm.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12lwm.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12lwm.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12lwm.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12lwm.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12lwm.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12lwm.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12lwm.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwp.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwp.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwp.jpg&w=200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwp.jpg&w=250&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwp.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwp.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwp.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwp.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwp.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwp.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwp.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwp.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwp.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwj.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwj.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwj.jpg&w=200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwj.jpg&w=250&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwj.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwj.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwj.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwj.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwj.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwj.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwj.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwj.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwj.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwk.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwk.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwk.jpg&w=200&q=75"
+      ],
+      "description": "Freestyle Football 2 is a fast-paced, 5v5 match-based online multiplayer soccer game. Each position has a unique role, and you'll utilize a variety of strategies and skills to achieve victory with your team. Stylish play and unique characters transform the pitch into a stage.",
+      "genres": [
+        "Third-Person",
+        "Sport"
+      ],
+      "game_modes": [
+        "Single-Player",
+        "Multiplayer",
+        "Co-Op"
+      ],
+      "game_style": [
+        "Action"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "A Game About Digging A Hole Together",
+      "year": 2026,
+      "availability_date": "Dec 4",
+      "availability_date_type": "arrives",
+      "cover_url": "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.gamescriptions.com%2Fcdn-cgi%2Fimage%2Fwidth%3D250%2Cformat%3Dauto%2Fgames%2F0_A_Game_About_Digging_A_Hole_Together.jpg&w=3840&q=75",
+      "screenshot_urls": [
+        "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fsc15hi5.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc15hi5.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc15hi5.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc15hi5.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc15hi5.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc15hi5.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc15hi5.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc15hi5.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc15hi5.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc15hi5.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc15hi5.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi8.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi8.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi8.jpg&w=200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi8.jpg&w=250&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi8.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi8.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi8.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi8.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi8.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi8.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi8.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi8.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi8.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi7.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi7.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi7.jpg&w=200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi7.jpg&w=250&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi7.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi7.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi7.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi7.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi7.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi7.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi7.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi7.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi7.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi6.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi6.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi6.jpg&w=200&q=75"
+      ],
+      "description": "A minimalist game about digging a hole at the beach, now with friends. Dig together, collect resources, sell them, upgrade your equipment and search for a promised treasure buried deep beneath the sand.",
+      "genres": [
+        "First-Person",
+        "Simulator",
+        "Adventure"
+      ],
+      "game_modes": [
+        "Single-Player",
+        "Multiplayer",
+        "Co-Op"
+      ],
+      "game_style": [
+        "Sandbox"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
       "name": "At Fate's End",
       "year": 2027,
       "availability_date": "TBD",
@@ -498,139 +701,6 @@
       "platforms": [
         "Xbox Series X|S",
         "Xbox One",
-        "PC (Microsoft Windows)"
-      ]
-    },
-    {
-      "name": "Dumpster Gang",
-      "year": 2026,
-      "availability_date": "TBD",
-      "availability_date_type": "tbd",
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocrop.jpg",
-      "screenshot_urls": [
-        "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fsc14wcr.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc14wcr.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc14wcr.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc14wcr.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc14wcr.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc14wcr.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc14wcr.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc14wcr.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc14wcr.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc14wcr.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc14wcr.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wcs.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wcs.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wcs.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wcs.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wcs.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wcs.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wcs.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wcs.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wcs.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wcs.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wcs.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wcs.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wcs.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wct.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wct.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wct.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wct.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wct.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wct.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wct.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wct.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wct.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wct.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wct.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wct.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wct.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wcu.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wcu.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wcu.jpg&w=200&q=75"
-      ],
-      "description": "Play as a gang of mischievous raccoons in this chaotic co-op sandbox for 1-4 players. Complete ridiculous missions, steal everything you can carry, and outsmart a relentless Exterminator determined to throw your gang behind bars.",
-      "genres": [
-        "Third-Person",
-        "Simulator",
-        "Indie"
-      ],
-      "game_modes": [
-        "Single-Player",
-        "Multiplayer",
-        "Co-Op"
-      ],
-      "game_style": [
-        "Action"
-      ],
-      "platforms": [
-        "Xbox Series X|S",
-        "PC (Microsoft Windows)"
-      ]
-    },
-    {
-      "name": "Freestyle Football 2",
-      "year": 2026,
-      "availability_date": "TBD",
-      "availability_date_type": "tbd",
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coab6k.jpg",
-      "screenshot_urls": [
-        "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fsc12lwm.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12lwm.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12lwm.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12lwm.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12lwm.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12lwm.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12lwm.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12lwm.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12lwm.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12lwm.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12lwm.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwp.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwp.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwp.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwp.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwp.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwp.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwp.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwp.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwp.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwp.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwp.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwp.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwp.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwj.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwj.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwj.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwj.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwj.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwj.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwj.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwj.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwj.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwj.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwj.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwj.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwj.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwk.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwk.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12lwk.jpg&w=200&q=75"
-      ],
-      "description": "Freestyle Football 2 is a fast-paced, 5v5 match-based online multiplayer soccer game. Each position has a unique role, and you'll utilize a variety of strategies and skills to achieve victory with your team. Stylish play and unique characters transform the pitch into a stage.",
-      "genres": [
-        "Third-Person",
-        "Sport"
-      ],
-      "game_modes": [
-        "Single-Player",
-        "Multiplayer",
-        "Co-Op"
-      ],
-      "game_style": [
-        "Action"
-      ],
-      "platforms": [
-        "Xbox Series X|S",
         "PC (Microsoft Windows)"
       ]
     },
@@ -1306,6 +1376,73 @@
       ]
     },
     {
+      "name": "Grave Seasons",
+      "year": 2027,
+      "availability_date": "Mar 9",
+      "availability_date_type": "arrives",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobtwq.jpg",
+      "screenshot_urls": [
+        "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fscso24.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scso24.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scso24.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scso24.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scso24.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scso24.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scso24.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scso24.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scso24.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scso24.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scso24.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scso25.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scso25.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scso25.jpg&w=200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scso25.jpg&w=250&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scso25.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scso25.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scso25.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scso25.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scso25.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scso25.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scso25.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scso25.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scso25.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scso27.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scso27.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scso27.jpg&w=200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scso27.jpg&w=250&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scso27.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scso27.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scso27.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scso27.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scso27.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scso27.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scso27.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scso27.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scso27.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scso28.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scso28.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scso28.jpg&w=200&q=75"
+      ],
+      "description": "Grave Seasons is a supernatural murder-mystery farming simulator. Play as the new farmer in Ashenridge as you harvest crops, fish and mine, meet and romance townsfolk, build up the community... and maybe stop the murders.",
+      "genres": [
+        "Isometric",
+        "Role-Playing",
+        "Simulator",
+        "Indie"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [
+        "Mystery",
+        "Romance"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
       "name": "Croak",
       "year": 2027,
       "availability_date": "Mar 31",
@@ -1361,6 +1498,73 @@
       ],
       "game_modes": [
         "Single-Player"
+      ],
+      "game_style": [
+        "Action"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ]
+    },
+    {
+      "name": "Dumpster Gang",
+      "year": 2026,
+      "availability_date": "Mar 31",
+      "availability_date_type": "arrives",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocrop.jpg",
+      "screenshot_urls": [
+        "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fsc14wcr.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc14wcr.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc14wcr.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc14wcr.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc14wcr.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc14wcr.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc14wcr.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc14wcr.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc14wcr.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc14wcr.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc14wcr.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wcs.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wcs.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wcs.jpg&w=200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wcs.jpg&w=250&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wcs.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wcs.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wcs.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wcs.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wcs.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wcs.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wcs.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wcs.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wcs.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wct.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wct.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wct.jpg&w=200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wct.jpg&w=250&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wct.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wct.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wct.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wct.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wct.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wct.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wct.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wct.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wct.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wcu.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wcu.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14wcu.jpg&w=200&q=75"
+      ],
+      "description": "Play as a gang of mischievous raccoons in this chaotic co-op sandbox for 1-4 players. Complete ridiculous missions, steal everything you can carry, and outsmart a relentless Exterminator determined to throw your gang behind bars.",
+      "genres": [
+        "Third-Person",
+        "Simulator",
+        "Indie"
+      ],
+      "game_modes": [
+        "Single-Player",
+        "Multiplayer",
+        "Co-Op"
       ],
       "game_style": [
         "Action"
@@ -1632,73 +1836,6 @@
         "Survival"
       ],
       "platforms": [
-        "PC (Microsoft Windows)"
-      ]
-    },
-    {
-      "name": "A Game About Digging A Hole Together",
-      "year": 2026,
-      "availability_date": "TBD",
-      "availability_date_type": "tbd",
-      "cover_url": "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.gamescriptions.com%2Fcdn-cgi%2Fimage%2Fwidth%3D250%2Cformat%3Dauto%2Fgames%2F0_A_Game_About_Digging_A_Hole_Together.jpg&w=3840&q=75",
-      "screenshot_urls": [
-        "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fsc15hi5.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc15hi5.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc15hi5.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc15hi5.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc15hi5.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc15hi5.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc15hi5.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc15hi5.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc15hi5.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc15hi5.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc15hi5.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi8.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi8.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi8.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi8.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi8.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi8.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi8.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi8.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi8.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi8.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi8.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi8.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi8.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi7.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi7.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi7.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi7.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi7.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi7.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi7.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi7.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi7.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi7.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi7.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi7.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi7.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi6.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi6.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc15hi6.jpg&w=200&q=75"
-      ],
-      "description": "A minimalist game about digging a hole at the beach, now with friends. Dig together, collect resources, sell them, upgrade your equipment and search for a promised treasure buried deep beneath the sand.",
-      "genres": [
-        "First-Person",
-        "Simulator",
-        "Adventure"
-      ],
-      "game_modes": [
-        "Single-Player",
-        "Multiplayer",
-        "Co-Op"
-      ],
-      "game_style": [
-        "Sandbox"
-      ],
-      "platforms": [
-        "Xbox Series X|S",
         "PC (Microsoft Windows)"
       ]
     },
