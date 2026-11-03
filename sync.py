@@ -860,6 +860,22 @@ def enrich(game: dict) -> None:
         game["enrich_error"] = str(exc)
     time.sleep(0.08)
 
+def index_service_section(items: list[dict]) -> dict[str, dict]:
+    """Index service-section entries by URL while preserving their source order."""
+    indexed: dict[str, dict] = {}
+    order = 0
+    for item in items or []:
+        href = clean(item.get("url"))
+        if not href or href in indexed:
+            continue
+        indexed[href] = {
+            "date_label": clean(item.get("date_label")),
+            "order": order,
+        }
+        order += 1
+    return indexed
+
+
 def normalise(game: dict) -> dict:
     for key in ("plans", "new_plans", "leaving_plans"):
         game[key] = sorted(set(game.get(key, [])), key=PLAN_ORDER.index)
@@ -876,6 +892,16 @@ def normalise(game: dict) -> dict:
     game["ubisoft_classics"] = "ubisoft_classics" in plans
     game["new"] = bool(game["new_plans"])
     game["leaving"] = bool(game["leaving_plans"])
+    for key in ("new_plan_order", "leaving_plan_order"):
+        raw_order = game.get(key, {})
+        if not isinstance(raw_order, dict):
+            raw_order = {}
+        valid_plans = game["new_plans"] if key == "new_plan_order" else game["leaving_plans"]
+        game[key] = {
+            plan_name: int(position)
+            for plan_name, position in raw_order.items()
+            if plan_name in valid_plans and str(position).isdigit() and int(position) >= 0
+        }
     return game
 
 
@@ -1084,20 +1110,41 @@ def main() -> None:
                 service_pages[plan]["upcoming_games"] = upcoming_details
                 for item in service_pages[plan].get("coming_soon", []):
                     item.pop("url", None)
-            new_meta = collect_section_meta(page, "New Releases")
-            leaving_meta = collect_section_meta(page, "Leaving Soon")
-            new_links = set(new_meta)
-            leaving_links = set(leaving_meta)
+            # Read exact membership and display order from the bounded sections.
+            # Unlike the legacy heading scan, this stops at the next major section
+            # and cannot accidentally absorb the full Available Games list.
+            new_section = index_service_section(
+                collect_service_section(page, r"^New Releases\\b")
+            )
+            leaving_section = index_service_section(
+                collect_service_section(page, r"^Leaving Soon\\b")
+            )
+            if len(leaving_section) > max(40, int(expected * 0.25)):
+                raise RuntimeError(
+                    f"{plan}: suspicious Leaving Soon section size "
+                    f"{len(leaving_section)} for {expected} available games; refusing to publish bad flags"
+                )
+            if len(new_section) > max(80, int(expected * 0.50)):
+                raise RuntimeError(
+                    f"{plan}: suspicious New Releases section size "
+                    f"{len(new_section)} for {expected} available games; refusing to publish bad flags"
+                )
+            new_links = set(new_section)
+            leaving_links = set(leaving_section)
+            new_meta = {href: item["date_label"] for href, item in new_section.items()}
+            leaving_meta = {href: item["date_label"] for href, item in leaving_section.items()}
             service_counts[plan] = expected
 
             for game in games_by_url.values():
                 game.setdefault("plans", []).append(plan)
                 if game["url"] in new_links:
                     game.setdefault("new_plans", []).append(plan)
+                    game.setdefault("new_plan_order", {})[plan] = new_section[game["url"]]["order"]
                     if new_meta.get(game["url"]):
                         game.setdefault("plan_added_dates", {})[plan] = new_meta[game["url"]]
                 if game["url"] in leaving_links:
                     game.setdefault("leaving_plans", []).append(plan)
+                    game.setdefault("leaving_plan_order", {})[plan] = leaving_section[game["url"]]["order"]
                     if leaving_meta.get(game["url"]):
                         game.setdefault("leaving_dates", {})[plan] = leaving_meta[game["url"]]
                 current = merged.setdefault(game["url"], {"name": game["name"], "url": game["url"]})
@@ -1107,7 +1154,7 @@ def main() -> None:
                 })
                 for key in ("plans", "new_plans", "leaving_plans"):
                     current.setdefault(key, []).extend(game.get(key, []))
-                for key in ("plan_added_dates", "leaving_dates"):
+                for key in ("plan_added_dates", "leaving_dates", "new_plan_order", "leaving_plan_order"):
                     current.setdefault(key, {}).update(game.get(key, {}))
 
             print(f"OK {plan}: {len(games_by_url)} games")
