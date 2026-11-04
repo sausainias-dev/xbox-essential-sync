@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-11-04T03:56:27.305035+00:00",
+  "updated_at": "2026-11-04T13:34:02.549545+00:00",
   "service_counts": {
     "essential": 67,
     "pc": 573,
@@ -43,7 +43,7 @@
     },
     "pc": {
       "Adventure": 350,
-      "Third-Person": 258,
+      "Third-Person": 259,
       "First-Person": 200,
       "Role-Playing": 181,
       "Indie": 168,
@@ -52,8 +52,8 @@
       "Simulator": 136,
       "Strategy": 119,
       "Side-View": 69,
-      "Platform": 62,
-      "Puzzle": 56,
+      "Platform": 63,
+      "Puzzle": 57,
       "Arcade": 41,
       "Racing": 41,
       "Sport": 38,
@@ -102,7 +102,7 @@
     },
     "ultimate": {
       "Adventure": 383,
-      "Third-Person": 306,
+      "Third-Person": 307,
       "First-Person": 213,
       "Role-Playing": 193,
       "Indie": 172,
@@ -111,8 +111,8 @@
       "Isometric": 148,
       "Strategy": 132,
       "Side-View": 85,
-      "Platform": 73,
-      "Puzzle": 71,
+      "Platform": 74,
+      "Puzzle": 72,
       "Arcade": 55,
       "Sport": 52,
       "Racing": 48,
@@ -190,10 +190,10 @@
         "Adventure": 430,
         "Indie": 199,
         "Shooter": 174,
-        "Simulator": 173,
+        "Simulator": 174,
         "Strategy": 143,
-        "Platform": 79,
-        "Puzzle": 78,
+        "Platform": 80,
+        "Puzzle": 79,
         "Arcade": 57,
         "Sport": 54,
         "Racing": 48,
@@ -4895,6 +4895,7 @@
           ],
           "platforms": [
             "Xbox Series X|S",
+            "Xbox One",
             "PC (Microsoft Windows)"
           ],
           "availability_date": "TBD",
@@ -5991,7 +5992,8 @@
             "Single-Player"
           ],
           "game_style": [
-            "Action"
+            "Action",
+            "Fantasy"
           ],
           "platforms": [
             "Xbox Series X|S",
@@ -6844,6 +6846,7 @@
             "Music",
             "Puzzle",
             "Role-Playing",
+            "Simulator",
             "Adventure",
             "Indie"
           ],
@@ -7615,9 +7618,9 @@
       ],
       "playtime_category": "A Solid Adventure",
       "playtime_hours": "10-19 Hours",
-      "community_total": 2,
+      "community_total": 3,
       "community_status_counts": {
-        "queued": 1,
+        "queued": 2,
         "interested": 1
       },
       "release_date": "October 12th, 2026",
@@ -8015,10 +8018,10 @@
       "community_rating": 4.8,
       "community_sentiment": "Overwhelmingly Positive",
       "community_rating_count": 2,
-      "community_total": 8,
+      "community_total": 9,
       "community_status_counts": {
         "interested": 4,
-        "queued": 2,
+        "queued": 3,
         "playing": 1,
         "completed": 1
       },
@@ -8496,6 +8499,10 @@
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc98hq.jpg&w=160&q=75",
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc98hq.jpg&w=200&q=75"
       ],
+      "community_total": 1,
+      "community_status_counts": {
+        "abandoned": 1
+      },
       "release_date": "October 28th, 2021",
       "developer": "Relic Entertainment",
       "publisher": "Xbox Game Studios",
@@ -9181,11 +9188,11 @@
       "community_rating": 4.0,
       "community_sentiment": "Very Positive",
       "community_rating_count": 1,
-      "community_total": 9,
+      "community_total": 10,
       "community_status_counts": {
         "queued": 3,
+        "abandoned": 3,
         "no_interest": 3,
-        "abandoned": 2,
         "completed": 1
       },
       "release_date": "April 16th, 2019",
@@ -10079,8 +10086,9 @@
       ],
       "playtime_category": "A Solid Adventure",
       "playtime_hours": "10-19 Hours",
-      "community_total": 2,
+      "community_total": 3,
       "community_status_counts": {
+        "abandoned": 1,
         "interested": 1,
         "no_interest": 1
       },
@@ -10281,12 +10289,12 @@
       "community_rating": 3.0,
       "community_sentiment": "Mostly Positive",
       "community_rating_count": 2,
-      "community_total": 8,
+      "community_total": 9,
       "community_status_counts": {
         "completed": 3,
+        "abandoned": 2,
         "interested": 2,
         "queued": 1,
-        "abandoned": 1,
         "no_interest": 1
       },
       "release_date": "April 21st, 2015",
@@ -10796,12 +10804,12 @@
       "community_rating": 4.0,
       "community_sentiment": "Very Positive",
       "community_rating_count": 6,
-      "community_total": 17,
+      "community_total": 18,
       "community_status_counts": {
         "completed": 10,
         "queued": 3,
         "interested": 3,
-        "abandoned": 1
+        "abandoned": 2
       },
       "release_date": "October 29th, 2013",
       "developer": "Ubisoft Montreal",
@@ -11004,10 +11012,10 @@
       ],
       "community_rating": 4.3,
       "community_sentiment": "Very Positive",
-      "community_rating_count": 6,
-      "community_total": 24,
+      "community_rating_count": 7,
+      "community_total": 25,
       "community_status_counts": {
-        "completed": 14,
+        "completed": 15,
         "queued": 4,
         "playing": 3,
         "interested": 3
@@ -11108,12 +11116,12 @@
       "community_rating": 4.4,
       "community_sentiment": "Very Positive",
       "community_rating_count": 6,
-      "community_total": 25,
+      "community_total": 26,
       "community_status_counts": {
         "completed": 15,
         "queued": 4,
+        "abandoned": 3,
         "playing": 2,
-        "abandoned": 2,
         "interested": 2
       },
       "release_date": "October 26th, 2017",
@@ -11524,13 +11532,13 @@
       "community_rating": 3.9,
       "community_sentiment": "Very Positive",
       "community_rating_count": 5,
-      "community_total": 24,
+      "community_total": 25,
       "community_status_counts": {
         "completed": 10,
         "interested": 6,
         "queued": 4,
-        "playing": 2,
-        "abandoned": 2
+        "abandoned": 3,
+        "playing": 2
       },
       "release_date": "November 10th, 2020",
       "developer": "Ubisoft Montreal",
@@ -12320,14 +12328,14 @@
       ],
       "playtime_category": "Hearty Campaign",
       "playtime_hours": "20-34 Hours",
-      "community_rating": 4.3,
+      "community_rating": 4.2,
       "community_sentiment": "Very Positive",
-      "community_rating_count": 2,
-      "community_total": 9,
+      "community_rating_count": 3,
+      "community_total": 10,
       "community_status_counts": {
+        "completed": 3,
         "playing": 2,
         "queued": 2,
-        "completed": 2,
         "abandoned": 1,
         "interested": 1,
         "no_interest": 1
@@ -12512,9 +12520,9 @@
       ],
       "playtime_category": "Hearty Campaign",
       "playtime_hours": "20-34 Hours",
-      "community_total": 5,
+      "community_total": 6,
       "community_status_counts": {
-        "queued": 2,
+        "queued": 3,
         "completed": 1,
         "interested": 1,
         "no_interest": 1
@@ -12611,9 +12619,9 @@
       "community_rating": 3.7,
       "community_sentiment": "Mostly Positive",
       "community_rating_count": 3,
-      "community_total": 18,
+      "community_total": 19,
       "community_status_counts": {
-        "queued": 6,
+        "queued": 7,
         "interested": 6,
         "completed": 5,
         "abandoned": 1
@@ -14224,12 +14232,12 @@
       ],
       "playtime_category": "A Solid Adventure",
       "playtime_hours": "10-19 Hours",
-      "community_rating": 4.0,
+      "community_rating": 4.3,
       "community_sentiment": "Very Positive",
-      "community_rating_count": 1,
-      "community_total": 2,
+      "community_rating_count": 2,
+      "community_total": 3,
       "community_status_counts": {
-        "completed": 1,
+        "completed": 2,
         "no_interest": 1
       },
       "release_date": "June 11th, 2026",
@@ -14667,6 +14675,10 @@
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sclfxn.jpg&w=160&q=75",
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sclfxn.jpg&w=200&q=75"
       ],
+      "community_total": 1,
+      "community_status_counts": {
+        "queued": 1
+      },
       "release_date": "October 16th, 2026",
       "developer": "Balancing Monkey Games",
       "publisher": "Hooded Horse",
@@ -14854,9 +14866,13 @@
       ],
       "playtime_category": "Short & Sweet",
       "playtime_hours": "4-9 Hours",
-      "community_total": 2,
+      "community_rating": 3.0,
+      "community_sentiment": "Mostly Positive",
+      "community_rating_count": 1,
+      "community_total": 3,
       "community_status_counts": {
         "queued": 1,
+        "completed": 1,
         "no_interest": 1
       },
       "release_date": "May 12th, 2026",
@@ -15913,10 +15929,11 @@
       "community_rating": 3.5,
       "community_sentiment": "Mostly Positive",
       "community_rating_count": 2,
-      "community_total": 6,
+      "community_total": 7,
       "community_status_counts": {
         "completed": 3,
         "interested": 2,
+        "abandoned": 1,
         "no_interest": 1
       },
       "release_date": "January 28th, 2014",
@@ -16119,11 +16136,12 @@
       "community_rating": 4.0,
       "community_sentiment": "Very Positive",
       "community_rating_count": 2,
-      "community_total": 5,
+      "community_total": 6,
       "community_status_counts": {
         "completed": 2,
         "interested": 2,
-        "queued": 1
+        "queued": 1,
+        "abandoned": 1
       },
       "release_date": "October 13th, 2009",
       "developer": "Double Fine Productions",
@@ -17822,12 +17840,12 @@
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/dwhwyahob4d4zsnjztmo.jpg&w=160&q=75",
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/dwhwyahob4d4zsnjztmo.jpg&w=200&q=75"
       ],
-      "community_total": 8,
+      "community_total": 9,
       "community_status_counts": {
         "no_interest": 4,
+        "abandoned": 2,
         "interested": 2,
-        "queued": 1,
-        "abandoned": 1
+        "queued": 1
       },
       "release_date": "March 10th, 2015",
       "developer": "Colossal Order",
@@ -18212,10 +18230,10 @@
       ],
       "playtime_category": "A Solid Adventure",
       "playtime_hours": "10-19 Hours",
-      "community_total": 3,
+      "community_total": 4,
       "community_status_counts": {
-        "no_interest": 2,
-        "queued": 1
+        "queued": 2,
+        "no_interest": 2
       },
       "release_date": "September 26th, 2025",
       "developer": "Panik Arcade",
@@ -18675,13 +18693,13 @@
       "community_rating": 4.2,
       "community_sentiment": "Very Positive",
       "community_rating_count": 5,
-      "community_total": 18,
+      "community_total": 19,
       "community_status_counts": {
         "completed": 9,
         "interested": 4,
         "playing": 2,
         "queued": 2,
-        "abandoned": 1
+        "abandoned": 2
       },
       "release_date": "August 27th, 2019",
       "developer": "Remedy Entertainment",
@@ -18968,8 +18986,9 @@
       ],
       "playtime_category": "Hearty Campaign",
       "playtime_hours": "20-34 Hours",
-      "community_total": 1,
+      "community_total": 2,
       "community_status_counts": {
+        "queued": 1,
         "interested": 1
       },
       "release_date": "July 31st, 2026",
@@ -19063,12 +19082,12 @@
       ],
       "playtime_category": "Short & Sweet",
       "playtime_hours": "4-9 Hours",
-      "community_rating": 3.5,
+      "community_rating": 3.7,
       "community_sentiment": "Mostly Positive",
-      "community_rating_count": 2,
-      "community_total": 3,
+      "community_rating_count": 3,
+      "community_total": 4,
       "community_status_counts": {
-        "completed": 2,
+        "completed": 3,
         "abandoned": 1
       },
       "release_date": "October 19th, 2010",
@@ -19162,10 +19181,11 @@
       ],
       "playtime_category": "Short & Sweet",
       "playtime_hours": "4-9 Hours",
-      "community_total": 5,
+      "community_total": 6,
       "community_status_counts": {
         "completed": 2,
         "queued": 1,
+        "abandoned": 1,
         "interested": 1,
         "no_interest": 1
       },
@@ -19365,9 +19385,9 @@
       "community_rating": 4.2,
       "community_sentiment": "Very Positive",
       "community_rating_count": 3,
-      "community_total": 13,
+      "community_total": 14,
       "community_status_counts": {
-        "queued": 5,
+        "queued": 6,
         "completed": 5,
         "interested": 2,
         "playing": 1
@@ -19563,12 +19583,12 @@
       ],
       "playtime_category": "A Solid Adventure",
       "playtime_hours": "10-19 Hours",
-      "community_rating": 3.7,
+      "community_rating": 3.5,
       "community_sentiment": "Mostly Positive",
-      "community_rating_count": 3,
-      "community_total": 8,
+      "community_rating_count": 4,
+      "community_total": 9,
       "community_status_counts": {
-        "completed": 4,
+        "completed": 5,
         "playing": 1,
         "queued": 1,
         "abandoned": 1,
@@ -21729,14 +21749,14 @@
       ],
       "playtime_category": "Short & Sweet",
       "playtime_hours": "4-9 Hours",
-      "community_rating": 4.5,
-      "community_sentiment": "Very Positive",
-      "community_rating_count": 1,
-      "community_total": 4,
+      "community_rating": 3.8,
+      "community_sentiment": "Mostly Positive",
+      "community_rating_count": 2,
+      "community_total": 5,
       "community_status_counts": {
+        "completed": 2,
         "interested": 2,
-        "queued": 1,
-        "completed": 1
+        "queued": 1
       },
       "release_date": "July 15th, 2026",
       "developer": "Undercoders",
@@ -22328,10 +22348,10 @@
       "community_rating": 4.3,
       "community_sentiment": "Very Positive",
       "community_rating_count": 3,
-      "community_total": 10,
+      "community_total": 11,
       "community_status_counts": {
         "completed": 7,
-        "queued": 2,
+        "queued": 3,
         "abandoned": 1
       },
       "release_date": "June 6th, 2023",
@@ -22422,6 +22442,13 @@
       ],
       "playtime_category": "Short & Sweet",
       "playtime_hours": "4-9 Hours",
+      "community_rating": 3.5,
+      "community_sentiment": "Mostly Positive",
+      "community_rating_count": 1,
+      "community_total": 1,
+      "community_status_counts": {
+        "completed": 1
+      },
       "release_date": "February 25th, 2026",
       "developer": "Countlessnights",
       "publisher": "2 Left Thumbs",
@@ -22621,9 +22648,10 @@
       ],
       "playtime_category": "Hearty Campaign",
       "playtime_hours": "20-34 Hours",
-      "community_total": 3,
+      "community_total": 4,
       "community_status_counts": {
         "queued": 1,
+        "abandoned": 1,
         "interested": 1,
         "no_interest": 1
       },
@@ -22719,10 +22747,10 @@
       ],
       "playtime_category": "Hearty Campaign",
       "playtime_hours": "20-34 Hours",
-      "community_total": 6,
+      "community_total": 5,
       "community_status_counts": {
         "interested": 3,
-        "queued": 2,
+        "queued": 1,
         "abandoned": 1
       },
       "release_date": "March 30th, 2021",
@@ -23322,6 +23350,10 @@
       ],
       "playtime_category": "Short & Sweet",
       "playtime_hours": "4-9 Hours",
+      "community_total": 1,
+      "community_status_counts": {
+        "queued": 1
+      },
       "release_date": "July 23rd, 2026",
       "developer": "BornMonkie",
       "description": "Aliens abducted your chicken friends! Play as Dodo, a brave but slightly clueless duck on a mission to bring them home. The twist?"
@@ -23414,9 +23446,9 @@
       ],
       "playtime_category": "A Solid Adventure",
       "playtime_hours": "10-19 Hours",
-      "community_total": 1,
+      "community_total": 2,
       "community_status_counts": {
-        "queued": 1
+        "queued": 2
       },
       "release_date": "September 27th, 2022",
       "developer": "Bippinbits",
@@ -24516,11 +24548,11 @@
       "community_rating": 3.0,
       "community_sentiment": "Mostly Positive",
       "community_rating_count": 1,
-      "community_total": 10,
+      "community_total": 11,
       "community_status_counts": {
+        "abandoned": 4,
         "queued": 3,
         "completed": 3,
-        "abandoned": 3,
         "interested": 1
       },
       "release_date": "October 31st, 2024",
@@ -24730,10 +24762,13 @@
       ],
       "playtime_category": "A Solid Adventure",
       "playtime_hours": "10-19 Hours",
-      "community_total": 16,
+      "community_rating": 3.0,
+      "community_sentiment": "Mostly Positive",
+      "community_rating_count": 1,
+      "community_total": 17,
       "community_status_counts": {
         "interested": 9,
-        "completed": 3,
+        "completed": 4,
         "queued": 2,
         "abandoned": 1,
         "no_interest": 1
@@ -26089,10 +26124,11 @@
       ],
       "playtime_category": "A Solid Adventure",
       "playtime_hours": "10-19 Hours",
-      "community_total": 3,
+      "community_total": 4,
       "community_status_counts": {
         "interested": 2,
-        "queued": 1
+        "queued": 1,
+        "abandoned": 1
       },
       "release_date": "May 27th, 2026",
       "developer": "Cococucumber",
@@ -26686,12 +26722,12 @@
       "community_rating": 4.5,
       "community_sentiment": "Very Positive",
       "community_rating_count": 1,
-      "community_total": 9,
+      "community_total": 10,
       "community_status_counts": {
         "interested": 4,
         "queued": 2,
         "completed": 2,
-        "abandoned": 1
+        "abandoned": 2
       },
       "release_date": "January 28th, 2025",
       "developer": "Yellow Brick Games",
@@ -30156,8 +30192,9 @@
       ],
       "playtime_category": "Short & Sweet",
       "playtime_hours": "4-9 Hours",
-      "community_total": 1,
+      "community_total": 2,
       "community_status_counts": {
+        "queued": 1,
         "no_interest": 1
       },
       "release_date": "July 17th, 2026",
@@ -30432,12 +30469,12 @@
       ],
       "playtime_category": "Short & Sweet",
       "playtime_hours": "4-9 Hours",
-      "community_total": 8,
+      "community_total": 9,
       "community_status_counts": {
         "queued": 2,
         "completed": 2,
+        "abandoned": 2,
         "no_interest": 2,
-        "abandoned": 1,
         "interested": 1
       },
       "release_date": "February 13th, 2017",
@@ -30535,10 +30572,10 @@
       ],
       "playtime_category": "Lengthy Expedition",
       "playtime_hours": "35-54 Hours",
-      "community_total": 3,
+      "community_total": 4,
       "community_status_counts": {
-        "interested": 2,
-        "queued": 1
+        "queued": 2,
+        "interested": 2
       },
       "release_date": "November 2nd, 2023",
       "developer": "IronOak Games",
@@ -30630,9 +30667,10 @@
       "community_rating": 4.0,
       "community_sentiment": "Very Positive",
       "community_rating_count": 1,
-      "community_total": 3,
+      "community_total": 4,
       "community_status_counts": {
         "interested": 2,
+        "queued": 1,
         "completed": 1
       },
       "release_date": "October 8th, 2026",
@@ -30727,12 +30765,12 @@
       ],
       "playtime_category": "Lengthy Expedition",
       "playtime_hours": "35-54 Hours",
-      "community_rating": 5.0,
+      "community_rating": 4.7,
       "community_sentiment": "Overwhelmingly Positive",
-      "community_rating_count": 2,
-      "community_total": 11,
+      "community_rating_count": 3,
+      "community_total": 12,
       "community_status_counts": {
-        "completed": 5,
+        "completed": 6,
         "queued": 2,
         "abandoned": 2,
         "playing": 1,
@@ -30834,12 +30872,13 @@
       "community_rating": 4.6,
       "community_sentiment": "Overwhelmingly Positive",
       "community_rating_count": 5,
-      "community_total": 16,
+      "community_total": 17,
       "community_status_counts": {
         "playing": 6,
         "interested": 6,
         "queued": 2,
-        "completed": 2
+        "completed": 2,
+        "abandoned": 1
       },
       "release_date": "May 19th, 2026",
       "developer": "Playground Games",
@@ -30963,6 +31002,9 @@
       "new_plan_order": {},
       "leaving_plan_order": {},
       "genres": [
+        "Third-Person",
+        "Platform",
+        "Puzzle",
         "Adventure",
         "Indie"
       ],
@@ -31921,11 +31963,12 @@
       "community_rating": 4.7,
       "community_sentiment": "Overwhelmingly Positive",
       "community_rating_count": 3,
-      "community_total": 15,
+      "community_total": 16,
       "community_status_counts": {
         "interested": 9,
         "queued": 3,
-        "completed": 3
+        "completed": 3,
+        "abandoned": 1
       },
       "release_date": "October 6th, 2026",
       "developer": "The Coalition",
@@ -33627,12 +33670,12 @@
       ],
       "playtime_category": "Lengthy Expedition",
       "playtime_hours": "35-54 Hours",
-      "community_rating": 4.8,
-      "community_sentiment": "Overwhelmingly Positive",
-      "community_rating_count": 2,
-      "community_total": 5,
+      "community_rating": 4.5,
+      "community_sentiment": "Very Positive",
+      "community_rating_count": 3,
+      "community_total": 6,
       "community_status_counts": {
-        "completed": 2,
+        "completed": 3,
         "playing": 1,
         "queued": 1,
         "interested": 1
@@ -33925,11 +33968,11 @@
       "community_rating": 4.7,
       "community_sentiment": "Overwhelmingly Positive",
       "community_rating_count": 3,
-      "community_total": 10,
+      "community_total": 11,
       "community_status_counts": {
         "completed": 4,
         "queued": 3,
-        "abandoned": 2,
+        "abandoned": 3,
         "interested": 1
       },
       "release_date": "December 8th, 2021",
@@ -34929,11 +34972,11 @@
       "community_rating": 4.3,
       "community_sentiment": "Very Positive",
       "community_rating_count": 3,
-      "community_total": 13,
+      "community_total": 14,
       "community_status_counts": {
         "completed": 6,
         "queued": 5,
-        "abandoned": 1,
+        "abandoned": 2,
         "interested": 1
       },
       "release_date": "August 7th, 2017",
@@ -35494,13 +35537,13 @@
       "community_rating": 4.4,
       "community_sentiment": "Very Positive",
       "community_rating_count": 4,
-      "community_total": 13,
+      "community_total": 14,
       "community_status_counts": {
         "completed": 6,
         "queued": 3,
+        "abandoned": 2,
         "interested": 2,
-        "playing": 1,
-        "abandoned": 1
+        "playing": 1
       },
       "release_date": "January 25th, 2023",
       "developer": "Tango Gameworks",
@@ -35895,12 +35938,12 @@
       "community_rating": 4.7,
       "community_sentiment": "Overwhelmingly Positive",
       "community_rating_count": 3,
-      "community_total": 23,
+      "community_total": 24,
       "community_status_counts": {
         "completed": 7,
         "interested": 7,
         "queued": 5,
-        "abandoned": 3,
+        "abandoned": 4,
         "playing": 1
       },
       "release_date": "February 24th, 2017",
@@ -36851,10 +36894,11 @@
       ],
       "playtime_category": "A Solid Adventure",
       "playtime_hours": "10-19 Hours",
-      "community_total": 4,
+      "community_total": 5,
       "community_status_counts": {
         "interested": 2,
         "queued": 1,
+        "abandoned": 1,
         "no_interest": 1
       },
       "release_date": "October 19th, 2021",
@@ -37148,12 +37192,12 @@
       ],
       "playtime_category": "A Solid Adventure",
       "playtime_hours": "10-19 Hours",
-      "community_rating": 5.0,
-      "community_sentiment": "Overwhelmingly Positive",
-      "community_rating_count": 1,
-      "community_total": 11,
+      "community_rating": 4.5,
+      "community_sentiment": "Very Positive",
+      "community_rating_count": 2,
+      "community_total": 12,
       "community_status_counts": {
-        "completed": 4,
+        "completed": 5,
         "interested": 3,
         "queued": 2,
         "playing": 1,
@@ -37630,10 +37674,11 @@
       ],
       "playtime_category": "Lengthy Expedition",
       "playtime_hours": "35-54 Hours",
-      "community_total": 6,
+      "community_total": 7,
       "community_status_counts": {
         "interested": 3,
         "no_interest": 2,
+        "queued": 1,
         "abandoned": 1
       },
       "release_date": "October 21st, 2025",
@@ -37727,10 +37772,10 @@
       ],
       "playtime_category": "Bite-Sized",
       "playtime_hours": "0-3 Hours",
-      "community_total": 3,
+      "community_total": 4,
       "community_status_counts": {
-        "no_interest": 2,
-        "queued": 1
+        "queued": 2,
+        "no_interest": 2
       },
       "release_date": "May 28th, 2025",
       "developer": "Doot",
@@ -40384,11 +40429,12 @@
       "community_rating": 3.6,
       "community_sentiment": "Mostly Positive",
       "community_rating_count": 4,
-      "community_total": 10,
+      "community_total": 11,
       "community_status_counts": {
         "completed": 6,
         "queued": 2,
-        "no_interest": 2
+        "no_interest": 2,
+        "abandoned": 1
       },
       "release_date": "November 20th, 2007",
       "developer": "BioWare",
@@ -43073,10 +43119,13 @@
       ],
       "playtime_category": "Hearty Campaign",
       "playtime_hours": "20-34 Hours",
-      "community_total": 6,
+      "community_rating": 3.5,
+      "community_sentiment": "Mostly Positive",
+      "community_rating_count": 1,
+      "community_total": 7,
       "community_status_counts": {
         "queued": 3,
-        "completed": 1,
+        "completed": 2,
         "abandoned": 1,
         "no_interest": 1
       },
@@ -43170,8 +43219,9 @@
       ],
       "playtime_category": "A Solid Adventure",
       "playtime_hours": "10-19 Hours",
-      "community_total": 1,
+      "community_total": 2,
       "community_status_counts": {
+        "queued": 1,
         "interested": 1
       },
       "release_date": "November 20th, 2025",
@@ -43279,10 +43329,10 @@
       ],
       "playtime_category": "A Solid Adventure",
       "playtime_hours": "10-19 Hours",
-      "community_total": 11,
+      "community_total": 12,
       "community_status_counts": {
+        "abandoned": 4,
         "queued": 3,
-        "abandoned": 3,
         "interested": 2,
         "playing": 1,
         "completed": 1,
@@ -44467,10 +44517,10 @@
       "community_rating": 2.0,
       "community_sentiment": "Mostly Negative",
       "community_rating_count": 1,
-      "community_total": 4,
+      "community_total": 5,
       "community_status_counts": {
         "completed": 2,
-        "abandoned": 1,
+        "abandoned": 2,
         "no_interest": 1
       },
       "release_date": "October 30th, 2012",
@@ -45315,11 +45365,14 @@
       ],
       "playtime_category": "Grand Saga",
       "playtime_hours": "55-79 Hours",
-      "community_total": 9,
+      "community_rating": 4.0,
+      "community_sentiment": "Very Positive",
+      "community_rating_count": 1,
+      "community_total": 10,
       "community_status_counts": {
         "interested": 5,
-        "queued": 2,
-        "completed": 2
+        "completed": 3,
+        "queued": 2
       },
       "release_date": "March 23rd, 2018",
       "developer": "LEVEL-5",
@@ -46324,12 +46377,12 @@
       ],
       "playtime_category": "A Solid Adventure",
       "playtime_hours": "10-19 Hours",
-      "community_rating": 5.0,
+      "community_rating": 4.7,
       "community_sentiment": "Overwhelmingly Positive",
-      "community_rating_count": 2,
-      "community_total": 10,
+      "community_rating_count": 3,
+      "community_total": 11,
       "community_status_counts": {
-        "completed": 5,
+        "completed": 6,
         "interested": 3,
         "queued": 1,
         "abandoned": 1
@@ -46428,12 +46481,12 @@
       "community_rating": 5.0,
       "community_sentiment": "Overwhelmingly Positive",
       "community_rating_count": 2,
-      "community_total": 10,
+      "community_total": 11,
       "community_status_counts": {
         "completed": 5,
         "queued": 2,
-        "interested": 2,
-        "abandoned": 1
+        "abandoned": 2,
+        "interested": 2
       },
       "release_date": "March 10th, 2020",
       "developer": "Moon Studios",
@@ -47477,11 +47530,14 @@
       ],
       "playtime_category": "A Solid Adventure",
       "playtime_hours": "10-19 Hours",
-      "community_total": 7,
+      "community_rating": 3.0,
+      "community_sentiment": "Mostly Positive",
+      "community_rating_count": 1,
+      "community_total": 8,
       "community_status_counts": {
         "interested": 3,
         "queued": 2,
-        "completed": 1,
+        "completed": 2,
         "no_interest": 1
       },
       "release_date": "November 15th, 2022",
@@ -48670,9 +48726,9 @@
       "community_rating": 3.5,
       "community_sentiment": "Mostly Positive",
       "community_rating_count": 2,
-      "community_total": 5,
+      "community_total": 6,
       "community_status_counts": {
-        "abandoned": 3,
+        "abandoned": 4,
         "completed": 1,
         "no_interest": 1
       },
@@ -48870,10 +48926,11 @@
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/ljf1pp25tipbksu20mwo.jpg&w=160&q=75",
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/ljf1pp25tipbksu20mwo.jpg&w=200&q=75"
       ],
-      "community_total": 3,
+      "community_total": 4,
       "community_status_counts": {
         "queued": 1,
         "completed": 1,
+        "abandoned": 1,
         "no_interest": 1
       },
       "release_date": "February 18th, 2014",
@@ -50057,11 +50114,12 @@
       "community_rating": 3.5,
       "community_sentiment": "Mostly Positive",
       "community_rating_count": 2,
-      "community_total": 12,
+      "community_total": 13,
       "community_status_counts": {
         "interested": 7,
         "completed": 4,
-        "queued": 1
+        "queued": 1,
+        "abandoned": 1
       },
       "release_date": "August 24th, 2021",
       "developer": "Double Fine Productions",
@@ -51343,12 +51401,12 @@
       ],
       "playtime_category": "A Solid Adventure",
       "playtime_hours": "10-19 Hours",
-      "community_rating": 4.7,
+      "community_rating": 4.8,
       "community_sentiment": "Overwhelmingly Positive",
-      "community_rating_count": 3,
-      "community_total": 12,
+      "community_rating_count": 4,
+      "community_total": 13,
       "community_status_counts": {
-        "completed": 6,
+        "completed": 7,
         "interested": 3,
         "playing": 1,
         "queued": 1,
@@ -52054,12 +52112,15 @@
       ],
       "playtime_category": "A Solid Adventure",
       "playtime_hours": "10-19 Hours",
-      "community_total": 12,
+      "community_rating": 3.0,
+      "community_sentiment": "Mostly Positive",
+      "community_rating_count": 1,
+      "community_total": 13,
       "community_status_counts": {
         "interested": 7,
         "playing": 2,
         "queued": 2,
-        "completed": 1
+        "completed": 2
       },
       "release_date": "April 14th, 2026",
       "developer": "Sad Cat Studios",
@@ -52560,14 +52621,14 @@
       "playtime_category": "A Solid Adventure",
       "playtime_hours": "10-19 Hours",
       "campaign_chapters": 14,
-      "community_rating": 4.3,
-      "community_sentiment": "Very Positive",
-      "community_rating_count": 2,
-      "community_total": 17,
+      "community_rating": 3.7,
+      "community_sentiment": "Mostly Positive",
+      "community_rating_count": 3,
+      "community_total": 18,
       "community_status_counts": {
         "queued": 6,
         "interested": 6,
-        "completed": 4,
+        "completed": 5,
         "abandoned": 1
       },
       "release_date": "August 27th, 2026",
@@ -54513,12 +54574,13 @@
       ],
       "playtime_category": "Hearty Campaign",
       "playtime_hours": "20-34 Hours",
-      "community_total": 8,
+      "community_total": 9,
       "community_status_counts": {
         "no_interest": 3,
         "completed": 2,
         "interested": 2,
-        "queued": 1
+        "queued": 1,
+        "abandoned": 1
       },
       "release_date": "September 18th, 2014",
       "developer": "Harebrained Schemes",
@@ -57054,11 +57116,12 @@
       "community_rating": 3.0,
       "community_sentiment": "Mostly Positive",
       "community_rating_count": 3,
-      "community_total": 8,
+      "community_total": 9,
       "community_status_counts": {
         "completed": 4,
         "no_interest": 2,
         "queued": 1,
+        "abandoned": 1,
         "interested": 1
       },
       "release_date": "November 17th, 2017",
@@ -57361,9 +57424,9 @@
       "community_rating": 4.2,
       "community_sentiment": "Very Positive",
       "community_rating_count": 5,
-      "community_total": 19,
+      "community_total": 20,
       "community_status_counts": {
-        "queued": 6,
+        "queued": 7,
         "completed": 6,
         "interested": 4,
         "playing": 1,
@@ -57762,9 +57825,9 @@
       "community_rating": 4.5,
       "community_sentiment": "Very Positive",
       "community_rating_count": 2,
-      "community_total": 10,
+      "community_total": 11,
       "community_status_counts": {
-        "abandoned": 3,
+        "abandoned": 4,
         "interested": 3,
         "completed": 2,
         "playing": 1,
@@ -57866,12 +57929,13 @@
       "community_rating": 4.5,
       "community_sentiment": "Very Positive",
       "community_rating_count": 2,
-      "community_total": 13,
+      "community_total": 14,
       "community_status_counts": {
         "playing": 4,
         "queued": 3,
         "completed": 3,
         "interested": 2,
+        "abandoned": 1,
         "no_interest": 1
       },
       "release_date": "September 6th, 2023",
@@ -58460,10 +58524,11 @@
       "community_rating": 4.0,
       "community_sentiment": "Very Positive",
       "community_rating_count": 2,
-      "community_total": 4,
+      "community_total": 5,
       "community_status_counts": {
         "completed": 2,
         "queued": 1,
+        "abandoned": 1,
         "no_interest": 1
       },
       "release_date": "December 1st, 2016",
@@ -59909,9 +59974,12 @@
       ],
       "playtime_category": "A Solid Adventure",
       "playtime_hours": "10-19 Hours",
-      "community_total": 8,
+      "community_rating": 3.0,
+      "community_sentiment": "Mostly Positive",
+      "community_rating_count": 1,
+      "community_total": 9,
       "community_status_counts": {
-        "completed": 3,
+        "completed": 4,
         "interested": 3,
         "queued": 2
       },
@@ -60404,13 +60472,13 @@
       ],
       "playtime_category": "Hearty Campaign",
       "playtime_hours": "20-34 Hours",
-      "community_rating": 4.5,
+      "community_rating": 4.4,
       "community_sentiment": "Very Positive",
-      "community_rating_count": 6,
-      "community_total": 17,
+      "community_rating_count": 7,
+      "community_total": 18,
       "community_status_counts": {
+        "completed": 6,
         "queued": 5,
-        "completed": 5,
         "playing": 4,
         "abandoned": 1,
         "interested": 1,
@@ -60998,9 +61066,9 @@
       "community_rating": 4.3,
       "community_sentiment": "Very Positive",
       "community_rating_count": 3,
-      "community_total": 9,
+      "community_total": 10,
       "community_status_counts": {
-        "queued": 2,
+        "queued": 3,
         "completed": 2,
         "interested": 2,
         "no_interest": 2,
@@ -62871,9 +62939,10 @@
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbu22.jpg&w=160&q=75",
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbu22.jpg&w=200&q=75"
       ],
-      "community_total": 3,
+      "community_total": 4,
       "community_status_counts": {
-        "no_interest": 3
+        "no_interest": 3,
+        "completed": 1
       },
       "release_date": "September 14th, 2004",
       "developer": "Maxis",
@@ -62966,11 +63035,11 @@
       "community_rating": 5.0,
       "community_sentiment": "Overwhelmingly Positive",
       "community_rating_count": 1,
-      "community_total": 4,
+      "community_total": 5,
       "community_status_counts": {
+        "completed": 2,
         "no_interest": 2,
-        "queued": 1,
-        "completed": 1
+        "queued": 1
       },
       "release_date": "June 2nd, 2009",
       "developer": "The Sims Studio",
@@ -63067,10 +63136,10 @@
       "community_rating": 4.5,
       "community_sentiment": "Very Positive",
       "community_rating_count": 3,
-      "community_total": 8,
+      "community_total": 9,
       "community_status_counts": {
         "completed": 3,
-        "abandoned": 2,
+        "abandoned": 3,
         "no_interest": 2,
         "interested": 1
       },
@@ -63366,10 +63435,10 @@
       ],
       "playtime_category": "Hearty Campaign",
       "playtime_hours": "20-34 Hours",
-      "community_total": 4,
+      "community_total": 5,
       "community_status_counts": {
+        "queued": 2,
         "interested": 2,
-        "queued": 1,
         "no_interest": 1
       },
       "release_date": "March 4th, 2024",
@@ -63463,12 +63532,12 @@
       ],
       "playtime_category": "Short & Sweet",
       "playtime_hours": "4-9 Hours",
-      "community_rating": 4.0,
-      "community_sentiment": "Very Positive",
-      "community_rating_count": 2,
-      "community_total": 6,
+      "community_rating": 3.7,
+      "community_sentiment": "Mostly Positive",
+      "community_rating_count": 3,
+      "community_total": 7,
       "community_status_counts": {
-        "completed": 4,
+        "completed": 5,
         "interested": 1,
         "no_interest": 1
       },
@@ -63562,12 +63631,12 @@
       ],
       "playtime_category": "Short & Sweet",
       "playtime_hours": "4-9 Hours",
-      "community_rating": 3.5,
+      "community_rating": 3.3,
       "community_sentiment": "Mostly Positive",
-      "community_rating_count": 2,
-      "community_total": 5,
+      "community_rating_count": 3,
+      "community_total": 6,
       "community_status_counts": {
-        "completed": 3,
+        "completed": 4,
         "interested": 1,
         "no_interest": 1
       },
@@ -63854,8 +63923,12 @@
       ],
       "playtime_category": "A Solid Adventure",
       "playtime_hours": "10-19 Hours",
-      "community_total": 2,
+      "community_rating": 3.0,
+      "community_sentiment": "Mostly Positive",
+      "community_rating_count": 1,
+      "community_total": 3,
       "community_status_counts": {
+        "completed": 1,
         "interested": 1,
         "no_interest": 1
       },
@@ -64057,6 +64130,13 @@
       ],
       "playtime_category": "Hearty Campaign",
       "playtime_hours": "20-34 Hours",
+      "community_rating": 3.5,
+      "community_sentiment": "Mostly Positive",
+      "community_rating_count": 1,
+      "community_total": 1,
+      "community_status_counts": {
+        "completed": 1
+      },
       "release_date": "August 7th, 2025",
       "developer": "neoludic games",
       "publisher": "Skystone Games",
@@ -64468,12 +64548,12 @@
       "community_rating": 4.7,
       "community_sentiment": "Overwhelmingly Positive",
       "community_rating_count": 3,
-      "community_total": 16,
+      "community_total": 17,
       "community_status_counts": {
         "completed": 7,
+        "abandoned": 3,
         "interested": 3,
         "queued": 2,
-        "abandoned": 2,
         "no_interest": 2
       },
       "release_date": "March 6th, 2017",
@@ -64682,11 +64762,11 @@
       "community_rating": 4.3,
       "community_sentiment": "Very Positive",
       "community_rating_count": 2,
-      "community_total": 13,
+      "community_total": 14,
       "community_status_counts": {
         "completed": 10,
+        "abandoned": 2,
         "queued": 1,
-        "abandoned": 1,
         "interested": 1
       },
       "release_date": "March 8th, 2016",
@@ -64789,11 +64869,11 @@
       "community_rating": 4.5,
       "community_sentiment": "Very Positive",
       "community_rating_count": 2,
-      "community_total": 19,
+      "community_total": 20,
       "community_status_counts": {
         "completed": 8,
+        "queued": 4,
         "interested": 4,
-        "queued": 3,
         "abandoned": 3,
         "no_interest": 1
       },
@@ -66192,9 +66272,9 @@
       "community_rating": 3.5,
       "community_sentiment": "Mostly Positive",
       "community_rating_count": 2,
-      "community_total": 7,
+      "community_total": 8,
       "community_status_counts": {
-        "abandoned": 3,
+        "abandoned": 4,
         "no_interest": 2,
         "queued": 1,
         "completed": 1
@@ -66301,10 +66381,11 @@
       "community_rating": 4.0,
       "community_sentiment": "Very Positive",
       "community_rating_count": 2,
-      "community_total": 7,
+      "community_total": 8,
       "community_status_counts": {
         "completed": 4,
-        "interested": 3
+        "interested": 3,
+        "abandoned": 1
       },
       "release_date": "March 16th, 2022",
       "developer": "Andrew Shouldice",
@@ -67557,35 +67638,35 @@
         "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scpuxp.jpg&w=1920&q=75",
         "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scpuxp.jpg&w=2048&q=75",
         "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scpuxp.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxh.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxh.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxh.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxh.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxh.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxh.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxh.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxh.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxh.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxh.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxh.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxh.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxh.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxf.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxf.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxf.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxf.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxf.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxf.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxf.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxf.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxf.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxf.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxf.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxf.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxf.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxg.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxg.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxg.jpg&w=200&q=75"
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxm.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxm.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxm.jpg&w=200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxm.jpg&w=250&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxm.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxm.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxm.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxm.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxm.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxm.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxm.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxm.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxm.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxi.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxi.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxi.jpg&w=200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxi.jpg&w=250&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxi.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxi.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxi.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxi.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxi.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxi.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxi.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxi.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxi.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxk.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxk.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scpuxk.jpg&w=200&q=75"
       ],
       "playtime_category": "Lengthy Expedition",
       "playtime_hours": "35-54 Hours",
@@ -69024,11 +69105,11 @@
       "community_rating": 4.3,
       "community_sentiment": "Very Positive",
       "community_rating_count": 5,
-      "community_total": 17,
+      "community_total": 18,
       "community_status_counts": {
         "completed": 11,
         "queued": 3,
-        "abandoned": 2,
+        "abandoned": 3,
         "interested": 1
       },
       "release_date": "May 26th, 2014",
@@ -69126,13 +69207,13 @@
       ],
       "playtime_category": "Hearty Campaign",
       "playtime_hours": "20-34 Hours",
-      "community_rating": 4.5,
+      "community_rating": 4.3,
       "community_sentiment": "Very Positive",
-      "community_rating_count": 2,
-      "community_total": 16,
+      "community_rating_count": 3,
+      "community_total": 17,
       "community_status_counts": {
         "interested": 6,
-        "completed": 4,
+        "completed": 5,
         "queued": 3,
         "playing": 1,
         "abandoned": 1,
@@ -69240,11 +69321,12 @@
       ],
       "playtime_category": "Hearty Campaign",
       "playtime_hours": "20-34 Hours",
-      "community_total": 11,
+      "community_total": 12,
       "community_status_counts": {
         "interested": 5,
         "completed": 4,
-        "queued": 2
+        "queued": 2,
+        "abandoned": 1
       },
       "release_date": "October 29th, 2020",
       "developer": "Ubisoft Toronto",
@@ -69446,9 +69528,10 @@
       "community_rating": 5.0,
       "community_sentiment": "Overwhelmingly Positive",
       "community_rating_count": 2,
-      "community_total": 3,
+      "community_total": 4,
       "community_status_counts": {
         "completed": 2,
+        "queued": 1,
         "interested": 1
       },
       "release_date": "September 22nd, 2026",
@@ -69635,11 +69718,12 @@
       "community_rating": 2.5,
       "community_sentiment": "Mixed",
       "community_rating_count": 1,
-      "community_total": 6,
+      "community_total": 7,
       "community_status_counts": {
         "completed": 2,
         "no_interest": 2,
         "playing": 1,
+        "queued": 1,
         "abandoned": 1
       },
       "release_date": "July 23rd, 2025",
@@ -69933,9 +70017,9 @@
       "community_rating": 4.5,
       "community_sentiment": "Very Positive",
       "community_rating_count": 1,
-      "community_total": 5,
+      "community_total": 6,
       "community_status_counts": {
-        "queued": 1,
+        "queued": 2,
         "completed": 1,
         "abandoned": 1,
         "interested": 1,
@@ -71267,10 +71351,10 @@
       ],
       "playtime_category": "A Solid Adventure",
       "playtime_hours": "10-19 Hours",
-      "community_total": 6,
+      "community_total": 7,
       "community_status_counts": {
         "completed": 3,
-        "queued": 1,
+        "queued": 2,
         "interested": 1,
         "no_interest": 1
       },
