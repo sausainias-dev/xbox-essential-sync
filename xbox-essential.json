@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-11-04T13:34:02.549545+00:00",
+  "updated_at": "2026-11-04T23:06:14.964142+00:00",
   "service_counts": {
     "essential": 67,
     "pc": 573,
@@ -42,7 +42,7 @@
       "Virtual Reality": 2
     },
     "pc": {
-      "Adventure": 350,
+      "Adventure": 351,
       "Third-Person": 259,
       "First-Person": 200,
       "Role-Playing": 181,
@@ -56,8 +56,8 @@
       "Puzzle": 57,
       "Arcade": 41,
       "Racing": 41,
+      "Hack and Slash": 38,
       "Sport": 38,
-      "Hack and Slash": 37,
       "Real-Time Strategy": 25,
       "Turn-Based Strategy": 25,
       "Tactical": 24,
@@ -66,7 +66,7 @@
       "Virtual Reality": 14,
       "Music": 5,
       "Point-and-Click": 5,
-      "Visual Novel": 3,
+      "Visual Novel": 4,
       "MOBA": 2,
       "Text": 1
     },
@@ -101,7 +101,7 @@
       "Visual Novel": 1
     },
     "ultimate": {
-      "Adventure": 383,
+      "Adventure": 384,
       "Third-Person": 307,
       "First-Person": 213,
       "Role-Playing": 193,
@@ -116,7 +116,7 @@
       "Arcade": 55,
       "Sport": 52,
       "Racing": 48,
-      "Hack and Slash": 42,
+      "Hack and Slash": 43,
       "Turn-Based Strategy": 29,
       "Tactical": 28,
       "Fighting": 27,
@@ -126,7 +126,7 @@
       "Point-and-Click": 9,
       "Music": 6,
       "Quiz/Trivia": 5,
-      "Visual Novel": 3,
+      "Visual Novel": 4,
       "MOBA": 2,
       "Text": 1
     },
@@ -187,7 +187,7 @@
       "description": "Xbox Game Pass Ultimate includes new games on day one, a library of 500+ games on Xbox console, PC, and supported devices, and the ability to stream games anywhere at our best quality. Check out the latest games on Game Pass Ultimate. What's leaving, upcoming releases, and a full list of titles!",
       "available_count": 651,
       "genre_counts": {
-        "Adventure": 430,
+        "Adventure": 431,
         "Indie": 199,
         "Shooter": 174,
         "Simulator": 174,
@@ -202,7 +202,7 @@
         "Card & Board Game": 21,
         "Music": 8,
         "Quiz/Trivia": 5,
-        "Visual Novel": 4,
+        "Visual Novel": 5,
         "MOBA": 2
       },
       "new_releases": [
@@ -223,6 +223,7 @@
         {
           "name": "Gravhounds",
           "url": "https://gamescriptions.com/game/414958",
+          "year": 2026,
           "date_label": "Nov 2",
           "date_type": "added"
         },
@@ -33016,6 +33017,7 @@
       "ubisoft_classics": false,
       "new": true,
       "leaving": false,
+      "year": 2026,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocrh5.jpg",
       "screenshot_urls": [
         "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fsc14vli.jpg&w=3840&q=75",
@@ -33059,6 +33061,7 @@
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14vll.jpg&w=160&q=75",
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc14vll.jpg&w=200&q=75"
       ],
+      "release_date": "November 2nd, 2026",
       "description": "Gravhounds is a 1–4 player co-op action builder. Drop into hostile planets as a pack, build and defend your base in physics-driven mayhem, and extract with everything you can carry before you become alien chow. The longer you stay, the greater the danger..."
     },
     {
@@ -37967,7 +37970,10 @@
       "genres": [
         "Third-Person",
         "Role-Playing",
-        "Indie"
+        "Hack and Slash",
+        "Adventure",
+        "Indie",
+        "Visual Novel"
       ],
       "game_modes": [
         "Single-Player",
@@ -37990,7 +37996,7 @@
       "new": false,
       "leaving": false,
       "year": 2026,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocyj2.jpg",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coda9z.jpg",
       "screenshot_urls": [
         "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fsc15c43.jpg&w=3840&q=75",
         "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc15c43.jpg&w=380&q=75",
