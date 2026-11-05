@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-11-05T04:12:54.807796+00:00",
+  "updated_at": "2026-11-05T13:49:13.657385+00:00",
   "service_counts": {
     "essential": 67,
     "pc": 575,
@@ -810,7 +810,7 @@
           "date_type": "tbd"
         },
         {
-          "name": "The Elder Scrolls VI",
+          "name": "The Elder Scrolls VI: Sentinel",
           "date_label": "TBD",
           "date_type": "tbd"
         },
@@ -7103,8 +7103,8 @@
           "availability_date_type": "tbd"
         },
         {
-          "name": "The Elder Scrolls VI",
-          "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ycv.jpg",
+          "name": "The Elder Scrolls VI: Sentinel",
+          "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/codako.jpg",
           "screenshot_urls": [
             "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fsc144sh.jpg&w=3840&q=75",
             "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc144sh.jpg&w=380&q=75",
@@ -29953,7 +29953,7 @@
         "no_interest": 1
       },
       "release_date": "September 9th, 2025",
-      "developer": "weltenbauer. Software Entwicklung GmbH",
+      "developer": "Weltenbauer. Software Entwicklung",
       "publisher": "astragon Software GmbH",
       "description": "Face unpredictable dangers, fight perilous fires with your crew, and save lives in Firefighting Simulator: Ignite. Step into the boots of a U.S. firefighter and play with up to 3 friends or with the help of your NPC controlled crew members."
     },
