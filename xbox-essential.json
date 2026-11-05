@@ -8,12 +8,12 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-11-04T23:06:14.964142+00:00",
+  "updated_at": "2026-11-05T04:12:54.807796+00:00",
   "service_counts": {
     "essential": 67,
-    "pc": 573,
-    "premium": 419,
-    "ultimate": 651,
+    "pc": 575,
+    "premium": 420,
+    "ultimate": 653,
     "ea_play": 93,
     "ubisoft_classics": 64
   },
@@ -42,18 +42,18 @@
       "Virtual Reality": 2
     },
     "pc": {
-      "Adventure": 351,
+      "Adventure": 352,
       "Third-Person": 259,
-      "First-Person": 200,
+      "First-Person": 201,
       "Role-Playing": 181,
       "Indie": 168,
       "Shooter": 150,
       "Isometric": 137,
-      "Simulator": 136,
+      "Simulator": 137,
       "Strategy": 119,
       "Side-View": 69,
       "Platform": 63,
-      "Puzzle": 57,
+      "Puzzle": 58,
       "Arcade": 41,
       "Racing": 41,
       "Hack and Slash": 38,
@@ -77,7 +77,7 @@
       "Role-Playing": 144,
       "Indie": 133,
       "Shooter": 118,
-      "Simulator": 103,
+      "Simulator": 104,
       "Isometric": 98,
       "Strategy": 84,
       "Side-View": 54,
@@ -101,18 +101,18 @@
       "Visual Novel": 1
     },
     "ultimate": {
-      "Adventure": 384,
+      "Adventure": 385,
       "Third-Person": 307,
-      "First-Person": 213,
+      "First-Person": 214,
       "Role-Playing": 193,
       "Indie": 172,
       "Shooter": 169,
-      "Simulator": 156,
+      "Simulator": 157,
       "Isometric": 148,
       "Strategy": 132,
       "Side-View": 85,
       "Platform": 74,
-      "Puzzle": 72,
+      "Puzzle": 73,
       "Arcade": 55,
       "Sport": 52,
       "Racing": 48,
@@ -185,7 +185,7 @@
       "name": "Game Pass Ultimate",
       "url": "https://gamescriptions.com/subscription/service/xbox_ultimate",
       "description": "Xbox Game Pass Ultimate includes new games on day one, a library of 500+ games on Xbox console, PC, and supported devices, and the ability to stream games anywhere at our best quality. Check out the latest games on Game Pass Ultimate. What's leaving, upcoming releases, and a full list of titles!",
-      "available_count": 651,
+      "available_count": 653,
       "genre_counts": {
         "Adventure": 431,
         "Indie": 199,
@@ -206,6 +206,20 @@
         "MOBA": 2
       },
       "new_releases": [
+        {
+          "name": "Escape Academy 2: Back 2 School",
+          "url": "https://gamescriptions.com/game/347671",
+          "year": 2026,
+          "date_label": "Today",
+          "date_type": "added"
+        },
+        {
+          "name": "Firefighting Simulator: Ignite",
+          "url": "https://gamescriptions.com/game/335254",
+          "year": 2025,
+          "date_label": "Today",
+          "date_type": "added"
+        },
         {
           "name": "Football Manager 27",
           "url": "https://gamescriptions.com/game/420884",
@@ -316,20 +330,6 @@
           "year": 2026,
           "date_label": "Oct 13",
           "date_type": "added"
-        },
-        {
-          "name": "Battlefield 6",
-          "url": "https://gamescriptions.com/game/317407",
-          "year": 2025,
-          "date_label": "Oct 13",
-          "date_type": "added"
-        },
-        {
-          "name": "Echo Weaver",
-          "url": "https://gamescriptions.com/game/290107",
-          "year": 2026,
-          "date_label": "Oct 8",
-          "date_type": "added"
         }
       ],
       "leaving_soon": [
@@ -433,18 +433,6 @@
         }
       ],
       "coming_soon": [
-        {
-          "name": "Escape Academy 2: Back 2 School",
-          "year": 2026,
-          "date_label": "Tomorrow",
-          "date_type": "arrives"
-        },
-        {
-          "name": "Firefighting Simulator: Ignite",
-          "year": 2025,
-          "date_label": "Tomorrow",
-          "date_type": "arrives"
-        },
         {
           "name": "Football Manager 27 Console",
           "year": 2026,
@@ -1413,6 +1401,9 @@
           "name": "Elite: Dangerous"
         },
         {
+          "name": "Escape Academy 2: Back 2 School"
+        },
+        {
           "name": "Escape Simulator"
         },
         {
@@ -1516,6 +1507,9 @@
         },
         {
           "name": "Final Fantasy VII Remake Intergrade"
+        },
+        {
+          "name": "Firefighting Simulator: Ignite"
         },
         {
           "name": "Firefighting Simulator: The Squad"
@@ -2788,144 +2782,6 @@
         }
       ],
       "upcoming_games": [
-        {
-          "name": "Escape Academy 2: Back 2 School",
-          "year": 2026,
-          "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xhl.jpg",
-          "screenshot_urls": [
-            "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fscx9n5.jpg&w=3840&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scx9n5.jpg&w=380&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scx9n5.jpg&w=500&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scx9n5.jpg&w=640&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scx9n5.jpg&w=750&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scx9n5.jpg&w=828&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scx9n5.jpg&w=1080&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scx9n5.jpg&w=1200&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scx9n5.jpg&w=1920&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scx9n5.jpg&w=2048&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scx9n5.jpg&w=3840&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n6.jpg&w=3840&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n6.jpg&w=160&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n6.jpg&w=200&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n6.jpg&w=250&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n6.jpg&w=380&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n6.jpg&w=500&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n6.jpg&w=640&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n6.jpg&w=750&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n6.jpg&w=828&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n6.jpg&w=1080&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n6.jpg&w=1200&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n6.jpg&w=1920&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n6.jpg&w=2048&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n3.jpg&w=3840&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n3.jpg&w=160&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n3.jpg&w=200&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n3.jpg&w=250&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n3.jpg&w=380&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n3.jpg&w=500&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n3.jpg&w=640&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n3.jpg&w=750&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n3.jpg&w=828&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n3.jpg&w=1080&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n3.jpg&w=1200&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n3.jpg&w=1920&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n3.jpg&w=2048&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n1.jpg&w=3840&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n1.jpg&w=160&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n1.jpg&w=200&q=75"
-          ],
-          "description": "Class is (back) in session with Escape Academy 2: Back 2 School! Play in solo or co-op and explore an all-new campus, escape life-threatening puzzle rooms, and unravel a conspiracy as old as the school itself — all before the bell rings.",
-          "genres": [
-            "First-Person",
-            "Puzzle",
-            "Adventure"
-          ],
-          "game_modes": [
-            "Single-Player",
-            "Multiplayer",
-            "Co-Op",
-            "Split-Screen"
-          ],
-          "game_style": [
-            "Mystery"
-          ],
-          "platforms": [
-            "Xbox Series X|S",
-            "PC (Microsoft Windows)"
-          ],
-          "availability_date": "Tomorrow",
-          "availability_date_type": "arrives"
-        },
-        {
-          "name": "Firefighting Simulator: Ignite",
-          "year": 2025,
-          "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9pg9.jpg",
-          "screenshot_urls": [
-            "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fscvpwz.jpg&w=3840&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scvpwz.jpg&w=380&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scvpwz.jpg&w=500&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scvpwz.jpg&w=640&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scvpwz.jpg&w=750&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scvpwz.jpg&w=828&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scvpwz.jpg&w=1080&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scvpwz.jpg&w=1200&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scvpwz.jpg&w=1920&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scvpwz.jpg&w=2048&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scvpwz.jpg&w=3840&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx2.jpg&w=3840&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx2.jpg&w=160&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx2.jpg&w=200&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx2.jpg&w=250&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx2.jpg&w=380&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx2.jpg&w=500&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx2.jpg&w=640&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx2.jpg&w=750&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx2.jpg&w=828&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx2.jpg&w=1080&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx2.jpg&w=1200&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx2.jpg&w=1920&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx2.jpg&w=2048&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx5.jpg&w=3840&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx5.jpg&w=160&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx5.jpg&w=200&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx5.jpg&w=250&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx5.jpg&w=380&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx5.jpg&w=500&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx5.jpg&w=640&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx5.jpg&w=750&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx5.jpg&w=828&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx5.jpg&w=1080&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx5.jpg&w=1200&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx5.jpg&w=1920&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx5.jpg&w=2048&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx7.jpg&w=3840&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx7.jpg&w=160&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx7.jpg&w=200&q=75"
-          ],
-          "playtime_category": "Hearty Campaign",
-          "playtime_hours": "20-34 Hours",
-          "release_date": "September 9th, 2025",
-          "developer": "weltenbauer. Software Entwicklung GmbH",
-          "publisher": "astragon Software GmbH",
-          "description": "Face unpredictable dangers, fight perilous fires with your crew, and save lives in Firefighting Simulator: Ignite. Step into the boots of a U.S. firefighter and play with up to 3 friends or with the help of your NPC controlled crew members.",
-          "genres": [
-            "Simulator"
-          ],
-          "game_modes": [
-            "Single-Player",
-            "Multiplayer",
-            "Co-Op"
-          ],
-          "game_style": [
-            "Action"
-          ],
-          "platforms": [
-            "Xbox Series X|S",
-            "PC (Microsoft Windows)"
-          ],
-          "availability_date": "Tomorrow",
-          "availability_date_type": "arrives"
-        },
         {
           "name": "Football Manager 27 Console",
           "year": 2026,
@@ -7316,7 +7172,7 @@
       ]
     }
   },
-  "game_count_unique": 652,
+  "game_count_unique": 654,
   "games": [
     {
       "name": "1000xResist",
@@ -13554,20 +13410,14 @@
         "ea_play"
       ],
       "new_plans": [
-        "pc",
-        "ultimate",
         "ea_play"
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "pc": "Oct 13",
-        "ultimate": "Oct 13",
         "ea_play": "Oct 13"
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 16,
-        "ultimate": 16,
         "ea_play": 1
       },
       "leaving_plan_order": {},
@@ -14605,8 +14455,8 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 11,
-        "ultimate": 11
+        "pc": 13,
+        "ultimate": 13
       },
       "leaving_plan_order": {},
       "genres": [
@@ -15470,8 +15320,8 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 12,
-        "ultimate": 12
+        "pc": 14,
+        "ultimate": 14
       },
       "leaving_plan_order": {},
       "genres": [
@@ -16364,7 +16214,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "premium": 10
+        "premium": 11
       },
       "leaving_plan_order": {},
       "genres": [
@@ -17480,8 +17330,8 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 13,
-        "ultimate": 13
+        "pc": 15,
+        "ultimate": 15
       },
       "leaving_plan_order": {},
       "genres": [
@@ -21577,8 +21427,8 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 14,
-        "ultimate": 14
+        "pc": 16,
+        "ultimate": 16
       },
       "leaving_plan_order": {},
       "genres": [
@@ -23275,9 +23125,9 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 10,
-        "premium": 6,
-        "ultimate": 10
+        "pc": 12,
+        "premium": 7,
+        "ultimate": 12
       },
       "leaving_plan_order": {},
       "genres": [
@@ -23474,8 +23324,8 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 3,
-        "ultimate": 3
+        "pc": 5,
+        "ultimate": 5
       },
       "leaving_plan_order": {},
       "genres": [
@@ -24882,7 +24732,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "premium": 12
+        "premium": 13
       },
       "leaving_plan_order": {},
       "genres": [
@@ -26142,20 +25992,11 @@
         "pc",
         "ultimate"
       ],
-      "new_plans": [
-        "pc",
-        "ultimate"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
-      "plan_added_dates": {
-        "pc": "Oct 8",
-        "ultimate": "Oct 8"
-      },
+      "plan_added_dates": {},
       "leaving_dates": {},
-      "new_plan_order": {
-        "pc": 17,
-        "ultimate": 17
-      },
+      "new_plan_order": {},
       "leaving_plan_order": {},
       "genres": [
         "Side-View",
@@ -26181,7 +26022,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2026,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cod3qs.jpg",
@@ -26438,6 +26279,107 @@
       "release_date": "December 16th, 2014",
       "developer": "Frontier Developments",
       "description": "The next game in the Elite series - an amazing space epic with stunning visuals, incredible gameplay, breath-taking scope and award-winning sound. All content can be enjoyed in game any mode: solo, personal invite-only group or open/MMO. Carve your own path through the richest, largest gaming sandbox ever created, a 1:1 scale representati..."
+    },
+    {
+      "name": "Escape Academy 2: Back 2 School",
+      "url": "https://gamescriptions.com/game/347671",
+      "plans": [
+        "pc",
+        "ultimate"
+      ],
+      "new_plans": [
+        "pc",
+        "ultimate"
+      ],
+      "leaving_plans": [],
+      "plan_added_dates": {
+        "pc": "Today",
+        "ultimate": "Today"
+      },
+      "leaving_dates": {},
+      "new_plan_order": {
+        "pc": 0,
+        "ultimate": 0
+      },
+      "leaving_plan_order": {},
+      "genres": [
+        "First-Person",
+        "Puzzle",
+        "Adventure"
+      ],
+      "game_modes": [
+        "Single-Player",
+        "Multiplayer",
+        "Co-Op",
+        "Split-Screen"
+      ],
+      "game_style": [
+        "Mystery"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ],
+      "essential": false,
+      "pc_game_pass": true,
+      "premium": false,
+      "ultimate": true,
+      "ea_play": false,
+      "ubisoft_classics": false,
+      "new": true,
+      "leaving": false,
+      "year": 2026,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xhl.jpg",
+      "screenshot_urls": [
+        "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fscx9n5.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scx9n5.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scx9n5.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scx9n5.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scx9n5.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scx9n5.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scx9n5.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scx9n5.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scx9n5.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scx9n5.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scx9n5.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n6.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n6.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n6.jpg&w=200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n6.jpg&w=250&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n6.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n6.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n6.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n6.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n6.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n6.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n6.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n6.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n6.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n3.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n3.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n3.jpg&w=200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n3.jpg&w=250&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n3.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n3.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n3.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n3.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n3.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n3.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n3.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n3.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n3.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n1.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n1.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n1.jpg&w=200&q=75"
+      ],
+      "community_total": 1,
+      "community_status_counts": {
+        "interested": 1
+      },
+      "release_date": "November 5th, 2026",
+      "developer": "Coin Crew Games",
+      "publisher": "iam8bit",
+      "description": "Class is (back) in session with Escape Academy 2: Back 2 School! Play in solo or co-op and explore an all-new campus, escape life-threatening puzzle rooms, and unravel a conspiracy as old as the school itself — all before the bell rings."
     },
     {
       "name": "Escape Simulator",
@@ -29826,9 +29768,9 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 7,
-        "premium": 4,
-        "ultimate": 7
+        "pc": 9,
+        "premium": 5,
+        "ultimate": 9
       },
       "leaving_plan_order": {},
       "genres": [
@@ -29910,6 +29852,110 @@
       "developer": "Square Enix Creative Business Unit I",
       "publisher": "Square Enix",
       "description": "Final Fantasy VII Remake Intergrade is an enhanced and expanded version of Final Fantasy VII Remake that features a new episode starring Yuffie and introduces an exhilarating new story arc with numerous gameplay additions for players to enjoy."
+    },
+    {
+      "name": "Firefighting Simulator: Ignite",
+      "url": "https://gamescriptions.com/game/335254",
+      "plans": [
+        "pc",
+        "premium",
+        "ultimate"
+      ],
+      "new_plans": [
+        "pc",
+        "premium",
+        "ultimate"
+      ],
+      "leaving_plans": [],
+      "plan_added_dates": {
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
+      },
+      "leaving_dates": {},
+      "new_plan_order": {
+        "pc": 1,
+        "premium": 0,
+        "ultimate": 1
+      },
+      "leaving_plan_order": {},
+      "genres": [
+        "Simulator"
+      ],
+      "game_modes": [
+        "Single-Player",
+        "Multiplayer",
+        "Co-Op"
+      ],
+      "game_style": [
+        "Action"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ],
+      "essential": false,
+      "pc_game_pass": true,
+      "premium": true,
+      "ultimate": true,
+      "ea_play": false,
+      "ubisoft_classics": false,
+      "new": true,
+      "leaving": false,
+      "year": 2025,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9pg9.jpg",
+      "screenshot_urls": [
+        "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fscvpwz.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scvpwz.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scvpwz.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scvpwz.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scvpwz.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scvpwz.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scvpwz.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scvpwz.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scvpwz.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scvpwz.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scvpwz.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx2.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx2.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx2.jpg&w=200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx2.jpg&w=250&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx2.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx2.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx2.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx2.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx2.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx2.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx2.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx2.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx2.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx5.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx5.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx5.jpg&w=200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx5.jpg&w=250&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx5.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx5.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx5.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx5.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx5.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx5.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx5.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx5.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx5.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx7.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx7.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvpx7.jpg&w=200&q=75"
+      ],
+      "playtime_category": "Hearty Campaign",
+      "playtime_hours": "20-34 Hours",
+      "community_total": 1,
+      "community_status_counts": {
+        "no_interest": 1
+      },
+      "release_date": "September 9th, 2025",
+      "developer": "weltenbauer. Software Entwicklung GmbH",
+      "publisher": "astragon Software GmbH",
+      "description": "Face unpredictable dangers, fight perilous fires with your crew, and save lives in Firefighting Simulator: Ignite. Step into the boots of a U.S. firefighter and play with up to 3 friends or with the help of your NPC controlled crew members."
     },
     {
       "name": "Firefighting Simulator: The Squad",
@@ -30322,8 +30368,8 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 0,
-        "ultimate": 0
+        "pc": 2,
+        "ultimate": 2
       },
       "leaving_plan_order": {},
       "genres": [
@@ -32988,8 +33034,8 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 2,
-        "ultimate": 2
+        "pc": 4,
+        "ultimate": 4
       },
       "leaving_plan_order": {},
       "genres": [
@@ -37870,7 +37916,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "premium": 9
+        "premium": 10
       },
       "leaving_plan_order": {},
       "genres": [
@@ -39866,7 +39912,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "premium": 11
+        "premium": 12
       },
       "leaving_plan_order": {},
       "genres": [
@@ -43661,9 +43707,9 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 6,
-        "premium": 3,
-        "ultimate": 6
+        "pc": 8,
+        "premium": 4,
+        "ultimate": 8
       },
       "leaving_plan_order": {},
       "genres": [
@@ -44849,7 +44895,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "premium": 8
+        "premium": 9
       },
       "leaving_plan_order": {},
       "genres": [
@@ -45699,7 +45745,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "premium": 13
+        "premium": 14
       },
       "leaving_plan_order": {},
       "genres": [
@@ -48259,9 +48305,9 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 1,
-        "premium": 2,
-        "ultimate": 1
+        "pc": 3,
+        "premium": 3,
+        "ultimate": 3
       },
       "leaving_plan_order": {},
       "genres": [
@@ -48552,7 +48598,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "premium": 15
+        "premium": 16
       },
       "leaving_plan_order": {},
       "genres": [
@@ -49064,8 +49110,8 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 5,
-        "ultimate": 5,
+        "pc": 7,
+        "ultimate": 7,
         "ea_play": 0
       },
       "leaving_plan_order": {},
@@ -53430,17 +53476,11 @@
         "premium",
         "ultimate"
       ],
-      "new_plans": [
-        "premium"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
-      "plan_added_dates": {
-        "premium": "Sep 16"
-      },
+      "plan_added_dates": {},
       "leaving_dates": {},
-      "new_plan_order": {
-        "premium": 17
-      },
+      "new_plan_order": {},
       "leaving_plan_order": {},
       "genres": [
         "First-Person",
@@ -53467,7 +53507,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2025,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coay6e.jpg",
@@ -53930,7 +53970,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "premium": 7
+        "premium": 8
       },
       "leaving_plan_order": {},
       "genres": [
@@ -54029,8 +54069,8 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 9,
-        "ultimate": 9
+        "pc": 11,
+        "ultimate": 11
       },
       "leaving_plan_order": {},
       "genres": [
@@ -54707,7 +54747,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "premium": 14
+        "premium": 15
       },
       "leaving_plan_order": {},
       "genres": [
@@ -60307,8 +60347,8 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 4,
-        "ultimate": 4
+        "pc": 6,
+        "ultimate": 6
       },
       "leaving_plan_order": {},
       "genres": [
@@ -63175,9 +63215,9 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 8,
-        "premium": 5,
-        "ultimate": 8
+        "pc": 10,
+        "premium": 6,
+        "ultimate": 10
       },
       "leaving_plan_order": {},
       "genres": [
@@ -66415,7 +66455,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "premium": 16
+        "premium": 17
       },
       "leaving_plan_order": {},
       "genres": [
@@ -67015,8 +67055,8 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 15,
-        "ultimate": 15
+        "pc": 17,
+        "ultimate": 17
       },
       "leaving_plan_order": {},
       "genres": [
@@ -67207,11 +67247,11 @@
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "premium": "Today"
+        "premium": "Nov 4"
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "premium": 0
+        "premium": 1
       },
       "leaving_plan_order": {},
       "genres": [
@@ -67868,11 +67908,11 @@
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "premium": "Today"
+        "premium": "Nov 4"
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "premium": 1
+        "premium": 2
       },
       "leaving_plan_order": {},
       "genres": [
@@ -71622,7 +71662,7 @@
   ],
   "addition_date_coverage": {
     "filled_plan_dates": 0,
-    "unmatched_games": 652,
+    "unmatched_games": 654,
     "history_records": 0
   }
 }
