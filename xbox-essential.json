@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-11-05T23:07:20.591077+00:00",
+  "updated_at": "2026-11-06T04:10:29.364749+00:00",
   "service_counts": {
     "essential": 67,
     "pc": 575,
@@ -210,14 +210,14 @@
           "name": "Escape Academy 2: Back 2 School",
           "url": "https://gamescriptions.com/game/347671",
           "year": 2026,
-          "date_label": "Today",
+          "date_label": "Nov 5",
           "date_type": "added"
         },
         {
           "name": "Firefighting Simulator: Ignite",
           "url": "https://gamescriptions.com/game/335254",
           "year": 2025,
-          "date_label": "Today",
+          "date_label": "Nov 5",
           "date_type": "added"
         },
         {
@@ -26293,8 +26293,8 @@
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "pc": "Today",
-        "ultimate": "Today"
+        "pc": "Nov 5",
+        "ultimate": "Nov 5"
       },
       "leaving_dates": {},
       "new_plan_order": {
@@ -29867,9 +29867,9 @@
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
+        "pc": "Nov 5",
+        "premium": "Nov 5",
+        "ultimate": "Nov 5"
       },
       "leaving_dates": {},
       "new_plan_order": {
