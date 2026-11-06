@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-11-06T04:10:29.364749+00:00",
+  "updated_at": "2026-11-06T13:31:45.536976+00:00",
   "service_counts": {
     "essential": 67,
     "pc": 575,
@@ -11492,11 +11492,11 @@
       "community_rating": 2.5,
       "community_sentiment": "Mixed",
       "community_rating_count": 1,
-      "community_total": 7,
+      "community_total": 8,
       "community_status_counts": {
         "interested": 3,
+        "queued": 2,
         "completed": 2,
-        "queued": 1,
         "abandoned": 1
       },
       "release_date": "December 17th, 2013",
