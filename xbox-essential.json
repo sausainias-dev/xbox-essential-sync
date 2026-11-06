@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-11-06T13:31:45.536976+00:00",
+  "updated_at": "2026-11-06T22:34:58.059825+00:00",
   "service_counts": {
     "essential": 67,
     "pc": 575,
@@ -52,7 +52,7 @@
       "Simulator": 137,
       "Strategy": 119,
       "Side-View": 69,
-      "Platform": 63,
+      "Platform": 64,
       "Puzzle": 58,
       "Arcade": 41,
       "Racing": 41,
@@ -111,7 +111,7 @@
       "Isometric": 148,
       "Strategy": 132,
       "Side-View": 85,
-      "Platform": 74,
+      "Platform": 75,
       "Puzzle": 73,
       "Arcade": 55,
       "Sport": 52,
@@ -192,7 +192,7 @@
         "Shooter": 174,
         "Simulator": 174,
         "Strategy": 143,
-        "Platform": 80,
+        "Platform": 81,
         "Puzzle": 79,
         "Arcade": 57,
         "Sport": 54,
@@ -14419,9 +14419,9 @@
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8hjh.jpg&w=1200&q=75",
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8hjh.jpg&w=1920&q=75",
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8hjh.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8hji.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8hji.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8hji.jpg&w=200&q=75"
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8hjj.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8hjj.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8hjj.jpg&w=200&q=75"
       ],
       "playtime_category": "Short & Sweet",
       "playtime_hours": "4-9 Hours",
@@ -60352,6 +60352,7 @@
       "leaving_plan_order": {},
       "genres": [
         "First-Person",
+        "Platform",
         "Adventure",
         "Indie"
       ],
