@@ -8,14 +8,14 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-11-08T12:31:36.481885+00:00",
+  "updated_at": "2026-11-08T21:34:25.480721+00:00",
   "service_counts": {
     "essential": 67,
-    "pc": 575,
-    "premium": 420,
-    "ultimate": 653,
-    "ea_play": 93,
-    "ubisoft_classics": 64
+    "pc": 573,
+    "premium": 422,
+    "ultimate": 651,
+    "ea_play": 94,
+    "ubisoft_classics": 66
   },
   "genre_counts": {
     "essential": {
@@ -42,18 +42,18 @@
       "Virtual Reality": 2
     },
     "pc": {
-      "Adventure": 352,
-      "Third-Person": 259,
-      "First-Person": 201,
+      "Adventure": 350,
+      "Third-Person": 258,
+      "First-Person": 200,
       "Role-Playing": 181,
-      "Indie": 168,
+      "Indie": 166,
       "Shooter": 150,
       "Isometric": 137,
       "Simulator": 137,
       "Strategy": 119,
       "Side-View": 69,
       "Platform": 64,
-      "Puzzle": 58,
+      "Puzzle": 57,
       "Arcade": 41,
       "Racing": 41,
       "Hack and Slash": 38,
@@ -64,27 +64,27 @@
       "Fighting": 21,
       "Card & Board Game": 16,
       "Virtual Reality": 14,
-      "Music": 5,
       "Point-and-Click": 5,
+      "Music": 4,
       "Visual Novel": 4,
       "MOBA": 2,
       "Text": 1
     },
     "premium": {
-      "Adventure": 264,
+      "Adventure": 266,
       "Third-Person": 189,
       "First-Person": 149,
-      "Role-Playing": 144,
-      "Indie": 133,
+      "Role-Playing": 145,
+      "Indie": 134,
       "Shooter": 118,
-      "Simulator": 104,
-      "Isometric": 98,
+      "Simulator": 105,
+      "Isometric": 99,
       "Strategy": 84,
-      "Side-View": 54,
-      "Platform": 44,
+      "Side-View": 55,
+      "Platform": 45,
       "Puzzle": 41,
       "Hack and Slash": 35,
-      "Arcade": 33,
+      "Arcade": 34,
       "Racing": 23,
       "Fighting": 22,
       "Turn-Based Strategy": 20,
@@ -101,18 +101,18 @@
       "Visual Novel": 1
     },
     "ultimate": {
-      "Adventure": 385,
-      "Third-Person": 307,
-      "First-Person": 214,
+      "Adventure": 383,
+      "Third-Person": 306,
+      "First-Person": 213,
       "Role-Playing": 193,
-      "Indie": 172,
+      "Indie": 170,
       "Shooter": 169,
       "Simulator": 157,
       "Isometric": 148,
       "Strategy": 132,
       "Side-View": 85,
       "Platform": 75,
-      "Puzzle": 73,
+      "Puzzle": 72,
       "Arcade": 55,
       "Sport": 52,
       "Racing": 48,
@@ -124,7 +124,7 @@
       "Card & Board Game": 20,
       "Virtual Reality": 16,
       "Point-and-Click": 9,
-      "Music": 6,
+      "Music": 5,
       "Quiz/Trivia": 5,
       "Visual Novel": 4,
       "MOBA": 2,
@@ -132,17 +132,17 @@
     },
     "ea_play": {
       "Third-Person": 62,
-      "Adventure": 37,
+      "Adventure": 38,
       "First-Person": 30,
       "Shooter": 30,
+      "Simulator": 26,
       "Sport": 26,
-      "Simulator": 25,
       "Puzzle": 17,
       "Racing": 14,
       "Role-Playing": 14,
+      "Isometric": 12,
       "Strategy": 12,
       "Arcade": 11,
-      "Isometric": 11,
       "Side-View": 9,
       "Platform": 8,
       "Tactical": 5,
@@ -153,14 +153,14 @@
       "Real-Time Strategy": 1
     },
     "ubisoft_classics": {
-      "Adventure": 48,
-      "Third-Person": 32,
+      "Adventure": 50,
+      "Third-Person": 33,
       "Shooter": 20,
-      "First-Person": 17,
+      "First-Person": 18,
       "Role-Playing": 16,
-      "Side-View": 14,
+      "Side-View": 15,
+      "Platform": 12,
       "Strategy": 12,
-      "Platform": 11,
       "Isometric": 9,
       "Simulator": 8,
       "Puzzle": 7,
@@ -170,10 +170,10 @@
       "Card & Board Game": 5,
       "Sport": 5,
       "Real-Time Strategy": 3,
+      "Hack and Slash": 2,
       "Indie": 2,
       "Virtual Reality": 2,
       "Fighting": 1,
-      "Hack and Slash": 1,
       "Music": 1,
       "Quiz/Trivia": 1,
       "Turn-Based Strategy": 1
@@ -185,15 +185,15 @@
       "name": "Game Pass Ultimate",
       "url": "https://gamescriptions.com/subscription/service/xbox_ultimate",
       "description": "Xbox Game Pass Ultimate includes new games on day one, a library of 500+ games on Xbox console, PC, and supported devices, and the ability to stream games anywhere at our best quality. Check out the latest games on Game Pass Ultimate. What's leaving, upcoming releases, and a full list of titles!",
-      "available_count": 653,
+      "available_count": 651,
       "genre_counts": {
-        "Adventure": 431,
-        "Indie": 199,
+        "Adventure": 430,
+        "Indie": 198,
         "Shooter": 174,
         "Simulator": 174,
         "Strategy": 143,
         "Platform": 81,
-        "Puzzle": 79,
+        "Puzzle": 78,
         "Arcade": 57,
         "Sport": 54,
         "Racing": 48,
@@ -239,12 +239,6 @@
           "url": "https://gamescriptions.com/game/414958",
           "year": 2026,
           "date_label": "Nov 2",
-          "date_type": "added"
-        },
-        {
-          "name": "Don't Fret",
-          "url": "https://gamescriptions.com/game/289433",
-          "date_label": "Oct 31",
           "date_type": "added"
         },
         {
@@ -328,6 +322,13 @@
           "name": "Valor Mortis",
           "url": "https://gamescriptions.com/game/361833",
           "year": 2026,
+          "date_label": "Oct 13",
+          "date_type": "added"
+        },
+        {
+          "name": "Battlefield 6",
+          "url": "https://gamescriptions.com/game/317407",
+          "year": 2025,
           "date_label": "Oct 13",
           "date_type": "added"
         }
@@ -636,6 +637,11 @@
         },
         {
           "name": "Darkwood II",
+          "date_label": "TBD",
+          "date_type": "tbd"
+        },
+        {
+          "name": "Don't Fret",
           "date_label": "TBD",
           "date_type": "tbd"
         },
@@ -1212,9 +1218,6 @@
           "name": "Crysis 3"
         },
         {
-          "name": "D-topia"
-        },
-        {
           "name": "Dante's Inferno"
         },
         {
@@ -1309,9 +1312,6 @@
         },
         {
           "name": "Dome Keeper"
-        },
-        {
-          "name": "Don't Fret"
         },
         {
           "name": "Doom"
@@ -5089,6 +5089,74 @@
           "availability_date_type": "tbd"
         },
         {
+          "name": "Don't Fret",
+          "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc6xj.jpg",
+          "screenshot_urls": [
+            "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fscqwgh.jpg&w=3840&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scqwgh.jpg&w=380&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scqwgh.jpg&w=500&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scqwgh.jpg&w=640&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scqwgh.jpg&w=750&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scqwgh.jpg&w=828&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scqwgh.jpg&w=1080&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scqwgh.jpg&w=1200&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scqwgh.jpg&w=1920&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scqwgh.jpg&w=2048&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scqwgh.jpg&w=3840&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgi.jpg&w=3840&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgi.jpg&w=160&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgi.jpg&w=200&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgi.jpg&w=250&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgi.jpg&w=380&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgi.jpg&w=500&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgi.jpg&w=640&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgi.jpg&w=750&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgi.jpg&w=828&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgi.jpg&w=1080&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgi.jpg&w=1200&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgi.jpg&w=1920&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgi.jpg&w=2048&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgd.jpg&w=3840&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgd.jpg&w=160&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgd.jpg&w=200&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgd.jpg&w=250&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgd.jpg&w=380&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgd.jpg&w=500&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgd.jpg&w=640&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgd.jpg&w=750&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgd.jpg&w=828&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgd.jpg&w=1080&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgd.jpg&w=1200&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgd.jpg&w=1920&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgd.jpg&w=2048&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgf.jpg&w=3840&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgf.jpg&w=160&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgf.jpg&w=200&q=75"
+          ],
+          "developer": "Scary Kid Studios",
+          "publisher": "Digital Pajamas",
+          "description": "Don't! Fret is stylized first-person psychological mascot-horror game set in a musically themed world. Play as a guitar named Fret to solve puzzles, escape from foes, and uncover the mystery behind Harmonic Heights.",
+          "genres": [
+            "First-Person",
+            "Music",
+            "Adventure",
+            "Indie"
+          ],
+          "game_modes": [
+            "Single-Player"
+          ],
+          "game_style": [
+            "Action",
+            "Horror"
+          ],
+          "platforms": [
+            "Xbox Series X|S",
+            "PC (Microsoft Windows)"
+          ],
+          "availability_date": "TBD",
+          "availability_date_type": "tbd"
+        },
+        {
           "name": "Erosion",
           "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coav92.jpg",
           "screenshot_urls": [
@@ -7172,7 +7240,7 @@
       ]
     }
   },
-  "game_count_unique": 654,
+  "game_count_unique": 652,
   "games": [
     {
       "name": "1000xResist",
@@ -11904,7 +11972,8 @@
       "url": "https://gamescriptions.com/game/152202",
       "plans": [
         "pc",
-        "ultimate"
+        "ultimate",
+        "ubisoft_classics"
       ],
       "new_plans": [],
       "leaving_plans": [],
@@ -11936,7 +12005,7 @@
       "premium": false,
       "ultimate": true,
       "ea_play": false,
-      "ubisoft_classics": false,
+      "ubisoft_classics": true,
       "new": false,
       "leaving": false,
       "year": 2023,
@@ -13410,14 +13479,20 @@
         "ea_play"
       ],
       "new_plans": [
+        "pc",
+        "ultimate",
         "ea_play"
       ],
       "leaving_plans": [],
       "plan_added_dates": {
+        "pc": "Oct 13",
+        "ultimate": "Oct 13",
         "ea_play": "Oct 13"
       },
       "leaving_dates": {},
       "new_plan_order": {
+        "pc": 17,
+        "ultimate": 17,
         "ea_play": 1
       },
       "leaving_plan_order": {},
@@ -14455,8 +14530,8 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 13,
-        "ultimate": 13
+        "pc": 12,
+        "ultimate": 12
       },
       "leaving_plan_order": {},
       "genres": [
@@ -15320,8 +15395,8 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 14,
-        "ultimate": 14
+        "pc": 13,
+        "ultimate": 13
       },
       "leaving_plan_order": {},
       "genres": [
@@ -17330,8 +17405,8 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 15,
-        "ultimate": 15
+        "pc": 14,
+        "ultimate": 14
       },
       "leaving_plan_order": {},
       "genres": [
@@ -20049,98 +20124,6 @@
       "description": "The award-winning developer Crytek is back with Crysis 3, the first blockbuster shooter of 2013! Crysis 3 is the ultimate sandbox shooter, realized in the stunning visuals only Crytek and the latest version of CryENGINE can deliver. Available now on Xbox 360, PlayStation 3, and PC."
     },
     {
-      "name": "D-topia",
-      "url": "https://gamescriptions.com/game/369840",
-      "plans": [
-        "pc",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [],
-      "plan_added_dates": {},
-      "leaving_dates": {},
-      "new_plan_order": {},
-      "leaving_plan_order": {},
-      "genres": [
-        "Third-Person",
-        "Puzzle",
-        "Adventure",
-        "Indie"
-      ],
-      "game_modes": [
-        "Single-Player"
-      ],
-      "game_style": [
-        "Action"
-      ],
-      "platforms": [
-        "Xbox Series X|S",
-        "PC (Microsoft Windows)"
-      ],
-      "essential": false,
-      "pc_game_pass": true,
-      "premium": false,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": false,
-      "year": 2026,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coajon.jpg",
-      "screenshot_urls": [
-        "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fsczc0g.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sczc0g.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sczc0g.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sczc0g.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sczc0g.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sczc0g.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sczc0g.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sczc0g.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sczc0g.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sczc0g.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sczc0g.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sczc0j.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sczc0j.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sczc0j.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sczc0j.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sczc0j.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sczc0j.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sczc0j.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sczc0j.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sczc0j.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sczc0j.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sczc0j.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sczc0j.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sczc0j.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sczc0p.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sczc0p.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sczc0p.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sczc0p.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sczc0p.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sczc0p.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sczc0p.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sczc0p.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sczc0p.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sczc0p.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sczc0p.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sczc0p.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sczc0p.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sczc0r.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sczc0r.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sczc0r.jpg&w=200&q=75"
-      ],
-      "playtime_category": "Short & Sweet",
-      "playtime_hours": "4-9 Hours",
-      "community_total": 3,
-      "community_status_counts": {
-        "interested": 2,
-        "no_interest": 1
-      },
-      "release_date": "July 14th, 2026",
-      "developer": "Annapurna Interactive",
-      "description": "Step into the world of D-topia in this gentle-paced puzzle adventure. In D-topia, life is curated by artificial intelligence to maximize happiness. As the newest Facilitator, its up to you to solve puzzles to keep the D-topia residents happy and the facility running."
-    },
-    {
       "name": "Dante's Inferno",
       "url": "https://gamescriptions.com/game/6958",
       "plans": [
@@ -21427,8 +21410,8 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 16,
-        "ultimate": 16
+        "pc": 15,
+        "ultimate": 15
       },
       "leaving_plan_order": {},
       "genres": [
@@ -23125,9 +23108,9 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 12,
+        "pc": 11,
         "premium": 7,
-        "ultimate": 12
+        "ultimate": 11
       },
       "leaving_plan_order": {},
       "genres": [
@@ -23305,100 +23288,6 @@
       "developer": "Bippinbits",
       "publisher": "Raw Fury",
       "description": "Defend against waves of alien monsters in this unique roguelike action mining game. Use the time between attacks to dig beneath the surface in search of valuable resources and relics – deliver them back to your dome to unlock powerful upgrades and useful new gadgets. But it won’t be long until the relentless monsters return - do you risk..."
-    },
-    {
-      "name": "Don't Fret",
-      "url": "https://gamescriptions.com/game/289433",
-      "plans": [
-        "pc",
-        "ultimate"
-      ],
-      "new_plans": [
-        "pc",
-        "ultimate"
-      ],
-      "leaving_plans": [],
-      "plan_added_dates": {
-        "pc": "Oct 31",
-        "ultimate": "Oct 31"
-      },
-      "leaving_dates": {},
-      "new_plan_order": {
-        "pc": 5,
-        "ultimate": 5
-      },
-      "leaving_plan_order": {},
-      "genres": [
-        "First-Person",
-        "Music",
-        "Adventure",
-        "Indie"
-      ],
-      "game_modes": [
-        "Single-Player"
-      ],
-      "game_style": [
-        "Action",
-        "Horror"
-      ],
-      "platforms": [
-        "Xbox Series X|S",
-        "PC (Microsoft Windows)"
-      ],
-      "essential": false,
-      "pc_game_pass": true,
-      "premium": false,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": true,
-      "leaving": false,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc6xj.jpg",
-      "screenshot_urls": [
-        "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fscqwgh.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scqwgh.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scqwgh.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scqwgh.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scqwgh.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scqwgh.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scqwgh.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scqwgh.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scqwgh.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scqwgh.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scqwgh.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgi.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgi.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgi.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgi.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgi.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgi.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgi.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgi.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgi.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgi.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgi.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgi.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgi.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgd.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgd.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgd.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgd.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgd.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgd.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgd.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgd.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgd.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgd.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgd.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgd.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgd.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgf.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgf.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgf.jpg&w=200&q=75"
-      ],
-      "developer": "Scary Kid Studios",
-      "publisher": "Digital Pajamas",
-      "description": "Don't! Fret is stylized first-person psychological mascot-horror game set in a musically themed world. Play as a guitar named Fret to solve puzzles, escape from foes, and uncover the mystery behind Harmonic Heights."
     },
     {
       "name": "Doom",
@@ -24322,7 +24211,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "ea_play": 6
+        "ea_play": 7
       },
       "leaving_plan_order": {},
       "genres": [
@@ -25014,7 +24903,7 @@
       "plan_added_dates": {},
       "leaving_dates": {},
       "new_plan_order": {
-        "ea_play": 13
+        "ea_play": 14
       },
       "leaving_plan_order": {},
       "genres": [
@@ -25213,7 +25102,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "ea_play": 7
+        "ea_play": 8
       },
       "leaving_plan_order": {},
       "genres": [
@@ -25608,7 +25497,7 @@
       "plan_added_dates": {},
       "leaving_dates": {},
       "new_plan_order": {
-        "ea_play": 15
+        "ea_play": 16
       },
       "leaving_plan_order": {},
       "genres": [
@@ -25706,7 +25595,7 @@
       "plan_added_dates": {},
       "leaving_dates": {},
       "new_plan_order": {
-        "ea_play": 14
+        "ea_play": 15
       },
       "leaving_plan_order": {},
       "genres": [
@@ -26693,7 +26582,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "ea_play": 9
+        "ea_play": 10
       },
       "leaving_plan_order": {},
       "genres": [
@@ -26795,7 +26684,7 @@
       "plan_added_dates": {},
       "leaving_dates": {},
       "new_plan_order": {
-        "ea_play": 10
+        "ea_play": 11
       },
       "leaving_plan_order": {},
       "genres": [
@@ -29767,9 +29656,9 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 9,
+        "pc": 8,
         "premium": 5,
-        "ultimate": 9
+        "ultimate": 8
       },
       "leaving_plan_order": {},
       "genres": [
@@ -30710,14 +30599,13 @@
       ],
       "playtime_category": "Short & Sweet",
       "playtime_hours": "4-9 Hours",
-      "community_rating": 4.0,
-      "community_sentiment": "Very Positive",
-      "community_rating_count": 1,
+      "community_rating": 3.5,
+      "community_sentiment": "Mostly Positive",
+      "community_rating_count": 2,
       "community_total": 4,
       "community_status_counts": {
-        "interested": 2,
-        "playing": 1,
-        "completed": 1
+        "completed": 2,
+        "interested": 2
       },
       "release_date": "October 8th, 2026",
       "developer": "Third Shift",
@@ -36516,7 +36404,7 @@
       "plan_added_dates": {},
       "leaving_dates": {},
       "new_plan_order": {
-        "ea_play": 16
+        "ea_play": 17
       },
       "leaving_plan_order": {},
       "genres": [
@@ -40009,7 +39897,7 @@
       "plan_added_dates": {},
       "leaving_dates": {},
       "new_plan_order": {
-        "ea_play": 12
+        "ea_play": 13
       },
       "leaving_plan_order": {},
       "genres": [
@@ -42286,6 +42174,7 @@
       "url": "https://gamescriptions.com/game/306141",
       "plans": [
         "pc",
+        "premium",
         "ultimate"
       ],
       "new_plans": [],
@@ -42315,7 +42204,7 @@
       ],
       "essential": false,
       "pc_game_pass": true,
-      "premium": false,
+      "premium": true,
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
@@ -43399,6 +43288,7 @@
       "url": "https://gamescriptions.com/game/324570",
       "plans": [
         "pc",
+        "premium",
         "ultimate"
       ],
       "new_plans": [],
@@ -43427,7 +43317,7 @@
       ],
       "essential": false,
       "pc_game_pass": true,
-      "premium": false,
+      "premium": true,
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
@@ -43706,9 +43596,9 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 8,
+        "pc": 7,
         "premium": 4,
-        "ultimate": 8
+        "ultimate": 7
       },
       "leaving_plan_order": {},
       "genres": [
@@ -44093,13 +43983,20 @@
       "url": "https://gamescriptions.com/game/315058",
       "plans": [
         "pc",
-        "ultimate"
+        "ultimate",
+        "ea_play"
       ],
-      "new_plans": [],
+      "new_plans": [
+        "ea_play"
+      ],
       "leaving_plans": [],
-      "plan_added_dates": {},
+      "plan_added_dates": {
+        "ea_play": "Jan 29"
+      },
       "leaving_dates": {},
-      "new_plan_order": {},
+      "new_plan_order": {
+        "ea_play": 6
+      },
       "leaving_plan_order": {},
       "genres": [
         "Isometric",
@@ -44120,9 +44017,9 @@
       "pc_game_pass": true,
       "premium": false,
       "ultimate": true,
-      "ea_play": false,
+      "ea_play": true,
       "ubisoft_classics": false,
-      "new": false,
+      "new": true,
       "leaving": false,
       "year": 2024,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa8ix.jpg",
@@ -45095,7 +44992,7 @@
       "plan_added_dates": {},
       "leaving_dates": {},
       "new_plan_order": {
-        "ea_play": 11
+        "ea_play": 12
       },
       "leaving_plan_order": {},
       "genres": [
@@ -49109,8 +49006,8 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 7,
-        "ultimate": 7,
+        "pc": 6,
+        "ultimate": 6,
         "ea_play": 0
       },
       "leaving_plan_order": {},
@@ -54068,8 +53965,8 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 11,
-        "ultimate": 11
+        "pc": 10,
+        "ultimate": 10
       },
       "leaving_plan_order": {},
       "genres": [
@@ -59080,15 +58977,11 @@
         "ultimate",
         "ea_play"
       ],
-      "new_plans": [
-        "ea_play"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
       "plan_added_dates": {},
       "leaving_dates": {},
-      "new_plan_order": {
-        "ea_play": 17
-      },
+      "new_plan_order": {},
       "leaving_plan_order": {},
       "genres": [
         "Simulator",
@@ -59113,7 +59006,7 @@
       "ultimate": true,
       "ea_play": true,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2023,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6g5n.jpg",
@@ -59471,7 +59364,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "ea_play": 8
+        "ea_play": 9
       },
       "leaving_plan_order": {},
       "genres": [
@@ -60346,8 +60239,8 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 6,
-        "ultimate": 6
+        "pc": 5,
+        "ultimate": 5
       },
       "leaving_plan_order": {},
       "genres": [
@@ -62421,7 +62314,8 @@
       "url": "https://gamescriptions.com/game/296843",
       "plans": [
         "pc",
-        "ultimate"
+        "ultimate",
+        "ubisoft_classics"
       ],
       "new_plans": [],
       "leaving_plans": [],
@@ -62452,7 +62346,7 @@
       "premium": false,
       "ultimate": true,
       "ea_play": false,
-      "ubisoft_classics": false,
+      "ubisoft_classics": true,
       "new": false,
       "leaving": false,
       "year": 2025,
@@ -63215,9 +63109,9 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 10,
+        "pc": 9,
         "premium": 6,
-        "ultimate": 10
+        "ultimate": 9
       },
       "leaving_plan_order": {},
       "genres": [
@@ -67055,8 +66949,8 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 17,
-        "ultimate": 17
+        "pc": 16,
+        "ultimate": 16
       },
       "leaving_plan_order": {},
       "genres": [
@@ -71662,7 +71556,7 @@
   ],
   "addition_date_coverage": {
     "filled_plan_dates": 0,
-    "unmatched_games": 654,
+    "unmatched_games": 652,
     "history_records": 0
   }
 }

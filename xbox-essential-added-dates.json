@@ -1,9 +1,9 @@
 {
   "source": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
-  "updated_at": "2026-11-08T12:31:36.481885+00:00",
+  "updated_at": "2026-11-08T21:34:25.480721+00:00",
   "coverage": {
     "filled_plan_dates": 0,
-    "unmatched_games": 654,
+    "unmatched_games": 652,
     "history_records": 0
   },
   "games": {
@@ -33,6 +33,8 @@
     },
     "https://gamescriptions.com/game/317407": {
       "plan_added_dates": {
+        "pc": "Oct 13",
+        "ultimate": "Oct 13",
         "ea_play": "Oct 13"
       },
       "plan_added_date_sources": {},
@@ -120,15 +122,6 @@
         "pc": "Oct 22",
         "premium": "Oct 22",
         "ultimate": "Oct 22"
-      },
-      "plan_added_date_sources": {},
-      "plan_added_date_precision": {},
-      "plan_added_date_platforms": {}
-    },
-    "https://gamescriptions.com/game/289433": {
-      "plan_added_dates": {
-        "pc": "Oct 31",
-        "ultimate": "Oct 31"
       },
       "plan_added_date_sources": {},
       "plan_added_date_precision": {},
@@ -330,6 +323,14 @@
         "pc": "Oct 29",
         "premium": "Oct 29",
         "ultimate": "Oct 29"
+      },
+      "plan_added_date_sources": {},
+      "plan_added_date_precision": {},
+      "plan_added_date_platforms": {}
+    },
+    "https://gamescriptions.com/game/315058": {
+      "plan_added_dates": {
+        "ea_play": "Jan 29"
       },
       "plan_added_date_sources": {},
       "plan_added_date_precision": {},
