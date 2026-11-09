@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-11-09T03:40:13.143302+00:00",
+  "updated_at": "2026-11-09T14:45:48.429728+00:00",
   "service_counts": {
     "essential": 67,
     "pc": 573,
@@ -8425,9 +8425,10 @@
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc98hq.jpg&w=160&q=75",
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc98hq.jpg&w=200&q=75"
       ],
-      "community_total": 1,
+      "community_total": 2,
       "community_status_counts": {
-        "abandoned": 1
+        "abandoned": 1,
+        "interested": 1
       },
       "release_date": "October 28th, 2021",
       "developer": "Relic Entertainment",
@@ -8618,11 +8619,11 @@
       ],
       "playtime_category": "Hearty Campaign",
       "playtime_hours": "20-34 Hours",
-      "community_total": 4,
+      "community_total": 5,
       "community_status_counts": {
+        "interested": 2,
         "queued": 1,
         "completed": 1,
-        "interested": 1,
         "no_interest": 1
       },
       "release_date": "September 4th, 2024",
@@ -9114,12 +9115,13 @@
       "community_rating": 4.0,
       "community_sentiment": "Very Positive",
       "community_rating_count": 1,
-      "community_total": 10,
+      "community_total": 11,
       "community_status_counts": {
         "queued": 3,
         "abandoned": 3,
         "no_interest": 3,
-        "completed": 1
+        "completed": 1,
+        "interested": 1
       },
       "release_date": "April 16th, 2019",
       "developer": "Ubisoft Blue Byte",
@@ -10730,9 +10732,9 @@
       "community_rating": 4.1,
       "community_sentiment": "Very Positive",
       "community_rating_count": 5,
-      "community_total": 17,
+      "community_total": 18,
       "community_status_counts": {
-        "completed": 9,
+        "completed": 10,
         "queued": 3,
         "interested": 3,
         "abandoned": 2
@@ -10837,9 +10839,9 @@
       "community_rating": 3.5,
       "community_sentiment": "Mostly Positive",
       "community_rating_count": 1,
-      "community_total": 16,
+      "community_total": 17,
       "community_status_counts": {
-        "completed": 5,
+        "completed": 6,
         "interested": 5,
         "queued": 3,
         "abandoned": 2,
@@ -10939,9 +10941,9 @@
       "community_rating": 4.3,
       "community_sentiment": "Very Positive",
       "community_rating_count": 6,
-      "community_total": 24,
+      "community_total": 25,
       "community_status_counts": {
-        "completed": 14,
+        "completed": 15,
         "queued": 4,
         "playing": 3,
         "interested": 3
@@ -11042,9 +11044,9 @@
       "community_rating": 4.5,
       "community_sentiment": "Very Positive",
       "community_rating_count": 5,
-      "community_total": 25,
+      "community_total": 26,
       "community_status_counts": {
-        "completed": 14,
+        "completed": 15,
         "queued": 4,
         "abandoned": 3,
         "playing": 2,
@@ -11246,9 +11248,9 @@
       "community_rating": 4.3,
       "community_sentiment": "Very Positive",
       "community_rating_count": 2,
-      "community_total": 11,
+      "community_total": 12,
       "community_status_counts": {
-        "completed": 7,
+        "completed": 8,
         "queued": 2,
         "abandoned": 1,
         "interested": 1
@@ -11351,9 +11353,9 @@
       "community_rating": 4.3,
       "community_sentiment": "Very Positive",
       "community_rating_count": 3,
-      "community_total": 13,
+      "community_total": 14,
       "community_status_counts": {
-        "completed": 8,
+        "completed": 9,
         "queued": 3,
         "interested": 2
       },
@@ -11458,9 +11460,9 @@
       "community_rating": 4.0,
       "community_sentiment": "Very Positive",
       "community_rating_count": 4,
-      "community_total": 24,
+      "community_total": 25,
       "community_status_counts": {
-        "completed": 9,
+        "completed": 10,
         "interested": 6,
         "queued": 4,
         "abandoned": 3,
@@ -12158,12 +12160,12 @@
       "community_rating": 3.5,
       "community_sentiment": "Mostly Positive",
       "community_rating_count": 3,
-      "community_total": 14,
+      "community_total": 15,
       "community_status_counts": {
+        "completed": 4,
         "interested": 4,
         "playing": 3,
         "queued": 3,
-        "completed": 3,
         "abandoned": 1
       },
       "release_date": "February 18th, 2025",
@@ -17957,9 +17959,10 @@
       ],
       "playtime_category": "Lengthy Expedition",
       "playtime_hours": "35-54 Hours",
-      "community_total": 3,
+      "community_total": 4,
       "community_status_counts": {
         "queued": 1,
+        "abandoned": 1,
         "interested": 1,
         "no_interest": 1
       },
@@ -18913,9 +18916,10 @@
       ],
       "playtime_category": "Hearty Campaign",
       "playtime_hours": "20-34 Hours",
-      "community_total": 2,
+      "community_total": 3,
       "community_status_counts": {
         "queued": 1,
+        "abandoned": 1,
         "interested": 1
       },
       "release_date": "July 31st, 2026",
@@ -21280,12 +21284,12 @@
       "community_rating": 4.7,
       "community_sentiment": "Overwhelmingly Positive",
       "community_rating_count": 4,
-      "community_total": 30,
+      "community_total": 32,
       "community_status_counts": {
         "queued": 10,
-        "interested": 9,
+        "interested": 10,
         "completed": 7,
-        "playing": 3,
+        "playing": 4,
         "abandoned": 1
       },
       "release_date": "September 24th, 2021",
@@ -22183,11 +22187,12 @@
       "community_rating": 4.3,
       "community_sentiment": "Very Positive",
       "community_rating_count": 2,
-      "community_total": 9,
+      "community_total": 10,
       "community_status_counts": {
         "completed": 5,
         "queued": 3,
-        "abandoned": 1
+        "abandoned": 1,
+        "interested": 1
       },
       "release_date": "June 6th, 2023",
       "developer": "Blizzard Entertainment",
@@ -28183,9 +28188,9 @@
       "community_rating": 3.9,
       "community_sentiment": "Very Positive",
       "community_rating_count": 4,
-      "community_total": 13,
+      "community_total": 14,
       "community_status_counts": {
-        "completed": 7,
+        "completed": 8,
         "queued": 2,
         "abandoned": 2,
         "interested": 2
@@ -28293,11 +28298,12 @@
       "community_rating": 3.9,
       "community_sentiment": "Very Positive",
       "community_rating_count": 4,
-      "community_total": 16,
+      "community_total": 17,
       "community_status_counts": {
         "completed": 6,
         "queued": 5,
         "interested": 4,
+        "abandoned": 1,
         "no_interest": 1
       },
       "release_date": "October 7th, 2021",
@@ -28396,9 +28402,9 @@
       "community_rating": 3.5,
       "community_sentiment": "Mostly Positive",
       "community_rating_count": 1,
-      "community_total": 10,
+      "community_total": 11,
       "community_status_counts": {
-        "completed": 5,
+        "completed": 6,
         "queued": 2,
         "interested": 2,
         "no_interest": 1
@@ -30703,9 +30709,9 @@
       "community_rating": 4.5,
       "community_sentiment": "Very Positive",
       "community_rating_count": 2,
-      "community_total": 11,
+      "community_total": 12,
       "community_status_counts": {
-        "completed": 5,
+        "completed": 6,
         "queued": 2,
         "abandoned": 2,
         "playing": 1,
@@ -30807,10 +30813,10 @@
       "community_rating": 4.8,
       "community_sentiment": "Overwhelmingly Positive",
       "community_rating_count": 4,
-      "community_total": 16,
+      "community_total": 17,
       "community_status_counts": {
+        "interested": 7,
         "playing": 6,
-        "interested": 6,
         "queued": 2,
         "completed": 1,
         "abandoned": 1
@@ -35197,9 +35203,9 @@
       ],
       "playtime_category": "Hearty Campaign",
       "playtime_hours": "20-34 Hours",
-      "community_total": 1,
+      "community_total": 2,
       "community_status_counts": {
-        "interested": 1
+        "interested": 2
       },
       "release_date": "April 30th, 2026",
       "developer": "Unfrozen",
@@ -37132,9 +37138,9 @@
       "community_rating": 4.5,
       "community_sentiment": "Very Positive",
       "community_rating_count": 2,
-      "community_total": 12,
+      "community_total": 13,
       "community_status_counts": {
-        "completed": 5,
+        "completed": 6,
         "interested": 3,
         "queued": 2,
         "playing": 1,
@@ -37611,9 +37617,9 @@
       ],
       "playtime_category": "Lengthy Expedition",
       "playtime_hours": "35-54 Hours",
-      "community_total": 7,
+      "community_total": 8,
       "community_status_counts": {
-        "interested": 3,
+        "interested": 4,
         "no_interest": 2,
         "queued": 1,
         "abandoned": 1
@@ -38587,9 +38593,9 @@
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scs1ll.jpg&w=160&q=75",
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scs1ll.jpg&w=200&q=75"
       ],
-      "community_total": 12,
+      "community_total": 13,
       "community_status_counts": {
-        "interested": 6,
+        "interested": 7,
         "queued": 4,
         "abandoned": 1,
         "no_interest": 1
@@ -39074,9 +39080,9 @@
       "community_rating": 4.0,
       "community_sentiment": "Very Positive",
       "community_rating_count": 1,
-      "community_total": 10,
+      "community_total": 11,
       "community_status_counts": {
-        "interested": 5,
+        "interested": 6,
         "queued": 2,
         "completed": 1,
         "abandoned": 1,
@@ -46033,13 +46039,13 @@
       "community_rating": 4.0,
       "community_sentiment": "Very Positive",
       "community_rating_count": 2,
-      "community_total": 12,
+      "community_total": 13,
       "community_status_counts": {
         "queued": 4,
         "interested": 4,
+        "completed": 2,
         "abandoned": 2,
-        "playing": 1,
-        "completed": 1
+        "playing": 1
       },
       "release_date": "August 9th, 2016",
       "developer": "Hello Games",
@@ -48368,8 +48374,9 @@
       ],
       "playtime_category": "Lengthy Expedition",
       "playtime_hours": "35-54 Hours",
-      "community_total": 1,
+      "community_total": 2,
       "community_status_counts": {
+        "playing": 1,
         "interested": 1
       },
       "release_date": "November 6th, 2024",
@@ -48467,11 +48474,11 @@
       "community_rating": 3.5,
       "community_sentiment": "Mostly Positive",
       "community_rating_count": 1,
-      "community_total": 6,
+      "community_total": 7,
       "community_status_counts": {
         "playing": 3,
+        "interested": 2,
         "completed": 1,
-        "interested": 1,
         "no_interest": 1
       },
       "release_date": "April 10th, 2024",
@@ -57872,11 +57879,11 @@
       "community_rating": 4.5,
       "community_sentiment": "Very Positive",
       "community_rating_count": 1,
-      "community_total": 13,
+      "community_total": 14,
       "community_status_counts": {
         "playing": 4,
         "queued": 3,
-        "completed": 2,
+        "completed": 3,
         "interested": 2,
         "abandoned": 1,
         "no_interest": 1
@@ -58564,9 +58571,9 @@
       ],
       "playtime_category": "A Solid Adventure",
       "playtime_hours": "10-19 Hours",
-      "community_total": 11,
+      "community_total": 12,
       "community_status_counts": {
-        "interested": 6,
+        "interested": 7,
         "queued": 3,
         "abandoned": 1,
         "no_interest": 1
@@ -61595,9 +61602,9 @@
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/oornljaohheldfdli4tx.jpg&w=160&q=75",
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/oornljaohheldfdli4tx.jpg&w=200&q=75"
       ],
-      "community_total": 13,
+      "community_total": 14,
       "community_status_counts": {
-        "completed": 4,
+        "completed": 5,
         "queued": 3,
         "interested": 3,
         "playing": 2,
@@ -62201,9 +62208,9 @@
       "community_rating": 4.0,
       "community_sentiment": "Very Positive",
       "community_rating_count": 1,
-      "community_total": 21,
+      "community_total": 22,
       "community_status_counts": {
-        "interested": 12,
+        "interested": 13,
         "queued": 7,
         "completed": 1,
         "no_interest": 1
