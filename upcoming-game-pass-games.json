@@ -1,12 +1,12 @@
 {
   "source": "Subli.one Xbox Game Pass Ultimate",
-  "updated_at": "2026-11-08T22:14:35.134651+00:00",
+  "updated_at": "2026-11-09T06:47:56.278477+00:00",
   "count": 69,
   "games": [
     {
       "name": "Football Manager 27 Console",
       "year": 2026,
-      "availability_date": "Nov 10",
+      "availability_date": "Tomorrow",
       "availability_date_type": "arrives",
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cod9du.jpg",
       "description": "Flow from the tactics board to the touchline in FM27 Console, where a smoother, more immersive experience invites discovery from the moment your career begins.",
@@ -28,7 +28,7 @@
     {
       "name": "Hope in the City",
       "year": 2026,
-      "availability_date": "Nov 10",
+      "availability_date": "Tomorrow",
       "availability_date_type": "arrives",
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9y32.jpg",
       "screenshot_urls": [
@@ -94,7 +94,7 @@
     {
       "name": "Tanuki: Pon's Summer",
       "year": 2026,
-      "availability_date": "Nov 10",
+      "availability_date": "Tomorrow",
       "availability_date_type": "arrives",
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8uyz.jpg",
       "screenshot_urls": [
@@ -160,7 +160,7 @@
     {
       "name": "Warhammer Survivors",
       "year": 2026,
-      "availability_date": "Nov 10",
+      "availability_date": "Tomorrow",
       "availability_date_type": "arrives",
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coasoa.jpg",
       "screenshot_urls": [
@@ -433,7 +433,8 @@
         "Split-Screen"
       ],
       "game_style": [
-        "Action"
+        "Action",
+        "Open World"
       ],
       "platforms": [
         "Xbox Series X|S",
