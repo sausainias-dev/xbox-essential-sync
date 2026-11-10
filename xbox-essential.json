@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-11-10T14:06:24.385052+00:00",
+  "updated_at": "2026-11-10T22:46:40.325951+00:00",
   "service_counts": {
     "essential": 67,
     "pc": 577,
@@ -29880,7 +29880,7 @@
       "playtime_hours": "4-9 Hours",
       "community_total": 2,
       "community_status_counts": {
-        "queued": 1,
+        "playing": 1,
         "no_interest": 1
       },
       "release_date": "July 17th, 2026",
@@ -48133,7 +48133,7 @@
       "new": true,
       "leaving": false,
       "year": 2026,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9111.jpg",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/codbjj.jpg",
       "screenshot_urls": [
         "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fscuciq.jpg&w=3840&q=75",
         "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scuciq.jpg&w=380&q=75",
@@ -48179,7 +48179,7 @@
       "release_date": "November 3rd, 2026",
       "developer": "Friendly Foe",
       "publisher": "Bright Gambit",
-      "description": "In this online horror co-op, you play as a scrappy goblin, scavenging dungeons, dodging traps, and fleeing monsters to feed the Goblin King. Team up with goblin pals, or go rogue, as you dive deep and cause chaos! Fail to feed him, and you might be the next meal!"
+      "description": "In this online horror co-op, you play as a scrappy goblin, scavenging dungeons, dodging traps, and fleeing monsters to feed the King-Queen. Team up with goblin pals, or go rogue, as you dive deep and cause chaos! Fail to feed him, and you might be the next meal!"
     },
     {
       "name": "Planet Coaster 2",
@@ -67135,7 +67135,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "premium": 1
+        "premium": 2
       },
       "leaving_plan_order": {},
       "genres": [
@@ -67796,7 +67796,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "premium": 2
+        "premium": 1
       },
       "leaving_plan_order": {},
       "genres": [
@@ -67812,7 +67812,8 @@
         "Single-Player"
       ],
       "game_style": [
-        "Action"
+        "Action",
+        "Stealth"
       ],
       "platforms": [
         "Xbox Series X|S",
@@ -67826,7 +67827,7 @@
       "ubisoft_classics": false,
       "new": true,
       "leaving": false,
-      "year": 2025,
+      "year": 2026,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9nls.jpg",
       "screenshot_urls": [
         "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fscw8g5.jpg&w=3840&q=75",
@@ -67872,7 +67873,7 @@
       ],
       "playtime_category": "Short & Sweet",
       "playtime_hours": "4-9 Hours",
-      "release_date": "August 19th, 2025",
+      "release_date": "November 4th, 2026",
       "developer": "Stubby Games",
       "publisher": "Playstack",
       "description": "VOID/BREAKER is an Adrenaline-Fueled Roguelite FPS. Fight relentless machines driven by a hostile AI. Escape an endless cycle."
