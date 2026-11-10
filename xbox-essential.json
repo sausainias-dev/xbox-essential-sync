@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-11-10T01:06:00.006574+00:00",
+  "updated_at": "2026-11-10T14:06:24.385052+00:00",
   "service_counts": {
     "essential": 67,
     "pc": 577,
@@ -52064,12 +52064,12 @@
       "community_rating": 4.5,
       "community_sentiment": "Very Positive",
       "community_rating_count": 4,
-      "community_total": 16,
+      "community_total": 17,
       "community_status_counts": {
         "completed": 8,
         "interested": 4,
+        "queued": 2,
         "playing": 1,
-        "queued": 1,
         "abandoned": 1,
         "no_interest": 1
       },
