@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-11-11T13:16:42.553469+00:00",
+  "updated_at": "2026-11-11T23:55:49.209004+00:00",
   "service_counts": {
     "essential": 67,
     "pc": 578,
@@ -29700,9 +29700,12 @@
       ],
       "playtime_category": "Short & Sweet",
       "playtime_hours": "4-9 Hours",
+      "community_rating": 3.0,
+      "community_sentiment": "Mostly Positive",
+      "community_rating_count": 1,
       "community_total": 2,
       "community_status_counts": {
-        "playing": 1,
+        "completed": 1,
         "no_interest": 1
       },
       "release_date": "July 17th, 2026",
