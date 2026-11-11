@@ -1,9 +1,9 @@
 {
   "source": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
-  "updated_at": "2026-11-10T22:46:40.325951+00:00",
+  "updated_at": "2026-11-11T03:44:12.624584+00:00",
   "coverage": {
     "filled_plan_dates": 0,
-    "unmatched_games": 656,
+    "unmatched_games": 657,
     "history_records": 0
   },
   "games": {
@@ -34,24 +34,6 @@
     "https://gamescriptions.com/game/317407": {
       "plan_added_dates": {
         "ea_play": "Oct 13"
-      },
-      "plan_added_date_sources": {},
-      "plan_added_date_precision": {},
-      "plan_added_date_platforms": {}
-    },
-    "https://gamescriptions.com/game/239002": {
-      "plan_added_dates": {
-        "pc": "Oct 16",
-        "ultimate": "Oct 16"
-      },
-      "plan_added_date_sources": {},
-      "plan_added_date_precision": {},
-      "plan_added_date_platforms": {}
-    },
-    "https://gamescriptions.com/game/396024": {
-      "plan_added_dates": {
-        "pc": "Oct 15",
-        "ultimate": "Oct 15"
       },
       "plan_added_date_sources": {},
       "plan_added_date_precision": {},
@@ -211,8 +193,8 @@
     },
     "https://gamescriptions.com/game/420982": {
       "plan_added_dates": {
-        "pc": "Today",
-        "ultimate": "Today"
+        "pc": "Nov 10",
+        "ultimate": "Nov 10"
       },
       "plan_added_date_sources": {},
       "plan_added_date_precision": {},
@@ -245,8 +227,8 @@
     },
     "https://gamescriptions.com/game/347898": {
       "plan_added_dates": {
-        "pc": "Today",
-        "ultimate": "Today"
+        "pc": "Nov 10",
+        "ultimate": "Nov 10"
       },
       "plan_added_date_sources": {},
       "plan_added_date_precision": {},
@@ -255,6 +237,16 @@
     "https://gamescriptions.com/game/119357": {
       "plan_added_dates": {
         "ubisoft_classics": "Oct 1"
+      },
+      "plan_added_date_sources": {},
+      "plan_added_date_precision": {},
+      "plan_added_date_platforms": {}
+    },
+    "https://gamescriptions.com/game/252485": {
+      "plan_added_dates": {
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "plan_added_date_sources": {},
       "plan_added_date_precision": {},
@@ -384,14 +376,6 @@
       "plan_added_date_precision": {},
       "plan_added_date_platforms": {}
     },
-    "https://gamescriptions.com/game/348200": {
-      "plan_added_dates": {
-        "premium": "Sep 16"
-      },
-      "plan_added_date_sources": {},
-      "plan_added_date_precision": {},
-      "plan_added_date_platforms": {}
-    },
     "https://gamescriptions.com/game/358529": {
       "plan_added_dates": {
         "pc": "Oct 29",
@@ -485,8 +469,8 @@
     },
     "https://gamescriptions.com/game/317817": {
       "plan_added_dates": {
-        "pc": "Today",
-        "ultimate": "Today"
+        "pc": "Nov 10",
+        "ultimate": "Nov 10"
       },
       "plan_added_date_sources": {},
       "plan_added_date_precision": {},
@@ -543,6 +527,16 @@
       "plan_added_date_precision": {},
       "plan_added_date_platforms": {}
     },
+    "https://gamescriptions.com/game/236547": {
+      "plan_added_dates": {
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
+      },
+      "plan_added_date_sources": {},
+      "plan_added_date_precision": {},
+      "plan_added_date_platforms": {}
+    },
     "https://gamescriptions.com/game/118218": {
       "plan_added_dates": {
         "ubisoft_classics": "Oct 1"
@@ -562,14 +556,6 @@
     "https://gamescriptions.com/game/23733": {
       "plan_added_dates": {
         "essential": "Mar 26"
-      },
-      "plan_added_date_sources": {},
-      "plan_added_date_precision": {},
-      "plan_added_date_platforms": {}
-    },
-    "https://gamescriptions.com/game/325276": {
-      "plan_added_dates": {
-        "premium": "Sep 16"
       },
       "plan_added_date_sources": {},
       "plan_added_date_precision": {},
@@ -601,8 +587,8 @@
     },
     "https://gamescriptions.com/game/376145": {
       "plan_added_dates": {
-        "pc": "Today",
-        "ultimate": "Today"
+        "pc": "Nov 10",
+        "ultimate": "Nov 10"
       },
       "plan_added_date_sources": {},
       "plan_added_date_precision": {},
