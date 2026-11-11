@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-11-11T03:44:12.624584+00:00",
+  "updated_at": "2026-11-11T13:16:42.553469+00:00",
   "service_counts": {
     "essential": 67,
     "pc": 578,
@@ -13860,7 +13860,7 @@
       "community_status_counts": {
         "playing": 1
       },
-      "release_date": "June 1st, 2026",
+      "release_date": "June 10th, 2026",
       "developer": "Nuchallenger",
       "description": "Punch a car so hard it EXPLODES! Dash through flaming gas to create a fire trail burning everything. Destroy a hydrant to douse out the fire."
     },
@@ -28446,7 +28446,10 @@
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6vjj.jpg&w=1080&q=75",
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6vjj.jpg&w=1200&q=75",
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6vjj.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6vjj.jpg&w=2048&q=75"
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6vjj.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc13v7n.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc13v7n.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc13v7n.jpg&w=200&q=75"
       ],
       "playtime_category": "Bite-Sized",
       "playtime_hours": "0-3 Hours",
