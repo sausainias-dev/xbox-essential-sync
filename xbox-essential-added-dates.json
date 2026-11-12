@@ -1,9 +1,9 @@
 {
   "source": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
-  "updated_at": "2026-11-12T14:17:54.661244+00:00",
+  "updated_at": "2026-11-12T23:02:22.830106+00:00",
   "coverage": {
     "filled_plan_dates": 0,
-    "unmatched_games": 657,
+    "unmatched_games": 658,
     "history_records": 0
   },
   "games": {
@@ -81,9 +81,7 @@
     },
     "https://gamescriptions.com/game/342305": {
       "plan_added_dates": {
-        "pc": "Oct 22",
-        "premium": "Oct 22",
-        "ultimate": "Oct 22"
+        "premium": "Oct 22"
       },
       "plan_added_date_sources": {},
       "plan_added_date_precision": {},
@@ -203,6 +201,16 @@
     "https://gamescriptions.com/game/5842": {
       "plan_added_dates": {
         "essential": "Jul 22"
+      },
+      "plan_added_date_sources": {},
+      "plan_added_date_precision": {},
+      "plan_added_date_platforms": {}
+    },
+    "https://gamescriptions.com/game/5849": {
+      "plan_added_dates": {
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "plan_added_date_sources": {},
       "plan_added_date_precision": {},
@@ -430,14 +438,6 @@
       "plan_added_dates": {
         "pc": "Oct 26",
         "ultimate": "Oct 26"
-      },
-      "plan_added_date_sources": {},
-      "plan_added_date_precision": {},
-      "plan_added_date_platforms": {}
-    },
-    "https://gamescriptions.com/game/293572": {
-      "plan_added_dates": {
-        "premium": "Sep 17"
       },
       "plan_added_date_sources": {},
       "plan_added_date_precision": {},

@@ -8,12 +8,12 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-11-12T14:17:54.661244+00:00",
+  "updated_at": "2026-11-12T23:02:22.830106+00:00",
   "service_counts": {
     "essential": 67,
-    "pc": 578,
-    "premium": 423,
-    "ultimate": 656,
+    "pc": 579,
+    "premium": 424,
+    "ultimate": 657,
     "ea_play": 94,
     "ubisoft_classics": 66
   },
@@ -42,8 +42,8 @@
       "Virtual Reality": 2
     },
     "pc": {
-      "Adventure": 353,
-      "Third-Person": 260,
+      "Adventure": 354,
+      "Third-Person": 261,
       "First-Person": 201,
       "Role-Playing": 182,
       "Indie": 170,
@@ -52,16 +52,16 @@
       "Simulator": 138,
       "Strategy": 120,
       "Side-View": 69,
-      "Platform": 64,
+      "Platform": 65,
       "Puzzle": 58,
       "Arcade": 43,
       "Racing": 41,
-      "Hack and Slash": 38,
+      "Hack and Slash": 39,
       "Sport": 38,
       "Real-Time Strategy": 25,
       "Tactical": 25,
       "Turn-Based Strategy": 25,
-      "Fighting": 22,
+      "Fighting": 21,
       "Card & Board Game": 16,
       "Virtual Reality": 14,
       "Point-and-Click": 5,
@@ -71,8 +71,8 @@
       "Text": 1
     },
     "premium": {
-      "Adventure": 268,
-      "Third-Person": 189,
+      "Adventure": 269,
+      "Third-Person": 190,
       "First-Person": 150,
       "Role-Playing": 145,
       "Indie": 135,
@@ -81,12 +81,12 @@
       "Isometric": 100,
       "Strategy": 84,
       "Side-View": 55,
-      "Platform": 45,
+      "Platform": 46,
       "Puzzle": 41,
+      "Hack and Slash": 36,
       "Arcade": 35,
-      "Hack and Slash": 35,
-      "Fighting": 23,
       "Racing": 23,
+      "Fighting": 22,
       "Turn-Based Strategy": 20,
       "Tactical": 19,
       "Sport": 17,
@@ -101,8 +101,8 @@
       "Visual Novel": 1
     },
     "ultimate": {
-      "Adventure": 386,
-      "Third-Person": 308,
+      "Adventure": 387,
+      "Third-Person": 309,
       "First-Person": 214,
       "Role-Playing": 194,
       "Indie": 174,
@@ -111,15 +111,15 @@
       "Isometric": 150,
       "Strategy": 133,
       "Side-View": 85,
-      "Platform": 75,
+      "Platform": 76,
       "Puzzle": 73,
       "Arcade": 57,
       "Sport": 52,
       "Racing": 48,
-      "Hack and Slash": 43,
+      "Hack and Slash": 44,
       "Tactical": 29,
       "Turn-Based Strategy": 29,
-      "Fighting": 28,
+      "Fighting": 27,
       "Real-Time Strategy": 26,
       "Card & Board Game": 20,
       "Virtual Reality": 16,
@@ -185,20 +185,20 @@
       "name": "Game Pass Ultimate",
       "url": "https://gamescriptions.com/subscription/service/xbox_ultimate",
       "description": "Xbox Game Pass Ultimate includes new games on day one, a library of 500+ games on Xbox console, PC, and supported devices, and the ability to stream games anywhere at our best quality. Check out the latest games on Game Pass Ultimate. What's leaving, upcoming releases, and a full list of titles!",
-      "available_count": 656,
+      "available_count": 657,
       "genre_counts": {
-        "Adventure": 430,
+        "Adventure": 431,
         "Indie": 198,
         "Shooter": 174,
         "Simulator": 173,
         "Strategy": 142,
-        "Platform": 81,
+        "Platform": 82,
         "Puzzle": 78,
         "Arcade": 57,
         "Sport": 53,
         "Racing": 48,
         "Tactical": 31,
-        "Fighting": 29,
+        "Fighting": 28,
         "Card & Board Game": 21,
         "Music": 8,
         "Quiz/Trivia": 5,
@@ -206,6 +206,13 @@
         "MOBA": 2
       },
       "new_releases": [
+        {
+          "name": "Grabbed by the Ghoulies",
+          "url": "https://gamescriptions.com/game/5849",
+          "year": 2003,
+          "date_label": "Today",
+          "date_type": "added"
+        },
         {
           "name": "John Carpenter's Toxic Commando",
           "url": "https://gamescriptions.com/game/252485",
@@ -323,13 +330,6 @@
           "url": "https://gamescriptions.com/game/380980",
           "year": 2026,
           "date_label": "Oct 26",
-          "date_type": "added"
-        },
-        {
-          "name": "Dodo Duckie",
-          "url": "https://gamescriptions.com/game/342305",
-          "year": 2026,
-          "date_label": "Oct 22",
           "date_type": "added"
         }
       ],
@@ -1560,6 +1560,9 @@
         },
         {
           "name": "GoldenEye 007"
+        },
+        {
+          "name": "Grabbed by the Ghoulies"
         },
         {
           "name": "Gravhounds"
@@ -6846,7 +6849,7 @@
       ]
     }
   },
-  "game_count_unique": 657,
+  "game_count_unique": 658,
   "games": [
     {
       "name": "1000xResist",
@@ -15466,7 +15469,6 @@
       "leaving_plan_order": {},
       "genres": [
         "Isometric",
-        "Fighting",
         "Shooter",
         "Role-Playing",
         "Indie",
@@ -15873,7 +15875,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "premium": 13
+        "premium": 14
       },
       "leaving_plan_order": {},
       "genres": [
@@ -22665,21 +22667,15 @@
         "ultimate"
       ],
       "new_plans": [
-        "pc",
-        "premium",
-        "ultimate"
+        "premium"
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "pc": "Oct 22",
-        "premium": "Oct 22",
-        "ultimate": "Oct 22"
+        "premium": "Oct 22"
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 17,
-        "premium": 9,
-        "ultimate": 17
+        "premium": 10
       },
       "leaving_plan_order": {},
       "genres": [
@@ -24190,7 +24186,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "premium": 15
+        "premium": 16
       },
       "leaving_plan_order": {},
       "genres": [
@@ -25756,8 +25752,8 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 6,
-        "ultimate": 6
+        "pc": 7,
+        "ultimate": 7
       },
       "leaving_plan_order": {},
       "genres": [
@@ -29229,9 +29225,9 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 14,
-        "premium": 7,
-        "ultimate": 14
+        "pc": 15,
+        "premium": 8,
+        "ultimate": 15
       },
       "leaving_plan_order": {},
       "genres": [
@@ -29335,9 +29331,9 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 7,
-        "premium": 2,
-        "ultimate": 7
+        "pc": 8,
+        "premium": 3,
+        "ultimate": 8
       },
       "leaving_plan_order": {},
       "genres": [
@@ -29731,8 +29727,8 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 8,
-        "ultimate": 8
+        "pc": 9,
+        "ultimate": 9
       },
       "leaving_plan_order": {},
       "genres": [
@@ -29812,8 +29808,8 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 2,
-        "ultimate": 2
+        "pc": 3,
+        "ultimate": 3
       },
       "leaving_plan_order": {},
       "genres": [
@@ -32433,6 +32429,107 @@
       "description": "James Bond returns! Relive the timeless gameplay that defined a gaming generation as you guide 007 through a global adventure. Use stealth and force as you see fit to complete your objectives, enjoying achievements and upgraded features that bring Bond to a new age."
     },
     {
+      "name": "Grabbed by the Ghoulies",
+      "url": "https://gamescriptions.com/game/5849",
+      "plans": [
+        "pc",
+        "premium",
+        "ultimate"
+      ],
+      "new_plans": [
+        "pc",
+        "premium",
+        "ultimate"
+      ],
+      "leaving_plans": [],
+      "plan_added_dates": {
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
+      },
+      "leaving_dates": {},
+      "new_plan_order": {
+        "pc": 0,
+        "premium": 0,
+        "ultimate": 0
+      },
+      "leaving_plan_order": {},
+      "genres": [
+        "Third-Person",
+        "Platform",
+        "Hack and Slash",
+        "Adventure"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [
+        "Action",
+        "Horror",
+        "Survival",
+        "Comedy"
+      ],
+      "platforms": [
+        "Xbox"
+      ],
+      "essential": false,
+      "pc_game_pass": true,
+      "premium": true,
+      "ultimate": true,
+      "ea_play": false,
+      "ubisoft_classics": false,
+      "new": true,
+      "leaving": false,
+      "year": 2003,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2xci.jpg",
+      "screenshot_urls": [
+        "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fsc85nn.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc85nn.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc85nn.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc85nn.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc85nn.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc85nn.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc85nn.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc85nn.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc85nn.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc85nn.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc85nn.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc85nk.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc85nk.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc85nk.jpg&w=200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc85nk.jpg&w=250&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc85nk.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc85nk.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc85nk.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc85nk.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc85nk.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc85nk.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc85nk.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc85nk.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc85nk.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc85ni.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc85ni.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc85ni.jpg&w=200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc85ni.jpg&w=250&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc85ni.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc85ni.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc85ni.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc85ni.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc85ni.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc85ni.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc85ni.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc85ni.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc85ni.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc85nl.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc85nl.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc85nl.jpg&w=200&q=75"
+      ],
+      "release_date": "October 21st, 2003",
+      "developer": "Rare",
+      "publisher": "Microsoft Game Studios",
+      "description": "Grabbed by the Ghoulies follows a young man named Cooper Chance who sets out to rescue his girlfriend, Amber, from Ghoulhaven Hall. This mansion is full of supernatural creatures, and Cooper will receive help along the way from the many hired hands that work there."
+    },
+    {
       "name": "Gravhounds",
       "url": "https://gamescriptions.com/game/414958",
       "plans": [
@@ -32450,8 +32547,8 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 10,
-        "ultimate": 10
+        "pc": 11,
+        "ultimate": 11
       },
       "leaving_plan_order": {},
       "genres": [
@@ -35533,8 +35630,8 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 3,
-        "ultimate": 3
+        "pc": 4,
+        "ultimate": 4
       },
       "leaving_plan_order": {},
       "genres": [
@@ -36980,9 +37077,9 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 0,
-        "premium": 0,
-        "ultimate": 0
+        "pc": 1,
+        "premium": 1,
+        "ultimate": 1
       },
       "leaving_plan_order": {},
       "genres": [
@@ -37527,7 +37624,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "premium": 12
+        "premium": 13
       },
       "leaving_plan_order": {},
       "genres": [
@@ -39523,7 +39620,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "premium": 14
+        "premium": 15
       },
       "leaving_plan_order": {},
       "genres": [
@@ -43320,9 +43417,9 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 13,
-        "premium": 6,
-        "ultimate": 13
+        "pc": 14,
+        "premium": 7,
+        "ultimate": 14
       },
       "leaving_plan_order": {},
       "genres": [
@@ -44515,7 +44612,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "premium": 11
+        "premium": 12
       },
       "leaving_plan_order": {},
       "genres": [
@@ -45365,7 +45462,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "premium": 16
+        "premium": 17
       },
       "leaving_plan_order": {},
       "genres": [
@@ -47925,9 +48022,9 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 9,
-        "premium": 5,
-        "ultimate": 9
+        "pc": 10,
+        "premium": 6,
+        "ultimate": 10
       },
       "leaving_plan_order": {},
       "genres": [
@@ -48725,8 +48822,8 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 12,
-        "ultimate": 12,
+        "pc": 13,
+        "ultimate": 13,
         "ea_play": 0
       },
       "leaving_plan_order": {},
@@ -49479,7 +49576,7 @@
         "abandoned": 1
       },
       "release_date": "May 4th, 2017",
-      "developer": "Arkane Studios",
+      "developer": "Arkane Austin",
       "publisher": "Bethesda Softworks",
       "description": "In Prey, you awaken aboard Talos I, a space station orbiting the moon in the year 2032. You are the key subject of an experiment meant to alter humanity forever – but things have gone terribly wrong. The space station has been overrun by hostile aliens and you are now being hunted."
     },
@@ -51233,19 +51330,6 @@
         "https://images.igdb.com/igdb/image/upload/t_screenshot_big/schdmy.jpg&w=1920&q=75",
         "https://images.igdb.com/igdb/image/upload/t_screenshot_big/schdmy.jpg&w=2048&q=75",
         "https://images.igdb.com/igdb/image/upload/t_screenshot_big/schdmy.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/schdmw.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/schdmw.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/schdmw.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/schdmw.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/schdmw.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/schdmw.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/schdmw.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/schdmw.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/schdmw.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/schdmw.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/schdmw.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/schdmw.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/schdmw.jpg&w=2048&q=75",
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/schdmr.jpg&w=3840&q=75",
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/schdmr.jpg&w=160&q=75",
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/schdmr.jpg&w=200&q=75",
@@ -51259,9 +51343,22 @@
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/schdmr.jpg&w=1200&q=75",
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/schdmr.jpg&w=1920&q=75",
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/schdmr.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/schdms.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/schdms.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/schdms.jpg&w=200&q=75"
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/schdmw.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/schdmw.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/schdmw.jpg&w=200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/schdmw.jpg&w=250&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/schdmw.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/schdmw.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/schdmw.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/schdmw.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/schdmw.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/schdmw.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/schdmw.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/schdmw.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/schdmw.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/schdmv.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/schdmv.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/schdmv.jpg&w=200&q=75"
       ],
       "playtime_category": "A Solid Adventure",
       "playtime_hours": "10-19 Hours",
@@ -53585,7 +53682,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "premium": 10
+        "premium": 11
       },
       "leaving_plan_order": {},
       "genres": [
@@ -53684,8 +53781,8 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 16,
-        "ultimate": 16
+        "pc": 17,
+        "ultimate": 17
       },
       "leaving_plan_order": {},
       "genres": [
@@ -54353,17 +54450,11 @@
         "premium",
         "ultimate"
       ],
-      "new_plans": [
-        "premium"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
-      "plan_added_dates": {
-        "premium": "Sep 17"
-      },
+      "plan_added_dates": {},
       "leaving_dates": {},
-      "new_plan_order": {
-        "premium": 17
-      },
+      "new_plan_order": {},
       "leaving_plan_order": {},
       "genres": [
         "Isometric",
@@ -54394,7 +54485,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2025,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co91c6.jpg",
@@ -59287,8 +59378,8 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 4,
-        "ultimate": 4
+        "pc": 5,
+        "ultimate": 5
       },
       "leaving_plan_order": {},
       "genres": [
@@ -59361,7 +59452,7 @@
       ],
       "community_total": 2,
       "community_status_counts": {
-        "queued": 1,
+        "playing": 1,
         "interested": 1
       },
       "release_date": "November 10th, 2026",
@@ -60058,8 +60149,8 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 11,
-        "ultimate": 11
+        "pc": 12,
+        "ultimate": 12
       },
       "leaving_plan_order": {},
       "genres": [
@@ -62928,9 +63019,9 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 15,
-        "premium": 8,
-        "ultimate": 15
+        "pc": 16,
+        "premium": 9,
+        "ultimate": 16
       },
       "leaving_plan_order": {},
       "genres": [
@@ -63826,9 +63917,9 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 1,
-        "premium": 1,
-        "ultimate": 1
+        "pc": 2,
+        "premium": 2,
+        "ultimate": 2
       },
       "leaving_plan_order": {},
       "genres": [
@@ -67059,7 +67150,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "premium": 4
+        "premium": 5
       },
       "leaving_plan_order": {},
       "genres": [
@@ -67720,7 +67811,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "premium": 3
+        "premium": 4
       },
       "leaving_plan_order": {},
       "genres": [
@@ -68499,8 +68590,8 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 5,
-        "ultimate": 5
+        "pc": 6,
+        "ultimate": 6
       },
       "leaving_plan_order": {},
       "genres": [
@@ -71565,7 +71656,7 @@
   ],
   "addition_date_coverage": {
     "filled_plan_dates": 0,
-    "unmatched_games": 657,
+    "unmatched_games": 658,
     "history_records": 0
   }
 }
