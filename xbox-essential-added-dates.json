@@ -1,6 +1,6 @@
 {
   "source": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
-  "updated_at": "2026-11-11T23:55:49.209004+00:00",
+  "updated_at": "2026-11-12T04:54:14.878476+00:00",
   "coverage": {
     "filled_plan_dates": 0,
     "unmatched_games": 657,
@@ -244,9 +244,9 @@
     },
     "https://gamescriptions.com/game/252485": {
       "plan_added_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
+        "pc": "Nov 11",
+        "premium": "Nov 11",
+        "ultimate": "Nov 11"
       },
       "plan_added_date_sources": {},
       "plan_added_date_precision": {},
@@ -529,9 +529,9 @@
     },
     "https://gamescriptions.com/game/236547": {
       "plan_added_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
+        "pc": "Nov 11",
+        "premium": "Nov 11",
+        "ultimate": "Nov 11"
       },
       "plan_added_date_sources": {},
       "plan_added_date_precision": {},

@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-11-11T23:55:49.209004+00:00",
+  "updated_at": "2026-11-12T04:54:14.878476+00:00",
   "service_counts": {
     "essential": 67,
     "pc": 578,
@@ -190,12 +190,12 @@
         "Adventure": 430,
         "Indie": 198,
         "Shooter": 174,
-        "Simulator": 174,
-        "Strategy": 143,
+        "Simulator": 173,
+        "Strategy": 142,
         "Platform": 81,
         "Puzzle": 78,
         "Arcade": 57,
-        "Sport": 54,
+        "Sport": 53,
         "Racing": 48,
         "Tactical": 31,
         "Fighting": 29,
@@ -210,14 +210,14 @@
           "name": "John Carpenter's Toxic Commando",
           "url": "https://gamescriptions.com/game/252485",
           "year": 2026,
-          "date_label": "Today",
+          "date_label": "Nov 11",
           "date_type": "added"
         },
         {
           "name": "Thronefall",
           "url": "https://gamescriptions.com/game/236547",
           "year": 2024,
-          "date_label": "Today",
+          "date_label": "Nov 11",
           "date_type": "added"
         },
         {
@@ -36974,9 +36974,9 @@
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
+        "pc": "Nov 11",
+        "premium": "Nov 11",
+        "ultimate": "Nov 11"
       },
       "leaving_dates": {},
       "new_plan_order": {
@@ -63819,9 +63819,9 @@
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
+        "pc": "Nov 11",
+        "premium": "Nov 11",
+        "ultimate": "Nov 11"
       },
       "leaving_dates": {},
       "new_plan_order": {
