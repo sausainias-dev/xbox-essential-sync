@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-11-12T04:54:14.878476+00:00",
+  "updated_at": "2026-11-12T14:17:54.661244+00:00",
   "service_counts": {
     "essential": 67,
     "pc": 578,
@@ -59359,8 +59359,9 @@
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scu0ig.jpg&w=160&q=75",
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scu0ig.jpg&w=200&q=75"
       ],
-      "community_total": 1,
+      "community_total": 2,
       "community_status_counts": {
+        "queued": 1,
         "interested": 1
       },
       "release_date": "November 10th, 2026",
@@ -68527,7 +68528,7 @@
       "new": true,
       "leaving": false,
       "year": 2026,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coasoa.jpg",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/codcp8.jpg",
       "screenshot_urls": [
         "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fsc106mp.jpg&w=3840&q=75",
         "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc106mp.jpg&w=380&q=75",
