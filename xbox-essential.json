@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-11-13T13:43:46.943545+00:00",
+  "updated_at": "2026-11-13T23:06:39.549050+00:00",
   "service_counts": {
     "essential": 67,
     "pc": 579,
@@ -8033,6 +8033,8 @@
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc98hq.jpg&w=160&q=75",
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc98hq.jpg&w=200&q=75"
       ],
+      "playtime_category": "Lengthy Expedition",
+      "playtime_hours": "35-54 Hours",
       "community_total": 2,
       "community_status_counts": {
         "abandoned": 1,
@@ -25826,6 +25828,8 @@
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n1.jpg&w=160&q=75",
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scx9n1.jpg&w=200&q=75"
       ],
+      "playtime_category": "A Solid Adventure",
+      "playtime_hours": "10-19 Hours",
       "community_total": 1,
       "community_status_counts": {
         "interested": 1
@@ -32524,6 +32528,8 @@
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc85nl.jpg&w=160&q=75",
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc85nl.jpg&w=200&q=75"
       ],
+      "playtime_category": "Short & Sweet",
+      "playtime_hours": "4-9 Hours",
       "release_date": "October 21st, 2003",
       "developer": "Rare",
       "publisher": "Microsoft Game Studios",
@@ -37152,6 +37158,8 @@
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scmvmo.jpg&w=160&q=75",
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scmvmo.jpg&w=200&q=75"
       ],
+      "playtime_category": "A Solid Adventure",
+      "playtime_hours": "10-19 Hours",
       "release_date": "March 12th, 2026",
       "developer": "Saber Interactive",
       "publisher": "Focus Entertainment",
