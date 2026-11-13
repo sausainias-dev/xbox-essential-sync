@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-11-12T23:02:22.830106+00:00",
+  "updated_at": "2026-11-13T04:07:18.734835+00:00",
   "service_counts": {
     "essential": 67,
     "pc": 579,
@@ -210,7 +210,7 @@
           "name": "Grabbed by the Ghoulies",
           "url": "https://gamescriptions.com/game/5849",
           "year": 2003,
-          "date_label": "Today",
+          "date_label": "Nov 12",
           "date_type": "added"
         },
         {
@@ -32443,9 +32443,9 @@
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
+        "pc": "Nov 12",
+        "premium": "Nov 12",
+        "ultimate": "Nov 12"
       },
       "leaving_dates": {},
       "new_plan_order": {
