@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-11-14T04:05:21.213087+00:00",
+  "updated_at": "2026-11-14T12:46:13.079178+00:00",
   "service_counts": {
     "essential": 67,
     "pc": 579,
@@ -6954,11 +6954,12 @@
       "community_rating": 4.0,
       "community_sentiment": "Very Positive",
       "community_rating_count": 2,
-      "community_total": 6,
+      "community_total": 7,
       "community_status_counts": {
         "completed": 2,
         "interested": 2,
-        "no_interest": 2
+        "no_interest": 2,
+        "abandoned": 1
       },
       "release_date": "May 9th, 2024",
       "developer": "sunset visitor 斜陽過客",
@@ -38241,7 +38242,6 @@
       },
       "release_date": "April 23rd, 2026",
       "developer": "Double Fine Productions",
-      "publisher": "Xbox Game Studios",
       "description": "An online, multiplayer, pottery party brawler from Double Fine Productions. Grab your friends to assemble a team of colorful spirits, then sculpt ceramic battle armor on a pottery wheel. The size and shape of your pots determine their play-style and abilities—work together to douse the enemy's kiln!"
     },
     {
