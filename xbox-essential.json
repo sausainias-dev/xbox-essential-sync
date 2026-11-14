@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-11-13T23:06:39.549050+00:00",
+  "updated_at": "2026-11-14T04:05:21.213087+00:00",
   "service_counts": {
     "essential": 67,
     "pc": 579,
@@ -338,91 +338,91 @@
           "name": "1000xResist",
           "url": "https://gamescriptions.com/game/218282",
           "year": 2024,
-          "date_label": "Nov 15",
+          "date_label": "Tomorrow",
           "date_type": "leaves"
         },
         {
           "name": "Barbie: Horse Trails",
           "url": "https://gamescriptions.com/game/359887",
           "year": 2025,
-          "date_label": "Nov 15",
+          "date_label": "Tomorrow",
           "date_type": "leaves"
         },
         {
           "name": "Dragon Ball: Xenoverse 2",
           "url": "https://gamescriptions.com/game/19449",
           "year": 2016,
-          "date_label": "Nov 15",
+          "date_label": "Tomorrow",
           "date_type": "leaves"
         },
         {
           "name": "Firefighting Simulator: The Squad",
           "url": "https://gamescriptions.com/game/228376",
           "year": 2021,
-          "date_label": "Nov 15",
+          "date_label": "Tomorrow",
           "date_type": "leaves"
         },
         {
           "name": "GoldenEye 007",
           "url": "https://gamescriptions.com/game/233877",
           "year": 2023,
-          "date_label": "Nov 15",
+          "date_label": "Tomorrow",
           "date_type": "leaves"
         },
         {
           "name": "Great God Grove",
           "url": "https://gamescriptions.com/game/247082",
           "year": 2024,
-          "date_label": "Nov 15",
+          "date_label": "Tomorrow",
           "date_type": "leaves"
         },
         {
           "name": "Moonlighter",
           "url": "https://gamescriptions.com/game/27771",
           "year": 2018,
-          "date_label": "Nov 15",
+          "date_label": "Tomorrow",
           "date_type": "leaves"
         },
         {
           "name": "Pigeon Simulator",
           "url": "https://gamescriptions.com/game/120304",
           "year": 2025,
-          "date_label": "Nov 15",
+          "date_label": "Tomorrow",
           "date_type": "leaves"
         },
         {
           "name": "Police Simulator: Patrol Officers",
           "url": "https://gamescriptions.com/game/152297",
           "year": 2022,
-          "date_label": "Nov 15",
+          "date_label": "Tomorrow",
           "date_type": "leaves"
         },
         {
           "name": "Relic Hunters Legend",
           "url": "https://gamescriptions.com/game/72497",
           "year": 2025,
-          "date_label": "Nov 15",
+          "date_label": "Tomorrow",
           "date_type": "leaves"
         },
         {
           "name": "Total Chaos",
           "url": "https://gamescriptions.com/game/301071",
           "year": 2025,
-          "date_label": "Nov 15",
+          "date_label": "Tomorrow",
           "date_type": "leaves"
         },
         {
           "name": "Winter Burrow",
           "url": "https://gamescriptions.com/game/305156",
           "year": 2025,
-          "date_label": "Nov 15",
+          "date_label": "Tomorrow",
           "date_type": "leaves"
         },
         {
           "name": "Wreckfest",
           "url": "https://gamescriptions.com/game/3772",
           "year": 2018,
-          "date_label": "Nov 15",
+          "date_label": "Tomorrow",
           "date_type": "leaves"
         }
       ],
@@ -6867,9 +6867,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Nov 15",
-        "premium": "Nov 15",
-        "ultimate": "Nov 15"
+        "pc": "Tomorrow",
+        "premium": "Tomorrow",
+        "ultimate": "Tomorrow"
       },
       "new_plan_order": {},
       "leaving_plan_order": {
@@ -12476,9 +12476,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Nov 15",
-        "premium": "Nov 15",
-        "ultimate": "Nov 15"
+        "pc": "Tomorrow",
+        "premium": "Tomorrow",
+        "ultimate": "Tomorrow"
       },
       "new_plan_order": {},
       "leaving_plan_order": {
@@ -23883,9 +23883,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Nov 15",
-        "premium": "Nov 15",
-        "ultimate": "Nov 15"
+        "pc": "Tomorrow",
+        "premium": "Tomorrow",
+        "ultimate": "Tomorrow"
       },
       "new_plan_order": {},
       "leaving_plan_order": {
@@ -29434,9 +29434,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Nov 15",
-        "premium": "Nov 15",
-        "ultimate": "Nov 15"
+        "pc": "Tomorrow",
+        "premium": "Tomorrow",
+        "ultimate": "Tomorrow"
       },
       "new_plan_order": {},
       "leaving_plan_order": {
@@ -29840,6 +29840,10 @@
       "leaving": false,
       "year": 2026,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cod9du.jpg",
+      "community_total": 1,
+      "community_status_counts": {
+        "no_interest": 1
+      },
       "release_date": "November 10th, 2026",
       "developer": "Sports Interactive",
       "publisher": "Sega",
@@ -32345,8 +32349,8 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "premium": "Nov 15",
-        "ultimate": "Nov 15"
+        "premium": "Tomorrow",
+        "ultimate": "Tomorrow"
       },
       "new_plan_order": {},
       "leaving_plan_order": {
@@ -32645,9 +32649,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Nov 15",
-        "premium": "Nov 15",
-        "ultimate": "Nov 15"
+        "pc": "Tomorrow",
+        "premium": "Tomorrow",
+        "ultimate": "Tomorrow"
       },
       "new_plan_order": {},
       "leaving_plan_order": {
@@ -35708,6 +35712,10 @@
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scxahs.jpg&w=160&q=75",
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scxahs.jpg&w=200&q=75"
       ],
+      "community_total": 1,
+      "community_status_counts": {
+        "no_interest": 1
+      },
       "release_date": "November 10th, 2026",
       "developer": "Lofty Sky Entertainment",
       "description": "17-year-old Hope Song returns home from school to find her parents missing. Use Hope’s observant eye as an artist to investigate, piece together clues, and uncover a dark world beneath the surface of her peaceful life in this non-linear narrative mystery game."
@@ -43014,9 +43022,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Nov 15",
-        "premium": "Nov 15",
-        "ultimate": "Nov 15"
+        "pc": "Tomorrow",
+        "premium": "Tomorrow",
+        "ultimate": "Tomorrow"
       },
       "new_plan_order": {},
       "leaving_plan_order": {
@@ -47730,9 +47738,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Nov 15",
-        "premium": "Nov 15",
-        "ultimate": "Nov 15"
+        "pc": "Tomorrow",
+        "premium": "Tomorrow",
+        "ultimate": "Tomorrow"
       },
       "new_plan_order": {},
       "leaving_plan_order": {
@@ -49025,9 +49033,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Nov 15",
-        "premium": "Nov 15",
-        "ultimate": "Nov 15"
+        "pc": "Tomorrow",
+        "premium": "Tomorrow",
+        "ultimate": "Tomorrow"
       },
       "new_plan_order": {},
       "leaving_plan_order": {
@@ -51402,9 +51410,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Nov 15",
-        "premium": "Nov 15",
-        "ultimate": "Nov 15"
+        "pc": "Tomorrow",
+        "premium": "Tomorrow",
+        "ultimate": "Tomorrow"
       },
       "new_plan_order": {},
       "leaving_plan_order": {
@@ -65062,9 +65070,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Nov 15",
-        "premium": "Nov 15",
-        "ultimate": "Nov 15"
+        "pc": "Tomorrow",
+        "premium": "Tomorrow",
+        "ultimate": "Tomorrow"
       },
       "new_plan_order": {},
       "leaving_plan_order": {
@@ -69983,9 +69991,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Nov 15",
-        "premium": "Nov 15",
-        "ultimate": "Nov 15"
+        "pc": "Tomorrow",
+        "premium": "Tomorrow",
+        "ultimate": "Tomorrow"
       },
       "new_plan_order": {},
       "leaving_plan_order": {
@@ -70912,10 +70920,10 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "essential": "Nov 15",
-        "pc": "Nov 15",
-        "premium": "Nov 15",
-        "ultimate": "Nov 15"
+        "essential": "Tomorrow",
+        "pc": "Tomorrow",
+        "premium": "Tomorrow",
+        "ultimate": "Tomorrow"
       },
       "new_plan_order": {},
       "leaving_plan_order": {
