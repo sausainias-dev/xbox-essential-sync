@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-11-15T03:47:41.562307+00:00",
+  "updated_at": "2026-11-15T13:12:18.344625+00:00",
   "service_counts": {
     "essential": 75,
     "pc": 579,
@@ -37271,6 +37271,10 @@
       ],
       "playtime_category": "A Solid Adventure",
       "playtime_hours": "10-19 Hours",
+      "community_total": 1,
+      "community_status_counts": {
+        "interested": 1
+      },
       "release_date": "March 12th, 2026",
       "developer": "Saber Interactive",
       "publisher": "Focus Entertainment",
