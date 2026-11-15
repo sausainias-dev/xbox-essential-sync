@@ -1,6 +1,6 @@
 {
   "source": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
-  "updated_at": "2026-11-14T21:53:36.017557+00:00",
+  "updated_at": "2026-11-15T03:47:41.562307+00:00",
   "coverage": {
     "filled_plan_dates": 0,
     "unmatched_games": 658,
@@ -23,9 +23,25 @@
       "plan_added_date_precision": {},
       "plan_added_date_platforms": {}
     },
-    "https://gamescriptions.com/game/5503": {
+    "https://gamescriptions.com/game/201644": {
       "plan_added_dates": {
-        "essential": "Mar 26"
+        "essential": "Today"
+      },
+      "plan_added_date_sources": {},
+      "plan_added_date_precision": {},
+      "plan_added_date_platforms": {}
+    },
+    "https://gamescriptions.com/game/3008": {
+      "plan_added_dates": {
+        "essential": "Today"
+      },
+      "plan_added_date_sources": {},
+      "plan_added_date_precision": {},
+      "plan_added_date_platforms": {}
+    },
+    "https://gamescriptions.com/game/201645": {
+      "plan_added_dates": {
+        "essential": "Today"
       },
       "plan_added_date_sources": {},
       "plan_added_date_precision": {},
@@ -42,14 +58,6 @@
     "https://gamescriptions.com/game/302156": {
       "plan_added_dates": {
         "premium": "Sep 25"
-      },
-      "plan_added_date_sources": {},
-      "plan_added_date_precision": {},
-      "plan_added_date_platforms": {}
-    },
-    "https://gamescriptions.com/game/237966": {
-      "plan_added_dates": {
-        "essential": "Oct 1"
       },
       "plan_added_date_sources": {},
       "plan_added_date_precision": {},
@@ -206,6 +214,14 @@
       "plan_added_date_precision": {},
       "plan_added_date_platforms": {}
     },
+    "https://gamescriptions.com/game/1319": {
+      "plan_added_dates": {
+        "essential": "Today"
+      },
+      "plan_added_date_sources": {},
+      "plan_added_date_precision": {},
+      "plan_added_date_platforms": {}
+    },
     "https://gamescriptions.com/game/5849": {
       "plan_added_dates": {
         "pc": "Nov 12",
@@ -225,9 +241,9 @@
       "plan_added_date_precision": {},
       "plan_added_date_platforms": {}
     },
-    "https://gamescriptions.com/game/113112": {
+    "https://gamescriptions.com/game/4839": {
       "plan_added_dates": {
-        "essential": "Oct 1"
+        "essential": "Today"
       },
       "plan_added_date_sources": {},
       "plan_added_date_precision": {},
@@ -308,14 +324,6 @@
       "plan_added_date_precision": {},
       "plan_added_date_platforms": {}
     },
-    "https://gamescriptions.com/game/89594": {
-      "plan_added_dates": {
-        "essential": "Mar 26"
-      },
-      "plan_added_date_sources": {},
-      "plan_added_date_precision": {},
-      "plan_added_date_platforms": {}
-    },
     "https://gamescriptions.com/game/264410": {
       "plan_added_dates": {
         "pc": "Oct 29",
@@ -369,6 +377,14 @@
     "https://gamescriptions.com/game/119089": {
       "plan_added_dates": {
         "ubisoft_classics": "Oct 1"
+      },
+      "plan_added_date_sources": {},
+      "plan_added_date_precision": {},
+      "plan_added_date_platforms": {}
+    },
+    "https://gamescriptions.com/game/1466": {
+      "plan_added_dates": {
+        "essential": "Today"
       },
       "plan_added_date_sources": {},
       "plan_added_date_precision": {},
@@ -553,14 +569,6 @@
       "plan_added_date_precision": {},
       "plan_added_date_platforms": {}
     },
-    "https://gamescriptions.com/game/23733": {
-      "plan_added_dates": {
-        "essential": "Mar 26"
-      },
-      "plan_added_date_sources": {},
-      "plan_added_date_precision": {},
-      "plan_added_date_platforms": {}
-    },
     "https://gamescriptions.com/game/378229": {
       "plan_added_dates": {
         "premium": "Nov 4"
@@ -569,17 +577,25 @@
       "plan_added_date_precision": {},
       "plan_added_date_platforms": {}
     },
-    "https://gamescriptions.com/game/339626": {
+    "https://gamescriptions.com/game/7236": {
       "plan_added_dates": {
-        "premium": "Nov 4"
+        "essential": "Today"
       },
       "plan_added_date_sources": {},
       "plan_added_date_precision": {},
       "plan_added_date_platforms": {}
     },
-    "https://gamescriptions.com/game/135998": {
+    "https://gamescriptions.com/game/7238": {
       "plan_added_dates": {
-        "essential": "Oct 1"
+        "essential": "Today"
+      },
+      "plan_added_date_sources": {},
+      "plan_added_date_precision": {},
+      "plan_added_date_platforms": {}
+    },
+    "https://gamescriptions.com/game/339626": {
+      "plan_added_dates": {
+        "premium": "Nov 4"
       },
       "plan_added_date_sources": {},
       "plan_added_date_precision": {},

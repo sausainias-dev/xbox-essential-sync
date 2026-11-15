@@ -8,9 +8,9 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-11-14T21:53:36.017557+00:00",
+  "updated_at": "2026-11-15T03:47:41.562307+00:00",
   "service_counts": {
-    "essential": 67,
+    "essential": 75,
     "pc": 579,
     "premium": 424,
     "ultimate": 657,
@@ -19,25 +19,26 @@
   },
   "genre_counts": {
     "essential": {
-      "Adventure": 40,
-      "Third-Person": 34,
+      "Adventure": 43,
+      "Third-Person": 41,
       "Indie": 28,
       "Role-Playing": 24,
-      "First-Person": 19,
-      "Isometric": 19,
-      "Shooter": 19,
-      "Simulator": 18,
-      "Strategy": 15,
-      "Platform": 11,
+      "Shooter": 22,
+      "First-Person": 21,
+      "Isometric": 21,
+      "Simulator": 20,
+      "Strategy": 16,
+      "Platform": 14,
       "Arcade": 9,
       "Side-View": 8,
       "Puzzle": 7,
       "Hack and Slash": 6,
+      "Racing": 6,
+      "Tactical": 6,
       "Turn-Based Strategy": 6,
-      "Racing": 5,
-      "Tactical": 5,
       "Sport": 4,
       "Fighting": 3,
+      "Quiz/Trivia": 3,
       "Real-Time Strategy": 3,
       "Virtual Reality": 2
     },
@@ -46,10 +47,10 @@
       "Third-Person": 261,
       "First-Person": 201,
       "Role-Playing": 182,
-      "Indie": 170,
+      "Indie": 171,
       "Shooter": 151,
       "Isometric": 139,
-      "Simulator": 138,
+      "Simulator": 139,
       "Strategy": 120,
       "Side-View": 69,
       "Platform": 65,
@@ -65,8 +66,8 @@
       "Card & Board Game": 16,
       "Virtual Reality": 14,
       "Point-and-Click": 5,
+      "Visual Novel": 5,
       "Music": 4,
-      "Visual Novel": 4,
       "MOBA": 2,
       "Text": 1
     },
@@ -75,7 +76,7 @@
       "Third-Person": 190,
       "First-Person": 150,
       "Role-Playing": 145,
-      "Indie": 135,
+      "Indie": 136,
       "Shooter": 119,
       "Simulator": 104,
       "Isometric": 100,
@@ -105,9 +106,9 @@
       "Third-Person": 309,
       "First-Person": 214,
       "Role-Playing": 194,
-      "Indie": 174,
+      "Indie": 175,
       "Shooter": 170,
-      "Simulator": 158,
+      "Simulator": 159,
       "Isometric": 150,
       "Strategy": 133,
       "Side-View": 85,
@@ -126,7 +127,7 @@
       "Point-and-Click": 9,
       "Music": 5,
       "Quiz/Trivia": 5,
-      "Visual Novel": 4,
+      "Visual Novel": 5,
       "MOBA": 2,
       "Text": 1
     },
@@ -188,9 +189,9 @@
       "available_count": 657,
       "genre_counts": {
         "Adventure": 431,
-        "Indie": 198,
+        "Indie": 199,
         "Shooter": 174,
-        "Simulator": 173,
+        "Simulator": 174,
         "Strategy": 142,
         "Platform": 82,
         "Puzzle": 78,
@@ -201,8 +202,8 @@
         "Fighting": 28,
         "Card & Board Game": 21,
         "Music": 8,
+        "Visual Novel": 6,
         "Quiz/Trivia": 5,
-        "Visual Novel": 5,
         "MOBA": 2
       },
       "new_releases": [
@@ -228,15 +229,15 @@
           "date_type": "added"
         },
         {
-          "name": "Football Manager 27 Console",
-          "url": "https://gamescriptions.com/game/420982",
+          "name": "Hope in the City",
+          "url": "https://gamescriptions.com/game/347898",
           "year": 2026,
           "date_label": "Nov 10",
           "date_type": "added"
         },
         {
-          "name": "Hope in the City",
-          "url": "https://gamescriptions.com/game/347898",
+          "name": "Football Manager 27 Console",
+          "url": "https://gamescriptions.com/game/420982",
           "year": 2026,
           "date_label": "Nov 10",
           "date_type": "added"
@@ -338,91 +339,91 @@
           "name": "1000xResist",
           "url": "https://gamescriptions.com/game/218282",
           "year": 2024,
-          "date_label": "Tomorrow",
+          "date_label": "Today",
           "date_type": "leaves"
         },
         {
           "name": "Barbie: Horse Trails",
           "url": "https://gamescriptions.com/game/359887",
           "year": 2025,
-          "date_label": "Tomorrow",
+          "date_label": "Today",
           "date_type": "leaves"
         },
         {
           "name": "Dragon Ball: Xenoverse 2",
           "url": "https://gamescriptions.com/game/19449",
           "year": 2016,
-          "date_label": "Tomorrow",
+          "date_label": "Today",
           "date_type": "leaves"
         },
         {
           "name": "Firefighting Simulator: The Squad",
           "url": "https://gamescriptions.com/game/228376",
           "year": 2021,
-          "date_label": "Tomorrow",
+          "date_label": "Today",
           "date_type": "leaves"
         },
         {
           "name": "GoldenEye 007",
           "url": "https://gamescriptions.com/game/233877",
           "year": 2023,
-          "date_label": "Tomorrow",
+          "date_label": "Today",
           "date_type": "leaves"
         },
         {
           "name": "Great God Grove",
           "url": "https://gamescriptions.com/game/247082",
           "year": 2024,
-          "date_label": "Tomorrow",
+          "date_label": "Today",
           "date_type": "leaves"
         },
         {
           "name": "Moonlighter",
           "url": "https://gamescriptions.com/game/27771",
           "year": 2018,
-          "date_label": "Tomorrow",
+          "date_label": "Today",
           "date_type": "leaves"
         },
         {
           "name": "Pigeon Simulator",
           "url": "https://gamescriptions.com/game/120304",
           "year": 2025,
-          "date_label": "Tomorrow",
+          "date_label": "Today",
           "date_type": "leaves"
         },
         {
           "name": "Police Simulator: Patrol Officers",
           "url": "https://gamescriptions.com/game/152297",
           "year": 2022,
-          "date_label": "Tomorrow",
+          "date_label": "Today",
           "date_type": "leaves"
         },
         {
           "name": "Relic Hunters Legend",
           "url": "https://gamescriptions.com/game/72497",
           "year": 2025,
-          "date_label": "Tomorrow",
+          "date_label": "Today",
           "date_type": "leaves"
         },
         {
           "name": "Total Chaos",
           "url": "https://gamescriptions.com/game/301071",
           "year": 2025,
-          "date_label": "Tomorrow",
+          "date_label": "Today",
           "date_type": "leaves"
         },
         {
           "name": "Winter Burrow",
           "url": "https://gamescriptions.com/game/305156",
           "year": 2025,
-          "date_label": "Tomorrow",
+          "date_label": "Today",
           "date_type": "leaves"
         },
         {
           "name": "Wreckfest",
           "url": "https://gamescriptions.com/game/3772",
           "year": 2018,
-          "date_label": "Tomorrow",
+          "date_label": "Today",
           "date_type": "leaves"
         }
       ],
@@ -599,6 +600,7 @@
         },
         {
           "name": "Don't Fret",
+          "year": 2026,
           "date_label": "TBD",
           "date_type": "tbd"
         },
@@ -1616,7 +1618,7 @@
           "name": "Heavy Weapon"
         },
         {
-          "name": "Hell is Us"
+          "name": "Hell Is Us"
         },
         {
           "name": "Hellblade II: Senua's Saga"
@@ -4354,7 +4356,8 @@
           "game_modes": [
             "Single-Player",
             "Multiplayer",
-            "Co-Op"
+            "Co-Op",
+            "Split-Screen"
           ],
           "game_style": [
             "Action"
@@ -4699,6 +4702,7 @@
         },
         {
           "name": "Don't Fret",
+          "year": 2026,
           "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc6xj.jpg",
           "screenshot_urls": [
             "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fscqwgh.jpg&w=3840&q=75",
@@ -4742,8 +4746,6 @@
             "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgf.jpg&w=160&q=75",
             "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scqwgf.jpg&w=200&q=75"
           ],
-          "developer": "Scary Kid Studios",
-          "publisher": "Digital Pajamas",
           "description": "Don't! Fret is stylized first-person psychological mascot-horror game set in a musically themed world. Play as a guitar named Fret to solve puzzles, escape from foes, and uncover the mystery behind Harmonic Heights.",
           "genres": [
             "First-Person",
@@ -6867,9 +6869,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Tomorrow",
-        "premium": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "new_plan_order": {},
       "leaving_plan_order": {
@@ -11082,7 +11084,7 @@
       "release_date": "November 10th, 2020",
       "developer": "Ubisoft Montreal",
       "publisher": "Ubisoft Entertainment",
-      "description": "In Assassin's Creed Valhalla, become Eivor, a legendary Viking raider on a quest for glory. Explore a dynamic and beautiful open world set against the brutal backdrop of England’s Dark Ages. Raid your enemies, grow your settlement, and build your political power in the quest to earn a place among the gods in Valhalla."
+      "description": "Assassin's Creed Valhalla is an open-world action role-playing game set primarily in ninth-century England and Norway. The player controls Eivor, a Viking who leads a clan from Norway to establish a new settlement in England amid conflicts between rival kingdoms. Gameplay combines exploration, melee and ranged combat, raids, character pr..."
     },
     {
       "name": "Assassin's Creed: Freedom Cry",
@@ -12175,14 +12177,21 @@
       "name": "Banjo-Kazooie",
       "url": "https://gamescriptions.com/game/201644",
       "plans": [
+        "essential",
         "premium",
         "ultimate"
       ],
-      "new_plans": [],
+      "new_plans": [
+        "essential"
+      ],
       "leaving_plans": [],
-      "plan_added_dates": {},
+      "plan_added_dates": {
+        "essential": "Today"
+      },
       "leaving_dates": {},
-      "new_plan_order": {},
+      "new_plan_order": {
+        "essential": 4
+      },
       "leaving_plan_order": {},
       "genres": [
         "Third-Person",
@@ -12200,13 +12209,13 @@
       "platforms": [
         "Xbox"
       ],
-      "essential": false,
+      "essential": true,
       "pc_game_pass": false,
       "premium": true,
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": false,
+      "new": true,
       "leaving": false,
       "year": 2008,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6bha.jpg",
@@ -12273,14 +12282,21 @@
       "name": "Banjo-Kazooie: Nuts & Bolts",
       "url": "https://gamescriptions.com/game/3008",
       "plans": [
+        "essential",
         "premium",
         "ultimate"
       ],
-      "new_plans": [],
+      "new_plans": [
+        "essential"
+      ],
       "leaving_plans": [],
-      "plan_added_dates": {},
+      "plan_added_dates": {
+        "essential": "Today"
+      },
       "leaving_dates": {},
-      "new_plan_order": {},
+      "new_plan_order": {
+        "essential": 5
+      },
       "leaving_plan_order": {},
       "genres": [
         "First-Person",
@@ -12303,13 +12319,13 @@
       "platforms": [
         "Xbox"
       ],
-      "essential": false,
+      "essential": true,
       "pc_game_pass": false,
       "premium": true,
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": false,
+      "new": true,
       "leaving": false,
       "year": 2008,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2feg.jpg",
@@ -12372,14 +12388,21 @@
       "name": "Banjo-Tooie",
       "url": "https://gamescriptions.com/game/201645",
       "plans": [
+        "essential",
         "premium",
         "ultimate"
       ],
-      "new_plans": [],
+      "new_plans": [
+        "essential"
+      ],
       "leaving_plans": [],
-      "plan_added_dates": {},
+      "plan_added_dates": {
+        "essential": "Today"
+      },
       "leaving_dates": {},
-      "new_plan_order": {},
+      "new_plan_order": {
+        "essential": 3
+      },
       "leaving_plan_order": {},
       "genres": [
         "Third-Person",
@@ -12400,13 +12423,13 @@
       "platforms": [
         "Xbox"
       ],
-      "essential": false,
+      "essential": true,
       "pc_game_pass": false,
       "premium": true,
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": false,
+      "new": true,
       "leaving": false,
       "year": 2009,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6bhb.jpg",
@@ -12477,9 +12500,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Tomorrow",
-        "premium": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "new_plan_order": {},
       "leaving_plan_order": {
@@ -12578,17 +12601,11 @@
         "premium",
         "ultimate"
       ],
-      "new_plans": [
-        "essential"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
-      "plan_added_dates": {
-        "essential": "Mar 26"
-      },
+      "plan_added_dates": {},
       "leaving_dates": {},
-      "new_plan_order": {
-        "essential": 15
-      },
+      "new_plan_order": {},
       "leaving_plan_order": {},
       "genres": [
         "Third-Person",
@@ -12615,7 +12632,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2015,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coagib.jpg",
@@ -13734,6 +13751,19 @@
         "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scymzz.jpg&w=1920&q=75",
         "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scymzz.jpg&w=2048&q=75",
         "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scymzz.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scyn05.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scyn05.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scyn05.jpg&w=200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scyn05.jpg&w=250&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scyn05.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scyn05.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scyn05.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scyn05.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scyn05.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scyn05.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scyn05.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scyn05.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scyn05.jpg&w=2048&q=75",
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scymzy.jpg&w=3840&q=75",
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scymzy.jpg&w=160&q=75",
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scymzy.jpg&w=200&q=75",
@@ -13749,20 +13779,7 @@
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scymzy.jpg&w=2048&q=75",
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scyn00.jpg&w=3840&q=75",
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scyn00.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scyn00.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scyn00.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scyn00.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scyn00.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scyn00.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scyn00.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scyn00.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scyn00.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scyn00.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scyn00.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scyn00.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scyn04.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scyn04.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scyn04.jpg&w=200&q=75"
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scyn00.jpg&w=200&q=75"
       ],
       "playtime_category": "A Solid Adventure",
       "playtime_hours": "10-19 Hours",
@@ -17367,17 +17384,11 @@
         "premium",
         "ultimate"
       ],
-      "new_plans": [
-        "essential"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
-      "plan_added_dates": {
-        "essential": "Oct 1"
-      },
+      "plan_added_dates": {},
       "leaving_dates": {},
-      "new_plan_order": {
-        "essential": 10
-      },
+      "new_plan_order": {},
       "leaving_plan_order": {},
       "genres": [
         "Isometric",
@@ -17396,7 +17407,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2023,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co65u4.jpg",
@@ -17830,7 +17841,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "essential": 4
+        "essential": 12
       },
       "leaving_plan_order": {},
       "genres": [
@@ -19311,7 +19322,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "essential": 5
+        "essential": 13
       },
       "leaving_plan_order": {},
       "genres": [
@@ -20856,6 +20867,48 @@
       "leaving": false,
       "year": 2021,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobksg.jpg",
+      "screenshot_urls": [
+        "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fscb0hq.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scb0hq.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scb0hq.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scb0hq.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scb0hq.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scb0hq.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scb0hq.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scb0hq.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scb0hq.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scb0hq.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scb0hq.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scb0hp.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scb0hp.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scb0hp.jpg&w=200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scb0hp.jpg&w=250&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scb0hp.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scb0hp.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scb0hp.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scb0hp.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scb0hp.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scb0hp.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scb0hp.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scb0hp.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scb0hp.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scb0hr.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scb0hr.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scb0hr.jpg&w=200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scb0hr.jpg&w=250&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scb0hr.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scb0hr.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scb0hr.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scb0hr.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scb0hr.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scb0hr.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scb0hr.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scb0hr.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scb0hr.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scb0hs.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scb0hs.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scb0hs.jpg&w=200&q=75"
+      ],
       "playtime_category": "Grand Saga",
       "playtime_hours": "55-79 Hours",
       "community_rating": 4.7,
@@ -22482,7 +22535,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "essential": 9
+        "essential": 17
       },
       "leaving_plan_order": {},
       "genres": [
@@ -23884,9 +23937,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Tomorrow",
-        "premium": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "new_plan_order": {},
       "leaving_plan_order": {
@@ -24000,7 +24053,8 @@
         "Isometric",
         "Role-Playing",
         "Simulator",
-        "Adventure"
+        "Adventure",
+        "Indie"
       ],
       "game_modes": [
         "Single-Player"
@@ -25762,7 +25816,9 @@
       "genres": [
         "First-Person",
         "Puzzle",
-        "Adventure"
+        "Simulator",
+        "Adventure",
+        "Visual Novel"
       ],
       "game_modes": [
         "Single-Player",
@@ -29416,7 +29472,7 @@
       },
       "release_date": "September 9th, 2025",
       "developer": "Weltenbauer. Software Entwicklung",
-      "publisher": "astragon Software GmbH",
+      "publisher": "astragon Entertainment",
       "description": "Face unpredictable dangers, fight perilous fires with your crew, and save lives in Firefighting Simulator: Ignite. Step into the boots of a U.S. firefighter and play with up to 3 friends or with the help of your NPC controlled crew members."
     },
     {
@@ -29435,9 +29491,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Tomorrow",
-        "premium": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "new_plan_order": {},
       "leaving_plan_order": {
@@ -29813,8 +29869,8 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 3,
-        "ultimate": 3
+        "pc": 4,
+        "ultimate": 4
       },
       "leaving_plan_order": {},
       "genres": [
@@ -30566,7 +30622,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "essential": 6
+        "essential": 14
       },
       "leaving_plan_order": {},
       "genres": [
@@ -31447,14 +31503,21 @@
       "name": "Gears of War: Judgment",
       "url": "https://gamescriptions.com/game/1319",
       "plans": [
+        "essential",
         "premium",
         "ultimate"
       ],
-      "new_plans": [],
+      "new_plans": [
+        "essential"
+      ],
       "leaving_plans": [],
-      "plan_added_dates": {},
+      "plan_added_dates": {
+        "essential": "Today"
+      },
       "leaving_dates": {},
-      "new_plan_order": {},
+      "new_plan_order": {
+        "essential": 1
+      },
       "leaving_plan_order": {},
       "genres": [
         "Third-Person",
@@ -31473,13 +31536,13 @@
       "platforms": [
         "Xbox"
       ],
-      "essential": false,
+      "essential": true,
       "pc_game_pass": false,
       "premium": true,
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": false,
+      "new": true,
       "leaving": false,
       "year": 2013,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2y2a.jpg",
@@ -32350,8 +32413,8 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "premium": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "new_plan_order": {},
       "leaving_plan_order": {
@@ -32650,9 +32713,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Tomorrow",
-        "premium": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "new_plan_order": {},
       "leaving_plan_order": {
@@ -32852,15 +32915,11 @@
         "premium",
         "ultimate"
       ],
-      "new_plans": [
-        "essential"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
       "plan_added_dates": {},
       "leaving_dates": {},
-      "new_plan_order": {
-        "essential": 17
-      },
+      "new_plan_order": {},
       "leaving_plan_order": {},
       "genres": [
         "First-Person",
@@ -32888,7 +32947,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2022,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5d1l.jpg",
@@ -33057,17 +33116,11 @@
         "premium",
         "ultimate"
       ],
-      "new_plans": [
-        "essential"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
-      "plan_added_dates": {
-        "essential": "Oct 1"
-      },
+      "plan_added_dates": {},
       "leaving_dates": {},
-      "new_plan_order": {
-        "essential": 12
-      },
+      "new_plan_order": {},
       "leaving_plan_order": {},
       "genres": [
         "Isometric",
@@ -33095,7 +33148,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2020,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9kr.jpg",
@@ -33858,15 +33911,22 @@
       "name": "Halo: Spartan Assault",
       "url": "https://gamescriptions.com/game/4839",
       "plans": [
+        "essential",
         "pc",
         "premium",
         "ultimate"
       ],
-      "new_plans": [],
+      "new_plans": [
+        "essential"
+      ],
       "leaving_plans": [],
-      "plan_added_dates": {},
+      "plan_added_dates": {
+        "essential": "Today"
+      },
       "leaving_dates": {},
-      "new_plan_order": {},
+      "new_plan_order": {
+        "essential": 0
+      },
       "leaving_plan_order": {},
       "genres": [
         "Third-Person",
@@ -33887,13 +33947,13 @@
         "Xbox One",
         "PC (Microsoft Windows)"
       ],
-      "essential": false,
+      "essential": true,
       "pc_game_pass": true,
       "premium": true,
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": false,
+      "new": true,
       "leaving": false,
       "year": 2013,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xi3.jpg",
@@ -34253,7 +34313,7 @@
       "description": "Heavy Weapon unleashes adrenaline-soaked side-scrolling shoot-'em-up arcade action. With a blast of retro eighties videogame chic, Heavy Weapon brings classic shooter action and explosive power. Fight through 19 story-based missions to upgrade six different weapon banks, or jump into instant action with the blazing Survival mode."
     },
     {
-      "name": "Hell is Us",
+      "name": "Hell Is Us",
       "url": "https://gamescriptions.com/game/196954",
       "plans": [
         "pc",
@@ -35641,8 +35701,8 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 4,
-        "ultimate": 4
+        "pc": 3,
+        "ultimate": 3
       },
       "leaving_plan_order": {},
       "genres": [
@@ -35717,7 +35777,7 @@
       "community_status_counts": {
         "no_interest": 1
       },
-      "release_date": "November 10th, 2026",
+      "release_date": "November 11th, 2026",
       "developer": "Lofty Sky Entertainment",
       "description": "17-year-old Hope Song returns home from school to find her parents missing. Use Hope’s observant eye as an artist to investigate, piece together clues, and uncover a dark world beneath the surface of her peaceful life in this non-linear narrative mystery game."
     },
@@ -36270,6 +36330,48 @@
       "leaving": false,
       "year": 2024,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7nbc.jpg",
+      "screenshot_urls": [
+        "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fscq5sr.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scq5sr.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scq5sr.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scq5sr.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scq5sr.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scq5sr.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scq5sr.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scq5sr.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scq5sr.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scq5sr.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scq5sr.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq5ss.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq5ss.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq5ss.jpg&w=200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq5ss.jpg&w=250&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq5ss.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq5ss.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq5ss.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq5ss.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq5ss.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq5ss.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq5ss.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq5ss.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq5ss.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq5su.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq5su.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq5su.jpg&w=200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq5su.jpg&w=250&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq5su.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq5su.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq5su.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq5su.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq5su.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq5su.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq5su.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq5su.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq5su.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq5st.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq5st.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scq5st.jpg&w=200&q=75"
+      ],
       "playtime_category": "Hearty Campaign",
       "playtime_hours": "20-34 Hours",
       "community_rating": 4.5,
@@ -41130,7 +41232,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "essential": 7
+        "essential": 15
       },
       "leaving_plan_order": {},
       "genres": [
@@ -42712,17 +42814,11 @@
         "premium",
         "ultimate"
       ],
-      "new_plans": [
-        "essential"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
-      "plan_added_dates": {
-        "essential": "Mar 26"
-      },
+      "plan_added_dates": {},
       "leaving_dates": {},
-      "new_plan_order": {
-        "essential": 14
-      },
+      "new_plan_order": {},
       "leaving_plan_order": {},
       "genres": [
         "Side-View",
@@ -42751,7 +42847,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2020,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1q3q.jpg",
@@ -43022,9 +43118,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Tomorrow",
-        "premium": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "new_plan_order": {},
       "leaving_plan_order": {
@@ -45782,7 +45878,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "essential": 1
+        "essential": 9
       },
       "leaving_plan_order": {},
       "genres": [
@@ -47334,14 +47430,21 @@
       "name": "Perfect Dark",
       "url": "https://gamescriptions.com/game/1466",
       "plans": [
+        "essential",
         "premium",
         "ultimate"
       ],
-      "new_plans": [],
+      "new_plans": [
+        "essential"
+      ],
       "leaving_plans": [],
-      "plan_added_dates": {},
+      "plan_added_dates": {
+        "essential": "Today"
+      },
       "leaving_dates": {},
-      "new_plan_order": {},
+      "new_plan_order": {
+        "essential": 2
+      },
       "leaving_plan_order": {},
       "genres": [
         "First-Person",
@@ -47363,13 +47466,13 @@
       "platforms": [
         "Xbox"
       ],
-      "essential": false,
+      "essential": true,
       "pc_game_pass": false,
       "premium": true,
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": false,
+      "new": true,
       "leaving": false,
       "year": 2010,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2yib.jpg",
@@ -47738,9 +47841,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Tomorrow",
-        "premium": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "new_plan_order": {},
       "leaving_plan_order": {
@@ -49033,9 +49136,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Tomorrow",
-        "premium": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "new_plan_order": {},
       "leaving_plan_order": {
@@ -51410,9 +51513,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Tomorrow",
-        "premium": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "new_plan_order": {},
       "leaving_plan_order": {
@@ -51620,7 +51723,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "essential": 0
+        "essential": 8
       },
       "leaving_plan_order": {},
       "genres": [
@@ -51835,7 +51938,6 @@
       ],
       "platforms": [
         "Xbox Series X|S",
-        "Xbox One",
         "PC (Microsoft Windows)"
       ],
       "essential": false,
@@ -57320,15 +57422,11 @@
         "premium",
         "ultimate"
       ],
-      "new_plans": [
-        "essential"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
       "plan_added_dates": {},
       "leaving_dates": {},
-      "new_plan_order": {
-        "essential": 16
-      },
+      "new_plan_order": {},
       "leaving_plan_order": {},
       "genres": [
         "Isometric",
@@ -57352,7 +57450,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2024,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaq2a.jpg",
@@ -60463,7 +60561,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "essential": 3
+        "essential": 11
       },
       "leaving_plan_order": {},
       "genres": [
@@ -63820,7 +63918,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "essential": 2
+        "essential": 10
       },
       "leaving_plan_order": {},
       "genres": [
@@ -65070,9 +65168,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Tomorrow",
-        "premium": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "new_plan_order": {},
       "leaving_plan_order": {
@@ -66269,17 +66367,11 @@
         "premium",
         "ultimate"
       ],
-      "new_plans": [
-        "essential"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
-      "plan_added_dates": {
-        "essential": "Mar 26"
-      },
+      "plan_added_dates": {},
       "leaving_dates": {},
-      "new_plan_order": {
-        "essential": 13
-      },
+      "new_plan_order": {},
       "leaving_plan_order": {},
       "genres": [
         "Isometric",
@@ -66306,7 +66398,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2022,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/td1t8kb33gyo8mvhl2pc.jpg",
@@ -67646,14 +67738,21 @@
       "name": "Viva Piñata",
       "url": "https://gamescriptions.com/game/7236",
       "plans": [
+        "essential",
         "premium",
         "ultimate"
       ],
-      "new_plans": [],
+      "new_plans": [
+        "essential"
+      ],
       "leaving_plans": [],
-      "plan_added_dates": {},
+      "plan_added_dates": {
+        "essential": "Today"
+      },
       "leaving_dates": {},
-      "new_plan_order": {},
+      "new_plan_order": {
+        "essential": 7
+      },
       "leaving_plan_order": {},
       "genres": [
         "Third-Person",
@@ -67671,13 +67770,13 @@
       "platforms": [
         "PC (Microsoft Windows)"
       ],
-      "essential": false,
+      "essential": true,
       "pc_game_pass": false,
       "premium": true,
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": false,
+      "new": true,
       "leaving": false,
       "year": 2006,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2h1y.jpg",
@@ -67723,14 +67822,21 @@
       "name": "Viva Piñata: Trouble in Paradise",
       "url": "https://gamescriptions.com/game/7238",
       "plans": [
+        "essential",
         "premium",
         "ultimate"
       ],
-      "new_plans": [],
+      "new_plans": [
+        "essential"
+      ],
       "leaving_plans": [],
-      "plan_added_dates": {},
+      "plan_added_dates": {
+        "essential": "Today"
+      },
       "leaving_dates": {},
-      "new_plan_order": {},
+      "new_plan_order": {
+        "essential": 6
+      },
       "leaving_plan_order": {},
       "genres": [
         "Third-Person",
@@ -67746,13 +67852,13 @@
       "platforms": [
         "Xbox"
       ],
-      "essential": false,
+      "essential": true,
       "pc_game_pass": false,
       "premium": true,
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": false,
+      "new": true,
       "leaving": false,
       "year": 2008,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2z8o.jpg",
@@ -68288,17 +68394,11 @@
         "premium",
         "ultimate"
       ],
-      "new_plans": [
-        "essential"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
-      "plan_added_dates": {
-        "essential": "Oct 1"
-      },
+      "plan_added_dates": {},
       "leaving_dates": {},
-      "new_plan_order": {
-        "essential": 11
-      },
+      "new_plan_order": {},
       "leaving_plan_order": {},
       "genres": [
         "First-Person",
@@ -68325,7 +68425,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2022,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5j6u.jpg",
@@ -69991,9 +70091,9 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "pc": "Tomorrow",
-        "premium": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "new_plan_order": {},
       "leaving_plan_order": {
@@ -70813,7 +70913,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "essential": 8
+        "essential": 16
       },
       "leaving_plan_order": {},
       "genres": [
@@ -70920,10 +71020,10 @@
       ],
       "plan_added_dates": {},
       "leaving_dates": {
-        "essential": "Tomorrow",
-        "pc": "Tomorrow",
-        "premium": "Tomorrow",
-        "ultimate": "Tomorrow"
+        "essential": "Today",
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
       },
       "new_plan_order": {},
       "leaving_plan_order": {
