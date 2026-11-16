@@ -8,61 +8,61 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-11-15T22:27:51.208044+00:00",
+  "updated_at": "2026-11-16T03:47:10.668369+00:00",
   "service_counts": {
-    "essential": 75,
-    "pc": 579,
-    "premium": 424,
-    "ultimate": 657,
+    "essential": 74,
+    "pc": 567,
+    "premium": 411,
+    "ultimate": 644,
     "ea_play": 94,
     "ubisoft_classics": 66
   },
   "genre_counts": {
     "essential": {
       "Adventure": 43,
-      "Third-Person": 41,
-      "Indie": 28,
+      "Third-Person": 40,
+      "Indie": 27,
       "Role-Playing": 24,
       "Shooter": 22,
-      "First-Person": 21,
-      "Isometric": 21,
+      "First-Person": 20,
+      "Isometric": 20,
       "Simulator": 20,
       "Strategy": 16,
       "Platform": 14,
       "Arcade": 9,
-      "Side-View": 8,
       "Puzzle": 7,
+      "Side-View": 7,
       "Hack and Slash": 6,
-      "Racing": 6,
       "Tactical": 6,
       "Turn-Based Strategy": 6,
-      "Sport": 4,
+      "Racing": 5,
       "Fighting": 3,
       "Quiz/Trivia": 3,
       "Real-Time Strategy": 3,
+      "Sport": 3,
       "Virtual Reality": 2
     },
     "pc": {
-      "Adventure": 354,
-      "Third-Person": 261,
-      "First-Person": 201,
-      "Role-Playing": 182,
-      "Indie": 171,
-      "Shooter": 151,
-      "Isometric": 139,
-      "Simulator": 139,
-      "Strategy": 120,
-      "Side-View": 69,
+      "Adventure": 345,
+      "Third-Person": 254,
+      "First-Person": 197,
+      "Role-Playing": 177,
+      "Indie": 164,
+      "Shooter": 150,
+      "Isometric": 133,
+      "Simulator": 133,
+      "Strategy": 119,
+      "Side-View": 67,
       "Platform": 65,
-      "Puzzle": 58,
+      "Puzzle": 57,
       "Arcade": 43,
-      "Racing": 41,
-      "Hack and Slash": 39,
-      "Sport": 38,
+      "Racing": 39,
+      "Hack and Slash": 38,
+      "Sport": 37,
       "Real-Time Strategy": 25,
       "Tactical": 25,
       "Turn-Based Strategy": 25,
-      "Fighting": 21,
+      "Fighting": 20,
       "Card & Board Game": 16,
       "Virtual Reality": 14,
       "Point-and-Click": 5,
@@ -72,26 +72,26 @@
       "Text": 1
     },
     "premium": {
-      "Adventure": 269,
-      "Third-Person": 190,
-      "First-Person": 150,
-      "Role-Playing": 145,
-      "Indie": 136,
-      "Shooter": 119,
-      "Simulator": 104,
-      "Isometric": 100,
-      "Strategy": 84,
-      "Side-View": 55,
+      "Adventure": 260,
+      "Third-Person": 183,
+      "First-Person": 145,
+      "Role-Playing": 140,
+      "Indie": 129,
+      "Shooter": 117,
+      "Simulator": 98,
+      "Isometric": 94,
+      "Strategy": 83,
+      "Side-View": 53,
       "Platform": 46,
-      "Puzzle": 41,
-      "Hack and Slash": 36,
+      "Puzzle": 40,
       "Arcade": 35,
-      "Racing": 23,
-      "Fighting": 22,
+      "Hack and Slash": 35,
+      "Fighting": 21,
+      "Racing": 21,
       "Turn-Based Strategy": 20,
       "Tactical": 19,
-      "Sport": 17,
       "Real-Time Strategy": 16,
+      "Sport": 16,
       "Card & Board Game": 10,
       "Virtual Reality": 10,
       "Point-and-Click": 9,
@@ -102,25 +102,25 @@
       "Visual Novel": 1
     },
     "ultimate": {
-      "Adventure": 387,
-      "Third-Person": 309,
-      "First-Person": 214,
-      "Role-Playing": 194,
-      "Indie": 175,
-      "Shooter": 170,
-      "Simulator": 159,
-      "Isometric": 150,
-      "Strategy": 133,
-      "Side-View": 85,
+      "Adventure": 378,
+      "Third-Person": 302,
+      "First-Person": 209,
+      "Role-Playing": 189,
+      "Indie": 168,
+      "Shooter": 168,
+      "Simulator": 153,
+      "Isometric": 144,
+      "Strategy": 132,
+      "Side-View": 83,
       "Platform": 76,
-      "Puzzle": 73,
+      "Puzzle": 72,
       "Arcade": 57,
-      "Sport": 52,
-      "Racing": 48,
-      "Hack and Slash": 44,
+      "Sport": 51,
+      "Racing": 46,
+      "Hack and Slash": 43,
       "Tactical": 29,
       "Turn-Based Strategy": 29,
-      "Fighting": 27,
+      "Fighting": 26,
       "Real-Time Strategy": 26,
       "Card & Board Game": 20,
       "Virtual Reality": 16,
@@ -186,7 +186,7 @@
       "name": "Game Pass Ultimate",
       "url": "https://gamescriptions.com/subscription/service/xbox_ultimate",
       "description": "Xbox Game Pass Ultimate includes new games on day one, a library of 500+ games on Xbox console, PC, and supported devices, and the ability to stream games anywhere at our best quality. Check out the latest games on Game Pass Ultimate. What's leaving, upcoming releases, and a full list of titles!",
-      "available_count": 657,
+      "available_count": 644,
       "genre_counts": {
         "Adventure": 431,
         "Indie": 199,
@@ -334,104 +334,12 @@
           "date_type": "added"
         }
       ],
-      "leaving_soon": [
-        {
-          "name": "1000xResist",
-          "url": "https://gamescriptions.com/game/218282",
-          "year": 2024,
-          "date_label": "Today",
-          "date_type": "leaves"
-        },
-        {
-          "name": "Barbie: Horse Trails",
-          "url": "https://gamescriptions.com/game/359887",
-          "year": 2025,
-          "date_label": "Today",
-          "date_type": "leaves"
-        },
-        {
-          "name": "Dragon Ball: Xenoverse 2",
-          "url": "https://gamescriptions.com/game/19449",
-          "year": 2016,
-          "date_label": "Today",
-          "date_type": "leaves"
-        },
-        {
-          "name": "Firefighting Simulator: The Squad",
-          "url": "https://gamescriptions.com/game/228376",
-          "year": 2021,
-          "date_label": "Today",
-          "date_type": "leaves"
-        },
-        {
-          "name": "GoldenEye 007",
-          "url": "https://gamescriptions.com/game/233877",
-          "year": 2023,
-          "date_label": "Today",
-          "date_type": "leaves"
-        },
-        {
-          "name": "Great God Grove",
-          "url": "https://gamescriptions.com/game/247082",
-          "year": 2024,
-          "date_label": "Today",
-          "date_type": "leaves"
-        },
-        {
-          "name": "Moonlighter",
-          "url": "https://gamescriptions.com/game/27771",
-          "year": 2018,
-          "date_label": "Today",
-          "date_type": "leaves"
-        },
-        {
-          "name": "Pigeon Simulator",
-          "url": "https://gamescriptions.com/game/120304",
-          "year": 2025,
-          "date_label": "Today",
-          "date_type": "leaves"
-        },
-        {
-          "name": "Police Simulator: Patrol Officers",
-          "url": "https://gamescriptions.com/game/152297",
-          "year": 2022,
-          "date_label": "Today",
-          "date_type": "leaves"
-        },
-        {
-          "name": "Relic Hunters Legend",
-          "url": "https://gamescriptions.com/game/72497",
-          "year": 2025,
-          "date_label": "Today",
-          "date_type": "leaves"
-        },
-        {
-          "name": "Total Chaos",
-          "url": "https://gamescriptions.com/game/301071",
-          "year": 2025,
-          "date_label": "Today",
-          "date_type": "leaves"
-        },
-        {
-          "name": "Winter Burrow",
-          "url": "https://gamescriptions.com/game/305156",
-          "year": 2025,
-          "date_label": "Today",
-          "date_type": "leaves"
-        },
-        {
-          "name": "Wreckfest",
-          "url": "https://gamescriptions.com/game/3772",
-          "year": 2018,
-          "date_label": "Today",
-          "date_type": "leaves"
-        }
-      ],
+      "leaving_soon": [],
       "coming_soon": [
         {
           "name": "Paw Patrol: Dino World",
           "year": 2026,
-          "date_label": "Nov 17",
+          "date_label": "Tomorrow",
           "date_type": "arrives"
         },
         {
@@ -787,9 +695,6 @@
       ],
       "available_games": [
         {
-          "name": "1000xResist"
-        },
-        {
           "name": "33 Immortals"
         },
         {
@@ -953,9 +858,6 @@
         },
         {
           "name": "Banjo-Tooie"
-        },
-        {
-          "name": "Barbie: Horse Trails"
         },
         {
           "name": "Batman: Arkham Knight"
@@ -1303,9 +1205,6 @@
           "name": "Dragon Age: The Veilguard"
         },
         {
-          "name": "Dragon Ball: Xenoverse 2"
-        },
-        {
           "name": "Dredge"
         },
         {
@@ -1471,9 +1370,6 @@
           "name": "Firefighting Simulator: Ignite"
         },
         {
-          "name": "Firefighting Simulator: The Squad"
-        },
-        {
           "name": "FixForce"
         },
         {
@@ -1561,16 +1457,10 @@
           "name": "Goat Simulator 3"
         },
         {
-          "name": "GoldenEye 007"
-        },
-        {
           "name": "Grabbed by the Ghoulies"
         },
         {
           "name": "Gravhounds"
-        },
-        {
-          "name": "Great God Grove"
         },
         {
           "name": "Grid Legends"
@@ -1888,9 +1778,6 @@
           "name": "Monsters Are Coming!"
         },
         {
-          "name": "Moonlighter"
-        },
-        {
           "name": "Moonlighter 2: The Endless Vault"
         },
         {
@@ -2029,9 +1916,6 @@
           "name": "Phoenix Point"
         },
         {
-          "name": "Pigeon Simulator"
-        },
-        {
           "name": "Pillars of Eternity II: Deadfire - Ultimate Edition"
         },
         {
@@ -2066,9 +1950,6 @@
         },
         {
           "name": "PlateUp!"
-        },
-        {
-          "name": "Police Simulator: Patrol Officers"
         },
         {
           "name": "Populous"
@@ -2138,9 +2019,6 @@
         },
         {
           "name": "Redfall"
-        },
-        {
-          "name": "Relic Hunters Legend"
         },
         {
           "name": "Relooted"
@@ -2557,9 +2435,6 @@
           "name": "Torment: Tides of Numenera"
         },
         {
-          "name": "Total Chaos"
-        },
-        {
           "name": "Totally Accurate Battle Simulator"
         },
         {
@@ -2707,9 +2582,6 @@
           "name": "Winds of Arcana: Ruination"
         },
         {
-          "name": "Winter Burrow"
-        },
-        {
           "name": "Wo Long: Fallen Dynasty"
         },
         {
@@ -2732,9 +2604,6 @@
         },
         {
           "name": "World War Z: Aftermath"
-        },
-        {
-          "name": "Wreckfest"
         },
         {
           "name": "Wuchang: Fallen Feathers"
@@ -2827,7 +2696,7 @@
             "Xbox Series X|S",
             "PC (Microsoft Windows)"
           ],
-          "availability_date": "Nov 17",
+          "availability_date": "Tomorrow",
           "availability_date_type": "arrives"
         },
         {
@@ -6851,123 +6720,8 @@
       ]
     }
   },
-  "game_count_unique": 658,
+  "game_count_unique": 645,
   "games": [
-    {
-      "name": "1000xResist",
-      "url": "https://gamescriptions.com/game/218282",
-      "plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "plan_added_dates": {},
-      "leaving_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
-      },
-      "new_plan_order": {},
-      "leaving_plan_order": {
-        "pc": 0,
-        "premium": 0,
-        "ultimate": 0
-      },
-      "genres": [
-        "First-Person",
-        "Third-Person",
-        "Isometric",
-        "Side-View",
-        "Adventure",
-        "Indie"
-      ],
-      "game_modes": [
-        "Single-Player"
-      ],
-      "game_style": [
-        "Sci-Fi",
-        "Horror"
-      ],
-      "platforms": [
-        "Xbox Series X|S",
-        "PC (Microsoft Windows)"
-      ],
-      "essential": false,
-      "pc_game_pass": true,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": true,
-      "year": 2024,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co87zq.jpg",
-      "screenshot_urls": [
-        "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fsciymp.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sciymp.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sciymp.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sciymp.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sciymp.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sciymp.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sciymp.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sciymp.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sciymp.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sciymp.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sciymp.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sciymq.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sciymq.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sciymq.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sciymq.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sciymq.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sciymq.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sciymq.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sciymq.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sciymq.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sciymq.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sciymq.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sciymq.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sciymq.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sciymr.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sciymr.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sciymr.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sciymr.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sciymr.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sciymr.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sciymr.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sciymr.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sciymr.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sciymr.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sciymr.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sciymr.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sciymr.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sciyms.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sciyms.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sciyms.jpg&w=200&q=75"
-      ],
-      "playtime_category": "A Solid Adventure",
-      "playtime_hours": "10-19 Hours",
-      "campaign_chapters": 12,
-      "community_rating": 4.0,
-      "community_sentiment": "Very Positive",
-      "community_rating_count": 2,
-      "community_total": 7,
-      "community_status_counts": {
-        "completed": 2,
-        "interested": 2,
-        "no_interest": 2,
-        "abandoned": 1
-      },
-      "release_date": "May 9th, 2024",
-      "developer": "sunset visitor 斜陽過客",
-      "publisher": "Fellow Traveller",
-      "description": "1000xRESIST is a thrilling sci-fi adventure. The year is unknown, and a disease spread by an alien invasion keeps you underground. You are Watcher."
-    },
     {
       "name": "33 Immortals",
       "url": "https://gamescriptions.com/game/252828",
@@ -12186,7 +11940,7 @@
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "essential": "Today"
+        "essential": "Nov 15"
       },
       "leaving_dates": {},
       "new_plan_order": {
@@ -12291,7 +12045,7 @@
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "essential": "Today"
+        "essential": "Nov 15"
       },
       "leaving_dates": {},
       "new_plan_order": {
@@ -12397,7 +12151,7 @@
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "essential": "Today"
+        "essential": "Nov 15"
       },
       "leaving_dates": {},
       "new_plan_order": {
@@ -12483,114 +12237,6 @@
       "developer": "Rare",
       "publisher": "Microsoft Game Studios",
       "description": "The Xbox 360 remaster of Banjo-Tooie has visual and performance improvements over the Nintendo 64 version. In this version, the player doesn't loose the notes after getting out of a stage, which is a major difference over the original, since it doesn't require the player to get everything again after leaving or dying. It also has a reimpl..."
-    },
-    {
-      "name": "Barbie: Horse Trails",
-      "url": "https://gamescriptions.com/game/359887",
-      "plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "plan_added_dates": {},
-      "leaving_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
-      },
-      "new_plan_order": {},
-      "leaving_plan_order": {
-        "pc": 1,
-        "premium": 1,
-        "ultimate": 1
-      },
-      "genres": [
-        "Third-Person",
-        "Racing",
-        "Role-Playing",
-        "Adventure"
-      ],
-      "game_modes": [
-        "Single-Player"
-      ],
-      "game_style": [
-        "Action",
-        "Kids",
-        "Open World"
-      ],
-      "platforms": [
-        "Xbox Series X|S",
-        "Xbox One",
-        "PC (Microsoft Windows)"
-      ],
-      "essential": false,
-      "pc_game_pass": true,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": true,
-      "year": 2025,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coad7d.jpg",
-      "screenshot_urls": [
-        "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fscytfe.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scytfe.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scytfe.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scytfe.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scytfe.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scytfe.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scytfe.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scytfe.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scytfe.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scytfe.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scytfe.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scytff.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scytff.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scytff.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scytff.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scytff.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scytff.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scytff.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scytff.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scytff.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scytff.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scytff.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scytff.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scytff.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scytfg.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scytfg.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scytfg.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scytfg.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scytfg.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scytfg.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scytfg.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scytfg.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scytfg.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scytfg.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scytfg.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scytfg.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scytfg.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scytfh.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scytfh.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scytfh.jpg&w=200&q=75"
-      ],
-      "playtime_category": "Short & Sweet",
-      "playtime_hours": "4-9 Hours",
-      "community_total": 1,
-      "community_status_counts": {
-        "no_interest": 1
-      },
-      "release_date": "October 10th, 2025",
-      "developer": "PHL Collective",
-      "publisher": "Outright Games",
-      "description": "Giddy up! Play as Barbie and Barbie in a new open-world adventure through Canterbury Trails Park with your horse, Lucky. Become a Junior Ranger and help give the already amazing park a fresh new look for everyone to enjoy."
     },
     {
       "name": "Batman: Arkham Knight",
@@ -23922,120 +23568,6 @@
       "description": "Select from different races and combat classes, customize your appearance, choose your character’s backstory and begin your journey as Rook, Dragon Age’s newest hero. Select from three classes (Warrior, Mage, and Rogue), each with two distinct weapon types and unique abilities you can select between mid-combat. Experience new strategic d..."
     },
     {
-      "name": "Dragon Ball: Xenoverse 2",
-      "url": "https://gamescriptions.com/game/19449",
-      "plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "plan_added_dates": {},
-      "leaving_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
-      },
-      "new_plan_order": {},
-      "leaving_plan_order": {
-        "pc": 2,
-        "premium": 2,
-        "ultimate": 2
-      },
-      "genres": [
-        "Third-Person",
-        "Fighting",
-        "Role-Playing",
-        "Simulator",
-        "Adventure"
-      ],
-      "game_modes": [
-        "Single-Player",
-        "Multiplayer",
-        "Co-Op",
-        "MMO"
-      ],
-      "game_style": [
-        "Action",
-        "Fantasy",
-        "Sci-Fi"
-      ],
-      "platforms": [
-        "Xbox Series X|S",
-        "Xbox One",
-        "PC (Microsoft Windows)"
-      ],
-      "essential": false,
-      "pc_game_pass": true,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": true,
-      "year": 2016,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9hs4.jpg",
-      "screenshot_urls": [
-        "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fkzlvv9jbdvfqhsmvluxd.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/kzlvv9jbdvfqhsmvluxd.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/kzlvv9jbdvfqhsmvluxd.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/kzlvv9jbdvfqhsmvluxd.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/kzlvv9jbdvfqhsmvluxd.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/kzlvv9jbdvfqhsmvluxd.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/kzlvv9jbdvfqhsmvluxd.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/kzlvv9jbdvfqhsmvluxd.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/kzlvv9jbdvfqhsmvluxd.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/kzlvv9jbdvfqhsmvluxd.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/kzlvv9jbdvfqhsmvluxd.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/xlwkmhicvnvpx08i9xxu.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/xlwkmhicvnvpx08i9xxu.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/xlwkmhicvnvpx08i9xxu.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/xlwkmhicvnvpx08i9xxu.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/xlwkmhicvnvpx08i9xxu.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/xlwkmhicvnvpx08i9xxu.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/xlwkmhicvnvpx08i9xxu.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/xlwkmhicvnvpx08i9xxu.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/xlwkmhicvnvpx08i9xxu.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/xlwkmhicvnvpx08i9xxu.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/xlwkmhicvnvpx08i9xxu.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/xlwkmhicvnvpx08i9xxu.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/xlwkmhicvnvpx08i9xxu.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/bp1qyvkjv03r4ewbqzof.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/bp1qyvkjv03r4ewbqzof.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/bp1qyvkjv03r4ewbqzof.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/bp1qyvkjv03r4ewbqzof.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/bp1qyvkjv03r4ewbqzof.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/bp1qyvkjv03r4ewbqzof.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/bp1qyvkjv03r4ewbqzof.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/bp1qyvkjv03r4ewbqzof.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/bp1qyvkjv03r4ewbqzof.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/bp1qyvkjv03r4ewbqzof.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/bp1qyvkjv03r4ewbqzof.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/bp1qyvkjv03r4ewbqzof.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/bp1qyvkjv03r4ewbqzof.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/vevoidcljycnhxeuf99q.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/vevoidcljycnhxeuf99q.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/vevoidcljycnhxeuf99q.jpg&w=200&q=75"
-      ],
-      "playtime_category": "Lengthy Expedition",
-      "playtime_hours": "35-54 Hours",
-      "community_total": 3,
-      "community_status_counts": {
-        "completed": 1,
-        "abandoned": 1,
-        "no_interest": 1
-      },
-      "release_date": "October 25th, 2016",
-      "developer": "Dimps",
-      "publisher": "Bandai Namco Entertainment",
-      "description": "DRAGON BALL XENOVERSE 2 builds upon the highly popular DRAGON BALL XENOVERSE with enhanced graphics that will further immerse players into the largest and most detailed Dragon Ball world ever developed. DRAGON BALL XENOVERSE 2 will deliver a new hub city and the most character customization choices to date among a multitude of new featur..."
-    },
-    {
       "name": "Dredge",
       "url": "https://gamescriptions.com/game/164867",
       "plans": [
@@ -29476,117 +29008,6 @@
       "description": "Face unpredictable dangers, fight perilous fires with your crew, and save lives in Firefighting Simulator: Ignite. Step into the boots of a U.S. firefighter and play with up to 3 friends or with the help of your NPC controlled crew members."
     },
     {
-      "name": "Firefighting Simulator: The Squad",
-      "url": "https://gamescriptions.com/game/228376",
-      "plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "plan_added_dates": {},
-      "leaving_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
-      },
-      "new_plan_order": {},
-      "leaving_plan_order": {
-        "pc": 3,
-        "premium": 3,
-        "ultimate": 3
-      },
-      "genres": [
-        "Simulator",
-        "Strategy"
-      ],
-      "game_modes": [
-        "Single-Player",
-        "Multiplayer",
-        "Co-Op"
-      ],
-      "game_style": [
-        "Action"
-      ],
-      "platforms": [
-        "Xbox Series X|S",
-        "Xbox One",
-        "PC (Microsoft Windows)"
-      ],
-      "essential": false,
-      "pc_game_pass": true,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": true,
-      "year": 2021,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5uzb.jpg",
-      "screenshot_urls": [
-        "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fsckb48.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sckb48.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sckb48.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sckb48.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sckb48.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sckb48.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sckb48.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sckb48.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sckb48.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sckb48.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sckb48.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sckb49.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sckb49.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sckb49.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sckb49.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sckb49.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sckb49.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sckb49.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sckb49.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sckb49.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sckb49.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sckb49.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sckb49.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sckb49.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sckb4a.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sckb4a.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sckb4a.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sckb4a.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sckb4a.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sckb4a.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sckb4a.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sckb4a.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sckb4a.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sckb4a.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sckb4a.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sckb4a.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sckb4a.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sckb4c.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sckb4c.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sckb4c.jpg&w=200&q=75"
-      ],
-      "playtime_category": "A Solid Adventure",
-      "playtime_hours": "10-19 Hours",
-      "community_rating": 4.0,
-      "community_sentiment": "Very Positive",
-      "community_rating_count": 1,
-      "community_total": 6,
-      "community_status_counts": {
-        "abandoned": 2,
-        "no_interest": 2,
-        "queued": 1,
-        "interested": 1
-      },
-      "release_date": "November 17th, 2021",
-      "developer": "astragon Entertainment",
-      "description": "With Firefighting Simulator: The Squad, you can become part of a major US city's firefighting team and experience how it feels to fight fires. Start the siren of your fire truck, grab your hose, and fight realistic fires to save lives. Discover over 40 diverse deployment locations spread across the city inspired by the North American Wes..."
-    },
-    {
       "name": "FixForce",
       "url": "https://gamescriptions.com/game/393101",
       "plans": [
@@ -31512,7 +30933,7 @@
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "essential": "Today"
+        "essential": "Nov 15"
       },
       "leaving_dates": {},
       "new_plan_order": {
@@ -32400,107 +31821,6 @@
       "description": "Pilgor’s baaack! Gather your herd and venture forth into Goat Simulator 3; a totally realistic, sandbox farmyard experience. Invite up to three friends in local or online co-op, create carnage together, or compete in mini-games and then not be friends."
     },
     {
-      "name": "GoldenEye 007",
-      "url": "https://gamescriptions.com/game/233877",
-      "plans": [
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [
-        "premium",
-        "ultimate"
-      ],
-      "plan_added_dates": {},
-      "leaving_dates": {
-        "premium": "Today",
-        "ultimate": "Today"
-      },
-      "new_plan_order": {},
-      "leaving_plan_order": {
-        "premium": 4,
-        "ultimate": 4
-      },
-      "genres": [
-        "First-Person",
-        "Shooter"
-      ],
-      "game_modes": [
-        "Single-Player",
-        "Multiplayer",
-        "Split-Screen"
-      ],
-      "game_style": [
-        "Action"
-      ],
-      "platforms": [
-        "Xbox Series X|S",
-        "Xbox One"
-      ],
-      "essential": false,
-      "pc_game_pass": false,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": true,
-      "year": 2023,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa0y0.jpg",
-      "screenshot_urls": [
-        "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fscksp1.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scksp1.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scksp1.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scksp1.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scksp1.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scksp1.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scksp1.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scksp1.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scksp1.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scksp1.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scksp1.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scksp3.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scksp3.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scksp3.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scksp3.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scksp3.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scksp3.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scksp3.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scksp3.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scksp3.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scksp3.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scksp3.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scksp3.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scksp3.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scksp6.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scksp6.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scksp6.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scksp6.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scksp6.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scksp6.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scksp6.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scksp6.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scksp6.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scksp6.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scksp6.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scksp6.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scksp6.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scksp8.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scksp8.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scksp8.jpg&w=200&q=75"
-      ],
-      "playtime_category": "A Solid Adventure",
-      "playtime_hours": "10-19 Hours",
-      "community_total": 1,
-      "community_status_counts": {
-        "interested": 1
-      },
-      "release_date": "January 26th, 2023",
-      "developer": "Rare",
-      "publisher": "Xbox Game Studios",
-      "description": "James Bond returns! Relive the timeless gameplay that defined a gaming generation as you guide 007 through a global adventure. Use stealth and force as you see fit to complete your objectives, enjoying achievements and upgraded features that bring Bond to a new age."
-    },
-    {
       "name": "Grabbed by the Ghoulies",
       "url": "https://gamescriptions.com/game/5849",
       "plans": [
@@ -32696,114 +32016,6 @@
       ],
       "release_date": "November 2nd, 2026",
       "description": "Gravhounds is a 1–4 player co-op action builder. Drop into hostile planets as a pack, build and defend your base in physics-driven mayhem, and extract with everything you can carry before you become alien chow. The longer you stay, the greater the danger..."
-    },
-    {
-      "name": "Great God Grove",
-      "url": "https://gamescriptions.com/game/247082",
-      "plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "plan_added_dates": {},
-      "leaving_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
-      },
-      "new_plan_order": {},
-      "leaving_plan_order": {
-        "pc": 4,
-        "premium": 5,
-        "ultimate": 5
-      },
-      "genres": [
-        "First-Person",
-        "Isometric",
-        "Puzzle",
-        "Adventure",
-        "Indie"
-      ],
-      "game_modes": [
-        "Single-Player"
-      ],
-      "game_style": [
-        "Fantasy",
-        "Comedy",
-        "Mystery"
-      ],
-      "platforms": [
-        "Xbox Series X|S",
-        "PC (Microsoft Windows)"
-      ],
-      "essential": false,
-      "pc_game_pass": true,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": true,
-      "year": 2024,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8100.jpg",
-      "screenshot_urls": [
-        "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fscrnt8.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scrnt8.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scrnt8.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scrnt8.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scrnt8.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scrnt8.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scrnt8.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scrnt8.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scrnt8.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scrnt8.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scrnt8.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scrnt9.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scrnt9.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scrnt9.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scrnt9.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scrnt9.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scrnt9.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scrnt9.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scrnt9.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scrnt9.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scrnt9.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scrnt9.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scrnt9.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scrnt9.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scrnta.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scrnta.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scrnta.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scrnta.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scrnta.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scrnta.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scrnta.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scrnta.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scrnta.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scrnta.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scrnta.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scrnta.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scrnta.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scrntb.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scrntb.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scrntb.jpg&w=200&q=75"
-      ],
-      "playtime_category": "Short & Sweet",
-      "playtime_hours": "4-9 Hours",
-      "community_total": 2,
-      "community_status_counts": {
-        "interested": 1,
-        "no_interest": 1
-      },
-      "release_date": "November 15th, 2024",
-      "developer": "LimboLane",
-      "description": "Way up high on a mountaintop sits the Grove, a realm peacefully inhabited by charismatic deities and their devoted human worshippers. That was, until the pantheon's King began spreading insults and disinformation. Now the gods and their followers have devolved into bickering and fighting!"
     },
     {
       "name": "Grid Legends",
@@ -33921,7 +33133,7 @@
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "essential": "Today"
+        "essential": "Nov 15"
       },
       "leaving_dates": {},
       "new_plan_order": {
@@ -43107,120 +42319,6 @@
       "description": "Beware, monsters are coming! In this Tower-Survivor rogue-lite, you protect an ever-moving city from unrelenting hordes. Gather resources, fortify defenses, and boost potential through enhanced player progression."
     },
     {
-      "name": "Moonlighter",
-      "url": "https://gamescriptions.com/game/27771",
-      "plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "plan_added_dates": {},
-      "leaving_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
-      },
-      "new_plan_order": {},
-      "leaving_plan_order": {
-        "pc": 5,
-        "premium": 6,
-        "ultimate": 6
-      },
-      "genres": [
-        "Isometric",
-        "Role-Playing",
-        "Simulator",
-        "Hack and Slash",
-        "Adventure",
-        "Indie"
-      ],
-      "game_modes": [
-        "Single-Player"
-      ],
-      "game_style": [
-        "Action",
-        "Fantasy",
-        "Business"
-      ],
-      "platforms": [
-        "Xbox One",
-        "PC (Microsoft Windows)"
-      ],
-      "essential": false,
-      "pc_game_pass": true,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": true,
-      "year": 2018,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vck.jpg",
-      "screenshot_urls": [
-        "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Ffndm0xboobfqunevr9kk.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/fndm0xboobfqunevr9kk.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/fndm0xboobfqunevr9kk.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/fndm0xboobfqunevr9kk.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/fndm0xboobfqunevr9kk.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/fndm0xboobfqunevr9kk.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/fndm0xboobfqunevr9kk.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/fndm0xboobfqunevr9kk.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/fndm0xboobfqunevr9kk.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/fndm0xboobfqunevr9kk.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/fndm0xboobfqunevr9kk.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/xf4vvrwsmdx1gfnmwxj3.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/xf4vvrwsmdx1gfnmwxj3.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/xf4vvrwsmdx1gfnmwxj3.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/xf4vvrwsmdx1gfnmwxj3.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/xf4vvrwsmdx1gfnmwxj3.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/xf4vvrwsmdx1gfnmwxj3.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/xf4vvrwsmdx1gfnmwxj3.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/xf4vvrwsmdx1gfnmwxj3.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/xf4vvrwsmdx1gfnmwxj3.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/xf4vvrwsmdx1gfnmwxj3.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/xf4vvrwsmdx1gfnmwxj3.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/xf4vvrwsmdx1gfnmwxj3.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/xf4vvrwsmdx1gfnmwxj3.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/jkjcsj5itjezannw92to.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/jkjcsj5itjezannw92to.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/jkjcsj5itjezannw92to.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/jkjcsj5itjezannw92to.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/jkjcsj5itjezannw92to.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/jkjcsj5itjezannw92to.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/jkjcsj5itjezannw92to.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/jkjcsj5itjezannw92to.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/jkjcsj5itjezannw92to.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/jkjcsj5itjezannw92to.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/jkjcsj5itjezannw92to.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/jkjcsj5itjezannw92to.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/jkjcsj5itjezannw92to.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/c4oqtpe5c7oqr2zspn8e.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/c4oqtpe5c7oqr2zspn8e.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/c4oqtpe5c7oqr2zspn8e.jpg&w=200&q=75"
-      ],
-      "playtime_category": "A Solid Adventure",
-      "playtime_hours": "10-19 Hours",
-      "community_total": 11,
-      "community_status_counts": {
-        "queued": 3,
-        "abandoned": 3,
-        "interested": 2,
-        "playing": 1,
-        "completed": 1,
-        "no_interest": 1
-      },
-      "release_date": "May 29th, 2018",
-      "developer": "Digital Sun Games",
-      "publisher": "Netflix",
-      "description": "Moonlighter is an Action RPG with rogue-lite elements that demonstrates two sides of the coin – revealing everyday routines of Will, an adventurous shopkeeper that secretly dreams of becoming a hero."
-    },
-    {
       "name": "Moonlighter 2: The Endless Vault",
       "url": "https://gamescriptions.com/game/324570",
       "plans": [
@@ -45998,7 +45096,7 @@
       },
       "new_plan_order": {},
       "leaving_plan_order": {
-        "pc": 12
+        "pc": 0
       },
       "genres": [
         "First-Person",
@@ -47443,7 +46541,7 @@
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "essential": "Today"
+        "essential": "Nov 15"
       },
       "leaving_dates": {},
       "new_plan_order": {
@@ -47828,115 +46926,6 @@
       "release_date": "December 3rd, 2019",
       "developer": "Snapshot Games",
       "description": "Phoenix Point is the new strategy game from the creator of the original X-COM series. It features turn based tactics and world based strategy in a fight against a terrifying, alien menace."
-    },
-    {
-      "name": "Pigeon Simulator",
-      "url": "https://gamescriptions.com/game/120304",
-      "plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "plan_added_dates": {},
-      "leaving_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
-      },
-      "new_plan_order": {},
-      "leaving_plan_order": {
-        "pc": 6,
-        "premium": 7,
-        "ultimate": 7
-      },
-      "genres": [
-        "Third-Person",
-        "Role-Playing",
-        "Simulator",
-        "Adventure"
-      ],
-      "game_modes": [
-        "Single-Player",
-        "Multiplayer",
-        "Co-Op"
-      ],
-      "game_style": [
-        "Action",
-        "Comedy"
-      ],
-      "platforms": [
-        "Xbox Series X|S",
-        "PC (Microsoft Windows)"
-      ],
-      "essential": false,
-      "pc_game_pass": true,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": true,
-      "year": 2025,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coatyz.jpg",
-      "screenshot_urls": [
-        "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fscbfmd.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scbfmd.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scbfmd.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scbfmd.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scbfmd.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scbfmd.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scbfmd.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scbfmd.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scbfmd.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scbfmd.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scbfmd.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbfmf.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbfmf.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbfmf.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbfmf.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbfmf.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbfmf.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbfmf.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbfmf.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbfmf.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbfmf.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbfmf.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbfmf.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbfmf.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbfmh.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbfmh.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbfmh.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbfmh.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbfmh.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbfmh.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbfmh.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbfmh.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbfmh.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbfmh.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbfmh.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbfmh.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbfmh.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbfmk.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbfmk.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scbfmk.jpg&w=200&q=75"
-      ],
-      "playtime_category": "Short & Sweet",
-      "playtime_hours": "4-9 Hours",
-      "community_total": 2,
-      "community_status_counts": {
-        "queued": 1,
-        "abandoned": 1
-      },
-      "release_date": "November 11th, 2025",
-      "developer": "HakJak Productions",
-      "publisher": "tinyBuild",
-      "description": "You are a time traveling pigeon sent to stop a nefarious goose from wrecking reality. Poop on everyone. Destroy everything."
     },
     {
       "name": "Pillars of Eternity II: Deadfire",
@@ -49123,116 +48112,6 @@
       "developer": "It’s happening",
       "publisher": "Yogscast Games",
       "description": "Hectic single-player and co-op restaurant management: cook and serve your dishes, upgrade and customise your restaurants, and expand your culinary kingdom with each procedurally-generated location. Work together to cook food, deal with customers, and serve drinks - or do it all yourself!"
-    },
-    {
-      "name": "Police Simulator: Patrol Officers",
-      "url": "https://gamescriptions.com/game/152297",
-      "plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "plan_added_dates": {},
-      "leaving_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
-      },
-      "new_plan_order": {},
-      "leaving_plan_order": {
-        "pc": 7,
-        "premium": 8,
-        "ultimate": 8
-      },
-      "genres": [
-        "Third-Person",
-        "Simulator"
-      ],
-      "game_modes": [
-        "Single-Player",
-        "Multiplayer",
-        "Co-Op"
-      ],
-      "game_style": [
-        "Action",
-        "Non-Fiction",
-        "Open World"
-      ],
-      "platforms": [
-        "Xbox Series X|S",
-        "Xbox One",
-        "PC (Microsoft Windows)"
-      ],
-      "essential": false,
-      "pc_game_pass": true,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": true,
-      "year": 2022,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co39t1.jpg",
-      "screenshot_urls": [
-        "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fscahjv.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scahjv.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scahjv.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scahjv.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scahjv.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scahjv.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scahjv.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scahjv.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scahjv.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scahjv.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scahjv.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scahjx.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scahjx.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scahjx.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scahjx.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scahjx.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scahjx.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scahjx.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scahjx.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scahjx.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scahjx.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scahjx.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scahjx.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scahjx.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scahjy.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scahjy.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scahjy.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scahjy.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scahjy.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scahjy.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scahjy.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scahjy.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scahjy.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scahjy.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scahjy.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scahjy.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scahjy.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scahjw.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scahjw.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scahjw.jpg&w=200&q=75"
-      ],
-      "playtime_category": "Hearty Campaign",
-      "playtime_hours": "20-34 Hours",
-      "community_total": 4,
-      "community_status_counts": {
-        "no_interest": 2,
-        "queued": 1,
-        "abandoned": 1
-      },
-      "release_date": "November 10th, 2022",
-      "developer": "Aesir Interactive",
-      "publisher": "Astragon Entertainment",
-      "description": "Welcome to Brighton! Join the police force of this fictitious American city and experience the day to day life of a Police Officer. Start with citing violations and giving out parking tickets, then work your way towards shouldering more responsibilities."
     },
     {
       "name": "Populous",
@@ -51500,120 +50379,6 @@
       "developer": "Arkane Austin",
       "publisher": "Bethesda Softworks",
       "description": "Redfall is an open-world, co-op FPS from Arkane Austin, the award-winning team behind Prey and Dishonored. Continuing Arkane’s legacy of carefully crafted worlds and immersive sims, Redfall brings the studio’s signature gameplay to this story-driven action shooter."
-    },
-    {
-      "name": "Relic Hunters Legend",
-      "url": "https://gamescriptions.com/game/72497",
-      "plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "plan_added_dates": {},
-      "leaving_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
-      },
-      "new_plan_order": {},
-      "leaving_plan_order": {
-        "pc": 8,
-        "premium": 9,
-        "ultimate": 9
-      },
-      "genres": [
-        "Third-Person",
-        "Isometric",
-        "Shooter",
-        "Role-Playing",
-        "Adventure",
-        "Indie"
-      ],
-      "game_modes": [
-        "Single-Player",
-        "Multiplayer",
-        "Co-Op",
-        "MMO"
-      ],
-      "game_style": [
-        "Action",
-        "Fantasy",
-        "Sci-Fi"
-      ],
-      "platforms": [
-        "Xbox Series X|S",
-        "PC (Microsoft Windows)"
-      ],
-      "essential": false,
-      "pc_game_pass": true,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": true,
-      "year": 2025,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co757i.jpg",
-      "screenshot_urls": [
-        "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fxn1yikylm28ffgc2xxd2.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/xn1yikylm28ffgc2xxd2.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/xn1yikylm28ffgc2xxd2.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/xn1yikylm28ffgc2xxd2.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/xn1yikylm28ffgc2xxd2.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/xn1yikylm28ffgc2xxd2.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/xn1yikylm28ffgc2xxd2.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/xn1yikylm28ffgc2xxd2.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/xn1yikylm28ffgc2xxd2.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/xn1yikylm28ffgc2xxd2.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/xn1yikylm28ffgc2xxd2.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scm9bx.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scm9bx.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scm9bx.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scm9bx.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scm9bx.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scm9bx.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scm9bx.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scm9bx.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scm9bx.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scm9bx.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scm9bx.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scm9bx.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scm9bx.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scm9by.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scm9by.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scm9by.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scm9by.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scm9by.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scm9by.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scm9by.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scm9by.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scm9by.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scm9by.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scm9by.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scm9by.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scm9by.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scm9bz.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scm9bz.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scm9bz.jpg&w=200&q=75"
-      ],
-      "playtime_category": "Hearty Campaign",
-      "playtime_hours": "20-34 Hours",
-      "community_total": 3,
-      "community_status_counts": {
-        "queued": 1,
-        "abandoned": 1,
-        "interested": 1
-      },
-      "release_date": "August 14th, 2025",
-      "developer": "Rogue Snail",
-      "publisher": "Gearbox Publishing",
-      "description": "Fast. Fluid. Fun."
     },
     {
       "name": "Relooted",
@@ -65157,116 +63922,6 @@
       "description": "Torment: Tides of Numenera is a game set in the world of Monte Cook's new tabletop RPG setting, Numenera. Torment continues the thematic legacy of Planescape: Torment, the critically acclaimed role-playing game from 1999 that's considered by many to be a hallmark for storytelling in computer RPGs. With Torment, we're creating a rich role-..."
     },
     {
-      "name": "Total Chaos",
-      "url": "https://gamescriptions.com/game/301071",
-      "plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "plan_added_dates": {},
-      "leaving_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
-      },
-      "new_plan_order": {},
-      "leaving_plan_order": {
-        "pc": 9,
-        "premium": 10,
-        "ultimate": 10
-      },
-      "genres": [
-        "First-Person",
-        "Adventure",
-        "Indie"
-      ],
-      "game_modes": [
-        "Single-Player"
-      ],
-      "game_style": [
-        "Action",
-        "Horror"
-      ],
-      "platforms": [
-        "Xbox Series X|S",
-        "PC (Microsoft Windows)"
-      ],
-      "essential": false,
-      "pc_game_pass": true,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": true,
-      "year": 2025,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coave3.jpg",
-      "screenshot_urls": [
-        "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fscs6xi.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scs6xi.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scs6xi.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scs6xi.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scs6xi.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scs6xi.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scs6xi.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scs6xi.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scs6xi.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scs6xi.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scs6xi.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scs6xf.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scs6xf.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scs6xf.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scs6xf.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scs6xf.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scs6xf.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scs6xf.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scs6xf.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scs6xf.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scs6xf.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scs6xf.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scs6xf.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scs6xf.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scs6xh.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scs6xh.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scs6xh.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scs6xh.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scs6xh.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scs6xh.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scs6xh.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scs6xh.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scs6xh.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scs6xh.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scs6xh.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scs6xh.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scs6xh.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scs6xm.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scs6xm.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scs6xm.jpg&w=200&q=75"
-      ],
-      "playtime_category": "A Solid Adventure",
-      "playtime_hours": "10-19 Hours",
-      "community_rating": 4.3,
-      "community_sentiment": "Very Positive",
-      "community_rating_count": 2,
-      "community_total": 4,
-      "community_status_counts": {
-        "completed": 2,
-        "playing": 1,
-        "queued": 1
-      },
-      "release_date": "November 20th, 2025",
-      "developer": "Trigger Happy Interactive",
-      "publisher": "Apogee Entertainment",
-      "description": "Total Chaos is a relentless survival horror experience from Trigger Happy Interactive (creator of Turbo Overkill) and Apogee Entertainment. Washed ashore on Fort Oasis, a long-abandoned mining colony swallowed by decay, players must scavenge for supplies, craft makeshift weapons, and navigate a world where hallucinations warp reality and..."
-    },
-    {
       "name": "Totally Accurate Battle Simulator",
       "url": "https://gamescriptions.com/game/21642",
       "plans": [
@@ -67751,7 +66406,7 @@
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "essential": "Today"
+        "essential": "Nov 15"
       },
       "leaving_dates": {},
       "new_plan_order": {
@@ -67835,7 +66490,7 @@
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "essential": "Today"
+        "essential": "Nov 15"
       },
       "leaving_dates": {},
       "new_plan_order": {
@@ -70080,117 +68735,6 @@
       "description": "Winds of Arcana: Ruination is a 2.5D Metroidvania featuring a customizable combat system set in the treacherous and magical world of Lirna. Experience a powerful, lore-rich story as you discover ancient magic, upgrade your abilities, and battle dangerous foes that stand in your way."
     },
     {
-      "name": "Winter Burrow",
-      "url": "https://gamescriptions.com/game/305156",
-      "plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "plan_added_dates": {},
-      "leaving_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
-      },
-      "new_plan_order": {},
-      "leaving_plan_order": {
-        "pc": 10,
-        "premium": 11,
-        "ultimate": 11
-      },
-      "genres": [
-        "Isometric",
-        "Simulator",
-        "Adventure",
-        "Indie"
-      ],
-      "game_modes": [
-        "Single-Player"
-      ],
-      "game_style": [],
-      "platforms": [
-        "Xbox Series X|S",
-        "Xbox One",
-        "PC (Microsoft Windows)"
-      ],
-      "essential": false,
-      "pc_game_pass": true,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": true,
-      "year": 2025,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coajvc.jpg",
-      "screenshot_urls": [
-        "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fscsodx.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scsodx.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scsodx.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scsodx.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scsodx.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scsodx.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scsodx.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scsodx.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scsodx.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scsodx.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scsodx.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsoe0.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsoe0.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsoe0.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsoe0.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsoe0.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsoe0.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsoe0.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsoe0.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsoe0.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsoe0.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsoe0.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsoe0.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsoe0.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsodu.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsodu.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsodu.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsodu.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsodu.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsodu.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsodu.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsodu.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsodu.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsodu.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsodu.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsodu.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsodu.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsoed.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsoed.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsoed.jpg&w=200&q=75"
-      ],
-      "playtime_category": "A Solid Adventure",
-      "playtime_hours": "10-19 Hours",
-      "community_rating": 4.5,
-      "community_sentiment": "Very Positive",
-      "community_rating_count": 1,
-      "community_total": 6,
-      "community_status_counts": {
-        "queued": 2,
-        "completed": 1,
-        "abandoned": 1,
-        "interested": 1,
-        "no_interest": 1
-      },
-      "release_date": "November 12th, 2025",
-      "developer": "Pine Creek Games",
-      "publisher": "Noodlecake Studios",
-      "description": "Winter Burrow is a cozy woodland survival game about a mouse returning home to restore their childhood burrow. Explore, gather resources, craft, knit warm sweaters, bake pies and meet the locals."
-    },
-    {
       "name": "Wo Long: Fallen Dynasty",
       "url": "https://gamescriptions.com/game/204628",
       "plans": [
@@ -71007,125 +69551,6 @@
       "description": "World War Z: Aftermath is the ultimate co-op zombie shooter based on Paramount Pictures’ blockbuster film, and the next evolution of the original hit World War Z that has now captivated over 15 million players. Turn the tide of the zombie apocalypse across consoles and PC with full cross-play. Join up to three friends or play on your own..."
     },
     {
-      "name": "Wreckfest",
-      "url": "https://gamescriptions.com/game/3772",
-      "plans": [
-        "essential",
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "new_plans": [],
-      "leaving_plans": [
-        "essential",
-        "pc",
-        "premium",
-        "ultimate"
-      ],
-      "plan_added_dates": {},
-      "leaving_dates": {
-        "essential": "Today",
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
-      },
-      "new_plan_order": {},
-      "leaving_plan_order": {
-        "essential": 0,
-        "pc": 11,
-        "premium": 12,
-        "ultimate": 12
-      },
-      "genres": [
-        "First-Person",
-        "Third-Person",
-        "Isometric",
-        "Side-View",
-        "Racing",
-        "Sport",
-        "Indie"
-      ],
-      "game_modes": [
-        "Single-Player",
-        "Multiplayer"
-      ],
-      "game_style": [
-        "Action"
-      ],
-      "platforms": [
-        "Xbox One",
-        "PC (Microsoft Windows)"
-      ],
-      "essential": true,
-      "pc_game_pass": true,
-      "premium": true,
-      "ultimate": true,
-      "ea_play": false,
-      "ubisoft_classics": false,
-      "new": false,
-      "leaving": true,
-      "year": 2018,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3vof.jpg",
-      "screenshot_urls": [
-        "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fq5xmsce8ddc5c2fromgb.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/q5xmsce8ddc5c2fromgb.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/q5xmsce8ddc5c2fromgb.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/q5xmsce8ddc5c2fromgb.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/q5xmsce8ddc5c2fromgb.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/q5xmsce8ddc5c2fromgb.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/q5xmsce8ddc5c2fromgb.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/q5xmsce8ddc5c2fromgb.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/q5xmsce8ddc5c2fromgb.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/q5xmsce8ddc5c2fromgb.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/q5xmsce8ddc5c2fromgb.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/bajcswuzrxynvgw3wpcz.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/bajcswuzrxynvgw3wpcz.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/bajcswuzrxynvgw3wpcz.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/bajcswuzrxynvgw3wpcz.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/bajcswuzrxynvgw3wpcz.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/bajcswuzrxynvgw3wpcz.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/bajcswuzrxynvgw3wpcz.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/bajcswuzrxynvgw3wpcz.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/bajcswuzrxynvgw3wpcz.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/bajcswuzrxynvgw3wpcz.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/bajcswuzrxynvgw3wpcz.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/bajcswuzrxynvgw3wpcz.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/bajcswuzrxynvgw3wpcz.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/hisl1yzkpxjdgtgcyncy.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/hisl1yzkpxjdgtgcyncy.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/hisl1yzkpxjdgtgcyncy.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/hisl1yzkpxjdgtgcyncy.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/hisl1yzkpxjdgtgcyncy.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/hisl1yzkpxjdgtgcyncy.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/hisl1yzkpxjdgtgcyncy.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/hisl1yzkpxjdgtgcyncy.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/hisl1yzkpxjdgtgcyncy.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/hisl1yzkpxjdgtgcyncy.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/hisl1yzkpxjdgtgcyncy.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/hisl1yzkpxjdgtgcyncy.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/hisl1yzkpxjdgtgcyncy.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/lvjfihjjvtzqscjdlfq4.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/lvjfihjjvtzqscjdlfq4.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/lvjfihjjvtzqscjdlfq4.jpg&w=200&q=75"
-      ],
-      "playtime_category": "Hearty Campaign",
-      "playtime_hours": "20-34 Hours",
-      "community_rating": 4.5,
-      "community_sentiment": "Very Positive",
-      "community_rating_count": 1,
-      "community_total": 5,
-      "community_status_counts": {
-        "completed": 2,
-        "queued": 1,
-        "abandoned": 1,
-        "no_interest": 1
-      },
-      "release_date": "June 14th, 2018",
-      "developer": "Bugbear Entertainment",
-      "publisher": "THQ Nordic",
-      "description": "Wreckfest is a racing and vehicular combat game centered on demolition derbies and banger racing, with a focus on realistic physics and location-based vehicle damage that changes how cars handle as they take hits. Before an event, players pick a car, adjust assists such as transmission type and braking aids, and can buy, customise, and up..."
-    },
-    {
       "name": "Wuchang: Fallen Feathers",
       "url": "https://gamescriptions.com/game/171225",
       "plans": [
@@ -71776,7 +70201,7 @@
   ],
   "addition_date_coverage": {
     "filled_plan_dates": 0,
-    "unmatched_games": 658,
+    "unmatched_games": 645,
     "history_records": 0
   }
 }

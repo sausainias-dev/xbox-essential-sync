@@ -1,9 +1,9 @@
 {
   "source": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
-  "updated_at": "2026-11-15T22:27:51.208044+00:00",
+  "updated_at": "2026-11-16T03:47:10.668369+00:00",
   "coverage": {
     "filled_plan_dates": 0,
-    "unmatched_games": 658,
+    "unmatched_games": 645,
     "history_records": 0
   },
   "games": {
@@ -25,7 +25,7 @@
     },
     "https://gamescriptions.com/game/201644": {
       "plan_added_dates": {
-        "essential": "Today"
+        "essential": "Nov 15"
       },
       "plan_added_date_sources": {},
       "plan_added_date_precision": {},
@@ -33,7 +33,7 @@
     },
     "https://gamescriptions.com/game/3008": {
       "plan_added_dates": {
-        "essential": "Today"
+        "essential": "Nov 15"
       },
       "plan_added_date_sources": {},
       "plan_added_date_precision": {},
@@ -41,7 +41,7 @@
     },
     "https://gamescriptions.com/game/201645": {
       "plan_added_dates": {
-        "essential": "Today"
+        "essential": "Nov 15"
       },
       "plan_added_date_sources": {},
       "plan_added_date_precision": {},
@@ -216,7 +216,7 @@
     },
     "https://gamescriptions.com/game/1319": {
       "plan_added_dates": {
-        "essential": "Today"
+        "essential": "Nov 15"
       },
       "plan_added_date_sources": {},
       "plan_added_date_precision": {},
@@ -243,7 +243,7 @@
     },
     "https://gamescriptions.com/game/4839": {
       "plan_added_dates": {
-        "essential": "Today"
+        "essential": "Nov 15"
       },
       "plan_added_date_sources": {},
       "plan_added_date_precision": {},
@@ -384,7 +384,7 @@
     },
     "https://gamescriptions.com/game/1466": {
       "plan_added_dates": {
-        "essential": "Today"
+        "essential": "Nov 15"
       },
       "plan_added_date_sources": {},
       "plan_added_date_precision": {},
@@ -579,7 +579,7 @@
     },
     "https://gamescriptions.com/game/7236": {
       "plan_added_dates": {
-        "essential": "Today"
+        "essential": "Nov 15"
       },
       "plan_added_date_sources": {},
       "plan_added_date_precision": {},
@@ -587,7 +587,7 @@
     },
     "https://gamescriptions.com/game/7238": {
       "plan_added_dates": {
-        "essential": "Today"
+        "essential": "Nov 15"
       },
       "plan_added_date_sources": {},
       "plan_added_date_precision": {},
