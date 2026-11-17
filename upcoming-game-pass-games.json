@@ -1,79 +1,8 @@
 {
   "source": "Subli.one Xbox Game Pass Ultimate",
-  "updated_at": "2026-11-16T22:15:57.267839+00:00",
-  "count": 63,
+  "updated_at": "2026-11-17T08:04:11.151301+00:00",
+  "count": 62,
   "games": [
-    {
-      "name": "Paw Patrol: Dino World",
-      "year": 2026,
-      "availability_date": "Tomorrow",
-      "availability_date_type": "arrives",
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobxhw.jpg",
-      "screenshot_urls": [
-        "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fsc12ydk.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12ydk.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12ydk.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12ydk.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12ydk.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12ydk.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12ydk.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12ydk.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12ydk.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12ydk.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12ydk.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydl.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydl.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydl.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydl.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydl.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydl.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydl.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydl.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydl.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydl.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydl.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydl.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydl.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydm.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydm.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydm.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydm.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydm.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydm.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydm.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydm.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydm.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydm.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydm.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydm.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydm.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydn.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydn.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydn.jpg&w=200&q=75"
-      ],
-      "release_date": "July 31st, 2026",
-      "developer": "3DClouds",
-      "publisher": "Outright Games",
-      "description": "Join the PAW Patrol and Rex on colossal missions across Dino Island. Create roar-some looks, play minigames with friends and more.",
-      "genres": [
-        "Third-Person",
-        "Adventure"
-      ],
-      "game_modes": [
-        "Single-Player",
-        "Multiplayer",
-        "Co-Op",
-        "Split-Screen"
-      ],
-      "game_style": [
-        "Action",
-        "Open World"
-      ],
-      "platforms": [
-        "Xbox Series X|S",
-        "PC (Microsoft Windows)"
-      ]
-    },
     {
       "name": "Hela: Of Mice & Magic",
       "year": 2026,
@@ -147,7 +76,7 @@
       "year": 2026,
       "availability_date": "Dec 3",
       "availability_date_type": "arrives",
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coab6k.jpg",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/codday.jpg",
       "screenshot_urls": [
         "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fsc12lwm.jpg&w=3840&q=75",
         "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12lwm.jpg&w=380&q=75",
@@ -1606,7 +1535,8 @@
         "Split-Screen"
       ],
       "game_style": [
-        "Action"
+        "Action",
+        "Fantasy"
       ],
       "platforms": [
         "Xbox Series X|S",
