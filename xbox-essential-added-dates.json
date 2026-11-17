@@ -1,9 +1,9 @@
 {
   "source": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
-  "updated_at": "2026-11-16T14:20:40.306280+00:00",
+  "updated_at": "2026-11-17T01:21:28.237486+00:00",
   "coverage": {
-    "filled_plan_dates": 1288,
-    "unmatched_games": 199,
+    "filled_plan_dates": 1289,
+    "unmatched_games": 200,
     "history_records": 2715
   },
   "games": {
@@ -520,20 +520,27 @@
     },
     "https://gamescriptions.com/game/348192": {
       "plan_added_dates": {
+        "premium": "Apr 28, 2026",
         "pc": "Apr 28, 2026",
         "ultimate": "Apr 28, 2026"
       },
       "plan_added_date_sources": {
         "pc": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
+        "premium": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
         "ultimate": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/"
       },
       "plan_added_date_precision": {
         "pc": "day",
+        "premium": "day",
         "ultimate": "day"
       },
       "plan_added_date_platforms": {
         "pc": {
           "pc": "Apr 28, 2026"
+        },
+        "premium": {
+          "pc": "Apr 28, 2026",
+          "xbox_series": "Apr 28, 2026"
         },
         "ultimate": {
           "pc": "Apr 28, 2026",
@@ -3506,8 +3513,8 @@
     },
     "https://gamescriptions.com/game/214394": {
       "plan_added_dates": {
-        "premium": "Sep 22, 2026",
         "pc": "Sep 22, 2026",
+        "premium": "Sep 22, 2026",
         "ultimate": "Sep 22, 2026"
       },
       "plan_added_date_sources": {
@@ -7995,8 +8002,8 @@
     },
     "https://gamescriptions.com/game/329130": {
       "plan_added_dates": {
-        "premium": "Oct 21, 2025",
         "pc": "Oct 21, 2025",
+        "premium": "Oct 21, 2025",
         "ultimate": "Oct 21, 2025"
       },
       "plan_added_date_sources": {
@@ -8281,6 +8288,16 @@
           "xbox_one": "Jan 19, 2024"
         }
       }
+    },
+    "https://gamescriptions.com/game/398427": {
+      "plan_added_dates": {
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
+      },
+      "plan_added_date_sources": {},
+      "plan_added_date_precision": {},
+      "plan_added_date_platforms": {}
     },
     "https://gamescriptions.com/game/240432": {
       "plan_added_dates": {
@@ -9685,15 +9702,6 @@
           "pc": "Oct 21, 2026"
         }
       }
-    },
-    "https://gamescriptions.com/game/380980": {
-      "plan_added_dates": {
-        "pc": "Oct 26",
-        "ultimate": "Oct 26"
-      },
-      "plan_added_date_sources": {},
-      "plan_added_date_precision": {},
-      "plan_added_date_platforms": {}
     },
     "https://gamescriptions.com/game/8730": {
       "plan_added_dates": {

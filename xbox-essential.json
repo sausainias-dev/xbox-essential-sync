@@ -8,12 +8,12 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-11-16T14:20:40.306280+00:00",
+  "updated_at": "2026-11-17T01:21:28.237486+00:00",
   "service_counts": {
     "essential": 74,
-    "pc": 566,
-    "premium": 411,
-    "ultimate": 644,
+    "pc": 567,
+    "premium": 413,
+    "ultimate": 645,
     "ea_play": 94,
     "ubisoft_classics": 66
   },
@@ -43,8 +43,8 @@
       "Virtual Reality": 2
     },
     "pc": {
-      "Adventure": 345,
-      "Third-Person": 254,
+      "Adventure": 346,
+      "Third-Person": 255,
       "First-Person": 196,
       "Role-Playing": 177,
       "Indie": 163,
@@ -72,8 +72,8 @@
       "Text": 1
     },
     "premium": {
-      "Adventure": 260,
-      "Third-Person": 183,
+      "Adventure": 262,
+      "Third-Person": 185,
       "First-Person": 145,
       "Role-Playing": 140,
       "Indie": 129,
@@ -102,8 +102,8 @@
       "Visual Novel": 1
     },
     "ultimate": {
-      "Adventure": 378,
-      "Third-Person": 302,
+      "Adventure": 379,
+      "Third-Person": 303,
       "First-Person": 209,
       "Role-Playing": 189,
       "Indie": 168,
@@ -186,20 +186,20 @@
       "name": "Game Pass Ultimate",
       "url": "https://gamescriptions.com/subscription/service/xbox_ultimate",
       "description": "Xbox Game Pass Ultimate includes new games on day one, a library of 500+ games on Xbox console, PC, and supported devices, and the ability to stream games anywhere at our best quality. Check out the latest games on Game Pass Ultimate. What's leaving, upcoming releases, and a full list of titles!",
-      "available_count": 644,
+      "available_count": 645,
       "genre_counts": {
-        "Adventure": 431,
-        "Indie": 199,
-        "Shooter": 174,
-        "Simulator": 174,
-        "Strategy": 142,
+        "Adventure": 422,
+        "Indie": 192,
+        "Shooter": 172,
+        "Simulator": 168,
+        "Strategy": 141,
         "Platform": 82,
-        "Puzzle": 78,
+        "Puzzle": 77,
         "Arcade": 57,
-        "Sport": 53,
-        "Racing": 48,
+        "Sport": 52,
+        "Racing": 46,
         "Tactical": 31,
-        "Fighting": 28,
+        "Fighting": 27,
         "Card & Board Game": 21,
         "Music": 8,
         "Visual Novel": 6,
@@ -207,6 +207,13 @@
         "MOBA": 2
       },
       "new_releases": [
+        {
+          "name": "Paw Patrol: Dino World",
+          "url": "https://gamescriptions.com/game/398427",
+          "year": 2026,
+          "date_label": "Today",
+          "date_type": "added"
+        },
         {
           "name": "Grabbed by the Ghoulies",
           "url": "https://gamescriptions.com/game/5849",
@@ -325,23 +332,10 @@
           "year": 2025,
           "date_label": "Oct 27",
           "date_type": "added"
-        },
-        {
-          "name": "Scramble Knights Online",
-          "url": "https://gamescriptions.com/game/380980",
-          "year": 2026,
-          "date_label": "Oct 26",
-          "date_type": "added"
         }
       ],
       "leaving_soon": [],
       "coming_soon": [
-        {
-          "name": "Paw Patrol: Dino World",
-          "year": 2026,
-          "date_label": "Tomorrow",
-          "date_type": "arrives"
-        },
         {
           "name": "Hela: Of Mice & Magic",
           "year": 2026,
@@ -1886,6 +1880,9 @@
           "name": "Palworld"
         },
         {
+          "name": "Paw Patrol: Dino World"
+        },
+        {
           "name": "Pax Dei"
         },
         {
@@ -2629,77 +2626,6 @@
       ],
       "upcoming_games": [
         {
-          "name": "Paw Patrol: Dino World",
-          "year": 2026,
-          "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobxhw.jpg",
-          "screenshot_urls": [
-            "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fsc12ydk.jpg&w=3840&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12ydk.jpg&w=380&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12ydk.jpg&w=500&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12ydk.jpg&w=640&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12ydk.jpg&w=750&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12ydk.jpg&w=828&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12ydk.jpg&w=1080&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12ydk.jpg&w=1200&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12ydk.jpg&w=1920&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12ydk.jpg&w=2048&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12ydk.jpg&w=3840&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydl.jpg&w=3840&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydl.jpg&w=160&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydl.jpg&w=200&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydl.jpg&w=250&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydl.jpg&w=380&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydl.jpg&w=500&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydl.jpg&w=640&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydl.jpg&w=750&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydl.jpg&w=828&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydl.jpg&w=1080&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydl.jpg&w=1200&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydl.jpg&w=1920&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydl.jpg&w=2048&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydm.jpg&w=3840&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydm.jpg&w=160&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydm.jpg&w=200&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydm.jpg&w=250&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydm.jpg&w=380&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydm.jpg&w=500&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydm.jpg&w=640&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydm.jpg&w=750&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydm.jpg&w=828&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydm.jpg&w=1080&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydm.jpg&w=1200&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydm.jpg&w=1920&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydm.jpg&w=2048&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydn.jpg&w=3840&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydn.jpg&w=160&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydn.jpg&w=200&q=75"
-          ],
-          "release_date": "July 31st, 2026",
-          "developer": "3DClouds",
-          "publisher": "Outright Games",
-          "description": "Join the PAW Patrol and Rex on colossal missions across Dino Island. Create roar-some looks, play minigames with friends and more.",
-          "genres": [
-            "Third-Person",
-            "Adventure"
-          ],
-          "game_modes": [
-            "Single-Player",
-            "Multiplayer",
-            "Co-Op",
-            "Split-Screen"
-          ],
-          "game_style": [
-            "Action",
-            "Open World"
-          ],
-          "platforms": [
-            "Xbox Series X|S",
-            "PC (Microsoft Windows)"
-          ],
-          "availability_date": "Tomorrow",
-          "availability_date_type": "arrives"
-        },
-        {
           "name": "Hela: Of Mice & Magic",
           "year": 2026,
           "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cod34q.jpg",
@@ -2770,7 +2696,7 @@
         {
           "name": "Freestyle Football 2",
           "year": 2026,
-          "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coab6k.jpg",
+          "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/codday.jpg",
           "screenshot_urls": [
             "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fsc12lwm.jpg&w=3840&q=75",
             "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12lwm.jpg&w=380&q=75",
@@ -4229,7 +4155,8 @@
             "Split-Screen"
           ],
           "game_style": [
-            "Action"
+            "Action",
+            "Fantasy"
           ],
           "platforms": [
             "Xbox Series X|S",
@@ -6720,7 +6647,7 @@
       ]
     }
   },
-  "game_count_unique": 644,
+  "game_count_unique": 645,
   "games": [
     {
       "name": "33 Immortals",
@@ -9059,16 +8986,22 @@
       "url": "https://gamescriptions.com/game/348192",
       "plans": [
         "pc",
+        "premium",
         "ultimate"
       ],
-      "new_plans": [],
+      "new_plans": [
+        "premium"
+      ],
       "leaving_plans": [],
       "plan_added_dates": {
+        "premium": "Apr 28, 2026",
         "pc": "Apr 28, 2026",
         "ultimate": "Apr 28, 2026"
       },
       "leaving_dates": {},
-      "new_plan_order": {},
+      "new_plan_order": {
+        "premium": 1
+      },
       "leaving_plan_order": {},
       "genres": [
         "Third-Person",
@@ -9089,11 +9022,11 @@
       ],
       "essential": false,
       "pc_game_pass": true,
-      "premium": false,
+      "premium": true,
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": false,
+      "new": true,
       "leaving": false,
       "year": 2026,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobrkd.jpg",
@@ -9158,6 +9091,10 @@
         "pc": {
           "pc": "Apr 28, 2026"
         },
+        "premium": {
+          "pc": "Apr 28, 2026",
+          "xbox_series": "Apr 28, 2026"
+        },
         "ultimate": {
           "pc": "Apr 28, 2026",
           "xbox_series": "Apr 28, 2026"
@@ -9165,10 +9102,12 @@
       },
       "plan_added_date_sources": {
         "pc": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
+        "premium": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
         "ultimate": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/"
       },
       "plan_added_date_precision": {
         "pc": "day",
+        "premium": "day",
         "ultimate": "day"
       }
     },
@@ -17071,7 +17010,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "premium": 14
+        "premium": 16
       },
       "leaving_plan_order": {},
       "genres": [
@@ -25266,7 +25205,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "premium": 10
+        "premium": 12
       },
       "leaving_plan_order": {},
       "genres": [
@@ -26855,19 +26794,15 @@
         "premium",
         "ultimate"
       ],
-      "new_plans": [
-        "premium"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
       "plan_added_dates": {
-        "premium": "Sep 22, 2026",
         "pc": "Sep 22, 2026",
+        "premium": "Sep 22, 2026",
         "ultimate": "Sep 22, 2026"
       },
       "leaving_dates": {},
-      "new_plan_order": {
-        "premium": 16
-      },
+      "new_plan_order": {},
       "leaving_plan_order": {},
       "genres": [
         "Third-Person",
@@ -26895,7 +26830,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2025,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobf3a.jpg",
@@ -28727,8 +28662,8 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 7,
-        "ultimate": 7
+        "pc": 8,
+        "ultimate": 8
       },
       "leaving_plan_order": {},
       "genres": [
@@ -29480,9 +29415,10 @@
       "community_rating": 3.5,
       "community_sentiment": "Mostly Positive",
       "community_rating_count": 1,
-      "community_total": 6,
+      "community_total": 7,
       "community_status_counts": {
         "interested": 3,
+        "queued": 1,
         "completed": 1,
         "abandoned": 1,
         "no_interest": 1
@@ -32783,9 +32719,9 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 15,
-        "premium": 8,
-        "ultimate": 15
+        "pc": 16,
+        "premium": 10,
+        "ultimate": 16
       },
       "leaving_plan_order": {},
       "genres": [
@@ -32889,9 +32825,9 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 8,
-        "premium": 3,
-        "ultimate": 8
+        "pc": 9,
+        "premium": 5,
+        "ultimate": 9
       },
       "leaving_plan_order": {},
       "genres": [
@@ -33220,8 +33156,8 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 9,
-        "ultimate": 9
+        "pc": 10,
+        "ultimate": 10
       },
       "leaving_plan_order": {},
       "genres": [
@@ -33301,8 +33237,8 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 4,
-        "ultimate": 4
+        "pc": 5,
+        "ultimate": 5
       },
       "leaving_plan_order": {},
       "genres": [
@@ -36391,9 +36327,9 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 0,
-        "premium": 0,
-        "ultimate": 0
+        "pc": 1,
+        "premium": 2,
+        "ultimate": 1
       },
       "leaving_plan_order": {},
       "genres": [
@@ -36491,8 +36427,8 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 11,
-        "ultimate": 11
+        "pc": 12,
+        "ultimate": 12
       },
       "leaving_plan_order": {},
       "genres": [
@@ -40077,8 +40013,8 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 3,
-        "ultimate": 3
+        "pc": 4,
+        "ultimate": 4
       },
       "leaving_plan_order": {},
       "genres": [
@@ -41874,9 +41810,9 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 1,
-        "premium": 1,
-        "ultimate": 1
+        "pc": 2,
+        "premium": 3,
+        "ultimate": 2
       },
       "leaving_plan_order": {},
       "genres": [
@@ -42522,7 +42458,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "premium": 13
+        "premium": 15
       },
       "leaving_plan_order": {},
       "genres": [
@@ -44901,7 +44837,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "premium": 15
+        "premium": 17
       },
       "leaving_plan_order": {},
       "genres": [
@@ -49302,9 +49238,9 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 14,
-        "premium": 7,
-        "ultimate": 14
+        "pc": 15,
+        "premium": 9,
+        "ultimate": 15
       },
       "leaving_plan_order": {},
       "genres": [
@@ -50649,7 +50585,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "premium": 12
+        "premium": 14
       },
       "leaving_plan_order": {},
       "genres": [
@@ -51621,19 +51557,15 @@
         "premium",
         "ultimate"
       ],
-      "new_plans": [
-        "premium"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
       "plan_added_dates": {
-        "premium": "Oct 21, 2025",
         "pc": "Oct 21, 2025",
+        "premium": "Oct 21, 2025",
         "ultimate": "Oct 21, 2025"
       },
       "leaving_dates": {},
-      "new_plan_order": {
-        "premium": 17
-      },
+      "new_plan_order": {},
       "leaving_plan_order": {},
       "genres": [
         "Third-Person",
@@ -51656,7 +51588,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2025,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9b3p.jpg",
@@ -53089,6 +53021,107 @@
       }
     },
     {
+      "name": "Paw Patrol: Dino World",
+      "url": "https://gamescriptions.com/game/398427",
+      "plans": [
+        "pc",
+        "premium",
+        "ultimate"
+      ],
+      "new_plans": [
+        "pc",
+        "premium",
+        "ultimate"
+      ],
+      "leaving_plans": [],
+      "plan_added_dates": {
+        "pc": "Today",
+        "premium": "Today",
+        "ultimate": "Today"
+      },
+      "leaving_dates": {},
+      "new_plan_order": {
+        "pc": 0,
+        "premium": 0,
+        "ultimate": 0
+      },
+      "leaving_plan_order": {},
+      "genres": [
+        "Third-Person",
+        "Adventure"
+      ],
+      "game_modes": [
+        "Single-Player",
+        "Multiplayer",
+        "Co-Op",
+        "Split-Screen"
+      ],
+      "game_style": [
+        "Action",
+        "Open World"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ],
+      "essential": false,
+      "pc_game_pass": true,
+      "premium": true,
+      "ultimate": true,
+      "ea_play": false,
+      "ubisoft_classics": false,
+      "new": true,
+      "leaving": false,
+      "year": 2026,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobxhw.jpg",
+      "screenshot_urls": [
+        "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fsc12ydk.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12ydk.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12ydk.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12ydk.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12ydk.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12ydk.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12ydk.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12ydk.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12ydk.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12ydk.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc12ydk.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydl.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydl.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydl.jpg&w=200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydl.jpg&w=250&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydl.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydl.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydl.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydl.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydl.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydl.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydl.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydl.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydl.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydm.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydm.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydm.jpg&w=200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydm.jpg&w=250&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydm.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydm.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydm.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydm.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydm.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydm.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydm.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydm.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydm.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydn.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydn.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12ydn.jpg&w=200&q=75"
+      ],
+      "release_date": "July 31st, 2026",
+      "developer": "3DClouds",
+      "publisher": "Outright Games",
+      "description": "Join the PAW Patrol and Rex on colossal missions across Dino Island. Create roar-some looks, play minigames with friends and more."
+    },
+    {
       "name": "Pax Dei",
       "url": "https://gamescriptions.com/game/240432",
       "plans": [
@@ -54415,9 +54448,9 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 10,
-        "premium": 6,
-        "ultimate": 10
+        "pc": 11,
+        "premium": 8,
+        "ultimate": 11
       },
       "leaving_plan_order": {},
       "genres": [
@@ -55326,8 +55359,8 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 13,
-        "ultimate": 13,
+        "pc": 14,
+        "ultimate": 14,
         "ea_play": 0
       },
       "leaving_plan_order": {},
@@ -60870,7 +60903,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "premium": 11
+        "premium": 13
       },
       "leaving_plan_order": {},
       "genres": [
@@ -60979,20 +61012,11 @@
         "pc",
         "ultimate"
       ],
-      "new_plans": [
-        "pc",
-        "ultimate"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
-      "plan_added_dates": {
-        "pc": "Oct 26",
-        "ultimate": "Oct 26"
-      },
+      "plan_added_dates": {},
       "leaving_dates": {},
-      "new_plan_order": {
-        "pc": 17,
-        "ultimate": 17
-      },
+      "new_plan_order": {},
       "leaving_plan_order": {},
       "genres": [
         "Isometric",
@@ -61019,7 +61043,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2026,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocjj4.jpg",
@@ -67520,8 +67544,8 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 5,
-        "ultimate": 5
+        "pc": 6,
+        "ultimate": 6
       },
       "leaving_plan_order": {},
       "genres": [
@@ -68403,8 +68427,8 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 12,
-        "ultimate": 12
+        "pc": 13,
+        "ultimate": 13
       },
       "leaving_plan_order": {},
       "genres": [
@@ -71706,9 +71730,9 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 16,
-        "premium": 9,
-        "ultimate": 16
+        "pc": 17,
+        "premium": 11,
+        "ultimate": 17
       },
       "leaving_plan_order": {},
       "genres": [
@@ -72738,9 +72762,9 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 2,
-        "premium": 2,
-        "ultimate": 2
+        "pc": 3,
+        "premium": 4,
+        "ultimate": 3
       },
       "leaving_plan_order": {},
       "genres": [
@@ -76321,7 +76345,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "premium": 5
+        "premium": 7
       },
       "leaving_plan_order": {},
       "genres": [
@@ -77150,7 +77174,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "premium": 4
+        "premium": 6
       },
       "leaving_plan_order": {},
       "genres": [
@@ -78083,8 +78107,8 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "pc": 6,
-        "ultimate": 6
+        "pc": 7,
+        "ultimate": 7
       },
       "leaving_plan_order": {},
       "genres": [
@@ -81498,8 +81522,8 @@
     }
   ],
   "addition_date_coverage": {
-    "filled_plan_dates": 1288,
-    "unmatched_games": 199,
+    "filled_plan_dates": 1289,
+    "unmatched_games": 200,
     "history_records": 2715
   }
 }
