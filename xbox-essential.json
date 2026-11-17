@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-11-17T01:21:28.237486+00:00",
+  "updated_at": "2026-11-17T15:12:48.757381+00:00",
   "service_counts": {
     "essential": 74,
     "pc": 567,
@@ -334,7 +334,50 @@
           "date_type": "added"
         }
       ],
-      "leaving_soon": [],
+      "leaving_soon": [
+        {
+          "name": "Aliens: Dark Descent",
+          "url": "https://gamescriptions.com/game/204354",
+          "year": 2023,
+          "date_label": "Nov 30",
+          "date_type": "leaves"
+        },
+        {
+          "name": "Banishers: Ghosts of New Eden",
+          "url": "https://gamescriptions.com/game/228539",
+          "year": 2024,
+          "date_label": "Nov 30",
+          "date_type": "leaves"
+        },
+        {
+          "name": "Gabby's Dollhouse: Ready to Party",
+          "url": "https://gamescriptions.com/game/355923",
+          "year": 2025,
+          "date_label": "Nov 30",
+          "date_type": "leaves"
+        },
+        {
+          "name": "Kill it with Fire 2",
+          "url": "https://gamescriptions.com/game/252847",
+          "year": 2025,
+          "date_label": "Nov 30",
+          "date_type": "leaves"
+        },
+        {
+          "name": "Star Trucker",
+          "url": "https://gamescriptions.com/game/252787",
+          "year": 2024,
+          "date_label": "Nov 30",
+          "date_type": "leaves"
+        },
+        {
+          "name": "Totally Reliable Delivery Service",
+          "url": "https://gamescriptions.com/game/114058",
+          "year": 2020,
+          "date_label": "Nov 30",
+          "date_type": "leaves"
+        }
+      ],
       "coming_soon": [
         {
           "name": "Hela: Of Mice & Magic",
@@ -8377,15 +8420,27 @@
         "ultimate"
       ],
       "new_plans": [],
-      "leaving_plans": [],
+      "leaving_plans": [
+        "pc",
+        "premium",
+        "ultimate"
+      ],
       "plan_added_dates": {
         "pc": "Nov 27, 2024",
         "premium": "Nov 27, 2024",
         "ultimate": "Nov 27, 2024"
       },
-      "leaving_dates": {},
+      "leaving_dates": {
+        "pc": "Nov 30",
+        "premium": "Nov 30",
+        "ultimate": "Nov 30"
+      },
       "new_plan_order": {},
-      "leaving_plan_order": {},
+      "leaving_plan_order": {
+        "pc": 0,
+        "premium": 0,
+        "ultimate": 0
+      },
       "genres": [
         "Isometric",
         "Strategy",
@@ -8410,7 +8465,7 @@
       "ea_play": false,
       "ubisoft_classics": false,
       "new": false,
-      "leaving": false,
+      "leaving": true,
       "year": 2023,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6liu.jpg",
       "screenshot_urls": [
@@ -12656,15 +12711,27 @@
         "ultimate"
       ],
       "new_plans": [],
-      "leaving_plans": [],
+      "leaving_plans": [
+        "pc",
+        "premium",
+        "ultimate"
+      ],
       "plan_added_dates": {
         "pc": "Nov 25, 2025",
         "premium": "Nov 25, 2025",
         "ultimate": "Nov 25, 2025"
       },
-      "leaving_dates": {},
+      "leaving_dates": {
+        "pc": "Nov 30",
+        "premium": "Nov 30",
+        "ultimate": "Nov 30"
+      },
       "new_plan_order": {},
-      "leaving_plan_order": {},
+      "leaving_plan_order": {
+        "pc": 1,
+        "premium": 1,
+        "ultimate": 1
+      },
       "genres": [
         "Third-Person",
         "Role-Playing",
@@ -12688,7 +12755,7 @@
       "ea_play": false,
       "ubisoft_classics": false,
       "new": false,
-      "leaving": false,
+      "leaving": true,
       "year": 2024,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6lmo.jpg",
       "screenshot_urls": [
@@ -34239,11 +34306,23 @@
         "ultimate"
       ],
       "new_plans": [],
-      "leaving_plans": [],
+      "leaving_plans": [
+        "pc",
+        "premium",
+        "ultimate"
+      ],
       "plan_added_dates": {},
-      "leaving_dates": {},
+      "leaving_dates": {
+        "pc": "Nov 30",
+        "premium": "Nov 30",
+        "ultimate": "Nov 30"
+      },
       "new_plan_order": {},
-      "leaving_plan_order": {},
+      "leaving_plan_order": {
+        "pc": 2,
+        "premium": 2,
+        "ultimate": 2
+      },
       "genres": [
         "Platform",
         "Adventure"
@@ -34269,7 +34348,7 @@
       "ea_play": false,
       "ubisoft_classics": false,
       "new": false,
-      "leaving": false,
+      "leaving": true,
       "year": 2025,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc0b0.jpg",
       "screenshot_urls": [
@@ -42690,15 +42769,27 @@
         "ultimate"
       ],
       "new_plans": [],
-      "leaving_plans": [],
+      "leaving_plans": [
+        "pc",
+        "premium",
+        "ultimate"
+      ],
       "plan_added_dates": {
         "pc": "Nov 25, 2025",
         "premium": "Nov 25, 2025",
         "ultimate": "Nov 25, 2025"
       },
-      "leaving_dates": {},
+      "leaving_dates": {
+        "pc": "Nov 30",
+        "premium": "Nov 30",
+        "ultimate": "Nov 30"
+      },
       "new_plan_order": {},
-      "leaving_plan_order": {},
+      "leaving_plan_order": {
+        "pc": 3,
+        "premium": 3,
+        "ultimate": 3
+      },
       "genres": [
         "First-Person",
         "Shooter",
@@ -42727,7 +42818,7 @@
       "ea_play": false,
       "ubisoft_classics": false,
       "new": false,
-      "leaving": false,
+      "leaving": true,
       "year": 2025,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6m17.jpg",
       "screenshot_urls": [
@@ -64169,15 +64260,27 @@
         "ultimate"
       ],
       "new_plans": [],
-      "leaving_plans": [],
+      "leaving_plans": [
+        "pc",
+        "premium",
+        "ultimate"
+      ],
       "plan_added_dates": {
         "pc": "Sep 03, 2024",
         "premium": "Sep 03, 2024",
         "ultimate": "Sep 03, 2024"
       },
-      "leaving_dates": {},
+      "leaving_dates": {
+        "pc": "Nov 30",
+        "premium": "Nov 30",
+        "ultimate": "Nov 30"
+      },
       "new_plan_order": {},
-      "leaving_plan_order": {},
+      "leaving_plan_order": {
+        "pc": 4,
+        "premium": 4,
+        "ultimate": 4
+      },
       "genres": [
         "First-Person",
         "Third-Person",
@@ -64202,7 +64305,7 @@
       "ea_play": false,
       "ubisoft_classics": false,
       "new": false,
-      "leaving": false,
+      "leaving": true,
       "year": 2024,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6lv0.jpg",
       "screenshot_urls": [
@@ -74219,16 +74322,31 @@
         "ultimate"
       ],
       "new_plans": [],
-      "leaving_plans": [],
+      "leaving_plans": [
+        "essential",
+        "pc",
+        "premium",
+        "ultimate"
+      ],
       "plan_added_dates": {
         "essential": "April 2020",
         "pc": "Dec 01, 2022",
         "premium": "April 2020",
         "ultimate": "April 2020"
       },
-      "leaving_dates": {},
+      "leaving_dates": {
+        "essential": "Nov 30",
+        "pc": "Nov 30",
+        "premium": "Nov 30",
+        "ultimate": "Nov 30"
+      },
       "new_plan_order": {},
-      "leaving_plan_order": {},
+      "leaving_plan_order": {
+        "essential": 0,
+        "pc": 5,
+        "premium": 5,
+        "ultimate": 5
+      },
       "genres": [
         "Third-Person",
         "Racing",
@@ -74257,7 +74375,7 @@
       "ea_play": false,
       "ubisoft_classics": false,
       "new": false,
-      "leaving": false,
+      "leaving": true,
       "year": 2020,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaajx.jpg",
       "screenshot_urls": [
