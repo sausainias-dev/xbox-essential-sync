@@ -8,11 +8,11 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-11-17T15:12:48.757381+00:00",
+  "updated_at": "2026-11-18T00:15:52.395260+00:00",
   "service_counts": {
     "essential": 74,
     "pc": 567,
-    "premium": 413,
+    "premium": 416,
     "ultimate": 645,
     "ea_play": 94,
     "ubisoft_classics": 66
@@ -43,21 +43,21 @@
       "Virtual Reality": 2
     },
     "pc": {
-      "Adventure": 346,
-      "Third-Person": 255,
-      "First-Person": 196,
-      "Role-Playing": 177,
-      "Indie": 163,
-      "Shooter": 150,
-      "Isometric": 133,
+      "Adventure": 345,
+      "Third-Person": 253,
+      "First-Person": 195,
+      "Role-Playing": 176,
+      "Indie": 161,
+      "Shooter": 148,
+      "Isometric": 132,
       "Simulator": 132,
       "Strategy": 119,
       "Side-View": 67,
-      "Platform": 65,
+      "Platform": 64,
       "Puzzle": 57,
-      "Arcade": 43,
+      "Arcade": 42,
       "Racing": 39,
-      "Hack and Slash": 38,
+      "Hack and Slash": 37,
       "Sport": 37,
       "Real-Time Strategy": 25,
       "Tactical": 25,
@@ -72,20 +72,20 @@
       "Text": 1
     },
     "premium": {
-      "Adventure": 262,
-      "Third-Person": 185,
-      "First-Person": 145,
-      "Role-Playing": 140,
-      "Indie": 129,
-      "Shooter": 117,
-      "Simulator": 98,
-      "Isometric": 94,
-      "Strategy": 83,
+      "Adventure": 263,
+      "Third-Person": 183,
+      "First-Person": 147,
+      "Role-Playing": 139,
+      "Indie": 128,
+      "Shooter": 116,
+      "Simulator": 99,
+      "Isometric": 93,
+      "Strategy": 84,
       "Side-View": 53,
-      "Platform": 46,
-      "Puzzle": 40,
-      "Arcade": 35,
-      "Hack and Slash": 35,
+      "Platform": 45,
+      "Puzzle": 41,
+      "Arcade": 34,
+      "Hack and Slash": 34,
       "Fighting": 21,
       "Racing": 21,
       "Turn-Based Strategy": 20,
@@ -102,22 +102,22 @@
       "Visual Novel": 1
     },
     "ultimate": {
-      "Adventure": 379,
-      "Third-Person": 303,
-      "First-Person": 209,
-      "Role-Playing": 189,
-      "Indie": 168,
-      "Shooter": 168,
+      "Adventure": 378,
+      "Third-Person": 301,
+      "First-Person": 208,
+      "Role-Playing": 188,
+      "Indie": 166,
+      "Shooter": 166,
       "Simulator": 153,
-      "Isometric": 144,
+      "Isometric": 143,
       "Strategy": 132,
       "Side-View": 83,
-      "Platform": 76,
+      "Platform": 75,
       "Puzzle": 72,
-      "Arcade": 57,
+      "Arcade": 56,
       "Sport": 51,
       "Racing": 46,
-      "Hack and Slash": 43,
+      "Hack and Slash": 42,
       "Tactical": 29,
       "Turn-Based Strategy": 29,
       "Fighting": 26,
@@ -188,9 +188,9 @@
       "description": "Xbox Game Pass Ultimate includes new games on day one, a library of 500+ games on Xbox console, PC, and supported devices, and the ability to stream games anywhere at our best quality. Check out the latest games on Game Pass Ultimate. What's leaving, upcoming releases, and a full list of titles!",
       "available_count": 645,
       "genre_counts": {
-        "Adventure": 422,
-        "Indie": 192,
-        "Shooter": 172,
+        "Adventure": 423,
+        "Indie": 193,
+        "Shooter": 173,
         "Simulator": 168,
         "Strategy": 141,
         "Platform": 82,
@@ -198,7 +198,7 @@
         "Arcade": 57,
         "Sport": 52,
         "Racing": 46,
-        "Tactical": 31,
+        "Tactical": 33,
         "Fighting": 27,
         "Card & Board Game": 21,
         "Music": 8,
@@ -211,7 +211,7 @@
           "name": "Paw Patrol: Dino World",
           "url": "https://gamescriptions.com/game/398427",
           "year": 2026,
-          "date_label": "Today",
+          "date_label": "Nov 17",
           "date_type": "added"
         },
         {
@@ -357,9 +357,23 @@
           "date_type": "leaves"
         },
         {
+          "name": "Generation Zero",
+          "url": "https://gamescriptions.com/game/65445",
+          "year": 2019,
+          "date_label": "Nov 30",
+          "date_type": "leaves"
+        },
+        {
           "name": "Kill it with Fire 2",
           "url": "https://gamescriptions.com/game/252847",
           "year": 2025,
+          "date_label": "Nov 30",
+          "date_type": "leaves"
+        },
+        {
+          "name": "Moving Out 2",
+          "url": "https://gamescriptions.com/game/214397",
+          "year": 2023,
           "date_label": "Nov 30",
           "date_type": "leaves"
         },
@@ -380,8 +394,25 @@
       ],
       "coming_soon": [
         {
+          "name": "Sniper Ghost Warrior Contracts 2",
+          "year": 2021,
+          "date_label": "Nov 24",
+          "date_type": "arrives"
+        },
+        {
+          "name": "Arkheron",
+          "date_label": "Nov 27",
+          "date_type": "arrives"
+        },
+        {
           "name": "Hela: Of Mice & Magic",
           "year": 2026,
+          "date_label": "Dec 1",
+          "date_type": "arrives"
+        },
+        {
+          "name": "The Outlast Trials",
+          "year": 2024,
           "date_label": "Dec 1",
           "date_type": "arrives"
         },
@@ -2669,6 +2700,144 @@
       ],
       "upcoming_games": [
         {
+          "name": "Sniper Ghost Warrior Contracts 2",
+          "year": 2021,
+          "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2nuh.jpg",
+          "screenshot_urls": [
+            "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fsc9oz3.jpg&w=3840&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc9oz3.jpg&w=380&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc9oz3.jpg&w=500&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc9oz3.jpg&w=640&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc9oz3.jpg&w=750&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc9oz3.jpg&w=828&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc9oz3.jpg&w=1080&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc9oz3.jpg&w=1200&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc9oz3.jpg&w=1920&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc9oz3.jpg&w=2048&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc9oz3.jpg&w=3840&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9oz4.jpg&w=3840&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9oz4.jpg&w=160&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9oz4.jpg&w=200&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9oz4.jpg&w=250&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9oz4.jpg&w=380&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9oz4.jpg&w=500&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9oz4.jpg&w=640&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9oz4.jpg&w=750&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9oz4.jpg&w=828&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9oz4.jpg&w=1080&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9oz4.jpg&w=1200&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9oz4.jpg&w=1920&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9oz4.jpg&w=2048&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9oz5.jpg&w=3840&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9oz5.jpg&w=160&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9oz5.jpg&w=200&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9oz5.jpg&w=250&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9oz5.jpg&w=380&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9oz5.jpg&w=500&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9oz5.jpg&w=640&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9oz5.jpg&w=750&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9oz5.jpg&w=828&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9oz5.jpg&w=1080&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9oz5.jpg&w=1200&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9oz5.jpg&w=1920&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9oz5.jpg&w=2048&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9oz6.jpg&w=3840&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9oz6.jpg&w=160&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9oz6.jpg&w=200&q=75"
+          ],
+          "playtime_category": "A Solid Adventure",
+          "playtime_hours": "10-19 Hours",
+          "release_date": "June 4th, 2021",
+          "developer": "CI Games",
+          "description": "SGW Contracts 2 is a modern warfare shooter with the story set in the Middle East. You play as a Raven, contract sniper assassin in a dramatic single-player campaign featuring extreme long-range shots.",
+          "genres": [
+            "First-Person",
+            "Shooter",
+            "Tactical"
+          ],
+          "game_modes": [
+            "Single-Player"
+          ],
+          "game_style": [
+            "Action",
+            "Stealth",
+            "Warfare"
+          ],
+          "platforms": [
+            "Xbox Series X|S",
+            "Xbox One",
+            "PC (Microsoft Windows)"
+          ],
+          "availability_date": "Nov 24",
+          "availability_date_type": "arrives"
+        },
+        {
+          "name": "Arkheron",
+          "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cod9ru.jpg",
+          "screenshot_urls": [
+            "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fscz7aq.jpg&w=3840&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scz7aq.jpg&w=380&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scz7aq.jpg&w=500&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scz7aq.jpg&w=640&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scz7aq.jpg&w=750&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scz7aq.jpg&w=828&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scz7aq.jpg&w=1080&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scz7aq.jpg&w=1200&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scz7aq.jpg&w=1920&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scz7aq.jpg&w=2048&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scz7aq.jpg&w=3840&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scz7au.jpg&w=3840&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scz7au.jpg&w=160&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scz7au.jpg&w=200&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scz7au.jpg&w=250&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scz7au.jpg&w=380&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scz7au.jpg&w=500&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scz7au.jpg&w=640&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scz7au.jpg&w=750&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scz7au.jpg&w=828&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scz7au.jpg&w=1080&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scz7au.jpg&w=1200&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scz7au.jpg&w=1920&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scz7au.jpg&w=2048&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scz7as.jpg&w=3840&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scz7as.jpg&w=160&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scz7as.jpg&w=200&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scz7as.jpg&w=250&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scz7as.jpg&w=380&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scz7as.jpg&w=500&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scz7as.jpg&w=640&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scz7as.jpg&w=750&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scz7as.jpg&w=828&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scz7as.jpg&w=1080&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scz7as.jpg&w=1200&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scz7as.jpg&w=1920&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scz7as.jpg&w=2048&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scz7at.jpg&w=3840&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scz7at.jpg&w=160&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scz7at.jpg&w=200&q=75"
+          ],
+          "developer": "Bonfire Studios",
+          "description": "Arkheron is a fast-paced, isometric PvP where every item you grab rewrites how you play mid-fight. Take two friends up the Tower, pull off strats that shouldn’t work, and fight your way to the next floor.",
+          "genres": [
+            "Isometric",
+            "Tactical"
+          ],
+          "game_modes": [
+            "Multiplayer",
+            "Battle Royale"
+          ],
+          "game_style": [
+            "Action",
+            "Fantasy"
+          ],
+          "platforms": [
+            "Xbox Series X|S",
+            "PC (Microsoft Windows)"
+          ],
+          "availability_date": "Nov 27",
+          "availability_date_type": "arrives"
+        },
+        {
           "name": "Hela: Of Mice & Magic",
           "year": 2026,
           "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cod34q.jpg",
@@ -2731,6 +2900,80 @@
           ],
           "platforms": [
             "Xbox Series X|S",
+            "PC (Microsoft Windows)"
+          ],
+          "availability_date": "Dec 1",
+          "availability_date_type": "arrives"
+        },
+        {
+          "name": "The Outlast Trials",
+          "year": 2024,
+          "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coce2f.jpg",
+          "screenshot_urls": [
+            "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fsczzrq.jpg&w=3840&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sczzrq.jpg&w=380&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sczzrq.jpg&w=500&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sczzrq.jpg&w=640&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sczzrq.jpg&w=750&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sczzrq.jpg&w=828&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sczzrq.jpg&w=1080&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sczzrq.jpg&w=1200&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sczzrq.jpg&w=1920&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sczzrq.jpg&w=2048&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sczzrq.jpg&w=3840&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sczzro.jpg&w=3840&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sczzro.jpg&w=160&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sczzro.jpg&w=200&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sczzro.jpg&w=250&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sczzro.jpg&w=380&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sczzro.jpg&w=500&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sczzro.jpg&w=640&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sczzro.jpg&w=750&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sczzro.jpg&w=828&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sczzro.jpg&w=1080&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sczzro.jpg&w=1200&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sczzro.jpg&w=1920&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sczzro.jpg&w=2048&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12m32.jpg&w=3840&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12m32.jpg&w=160&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12m32.jpg&w=200&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12m32.jpg&w=250&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12m32.jpg&w=380&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12m32.jpg&w=500&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12m32.jpg&w=640&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12m32.jpg&w=750&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12m32.jpg&w=828&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12m32.jpg&w=1080&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12m32.jpg&w=1200&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12m32.jpg&w=1920&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12m32.jpg&w=2048&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12oso.jpg&w=3840&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12oso.jpg&w=160&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc12oso.jpg&w=200&q=75"
+          ],
+          "playtime_category": "Hearty Campaign",
+          "playtime_hours": "20-34 Hours",
+          "release_date": "March 5th, 2024",
+          "developer": "Red Barrels",
+          "description": "The Outlast Trials is a survival horror game you can play by yourself or with other players online. You'll have to survive the twisted, sadistic and bizarre experiments of the Murkoff Corporation, alone or in a group up to 4 players.",
+          "genres": [
+            "First-Person",
+            "Adventure",
+            "Indie"
+          ],
+          "game_modes": [
+            "Single-Player",
+            "Multiplayer",
+            "Co-Op"
+          ],
+          "game_style": [
+            "Action",
+            "Horror",
+            "Survival"
+          ],
+          "platforms": [
+            "Xbox Series X|S",
+            "Xbox One",
             "PC (Microsoft Windows)"
           ],
           "availability_date": "Dec 1",
@@ -6702,34 +6945,14 @@
       ],
       "new_plans": [],
       "leaving_plans": [],
-      "plan_added_dates": {
-        "pc": "Mar 18, 2025",
-        "premium": "Mar 18, 2025",
-        "ultimate": "Mar 18, 2025"
-      },
+      "plan_added_dates": {},
       "leaving_dates": {},
       "new_plan_order": {},
       "leaving_plan_order": {},
-      "genres": [
-        "Isometric",
-        "Role-Playing",
-        "Hack and Slash",
-        "Indie"
-      ],
-      "game_modes": [
-        "Single-Player",
-        "Multiplayer",
-        "Co-Op",
-        "MMO"
-      ],
-      "game_style": [
-        "Action",
-        "Fantasy"
-      ],
-      "platforms": [
-        "Xbox Series X|S",
-        "PC (Microsoft Windows)"
-      ],
+      "genres": [],
+      "game_modes": [],
+      "game_style": [],
+      "platforms": [],
       "essential": false,
       "pc_game_pass": true,
       "premium": true,
@@ -6738,89 +6961,7 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "year": 2026,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6lxk.jpg",
-      "screenshot_urls": [
-        "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fscmwo7.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scmwo7.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scmwo7.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scmwo7.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scmwo7.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scmwo7.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scmwo7.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scmwo7.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scmwo7.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scmwo7.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scmwo7.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scmwo8.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scmwo8.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scmwo8.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scmwo8.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scmwo8.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scmwo8.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scmwo8.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scmwo8.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scmwo8.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scmwo8.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scmwo8.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scmwo8.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scmwo8.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scmwo9.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scmwo9.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scmwo9.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scmwo9.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scmwo9.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scmwo9.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scmwo9.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scmwo9.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scmwo9.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scmwo9.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scmwo9.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scmwo9.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scmwo9.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scmwoa.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scmwoa.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scmwoa.jpg&w=200&q=75"
-      ],
-      "playtime_category": "A Solid Adventure",
-      "playtime_hours": "10-19 Hours",
-      "community_rating": 3.0,
-      "community_sentiment": "Mostly Positive",
-      "community_rating_count": 1,
-      "community_total": 11,
-      "community_status_counts": {
-        "interested": 5,
-        "queued": 3,
-        "playing": 1,
-        "completed": 1,
-        "abandoned": 1
-      },
-      "release_date": "June 10th, 2026",
-      "developer": "Thunder Lotus",
-      "description": "33 Immortals is a co-op action-roguelike for 33 players. Play a damned soul, and rebel against God’s final judgment. Pick-up and raid, cooperate to survive hordes of monsters, defeat massive bosses, and face the wrath of God in a fight for your eternal life.",
-      "plan_added_date_platforms": {
-        "pc": {
-          "pc": "Mar 18, 2025"
-        },
-        "premium": {
-          "pc": "Mar 18, 2025",
-          "xbox_series": "Mar 18, 2025"
-        },
-        "ultimate": {
-          "pc": "Mar 18, 2025",
-          "xbox_series": "Mar 18, 2025"
-        }
-      },
-      "plan_added_date_sources": {
-        "pc": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
-        "premium": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
-        "ultimate": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/"
-      },
-      "plan_added_date_precision": {
-        "pc": "day",
-        "premium": "day",
-        "ultimate": "day"
-      }
+      "enrich_error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "name": "9 Kings",
@@ -9055,7 +9196,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "premium": 1
+        "premium": 4
       },
       "leaving_plan_order": {},
       "genres": [
@@ -17066,19 +17207,15 @@
         "premium",
         "ultimate"
       ],
-      "new_plans": [
-        "premium"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
       "plan_added_dates": {
-        "premium": "Oct 25, 2024",
         "pc": "Oct 25, 2024",
+        "premium": "Oct 25, 2024",
         "ultimate": "Oct 25, 2024"
       },
       "leaving_dates": {},
-      "new_plan_order": {
-        "premium": 16
-      },
+      "new_plan_order": {},
       "leaving_plan_order": {},
       "genres": [
         "First-Person",
@@ -17104,7 +17241,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2024,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8zis.jpg",
@@ -18091,16 +18228,22 @@
       "url": "https://gamescriptions.com/game/347882",
       "plans": [
         "pc",
+        "premium",
         "ultimate"
       ],
-      "new_plans": [],
+      "new_plans": [
+        "premium"
+      ],
       "leaving_plans": [],
       "plan_added_dates": {
+        "premium": "May 12, 2026",
         "pc": "May 12, 2026",
         "ultimate": "May 12, 2026"
       },
       "leaving_dates": {},
-      "new_plan_order": {},
+      "new_plan_order": {
+        "premium": 0
+      },
       "leaving_plan_order": {},
       "genres": [
         "First-Person",
@@ -18122,11 +18265,11 @@
       ],
       "essential": false,
       "pc_game_pass": true,
-      "premium": false,
+      "premium": true,
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": false,
+      "new": true,
       "leaving": false,
       "year": 2026,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xoj.jpg",
@@ -18192,6 +18335,10 @@
         "pc": {
           "pc": "May 12, 2026"
         },
+        "premium": {
+          "pc": "May 12, 2026",
+          "xbox_series": "May 12, 2026"
+        },
         "ultimate": {
           "pc": "May 12, 2026",
           "xbox_series": "May 12, 2026"
@@ -18199,10 +18346,12 @@
       },
       "plan_added_date_sources": {
         "pc": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
+        "premium": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
         "ultimate": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/"
       },
       "plan_added_date_precision": {
         "pc": "day",
+        "premium": "day",
         "ultimate": "day"
       }
     },
@@ -25272,7 +25421,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "premium": 12
+        "premium": 15
       },
       "leaving_plan_order": {},
       "genres": [
@@ -32787,7 +32936,7 @@
       "leaving_dates": {},
       "new_plan_order": {
         "pc": 16,
-        "premium": 10,
+        "premium": 13,
         "ultimate": 16
       },
       "leaving_plan_order": {},
@@ -32893,7 +33042,7 @@
       "leaving_dates": {},
       "new_plan_order": {
         "pc": 9,
-        "premium": 5,
+        "premium": 8,
         "ultimate": 9
       },
       "leaving_plan_order": {},
@@ -35794,15 +35943,27 @@
         "ultimate"
       ],
       "new_plans": [],
-      "leaving_plans": [],
+      "leaving_plans": [
+        "pc",
+        "premium",
+        "ultimate"
+      ],
       "plan_added_dates": {
         "pc": "December 2021",
         "premium": "December 2021",
         "ultimate": "December 2021"
       },
-      "leaving_dates": {},
+      "leaving_dates": {
+        "pc": "Nov 30",
+        "premium": "Nov 30",
+        "ultimate": "Nov 30"
+      },
       "new_plan_order": {},
-      "leaving_plan_order": {},
+      "leaving_plan_order": {
+        "pc": 3,
+        "premium": 3,
+        "ultimate": 3
+      },
       "genres": [
         "First-Person",
         "Shooter",
@@ -35828,7 +35989,7 @@
       "ea_play": false,
       "ubisoft_classics": false,
       "new": false,
-      "leaving": false,
+      "leaving": true,
       "year": 2019,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co66ky.jpg",
       "screenshot_urls": [
@@ -36407,7 +36568,7 @@
       "leaving_dates": {},
       "new_plan_order": {
         "pc": 1,
-        "premium": 2,
+        "premium": 5,
         "ultimate": 1
       },
       "leaving_plan_order": {},
@@ -39604,16 +39765,22 @@
       "url": "https://gamescriptions.com/game/348166",
       "plans": [
         "pc",
+        "premium",
         "ultimate"
       ],
-      "new_plans": [],
+      "new_plans": [
+        "premium"
+      ],
       "leaving_plans": [],
       "plan_added_dates": {
+        "premium": "Feb 13, 2026",
         "pc": "Feb 13, 2026",
         "ultimate": "Feb 13, 2026"
       },
       "leaving_dates": {},
-      "new_plan_order": {},
+      "new_plan_order": {
+        "premium": 1
+      },
       "leaving_plan_order": {},
       "genres": [
         "First-Person",
@@ -39634,11 +39801,11 @@
       ],
       "essential": false,
       "pc_game_pass": true,
-      "premium": false,
+      "premium": true,
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": false,
+      "new": true,
       "leaving": false,
       "year": 2026,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xyv.jpg",
@@ -39703,6 +39870,10 @@
         "pc": {
           "pc": "Feb 13, 2026"
         },
+        "premium": {
+          "pc": "Feb 13, 2026",
+          "xbox_series": "Feb 13, 2026"
+        },
         "ultimate": {
           "pc": "Feb 13, 2026",
           "xbox_series": "Feb 13, 2026"
@@ -39710,10 +39881,12 @@
       },
       "plan_added_date_sources": {
         "pc": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
+        "premium": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
         "ultimate": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/"
       },
       "plan_added_date_precision": {
         "pc": "day",
+        "premium": "day",
         "ultimate": "day"
       }
     },
@@ -41890,7 +42063,7 @@
       "leaving_dates": {},
       "new_plan_order": {
         "pc": 2,
-        "premium": 3,
+        "premium": 6,
         "ultimate": 2
       },
       "leaving_plan_order": {},
@@ -42526,19 +42699,15 @@
         "premium",
         "ultimate"
       ],
-      "new_plans": [
-        "premium"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
       "plan_added_dates": {
-        "premium": "Oct 17, 2025",
         "pc": "Oct 17, 2025",
+        "premium": "Oct 17, 2025",
         "ultimate": "Oct 17, 2025"
       },
       "leaving_dates": {},
-      "new_plan_order": {
-        "premium": 15
-      },
+      "new_plan_order": {},
       "leaving_plan_order": {},
       "genres": [
         "Third-Person",
@@ -42561,7 +42730,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2025,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coapv6.jpg",
@@ -42786,9 +42955,9 @@
       },
       "new_plan_order": {},
       "leaving_plan_order": {
-        "pc": 3,
-        "premium": 3,
-        "ultimate": 3
+        "pc": 4,
+        "premium": 4,
+        "ultimate": 4
       },
       "genres": [
         "First-Person",
@@ -44917,19 +45086,15 @@
         "premium",
         "ultimate"
       ],
-      "new_plans": [
-        "premium"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
       "plan_added_dates": {
-        "premium": "Sep 23, 2026",
         "pc": "Sep 23, 2026",
+        "premium": "Sep 23, 2026",
         "ultimate": "Sep 23, 2026"
       },
       "leaving_dates": {},
-      "new_plan_order": {
-        "premium": 17
-      },
+      "new_plan_order": {},
       "leaving_plan_order": {},
       "genres": [
         "Side-View",
@@ -44956,7 +45121,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2026,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocu7k.jpg",
@@ -49330,7 +49495,7 @@
       "leaving_dates": {},
       "new_plan_order": {
         "pc": 15,
-        "premium": 9,
+        "premium": 12,
         "ultimate": 15
       },
       "leaving_plan_order": {},
@@ -49422,15 +49587,27 @@
         "ultimate"
       ],
       "new_plans": [],
-      "leaving_plans": [],
+      "leaving_plans": [
+        "pc",
+        "premium",
+        "ultimate"
+      ],
       "plan_added_dates": {
         "pc": "May 28, 2024",
         "premium": "May 28, 2024",
         "ultimate": "May 28, 2024"
       },
-      "leaving_dates": {},
+      "leaving_dates": {
+        "pc": "Nov 30",
+        "premium": "Nov 30",
+        "ultimate": "Nov 30"
+      },
       "new_plan_order": {},
-      "leaving_plan_order": {},
+      "leaving_plan_order": {
+        "pc": 5,
+        "premium": 5,
+        "ultimate": 5
+      },
       "genres": [
         "Isometric",
         "Simulator",
@@ -49459,7 +49636,7 @@
       "ea_play": false,
       "ubisoft_classics": false,
       "new": false,
-      "leaving": false,
+      "leaving": true,
       "year": 2023,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8zgy.jpg",
       "screenshot_urls": [
@@ -50676,7 +50853,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "premium": 14
+        "premium": 17
       },
       "leaving_plan_order": {},
       "genres": [
@@ -53126,14 +53303,14 @@
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "pc": "Today",
-        "premium": "Today",
-        "ultimate": "Today"
+        "pc": "Nov 17",
+        "premium": "Nov 17",
+        "ultimate": "Nov 17"
       },
       "leaving_dates": {},
       "new_plan_order": {
         "pc": 0,
-        "premium": 0,
+        "premium": 3,
         "ultimate": 0
       },
       "leaving_plan_order": {},
@@ -54540,7 +54717,7 @@
       "leaving_dates": {},
       "new_plan_order": {
         "pc": 11,
-        "premium": 8,
+        "premium": 11,
         "ultimate": 11
       },
       "leaving_plan_order": {},
@@ -58037,7 +58214,7 @@
       "description": "Rayman Legends is a side-scrolling platform game supporting up to four simultaneous players. Players control Rayman, Globox, Teensies, or the new character Barbara as they run, jump, and attack through over one hundred twenty levels. An assist character named Murfy can interact with the environment by cutting ropes, activating mechanisms,..."
     },
     {
-      "name": "ReCore",
+      "name": "ReCore: Definitive Edition",
       "url": "https://gamescriptions.com/game/54787",
       "plans": [
         "pc",
@@ -58050,22 +58227,10 @@
       "leaving_dates": {},
       "new_plan_order": {},
       "leaving_plan_order": {},
-      "genres": [
-        "Third-Person",
-        "Platform",
-        "Adventure"
-      ],
-      "game_modes": [
-        "Single-Player"
-      ],
-      "game_style": [
-        "Action",
-        "Sci-Fi"
-      ],
-      "platforms": [
-        "Xbox One",
-        "PC (Microsoft Windows)"
-      ],
+      "genres": [],
+      "game_modes": [],
+      "game_style": [],
+      "platforms": [],
       "essential": false,
       "pc_game_pass": true,
       "premium": true,
@@ -58074,60 +58239,7 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "year": 2016,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2dqn.jpg",
-      "screenshot_urls": [
-        "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Ff1n98cbwbdm1gypoxytc.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/f1n98cbwbdm1gypoxytc.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/f1n98cbwbdm1gypoxytc.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/f1n98cbwbdm1gypoxytc.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/f1n98cbwbdm1gypoxytc.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/f1n98cbwbdm1gypoxytc.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/f1n98cbwbdm1gypoxytc.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/f1n98cbwbdm1gypoxytc.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/f1n98cbwbdm1gypoxytc.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/f1n98cbwbdm1gypoxytc.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/f1n98cbwbdm1gypoxytc.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/x3rz2tdcm3d1cuob229a.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/x3rz2tdcm3d1cuob229a.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/x3rz2tdcm3d1cuob229a.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/x3rz2tdcm3d1cuob229a.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/x3rz2tdcm3d1cuob229a.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/x3rz2tdcm3d1cuob229a.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/x3rz2tdcm3d1cuob229a.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/x3rz2tdcm3d1cuob229a.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/x3rz2tdcm3d1cuob229a.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/x3rz2tdcm3d1cuob229a.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/x3rz2tdcm3d1cuob229a.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/x3rz2tdcm3d1cuob229a.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/x3rz2tdcm3d1cuob229a.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/rumndfpngtcje6veqvmm.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/rumndfpngtcje6veqvmm.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/rumndfpngtcje6veqvmm.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/rumndfpngtcje6veqvmm.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/rumndfpngtcje6veqvmm.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/rumndfpngtcje6veqvmm.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/rumndfpngtcje6veqvmm.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/rumndfpngtcje6veqvmm.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/rumndfpngtcje6veqvmm.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/rumndfpngtcje6veqvmm.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/rumndfpngtcje6veqvmm.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/rumndfpngtcje6veqvmm.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/rumndfpngtcje6veqvmm.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/r8kqjnbkifjwqgxqkdmk.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/r8kqjnbkifjwqgxqkdmk.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/r8kqjnbkifjwqgxqkdmk.jpg&w=200&q=75"
-      ],
-      "playtime_category": "A Solid Adventure",
-      "playtime_hours": "10-19 Hours",
-      "community_total": 1,
-      "community_status_counts": {
-        "completed": 1
-      },
-      "release_date": "September 13th, 2016",
-      "developer": "Armature Studio",
-      "publisher": "Microsoft Studios",
-      "description": "Presenting ReCore a game from the legendary creator Keiji Inafune and the makers of Metroid Prime. As one of the last remaining humans, forge friendships with courageous robot companions and lead them on an epic adventure through a mysterious, dynamic world."
+      "enrich_error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "name": "Redfall",
@@ -59996,16 +60108,22 @@
       "url": "https://gamescriptions.com/game/346940",
       "plans": [
         "pc",
+        "premium",
         "ultimate"
       ],
-      "new_plans": [],
+      "new_plans": [
+        "premium"
+      ],
       "leaving_plans": [],
       "plan_added_dates": {
+        "premium": "Feb 12, 2026",
         "pc": "Feb 12, 2026",
         "ultimate": "Feb 12, 2026"
       },
       "leaving_dates": {},
-      "new_plan_order": {},
+      "new_plan_order": {
+        "premium": 2
+      },
       "leaving_plan_order": {},
       "genres": [
         "First-Person",
@@ -60027,11 +60145,11 @@
       ],
       "essential": false,
       "pc_game_pass": true,
-      "premium": false,
+      "premium": true,
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": false,
+      "new": true,
       "leaving": false,
       "year": 2026,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coavec.jpg",
@@ -60092,6 +60210,10 @@
         "pc": {
           "pc": "Feb 12, 2026"
         },
+        "premium": {
+          "pc": "Feb 12, 2026",
+          "xbox_series": "Feb 12, 2026"
+        },
         "ultimate": {
           "pc": "Feb 12, 2026",
           "xbox_series": "Feb 12, 2026"
@@ -60099,10 +60221,12 @@
       },
       "plan_added_date_sources": {
         "pc": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
+        "premium": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
         "ultimate": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/"
       },
       "plan_added_date_precision": {
         "pc": "day",
+        "premium": "day",
         "ultimate": "day"
       }
     },
@@ -60246,32 +60370,14 @@
       ],
       "new_plans": [],
       "leaving_plans": [],
-      "plan_added_dates": {
-        "pc": "Feb 22, 2022",
-        "premium": "Feb 22, 2022",
-        "ultimate": "Feb 22, 2022"
-      },
+      "plan_added_dates": {},
       "leaving_dates": {},
       "new_plan_order": {},
       "leaving_plan_order": {},
-      "genres": [
-        "First-Person",
-        "Shooter",
-        "Indie"
-      ],
-      "game_modes": [
-        "Single-Player",
-        "Multiplayer",
-        "Co-Op"
-      ],
-      "game_style": [
-        "Action"
-      ],
-      "platforms": [
-        "Xbox Series X|S",
-        "Xbox One",
-        "PC (Microsoft Windows)"
-      ],
+      "genres": [],
+      "game_modes": [],
+      "game_style": [],
+      "platforms": [],
       "essential": false,
       "pc_game_pass": true,
       "premium": true,
@@ -60280,88 +60386,7 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "year": 2023,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9r1v.jpg",
-      "screenshot_urls": [
-        "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fsc8mbm.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc8mbm.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc8mbm.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc8mbm.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc8mbm.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc8mbm.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc8mbm.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc8mbm.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc8mbm.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc8mbm.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc8mbm.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8mbn.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8mbn.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8mbn.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8mbn.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8mbn.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8mbn.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8mbn.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8mbn.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8mbn.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8mbn.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8mbn.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8mbn.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8mbn.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8mbo.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8mbo.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8mbo.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8mbo.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8mbo.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8mbo.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8mbo.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8mbo.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8mbo.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8mbo.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8mbo.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8mbo.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8mbo.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8mbp.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8mbp.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8mbp.jpg&w=200&q=75"
-      ],
-      "playtime_category": "Hearty Campaign",
-      "playtime_hours": "20-34 Hours",
-      "community_rating": 4.5,
-      "community_sentiment": "Very Positive",
-      "community_rating_count": 1,
-      "community_total": 5,
-      "community_status_counts": {
-        "no_interest": 2,
-        "queued": 1,
-        "completed": 1,
-        "interested": 1
-      },
-      "release_date": "November 7th, 2023",
-      "developer": "RyseUp Studios",
-      "description": "Roboquest is a fast FPS Roguelite in a scorched futureworld. You're a rebooted Guardian, ready to kick some metal ass! Fight with your buddy or by yourself and annihilate hordes of deadly bots in ever-changing environments.",
-      "plan_added_date_platforms": {
-        "pc": {
-          "pc": "Feb 22, 2022"
-        },
-        "premium": {
-          "pc": "Feb 22, 2022",
-          "xbox_one": "Jan 30, 2023"
-        },
-        "ultimate": {
-          "pc": "Feb 22, 2022",
-          "xbox_one": "Jan 30, 2023"
-        }
-      },
-      "plan_added_date_sources": {
-        "pc": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
-        "premium": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
-        "ultimate": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/"
-      },
-      "plan_added_date_precision": {
-        "pc": "day",
-        "premium": "day",
-        "ultimate": "day"
-      }
+      "enrich_error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "name": "Routine",
@@ -60994,7 +61019,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "premium": 13
+        "premium": 16
       },
       "leaving_plan_order": {},
       "genres": [
@@ -64277,9 +64302,9 @@
       },
       "new_plan_order": {},
       "leaving_plan_order": {
-        "pc": 4,
-        "premium": 4,
-        "ultimate": 4
+        "pc": 6,
+        "premium": 6,
+        "ultimate": 6
       },
       "genres": [
         "First-Person",
@@ -71834,7 +71859,7 @@
       "leaving_dates": {},
       "new_plan_order": {
         "pc": 17,
-        "premium": 11,
+        "premium": 14,
         "ultimate": 17
       },
       "leaving_plan_order": {},
@@ -72866,7 +72891,7 @@
       "leaving_dates": {},
       "new_plan_order": {
         "pc": 3,
-        "premium": 4,
+        "premium": 7,
         "ultimate": 3
       },
       "leaving_plan_order": {},
@@ -74343,9 +74368,9 @@
       "new_plan_order": {},
       "leaving_plan_order": {
         "essential": 0,
-        "pc": 5,
-        "premium": 5,
-        "ultimate": 5
+        "pc": 7,
+        "premium": 7,
+        "ultimate": 7
       },
       "genres": [
         "Third-Person",
@@ -76463,7 +76488,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "premium": 7
+        "premium": 10
       },
       "leaving_plan_order": {},
       "genres": [
@@ -77292,7 +77317,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "premium": 6
+        "premium": 9
       },
       "leaving_plan_order": {},
       "genres": [
@@ -81244,34 +81269,14 @@
       ],
       "new_plans": [],
       "leaving_plans": [],
-      "plan_added_dates": {
-        "pc": "Apr 08, 2021",
-        "premium": "Apr 08, 2021",
-        "ultimate": "Apr 08, 2021"
-      },
+      "plan_added_dates": {},
       "leaving_dates": {},
       "new_plan_order": {},
       "leaving_plan_order": {},
-      "genres": [
-        "Third-Person",
-        "Shooter",
-        "Arcade"
-      ],
-      "game_modes": [
-        "Single-Player",
-        "Multiplayer",
-        "Co-Op"
-      ],
-      "game_style": [
-        "Action",
-        "Fantasy",
-        "Horror"
-      ],
-      "platforms": [
-        "Xbox Series X|S",
-        "Xbox One",
-        "PC (Microsoft Windows)"
-      ],
+      "genres": [],
+      "game_modes": [],
+      "game_style": [],
+      "platforms": [],
       "essential": false,
       "pc_game_pass": true,
       "premium": true,
@@ -81280,85 +81285,7 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "year": 2020,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1lwq.jpg",
-      "screenshot_urls": [
-        "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fsc6lfv.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc6lfv.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc6lfv.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc6lfv.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc6lfv.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc6lfv.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc6lfv.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc6lfv.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc6lfv.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc6lfv.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc6lfv.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6lft.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6lft.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6lft.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6lft.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6lft.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6lft.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6lft.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6lft.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6lft.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6lft.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6lft.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6lft.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6lft.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6lfu.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6lfu.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6lfu.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6lfu.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6lfu.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6lfu.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6lfu.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6lfu.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6lfu.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6lfu.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6lfu.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6lfu.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6lfu.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6lfy.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6lfy.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6lfy.jpg&w=200&q=75"
-      ],
-      "playtime_category": "A Solid Adventure",
-      "playtime_hours": "10-19 Hours",
-      "community_total": 7,
-      "community_status_counts": {
-        "completed": 3,
-        "queued": 2,
-        "interested": 1,
-        "no_interest": 1
-      },
-      "release_date": "February 4th, 2020",
-      "developer": "Rebellion Developments",
-      "description": "Hitler's hordes are back for more in this spine-chilling shooter from the makers of Sniper Elite 4! Abominable occult enemies, epic weapons and a harrowing new campaign for 1-4 players await in 1940's Europe, as you fight to save humankind from undead armageddon.",
-      "plan_added_date_platforms": {
-        "pc": {
-          "pc": "Apr 08, 2021"
-        },
-        "premium": {
-          "pc": "Apr 08, 2021",
-          "xbox_one": "Apr 08, 2021"
-        },
-        "ultimate": {
-          "pc": "Apr 08, 2021",
-          "xbox_one": "Apr 08, 2021"
-        }
-      },
-      "plan_added_date_sources": {
-        "pc": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
-        "premium": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
-        "ultimate": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/"
-      },
-      "plan_added_date_precision": {
-        "pc": "day",
-        "premium": "day",
-        "ultimate": "day"
-      }
+      "enrich_error": "HTTPSConnectionPool(host='gamescriptions.com', port=443): Read timed out. (read timeout=30)"
     },
     {
       "name": "Zoo Tycoon: Ultimate Animal Collection",
@@ -81640,8 +81567,8 @@
     }
   ],
   "addition_date_coverage": {
-    "filled_plan_dates": 1289,
-    "unmatched_games": 200,
+    "filled_plan_dates": 1283,
+    "unmatched_games": 203,
     "history_records": 2715
   }
 }
