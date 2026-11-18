@@ -1,12 +1,42 @@
 {
   "source": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
-  "updated_at": "2026-11-18T00:15:52.395260+00:00",
+  "updated_at": "2026-11-18T23:46:19.607035+00:00",
   "coverage": {
-    "filled_plan_dates": 1283,
-    "unmatched_games": 203,
+    "filled_plan_dates": 1292,
+    "unmatched_games": 200,
     "history_records": 2715
   },
   "games": {
+    "https://gamescriptions.com/game/252828": {
+      "plan_added_dates": {
+        "pc": "Mar 18, 2025",
+        "premium": "Mar 18, 2025",
+        "ultimate": "Mar 18, 2025"
+      },
+      "plan_added_date_sources": {
+        "pc": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
+        "premium": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
+        "ultimate": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/"
+      },
+      "plan_added_date_precision": {
+        "pc": "day",
+        "premium": "day",
+        "ultimate": "day"
+      },
+      "plan_added_date_platforms": {
+        "pc": {
+          "pc": "Mar 18, 2025"
+        },
+        "premium": {
+          "pc": "Mar 18, 2025",
+          "xbox_series": "Mar 18, 2025"
+        },
+        "ultimate": {
+          "pc": "Mar 18, 2025",
+          "xbox_series": "Mar 18, 2025"
+        }
+      }
+    },
     "https://gamescriptions.com/game/288741": {
       "plan_added_dates": {
         "pc": "Aug 14, 2025",
@@ -9494,6 +9524,36 @@
         }
       }
     },
+    "https://gamescriptions.com/game/137894": {
+      "plan_added_dates": {
+        "pc": "Feb 22, 2022",
+        "premium": "Feb 22, 2022",
+        "ultimate": "Feb 22, 2022"
+      },
+      "plan_added_date_sources": {
+        "pc": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
+        "premium": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
+        "ultimate": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/"
+      },
+      "plan_added_date_precision": {
+        "pc": "day",
+        "premium": "day",
+        "ultimate": "day"
+      },
+      "plan_added_date_platforms": {
+        "pc": {
+          "pc": "Feb 22, 2022"
+        },
+        "premium": {
+          "pc": "Feb 22, 2022",
+          "xbox_one": "Jan 30, 2023"
+        },
+        "ultimate": {
+          "pc": "Feb 22, 2022",
+          "xbox_one": "Jan 30, 2023"
+        }
+      }
+    },
     "https://gamescriptions.com/game/8948": {
       "plan_added_dates": {
         "pc": "Dec 04, 2025",
@@ -13029,6 +13089,36 @@
         "ultimate": {
           "pc": "December 2025",
           "xbox_one": "December 2025"
+        }
+      }
+    },
+    "https://gamescriptions.com/game/119234": {
+      "plan_added_dates": {
+        "pc": "Apr 08, 2021",
+        "premium": "Apr 08, 2021",
+        "ultimate": "Apr 08, 2021"
+      },
+      "plan_added_date_sources": {
+        "pc": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
+        "premium": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
+        "ultimate": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/"
+      },
+      "plan_added_date_precision": {
+        "pc": "day",
+        "premium": "day",
+        "ultimate": "day"
+      },
+      "plan_added_date_platforms": {
+        "pc": {
+          "pc": "Apr 08, 2021"
+        },
+        "premium": {
+          "pc": "Apr 08, 2021",
+          "xbox_one": "Apr 08, 2021"
+        },
+        "ultimate": {
+          "pc": "Apr 08, 2021",
+          "xbox_one": "Apr 08, 2021"
         }
       }
     },
