@@ -8,11 +8,11 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-11-18T23:46:19.607035+00:00",
+  "updated_at": "2026-11-19T05:03:13.264209+00:00",
   "service_counts": {
     "essential": 74,
     "pc": 567,
-    "premium": 416,
+    "premium": 417,
     "ultimate": 645,
     "ea_play": 94,
     "ubisoft_classics": 66
@@ -72,15 +72,15 @@
       "Text": 1
     },
     "premium": {
-      "Adventure": 264,
+      "Adventure": 265,
       "Third-Person": 185,
-      "First-Person": 148,
+      "First-Person": 149,
       "Role-Playing": 140,
-      "Indie": 130,
+      "Indie": 131,
       "Shooter": 118,
-      "Simulator": 99,
+      "Simulator": 100,
       "Isometric": 94,
-      "Strategy": 84,
+      "Strategy": 85,
       "Side-View": 53,
       "Platform": 46,
       "Puzzle": 41,
@@ -88,11 +88,11 @@
       "Hack and Slash": 35,
       "Fighting": 21,
       "Racing": 21,
-      "Turn-Based Strategy": 20,
+      "Turn-Based Strategy": 21,
       "Tactical": 19,
       "Real-Time Strategy": 16,
       "Sport": 16,
-      "Card & Board Game": 10,
+      "Card & Board Game": 11,
       "Virtual Reality": 10,
       "Point-and-Click": 9,
       "Quiz/Trivia": 4,
@@ -9298,7 +9298,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "premium": 4
+        "premium": 5
       },
       "leaving_plan_order": {},
       "genres": [
@@ -15446,16 +15446,22 @@
       "url": "https://gamescriptions.com/game/372112",
       "plans": [
         "pc",
+        "premium",
         "ultimate"
       ],
-      "new_plans": [],
+      "new_plans": [
+        "premium"
+      ],
       "leaving_plans": [],
       "plan_added_dates": {
+        "premium": "May 12, 2026",
         "pc": "May 12, 2026",
         "ultimate": "May 12, 2026"
       },
       "leaving_dates": {},
-      "new_plan_order": {},
+      "new_plan_order": {
+        "premium": 0
+      },
       "leaving_plan_order": {},
       "genres": [
         "First-Person",
@@ -15479,11 +15485,11 @@
       ],
       "essential": false,
       "pc_game_pass": true,
-      "premium": false,
+      "premium": true,
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": false,
+      "new": true,
       "leaving": false,
       "year": 2026,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobso5.jpg",
@@ -15548,6 +15554,10 @@
         "pc": {
           "pc": "May 12, 2026"
         },
+        "premium": {
+          "pc": "May 12, 2026",
+          "xbox_series": "May 12, 2026"
+        },
         "ultimate": {
           "pc": "May 12, 2026",
           "xbox_series": "May 12, 2026"
@@ -15555,10 +15565,12 @@
       },
       "plan_added_date_sources": {
         "pc": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
+        "premium": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
         "ultimate": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/"
       },
       "plan_added_date_precision": {
         "pc": "day",
+        "premium": "day",
         "ultimate": "day"
       }
     },
@@ -18344,7 +18356,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "premium": 0
+        "premium": 1
       },
       "leaving_plan_order": {},
       "genres": [
@@ -25523,7 +25535,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "premium": 15
+        "premium": 16
       },
       "leaving_plan_order": {},
       "genres": [
@@ -33038,7 +33050,7 @@
       "leaving_dates": {},
       "new_plan_order": {
         "pc": 16,
-        "premium": 13,
+        "premium": 14,
         "ultimate": 16
       },
       "leaving_plan_order": {},
@@ -33144,7 +33156,7 @@
       "leaving_dates": {},
       "new_plan_order": {
         "pc": 9,
-        "premium": 8,
+        "premium": 9,
         "ultimate": 9
       },
       "leaving_plan_order": {},
@@ -36670,7 +36682,7 @@
       "leaving_dates": {},
       "new_plan_order": {
         "pc": 1,
-        "premium": 5,
+        "premium": 6,
         "ultimate": 1
       },
       "leaving_plan_order": {},
@@ -39881,7 +39893,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "premium": 1
+        "premium": 2
       },
       "leaving_plan_order": {},
       "genres": [
@@ -42165,7 +42177,7 @@
       "leaving_dates": {},
       "new_plan_order": {
         "pc": 2,
-        "premium": 6,
+        "premium": 7,
         "ultimate": 2
       },
       "leaving_plan_order": {},
@@ -44420,7 +44432,7 @@
       "release_date": "February 21st, 2025",
       "developer": "Ryu Ga Gotoku Studio",
       "publisher": "Sega",
-      "description": "A new legend begins as you step into the steel toe boots of Goro Majima, a man who has lost his memory and reinvents himself as a pirate on the open sea. Embark on an over-the-top, modern-day pirate adventure with an ex-yakuza, now pirate captain and his crew as they engage in exhilarating combat on land and sea in the hunt for lost memo...",
+      "description": "Like a Dragon: Pirate Yakuza in Hawaii is an action-adventure spin-off of the Like a Dragon series, set after Like a Dragon: Infinite Wealth. The game follows Goro Majima, a former yakuza who washes ashore on a remote island with no memory of his past. After meeting a young boy named Noah, Majima becomes the captain of a pirate ship and e...",
       "plan_added_date_platforms": {
         "pc": {
           "pc": "Feb 03, 2026"
@@ -49597,7 +49609,7 @@
       "leaving_dates": {},
       "new_plan_order": {
         "pc": 15,
-        "premium": 12,
+        "premium": 13,
         "ultimate": 15
       },
       "leaving_plan_order": {},
@@ -50944,19 +50956,15 @@
         "premium",
         "ultimate"
       ],
-      "new_plans": [
-        "premium"
-      ],
+      "new_plans": [],
       "leaving_plans": [],
       "plan_added_dates": {
-        "premium": "Oct 08, 2026",
         "pc": "Oct 08, 2026",
+        "premium": "Oct 08, 2026",
         "ultimate": "Oct 08, 2026"
       },
       "leaving_dates": {},
-      "new_plan_order": {
-        "premium": 17
-      },
+      "new_plan_order": {},
       "leaving_plan_order": {},
       "genres": [
         "Side-View",
@@ -50982,7 +50990,7 @@
       "ultimate": true,
       "ea_play": false,
       "ubisoft_classics": false,
-      "new": true,
+      "new": false,
       "leaving": false,
       "year": 2026,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co954c.jpg",
@@ -53412,7 +53420,7 @@
       "leaving_dates": {},
       "new_plan_order": {
         "pc": 0,
-        "premium": 3,
+        "premium": 4,
         "ultimate": 0
       },
       "leaving_plan_order": {},
@@ -54819,7 +54827,7 @@
       "leaving_dates": {},
       "new_plan_order": {
         "pc": 11,
-        "premium": 11,
+        "premium": 12,
         "ultimate": 11
       },
       "leaving_plan_order": {},
@@ -60289,7 +60297,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "premium": 2
+        "premium": 3
       },
       "leaving_plan_order": {},
       "genres": [
@@ -61285,7 +61293,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "premium": 16
+        "premium": 17
       },
       "leaving_plan_order": {},
       "genres": [
@@ -72125,7 +72133,7 @@
       "leaving_dates": {},
       "new_plan_order": {
         "pc": 17,
-        "premium": 14,
+        "premium": 15,
         "ultimate": 17
       },
       "leaving_plan_order": {},
@@ -73157,7 +73165,7 @@
       "leaving_dates": {},
       "new_plan_order": {
         "pc": 3,
-        "premium": 7,
+        "premium": 8,
         "ultimate": 3
       },
       "leaving_plan_order": {},
@@ -76754,7 +76762,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "premium": 10
+        "premium": 11
       },
       "leaving_plan_order": {},
       "genres": [
@@ -77583,7 +77591,7 @@
       },
       "leaving_dates": {},
       "new_plan_order": {
-        "premium": 9
+        "premium": 10
       },
       "leaving_plan_order": {},
       "genres": [
@@ -81931,7 +81939,7 @@
     }
   ],
   "addition_date_coverage": {
-    "filled_plan_dates": 1292,
+    "filled_plan_dates": 1293,
     "unmatched_games": 200,
     "history_records": 2715
   }
