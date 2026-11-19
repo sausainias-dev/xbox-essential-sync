@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-11-19T05:03:13.264209+00:00",
+  "updated_at": "2026-11-19T14:59:17.927664+00:00",
   "service_counts": {
     "essential": 74,
     "pc": 567,
@@ -10755,15 +10755,14 @@
       ],
       "playtime_category": "Hearty Campaign",
       "playtime_hours": "20-34 Hours",
-      "community_rating": 4.0,
+      "community_rating": 4.3,
       "community_sentiment": "Very Positive",
-      "community_rating_count": 2,
+      "community_rating_count": 3,
       "community_total": 10,
       "community_status_counts": {
-        "completed": 4,
+        "completed": 5,
         "queued": 2,
         "interested": 2,
-        "playing": 1,
         "abandoned": 1
       },
       "release_date": "November 17th, 2009",
