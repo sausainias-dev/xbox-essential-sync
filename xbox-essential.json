@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-11-23T04:44:44.238875+00:00",
+  "updated_at": "2026-11-23T16:53:15.856718+00:00",
   "service_counts": {
     "essential": 74,
     "pc": 567,
@@ -49,9 +49,9 @@
       "Role-Playing": 177,
       "Indie": 163,
       "Shooter": 150,
-      "Isometric": 133,
+      "Isometric": 132,
       "Simulator": 132,
-      "Strategy": 119,
+      "Strategy": 118,
       "Side-View": 67,
       "Platform": 65,
       "Puzzle": 57,
@@ -60,8 +60,8 @@
       "Hack and Slash": 38,
       "Sport": 37,
       "Real-Time Strategy": 25,
-      "Tactical": 25,
-      "Turn-Based Strategy": 25,
+      "Tactical": 24,
+      "Turn-Based Strategy": 24,
       "Fighting": 20,
       "Card & Board Game": 16,
       "Virtual Reality": 14,
@@ -79,8 +79,8 @@
       "Indie": 131,
       "Shooter": 118,
       "Simulator": 100,
-      "Isometric": 94,
-      "Strategy": 85,
+      "Isometric": 93,
+      "Strategy": 84,
       "Side-View": 53,
       "Platform": 46,
       "Puzzle": 41,
@@ -88,8 +88,8 @@
       "Hack and Slash": 35,
       "Fighting": 21,
       "Racing": 21,
-      "Turn-Based Strategy": 21,
-      "Tactical": 19,
+      "Turn-Based Strategy": 20,
+      "Tactical": 18,
       "Real-Time Strategy": 16,
       "Sport": 16,
       "Card & Board Game": 11,
@@ -109,8 +109,8 @@
       "Indie": 168,
       "Shooter": 168,
       "Simulator": 153,
-      "Isometric": 144,
-      "Strategy": 132,
+      "Isometric": 143,
+      "Strategy": 131,
       "Side-View": 83,
       "Platform": 76,
       "Puzzle": 72,
@@ -118,8 +118,8 @@
       "Sport": 51,
       "Racing": 46,
       "Hack and Slash": 43,
-      "Tactical": 29,
-      "Turn-Based Strategy": 29,
+      "Tactical": 28,
+      "Turn-Based Strategy": 28,
       "Fighting": 26,
       "Real-Time Strategy": 26,
       "Card & Board Game": 20,
@@ -35934,32 +35934,14 @@
       ],
       "new_plans": [],
       "leaving_plans": [],
-      "plan_added_dates": {
-        "pc": "Apr 28, 2020",
-        "premium": "Apr 28, 2020",
-        "ultimate": "Apr 28, 2020"
-      },
+      "plan_added_dates": {},
       "leaving_dates": {},
       "new_plan_order": {},
       "leaving_plan_order": {},
-      "genres": [
-        "Isometric",
-        "Strategy",
-        "Turn-Based Strategy",
-        "Tactical"
-      ],
-      "game_modes": [
-        "Single-Player"
-      ],
-      "game_style": [
-        "Action",
-        "Warfare"
-      ],
-      "platforms": [
-        "Xbox Series X|S",
-        "Xbox One",
-        "PC (Microsoft Windows)"
-      ],
+      "genres": [],
+      "game_modes": [],
+      "game_style": [],
+      "platforms": [],
       "essential": false,
       "pc_game_pass": true,
       "premium": true,
@@ -35968,89 +35950,7 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "year": 2020,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1uzk.jpg",
-      "screenshot_urls": [
-        "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fsc87lv.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc87lv.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc87lv.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc87lv.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc87lv.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc87lv.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc87lv.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc87lv.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc87lv.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc87lv.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc87lv.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc87lw.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc87lw.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc87lw.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc87lw.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc87lw.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc87lw.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc87lw.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc87lw.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc87lw.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc87lw.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc87lw.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc87lw.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc87lw.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7jix.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7jix.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7jix.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7jix.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7jix.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7jix.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7jix.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7jix.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7jix.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7jix.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7jix.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7jix.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7jix.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7jiy.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7jiy.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc7jiy.jpg&w=200&q=75"
-      ],
-      "playtime_category": "Hearty Campaign",
-      "playtime_hours": "20-34 Hours",
-      "community_rating": 4.0,
-      "community_sentiment": "Very Positive",
-      "community_rating_count": 1,
-      "community_total": 4,
-      "community_status_counts": {
-        "queued": 1,
-        "completed": 1,
-        "abandoned": 1,
-        "no_interest": 1
-      },
-      "release_date": "April 28th, 2020",
-      "developer": "Splash Damage",
-      "publisher": "Xbox Game Studios",
-      "description": "Gears Tactics is the fast-paced, turn-based strategy game from one of the most-acclaimed video game franchises – Gears of War. Outnumbered and fighting for survival, recruit and command your squad to hunt down an evil mastermind who makes monsters.",
-      "plan_added_date_platforms": {
-        "pc": {
-          "pc": "Apr 28, 2020"
-        },
-        "premium": {
-          "pc": "Apr 28, 2020",
-          "xbox_one": "Nov 09, 2020"
-        },
-        "ultimate": {
-          "pc": "Apr 28, 2020",
-          "xbox_one": "Nov 09, 2020"
-        }
-      },
-      "plan_added_date_sources": {
-        "pc": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
-        "premium": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
-        "ultimate": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/"
-      },
-      "plan_added_date_precision": {
-        "pc": "day",
-        "premium": "day",
-        "ultimate": "day"
-      }
+      "enrich_error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "name": "Generation Zero",
@@ -81956,8 +81856,8 @@
     }
   ],
   "addition_date_coverage": {
-    "filled_plan_dates": 1293,
-    "unmatched_games": 200,
+    "filled_plan_dates": 1290,
+    "unmatched_games": 201,
     "history_records": 2715
   }
 }
