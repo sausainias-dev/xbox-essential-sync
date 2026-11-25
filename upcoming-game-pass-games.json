@@ -1,10 +1,11 @@
 {
   "source": "Subli.one Xbox Game Pass Ultimate",
-  "updated_at": "2026-11-25T08:47:10.749242+00:00",
+  "updated_at": "2026-11-25T21:49:11.602121+00:00",
   "count": 64,
   "games": [
     {
       "name": "Arkheron",
+      "year": 2026,
       "availability_date": "Nov 27",
       "availability_date_type": "arrives",
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cod9ru.jpg",
@@ -50,7 +51,6 @@
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scz7at.jpg&w=160&q=75",
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scz7at.jpg&w=200&q=75"
       ],
-      "developer": "Bonfire Studios",
       "description": "Arkheron is a fast-paced, isometric PvP where every item you grab rewrites how you play mid-fight. Take two friends up the Tower, pull off strats that shouldn’t work, and fight your way to the next floor.",
       "genres": [
         "Isometric",
