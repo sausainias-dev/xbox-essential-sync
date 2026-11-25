@@ -1,9 +1,9 @@
 {
   "source": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
-  "updated_at": "2026-11-25T01:53:53.489605+00:00",
+  "updated_at": "2026-11-25T16:31:17.776902+00:00",
   "coverage": {
-    "filled_plan_dates": 1291,
-    "unmatched_games": 202,
+    "filled_plan_dates": 1294,
+    "unmatched_games": 201,
     "history_records": 2715
   },
   "games": {
@@ -1337,6 +1337,36 @@
         "ultimate": {
           "pc": "Jun 10, 2026",
           "xbox_series": "Jun 10, 2026"
+        }
+      }
+    },
+    "https://gamescriptions.com/game/136659": {
+      "plan_added_dates": {
+        "pc": "May 06, 2026",
+        "premium": "May 06, 2026",
+        "ultimate": "May 06, 2026"
+      },
+      "plan_added_date_sources": {
+        "pc": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
+        "premium": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
+        "ultimate": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/"
+      },
+      "plan_added_date_precision": {
+        "pc": "day",
+        "premium": "day",
+        "ultimate": "day"
+      },
+      "plan_added_date_platforms": {
+        "pc": {
+          "pc": "May 06, 2026"
+        },
+        "premium": {
+          "pc": "May 06, 2026",
+          "xbox_one": "May 06, 2026"
+        },
+        "ultimate": {
+          "pc": "May 06, 2026",
+          "xbox_one": "May 06, 2026"
         }
       }
     },

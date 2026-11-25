@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-11-25T01:53:53.489605+00:00",
+  "updated_at": "2026-11-25T16:31:17.776902+00:00",
   "service_counts": {
     "essential": 74,
     "pc": 568,
@@ -43,8 +43,8 @@
       "Virtual Reality": 2
     },
     "pc": {
-      "Adventure": 345,
-      "Third-Person": 254,
+      "Adventure": 346,
+      "Third-Person": 255,
       "First-Person": 197,
       "Role-Playing": 177,
       "Indie": 163,
@@ -53,11 +53,11 @@
       "Simulator": 132,
       "Strategy": 119,
       "Side-View": 67,
-      "Platform": 64,
+      "Platform": 65,
       "Puzzle": 57,
       "Arcade": 43,
       "Racing": 39,
-      "Hack and Slash": 37,
+      "Hack and Slash": 38,
       "Sport": 37,
       "Tactical": 26,
       "Real-Time Strategy": 25,
@@ -72,8 +72,8 @@
       "Text": 1
     },
     "premium": {
-      "Adventure": 265,
-      "Third-Person": 185,
+      "Adventure": 266,
+      "Third-Person": 186,
       "First-Person": 150,
       "Role-Playing": 140,
       "Indie": 132,
@@ -82,10 +82,10 @@
       "Isometric": 94,
       "Strategy": 85,
       "Side-View": 53,
-      "Platform": 46,
+      "Platform": 47,
       "Puzzle": 41,
       "Arcade": 35,
-      "Hack and Slash": 34,
+      "Hack and Slash": 35,
       "Fighting": 21,
       "Racing": 21,
       "Turn-Based Strategy": 21,
@@ -102,8 +102,8 @@
       "Visual Novel": 1
     },
     "ultimate": {
-      "Adventure": 378,
-      "Third-Person": 302,
+      "Adventure": 379,
+      "Third-Person": 303,
       "First-Person": 210,
       "Role-Playing": 189,
       "Shooter": 169,
@@ -111,13 +111,13 @@
       "Simulator": 153,
       "Isometric": 144,
       "Strategy": 132,
-      "Side-View": 82,
-      "Platform": 75,
-      "Puzzle": 70,
-      "Arcade": 56,
+      "Side-View": 83,
+      "Platform": 76,
+      "Puzzle": 72,
+      "Arcade": 57,
       "Sport": 51,
       "Racing": 46,
-      "Hack and Slash": 42,
+      "Hack and Slash": 43,
       "Tactical": 30,
       "Turn-Based Strategy": 29,
       "Fighting": 26,
@@ -138,14 +138,14 @@
       "Shooter": 30,
       "Simulator": 26,
       "Sport": 26,
-      "Puzzle": 15,
+      "Puzzle": 17,
       "Racing": 14,
       "Role-Playing": 14,
       "Isometric": 12,
       "Strategy": 12,
-      "Arcade": 10,
+      "Arcade": 11,
+      "Side-View": 9,
       "Platform": 8,
-      "Side-View": 8,
       "Tactical": 5,
       "Indie": 4,
       "Virtual Reality": 4,
@@ -395,6 +395,7 @@
       "coming_soon": [
         {
           "name": "Arkheron",
+          "year": 2026,
           "date_label": "Nov 27",
           "date_type": "arrives"
         },
@@ -2698,6 +2699,7 @@
       "upcoming_games": [
         {
           "name": "Arkheron",
+          "year": 2026,
           "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cod9ru.jpg",
           "screenshot_urls": [
             "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fscz7aq.jpg&w=3840&q=75",
@@ -2741,7 +2743,6 @@
             "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scz7at.jpg&w=160&q=75",
             "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scz7at.jpg&w=200&q=75"
           ],
-          "developer": "Bonfire Studios",
           "description": "Arkheron is a fast-paced, isometric PvP where every item you grab rewrites how you play mid-fight. Take two friends up the Tower, pull off strats that shouldn’t work, and fight your way to the next floor.",
           "genres": [
             "Isometric",
@@ -14900,10 +14901,18 @@
       "leaving_dates": {},
       "new_plan_order": {},
       "leaving_plan_order": {},
-      "genres": [],
-      "game_modes": [],
+      "genres": [
+        "Side-View",
+        "Puzzle",
+        "Arcade"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
       "game_style": [],
-      "platforms": [],
+      "platforms": [
+        "PC (Microsoft Windows)"
+      ],
       "essential": false,
       "pc_game_pass": false,
       "premium": false,
@@ -14912,7 +14921,60 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "enrich_error": "HTTPSConnectionPool(host='gamescriptions.com', port=443): Read timed out."
+      "year": 2004,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2s83.jpg",
+      "screenshot_urls": [
+        "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fzopnhrkf3zuscgkgsz7e.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/zopnhrkf3zuscgkgsz7e.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/zopnhrkf3zuscgkgsz7e.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/zopnhrkf3zuscgkgsz7e.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/zopnhrkf3zuscgkgsz7e.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/zopnhrkf3zuscgkgsz7e.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/zopnhrkf3zuscgkgsz7e.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/zopnhrkf3zuscgkgsz7e.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/zopnhrkf3zuscgkgsz7e.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/zopnhrkf3zuscgkgsz7e.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/zopnhrkf3zuscgkgsz7e.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/s5brollxoazcfsste483.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/s5brollxoazcfsste483.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/s5brollxoazcfsste483.jpg&w=200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/s5brollxoazcfsste483.jpg&w=250&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/s5brollxoazcfsste483.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/s5brollxoazcfsste483.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/s5brollxoazcfsste483.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/s5brollxoazcfsste483.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/s5brollxoazcfsste483.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/s5brollxoazcfsste483.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/s5brollxoazcfsste483.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/s5brollxoazcfsste483.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/s5brollxoazcfsste483.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/pafinrnfua9s84hsdgi4.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/pafinrnfua9s84hsdgi4.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/pafinrnfua9s84hsdgi4.jpg&w=200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/pafinrnfua9s84hsdgi4.jpg&w=250&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/pafinrnfua9s84hsdgi4.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/pafinrnfua9s84hsdgi4.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/pafinrnfua9s84hsdgi4.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/pafinrnfua9s84hsdgi4.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/pafinrnfua9s84hsdgi4.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/pafinrnfua9s84hsdgi4.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/pafinrnfua9s84hsdgi4.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/pafinrnfua9s84hsdgi4.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/pafinrnfua9s84hsdgi4.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/u1nl6ftehshv7bvccspu.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/u1nl6ftehshv7bvccspu.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/u1nl6ftehshv7bvccspu.jpg&w=200&q=75"
+      ],
+      "playtime_category": "Short & Sweet",
+      "playtime_hours": "4-9 Hours",
+      "community_total": 3,
+      "community_status_counts": {
+        "no_interest": 2,
+        "queued": 1
+      },
+      "release_date": "November 16th, 2004",
+      "developer": "PopCap Games",
+      "description": "Get set to play the world's #1 puzzle game, now for the Wii! Match sparkling gems three at a time to make them burst in showers of color and points. Match four or more to create flashy power gems that boost your score and your mood with brilliant cascades and combos."
     },
     {
       "name": "Bejeweled 3",
@@ -14927,10 +14989,18 @@
       "leaving_dates": {},
       "new_plan_order": {},
       "leaving_plan_order": {},
-      "genres": [],
-      "game_modes": [],
-      "game_style": [],
-      "platforms": [],
+      "genres": [
+        "Puzzle"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [
+        "Kids"
+      ],
+      "platforms": [
+        "Xbox"
+      ],
       "essential": false,
       "pc_game_pass": false,
       "premium": false,
@@ -14939,7 +15009,32 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "enrich_error": "HTTPSConnectionPool(host='gamescriptions.com', port=443): Read timed out. (read timeout=30)"
+      "year": 2011,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4zso.jpg",
+      "screenshot_urls": [
+        "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fscid1u.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scid1u.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scid1u.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scid1u.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scid1u.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scid1u.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scid1u.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scid1u.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scid1u.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scid1u.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scid1u.jpg&w=3840&q=75"
+      ],
+      "playtime_category": "A Solid Adventure",
+      "playtime_hours": "10-19 Hours",
+      "community_total": 2,
+      "community_status_counts": {
+        "queued": 1,
+        "no_interest": 1
+      },
+      "release_date": "October 19th, 2011",
+      "developer": "PopCap Games",
+      "publisher": "Electronic Arts, Inc.",
+      "description": "The biggest, brightest Bejeweled ever! Discover all-new ways to play the world's #1 puzzle game. Find your perfect match with 8 breathtaking game modes that meet all your moods ease into Classic Bejeweled for cascades of fun, journey through 40 challenging Quest puzzles, charge into the electrifying Lightning for non-stop action, and tail..."
     },
     {
       "name": "Ben 10: Power Trip",
@@ -14951,14 +15046,36 @@
       ],
       "new_plans": [],
       "leaving_plans": [],
-      "plan_added_dates": {},
+      "plan_added_dates": {
+        "pc": "May 06, 2026",
+        "premium": "May 06, 2026",
+        "ultimate": "May 06, 2026"
+      },
       "leaving_dates": {},
       "new_plan_order": {},
       "leaving_plan_order": {},
-      "genres": [],
-      "game_modes": [],
-      "game_style": [],
-      "platforms": [],
+      "genres": [
+        "Third-Person",
+        "Platform",
+        "Hack and Slash",
+        "Adventure"
+      ],
+      "game_modes": [
+        "Single-Player",
+        "Multiplayer",
+        "Co-Op",
+        "Split-Screen"
+      ],
+      "game_style": [
+        "Action",
+        "Comedy",
+        "Kids",
+        "Open World"
+      ],
+      "platforms": [
+        "Xbox One",
+        "PC (Microsoft Windows)"
+      ],
       "essential": false,
       "pc_game_pass": true,
       "premium": true,
@@ -14967,7 +15084,86 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "enrich_error": "HTTPSConnectionPool(host='gamescriptions.com', port=443): Read timed out. (read timeout=30)"
+      "year": 2020,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2eyt.jpg",
+      "screenshot_urls": [
+        "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fsc8hjf.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc8hjf.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc8hjf.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc8hjf.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc8hjf.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc8hjf.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc8hjf.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc8hjf.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc8hjf.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc8hjf.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc8hjf.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8hjg.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8hjg.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8hjg.jpg&w=200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8hjg.jpg&w=250&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8hjg.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8hjg.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8hjg.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8hjg.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8hjg.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8hjg.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8hjg.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8hjg.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8hjg.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8hjh.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8hjh.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8hjh.jpg&w=200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8hjh.jpg&w=250&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8hjh.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8hjh.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8hjh.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8hjh.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8hjh.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8hjh.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8hjh.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8hjh.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8hjh.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8hjj.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8hjj.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc8hjj.jpg&w=200&q=75"
+      ],
+      "playtime_category": "Short & Sweet",
+      "playtime_hours": "4-9 Hours",
+      "community_total": 9,
+      "community_status_counts": {
+        "no_interest": 4,
+        "completed": 2,
+        "abandoned": 2,
+        "queued": 1
+      },
+      "release_date": "September 8th, 2020",
+      "developer": "PHL Collective",
+      "publisher": "Outright Games",
+      "description": "Ben and his family are enjoying their European vacation... until evil magician Hex unleashes the power of four mysterious crystals! Only Ben 10 can break the curse – so get ready to transform into powerful aliens to battle enemies, solve puzzles and freely explore an exciting 3D world.",
+      "plan_added_date_platforms": {
+        "pc": {
+          "pc": "May 06, 2026"
+        },
+        "premium": {
+          "pc": "May 06, 2026",
+          "xbox_one": "May 06, 2026"
+        },
+        "ultimate": {
+          "pc": "May 06, 2026",
+          "xbox_one": "May 06, 2026"
+        }
+      },
+      "plan_added_date_sources": {
+        "pc": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
+        "premium": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
+        "ultimate": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/"
+      },
+      "plan_added_date_precision": {
+        "pc": "day",
+        "premium": "day",
+        "ultimate": "day"
+      }
     },
     {
       "name": "Beyond These Stars",
@@ -40051,46 +40247,46 @@
       "year": 2025,
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobebu.jpg",
       "screenshot_urls": [
-        "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fsc63aa.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc63aa.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc63aa.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc63aa.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc63aa.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc63aa.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc63aa.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc63aa.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc63aa.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc63aa.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc63aa.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc63a9.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc63a9.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc63a9.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc63a9.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc63a9.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc63a9.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc63a9.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc63a9.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc63a9.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc63a9.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc63a9.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc63a9.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc63a9.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc63ab.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc63ab.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc63ab.jpg&w=200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc63ab.jpg&w=250&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc63ab.jpg&w=380&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc63ab.jpg&w=500&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc63ab.jpg&w=640&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc63ab.jpg&w=750&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc63ab.jpg&w=828&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc63ab.jpg&w=1080&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc63ab.jpg&w=1200&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc63ab.jpg&w=1920&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc63ab.jpg&w=2048&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc63a8.jpg&w=3840&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc63a8.jpg&w=160&q=75",
-        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc63a8.jpg&w=200&q=75"
+        "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fsc16ogh.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc16ogh.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc16ogh.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc16ogh.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc16ogh.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc16ogh.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc16ogh.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc16ogh.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc16ogh.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc16ogh.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc16ogh.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc16ogj.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc16ogj.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc16ogj.jpg&w=200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc16ogj.jpg&w=250&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc16ogj.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc16ogj.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc16ogj.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc16ogj.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc16ogj.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc16ogj.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc16ogj.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc16ogj.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc16ogj.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc16ogp.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc16ogp.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc16ogp.jpg&w=200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc16ogp.jpg&w=250&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc16ogp.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc16ogp.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc16ogp.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc16ogp.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc16ogp.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc16ogp.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc16ogp.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc16ogp.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc16ogp.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc16ogm.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc16ogm.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc16ogm.jpg&w=200&q=75"
       ],
       "playtime_category": "Lengthy Expedition",
       "playtime_hours": "35-54 Hours",
@@ -52999,7 +53195,7 @@
       "new": false,
       "leaving": false,
       "year": 2023,
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocqgt.jpg",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cod5so.jpg",
       "screenshot_urls": [
         "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fsc78f3.jpg&w=3840&q=75",
         "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc78f3.jpg&w=380&q=75",
@@ -81831,8 +82027,8 @@
     }
   ],
   "addition_date_coverage": {
-    "filled_plan_dates": 1291,
-    "unmatched_games": 202,
+    "filled_plan_dates": 1294,
+    "unmatched_games": 201,
     "history_records": 2715
   }
 }
