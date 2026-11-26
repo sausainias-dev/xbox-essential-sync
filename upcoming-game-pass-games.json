@@ -1,12 +1,12 @@
 {
   "source": "Subli.one Xbox Game Pass Ultimate",
-  "updated_at": "2026-11-25T21:49:11.602121+00:00",
+  "updated_at": "2026-11-26T08:32:51.207974+00:00",
   "count": 64,
   "games": [
     {
       "name": "Arkheron",
       "year": 2026,
-      "availability_date": "Nov 27",
+      "availability_date": "Tomorrow",
       "availability_date_type": "arrives",
       "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cod9ru.jpg",
       "screenshot_urls": [
@@ -54,6 +54,8 @@
       "description": "Arkheron is a fast-paced, isometric PvP where every item you grab rewrites how you play mid-fight. Take two friends up the Tower, pull off strats that shouldn’t work, and fight your way to the next floor.",
       "genres": [
         "Isometric",
+        "Fighting",
+        "Role-Playing",
         "Tactical"
       ],
       "game_modes": [
@@ -3577,7 +3579,7 @@
       "year": 2025,
       "availability_date": "TBD",
       "availability_date_type": "tbd",
-      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coasoq.jpg",
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cod67m.jpg",
       "screenshot_urls": [
         "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fscvkg1.jpg&w=3840&q=75",
         "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scvkg1.jpg&w=380&q=75",
@@ -3641,6 +3643,7 @@
         "Open World"
       ],
       "platforms": [
+        "Xbox Series X|S",
         "PC (Microsoft Windows)"
       ]
     },
@@ -4115,7 +4118,7 @@
       ],
       "developer": "Bethesda Game Studios",
       "publisher": "Bethesda Softworks",
-      "description": "The Elder Scrolls VI is an upcoming single-player action RPG from Bethesda Game Studios, serving as the sixth main entry in The Elder Scrolls series and the follow-up to 2011's Skyrim. The game is built on Creation Engine 3 and entered active production in 2023 following the completion of Starfield. Director Todd Howard has described the...",
+      "description": "The Elder Scrolls VI: Sentinel is an upcoming single-player action RPG from Bethesda Game Studios, serving as the sixth main entry in The Elder Scrolls series and the follow-up to 2011's Skyrim. The game is built on Creation Engine 3 and entered active production in 2023 following the completion of Starfield. Director Todd Howard has desc...",
       "genres": [
         "First-Person",
         "Third-Person",
