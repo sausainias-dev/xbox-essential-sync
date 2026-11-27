@@ -1,9 +1,9 @@
 {
   "source": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
-  "updated_at": "2026-11-26T16:06:07.240898+00:00",
+  "updated_at": "2026-11-27T01:24:31.968468+00:00",
   "coverage": {
-    "filled_plan_dates": 1294,
-    "unmatched_games": 201,
+    "filled_plan_dates": 1287,
+    "unmatched_games": 204,
     "history_records": 2715
   },
   "games": {
@@ -635,6 +635,15 @@
           "xbox_one": "Jan 03, 2019"
         }
       }
+    },
+    "https://gamescriptions.com/game/368311": {
+      "plan_added_dates": {
+        "pc": "Today",
+        "ultimate": "Today"
+      },
+      "plan_added_date_sources": {},
+      "plan_added_date_precision": {},
+      "plan_added_date_platforms": {}
     },
     "https://gamescriptions.com/game/602": {
       "plan_added_dates": {
@@ -4532,9 +4541,7 @@
     },
     "https://gamescriptions.com/game/144024": {
       "plan_added_dates": {
-        "pc": "Oct 29",
-        "premium": "Oct 29",
-        "ultimate": "Oct 29"
+        "premium": "Oct 29"
       },
       "plan_added_date_sources": {},
       "plan_added_date_precision": {},
@@ -7495,72 +7502,6 @@
       "plan_added_date_sources": {},
       "plan_added_date_precision": {},
       "plan_added_date_platforms": {}
-    },
-    "https://gamescriptions.com/game/89594": {
-      "plan_added_dates": {
-        "essential": "Dec 08, 2020",
-        "pc": "December 2020",
-        "premium": "December 2020",
-        "ultimate": "December 2020"
-      },
-      "plan_added_date_sources": {
-        "essential": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
-        "pc": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
-        "premium": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
-        "ultimate": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/"
-      },
-      "plan_added_date_precision": {
-        "essential": "day",
-        "pc": "month",
-        "premium": "month",
-        "ultimate": "month"
-      },
-      "plan_added_date_platforms": {
-        "essential": {
-          "xbox_one": "Dec 08, 2020"
-        },
-        "pc": {
-          "pc": "December 2020"
-        },
-        "premium": {
-          "pc": "December 2020",
-          "xbox_one": "Dec 08, 2020"
-        },
-        "ultimate": {
-          "pc": "December 2020",
-          "xbox_one": "Dec 08, 2020"
-        }
-      }
-    },
-    "https://gamescriptions.com/game/332273": {
-      "plan_added_dates": {
-        "pc": "May 21, 2025",
-        "premium": "May 21, 2025",
-        "ultimate": "May 21, 2025"
-      },
-      "plan_added_date_sources": {
-        "pc": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
-        "premium": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
-        "ultimate": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/"
-      },
-      "plan_added_date_precision": {
-        "pc": "day",
-        "premium": "day",
-        "ultimate": "day"
-      },
-      "plan_added_date_platforms": {
-        "pc": {
-          "pc": "May 21, 2025"
-        },
-        "premium": {
-          "pc": "May 21, 2025",
-          "xbox_series": "May 21, 2025"
-        },
-        "ultimate": {
-          "pc": "May 21, 2025",
-          "xbox_series": "May 21, 2025"
-        }
-      }
     },
     "https://gamescriptions.com/game/346956": {
       "plan_added_dates": {
