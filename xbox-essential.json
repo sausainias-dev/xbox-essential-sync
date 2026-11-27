@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-11-27T01:24:31.968468+00:00",
+  "updated_at": "2026-11-27T15:52:15.448463+00:00",
   "service_counts": {
     "essential": 74,
     "pc": 569,
@@ -19,23 +19,23 @@
   },
   "genre_counts": {
     "essential": {
-      "Adventure": 42,
+      "Adventure": 43,
       "Third-Person": 40,
-      "Indie": 26,
-      "Role-Playing": 23,
+      "Indie": 27,
+      "Role-Playing": 25,
       "Shooter": 22,
       "First-Person": 20,
       "Isometric": 20,
       "Simulator": 20,
-      "Strategy": 15,
-      "Platform": 13,
+      "Strategy": 16,
+      "Platform": 14,
       "Arcade": 9,
       "Puzzle": 7,
+      "Side-View": 7,
       "Hack and Slash": 6,
-      "Side-View": 6,
       "Tactical": 6,
+      "Turn-Based Strategy": 6,
       "Racing": 5,
-      "Turn-Based Strategy": 5,
       "Fighting": 3,
       "Quiz/Trivia": 3,
       "Real-Time Strategy": 3,
@@ -43,17 +43,17 @@
       "Virtual Reality": 2
     },
     "pc": {
-      "Adventure": 345,
+      "Adventure": 346,
       "Third-Person": 255,
       "First-Person": 197,
-      "Role-Playing": 177,
-      "Indie": 161,
+      "Role-Playing": 179,
+      "Indie": 163,
       "Shooter": 151,
       "Isometric": 134,
       "Simulator": 132,
-      "Strategy": 117,
-      "Side-View": 65,
-      "Platform": 64,
+      "Strategy": 119,
+      "Side-View": 67,
+      "Platform": 65,
       "Puzzle": 57,
       "Arcade": 43,
       "Racing": 39,
@@ -61,9 +61,9 @@
       "Sport": 37,
       "Tactical": 27,
       "Real-Time Strategy": 25,
-      "Turn-Based Strategy": 23,
+      "Turn-Based Strategy": 25,
       "Fighting": 21,
-      "Card & Board Game": 15,
+      "Card & Board Game": 16,
       "Virtual Reality": 14,
       "Point-and-Click": 5,
       "Visual Novel": 5,
@@ -72,27 +72,27 @@
       "Text": 1
     },
     "premium": {
-      "Adventure": 265,
+      "Adventure": 266,
       "Third-Person": 186,
       "First-Person": 150,
-      "Role-Playing": 139,
-      "Indie": 130,
+      "Role-Playing": 141,
+      "Indie": 132,
       "Shooter": 119,
       "Simulator": 100,
       "Isometric": 94,
-      "Strategy": 83,
-      "Side-View": 51,
-      "Platform": 46,
+      "Strategy": 85,
+      "Side-View": 53,
+      "Platform": 47,
       "Puzzle": 41,
       "Arcade": 35,
       "Hack and Slash": 35,
       "Fighting": 21,
       "Racing": 21,
+      "Turn-Based Strategy": 21,
       "Tactical": 20,
-      "Turn-Based Strategy": 19,
       "Real-Time Strategy": 16,
       "Sport": 16,
-      "Card & Board Game": 10,
+      "Card & Board Game": 11,
       "Virtual Reality": 10,
       "Point-and-Click": 9,
       "Quiz/Trivia": 4,
@@ -102,27 +102,27 @@
       "Visual Novel": 1
     },
     "ultimate": {
-      "Adventure": 378,
+      "Adventure": 379,
       "Third-Person": 303,
       "First-Person": 210,
-      "Role-Playing": 189,
+      "Role-Playing": 191,
       "Shooter": 169,
-      "Indie": 166,
-      "Simulator": 151,
-      "Isometric": 143,
-      "Strategy": 128,
-      "Side-View": 81,
-      "Platform": 75,
+      "Indie": 168,
+      "Simulator": 153,
+      "Isometric": 145,
+      "Strategy": 132,
+      "Side-View": 83,
+      "Platform": 76,
       "Puzzle": 72,
       "Arcade": 57,
       "Sport": 51,
       "Racing": 46,
       "Hack and Slash": 43,
       "Tactical": 31,
+      "Turn-Based Strategy": 29,
       "Fighting": 27,
-      "Turn-Based Strategy": 27,
       "Real-Time Strategy": 26,
-      "Card & Board Game": 17,
+      "Card & Board Game": 20,
       "Virtual Reality": 16,
       "Point-and-Click": 9,
       "Music": 5,
@@ -161,15 +161,15 @@
       "Role-Playing": 16,
       "Side-View": 15,
       "Platform": 12,
-      "Strategy": 10,
-      "Isometric": 7,
+      "Strategy": 12,
+      "Isometric": 9,
+      "Simulator": 8,
       "Puzzle": 7,
       "Racing": 7,
       "Arcade": 6,
-      "Simulator": 6,
       "Tactical": 6,
+      "Card & Board Game": 5,
       "Sport": 5,
-      "Card & Board Game": 3,
       "Real-Time Strategy": 3,
       "Hack and Slash": 2,
       "Indie": 2,
@@ -4518,35 +4518,35 @@
             "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc9fc9.jpg&w=1920&q=75",
             "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc9fc9.jpg&w=2048&q=75",
             "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc9fc9.jpg&w=3840&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fc8.jpg&w=3840&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fc8.jpg&w=160&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fc8.jpg&w=200&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fc8.jpg&w=250&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fc8.jpg&w=380&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fc8.jpg&w=500&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fc8.jpg&w=640&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fc8.jpg&w=750&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fc8.jpg&w=828&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fc8.jpg&w=1080&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fc8.jpg&w=1200&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fc8.jpg&w=1920&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fc8.jpg&w=2048&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fca.jpg&w=3840&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fca.jpg&w=160&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fca.jpg&w=200&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fca.jpg&w=250&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fca.jpg&w=380&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fca.jpg&w=500&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fca.jpg&w=640&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fca.jpg&w=750&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fca.jpg&w=828&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fca.jpg&w=1080&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fca.jpg&w=1200&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fca.jpg&w=1920&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fca.jpg&w=2048&q=75",
             "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fcb.jpg&w=3840&q=75",
             "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fcb.jpg&w=160&q=75",
-            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fcb.jpg&w=200&q=75"
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fcb.jpg&w=200&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fcb.jpg&w=250&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fcb.jpg&w=380&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fcb.jpg&w=500&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fcb.jpg&w=640&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fcb.jpg&w=750&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fcb.jpg&w=828&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fcb.jpg&w=1080&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fcb.jpg&w=1200&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fcb.jpg&w=1920&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fcb.jpg&w=2048&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fcc.jpg&w=3840&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fcc.jpg&w=160&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fcc.jpg&w=200&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fcc.jpg&w=250&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fcc.jpg&w=380&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fcc.jpg&w=500&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fcc.jpg&w=640&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fcc.jpg&w=750&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fcc.jpg&w=828&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fcc.jpg&w=1080&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fcc.jpg&w=1200&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fcc.jpg&w=1920&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fcc.jpg&w=2048&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fca.jpg&w=3840&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fca.jpg&w=160&q=75",
+            "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc9fca.jpg&w=200&q=75"
           ],
           "developer": "Mongoose Rodeo",
           "description": "Explore a dark world inhabited by men and monsters in this action packed platformer. Lay waste to the monsters that stand in your way with a wide array of stylish combat maneuvers, as you attempt to unravel the truth behind the curse of Fearanndal.",
@@ -7255,10 +7255,10 @@
       "community_rating": 4.2,
       "community_sentiment": "Very Positive",
       "community_rating_count": 3,
-      "community_total": 10,
+      "community_total": 11,
       "community_status_counts": {
         "completed": 6,
-        "queued": 2,
+        "queued": 3,
         "abandoned": 1,
         "interested": 1
       },
@@ -10306,10 +10306,10 @@
       "community_rating": 4.5,
       "community_sentiment": "Very Positive",
       "community_rating_count": 1,
-      "community_total": 7,
+      "community_total": 8,
       "community_status_counts": {
+        "queued": 3,
         "interested": 3,
-        "queued": 2,
         "completed": 2
       },
       "release_date": "November 16th, 2010",
@@ -10407,12 +10407,12 @@
       "community_rating": 3.0,
       "community_sentiment": "Mostly Positive",
       "community_rating_count": 1,
-      "community_total": 8,
+      "community_total": 9,
       "community_status_counts": {
+        "queued": 2,
         "completed": 2,
         "abandoned": 2,
         "interested": 2,
-        "queued": 1,
         "no_interest": 1
       },
       "release_date": "April 21st, 2015",
@@ -10509,11 +10509,11 @@
       "community_rating": 3.5,
       "community_sentiment": "Mostly Positive",
       "community_rating_count": 1,
-      "community_total": 7,
+      "community_total": 8,
       "community_status_counts": {
         "interested": 3,
+        "queued": 2,
         "completed": 2,
-        "queued": 1,
         "no_interest": 1
       },
       "release_date": "January 12th, 2016",
@@ -10610,11 +10610,11 @@
       "community_rating": 3.5,
       "community_sentiment": "Mostly Positive",
       "community_rating_count": 1,
-      "community_total": 8,
+      "community_total": 9,
       "community_status_counts": {
         "completed": 3,
         "interested": 3,
-        "queued": 1,
+        "queued": 2,
         "no_interest": 1
       },
       "release_date": "February 9th, 2016",
@@ -10713,10 +10713,10 @@
       "community_rating": 4.3,
       "community_sentiment": "Very Positive",
       "community_rating_count": 3,
-      "community_total": 10,
+      "community_total": 11,
       "community_status_counts": {
         "completed": 5,
-        "queued": 2,
+        "queued": 3,
         "interested": 2,
         "abandoned": 1
       },
@@ -10815,11 +10815,11 @@
       "community_rating": 4.5,
       "community_sentiment": "Very Positive",
       "community_rating_count": 2,
-      "community_total": 16,
+      "community_total": 17,
       "community_status_counts": {
         "completed": 6,
         "interested": 5,
-        "queued": 3,
+        "queued": 4,
         "playing": 1,
         "abandoned": 1
       },
@@ -10921,10 +10921,10 @@
       "community_rating": 4.1,
       "community_sentiment": "Very Positive",
       "community_rating_count": 5,
-      "community_total": 18,
+      "community_total": 19,
       "community_status_counts": {
         "completed": 10,
-        "queued": 3,
+        "queued": 4,
         "interested": 3,
         "abandoned": 2
       },
@@ -11030,11 +11030,11 @@
       "community_rating": 3.5,
       "community_sentiment": "Mostly Positive",
       "community_rating_count": 1,
-      "community_total": 17,
+      "community_total": 18,
       "community_status_counts": {
         "completed": 6,
         "interested": 5,
-        "queued": 3,
+        "queued": 4,
         "abandoned": 2,
         "playing": 1
       },
@@ -11155,10 +11155,10 @@
       "community_rating": 4.3,
       "community_sentiment": "Very Positive",
       "community_rating_count": 6,
-      "community_total": 25,
+      "community_total": 26,
       "community_status_counts": {
         "completed": 15,
-        "queued": 4,
+        "queued": 5,
         "playing": 3,
         "interested": 3
       },
@@ -11263,10 +11263,10 @@
       "community_rating": 4.5,
       "community_sentiment": "Very Positive",
       "community_rating_count": 5,
-      "community_total": 26,
+      "community_total": 27,
       "community_status_counts": {
         "completed": 15,
-        "queued": 4,
+        "queued": 5,
         "abandoned": 3,
         "playing": 2,
         "interested": 2
@@ -11394,10 +11394,10 @@
       "community_rating": 3.7,
       "community_sentiment": "Mostly Positive",
       "community_rating_count": 3,
-      "community_total": 7,
+      "community_total": 8,
       "community_status_counts": {
+        "queued": 3,
         "completed": 3,
-        "queued": 2,
         "interested": 2
       },
       "release_date": "November 14th, 2011",
@@ -11496,10 +11496,10 @@
       "community_rating": 4.3,
       "community_sentiment": "Very Positive",
       "community_rating_count": 2,
-      "community_total": 12,
+      "community_total": 13,
       "community_status_counts": {
         "completed": 8,
-        "queued": 2,
+        "queued": 3,
         "abandoned": 1,
         "interested": 1
       },
@@ -11601,10 +11601,10 @@
       "community_rating": 4.3,
       "community_sentiment": "Very Positive",
       "community_rating_count": 3,
-      "community_total": 14,
+      "community_total": 15,
       "community_status_counts": {
         "completed": 9,
-        "queued": 3,
+        "queued": 4,
         "interested": 2
       },
       "release_date": "November 11th, 2014",
@@ -11711,11 +11711,11 @@
       "community_rating": 4.0,
       "community_sentiment": "Very Positive",
       "community_rating_count": 4,
-      "community_total": 25,
+      "community_total": 26,
       "community_status_counts": {
         "completed": 10,
         "interested": 6,
-        "queued": 4,
+        "queued": 5,
         "abandoned": 3,
         "playing": 2
       },
@@ -11843,10 +11843,10 @@
       "community_rating": 2.5,
       "community_sentiment": "Mixed",
       "community_rating_count": 1,
-      "community_total": 8,
+      "community_total": 9,
       "community_status_counts": {
+        "queued": 3,
         "interested": 3,
-        "queued": 2,
         "completed": 2,
         "abandoned": 1
       },
@@ -11941,10 +11941,10 @@
       ],
       "playtime_category": "A Solid Adventure",
       "playtime_hours": "10-19 Hours",
-      "community_total": 4,
+      "community_total": 5,
       "community_status_counts": {
         "interested": 3,
-        "queued": 1
+        "queued": 2
       },
       "release_date": "January 15th, 2014",
       "developer": "Ubisoft Sofia",
@@ -12037,11 +12037,11 @@
       "community_rating": 4.0,
       "community_sentiment": "Very Positive",
       "community_rating_count": 1,
-      "community_total": 7,
+      "community_total": 8,
       "community_status_counts": {
         "completed": 4,
-        "interested": 2,
-        "queued": 1
+        "queued": 2,
+        "interested": 2
       },
       "release_date": "March 20th, 2018",
       "developer": "Ubisoft Sofia",
@@ -12137,9 +12137,9 @@
       "community_rating": 4.0,
       "community_sentiment": "Very Positive",
       "community_rating_count": 1,
-      "community_total": 6,
+      "community_total": 7,
       "community_status_counts": {
-        "queued": 2,
+        "queued": 3,
         "completed": 2,
         "interested": 2
       },
@@ -12631,11 +12631,11 @@
       "community_rating": 4.2,
       "community_sentiment": "Very Positive",
       "community_rating_count": 3,
-      "community_total": 10,
+      "community_total": 11,
       "community_status_counts": {
+        "queued": 3,
         "completed": 3,
         "playing": 2,
-        "queued": 2,
         "abandoned": 1,
         "interested": 1,
         "no_interest": 1
@@ -12751,10 +12751,11 @@
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc77oj.jpg&w=160&q=75",
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc77oj.jpg&w=200&q=75"
       ],
-      "community_total": 4,
+      "community_total": 5,
       "community_status_counts": {
         "interested": 2,
-        "no_interest": 2
+        "no_interest": 2,
+        "queued": 1
       },
       "release_date": "October 15th, 2019",
       "developer": "Overhaul Games",
@@ -13513,10 +13514,10 @@
       "community_rating": 4.3,
       "community_sentiment": "Very Positive",
       "community_rating_count": 1,
-      "community_total": 12,
+      "community_total": 13,
       "community_status_counts": {
         "completed": 5,
-        "queued": 3,
+        "queued": 4,
         "interested": 3,
         "playing": 1
       },
@@ -13642,11 +13643,11 @@
       "community_rating": 4.5,
       "community_sentiment": "Very Positive",
       "community_rating_count": 2,
-      "community_total": 13,
+      "community_total": 14,
       "community_status_counts": {
         "completed": 5,
+        "queued": 3,
         "interested": 3,
-        "queued": 2,
         "abandoned": 2,
         "no_interest": 1
       },
@@ -13746,9 +13747,9 @@
       "community_rating": 3.5,
       "community_sentiment": "Mostly Positive",
       "community_rating_count": 1,
-      "community_total": 10,
+      "community_total": 11,
       "community_status_counts": {
-        "queued": 3,
+        "queued": 4,
         "completed": 2,
         "interested": 2,
         "no_interest": 2,
@@ -13872,10 +13873,10 @@
       "community_rating": 4.6,
       "community_sentiment": "Overwhelmingly Positive",
       "community_rating_count": 2,
-      "community_total": 9,
+      "community_total": 10,
       "community_status_counts": {
         "completed": 7,
-        "queued": 1,
+        "queued": 2,
         "no_interest": 1
       },
       "release_date": "October 25th, 2011",
@@ -13973,13 +13974,13 @@
       "community_rating": 4.0,
       "community_sentiment": "Very Positive",
       "community_rating_count": 1,
-      "community_total": 11,
+      "community_total": 12,
       "community_status_counts": {
         "completed": 5,
+        "queued": 2,
         "abandoned": 2,
         "no_interest": 2,
-        "playing": 1,
-        "queued": 1
+        "playing": 1
       },
       "release_date": "October 29th, 2013",
       "developer": "EA Digital Illusions CE",
@@ -14203,9 +14204,9 @@
       "community_rating": 4.3,
       "community_sentiment": "Very Positive",
       "community_rating_count": 1,
-      "community_total": 7,
+      "community_total": 8,
       "community_status_counts": {
-        "queued": 2,
+        "queued": 3,
         "completed": 2,
         "abandoned": 1,
         "interested": 1,
@@ -14305,13 +14306,13 @@
       "community_rating": 4.8,
       "community_sentiment": "Overwhelmingly Positive",
       "community_rating_count": 2,
-      "community_total": 11,
+      "community_total": 12,
       "community_status_counts": {
         "completed": 4,
+        "queued": 2,
         "abandoned": 2,
         "interested": 2,
-        "no_interest": 2,
-        "queued": 1
+        "no_interest": 2
       },
       "release_date": "November 20th, 2018",
       "developer": "EA Digital Illusions CE",
@@ -17136,10 +17137,11 @@
       "community_rating": 4.0,
       "community_sentiment": "Very Positive",
       "community_rating_count": 1,
-      "community_total": 8,
+      "community_total": 9,
       "community_status_counts": {
         "interested": 4,
         "completed": 3,
+        "queued": 1,
         "no_interest": 1
       },
       "release_date": "December 28th, 2023",
@@ -17489,11 +17491,11 @@
       "community_rating": 2.5,
       "community_sentiment": "Mixed",
       "community_rating_count": 1,
-      "community_total": 10,
+      "community_total": 11,
       "community_status_counts": {
+        "queued": 3,
         "completed": 3,
         "interested": 3,
-        "queued": 2,
         "no_interest": 2
       },
       "release_date": "November 14th, 2025",
@@ -22178,8 +22180,9 @@
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/webrttxmgvrtwsjsjlw0.jpg&w=160&q=75",
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/webrttxmgvrtwsjsjlw0.jpg&w=200&q=75"
       ],
-      "community_total": 2,
+      "community_total": 3,
       "community_status_counts": {
+        "queued": 1,
         "abandoned": 1,
         "no_interest": 1
       },
@@ -22306,11 +22309,11 @@
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6vle.jpg&w=160&q=75",
         "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sc6vle.jpg&w=200&q=75"
       ],
-      "community_total": 5,
+      "community_total": 6,
       "community_status_counts": {
+        "queued": 2,
         "interested": 2,
-        "no_interest": 2,
-        "queued": 1
+        "no_interest": 2
       },
       "release_date": "June 14th, 2016",
       "developer": "Behaviour Interactive",
@@ -22438,11 +22441,11 @@
       "community_rating": 4.6,
       "community_sentiment": "Overwhelmingly Positive",
       "community_rating_count": 3,
-      "community_total": 20,
+      "community_total": 21,
       "community_status_counts": {
         "interested": 8,
         "completed": 6,
-        "queued": 4,
+        "queued": 5,
         "abandoned": 1,
         "no_interest": 1
       },
@@ -29605,7 +29608,7 @@
       },
       "release_date": "May 30th, 2025",
       "developer": "Codemasters",
-      "publisher": "Electronic Arts",
+      "publisher": "EA Sports",
       "description": "Leave your mark on the world of racing in F1 25, the official video game of the 2025 FIA Formula One World Championship, featuring a revamped My Team mode, the thrilling third chapter of Braking Point, and more!"
     },
     {
@@ -30963,11 +30966,11 @@
       "community_rating": 4.5,
       "community_sentiment": "Very Positive",
       "community_rating_count": 2,
-      "community_total": 11,
+      "community_total": 12,
       "community_status_counts": {
         "completed": 5,
+        "queued": 3,
         "interested": 3,
-        "queued": 2,
         "no_interest": 1
       },
       "release_date": "June 26th, 2018",
@@ -31076,10 +31079,10 @@
       "community_rating": 4.5,
       "community_sentiment": "Very Positive",
       "community_rating_count": 2,
-      "community_total": 13,
+      "community_total": 14,
       "community_status_counts": {
         "completed": 8,
-        "queued": 2,
+        "queued": 3,
         "interested": 2,
         "abandoned": 1
       },
@@ -31214,10 +31217,10 @@
       "community_rating": 3.9,
       "community_sentiment": "Very Positive",
       "community_rating_count": 4,
-      "community_total": 14,
+      "community_total": 15,
       "community_status_counts": {
         "completed": 8,
-        "queued": 2,
+        "queued": 3,
         "abandoned": 2,
         "interested": 2
       },
@@ -31356,10 +31359,10 @@
       "community_rating": 3.9,
       "community_sentiment": "Very Positive",
       "community_rating_count": 4,
-      "community_total": 17,
+      "community_total": 18,
       "community_status_counts": {
+        "queued": 6,
         "completed": 6,
-        "queued": 5,
         "interested": 4,
         "abandoned": 1,
         "no_interest": 1
@@ -31494,10 +31497,10 @@
       "community_rating": 3.5,
       "community_sentiment": "Mostly Positive",
       "community_rating_count": 1,
-      "community_total": 11,
+      "community_total": 12,
       "community_status_counts": {
         "completed": 6,
-        "queued": 2,
+        "queued": 3,
         "interested": 2,
         "no_interest": 1
       },
@@ -31622,11 +31625,11 @@
       ],
       "playtime_category": "Hearty Campaign",
       "playtime_hours": "20-34 Hours",
-      "community_total": 10,
+      "community_total": 11,
       "community_status_counts": {
         "completed": 5,
-        "interested": 3,
-        "queued": 2
+        "queued": 3,
+        "interested": 3
       },
       "release_date": "February 23rd, 2016",
       "developer": "Ubisoft Montreal",
@@ -48640,10 +48643,26 @@
         "ubisoft_classics": 3
       },
       "leaving_plan_order": {},
-      "genres": [],
-      "game_modes": [],
-      "game_style": [],
-      "platforms": [],
+      "genres": [
+        "Isometric",
+        "Simulator",
+        "Strategy",
+        "Card & Board Game"
+      ],
+      "game_modes": [
+        "Single-Player",
+        "Multiplayer"
+      ],
+      "game_style": [
+        "Business",
+        "Kids",
+        "Party"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "Xbox One",
+        "PC (Microsoft Windows)"
+      ],
       "essential": false,
       "pc_game_pass": false,
       "premium": false,
@@ -48652,7 +48671,61 @@
       "ubisoft_classics": true,
       "new": true,
       "leaving": false,
-      "enrich_error": "HTTPSConnectionPool(host='gamescriptions.com', port=443): Read timed out."
+      "year": 2024,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coalqb.jpg",
+      "screenshot_urls": [
+        "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fscsozz.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scsozz.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scsozz.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scsozz.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scsozz.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scsozz.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scsozz.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scsozz.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scsozz.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scsozz.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scsozz.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsozw.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsozw.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsozw.jpg&w=200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsozw.jpg&w=250&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsozw.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsozw.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsozw.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsozw.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsozw.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsozw.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsozw.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsozw.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsozw.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsozx.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsozx.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsozx.jpg&w=200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsozx.jpg&w=250&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsozx.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsozx.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsozx.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsozx.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsozx.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsozx.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsozx.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsozx.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsozx.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsp00.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsp00.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scsp00.jpg&w=200&q=75"
+      ],
+      "playtime_category": "Bite-Sized",
+      "playtime_hours": "0-3 Hours",
+      "community_total": 4,
+      "community_status_counts": {
+        "no_interest": 3,
+        "interested": 1
+      },
+      "release_date": "September 26th, 2024",
+      "developer": "Engine Software",
+      "publisher": "Ubisoft Entertainment",
+      "description": "Monopoly is back with a fresh look and an improved game experience. Buy, sell, trade properties, and grow your empire in this faithful adaptation of the game we all grew up with! Dive into the centre of the board to explore a gorgeous fully animated 3D city."
     },
     {
       "name": "Monopoly Madness",
@@ -48673,10 +48746,26 @@
         "ubisoft_classics": 10
       },
       "leaving_plan_order": {},
-      "genres": [],
-      "game_modes": [],
-      "game_style": [],
-      "platforms": [],
+      "genres": [
+        "Isometric",
+        "Simulator",
+        "Strategy",
+        "Card & Board Game"
+      ],
+      "game_modes": [
+        "Single-Player",
+        "Multiplayer",
+        "Co-Op"
+      ],
+      "game_style": [
+        "Action",
+        "Business",
+        "Party"
+      ],
+      "platforms": [
+        "Xbox One",
+        "PC (Microsoft Windows)"
+      ],
       "essential": false,
       "pc_game_pass": false,
       "premium": false,
@@ -48685,7 +48774,63 @@
       "ubisoft_classics": true,
       "new": true,
       "leaving": false,
-      "enrich_error": "HTTPSConnectionPool(host='gamescriptions.com', port=443): Read timed out. (read timeout=30)"
+      "year": 2021,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co49ng.jpg",
+      "screenshot_urls": [
+        "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fsceekd.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sceekd.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sceekd.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sceekd.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sceekd.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sceekd.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sceekd.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sceekd.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sceekd.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sceekd.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sceekd.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scesog.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scesog.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scesog.jpg&w=200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scesog.jpg&w=250&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scesog.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scesog.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scesog.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scesog.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scesog.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scesog.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scesog.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scesog.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scesog.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scesoi.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scesoi.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scesoi.jpg&w=200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scesoi.jpg&w=250&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scesoi.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scesoi.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scesoi.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scesoi.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scesoi.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scesoi.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scesoi.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scesoi.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scesoi.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sceeke.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sceeke.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/sceeke.jpg&w=200&q=75"
+      ],
+      "playtime_category": "Short & Sweet",
+      "playtime_hours": "4-9 Hours",
+      "community_total": 5,
+      "community_status_counts": {
+        "no_interest": 2,
+        "queued": 1,
+        "abandoned": 1,
+        "interested": 1
+      },
+      "release_date": "December 8th, 2021",
+      "developer": "Engine Software",
+      "publisher": "Ubisoft Entertainment",
+      "description": "Would you like to become the new Mr. Monopoly? It’s your lucky day!"
     },
     {
       "name": "Monster Sanctuary",
@@ -48698,14 +48843,36 @@
       ],
       "new_plans": [],
       "leaving_plans": [],
-      "plan_added_dates": {},
+      "plan_added_dates": {
+        "essential": "Dec 08, 2020",
+        "pc": "December 2020",
+        "premium": "December 2020",
+        "ultimate": "December 2020"
+      },
       "leaving_dates": {},
       "new_plan_order": {},
       "leaving_plan_order": {},
-      "genres": [],
-      "game_modes": [],
-      "game_style": [],
-      "platforms": [],
+      "genres": [
+        "Side-View",
+        "Platform",
+        "Role-Playing",
+        "Strategy",
+        "Turn-Based Strategy",
+        "Adventure",
+        "Indie"
+      ],
+      "game_modes": [
+        "Single-Player",
+        "Multiplayer"
+      ],
+      "game_style": [
+        "Action",
+        "Fantasy"
+      ],
+      "platforms": [
+        "Xbox One",
+        "PC (Microsoft Windows)"
+      ],
       "essential": true,
       "pc_game_pass": true,
       "premium": true,
@@ -48714,7 +48881,90 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "enrich_error": "HTTPSConnectionPool(host='gamescriptions.com', port=443): Read timed out. (read timeout=30)"
+      "year": 2020,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1q3q.jpg",
+      "screenshot_urls": [
+        "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fvq5p66bfxhyopioy4jvg.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/vq5p66bfxhyopioy4jvg.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/vq5p66bfxhyopioy4jvg.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/vq5p66bfxhyopioy4jvg.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/vq5p66bfxhyopioy4jvg.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/vq5p66bfxhyopioy4jvg.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/vq5p66bfxhyopioy4jvg.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/vq5p66bfxhyopioy4jvg.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/vq5p66bfxhyopioy4jvg.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/vq5p66bfxhyopioy4jvg.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/vq5p66bfxhyopioy4jvg.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/gtjdikwmpnixb40yjxqa.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/gtjdikwmpnixb40yjxqa.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/gtjdikwmpnixb40yjxqa.jpg&w=200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/gtjdikwmpnixb40yjxqa.jpg&w=250&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/gtjdikwmpnixb40yjxqa.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/gtjdikwmpnixb40yjxqa.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/gtjdikwmpnixb40yjxqa.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/gtjdikwmpnixb40yjxqa.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/gtjdikwmpnixb40yjxqa.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/gtjdikwmpnixb40yjxqa.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/gtjdikwmpnixb40yjxqa.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/gtjdikwmpnixb40yjxqa.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/gtjdikwmpnixb40yjxqa.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/d6r6yfhhgtc62wdhr6yz.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/d6r6yfhhgtc62wdhr6yz.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/d6r6yfhhgtc62wdhr6yz.jpg&w=200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/d6r6yfhhgtc62wdhr6yz.jpg&w=250&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/d6r6yfhhgtc62wdhr6yz.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/d6r6yfhhgtc62wdhr6yz.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/d6r6yfhhgtc62wdhr6yz.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/d6r6yfhhgtc62wdhr6yz.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/d6r6yfhhgtc62wdhr6yz.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/d6r6yfhhgtc62wdhr6yz.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/d6r6yfhhgtc62wdhr6yz.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/d6r6yfhhgtc62wdhr6yz.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/d6r6yfhhgtc62wdhr6yz.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/glkei0y9vzmqlbetw85b.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/glkei0y9vzmqlbetw85b.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/glkei0y9vzmqlbetw85b.jpg&w=200&q=75"
+      ],
+      "playtime_category": "Lengthy Expedition",
+      "playtime_hours": "35-54 Hours",
+      "community_total": 3,
+      "community_status_counts": {
+        "completed": 1,
+        "abandoned": 1,
+        "no_interest": 1
+      },
+      "release_date": "December 7th, 2020",
+      "developer": "Moi Rai Games",
+      "publisher": "Team17",
+      "description": "A pixel art monster collecting game featuring sideview visuals, metroidvania like exploration and challenging turn based combat.",
+      "plan_added_date_platforms": {
+        "essential": {
+          "xbox_one": "Dec 08, 2020"
+        },
+        "pc": {
+          "pc": "December 2020"
+        },
+        "premium": {
+          "pc": "December 2020",
+          "xbox_one": "Dec 08, 2020"
+        },
+        "ultimate": {
+          "pc": "December 2020",
+          "xbox_one": "Dec 08, 2020"
+        }
+      },
+      "plan_added_date_sources": {
+        "essential": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
+        "pc": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
+        "premium": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
+        "ultimate": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/"
+      },
+      "plan_added_date_precision": {
+        "essential": "day",
+        "pc": "month",
+        "premium": "month",
+        "ultimate": "month"
+      }
     },
     {
       "name": "Monster Train 2",
@@ -48726,14 +48976,32 @@
       ],
       "new_plans": [],
       "leaving_plans": [],
-      "plan_added_dates": {},
+      "plan_added_dates": {
+        "pc": "May 21, 2025",
+        "premium": "May 21, 2025",
+        "ultimate": "May 21, 2025"
+      },
       "leaving_dates": {},
       "new_plan_order": {},
       "leaving_plan_order": {},
-      "genres": [],
-      "game_modes": [],
-      "game_style": [],
-      "platforms": [],
+      "genres": [
+        "Side-View",
+        "Strategy",
+        "Turn-Based Strategy",
+        "Indie",
+        "Card & Board Game"
+      ],
+      "game_modes": [
+        "Single-Player"
+      ],
+      "game_style": [
+        "Action",
+        "Fantasy"
+      ],
+      "platforms": [
+        "Xbox Series X|S",
+        "PC (Microsoft Windows)"
+      ],
       "essential": false,
       "pc_game_pass": true,
       "premium": true,
@@ -48742,7 +49010,89 @@
       "ubisoft_classics": false,
       "new": false,
       "leaving": false,
-      "enrich_error": "HTTPSConnectionPool(host='gamescriptions.com', port=443): Read timed out. (read timeout=30)"
+      "year": 2025,
+      "cover_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coab4k.jpg",
+      "screenshot_urls": [
+        "https://gamescriptions.com/_next/image?url=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_screenshot_big%2Fscvg88.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scvg88.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scvg88.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scvg88.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scvg88.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scvg88.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scvg88.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scvg88.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scvg88.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scvg88.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scvg88.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvg8a.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvg8a.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvg8a.jpg&w=200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvg8a.jpg&w=250&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvg8a.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvg8a.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvg8a.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvg8a.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvg8a.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvg8a.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvg8a.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvg8a.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvg8a.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvg8d.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvg8d.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvg8d.jpg&w=200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvg8d.jpg&w=250&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvg8d.jpg&w=380&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvg8d.jpg&w=500&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvg8d.jpg&w=640&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvg8d.jpg&w=750&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvg8d.jpg&w=828&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvg8d.jpg&w=1080&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvg8d.jpg&w=1200&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvg8d.jpg&w=1920&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvg8d.jpg&w=2048&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvg89.jpg&w=3840&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvg89.jpg&w=160&q=75",
+        "https://images.igdb.com/igdb/image/upload/t_screenshot_med/scvg89.jpg&w=200&q=75"
+      ],
+      "playtime_category": "Hearty Campaign",
+      "playtime_hours": "20-34 Hours",
+      "community_rating": 3.5,
+      "community_sentiment": "Mostly Positive",
+      "community_rating_count": 1,
+      "community_total": 7,
+      "community_status_counts": {
+        "queued": 3,
+        "completed": 2,
+        "abandoned": 1,
+        "no_interest": 1
+      },
+      "release_date": "May 21st, 2025",
+      "developer": "Shiny Shoe",
+      "publisher": "Big Fan Games",
+      "description": "It's time to raise Hell in Heaven! Monster Train returns with all new clans, new enemy factions, new challenges, new modes and more! Defend your Pyre in the classic three-tiered, vertical gameplay that made the original roguelike deckbuilder a hit.",
+      "plan_added_date_platforms": {
+        "pc": {
+          "pc": "May 21, 2025"
+        },
+        "premium": {
+          "pc": "May 21, 2025",
+          "xbox_series": "May 21, 2025"
+        },
+        "ultimate": {
+          "pc": "May 21, 2025",
+          "xbox_series": "May 21, 2025"
+        }
+      },
+      "plan_added_date_sources": {
+        "pc": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
+        "premium": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/",
+        "ultimate": "https://thedigitalplaylab.com/subscriptions/xbox-game-pass/"
+      },
+      "plan_added_date_precision": {
+        "pc": "day",
+        "premium": "day",
+        "ultimate": "day"
+      }
     },
     {
       "name": "Monsters Are Coming!",
@@ -51964,6 +52314,7 @@
         "Third-Person",
         "Virtual Reality",
         "Shooter",
+        "Role-Playing",
         "Simulator",
         "Adventure",
         "Indie",
@@ -71686,6 +72037,7 @@
         "Fantasy",
         "Comedy",
         "Sandbox",
+        "Open World",
         "Romance"
       ],
       "platforms": [
@@ -81702,8 +82054,8 @@
     }
   ],
   "addition_date_coverage": {
-    "filled_plan_dates": 1287,
-    "unmatched_games": 204,
+    "filled_plan_dates": 1294,
+    "unmatched_games": 202,
     "history_records": 2715
   }
 }
