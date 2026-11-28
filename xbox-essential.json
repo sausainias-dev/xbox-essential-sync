@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-11-27T15:52:15.448463+00:00",
+  "updated_at": "2026-11-28T00:53:57.917733+00:00",
   "service_counts": {
     "essential": 74,
     "pc": 569,
@@ -211,7 +211,7 @@
           "name": "Arkheron",
           "url": "https://gamescriptions.com/game/368311",
           "year": 2026,
-          "date_label": "Today",
+          "date_label": "Nov 27",
           "date_type": "added"
         },
         {
@@ -9668,8 +9668,8 @@
       ],
       "leaving_plans": [],
       "plan_added_dates": {
-        "pc": "Today",
-        "ultimate": "Today"
+        "pc": "Nov 27",
+        "ultimate": "Nov 27"
       },
       "leaving_dates": {},
       "new_plan_order": {
@@ -12377,10 +12377,11 @@
       "community_rating": 4.3,
       "community_sentiment": "Very Positive",
       "community_rating_count": 1,
-      "community_total": 10,
+      "community_total": 11,
       "community_status_counts": {
         "queued": 4,
         "interested": 4,
+        "playing": 1,
         "completed": 1,
         "abandoned": 1
       },
@@ -38924,11 +38925,12 @@
       "community_rating": 3.8,
       "community_sentiment": "Mostly Positive",
       "community_rating_count": 1,
-      "community_total": 14,
+      "community_total": 15,
       "community_status_counts": {
         "queued": 6,
         "interested": 4,
         "completed": 3,
+        "playing": 1,
         "no_interest": 1
       },
       "release_date": "May 21st, 2024",
