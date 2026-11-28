@@ -8,7 +8,7 @@
     "ea_play": "https://gamescriptions.com/subscription/service/xbox_ea_play",
     "ubisoft_classics": "https://gamescriptions.com/subscription/service/xbox_ubisoft_classics"
   },
-  "updated_at": "2026-11-28T00:53:57.917733+00:00",
+  "updated_at": "2026-11-28T14:47:54.855545+00:00",
   "service_counts": {
     "essential": 74,
     "pc": 569,
@@ -194,7 +194,7 @@
         "Simulator": 168,
         "Strategy": 141,
         "Platform": 82,
-        "Puzzle": 77,
+        "Puzzle": 78,
         "Arcade": 57,
         "Sport": 52,
         "Racing": 46,
@@ -2743,6 +2743,7 @@
           "description": "See the world through the eyes of a brave little mouse in this enchanting 3D co-op adventure. Explore breathtaking landscapes inspired by Northern Sweden, solve puzzles, and be a force for good in a land where heartwarming storytelling and the beauty of nature intertwine.",
           "genres": [
             "Third-Person",
+            "Puzzle",
             "Adventure"
           ],
           "game_modes": [
@@ -2752,6 +2753,7 @@
             "Split-Screen"
           ],
           "game_style": [
+            "Action",
             "Fantasy",
             "Open World"
           ],
